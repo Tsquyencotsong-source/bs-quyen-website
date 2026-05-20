@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowLeft } from "lucide-react";
 import { Container } from "@/components/Section";
 import { POSTS } from "@/data/content";
-import { FacebookShareButton, FacebookFollowButton } from "@/components/FacebookComponents";
 
 export async function generateStaticParams() {
   return POSTS.map((post) => ({ slug: post.slug }));
@@ -21,44 +21,81 @@ type Block =
   | { type: "heading"; content: string }
   | { type: "list"; items: string[] }
   | { type: "note"; content: string }
-  | { type: "highlight"; content: string };
+  | { type: "highlight"; content: string }
+  | { type: "image"; src: string; alt: string; caption: string; subcaption: string }
+  | { type: "warning"; content: string };
 
 const ARTICLES: Record<string, Block[]> = {
-  "loang-xuong-o-nguoi-cao-tuoi": [
-    { type: "para", content: "Loãng xương là tình trạng mật độ xương giảm và cấu trúc xương bị suy yếu, khiến xương trở nên giòn và dễ gãy hơn bình thường. Đây là một trong những bệnh lý mạn tính phổ biến nhất ở người cao tuổi, nhưng lại thường bị bỏ qua vì không có triệu chứng rõ ràng cho đến khi xảy ra gãy xương." },
-    { type: "heading", content: "Tại sao loãng xương nguy hiểm?" },
-    { type: "para", content: "Điều khiến loãng xương đặc biệt đáng lo ngại là tính chất âm thầm của nó. Người bệnh thường không biết mình bị loãng xương cho đến khi gặp phải một cú ngã nhỏ, một động tác cúi người, hay thậm chí chỉ một cơn ho mạnh — và xương gãy." },
-    { type: "para", content: "Gãy xương do loãng xương, đặc biệt là gãy xẹp đốt sống và gãy cổ xương đùi, có thể gây ra những hậu quả nghiêm trọng: đau mạn tính, mất khả năng đi lại, phụ thuộc vào người khác trong sinh hoạt hàng ngày và giảm chất lượng cuộc sống đáng kể." },
-    { type: "heading", content: "Ai có nguy cơ bị loãng xương?" },
+
+  "loang-xuong-phu-nu-sau-man-kinh": [
+    { type: "para", content: "Bà N.T.H., 72 tuổi, đến phòng khám trong tình trạng không thể tự đi lại sau một cú trượt chân nhẹ khi xuống cầu thang. X-quang cho thấy nhiều đốt sống đã xẹp từ trước — lặng lẽ, không ai hay biết. Đây không phải câu chuyện hiếm gặp." },
+
+    { type: "image",
+      src: "/images/Patient1_blurred.jpg",
+      alt: "Bệnh nhân cao tuổi đến khám bằng xe lăn do loãng xương nặng và gãy xẹp đốt sống",
+      caption: "Hình 1. Bệnh nhân nữ, 72 tuổi đến khám bằng xe lăn",
+      subcaption: "Không thể đi lại sau gãy xẹp đốt sống do loãng xương tiến triển lâu năm không được điều trị. Ảnh đã được xử lý bảo vệ danh tính." },
+
+    { type: "heading", content: "Loãng xương — căn bệnh không có tiếng động" },
+    { type: "para", content: "Loãng xương là tình trạng mật độ xương giảm và cấu trúc xương bị suy yếu tiến triển, khiến xương ngày càng mỏng manh và dễ gãy hơn. Điều làm cho căn bệnh này đặc biệt nguy hiểm chính là tính chất hoàn toàn không có triệu chứng trong giai đoạn đầu và giữa. Người bệnh không đau, không khó chịu, không biết gì — cho đến khi xương gãy." },
+    { type: "para", content: "Ở phụ nữ sau mãn kinh, tốc độ mất xương xảy ra rất nhanh trong 5–7 năm đầu do sự sụt giảm đột ngột của estrogen. Trong giai đoạn này, phụ nữ có thể mất tới 20–30% khối lượng xương mà không hề hay biết." },
+
+    { type: "highlight", content: "Loãng xương không gõ cửa trước. Nó đến lặng lẽ, và chỉ lộ diện khi một cú ngã nhẹ, một cái hắt hơi — hay thậm chí không có gì — cũng đủ để gãy xương." },
+
+    { type: "heading", content: "Tại sao phụ nữ sau mãn kinh là nhóm nguy cơ cao nhất?" },
+    { type: "para", content: "Phụ nữ chiếm hơn 80% số người bị loãng xương. Sau mãn kinh, hai yếu tố cộng hưởng làm tăng nguy cơ vượt trội so với nam giới cùng tuổi:" },
     { type: "list", items: [
-      "Phụ nữ trên 50 tuổi, đặc biệt sau mãn kinh",
-      "Nam giới trên 70 tuổi",
-      "Người có tiền sử gia đình bị loãng xương hoặc gãy xương",
-      "Người ít vận động, ngồi nhiều",
-      "Người hút thuốc lá hoặc uống nhiều rượu bia",
-      "Người dùng corticosteroid kéo dài",
-      "Người có chế độ ăn thiếu canxi và vitamin D",
+      "Mất estrogen đột ngột làm tăng tốc độ hủy xương và giảm tái tạo xương",
+      "Phụ nữ có khối lượng xương tối đa thấp hơn nam giới từ trước — nền xương vốn đã mỏng hơn",
+      "Tuổi thọ dài hơn đồng nghĩa với thời gian tiếp tục mất xương dài hơn",
+      "Các yếu tố bổ sung: ít vận động, thiếu canxi và vitamin D, hút thuốc lá",
     ]},
-    { type: "heading", content: "Biểu hiện cần chú ý" },
+
+    { type: "image",
+      src: "/images/Xquang_1.jpg",
+      alt: "X-quang cột sống thắt lưng bệnh nhân nữ loãng xương nặng — gãy xẹp nhiều đốt sống",
+      caption: "Hình 2. X-quang cột sống thắt lưng — gãy xẹp đốt sống do loãng xương (13/12/2024)",
+      subcaption: "Phim X-quang thẳng và nghiêng cho thấy gãy xẹp nhiều đốt sống vùng thắt lưng ở bệnh nhân nữ sau mãn kinh, xương thưa loãng rõ rệt — hậu quả của loãng xương tiến triển nhiều năm không được tầm soát." },
+
+    { type: "heading", content: "Gãy xẹp đốt sống — hậu quả thường bị đánh giá thấp" },
+    { type: "para", content: "Gãy xẹp đốt sống là biến chứng thường gặp nhất nhưng lại thường bị đánh giá chưa đủ mức độ nghiêm trọng. Người bệnh và đôi khi cả thầy thuốc thường nghĩ đây chỉ là 'đau lưng do tuổi già' — bỏ qua cơ hội can thiệp sớm." },
     { type: "list", items: [
-      "Chiều cao giảm dần theo năm tháng",
-      "Lưng gù hơn, dáng đứng cong về phía trước",
-      "Đau lưng mạn tính không rõ nguyên nhân",
-      "Gãy xương sau một chấn thương nhẹ không tương xứng",
+      "Mất chiều cao tiến triển (có thể thấp đi 5–10 cm theo thời gian)",
+      "Gù lưng, biến dạng tư thế, ảnh hưởng chức năng hô hấp",
+      "Giảm khả năng đi lại và thực hiện các hoạt động sinh hoạt hàng ngày",
+      "Mất sự độc lập, tăng nguy cơ phụ thuộc vào người thân",
+      "Tăng nguy cơ gãy tiếp theo — mỗi lần gãy làm tăng nguy cơ gãy thêm gấp 5 lần",
     ]},
-    { type: "highlight", content: "Nếu bạn nhận thấy mình thấp đi 2–3 cm so với lúc trẻ, hoặc lưng bắt đầu gù — đây có thể là dấu hiệu của gãy xẹp đốt sống do loãng xương. Hãy đến gặp bác sĩ để được đánh giá." },
-    { type: "heading", content: "Chẩn đoán loãng xương" },
-    { type: "para", content: "Phương pháp chuẩn để chẩn đoán là đo mật độ xương bằng máy DXA. Kết quả T-score dưới -2.5 được chẩn đoán là loãng xương. Ngoài ra, chỉ số Hounsfield Unit (HU) trên phim CT cũng giúp đánh giá chất lượng xương tại từng vị trí cụ thể." },
-    { type: "heading", content: "Phòng ngừa loãng xương" },
+
+    { type: "image",
+      src: "/images/Xquang_2.jpg",
+      alt: "X-quang cột sống thắt lưng gãy xẹp và thoái hóa nặng do loãng xương",
+      caption: "Hình 3. X-quang cột sống thắt lưng — gãy xẹp và thoái hóa cột sống mức độ nặng",
+      subcaption: "Hình ảnh gãy xẹp đốt sống kết hợp thoái hóa lan tỏa toàn bộ cột sống thắt lưng — hình ảnh điển hình của loãng xương không được điều trị ở phụ nữ sau mãn kinh." },
+
+    { type: "heading", content: "Tại sao căn bệnh này chưa được quan tâm thỏa đáng?" },
     { type: "list", items: [
-      "Bổ sung canxi đủ nhu cầu: người trên 50 tuổi cần khoảng 1.200mg canxi/ngày",
-      "Đảm bảo vitamin D: 800–1.000 IU/ngày",
-      "Vận động thường xuyên: đi bộ, bơi lội, thái cực quyền",
-      "Tránh hút thuốc lá và hạn chế rượu bia",
-      "Tầm soát định kỳ: đo mật độ xương ít nhất 2 năm một lần",
-      "Phòng tránh té ngã trong nhà",
+      "Người bệnh không biết mình thuộc nhóm nguy cơ cao, không có triệu chứng nên không đi khám",
+      "Cho rằng 'đau lưng là chuyện bình thường khi già' — bỏ qua dấu hiệu cảnh báo",
+      "Sàng lọc loãng xương chưa được thực hiện thường quy tại nhiều cơ sở y tế cơ sở",
+      "Loãng xương chưa được truyền thông đúng mức so với bệnh tim mạch hay ung thư",
     ]},
-    { type: "note", content: "Thông tin trong bài này mang tính giáo dục sức khỏe tổng quát. Mỗi người bệnh có tình trạng khác nhau và cần được đánh giá cụ thể bởi bác sĩ." },
+
+    { type: "warning", content: "Dấu hiệu cần đi khám ngay: Đau lưng cấp tính đột ngột sau một động tác nhỏ (cúi người, ho, hắt hơi) · Chiều cao giảm hơn 2 cm so với lúc trẻ · Lưng ngày càng gù hơn · Đã từng gãy xương sau chấn thương nhẹ." },
+
+    { type: "heading", content: "Phát hiện sớm — điều trị hiệu quả" },
+    { type: "para", content: "Phụ nữ sau mãn kinh nên được đo mật độ xương bằng máy DXA ít nhất mỗi 2 năm một lần, hoặc sớm hơn nếu có yếu tố nguy cơ. Điều trị toàn diện bao gồm:" },
+    { type: "list", items: [
+      "Bổ sung canxi (1.000–1.200mg/ngày) và vitamin D (800–1.000 IU/ngày)",
+      "Vận động thường xuyên — đặc biệt bài tập tải trọng và tăng cường cơ bắp",
+      "Điều trị thuốc khi có chỉ định (bisphosphonates, denosumab, teriparatide...)",
+      "Phòng ngừa té ngã — kiểm tra thị lực, điều chỉnh môi trường sống",
+      "Can thiệp tạo hình thân đốt sống (kyphoplasty) khi có gãy xẹp gây đau nặng",
+    ]},
+
+    { type: "highlight", content: "Mục tiêu điều trị không chỉ là làm chậm quá trình mất xương — mà là giúp người phụ nữ tiếp tục sống tự lập, đi lại được, và có chất lượng cuộc sống xứng đáng với những năm tháng phía trước." },
+
+    { type: "note", content: "Bài viết mang tính giáo dục sức khỏe tổng quát, không thay thế tư vấn y tế trực tiếp. Nếu bạn có triệu chứng nghi ngờ, vui lòng đến gặp bác sĩ để được thăm khám đầy đủ." },
   ],
 
   "dau-lung-khi-nao-gap-bac-si": [
@@ -72,18 +109,17 @@ const ARTICLES: Record<string, Block[]> = {
       "Đau sau chấn thương",
       "Đau kèm khó tiểu tiện hoặc đại tiện",
       "Đau nhiều về đêm, mất ngủ kéo dài",
-      "Đau kèm sụt cân hoặc sốt không rõ nguyên nhân",
       "Người cao tuổi đau lưng cấp sau ho hoặc động tác nhỏ",
     ]},
     { type: "note", content: "Thông tin tổng quát. Chỉ bác sĩ thăm khám trực tiếp mới có thể đánh giá chính xác tình trạng của bạn." },
   ],
 
   "loang-xuong-truoc-phau-thuat": [
-    { type: "para", content: "Khi bệnh nhân loãng xương cần phẫu thuật cột sống, chất lượng xương kém có thể làm tăng đáng kể nguy cơ biến chứng cơ học. Đánh giá loãng xương trước mổ là một phần không thể thiếu trong chiến lược điều trị." },
+    { type: "para", content: "Khi bệnh nhân loãng xương cần phẫu thuật cột sống, chất lượng xương kém có thể làm tăng đáng kể nguy cơ biến chứng cơ học." },
     { type: "heading", content: "Tại sao DXA chưa đủ?" },
-    { type: "para", content: "DXA là phương pháp chuẩn chẩn đoán loãng xương, nhưng ở bệnh nhân có thoái hóa nặng, kết quả DXA có thể bị cao giả tạo do gai xương và vôi hóa dây chằng làm tăng giá trị đo được." },
+    { type: "para", content: "Ở bệnh nhân có thoái hóa nặng, kết quả DXA có thể bị cao giả tạo do gai xương và vôi hóa dây chằng làm tăng giá trị đo được." },
     { type: "heading", content: "Hounsfield Unit — công cụ bổ sung quan trọng" },
-    { type: "para", content: "HU trên phim CT phản ánh mật độ xương thực sự tại từng vị trí, không bị ảnh hưởng bởi thay đổi thoái hóa. HU dưới 110 tại thân đốt sống là yếu tố nguy cơ cao cho biến chứng sau phẫu thuật." },
+    { type: "para", content: "HU trên phim CT phản ánh mật độ xương thực sự tại từng vị trí. HU dưới 110 tại thân đốt sống là yếu tố nguy cơ cao cho biến chứng sau phẫu thuật." },
     { type: "note", content: "Bài viết dành cho bác sĩ và học viên y khoa. Không thay thế hướng dẫn điều trị chính thức." },
   ],
 
@@ -97,7 +133,7 @@ const ARTICLES: Record<string, Block[]> = {
       "Gợi ý cấu trúc đề cương nghiên cứu",
     ]},
     { type: "heading", content: "Cạm bẫy lớn nhất: AI có thể bịa tài liệu" },
-    { type: "para", content: "Các mô hình AI có thể tạo ra trích dẫn tài liệu trông rất thuyết phục nhưng hoàn toàn không có thật. Quy tắc bắt buộc: bất kỳ tài liệu nào AI đề xuất, bạn phải tự tìm và đọc nguyên văn trước khi trích dẫn." },
+    { type: "para", content: "Quy tắc bắt buộc: bất kỳ tài liệu nào AI đề xuất, bạn phải tự tìm và đọc nguyên văn trước khi trích dẫn." },
     { type: "highlight", content: "AI là cộng sự chăm chỉ không biết mệt — nhưng vẫn cần một bác sĩ đủ tỉnh táo để kiểm tra, định hướng và chịu trách nhiệm cuối cùng." },
     { type: "note", content: "Chia sẻ kinh nghiệm cá nhân. Không đại diện cho quan điểm của bất kỳ tổ chức nào." },
   ],
@@ -105,23 +141,42 @@ const ARTICLES: Record<string, Block[]> = {
   "thoat-vi-dia-dem-co-can-mo": [
     { type: "para", content: "Câu hỏi phổ biến nhất: 'Bác sĩ ơi, tôi bị thoát vị đĩa đệm, có cần mổ không?' Câu trả lời ngắn gọn là: đa số là không." },
     { type: "heading", content: "Hầu hết thoát vị đĩa đệm tự khỏi được" },
-    { type: "para", content: "Phần lớn người bệnh cải thiện tốt với điều trị bảo tồn trong vòng 6–12 tuần. Trên phim MRI theo dõi, khối thoát vị có thể thu nhỏ dần do cơ thể tự hấp thu." },
+    { type: "para", content: "Phần lớn người bệnh cải thiện tốt với điều trị bảo tồn trong vòng 6–12 tuần." },
     { type: "heading", content: "Khi nào cần xem xét phẫu thuật?" },
     { type: "list", items: [
       "Triệu chứng không cải thiện sau 6–12 tuần điều trị bảo tồn",
-      "Yếu cơ tiến triển — chân ngày càng yếu hơn",
+      "Yếu cơ tiến triển ngày càng nặng hơn",
       "Hội chứng chùm đuôi ngựa: mất kiểm soát đại tiểu tiện (khẩn cấp)",
       "Đau dữ dội không đáp ứng điều trị",
     ]},
     { type: "highlight", content: "Phim MRI cho thấy thoát vị đĩa đệm KHÔNG có nghĩa là bắt buộc phải mổ. Quyết định dựa trên triệu chứng của người bệnh, không phải hình ảnh phim." },
-    { type: "note", content: "Thông tin giáo dục tổng quát. Chỉ bác sĩ thăm khám trực tiếp mới có thể đưa ra khuyến cáo điều trị phù hợp." },
+    { type: "note", content: "Thông tin giáo dục tổng quát. Chỉ bác sĩ thăm khám trực tiếp mới có thể đưa ra khuyến cáo phù hợp." },
   ],
 
   "barthel-index-trong-theo-doi-gay-xep": [
-    { type: "para", content: "Thang điểm Barthel đánh giá mức độ độc lập trong 10 hoạt động sinh hoạt hàng ngày cơ bản. Tổng điểm từ 0 đến 100 — điểm càng cao, người bệnh càng độc lập." },
+    { type: "para", content: "Thang điểm Barthel đánh giá mức độ độc lập trong 10 hoạt động sinh hoạt hàng ngày. Tổng điểm từ 0–100, điểm càng cao người bệnh càng độc lập." },
     { type: "heading", content: "Tại sao dùng Barthel cho bệnh nhân gãy xẹp đốt sống?" },
-    { type: "para", content: "Nghiên cứu tại Phòng khám Cột sống — BV TWQĐ 108 cho thấy nhiều bệnh nhân gãy xẹp đốt sống có loãng xương đang ở mức phụ thuộc một phần trong sinh hoạt hàng ngày. Đo Barthel giúp phát hiện sớm và lên kế hoạch can thiệp phù hợp." },
+    { type: "para", content: "Nghiên cứu tại BV TWQĐ 108 cho thấy nhiều bệnh nhân gãy xẹp đốt sống có loãng xương đang ở mức phụ thuộc một phần trong sinh hoạt hàng ngày. Đo Barthel giúp phát hiện sớm và lên kế hoạch can thiệp phù hợp." },
     { type: "note", content: "Bài viết dành cho bác sĩ, điều dưỡng và học viên y khoa." },
+  ],
+
+  "loang-xuong-o-nguoi-cao-tuoi": [
+    { type: "para", content: "Loãng xương là tình trạng mật độ xương giảm, khiến xương giòn và dễ gãy. Bệnh thường không có triệu chứng cho đến khi xảy ra gãy xương." },
+    { type: "heading", content: "Ai có nguy cơ?" },
+    { type: "list", items: [
+      "Phụ nữ trên 50 tuổi, đặc biệt sau mãn kinh",
+      "Nam giới trên 70 tuổi",
+      "Người ít vận động, thiếu canxi và vitamin D",
+      "Người hút thuốc lá hoặc uống nhiều rượu bia",
+    ]},
+    { type: "heading", content: "Phòng ngừa" },
+    { type: "list", items: [
+      "Bổ sung canxi 1.200mg/ngày và vitamin D 800–1.000 IU/ngày",
+      "Vận động thường xuyên: đi bộ, bơi lội",
+      "Tầm soát DXA định kỳ mỗi 2 năm",
+      "Phòng tránh té ngã trong sinh hoạt hàng ngày",
+    ]},
+    { type: "note", content: "Thông tin giáo dục sức khỏe tổng quát. Không thay thế tư vấn y tế trực tiếp." },
   ],
 };
 
@@ -136,8 +191,7 @@ function RenderBlock({ block, index }: { block: Block; index: number }) {
         <ul key={index} className="list-none mb-6 space-y-2.5">
           {block.items.map((item, j) => (
             <li key={j} className="flex items-start gap-3 text-[15px] font-light text-gray-500">
-              <span className="w-1.5 h-1.5 rounded-full bg-navy mt-2.5 flex-shrink-0" />
-              {item}
+              <span className="w-1.5 h-1.5 rounded-full bg-navy mt-2.5 flex-shrink-0" />{item}
             </li>
           ))}
         </ul>
@@ -148,10 +202,29 @@ function RenderBlock({ block, index }: { block: Block; index: number }) {
           <p className="font-serif-brand text-[17px] font-normal italic text-navy leading-relaxed">{block.content}</p>
         </div>
       );
+    case "warning":
+      return (
+        <div key={index} className="my-6 p-4 bg-yellow-50 border border-yellow-200 border-l-[3px] border-l-brand-gold text-[13.5px] text-gray-600 leading-relaxed">
+          <strong className="font-semibold text-gray-800 block mb-1">⚠️ Dấu hiệu cần đi khám ngay:</strong>
+          {block.content}
+        </div>
+      );
     case "note":
       return (
         <div key={index} className="mt-8 p-4 bg-brand-gold-lt border-l-[3px] border-brand-gold text-[13px] font-light text-gray-600">
           <strong className="font-semibold text-gray-700">Lưu ý: </strong>{block.content}
+        </div>
+      );
+    case "image":
+      return (
+        <div key={index} className="my-7 border border-gray-200 overflow-hidden bg-gray-50">
+          <div className="relative w-full" style={{aspectRatio: "4/3"}}>
+            <Image src={block.src} alt={block.alt} fill className="object-cover" />
+          </div>
+          <div className="px-4 py-3 border-t border-gray-200">
+            <p className="text-[13px] font-semibold text-gray-800 mb-1">{block.caption}</p>
+            <p className="text-[12px] text-gray-400 italic leading-relaxed">{block.subcaption}</p>
+          </div>
         </div>
       );
     default:
@@ -162,7 +235,6 @@ function RenderBlock({ block, index }: { block: Block; index: number }) {
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
   const post = POSTS.find((p) => p.slug === params.slug);
   if (!post) notFound();
-
   const blocks = ARTICLES[params.slug];
   const postUrl = `https://bs-quyen-website.vercel.app/blog/${params.slug}`;
 
@@ -174,9 +246,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
             <ArrowLeft size={14} /> Quay lại tất cả bài viết
           </Link>
           <p className="text-[11px] font-semibold tracking-[0.18em] uppercase text-brand-gold mb-3">{post!.audience}</p>
-          <h1 className="font-serif-brand text-[clamp(24px,3.5vw,38px)] font-bold text-white leading-tight max-w-2xl">
-            {post!.title}
-          </h1>
+          <h1 className="font-serif-brand text-[clamp(24px,3.5vw,38px)] font-bold text-white leading-tight max-w-2xl">{post!.title}</h1>
           <p className="text-[13px] text-white/40 mt-4">TS.BS. Nguyễn Ngọc Quyền &nbsp;·&nbsp; {post!.date}</p>
         </Container>
       </div>
@@ -188,57 +258,38 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
               <p className="text-[16.5px] font-light leading-[1.85] text-gray-500 mb-8 font-serif-brand italic border-l-2 border-brand-gold pl-5">
                 {post!.excerpt}
               </p>
-
               {blocks
                 ? blocks.map((block, i) => <RenderBlock key={i} block={block} index={i} />)
                 : <p className="text-gray-400 italic">Nội dung đầy đủ sẽ được cập nhật sớm.</p>
               }
-
-              {/* Nút chia sẻ Facebook */}
               <div className="mt-10 pt-6 border-t border-gray-100 flex items-center gap-4 flex-wrap">
                 <span className="text-[13px] text-gray-400">Chia sẻ bài viết:</span>
-                <FacebookShareButton url={postUrl} />
+                <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(postUrl)}`}
+                  target="_blank" rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-[#1877F2] text-white text-[13px] font-semibold px-4 py-2 hover:bg-[#166FE5] transition-colors">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="white"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                  Chia sẻ Facebook
+                </a>
               </div>
             </article>
 
             <aside className="space-y-4 sticky top-20">
-              {/* Theo dõi Facebook */}
-              <div className="bg-white border border-gray-200 p-5">
-                <p className="text-[11px] font-semibold tracking-[0.15em] uppercase text-navy mb-3">
-                  Theo dõi trang
-                </p>
-                <FacebookFollowButton />
-              </div>
-
-              {/* Về tác giả */}
-              <div className="bg-navy-pale border border-gray-200 p-5">
-                <p className="text-[11px] font-semibold tracking-[0.15em] uppercase text-navy mb-3">Về tác giả</p>
-                <p className="font-serif-brand text-[15px] font-bold text-navy">TS.BS. Nguyễn Ngọc Quyền</p>
-                <p className="text-[13px] text-gray-400 mt-1 leading-snug">Bác sĩ Cột sống · Bệnh viện TWQĐ 108</p>
-                <Link href="/about" className="inline-block mt-3 text-[13px] text-navy hover:underline underline-offset-2">
-                  Xem giới thiệu →
-                </Link>
-              </div>
-
-              {/* Đặt khám */}
               <div className="bg-navy p-5">
-                <p className="text-[11px] font-semibold tracking-[0.15em] uppercase text-brand-gold mb-2">Đặt lịch khám</p>
-                <a href="tel:0989052288" className="block text-[22px] font-bold text-white hover:text-brand-gold transition-colors mb-1">
-                  0989 052 288
-                </a>
-                <p className="text-[12px] text-white/40 leading-relaxed">
-                  T2–T6: 6h30–17h · Phòng 225, BV 108<br />
-                  Thứ 6: 17h30+ · SpineTech, 257 Giải Phóng
-                </p>
+                <p className="text-[11px] font-semibold tracking-[0.15em] uppercase text-brand-gold mb-2">Về tác giả</p>
+                <p className="font-serif-brand text-[15px] font-bold text-white">TS.BS. Nguyễn Ngọc Quyền</p>
+                <p className="text-[12px] text-white/50 mt-1">Bác sĩ Cột sống · Bệnh viện TWQĐ 108</p>
+                <div className="mt-4 pt-4 border-t border-white/10">
+                  <p className="text-[11px] text-white/40 uppercase tracking-wider mb-1">Đặt lịch khám</p>
+                  <a href="tel:0989052288" className="text-[22px] font-bold text-white block hover:text-brand-gold transition-colors">0989 052 288</a>
+                  <p className="text-[11.5px] text-white/40 mt-1 leading-relaxed">T2–T6: 6h30–17h · Phòng 225, BV 108<br/>Thứ 6: 17h30+ · SpineTech, 257 Giải Phóng</p>
+                </div>
               </div>
-
-              {/* Bài liên quan */}
               <div className="bg-gray-50 border border-gray-200 p-5">
                 <p className="text-[11px] font-semibold tracking-[0.15em] uppercase text-navy mb-3">Bài viết liên quan</p>
                 <ul className="space-y-2 list-none">
-                  {POSTS.filter((p) => p.slug !== params.slug).slice(0, 3).map((p) => (
+                  {POSTS.filter((p) => p.slug !== params.slug).slice(0, 4).map((p) => (
                     <li key={p.slug}>
-                      <Link href={`/blog/${p.slug}`} className="text-[13.5px] text-gray-600 hover:text-navy transition-colors leading-snug block">
+                      <Link href={`/blog/${p.slug}`} className="text-[13px] text-gray-600 hover:text-navy transition-colors leading-snug block py-1 border-b border-gray-100 last:border-b-0">
                         {p.title}
                       </Link>
                     </li>
