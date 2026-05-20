@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Source+Sans+3:wght@300;400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Source Sans 3', system-ui, sans-serif; }
+  ::selection { background-color: rgba(0, 53, 128, 0.12); }
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-thumb { background: #003580; }
+}
+
+@layer components {
+  .font-serif-brand { font-family: 'Merriweather', Georgia, serif; }
+
+  /* Section eyebrow label */
+  .eyebrow {
+    @apply text-[11px] font-semibold tracking-[0.18em] uppercase text-navy-light
+           flex items-center gap-2 mb-2;
+  }
+  .eyebrow::before {
+    content: '';
+    @apply block w-4 h-0.5 bg-navy-light flex-shrink-0;
+  }
+
+  /* Section heading */
+  .section-h2 {
+    @apply font-serif-brand text-[28px] font-bold text-gray-900
+           leading-tight tracking-tight mb-3;
+  }
+
+  /* Navy section eyebrow (white bg variant) */
+  .eyebrow-gold {
+    @apply text-[11px] font-semibold tracking-[0.18em] uppercase text-brand-gold
+           flex items-center gap-2 mb-2;
+  }
+  .eyebrow-gold::before {
+    content: '';
+    @apply block w-4 h-0.5 bg-brand-gold flex-shrink-0;
+  }
+
+  /* Primary button */
+  .btn-primary {
+    @apply inline-flex items-center gap-2 text-[13.5px] font-semibold
+           text-white bg-brand-red px-6 py-3 border-2 border-brand-red
+           transition-colors hover:bg-red-800 hover:border-red-800;
+  }
+
+  /* Ghost button */
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 text-[13.5px] font-normal
+           text-white/80 px-6 py-3 border-2 border-white/30
+           transition-colors hover:border-white/70 hover:text-white;
+  }
+
+  /* Navy outline button */
+  .btn-outline-navy {
+    @apply inline-flex items-center gap-2 text-[13px] font-semibold
+           text-navy border border-navy px-5 py-2.5
+           transition-colors hover:bg-navy hover:text-white;
+  }
+
+  /* Tag styles */
+  .tag-isi   { @apply border-[1.5px] border-green-700 text-green-700; }
+  .tag-main  { @apply border-[1.5px] border-navy text-navy; }
+  .tag-vn    { @apply border-[1.5px] border-gray-400 text-gray-500; }
+
+  /* Pub item hover */
+  .pub-item {
+    @apply grid gap-4 py-5 border-b border-gray-100
+           transition-colors hover:bg-navy-pale;
+    grid-template-columns: 52px 1fr;
+  }
+
+  /* Reveal animation base */
+  .reveal {
+    @apply opacity-0 translate-y-4 transition-all duration-700;
+  }
+  .reveal.on {
+    @apply opacity-100 translate-y-0;
+  }
+}
