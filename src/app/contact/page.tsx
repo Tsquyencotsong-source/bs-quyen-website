@@ -47,7 +47,7 @@ export default function ContactPage() {
                 <p className="text-[11px] text-white/40 uppercase tracking-wider mb-1">Giờ khám</p>
                 <p className="text-[14.5px] text-white/85 font-light">
                   Thứ 2 – Thứ 6<br />
-                  <span className="text-white font-medium">8h30 – 17h00</span>
+                  <span className="text-white font-medium">6h30 – 17h00</span>
                 </p>
               </div>
             </li>
