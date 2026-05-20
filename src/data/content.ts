@@ -174,6 +174,14 @@ export const POSTS: Post[] = [
     category: "Giáo dục sức khỏe",
     date: "2025-01-20",
   },
+  {
+    slug: "loang-xuong-phu-nu-sau-man-kinh",
+    title: "Loãng xương ở phụ nữ sau mãn kinh: Kẻ thù thầm lặng chưa được quan tâm thỏa đáng",
+    excerpt: "Loãng xương không gõ cửa trước. Nó đến lặng lẽ và chỉ lộ diện khi một cú ngã nhẹ cũng đủ để gãy xương.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-05-20",
+  },
 ];
 
 // ─── HỌC VIÊN ĐANG HƯỚNG DẪN ────────────────────────────────────
