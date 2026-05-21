@@ -221,6 +221,34 @@ const ARTICLES: Record<string, Block[]> = {
   { type: "highlight", content: "Tập đều đặn mỗi ngày, kiên trì ít nhất 4–6 tuần để thấy rõ hiệu quả. Kết hợp với điều trị của bác sĩ để đạt kết quả tốt nhất." },
   { type: "note", content: "Thông tin giáo dục sức khỏe tổng quát. Không thay thế tư vấn y tế trực tiếp. Người bệnh cần được thăm khám và có chỉ định cụ thể từ bác sĩ chuyên khoa." },
 ],
+
+"loang-xuong-co-che-va-nguyen-nhan": [
+  { type: "para", content: "Nhiều người nghĩ loãng xương chỉ là 'xương yếu đi theo tuổi tác' và không làm gì được. Thực ra không phải vậy. Hiểu đúng cơ chế, bạn hoàn toàn có thể làm chậm quá trình này." },
+  { type: "heading", content: "Xương hoạt động như thế nào?" },
+  { type: "para", content: "Xương không phải khối đá chết — đây là bộ phận sống, liên tục được tái tạo. Trong xương có hai loại tế bào làm việc song song: tế bào tạo xương (osteoblast) chuyên xây dựng xương mới, và tế bào hủy xương (osteoclast) chuyên phá vỡ xương cũ để tái sử dụng khoáng chất." },
+  { type: "list", items: [
+    "Trước 30 tuổi: xây dựng nhiều hơn phá vỡ — xương ngày càng chắc",
+    "30–50 tuổi: xây dựng cân bằng phá vỡ — xương giữ nguyên sức mạnh",
+    "Sau 50 tuổi: phá vỡ nhiều hơn xây dựng — xương bắt đầu mỏng dần"
+  ]},
+  { type: "heading", content: "Loãng xương xảy ra khi nào?" },
+  { type: "para", content: "Loãng xương xảy ra khi quá trình phá vỡ vượt quá quá trình xây dựng kéo dài. Có ba nguyên nhân chính:" },
+  { type: "heading", content: "1. Giảm estrogen sau mãn kinh" },
+  { type: "para", content: "Estrogen hoạt động như một 'nút phanh' kiểm soát tế bào hủy xương. Khi phụ nữ mãn kinh, estrogen giảm mạnh, tế bào hủy xương hoạt động quá mức, tế bào tạo xương không kịp bù đắp. Đây là lý do phụ nữ sau mãn kinh có nguy cơ loãng xương cao hơn nam giới cùng tuổi." },
+  { type: "heading", content: "2. Thiếu canxi và vitamin D" },
+  { type: "para", content: "Canxi là nguyên liệu chính để xây dựng xương. Vitamin D giúp cơ thể hấp thu canxi từ thức ăn. Thiếu một trong hai, tế bào tạo xương không đủ nguyên liệu để làm việc, xương không được tái tạo đủ nhanh." },
+  { type: "heading", content: "3. Ít vận động" },
+  { type: "para", content: "Xương cần lực tác động để duy trì sức mạnh. Khi vận động, xương cảm nhận lực và kích thích tế bào tạo xương hoạt động tích cực hơn. Ít vận động đồng nghĩa với xương không có động lực để chắc chắn." },
+  { type: "highlight", content: "Xương bình thường: xây dựng và phá vỡ cân bằng. Loãng xương: phá vỡ vượt trội — xương mỏng dần, nhiều lỗ hơn, dễ gãy hơn dù chỉ từ một cú ngã nhẹ." },
+  { type: "heading", content: "Hậu quả của loãng xương" },
+  { type: "list", items: [
+    "Xương trở nên xốp như tổ ong — mất khả năng chịu lực",
+    "Gãy xương từ chấn thương nhỏ: ngã nhẹ, ho mạnh, cúi người",
+    "Vị trí gãy thường gặp: cột sống, hông, cổ tay",
+    "Hậu quả: đau mạn tính, mất khả năng đi lại, phụ thuộc người thân"
+  ]},
+  { type: "note", content: "Thông tin giáo dục sức khỏe tổng quát. Nếu bạn có nguy cơ loãng xương hoặc đã được chẩn đoán, hãy gặp bác sĩ để được đánh giá và tư vấn điều trị phù hợp." },
+],
 };
 
 function RenderBlock({ block, index }: { block: Block; index: number }) {

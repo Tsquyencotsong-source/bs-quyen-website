@@ -198,6 +198,14 @@ export const POSTS: Post[] = [
     category: "Giáo dục sức khỏe",
     date: "2026-05-21",
   },
+  {
+    slug: "loang-xuong-co-che-va-nguyen-nhan",
+    title: "Loãng xương: Tại sao xương ngày càng yếu đi?",
+    excerpt: "Xương không phải là khối đá cứng — đó là bộ phận sống động, luôn được tái tạo. Hiểu đúng cơ chế giúp bạn phòng ngừa loãng xương hiệu quả hơn.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-05-22",
+  },
 ];
 
 // ─── HỌC VIÊN ĐANG HƯỚNG DẪN ────────────────────────────────────
