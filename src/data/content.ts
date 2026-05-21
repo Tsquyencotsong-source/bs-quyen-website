@@ -182,6 +182,14 @@ export const POSTS: Post[] = [
     category: "Giáo dục sức khỏe",
     date: "2026-05-20",
   },
+  {
+    slug: "bom-xi-mang-tao-hinh-dot-song",
+    title: "Bơm xi măng tạo hình đốt sống: Hiệu quả giảm đau nhanh — nhưng không phải đích đến cuối cùng",
+    excerpt: "Kỹ thuật bơm xi măng có thể giảm đau kịch tính trong 24–48 giờ. Nhưng nếu không điều trị loãng xương song song, đốt sống kế cận sẽ tiếp tục bị vỡ.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-05-21",
+  },
 ];
 
 // ─── HỌC VIÊN ĐANG HƯỚNG DẪN ────────────────────────────────────
