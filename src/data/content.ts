@@ -190,6 +190,14 @@ export const POSTS: Post[] = [
     category: "Giáo dục sức khỏe",
     date: "2026-05-21",
   },
+  {
+    slug: "bai-tap-phuc-hoi-cot-song-that-lung",
+    title: "9 bài tập phục hồi chức năng bệnh lý cột sống thắt lưng",
+    excerpt: "Các bài tập đơn giản, có thể tự thực hiện tại nhà giúp giảm đau, tăng cường cơ lưng và cải thiện vận động cột sống thắt lưng.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-05-21",
+  },
 ];
 
 // ─── HỌC VIÊN ĐANG HƯỚNG DẪN ────────────────────────────────────
