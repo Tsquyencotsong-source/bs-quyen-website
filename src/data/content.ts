@@ -21,7 +21,7 @@ export const DOCTOR = {
 export const STATS = [
   { num: "45", label: "Bài báo khoa học", sub: "đã công bố" },
   { num: "6",  label: "Bài báo ISI",      sub: "quốc tế uy tín" },
-  { num: "14+",label: "Năm",              sub: "kinh nghiệm lâm sàng" },
+  { num: "20+",label: "Năm",              sub: "kinh nghiệm lâm sàng" },
   { num: "3",  label: "Học viên",         sub: "đang hướng dẫn" },
 ] as const;
 
