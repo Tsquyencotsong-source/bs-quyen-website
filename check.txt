@@ -160,16 +160,7 @@ const ARTICLES: Record<string, Block[]> = {
     { type: "note", content: "Bài viết dành cho bác sĩ, điều dưỡng và học viên y khoa." },
   ],
 
-"bom-xi-mang-tao-hinh-dot-song": [
-    { type: "para", content: "Kỹ thuật bơm xi măng sinh học có thể giảm đau kịch tính trong 24-48 giờ. Nhưng nếu không điều trị loãng xương song song, đốt sống kế cận sẽ tiếp tục sụp đổ." },
-    { type: "heading", content: "Bơm xi măng đốt sống là gì?" },
-    { type: "list", items: ["Ổn định cơ học thân đốt bị vỡ, giảm vi chuyển động gây đau", "Giảm đau nhanh trong 24-72 giờ sau thủ thuật", "Giúp người bệnh sớm vận động trở lại"] },
-    { type: "heading", content: "Nguy cơ khi lạm dụng mà không điều trị loãng xương" },
-    { type: "list", items: ["Xẹp đốt sống kế cận do xi măng cứng hơn xương", "Vòng xoáy can thiệp nhiều lần trong khi loãng xương vẫn tiến triển", "Biến dạng cột sống tiến triển: gù nặng, mất cân bằng"] },
-    { type: "highlight", content: "Xi măng sinh học giải quyết triệu chứng đau — nhưng không thể thay thế xương đã mất. Phải điều trị loãng xương song song." },
-    { type: "note", content: "Bài viết mang tính giáo dục sức khỏe tổng quát. Quyết định điều trị cần thảo luận với bác sĩ chuyên khoa." },
-  ],  
-"loang-xuong-o-nguoi-cao-tuoi": [
+  "loang-xuong-o-nguoi-cao-tuoi": [
     { type: "para", content: "Loãng xương là tình trạng mật độ xương giảm, khiến xương giòn và dễ gãy. Bệnh thường không có triệu chứng cho đến khi xảy ra gãy xương." },
     { type: "heading", content: "Ai có nguy cơ?" },
     { type: "list", items: [
