@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";`nimport { GoogleAnalytics } from "@next/third-parties/google";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: {
@@ -50,7 +50,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <path d="M14 2C7.373 2 2 7.149 2 13.5c0 3.352 1.52 6.349 3.938 8.389V26l3.787-2.087C10.965 24.284 12.455 24.5 14 24.5c6.627 0 12-5.149 12-11.5S20.627 2 14 2zm1.193 15.494l-3.057-3.26-5.965 3.26 6.563-6.973 3.13 3.26 5.893-3.26-6.564 6.973z"/>
           </svg>
         </a>
-      <GoogleAnalytics gaId="G-762W4G2J3D" /></body>
+      </body>
     </html>
   );
 }
