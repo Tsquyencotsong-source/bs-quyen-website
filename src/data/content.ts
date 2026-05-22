@@ -214,6 +214,14 @@ export const POSTS: Post[] = [
     category: "Giáo dục sức khỏe",
     date: "2026-05-22",
   },
+  {
+    slug: "canh-bao-thuoc-dau-cot-song-khong-ro-nguon-goc",
+    title: "Cẩn Trọng Với Thuốc Trị Đau Cột Sống Không Rõ Nguồn Gốc: Nguy Cơ Suy Vỏ Tuyến Thượng Thận Và Loãng Xương Nặng Hơn",
+    excerpt: "Nhiều bệnh nhân đau lưng, đau cột sống tự mua hoặc được mách dùng các loại thuốc gia truyền, thuốc không rõ nguồn gốc — tiềm ẩn nguy cơ suy vỏ tuyến thượng thận và làm loãng xương trở nên trầm trọng hơn.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-05-22",
+  },
 ];
 
 // ─── HỌC VIÊN ĐANG HƯỚNG DẪN ────────────────────────────────────

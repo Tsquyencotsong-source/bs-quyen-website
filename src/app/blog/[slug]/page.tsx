@@ -27,6 +27,147 @@ type Block =
 
 const ARTICLES: Record<string, Block[]> = {
 
+  "canh-bao-thuoc-dau-cot-song-khong-ro-nguon-goc": [
+    {
+      type: "heading",
+      content: "⚠️ CẢNH BÁO Y TẾ QUAN TRỌNG"
+    },
+    {
+      type: "warning",
+      title: "THUỐC KHÔNG RÕ NGUỒN GỐC — MỐI NGUY HIỂM TIỀM ẨN",
+      items: [
+        "Nhiều loại thuốc gia truyền, thuốc 'nam' trị đau xương khớp và đau cột sống đang lưu hành trên thị trường không có đăng ký của Bộ Y tế.",
+        "Phân tích thực tế cho thấy một số sản phẩm này chứa corticosteroid (dexamethasone, prednisolone...) liều cao được pha trộn bí mật vào thành phần.",
+        "Người bệnh không hề biết mình đang dùng thuốc corticoid — dẫn đến hàng loạt hậu quả nghiêm trọng."
+      ]
+    },
+    {
+      type: "image",
+      src: "/images/thuoc-gia-truyen-khong-ro-nguon-goc.jpg",
+      alt: "Thuốc gia truyền viêm thấp khớp không rõ nguồn gốc",
+      caption: "Thuốc 'gia truyền' Viêm Thấp Khớp - Đông y Đỗ Thái Nam",
+      subcaption: "Không có số đăng ký Bộ Y tế, không rõ thành phần, không liều dùng chuẩn — đây là dấu hiệu cảnh báo nguy hiểm"
+    },
+    {
+      type: "image",
+      src: "/images/vien-thuoc-den-khong-nhan-mac.jpg",
+      alt: "Viên thuốc màu đen không rõ nguồn gốc, không nhãn mác",
+      caption: "Viên thuốc màu đen, đóng gói thô sơ, không có nhãn mác hợp lệ",
+      subcaption: "Không thể xác định thành phần, không kiểm soát liều lượng — cực kỳ nguy hiểm"
+    },
+    {
+      type: "heading",
+      content: "🦴 TẠI SAO NHỮNG LOẠI THUỐC NÀY LẠI 'HIỆU QUẢ' NHANH?"
+    },
+    {
+      type: "para",
+      content: "Nhiều bệnh nhân phản hồi rằng các loại thuốc gia truyền này 'uống vào hết đau ngay', 'hiệu quả hơn cả thuốc bệnh viện'. Đây chính là dấu hiệu nguy hiểm nhất. Corticosteroid liều cao có tác dụng kháng viêm và giảm đau cực nhanh — nhưng cái giá phải trả là vô cùng đắt về lâu dài."
+    },
+    {
+      type: "list",
+      items: [
+        "Corticosteroid (cortisol tổng hợp) ức chế mạnh phản ứng viêm → giảm đau tức thì.",
+        "Người bệnh lầm tưởng 'thuốc hay', tiếp tục uống hàng tuần, hàng tháng, thậm chí hàng năm.",
+        "Cơ thể quen với corticoid ngoại sinh → tuyến thượng thận ngưng sản xuất cortisol nội sinh.",
+        "Hậu quả: khi ngưng thuốc đột ngột hoặc khi stress/phẫu thuật → suy vỏ tuyến thượng thận cấp tính, đe dọa tính mạng."
+      ]
+    },
+    {
+      type: "heading",
+      content: "🩺 SUY VỎ TUYẾN THƯỢNG THẬN DO CORTICOSTEROID LÀ GÌ?"
+    },
+    {
+      type: "para",
+      content: "Vỏ tuyến thượng thận bình thường sản xuất cortisol — hormone thiết yếu giúp cơ thể đối phó với stress, duy trì huyết áp, điều hòa đường huyết và kiểm soát viêm. Khi bệnh nhân dùng corticosteroid từ bên ngoài kéo dài (dù không biết mình đang dùng), cơ chế phản hồi âm tính HPA (Hypothalamus-Pituitary-Adrenal) bị ức chế."
+    },
+    {
+      type: "warning",
+      title: "TRIỆU CHỨNG SUY VỎ TUYẾN THƯỢNG THẬN CẦN NHẬN BIẾT",
+      items: [
+        "Mệt mỏi kéo dài, kiệt sức không rõ nguyên nhân",
+        "Chán ăn, sụt cân, buồn nôn",
+        "Huyết áp thấp, chóng mặt khi đứng dậy",
+        "Da sạm màu (tăng ACTH bù trừ)",
+        "Đau bụng, tiêu chảy",
+        "Khi stress hoặc phẫu thuật: tụt huyết áp đột ngột, sốc, nguy hiểm tính mạng — đây gọi là 'Addisonian Crisis'"
+      ]
+    },
+    {
+      type: "heading",
+      content: "💀 LOÃNG XƯƠNG — HẬU QUẢ TRỰC TIẾP CỦA CORTICOSTEROID KÉO DÀI"
+    },
+    {
+      type: "para",
+      content: "Corticosteroid là một trong những nguyên nhân hàng đầu gây loãng xương thứ phát (Glucocorticoid-Induced Osteoporosis — GIOP). Đặc biệt nguy hiểm khi bệnh nhân đã có sẵn loãng xương nguyên phát (phụ nữ mãn kinh, người cao tuổi) hoặc đang điều trị loãng xương — thuốc điều trị sẽ hoàn toàn không có tác dụng khi vẫn tiếp tục dùng corticoid."
+    },
+    {
+      type: "list",
+      items: [
+        "Corticoid ức chế tạo cốt bào (osteoblast) → giảm tạo xương mới.",
+        "Tăng hoạt động hủy cốt bào (osteoclast) → xương bị phá hủy nhanh hơn.",
+        "Giảm hấp thu canxi tại ruột, tăng thải canxi qua thận.",
+        "Ức chế trục GH-IGF1, giảm testosterone/estrogen → mất xương toàn thân.",
+        "Chỉ cần 3-6 tháng dùng corticoid → mật độ xương giảm đáng kể, nguy cơ gãy xẹp đốt sống tăng gấp đôi."
+      ]
+    },
+    {
+      type: "highlight",
+      content: "⚡ QUAN TRỌNG: Bệnh nhân loãng xương đang điều trị thuốc chống loãng xương (bisphosphonate, denosumab...) mà vẫn dùng kèm corticoid ẩn → MỌI ĐIỀU TRỊ LOÃNG XƯƠNG ĐỀU VÔ HIỆU. Đây là vòng luẩn quẩn nguy hiểm nhất."
+    },
+    {
+      type: "heading",
+      content: "🔍 LÀM SAO NHẬN BIẾT THUỐC CÓ CHỨA CORTICOID TRỘN LẪN?"
+    },
+    {
+      type: "greenbox",
+      title: "DẤU HIỆU NHẬN BIẾT THUỐC ĐÁNG NGỜ",
+      items: [
+        "✅ Giảm đau RẤT NHANH trong 1-3 ngày đầu (không thuốc thảo dược nào tác dụng nhanh như vậy)",
+        "✅ Cảm giác 'phấn chấn', ăn ngon, ngủ ngon bất thường",
+        "✅ Tăng cân, phù mặt tròn như mặt trăng, bướu mỡ sau gáy",
+        "✅ Da mỏng, xuất hiện vết rạn da, dễ bầm tím",
+        "✅ Tăng huyết áp, tăng đường huyết",
+        "✅ Khi ngưng thuốc: đau dữ dội hơn trước (hội chứng cai corticoid)"
+      ]
+    },
+    {
+      type: "greenbox",
+      title: "NHẬN BIẾT THUỐC KHÔNG AN TOÀN QUA BAO BÌ",
+      items: [
+        "✅ Không có số đăng ký của Bộ Y tế (dãy số VD-XXXXX-XX hoặc VN-XXXXX-XX)",
+        "✅ Không ghi rõ thành phần hoạt chất, hàm lượng",
+        "✅ Nhãn mác in bằng chữ nước ngoài không dịch thuật",
+        "✅ Đóng gói thủ công, không tem chống hàng giả",
+        "✅ Mua qua mạng xã hội, không có hóa đơn, không rõ địa chỉ sản xuất"
+      ]
+    },
+    {
+      type: "heading",
+      content: "👨‍⚕️ KHUYẾN CÁO CỦA BÁC SĨ CỘT SỐNG"
+    },
+    {
+      type: "para",
+      content: "Trong thực hành lâm sàng, chúng tôi thường xuyên gặp các bệnh nhân nhập viện với bộ ba: (1) đau cột sống nặng hơn, (2) loãng xương tiến triển không đáp ứng điều trị, (3) xét nghiệm cortisol buổi sáng rất thấp — tất cả đều có tiền sử dùng 'thuốc gia truyền' kéo dài. Đây là hậu quả trực tiếp của corticoid ẩn trong thuốc không rõ nguồn gốc."
+    },
+    {
+      type: "list",
+      items: [
+        "KHÔNG tự ý dùng bất kỳ thuốc nào không có nguồn gốc rõ ràng và số đăng ký Bộ Y tế.",
+        "KHÔNG ngưng đột ngột các loại thuốc này nếu đã dùng lâu — cần gặp bác sĩ để được hỗ trợ cai corticoid đúng cách.",
+        "Nếu nghi ngờ đã dùng corticoid dài ngày: xét nghiệm cortisol máu buổi sáng, ACTH, đo mật độ xương (DXA).",
+        "Thông báo cho bác sĩ tất cả các loại thuốc đang dùng kể cả thuốc nam, thuốc gia truyền, thực phẩm chức năng.",
+        "Điều trị đau cột sống đúng nguyên nhân: thăm khám, chẩn đoán hình ảnh (X-quang, MRI), điều trị theo phác đồ chuẩn."
+      ]
+    },
+    {
+      type: "highlight",
+      content: "📞 Nếu bạn hoặc người thân đang dùng thuốc đau lưng, đau cột sống không rõ nguồn gốc — hãy dừng lại và tham khảo ý kiến bác sĩ TRƯỚC KHI ngưng thuốc đột ngột. Ngưng corticoid đột ngột sau dùng dài ngày có thể gây nguy hiểm tính mạng."
+    },
+    {
+      type: "note",
+      content: "Bài viết mang tính chất giáo dục sức khỏe cộng đồng. Mọi quyết định điều trị cần dựa trên thăm khám trực tiếp và chỉ định của bác sĩ chuyên khoa. Nếu bạn có triệu chứng nghi ngờ suy vỏ tuyến thượng thận hoặc loãng xương, hãy đến cơ sở y tế để được kiểm tra và tư vấn cụ thể."
+    }
+  ],
   "chan-doan-loang-xuong-phuong-phap-va-doi-tuong": [
     { type: "para", content: "Bà L.T.M., 58 tuổi, đến khám vì đau lưng âm ỉ hơn 3 tháng. Bà vẫn đi làm bình thường, không nghĩ mình bị gì nặng. Kết quả đo mật độ xương cho thấy T-score -2.8 — loãng xương mức độ nặng, đốt sống đã bắt đầu mất cấu trúc. Nếu không được chẩn đoán lúc này, cú ngã đầu tiên có thể là cú ngã thay đổi cả cuộc đời." },
     { type: "heading", content: "Tại sao phải chẩn đoán sớm?" },
