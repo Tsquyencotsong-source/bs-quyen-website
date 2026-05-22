@@ -30,7 +30,6 @@ const ARTICLES: Record<string, Block[]> = {
   "canh-bao-thuoc-dau-cot-song-khong-ro-nguon-goc": [
     { type: "heading", content: "⚠️ CẢNH BÁO Y TẾ QUAN TRỌNG" },
     { type: "warning", content: "Nhiều loại thuốc gia truyền, thuốc 'nam' trị đau xương khớp và đau cột sống đang lưu hành trên thị trường KHÔNG có đăng ký của Bộ Y tế. Phân tích thực tế cho thấy một số sản phẩm chứa corticosteroid (dexamethasone, prednisolone...) liều cao được pha trộn bí mật — người bệnh không hề biết mình đang dùng corticoid." },
-    { type: "image", src: "/images/thuoc-gia-truyen-khong-ro-nguon-goc.jpg", alt: "Thuốc gia truyền viêm thấp khớp không rõ nguồn gốc", caption: "Thuốc 'gia truyền' Viêm Thấp Khớp - Đông y Đỗ Thái Nam", subcaption: "Không có số đăng ký Bộ Y tế, không rõ thành phần — dấu hiệu nguy hiểm" },
     { type: "image", src: "/images/vien-thuoc-den-khong-nhan-mac.jpg", alt: "Viên thuốc màu đen không rõ nguồn gốc", caption: "Viên thuốc màu đen, đóng gói thô sơ, không nhãn mác hợp lệ", subcaption: "Không xác định được thành phần, không kiểm soát liều lượng — cực kỳ nguy hiểm" },
     { type: "heading", content: "🦴 TẠI SAO NHỮNG LOẠI THUỐC NÀY LẠI 'HIỆU QUẢ' NHANH?" },
     { type: "para", content: "Nhiều bệnh nhân phản hồi 'uống vào hết đau ngay', 'hiệu quả hơn cả thuốc bệnh viện'. Đây chính là dấu hiệu nguy hiểm nhất. Corticosteroid liều cao có tác dụng kháng viêm và giảm đau cực nhanh — nhưng cái giá phải trả về lâu dài là vô cùng đắt." },
