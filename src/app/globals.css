@@ -8,6 +8,8 @@
   body { font-family: 'Source Sans 3', system-ui, sans-serif; font-size: 18px !important; color: #111111 !important; line-height: 1.8; }
 p, li, span { font-size: 18px !important; color: #111111 !important; line-height: 1.8 !important; }
 article p, article li { font-weight: 600 !important; }
+.bg-navy p, .bg-navy li, .bg-navy span { color: #ffffff !important; }
+.bg-navy-dark p, .bg-navy-dark li, .bg-navy-dark span { color: #ffffff !important; }
   ::selection { background-color: rgba(0, 53, 128, 0.12); }
   ::-webkit-scrollbar { width: 4px; }
   ::-webkit-scrollbar-thumb { background: #003580; }
