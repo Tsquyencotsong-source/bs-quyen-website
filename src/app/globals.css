@@ -6,6 +6,7 @@
 @layer base {
   html { scroll-behavior: smooth; }
   body { font-family: 'Source Sans 3', system-ui, sans-serif; font-size: 18px !important; color: #111111 !important; line-height: 1.8; }
+nav a, nav span, nav button { font-size: 16px !important; font-weight: 600 !important; letter-spacing: 0.05em !important; }
 p, li, span { font-size: 18px !important; color: #111111 !important; line-height: 1.8 !important; }
 article p, article li { font-weight: 600 !important; }
 .bg-navy p, .bg-navy li, .bg-navy span { color: #ffffff !important; }
