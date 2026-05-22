@@ -6,7 +6,8 @@
 @layer base {
   html { scroll-behavior: smooth; }
   body { font-family: 'Source Sans 3', system-ui, sans-serif; font-size: 18px !important; color: #111111 !important; line-height: 1.8; }
-p, li, span { font-size: 18px !important; color: #111111 !important; line-height: 1.8 !important; font-weight: 600 !important; }
+p, li, span { font-size: 18px !important; color: #111111 !important; line-height: 1.8 !important; }
+article p, article li { font-weight: 600 !important; }
   ::selection { background-color: rgba(0, 53, 128, 0.12); }
   ::-webkit-scrollbar { width: 4px; }
   ::-webkit-scrollbar-thumb { background: #003580; }
