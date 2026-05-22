@@ -27,6 +27,90 @@ type Block =
 
 const ARTICLES: Record<string, Block[]> = {
 
+  "chan-doan-loang-xuong-phuong-phap-va-doi-tuong": [
+    { type: "para", content: "Bà L.T.M., 58 tuổi, đến khám vì đau lưng âm ỉ hơn 3 tháng. Bà vẫn đi làm bình thường, không nghĩ mình bị gì nặng. Kết quả đo mật độ xương cho thấy T-score -2.8 — loãng xương mức độ nặng, đốt sống đã bắt đầu mất cấu trúc. Nếu không được chẩn đoán lúc này, cú ngã đầu tiên có thể là cú ngã thay đổi cả cuộc đời." },
+    { type: "heading", content: "Tại sao phải chẩn đoán sớm?" },
+    { type: "para", content: "Loãng xương là căn bệnh hoàn toàn không có triệu chứng trong giai đoạn đầu và giữa. Người bệnh không đau, không tê, không hạn chế vận động — cho đến khi xương gãy. Nghịch lý là: vào thời điểm gãy xương xảy ra, bệnh đã tiến triển âm thầm từ nhiều năm trước. Chẩn đoán sớm — trước khi gãy xương — là cơ hội duy nhất để điều trị hiệu quả và ngăn ngừa hậu quả nghiêm trọng." },
+    { type: "highlight", content: "Loãng xương không gây đau — nhưng gãy xương do loãng xương thì gây đau rất nhiều. Mục tiêu của chẩn đoán sớm là ngăn cú gãy xương đầu tiên đó xảy ra." },
+
+    { type: "heading", content: "Phương pháp chẩn đoán chuẩn: Đo mật độ xương bằng DXA" },
+    { type: "para", content: "DXA (Dual-energy X-ray Absorptiometry — đo hấp thụ tia X năng lượng kép) là tiêu chuẩn vàng trong chẩn đoán loãng xương, được WHO và các hội y khoa quốc tế khuyến cáo sử dụng rộng rãi. Máy DXA đo mật độ khoáng của xương (Bone Mineral Density — BMD) tại hai vị trí quan trọng nhất: cột sống thắt lưng và cổ xương đùi." },
+    { type: "list", items: [
+      "Thời gian đo: 10–20 phút, không xâm lấn, không gây đau",
+      "Liều phóng xạ rất thấp — thấp hơn nhiều lần so với chụp X-quang thường quy",
+      "Kết quả cho ra chỉ số T-score để phân loại tình trạng xương",
+      "Có thể theo dõi đáp ứng điều trị qua các lần đo định kỳ",
+    ]},
+
+    { type: "heading", content: "Đọc kết quả T-score như thế nào?" },
+    { type: "para", content: "T-score là chỉ số so sánh mật độ xương của bạn với mật độ xương trung bình của người trưởng thành khỏe mạnh ở độ tuổi đỉnh cao (khoảng 25–30 tuổi). Theo tiêu chuẩn WHO:" },
+    { type: "list", items: [
+      "T-score từ -1.0 trở lên: Xương bình thường",
+      "T-score từ -1.0 đến -2.5: Thiếu xương (osteopenia) — cảnh báo sớm, cần can thiệp dự phòng",
+      "T-score từ -2.5 trở xuống: Loãng xương (osteoporosis) — cần điều trị",
+      "T-score từ -2.5 trở xuống kèm tiền sử gãy xương: Loãng xương nặng — nguy cơ cao nhất",
+    ]},
+    { type: "highlight", content: "T-score -2.5 không có nghĩa là xương yếu gấp 2.5 lần. Nó có nghĩa là mật độ xương của bạn thấp hơn 2.5 độ lệch chuẩn so với người trẻ khỏe mạnh — và nguy cơ gãy xương tăng lên đáng kể." },
+
+    { type: "heading", content: "Công cụ đánh giá nguy cơ gãy xương: FRAX" },
+    { type: "para", content: "FRAX (Fracture Risk Assessment Tool) là công cụ trực tuyến của WHO, tích hợp nhiều yếu tố nguy cơ để tính xác suất gãy xương trong 10 năm tới. FRAX đặc biệt hữu ích khi kết quả DXA nằm trong vùng 'thiếu xương' — ranh giới giữa cần và chưa cần điều trị thuốc." },
+    { type: "list", items: [
+      "Tuổi, giới tính, cân nặng và chiều cao",
+      "Tiền sử gãy xương cá nhân và gia đình",
+      "Hút thuốc lá, uống rượu bia",
+      "Sử dụng corticosteroid kéo dài",
+      "Mắc bệnh viêm khớp dạng thấp",
+      "Kết quả DXA cổ xương đùi (nếu có)",
+    ]},
+    { type: "para", content: "Kết quả FRAX cho biết xác suất phần trăm gãy xương hông và gãy xương lớn trong 10 năm tới. Nhiều hướng dẫn điều trị quốc tế sử dụng ngưỡng FRAX để quyết định bắt đầu điều trị thuốc hay chưa." },
+
+    { type: "heading", content: "Các phương pháp bổ sung khác" },
+    { type: "para", content: "Ngoài DXA và FRAX, một số phương pháp khác có thể cung cấp thêm thông tin trong các tình huống cụ thể:" },
+    { type: "list", items: [
+      "Hounsfield Unit (HU) trên CT scan: Đo mật độ xương tại vị trí phẫu thuật, đặc biệt hữu ích khi đánh giá trước mổ cột sống. HU dưới 110 tại thân đốt sống là dấu hiệu nguy cơ cao cho biến chứng sau phẫu thuật.",
+      "Siêu âm xương gót (QUS): Không dùng tia X, thiết bị nhỏ gọn, chi phí thấp — phù hợp tầm soát ban đầu ở vùng thiếu máy DXA. Tuy nhiên, không thay thế được DXA để chẩn đoán chính xác.",
+      "X-quang cột sống thường quy: Không đủ nhạy để phát hiện loãng xương sớm, nhưng giúp phát hiện gãy xẹp đốt sống đã xảy ra — thường là dấu hiệu đầu tiên người bệnh mới biết mình có loãng xương.",
+      "Xét nghiệm máu và nước tiểu: Canxi, phospho, vitamin D, PTH, marker chuyển hóa xương (CTX, P1NP) — hỗ trợ tìm nguyên nhân thứ phát và theo dõi điều trị, không phải để chẩn đoán loãng xương.",
+    ]},
+
+    { type: "heading", content: "Ai nên được kiểm tra loãng xương?" },
+    { type: "para", content: "Không phải ai cũng cần đo mật độ xương ngay. Dưới đây là các nhóm được khuyến cáo tầm soát chủ động theo hướng dẫn của Tổ chức Loãng xương Quốc tế (IOF) và Hội Nội tiết Mỹ:" },
+    { type: "list", items: [
+      "Phụ nữ từ 65 tuổi trở lên — tầm soát thường quy ngay cả khi không có triệu chứng",
+      "Phụ nữ sau mãn kinh dưới 65 tuổi nếu có ít nhất một yếu tố nguy cơ (gãy xương sau chấn thương nhẹ, tiền sử gia đình, BMI thấp, hút thuốc, uống rượu)",
+      "Nam giới từ 70 tuổi trở lên",
+      "Nam giới 50–70 tuổi nếu có yếu tố nguy cơ cao (dùng corticosteroid, bệnh mạn tính ảnh hưởng xương)",
+      "Người đã từng gãy xương sau chấn thương nhẹ (ngã từ tư thế đứng trở xuống)",
+      "Người dùng corticosteroid toàn thân liều tương đương prednisone ≥5mg/ngày từ 3 tháng trở lên",
+      "Người mắc bệnh có ảnh hưởng đến chuyển hóa xương: cường giáp, cường tuyến cận giáp, viêm khớp dạng thấp, bệnh Crohn, suy thận mạn",
+      "Người đang hoặc đã điều trị loãng xương — để đánh giá đáp ứng và điều chỉnh liệu trình",
+    ]},
+
+    { type: "heading", content: "Dấu hiệu gợi ý cần đi kiểm tra sớm hơn" },
+    { type: "para", content: "Ngay cả khi bạn chưa thuộc nhóm tuổi được khuyến cáo tầm soát thường quy, hãy chủ động đi khám nếu có bất kỳ dấu hiệu nào dưới đây:" },
+    { type: "list", items: [
+      "Chiều cao giảm hơn 2–3 cm so với khi còn trẻ",
+      "Lưng ngày càng khom gù không giải thích được",
+      "Đau lưng cấp tính xuất hiện sau một động tác nhỏ như cúi người, ho mạnh, hắt hơi",
+      "Gãy xương sau chấn thương mà người khác không gãy — nhất là cổ tay, hông, cột sống",
+      "Mãn kinh sớm trước 45 tuổi hoặc cắt buồng trứng hai bên",
+    ]},
+    { type: "warning", content: "Đau lưng cấp tính xuất hiện đột ngột ở người trên 50 tuổi, đặc biệt phụ nữ sau mãn kinh, sau một cử động nhỏ — cần nghĩ đến gãy xẹp đốt sống do loãng xương và đi khám ngay, không nên tự điều trị tại nhà." },
+
+    { type: "heading", content: "Tần suất kiểm tra bao lâu một lần?" },
+    { type: "para", content: "Tần suất đo DXA phụ thuộc vào kết quả và yếu tố nguy cơ:" },
+    { type: "list", items: [
+      "Xương bình thường, ít yếu tố nguy cơ: đo lại sau 2–3 năm",
+      "Thiếu xương (T-score -1.0 đến -2.5): đo lại sau 1–2 năm tùy yếu tố nguy cơ",
+      "Đang điều trị loãng xương: đo lại sau 1–2 năm để đánh giá đáp ứng",
+      "Dùng corticosteroid liều cao kéo dài: có thể cần đo sau 6–12 tháng",
+    ]},
+
+    { type: "highlight", content: "Chẩn đoán loãng xương không phải để gây lo lắng — mà để có cơ sở hành động sớm. Biết T-score của mình là thông tin bảo vệ bạn, không phải bản án." },
+
+    { type: "note", content: "Bài viết mang tính giáo dục sức khỏe tổng quát, không thay thế tư vấn y tế trực tiếp. Việc chỉ định đo mật độ xương và giải thích kết quả cần được thực hiện bởi bác sĩ có chuyên môn dựa trên tình trạng cụ thể của từng người bệnh." },
+  ],
+
   "loang-xuong-phu-nu-sau-man-kinh": [
     { type: "para", content: "Bà N.T.H., 72 tuổi, đến phòng khám trong tình trạng không thể tự đi lại sau một cú trượt chân nhẹ khi xuống cầu thang. X-quang cho thấy nhiều đốt sống đã xẹp từ trước — lặng lẽ, không ai hay biết. Đây không phải câu chuyện hiếm gặp." },
 

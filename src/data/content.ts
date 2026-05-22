@@ -206,6 +206,14 @@ export const POSTS: Post[] = [
     category: "Giáo dục sức khỏe",
     date: "2026-05-22",
   },
+  {
+    slug: "chan-doan-loang-xuong-phuong-phap-va-doi-tuong",
+    title: "Chẩn đoán loãng xương: Phương pháp nào và ai nên được kiểm tra?",
+    excerpt: "Loãng xương thường không có triệu chứng cho đến khi gãy xương — nhưng hoàn toàn có thể phát hiện sớm. Hiểu đúng các phương pháp chẩn đoán và biết mình có thuộc nhóm cần tầm soát hay không là bước đầu tiên để bảo vệ xương.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-05-22",
+  },
 ];
 
 // ─── HỌC VIÊN ĐANG HƯỚNG DẪN ────────────────────────────────────
