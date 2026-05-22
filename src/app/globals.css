@@ -5,7 +5,7 @@
 
 @layer base {
   html { scroll-behavior: smooth; }
-  body { font-family: 'Source Sans 3', system-ui, sans-serif; }
+  body { font-family: 'Source Sans 3', system-ui, sans-serif;font-size: 18px; color: #1a1a2e; line-height: 1.8; }
   ::selection { background-color: rgba(0, 53, 128, 0.12); }
   ::-webkit-scrollbar { width: 4px; }
   ::-webkit-scrollbar-thumb { background: #003580; }
