@@ -13,6 +13,7 @@ const NAV_LINKS = [
   { href: "/education",  label: "Người bệnh" },
   { href: "/blog",       label: "Kiến thức" },
   { href: "/contact",    label: "Liên hệ" },
+  { href: "/frax", label: "FRAX" },
 ];
 
 export default function Navbar() {
