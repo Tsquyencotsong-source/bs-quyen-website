@@ -42,7 +42,7 @@ export default function Navbar() {
       <div className="bg-navy-dark hidden md:block">
         <div className="max-w-content mx-auto px-10 h-9 flex items-center justify-between">
           <span className="text-xs text-white/50 font-light tracking-wide">
-            {DOCTOR.hospital} · Hà Nội
+            
           </span>
           <div className="flex gap-5">
             <a href={`mailto:${DOCTOR.email}`} className="text-xs text-white/50 hover:text-white transition-colors">
