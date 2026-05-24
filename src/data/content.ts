@@ -222,6 +222,14 @@ export const POSTS: Post[] = [
     category: "Giáo dục sức khỏe",
     date: "2026-05-22",
   },
+  {
+    slug: "tu-y-bo-thuoc-loang-xuong",
+    title: "Tự ý bỏ thuốc điều trị loãng xương: Nguy cơ bạn chưa biết",
+    excerpt: "Nhiều bệnh nhân tự ý ngưng thuốc vì thấy 'đỡ rồi' hoặc sợ tác dụng phụ — nhưng với một số loại thuốc, đặc biệt là Denosumab, việc ngưng đột ngột có thể gây gãy nhiều đốt sống chỉ sau vài tháng.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-05-25",
+  },
 ];
 
 // ─── HỌC VIÊN ĐANG HƯỚNG DẪN ────────────────────────────────────

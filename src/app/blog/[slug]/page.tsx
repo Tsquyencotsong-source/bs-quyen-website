@@ -26,6 +26,131 @@ type Block =
   | { type: "warning"; content: string };
 
 const ARTICLES: Record<string, Block[]> = {
+  
+  "tu-y-bo-thuoc-loang-xuong": [
+    {
+      type: "para",
+      content:
+        "Loãng xương là bệnh mạn tính — điều trị không tính bằng tuần hay tháng, mà thường kéo dài nhiều năm. Thế nhưng trong thực tế lâm sàng, rất nhiều bệnh nhân tự ý bỏ thuốc giữa chừng mà không thông báo cho bác sĩ. Đây là một quyết định tiềm ẩn nguy hiểm nghiêm trọng, đặc biệt với một số nhóm thuốc điều trị hiện đại.",
+    },
+    {
+      type: "heading",
+      content: "Tại sao bệnh nhân thường tự ý bỏ thuốc?",
+    },
+    {
+      type: "list",
+      items: [
+        "Cảm thấy 'đỡ rồi, không đau nữa' — không nhận ra loãng xương là bệnh thầm lặng, không triệu chứng cho đến khi gãy xương",
+        "Sợ tác dụng phụ: đau khớp, buồn nôn, lo lắng về 'hoại tử xương hàm' đọc được trên mạng",
+        "Chi phí điều trị dài hạn gây gánh nặng kinh tế",
+        "Quên uống nhiều lần rồi bỏ hẳn",
+        "Tự mua thuốc, không theo dõi định kỳ, không có bác sĩ quản lý",
+        "Nghe người quen khuyên 'uống nhiều thuốc hại thận, hại gan'",
+      ],
+    },
+    {
+      type: "heading",
+      content: "Các nhóm thuốc điều trị loãng xương hiện nay",
+    },
+    {
+      type: "para",
+      content:
+        "Có nhiều nhóm thuốc điều trị loãng xương với cơ chế khác nhau: Bisphosphonates (alendronate, zoledronate, ibandronate), Denosumab (Prolia®), Teriparatide / Abaloparatide (thuốc tăng tạo xương), Romosozumab, và các thuốc nội tiết như Raloxifene. Mỗi nhóm có đặc điểm dược lý riêng — điều này quyết định mức độ nguy hiểm khi ngưng thuốc đột ngột.",
+    },
+    {
+      type: "heading",
+      content: "Nguy cơ cụ thể khi tự ý ngưng từng nhóm thuốc",
+    },
+    {
+      type: "warning",
+      title: "Bisphosphonates (Alendronate, Zoledronate...)",
+      items: [
+        "Thuốc này tích lũy trong xương, có tác dụng kéo dài sau khi ngưng (gọi là 'drug holiday' có kiểm soát)",
+        "Tuy nhiên, tự ý ngưng không theo dõi khiến bác sĩ mất cơ hội đánh giá lại mật độ xương, điều chỉnh phác đồ",
+        "Với bệnh nhân nguy cơ cao (T-score rất thấp, đã gãy xương), ngưng thuốc làm mất lớp bảo vệ tái tạo xương",
+        "Không được tự ý kéo dài thời gian 'nghỉ thuốc' vì nguy cơ gãy xương tăng trở lại",
+      ],
+    },
+    {
+      type: "warning",
+      title: "⚠️ Denosumab (Prolia®) — NGUY HIỂM NHẤT nếu ngưng đột ngột",
+      items: [
+        "Denosumab ức chế tiêu xương bằng cách chặn RANKL — nhưng tác dụng chỉ kéo dài 6 tháng (chu kỳ tiêm)",
+        "Khi ngưng: RANKL bùng phát trở lại → tiêu xương xảy ra với tốc độ rất nhanh, nhanh hơn cả trước khi điều trị",
+        "Hậu quả: Mật độ xương giảm mạnh chỉ sau 6–12 tháng ngưng thuốc",
+        "Đã có nhiều báo cáo: bệnh nhân gãy đồng thời nhiều đốt sống (multiple vertebral fractures) chỉ vì trễ 1–2 mũi tiêm Denosumab",
+        "Nếu muốn ngưng Denosumab, BẮT BUỘC phải chuyển tiếp sang Bisphosphonate theo hướng dẫn của bác sĩ",
+      ],
+    },
+    {
+      type: "para",
+      content:
+        "Hiện tượng 'rebound' sau ngưng Denosumab là một trong những vấn đề được nghiên cứu và cảnh báo nhiều nhất trong y văn về loãng xương. Đây không phải lý thuyết — đây là biến chứng thực tế xảy ra trên bệnh nhân ngoài đời thực, thường gặp ở phụ nữ sau mãn kinh có loãng xương nặng.",
+    },
+    {
+      type: "warning",
+      title: "Teriparatide / Romosozumab (thuốc tăng tạo xương)",
+      items: [
+        "Đây là thuốc 'xây dựng xương mới' — tác dụng phụ thuộc hoàn toàn vào thời gian dùng thuốc",
+        "Khi ngưng đột ngột: phần xương mới tạo thành sẽ bị tiêu dần nếu không được duy trì bằng thuốc chống tiêu xương tiếp theo",
+        "Ngưng giữa chừng đồng nghĩa với lãng phí toàn bộ quá trình điều trị và chi phí đã bỏ ra",
+        "Phải ngưng theo lộ trình có bác sĩ theo dõi và chuyển tiếp phác đồ phù hợp",
+      ],
+    },
+    {
+      type: "highlight",
+      content:
+        "Với loãng xương, cảm giác 'không đau = đã khỏi' là sai lầm nguy hiểm. Xương mỏng dần không gây đau — cho đến khi gãy.",
+    },
+    {
+      type: "heading",
+      content: "Gãy xương do rebound: Con số đáng lo ngại",
+    },
+    {
+      type: "para",
+      content:
+        "Trong các nghiên cứu quan sát và hồi cứu tại châu Âu và Nhật Bản, tỷ lệ gãy đốt sống mới sau ngưng Denosumab không đúng chỉ định lên đến 10–15% trong vòng 18 tháng. Nhiều trường hợp gãy 3–5 đốt sống đồng thời, gây đau dữ dội, biến dạng cột sống, và giảm chiều cao đột ngột. Đây là những ca cấp cứu cột sống thực sự — có thể phòng tránh hoàn toàn nếu bệnh nhân không tự ý bỏ thuốc.",
+    },
+    {
+      type: "heading",
+      content: "Điều bệnh nhân cần làm thay vì tự ý bỏ thuốc",
+    },
+    {
+      type: "greenbox",
+      title: "Hành động đúng khi muốn ngưng hoặc thay đổi thuốc",
+      items: [
+        "Liên hệ bác sĩ điều trị để hỏi ý kiến — không cần thiết phải đến khám trực tiếp, có thể gọi điện hoặc nhắn tin",
+        "Nếu lo ngại tác dụng phụ: báo cụ thể triệu chứng để bác sĩ đánh giá có thực sự liên quan đến thuốc không",
+        "Nếu khó khăn tài chính: hỏi bác sĩ về các phác đồ thay thế có chi phí thấp hơn (ví dụ: alendronate uống tuần thay vì tiêm)",
+        "Nếu quên uống: thiết lập báo thức điện thoại, nhờ người thân nhắc nhở",
+        "Tái khám đúng hẹn: đo mật độ xương DXA mỗi 1–2 năm để bác sĩ có căn cứ điều chỉnh phác đồ",
+        "Không tự ý tăng hoặc giảm liều dựa trên cảm giác chủ quan",
+      ],
+    },
+    {
+      type: "heading",
+      content: "Khi nào bác sĩ mới quyết định ngưng thuốc?",
+    },
+    {
+      type: "para",
+      content:
+        "Việc ngưng hoặc thay đổi thuốc điều trị loãng xương là một quyết định y khoa dựa trên nhiều yếu tố: mật độ xương hiện tại (DXA), nguy cơ gãy xương 10 năm (FRAX score), thời gian đã dùng thuốc, và các bệnh lý kèm theo. Bác sĩ cũng cân nhắc 'drug holiday' có chọn lọc cho bisphosphonates sau 5 năm — nhưng đây là quyết định lâm sàng có kiểm soát, không phải bệnh nhân tự quyết.",
+    },
+    {
+      type: "list",
+      items: [
+        "Sau 3–5 năm dùng bisphosphonate uống hoặc 3 năm dùng zoledronate IV, bác sĩ có thể xem xét 'nghỉ thuốc' 1–2 năm nếu nguy cơ gãy xương thấp",
+        "Denosumab KHÔNG có 'drug holiday' — phải dùng liên tục hoặc chuyển tiếp sang bisphosphonate khi muốn dừng",
+        "Teriparatide và Romosozumab có giới hạn thời gian dùng tối đa (18–24 tháng), sau đó phải chuyển thuốc theo chỉ định",
+        "Bệnh nhân có biến chứng nghiêm trọng (hoại tử xương hàm, gãy xương không điển hình) mới cần ngưng khẩn cấp — và vẫn phải có sự hướng dẫn của bác sĩ",
+      ],
+    },
+    {
+      type: "note",
+      content:
+        "Bài viết mang tính giáo dục sức khỏe cộng đồng, không thay thế cho thăm khám và tư vấn trực tiếp của bác sĩ. Mỗi bệnh nhân có hồ sơ bệnh lý riêng — quyết định điều trị cần được cá thể hóa. Nếu bạn đang dùng thuốc điều trị loãng xương và có bất kỳ lo ngại nào, hãy liên hệ bác sĩ điều trị của mình trước khi thay đổi bất cứ điều gì.",
+    },
+  ],
 
   "canh-bao-thuoc-dau-cot-song-khong-ro-nguon-goc": [
     { type: "heading", content: "⚠️ CẢNH BÁO Y TẾ QUAN TRỌNG" },
