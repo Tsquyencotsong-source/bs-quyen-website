@@ -26,7 +26,166 @@ type Block =
   | { type: "warning"; content: string };
 
 const ARTICLES: Record<string, Block[]> = {
-  
+
+  "loi-khuyen-suc-khoe-nang-nong-cuc-doan": [
+    {
+      type: "para",
+      content: "Mùa hè năm 2025–2026, nhiều tỉnh thành Việt Nam ghi nhận nhiệt độ vượt 40°C liên tục nhiều ngày — mức kỷ lục trong lịch sử khí tượng. Không khí oi bức, độ ẩm cao và nhiệt độ không hạ xuống vào ban đêm tạo ra điều kiện nguy hiểm cho hàng triệu người, đặc biệt là người cao tuổi, trẻ nhỏ và người mắc bệnh mãn tính. Tổ chức Y tế Thế giới (WHO) đã xếp nắng nóng cực đoan là một trong những nguyên nhân hàng đầu gây tử vong do thời tiết trên toàn cầu.",
+    },
+    {
+      type: "para",
+      content: "Điều đáng lo ngại là nhiều người không nhận ra mức độ nguy hiểm cho đến khi đã xuất hiện các triệu chứng nặng. Sốc nhiệt (heat stroke) có thể gây tổn thương não vĩnh viễn và tử vong chỉ trong vòng 30 phút nếu không được xử trí kịp thời. Bài viết này tổng hợp các khuyến cáo từ Bộ Y tế Việt Nam, WHO, CDC Hoa Kỳ và các nghiên cứu lâm sàng mới nhất năm 2024–2025 để giúp bạn và gia đình an toàn trong những ngày nắng nóng.",
+    },
+    {
+      type: "heading",
+      content: "Nắng Nóng Tác Động Lên Cơ Thể Như Thế Nào?",
+    },
+    {
+      type: "para",
+      content: "Cơ thể người duy trì thân nhiệt ổn định ở khoảng 37°C thông qua cơ chế đổ mồ hôi và giãn mạch máu ngoại vi. Khi nhiệt độ môi trường quá cao hoặc độ ẩm quá lớn, hai cơ chế này bị suy giảm hiệu quả: mồ hôi bay hơi chậm hơn, nhiệt không thoát ra ngoài được, thân nhiệt bắt đầu tăng. Nếu thân nhiệt vượt 40°C, các enzyme trong tế bào bắt đầu bị phá hủy, màng tế bào mất ổn định và tổn thương đa tạng bắt đầu xảy ra.",
+    },
+    {
+      type: "para",
+      content: "Nghiên cứu đăng trên tạp chí chuyên ngành năm 2025 (NIH/PubMed) chỉ ra rằng nắng nóng không chỉ ảnh hưởng đến tim mạch mà còn gây tổn thương cơ xương khớp qua cơ chế tiêu cơ vân (rhabdomyolysis) — tình trạng các tế bào cơ bị phá hủy hàng loạt, giải phóng myoglobin vào máu, dẫn đến suy thận cấp. Người tập thể dục ngoài trời trong nắng nóng có nguy cơ mắc rhabdomyolysis cao gấp 5–10 lần so với điều kiện bình thường.",
+    },
+    {
+      type: "heading",
+      content: "Ba Mức Độ Say Nắng — Nhận Biết Để Xử Trí Đúng",
+    },
+    {
+      type: "para",
+      content: "Các bệnh lý do nhiệt nắng được chia thành ba mức độ tăng dần, từ nhẹ đến nguy hiểm tính mạng. Việc nhận biết sớm và xử trí đúng cách ở giai đoạn nhẹ có thể ngăn chặn tiến triển sang mức nguy hiểm.",
+    },
+    {
+      type: "highlight",
+      content: "Mức 1 — Kiệt sức do nhiệt (Heat Exhaustion): Ra nhiều mồ hôi, da lạnh và ẩm, mạch nhanh và yếu, chóng mặt, buồn nôn, chuột rút cơ, có thể ngất xỉu. Thân nhiệt thường dưới 40°C. Đây là giai đoạn CẢNH BÁO — cần dừng ngay mọi hoạt động và vào nơi mát.",
+    },
+    {
+      type: "highlight",
+      content: "Mức 2 — Sốc nhiệt (Heat Stroke): Thân nhiệt trên 40°C, da đỏ và nóng (không còn mồ hôi), mạch nhanh và mạnh, lú lẫn, nói nhảm, co giật hoặc mất ý thức. ĐÂY LÀ CẤP CỨU Y TẾ — phải gọi 115 ngay lập tức.",
+    },
+    {
+      type: "heading",
+      content: "Ai Có Nguy Cơ Cao Nhất?",
+    },
+    {
+      type: "para",
+      content: "Không phải ai cũng bị ảnh hưởng như nhau bởi nắng nóng. Bộ Y tế Việt Nam xác định các nhóm cần được ưu tiên bảo vệ đặc biệt:",
+    },
+    {
+      type: "list",
+      items: [
+        "Người cao tuổi (trên 65 tuổi): Khả năng điều hòa nhiệt độ suy giảm, ít nhận biết cảm giác khát, thường dùng nhiều thuốc ảnh hưởng đến cân bằng dịch.",
+        "Trẻ em dưới 5 tuổi: Diện tích da so với khối lượng cơ thể lớn, trao đổi nhiệt nhanh hơn người lớn.",
+        "Phụ nữ có thai: Thân nhiệt cơ sở cao hơn, nhu cầu nước lớn hơn, nguy cơ ảnh hưởng đến thai nhi.",
+        "Người lao động ngoài trời: Nông dân, công nhân xây dựng, bảo vệ, người giao hàng — tiếp xúc trực tiếp nhiều giờ.",
+        "Người mắc bệnh tim mạch, tăng huyết áp, đái tháo đường: Khả năng bù trừ tim mạch kém, mạch máu ngoại vi không giãn được tốt.",
+        "Người mắc bệnh cột sống, khớp đang dùng thuốc kháng viêm NSAID: Nhóm thuốc này làm giảm lưu lượng máu thận, kết hợp mất nước do nắng nóng có thể gây suy thận cấp.",
+        "Người thừa cân, béo phì: Lớp mỡ cách nhiệt làm cơ thể khó thoát nhiệt.",
+      ],
+    },
+    {
+      type: "warning",
+      content: "Lưu ý đặc biệt cho bệnh nhân cột sống và khớp: Các thuốc kháng viêm không steroid (NSAID) như Ibuprofen, Diclofenac, Meloxicam làm giảm lưu lượng máu đến thận. Khi kết hợp với mất nước do nắng nóng, nguy cơ suy thận cấp tăng cao đột biến. Trong những ngày nắng nóng cực đoan, hãy hỏi bác sĩ về việc điều chỉnh liều thuốc và đảm bảo uống đủ nước.",
+    },
+    {
+      type: "heading",
+      content: "7 Hành Động Bảo Vệ Sức Khỏe Trong Nắng Nóng",
+    },
+    {
+      type: "para",
+      content: "Bộ Y tế Việt Nam và WHO đồng thuận về 7 nhóm biện pháp hiệu quả nhất để phòng chống tác hại của nắng nóng cực đoan:",
+    },
+    {
+      type: "list",
+      items: [
+        "Uống đủ nước — kể cả khi không khát: Người lớn cần uống tối thiểu 2–3 lít nước mỗi ngày trong thời tiết nắng nóng. Người lao động ngoài trời cần uống 250ml nước mỗi 15–20 phút. Ưu tiên nước lọc, nước điện giải; tránh rượu bia và đồ uống có caffeine vì gây lợi tiểu.",
+        "Tránh ra ngoài trong khung giờ 10h–16h: Đây là thời điểm bức xạ mặt trời mạnh nhất và nhiệt độ cao nhất. Nếu buộc phải ra ngoài, hãy mặc quần áo sáng màu, rộng rãi, đội mũ rộng vành và sử dụng ô che nắng.",
+        "Bôi kem chống nắng SPF 30 trở lên: Cháy nắng không chỉ làm tổn thương da mà còn làm giảm khả năng tỏa nhiệt của cơ thể. Thoa lại mỗi 2 giờ khi ở ngoài trời.",
+        "Mặc trang phục phù hợp: Chọn vải cotton hoặc vải thoáng khí, màu sáng (phản xạ nhiệt tốt hơn màu tối), rộng rãi để không khí lưu thông. Tránh mặc đồ bó sát khi ra ngoài.",
+        "Làm mát môi trường sống: Dùng quạt, điều hòa không khí hoặc đến các không gian công cộng có điều hòa (thư viện, trung tâm thương mại) vào ban ngày. Đóng rèm cửa phía tây buổi chiều để giảm bức xạ.",
+        "Không để trẻ em hoặc người già một mình trong xe ô tô: Nhiệt độ trong xe có thể tăng thêm 20°C chỉ sau 10 phút. Đây là nguyên nhân gây tử vong hàng đầu ở trẻ nhỏ vào mùa hè.",
+        "Theo dõi sức khỏe người thân có nguy cơ cao: Gọi điện kiểm tra người già sống một mình ít nhất hai lần mỗi ngày trong đợt nắng nóng. Biết số điện thoại cấp cứu 115 và địa chỉ cơ sở y tế gần nhất.",
+      ],
+    },
+    {
+      type: "heading",
+      content: "Xử Trí Khi Gặp Người Bị Say Nắng",
+    },
+    {
+      type: "para",
+      content: "Biết cách sơ cứu đúng có thể cứu sống người thân trong tình huống khẩn cấp. CDC khuyến cáo quy trình xử trí theo thứ tự sau:",
+    },
+    {
+      type: "list",
+      items: [
+        "Bước 1 — Gọi 115 ngay nếu nghi ngờ sốc nhiệt (người lú lẫn, mất ý thức, thân nhiệt trên 40°C). Không chờ xem có tự khỏi không.",
+        "Bước 2 — Chuyển người bệnh ngay vào nơi mát, thoáng gió, có bóng râm hoặc điều hòa.",
+        "Bước 3 — Cởi bớt quần áo bên ngoài, nới lỏng cà vạt, thắt lưng, cúc áo.",
+        "Bước 4 — Làm mát nhanh bằng nước: Lau toàn thân bằng khăn ướt mát. Đặt túi đá hoặc khăn lạnh lên vùng nách, háng, hai bên cổ — đây là nơi mạch máu lớn đi qua, làm mát hiệu quả nhất.",
+        "Bước 5 — Cho uống nước từng ngụm nhỏ nếu người bệnh còn tỉnh táo và nuốt được. KHÔNG cho uống nếu đang mất ý thức.",
+        "Bước 6 — Không cho uống rượu, bia hoặc bất kỳ loại đồ uống có cồn nào.",
+        "Bước 7 — Theo dõi liên tục cho đến khi xe cấp cứu đến hoặc đến được cơ sở y tế.",
+      ],
+    },
+    {
+      type: "note",
+      content: "Với kiệt sức do nhiệt (mức nhẹ): Sau khi nghỉ ngơi ở nơi mát, uống nước điện giải và làm mát cơ thể, hầu hết bệnh nhân hồi phục trong vòng 30 phút. Nếu sau 30 phút không cải thiện hoặc triệu chứng nặng hơn, phải đến cơ sở y tế ngay.",
+    },
+    {
+      type: "heading",
+      content: "Dinh Dưỡng Và Lối Sống Trong Mùa Nắng Nóng",
+    },
+    {
+      type: "para",
+      content: "Ngoài việc uống đủ nước, chế độ ăn uống và sinh hoạt hàng ngày cũng ảnh hưởng đáng kể đến khả năng chịu đựng nắng nóng của cơ thể. Một số điều chỉnh đơn giản nhưng hiệu quả:",
+    },
+    {
+      type: "list",
+      items: [
+        "Ăn nhiều rau quả có hàm lượng nước cao: Dưa hấu, dưa leo, cà chua, cam, bưởi — vừa cung cấp nước vừa bổ sung vitamin và khoáng chất.",
+        "Tránh ăn thực phẩm nhiều dầu mỡ vào bữa trưa: Tiêu hóa thực phẩm béo sinh nhiệt lớn, làm cơ thể nóng hơn.",
+        "Ưu tiên bữa ăn nhẹ, chia nhiều bữa nhỏ: Giảm gánh nặng tiêu hóa trong thời tiết nóng.",
+        "Bổ sung điện giải sau khi ra mồ hôi nhiều: Oresol pha đúng liều, nước dừa tươi hoặc nước có bổ sung muối khoáng — không phải nước lọc thuần túy khi mất mồ hôi nhiều.",
+        "Tập thể dục vào sáng sớm (trước 8h) hoặc chiều tối (sau 17h30): Tránh hoàn toàn tập ngoài trời từ 10h đến 16h.",
+        "Ngủ đủ giấc: Thiếu ngủ làm giảm khả năng điều nhiệt và tăng nguy cơ say nắng.",
+      ],
+    },
+    {
+      type: "heading",
+      content: "Lưu Ý Đặc Biệt Cho Bệnh Nhân Đau Cột Sống Và Khớp",
+    },
+    {
+      type: "para",
+      content: "Với tư cách là bác sĩ chuyên khoa cột sống, tôi muốn nhấn mạnh một số điều đặc biệt quan trọng với nhóm bệnh nhân đang điều trị các bệnh lý xương khớp trong mùa nắng nóng:",
+    },
+    {
+      type: "list",
+      items: [
+        "Không tập phục hồi chức năng ngoài trời trong nắng: Các bài tập đi bộ, đạp xe phục hồi sau phẫu thuật khớp gối hoặc cột sống phải thực hiện trong nhà có điều hòa hoặc vào lúc mát mẻ.",
+        "Đau cơ tăng lên trong nắng nóng là dấu hiệu bình thường nhưng cần theo dõi: Nhiệt độ cao làm giãn mạch máu cơ, có thể gây đau nhức tạm thời. Tuy nhiên, nếu đau tăng đột ngột kèm nước tiểu màu nâu sẫm — đây là dấu hiệu tiêu cơ vân, cần đến cấp cứu ngay.",
+        "Người đặt dụng cụ kim loại (vít, thanh nẹp cột sống, khớp nhân tạo): Kim loại không dẫn nhiệt đáng kể trong điều kiện sinh hoạt bình thường. Tuy nhiên, tránh tắm nắng kéo dài vùng phẫu thuật vừa mổ xong.",
+        "Không ngưng thuốc loãng xương hay bệnh nền khi trời nóng: Hỏi bác sĩ về lịch uống thuốc phù hợp, đặc biệt với các thuốc cần uống kèm nhiều nước như Alendronate.",
+      ],
+    },
+    {
+      type: "heading",
+      content: "Kết Luận",
+    },
+    {
+      type: "para",
+      content: "Nắng nóng cực đoan là mối nguy hiểm thực sự với sức khỏe — không phải chỉ gây khó chịu đơn thuần. Sốc nhiệt có tỷ lệ tử vong cao và để lại di chứng thần kinh nghiêm trọng ngay cả khi bệnh nhân qua khỏi. Tin tốt là hầu hết các trường hợp đều có thể phòng ngừa được bằng những biện pháp đơn giản: uống đủ nước, tránh nắng vào giờ cao điểm, làm mát môi trường sống và nhận biết sớm các dấu hiệu cảnh báo.",
+    },
+    {
+      type: "para",
+      content: "Hãy chia sẻ bài viết này đến người thân — đặc biệt những người cao tuổi, trẻ nhỏ và người đang điều trị bệnh mãn tính trong gia đình bạn. Trong mùa nắng nóng, sự quan tâm kịp thời của người xung quanh đôi khi có thể cứu sống một người.",
+    },
+    {
+      type: "note",
+      content: "Bài viết tổng hợp từ: Tổ chức Y tế Thế giới (WHO, 2025), CDC Hoa Kỳ, Bộ Y tế Việt Nam và các nghiên cứu lâm sàng đăng trên PubMed/NIH năm 2024–2025. Nếu bạn có thắc mắc cụ thể về sức khỏe trong nắng nóng, hãy liên hệ cơ sở y tế gần nhất hoặc gọi đường dây hỗ trợ y tế 1800 9095.",
+    },
+  ],
+
   "di-bo-dieu-chinh-goc-ban-chan-giam-dau-khop-goi": [
   {
     type: "para",
