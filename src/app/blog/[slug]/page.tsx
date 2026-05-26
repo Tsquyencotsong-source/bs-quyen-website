@@ -42,7 +42,7 @@ const ARTICLES: Record<string, Block[]> = {
   },
   {
     type: "para",
-    content: "Thước đo quan trọng nhất trong đánh giá này là <strong>Knee Adduction Moment (KAM)</strong> — mô men lực tác động vào khoang trong khớp gối trong mỗi bước đi. KAM càng cao, sụn khoang trong mòn càng nhanh. Các yếu tố như góc tiến bàn chân (foot progression angle), chiều rộng bước chân, và độ lệch thân người đều có thể ảnh hưởng trực tiếp đến chỉ số KAM này.",
+    content: "Thước đo quan trọng nhất trong đánh giá này là Knee Adduction Moment (KAM) — mô men lực tác động vào khoang trong khớp gối trong mỗi bước đi. KAM càng cao, sụn khoang trong mòn càng nhanh. Các yếu tố như góc tiến bàn chân (foot progression angle), chiều rộng bước chân, và độ lệch thân người đều có thể ảnh hưởng trực tiếp đến chỉ số KAM này.",
   },
   {
     type: "highlight",
@@ -59,9 +59,9 @@ const ARTICLES: Record<string, Block[]> = {
   {
     type: "list",
     items: [
-      "<strong>Bước 1 — Mô hình hóa cá nhân:</strong> Máy tính tạo ra 4 mô hình bước chân mới cho mỗi bệnh nhân: xoay vào trong 5°, xoay vào trong 10°, xoay ra ngoài 5°, và xoay ra ngoài 10°. Góc nào giảm KAM nhiều nhất sẽ được chọn.",
-      "<strong>Bước 2 — Tập luyện có hướng dẫn:</strong> Nhóm can thiệp (34 người) tham gia 6 buổi tập với chuyên gia vật lý trị liệu, học cách đi với góc bàn chân cá nhân hóa. Nhóm đối chứng (34 người) được khuyến khích đi bộ nhiều hơn mà không thay đổi cách đi.",
-      "<strong>Bước 3 — Theo dõi 12 tháng:</strong> Điểm đau và chụp MRI tiên tiến được thực hiện ở đầu nghiên cứu và sau 1 năm để theo dõi cả triệu chứng lẫn cấu trúc sụn khớp.",
+      "Bước 1 — Mô hình hóa cá nhân: Máy tính tạo ra 4 mô hình bước chân mới cho mỗi bệnh nhân: xoay vào trong 5°, xoay vào trong 10°, xoay ra ngoài 5°, và xoay ra ngoài 10°. Góc nào giảm KAM nhiều nhất sẽ được chọn.",
+      "Bước 2 — Tập luyện có hướng dẫn: Nhóm can thiệp (34 người) tham gia 6 buổi tập với chuyên gia vật lý trị liệu, học cách đi với góc bàn chân cá nhân hóa. Nhóm đối chứng (34 người) được khuyến khích đi bộ nhiều hơn mà không thay đổi cách đi.",
+      "Bước 3 — Theo dõi 12 tháng: Điểm đau và chụp MRI tiên tiến được thực hiện ở đầu nghiên cứu và sau 1 năm để theo dõi cả triệu chứng lẫn cấu trúc sụn khớp.",
     ],
   },
   {
@@ -75,16 +75,16 @@ const ARTICLES: Record<string, Block[]> = {
   {
     type: "list",
     items: [
-      "Nhóm can thiệp giảm điểm đau trung bình <strong>2,5 điểm</strong> trên thang 10 điểm — tương đương hiệu quả của thuốc giảm đau không kê đơn (paracetamol, ibuprofen).",
-      "Nhóm đối chứng chỉ giảm được <strong>hơn 1 điểm</strong> đau mà không thay đổi cách đi.",
-      "Nhóm can thiệp giảm lực tải trọng tối đa tại khớp gối <strong>4%</strong> — trong khi nhóm đối chứng tăng tải trọng thêm hơn 3%.",
-      "Hình ảnh MRI tiên tiến cho thấy nhóm điều chỉnh bước chân có <strong>tốc độ thoái hóa sụn chậm hơn</strong> ở khoang trong so với nhóm đối chứng.",
+      "Nhóm can thiệp giảm điểm đau trung bình 2,5 điểm trên thang 10 điểm — tương đương hiệu quả của thuốc giảm đau không kê đơn (paracetamol, ibuprofen).",
+      "Nhóm đối chứng chỉ giảm được hơn 1 điểm đau mà không thay đổi cách đi.",
+      "Nhóm can thiệp giảm lực tải trọng tối đa tại khớp gối 4% — trong khi nhóm đối chứng tăng tải trọng thêm hơn 3%.",
+      "Hình ảnh MRI tiên tiến cho thấy nhóm điều chỉnh bước chân có tốc độ thoái hóa sụn chậm hơn ở khoang trong so với nhóm đối chứng.",
       "Không ghi nhận tác dụng phụ có hại nào trong suốt thời gian nghiên cứu.",
     ],
   },
   {
     type: "para",
-    content: "Đây là thử nghiệm lâm sàng ngẫu nhiên có đối chứng <strong>đầu tiên trên thế giới</strong> chứng minh rằng điều chỉnh góc bàn chân theo từng cá nhân — không phải áp dụng một công thức chung — có thể giảm triệu chứng lâu dài và làm chậm tiến triển tổn thương sụn khớp gối.",
+    content: "Đây là thử nghiệm lâm sàng ngẫu nhiên có đối chứng đầu tiên trên thế giới chứng minh rằng điều chỉnh góc bàn chân theo từng cá nhân — không phải áp dụng một công thức chung — có thể giảm triệu chứng lâu dài và làm chậm tiến triển tổn thương sụn khớp gối.",
   },
   {
     type: "heading",
@@ -96,7 +96,7 @@ const ARTICLES: Record<string, Block[]> = {
   },
   {
     type: "para",
-    content: "Điều quan trọng là <strong>mỗi người có một góc tối ưu riêng</strong>. Một số bệnh nhân đáp ứng tốt hơn với toe-in, một số khác với toe-out, và góc hiệu quả có thể là 5° hoặc 10°. Đây là lý do tại sao các nghiên cứu trước đây — áp dụng một góc cố định cho tất cả mọi người — không cho kết quả tích cực: tiếp cận \"một cỡ vừa tất cả\" không phù hợp với sinh cơ học cá thể.",
+    content: "Điều quan trọng là mỗi người có một góc tối ưu riêng. Một số bệnh nhân đáp ứng tốt hơn với toe-in, một số khác với toe-out, và góc hiệu quả có thể là 5° hoặc 10°. Đây là lý do tại sao các nghiên cứu trước đây — áp dụng một góc cố định cho tất cả mọi người — không cho kết quả tích cực: tiếp cận \"một cỡ vừa tất cả\" không phù hợp với sinh cơ học cá thể.",
   },
   {
     type: "heading",
@@ -105,11 +105,11 @@ const ARTICLES: Record<string, Block[]> = {
   {
     type: "list",
     items: [
-      "<strong>Bước 1 — Phân tích dáng đi (Gait Analysis):</strong> Bệnh nhân được đánh giá bởi bác sĩ vật lý trị liệu hoặc chuyên gia phục hồi chức năng, sử dụng hệ thống phân tích chuyển động (motion capture) hoặc phần mềm AI phân tích video từ điện thoại thông minh để đo KAM theo các tư thế bàn chân khác nhau.",
-      "<strong>Bước 2 — Xác định góc tối ưu cá nhân:</strong> Chọn góc (5° hoặc 10°; vào trong hoặc ra ngoài) tạo ra mức giảm KAM lớn nhất cho từng bệnh nhân cụ thể.",
-      "<strong>Bước 3 — Tập luyện có hướng dẫn (6 buổi):</strong> Bệnh nhân tập đi với góc mới dưới sự giám sát của chuyên gia, sử dụng phản hồi trực quan (gương, vạch kẻ sàn, hoặc cảm biến) để giúp nhận biết và duy trì tư thế đúng. Mục tiêu ít nhất 20 phút/ngày.",
-      "<strong>Bước 4 — Hình thành thói quen (4–6 tuần):</strong> Qua tập luyện lặp lại, cách đi mới dần trở thành phản xạ tự động, không cần phải chú tâm chỉnh sửa trong từng bước.",
-      "<strong>Bước 5 — Duy trì và theo dõi:</strong> Tiếp tục duy trì cách đi trong sinh hoạt hàng ngày; tái đánh giá định kỳ để theo dõi tiến triển lâm sàng.",
+      "Bước 1 — Phân tích dáng đi (Gait Analysis): Bệnh nhân được đánh giá bởi bác sĩ vật lý trị liệu hoặc chuyên gia phục hồi chức năng, sử dụng hệ thống phân tích chuyển động (motion capture) hoặc phần mềm AI phân tích video từ điện thoại thông minh để đo KAM theo các tư thế bàn chân khác nhau.",
+      "Bước 2 — Xác định góc tối ưu cá nhân: Chọn góc (5° hoặc 10°; vào trong hoặc ra ngoài) tạo ra mức giảm KAM lớn nhất cho từng bệnh nhân cụ thể.",
+      "Bước 3 — Tập luyện có hướng dẫn (6 buổi): Bệnh nhân tập đi với góc mới dưới sự giám sát của chuyên gia, sử dụng phản hồi trực quan (gương, vạch kẻ sàn, hoặc cảm biến) để giúp nhận biết và duy trì tư thế đúng. Mục tiêu ít nhất 20 phút/ngày.",
+      "Bước 4 — Hình thành thói quen (4–6 tuần): Qua tập luyện lặp lại, cách đi mới dần trở thành phản xạ tự động, không cần phải chú tâm chỉnh sửa trong từng bước.",
+      "Bước 5 — Duy trì và theo dõi: Tiếp tục duy trì cách đi trong sinh hoạt hàng ngày; tái đánh giá định kỳ để theo dõi tiến triển lâm sàng.",
     ],
   },
   {
@@ -127,10 +127,10 @@ const ARTICLES: Record<string, Block[]> = {
   {
     type: "list",
     items: [
-      "<strong>Thuốc giảm đau (NSAIDs, paracetamol):</strong> Giảm triệu chứng nhưng không điều trị nguyên nhân, có thể gây tổn thương dạ dày, gan, thận khi dùng lâu dài.",
-      "<strong>Tiêm corticosteroid:</strong> Giảm viêm tạm thời, không ngăn tiến triển bệnh, không thể thực hiện quá 3–4 lần/năm.",
-      "<strong>Phẫu thuật thay khớp gối:</strong> Hiệu quả cao ở giai đoạn cuối nhưng là can thiệp lớn, có nguy cơ biến chứng, và tuổi thọ khớp nhân tạo có giới hạn (15–20 năm).",
-      "<strong>Điều chỉnh dáng đi cá nhân hóa:</strong> Không xâm lấn, không tác dụng phụ, giảm đau tương đương thuốc OTC, có bằng chứng làm chậm tiến triển sụn — phù hợp cho giai đoạn nhẹ đến trung bình.",
+      "Thuốc giảm đau (NSAIDs, paracetamol): Giảm triệu chứng nhưng không điều trị nguyên nhân, có thể gây tổn thương dạ dày, gan, thận khi dùng lâu dài.",
+      "Tiêm corticosteroid: Giảm viêm tạm thời, không ngăn tiến triển bệnh, không thể thực hiện quá 3–4 lần/năm.",
+      "Phẫu thuật thay khớp gối: Hiệu quả cao ở giai đoạn cuối nhưng là can thiệp lớn, có nguy cơ biến chứng, và tuổi thọ khớp nhân tạo có giới hạn (15–20 năm).",
+      "Điều chỉnh dáng đi cá nhân hóa: Không xâm lấn, không tác dụng phụ, giảm đau tương đương thuốc OTC, có bằng chứng làm chậm tiến triển sụn — phù hợp cho giai đoạn nhẹ đến trung bình.",
     ],
   },
   {
@@ -140,7 +140,7 @@ const ARTICLES: Record<string, Block[]> = {
   {
     type: "list",
     items: [
-      "Bệnh nhân thoái hóa khớp gối khoang trong mức độ <strong>nhẹ đến trung bình</strong> (Kellgren-Lawrence độ 1–3).",
+      "Bệnh nhân thoái hóa khớp gối khoang trong mức độ nhẹ đến trung bình (Kellgren-Lawrence độ 1–3).",
       "Người muốn trì hoãn hoặc tránh phẫu thuật thay khớp.",
       "Bệnh nhân không thể dùng thuốc kháng viêm lâu dài do bệnh nền (loét dạ dày, suy thận, bệnh tim mạch).",
       "Người đang trong chương trình phục hồi chức năng sau can thiệp khớp gối.",
