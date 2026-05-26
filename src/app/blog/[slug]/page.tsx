@@ -27,6 +27,161 @@ type Block =
 
 const ARTICLES: Record<string, Block[]> = {
   
+  "di-bo-dieu-chinh-goc-ban-chan-giam-dau-khop-goi": [
+  {
+    type: "para",
+    content: "Một nghiên cứu lâm sàng ngẫu nhiên có đối chứng (RCT) vừa công bố trên tạp chí <em>The Lancet Rheumatology</em> tháng 8/2025 mang đến hy vọng mới cho hàng triệu bệnh nhân thoái hóa khớp gối: chỉ cần thay đổi góc bàn chân thêm 5–10 độ khi đi bộ — hướng vào trong hoặc ra ngoài tùy từng người — có thể giảm đau khớp gối đáng kể, làm chậm tổn thương sụn khớp và không có bất kỳ tác dụng phụ nào. Đây là công trình hợp tác của các nhà nghiên cứu tại NYU Langone Health, Đại học Utah và Đại học Stanford.",
+  },
+  {
+    type: "heading",
+    content: "Tại Sao Khớp Gối Bị Thoái Hóa? Hiểu Từ Góc Nhìn Sinh Cơ Học",
+  },
+  {
+    type: "para",
+    content: "Trong bước đi bình thường, khoang trong (medial compartment) của khớp gối phải chịu khoảng 60–80% tổng lực tải trọng cơ thể. Ở người có trục chi lệch vào trong (varus malalignment) hoặc dáng đi bất thường, lực này có thể tăng lên đến 80–100% tổng trọng lượng — gây ra tình trạng quá tải mạn tính, bào mòn sụn khớp và cuối cùng dẫn đến thoái hóa.",
+  },
+  {
+    type: "para",
+    content: "Thước đo quan trọng nhất trong đánh giá này là <strong>Knee Adduction Moment (KAM)</strong> — mô men lực tác động vào khoang trong khớp gối trong mỗi bước đi. KAM càng cao, sụn khoang trong mòn càng nhanh. Các yếu tố như góc tiến bàn chân (foot progression angle), chiều rộng bước chân, và độ lệch thân người đều có thể ảnh hưởng trực tiếp đến chỉ số KAM này.",
+  },
+  {
+    type: "highlight",
+    content: "\"Chúng tôi muốn tìm hiểu liệu thay đổi cách đặt bàn chân khi đi bộ có thể làm giảm lực tải quá mức lên khớp và hỗ trợ điều trị bệnh hay không.\" — TS. Valentina Mazzoli, PhD, Trưởng nhóm nghiên cứu, NYU Langone Health",
+  },
+  {
+    type: "heading",
+    content: "Nghiên Cứu Được Thực Hiện Như Thế Nào?",
+  },
+  {
+    type: "para",
+    content: "Nhóm nghiên cứu tuyển 68 bệnh nhân nam và nữ bị thoái hóa khớp gối mức độ nhẹ đến trung bình (khoang trong). Tất cả được phân tích dáng đi trên máy chạy bộ tại phòng thí nghiệm chuyên biệt, sử dụng phần mềm mô phỏng tính toán lực tải trọng tối đa tại khoang trong của mỗi người.",
+  },
+  {
+    type: "list",
+    items: [
+      "<strong>Bước 1 — Mô hình hóa cá nhân:</strong> Máy tính tạo ra 4 mô hình bước chân mới cho mỗi bệnh nhân: xoay vào trong 5°, xoay vào trong 10°, xoay ra ngoài 5°, và xoay ra ngoài 10°. Góc nào giảm KAM nhiều nhất sẽ được chọn.",
+      "<strong>Bước 2 — Tập luyện có hướng dẫn:</strong> Nhóm can thiệp (34 người) tham gia 6 buổi tập với chuyên gia vật lý trị liệu, học cách đi với góc bàn chân cá nhân hóa. Nhóm đối chứng (34 người) được khuyến khích đi bộ nhiều hơn mà không thay đổi cách đi.",
+      "<strong>Bước 3 — Theo dõi 12 tháng:</strong> Điểm đau và chụp MRI tiên tiến được thực hiện ở đầu nghiên cứu và sau 1 năm để theo dõi cả triệu chứng lẫn cấu trúc sụn khớp.",
+    ],
+  },
+  {
+    type: "heading",
+    content: "Kết Quả Nghiên Cứu: Những Con Số Ấn Tượng",
+  },
+  {
+    type: "greenbox",
+    title: "✅ Các Kết Quả Chính Sau 12 Tháng",
+    items: [
+      "Nhóm can thiệp giảm điểm đau trung bình <strong>2,5 điểm</strong> trên thang 10 điểm — tương đương hiệu quả của thuốc giảm đau không kê đơn (paracetamol, ibuprofen).",
+      "Nhóm đối chứng chỉ giảm được <strong>hơn 1 điểm</strong> đau mà không thay đổi cách đi.",
+      "Nhóm can thiệp giảm lực tải trọng tối đa tại khớp gối <strong>4%</strong> — trong khi nhóm đối chứng tăng tải trọng thêm hơn 3%.",
+      "Hình ảnh MRI tiên tiến cho thấy nhóm điều chỉnh bước chân có <strong>tốc độ thoái hóa sụn chậm hơn</strong> ở khoang trong so với nhóm đối chứng.",
+      "Không ghi nhận tác dụng phụ có hại nào trong suốt thời gian nghiên cứu.",
+    ],
+  },
+  {
+    type: "para",
+    content: "Đây là thử nghiệm lâm sàng ngẫu nhiên có đối chứng <strong>đầu tiên trên thế giới</strong> chứng minh rằng điều chỉnh góc bàn chân theo từng cá nhân — không phải áp dụng một công thức chung — có thể giảm triệu chứng lâu dài và làm chậm tiến triển tổn thương sụn khớp gối.",
+  },
+  {
+    type: "heading",
+    content: "Cơ Chế Hoạt Động: Tại Sao Góc Bàn Chân Lại Quan Trọng?",
+  },
+  {
+    type: "para",
+    content: "Khi bàn chân xoay nhẹ vào trong (toe-in) hoặc ra ngoài (toe-out) so với hướng đi, hướng của lực phản lực mặt đất (ground reaction force) thay đổi tương đối với trục khớp gối. Điều này làm thay đổi cánh tay đòn (moment arm) của lực, từ đó trực tiếp giảm mô men lực tác động lên khoang trong. Tương tự nguyên lý cơ học — cùng một lực nhưng thay đổi điểm tác động sẽ thay đổi hoàn toàn áp suất tạo ra.",
+  },
+  {
+    type: "para",
+    content: "Điều quan trọng là <strong>mỗi người có một góc tối ưu riêng</strong>. Một số bệnh nhân đáp ứng tốt hơn với toe-in, một số khác với toe-out, và góc hiệu quả có thể là 5° hoặc 10°. Đây là lý do tại sao các nghiên cứu trước đây — áp dụng một góc cố định cho tất cả mọi người — không cho kết quả tích cực: tiếp cận \"một cỡ vừa tất cả\" không phù hợp với sinh cơ học cá thể.",
+  },
+  {
+    type: "heading",
+    content: "Quy Trình Thực Hiện Trong Thực Hành Lâm Sàng",
+  },
+  {
+    type: "list",
+    items: [
+      "<strong>Bước 1 — Phân tích dáng đi (Gait Analysis):</strong> Bệnh nhân được đánh giá bởi bác sĩ vật lý trị liệu hoặc chuyên gia phục hồi chức năng, sử dụng hệ thống phân tích chuyển động (motion capture) hoặc phần mềm AI phân tích video từ điện thoại thông minh để đo KAM theo các tư thế bàn chân khác nhau.",
+      "<strong>Bước 2 — Xác định góc tối ưu cá nhân:</strong> Chọn góc (5° hoặc 10°; vào trong hoặc ra ngoài) tạo ra mức giảm KAM lớn nhất cho từng bệnh nhân cụ thể.",
+      "<strong>Bước 3 — Tập luyện có hướng dẫn (6 buổi):</strong> Bệnh nhân tập đi với góc mới dưới sự giám sát của chuyên gia, sử dụng phản hồi trực quan (gương, vạch kẻ sàn, hoặc cảm biến) để giúp nhận biết và duy trì tư thế đúng. Mục tiêu ít nhất 20 phút/ngày.",
+      "<strong>Bước 4 — Hình thành thói quen (4–6 tuần):</strong> Qua tập luyện lặp lại, cách đi mới dần trở thành phản xạ tự động, không cần phải chú tâm chỉnh sửa trong từng bước.",
+      "<strong>Bước 5 — Duy trì và theo dõi:</strong> Tiếp tục duy trì cách đi trong sinh hoạt hàng ngày; tái đánh giá định kỳ để theo dõi tiến triển lâm sàng.",
+    ],
+  },
+  {
+    type: "heading",
+    content: "Ứng Dụng AI Trong Phân Tích Dáng Đi: Bước Tiến Quan Trọng",
+  },
+  {
+    type: "para",
+    content: "Một trong những rào cản lớn nhất của phương pháp này là yêu cầu phòng thí nghiệm chuyên biệt để phân tích dáng đi — điều không phải cơ sở y tế nào cũng có. Tuy nhiên, TS. Mazzoli cho biết hiện đã có phần mềm AI phân tích lực tải khớp thông qua video điện thoại thông minh, giúp bác sĩ lâm sàng có thể thực hiện phân tích dáng đi ngay tại phòng khám. Đây là bước đột phá giúp phổ cập hóa phương pháp điều trị không xâm lấn này.",
+  },
+  {
+    type: "heading",
+    content: "So Sánh Với Các Phương Pháp Điều Trị Thoái Hóa Khớp Gối Hiện Tại",
+  },
+  {
+    type: "list",
+    items: [
+      "<strong>Thuốc giảm đau (NSAIDs, paracetamol):</strong> Giảm triệu chứng nhưng không điều trị nguyên nhân, có thể gây tổn thương dạ dày, gan, thận khi dùng lâu dài.",
+      "<strong>Tiêm corticosteroid:</strong> Giảm viêm tạm thời, không ngăn tiến triển bệnh, không thể thực hiện quá 3–4 lần/năm.",
+      "<strong>Phẫu thuật thay khớp gối:</strong> Hiệu quả cao ở giai đoạn cuối nhưng là can thiệp lớn, có nguy cơ biến chứng, và tuổi thọ khớp nhân tạo có giới hạn (15–20 năm).",
+      "<strong>Điều chỉnh dáng đi cá nhân hóa:</strong> Không xâm lấn, không tác dụng phụ, giảm đau tương đương thuốc OTC, có bằng chứng làm chậm tiến triển sụn — phù hợp cho giai đoạn nhẹ đến trung bình.",
+    ],
+  },
+  {
+    type: "heading",
+    content: "Ai Là Đối Tượng Phù Hợp Nhất?",
+  },
+  {
+    type: "list",
+    items: [
+      "Bệnh nhân thoái hóa khớp gối khoang trong mức độ <strong>nhẹ đến trung bình</strong> (Kellgren-Lawrence độ 1–3).",
+      "Người muốn trì hoãn hoặc tránh phẫu thuật thay khớp.",
+      "Bệnh nhân không thể dùng thuốc kháng viêm lâu dài do bệnh nền (loét dạ dày, suy thận, bệnh tim mạch).",
+      "Người đang trong chương trình phục hồi chức năng sau can thiệp khớp gối.",
+      "Người có nguy cơ cao thoái hóa khớp gối muốn phòng ngừa sớm (thừa cân, vận động viên, người lao động nặng).",
+    ],
+  },
+  {
+    type: "warning",
+    title: "⚠️ Những Trường Hợp Cần Thận Trọng",
+    items: [
+      "Thoái hóa khớp gối giai đoạn nặng (Kellgren-Lawrence độ 4): hiệu quả có thể hạn chế, cần đánh giá lại chỉ định phẫu thuật.",
+      "Bệnh nhân có bất thường cấu trúc nặng (biến dạng varus/valgus lớn, sau chấn thương trục chi): cần đánh giá chỉnh hình trước.",
+      "Người có bệnh lý thần kinh ảnh hưởng đến dáng đi (bệnh Parkinson, đột quỵ, viêm đa khớp dạng thấp nặng): cần cá thể hóa thêm.",
+      "KHÔNG tự ý điều chỉnh góc bàn chân mà không có đánh giá gait analysis chính thức — sai góc có thể tăng tải trọng lên khoang khớp khác hoặc gây đau cổ chân, hông.",
+    ],
+  },
+  {
+    type: "heading",
+    content: "Hướng Nghiên Cứu Tiếp Theo",
+  },
+  {
+    type: "para",
+    content: "Nhóm nghiên cứu đang lên kế hoạch mở rộng nghiên cứu sang bệnh nhân béo phì — nhóm có nguy cơ thoái hóa khớp gối đặc biệt cao do tải trọng cơ thể lớn. Họ cũng sẽ kiểm tra tính chính xác của các ứng dụng AI phân tích dáng đi qua điện thoại thông minh trong việc xác định góc bàn chân tối ưu cho từng bệnh nhân, hướng đến phổ cập hóa phương pháp này tại các phòng khám không có phòng thí nghiệm chuyên biệt.",
+  },
+  {
+    type: "heading",
+    content: "Tài Liệu Tham Khảo",
+  },
+  {
+    type: "list",
+    items: [
+      "Mazzoli V, Uhlrich S, Kolesar J, et al. <em>Personalised gait retraining for medial compartment knee osteoarthritis: a randomised controlled trial.</em> The Lancet Rheumatology. August 12, 2025. DOI: 10.1016/S2665-9913(25)00151-1",
+      "NYU Langone News. <em>Study Reveals How Small Changes in Walking Technique May Help Treat Knee Osteoarthritis.</em> August 13, 2025. nyulangone.org",
+      "Harvard Health Publishing. <em>Correcting how you walk may ease osteoarthritis knee pain.</em> health.harvard.edu",
+      "Shull PB et al. <em>Six-week gait retraining program reduces knee adduction moment, reduces pain, and improves function for individuals with medial compartment knee osteoarthritis.</em> PubMed PMID: 23494804",
+      "ScienceDaily. <em>Scientists discover simple way to relieve arthritis pain without pills or surgery.</em> May 2026.",
+    ],
+  },
+  {
+    type: "note",
+    content: "Bài viết này được biên soạn với mục đích cung cấp thông tin y khoa tổng quát, không thay thế cho việc thăm khám và tư vấn trực tiếp bởi bác sĩ chuyên khoa. Phương pháp điều chỉnh dáng đi cần được chỉ định và hướng dẫn bởi bác sĩ vật lý trị liệu hoặc chuyên gia phục hồi chức năng sau khi đánh giá lâm sàng đầy đủ. Nếu bạn có triệu chứng đau khớp gối, hãy đến gặp bác sĩ chuyên khoa xương khớp hoặc cột sống để được tư vấn phù hợp.",
+  },
+],
+
   "tu-y-bo-thuoc-loang-xuong": [
     {
       type: "para",
@@ -477,161 +632,6 @@ const ARTICLES: Record<string, Block[]> = {
     "Hậu quả: đau mạn tính, mất khả năng đi lại, phụ thuộc người thân"
   ]},
   { type: "note", content: "Thông tin giáo dục sức khỏe tổng quát. Nếu bạn có nguy cơ loãng xương hoặc đã được chẩn đoán, hãy gặp bác sĩ để được đánh giá và tư vấn điều trị phù hợp." },
-],
-
-"di-bo-dieu-chinh-goc-ban-chan-giam-dau-khop-goi": [
-  {
-    type: "para",
-    content: "Một nghiên cứu lâm sàng ngẫu nhiên có đối chứng (RCT) vừa công bố trên tạp chí <em>The Lancet Rheumatology</em> tháng 8/2025 mang đến hy vọng mới cho hàng triệu bệnh nhân thoái hóa khớp gối: chỉ cần thay đổi góc bàn chân thêm 5–10 độ khi đi bộ — hướng vào trong hoặc ra ngoài tùy từng người — có thể giảm đau khớp gối đáng kể, làm chậm tổn thương sụn khớp và không có bất kỳ tác dụng phụ nào. Đây là công trình hợp tác của các nhà nghiên cứu tại NYU Langone Health, Đại học Utah và Đại học Stanford.",
-  },
-  {
-    type: "heading",
-    content: "Tại Sao Khớp Gối Bị Thoái Hóa? Hiểu Từ Góc Nhìn Sinh Cơ Học",
-  },
-  {
-    type: "para",
-    content: "Trong bước đi bình thường, khoang trong (medial compartment) của khớp gối phải chịu khoảng 60–80% tổng lực tải trọng cơ thể. Ở người có trục chi lệch vào trong (varus malalignment) hoặc dáng đi bất thường, lực này có thể tăng lên đến 80–100% tổng trọng lượng — gây ra tình trạng quá tải mạn tính, bào mòn sụn khớp và cuối cùng dẫn đến thoái hóa.",
-  },
-  {
-    type: "para",
-    content: "Thước đo quan trọng nhất trong đánh giá này là <strong>Knee Adduction Moment (KAM)</strong> — mô men lực tác động vào khoang trong khớp gối trong mỗi bước đi. KAM càng cao, sụn khoang trong mòn càng nhanh. Các yếu tố như góc tiến bàn chân (foot progression angle), chiều rộng bước chân, và độ lệch thân người đều có thể ảnh hưởng trực tiếp đến chỉ số KAM này.",
-  },
-  {
-    type: "highlight",
-    content: "\"Chúng tôi muốn tìm hiểu liệu thay đổi cách đặt bàn chân khi đi bộ có thể làm giảm lực tải quá mức lên khớp và hỗ trợ điều trị bệnh hay không.\" — TS. Valentina Mazzoli, PhD, Trưởng nhóm nghiên cứu, NYU Langone Health",
-  },
-  {
-    type: "heading",
-    content: "Nghiên Cứu Được Thực Hiện Như Thế Nào?",
-  },
-  {
-    type: "para",
-    content: "Nhóm nghiên cứu tuyển 68 bệnh nhân nam và nữ bị thoái hóa khớp gối mức độ nhẹ đến trung bình (khoang trong). Tất cả được phân tích dáng đi trên máy chạy bộ tại phòng thí nghiệm chuyên biệt, sử dụng phần mềm mô phỏng tính toán lực tải trọng tối đa tại khoang trong của mỗi người.",
-  },
-  {
-    type: "list",
-    items: [
-      "<strong>Bước 1 — Mô hình hóa cá nhân:</strong> Máy tính tạo ra 4 mô hình bước chân mới cho mỗi bệnh nhân: xoay vào trong 5°, xoay vào trong 10°, xoay ra ngoài 5°, và xoay ra ngoài 10°. Góc nào giảm KAM nhiều nhất sẽ được chọn.",
-      "<strong>Bước 2 — Tập luyện có hướng dẫn:</strong> Nhóm can thiệp (34 người) tham gia 6 buổi tập với chuyên gia vật lý trị liệu, học cách đi với góc bàn chân cá nhân hóa. Nhóm đối chứng (34 người) được khuyến khích đi bộ nhiều hơn mà không thay đổi cách đi.",
-      "<strong>Bước 3 — Theo dõi 12 tháng:</strong> Điểm đau và chụp MRI tiên tiến được thực hiện ở đầu nghiên cứu và sau 1 năm để theo dõi cả triệu chứng lẫn cấu trúc sụn khớp.",
-    ],
-  },
-  {
-    type: "heading",
-    content: "Kết Quả Nghiên Cứu: Những Con Số Ấn Tượng",
-  },
-  {
-    type: "greenbox",
-    title: "✅ Các Kết Quả Chính Sau 12 Tháng",
-    items: [
-      "Nhóm can thiệp giảm điểm đau trung bình <strong>2,5 điểm</strong> trên thang 10 điểm — tương đương hiệu quả của thuốc giảm đau không kê đơn (paracetamol, ibuprofen).",
-      "Nhóm đối chứng chỉ giảm được <strong>hơn 1 điểm</strong> đau mà không thay đổi cách đi.",
-      "Nhóm can thiệp giảm lực tải trọng tối đa tại khớp gối <strong>4%</strong> — trong khi nhóm đối chứng tăng tải trọng thêm hơn 3%.",
-      "Hình ảnh MRI tiên tiến cho thấy nhóm điều chỉnh bước chân có <strong>tốc độ thoái hóa sụn chậm hơn</strong> ở khoang trong so với nhóm đối chứng.",
-      "Không ghi nhận tác dụng phụ có hại nào trong suốt thời gian nghiên cứu.",
-    ],
-  },
-  {
-    type: "para",
-    content: "Đây là thử nghiệm lâm sàng ngẫu nhiên có đối chứng <strong>đầu tiên trên thế giới</strong> chứng minh rằng điều chỉnh góc bàn chân theo từng cá nhân — không phải áp dụng một công thức chung — có thể giảm triệu chứng lâu dài và làm chậm tiến triển tổn thương sụn khớp gối.",
-  },
-  {
-    type: "heading",
-    content: "Cơ Chế Hoạt Động: Tại Sao Góc Bàn Chân Lại Quan Trọng?",
-  },
-  {
-    type: "para",
-    content: "Khi bàn chân xoay nhẹ vào trong (toe-in) hoặc ra ngoài (toe-out) so với hướng đi, hướng của lực phản lực mặt đất (ground reaction force) thay đổi tương đối với trục khớp gối. Điều này làm thay đổi cánh tay đòn (moment arm) của lực, từ đó trực tiếp giảm mô men lực tác động lên khoang trong. Tương tự nguyên lý cơ học — cùng một lực nhưng thay đổi điểm tác động sẽ thay đổi hoàn toàn áp suất tạo ra.",
-  },
-  {
-    type: "para",
-    content: "Điều quan trọng là <strong>mỗi người có một góc tối ưu riêng</strong>. Một số bệnh nhân đáp ứng tốt hơn với toe-in, một số khác với toe-out, và góc hiệu quả có thể là 5° hoặc 10°. Đây là lý do tại sao các nghiên cứu trước đây — áp dụng một góc cố định cho tất cả mọi người — không cho kết quả tích cực: tiếp cận \"một cỡ vừa tất cả\" không phù hợp với sinh cơ học cá thể.",
-  },
-  {
-    type: "heading",
-    content: "Quy Trình Thực Hiện Trong Thực Hành Lâm Sàng",
-  },
-  {
-    type: "list",
-    items: [
-      "<strong>Bước 1 — Phân tích dáng đi (Gait Analysis):</strong> Bệnh nhân được đánh giá bởi bác sĩ vật lý trị liệu hoặc chuyên gia phục hồi chức năng, sử dụng hệ thống phân tích chuyển động (motion capture) hoặc phần mềm AI phân tích video từ điện thoại thông minh để đo KAM theo các tư thế bàn chân khác nhau.",
-      "<strong>Bước 2 — Xác định góc tối ưu cá nhân:</strong> Chọn góc (5° hoặc 10°; vào trong hoặc ra ngoài) tạo ra mức giảm KAM lớn nhất cho từng bệnh nhân cụ thể.",
-      "<strong>Bước 3 — Tập luyện có hướng dẫn (6 buổi):</strong> Bệnh nhân tập đi với góc mới dưới sự giám sát của chuyên gia, sử dụng phản hồi trực quan (gương, vạch kẻ sàn, hoặc cảm biến) để giúp nhận biết và duy trì tư thế đúng. Mục tiêu ít nhất 20 phút/ngày.",
-      "<strong>Bước 4 — Hình thành thói quen (4–6 tuần):</strong> Qua tập luyện lặp lại, cách đi mới dần trở thành phản xạ tự động, không cần phải chú tâm chỉnh sửa trong từng bước.",
-      "<strong>Bước 5 — Duy trì và theo dõi:</strong> Tiếp tục duy trì cách đi trong sinh hoạt hàng ngày; tái đánh giá định kỳ để theo dõi tiến triển lâm sàng.",
-    ],
-  },
-  {
-    type: "heading",
-    content: "Ứng Dụng AI Trong Phân Tích Dáng Đi: Bước Tiến Quan Trọng",
-  },
-  {
-    type: "para",
-    content: "Một trong những rào cản lớn nhất của phương pháp này là yêu cầu phòng thí nghiệm chuyên biệt để phân tích dáng đi — điều không phải cơ sở y tế nào cũng có. Tuy nhiên, TS. Mazzoli cho biết hiện đã có phần mềm AI phân tích lực tải khớp thông qua video điện thoại thông minh, giúp bác sĩ lâm sàng có thể thực hiện phân tích dáng đi ngay tại phòng khám. Đây là bước đột phá giúp phổ cập hóa phương pháp điều trị không xâm lấn này.",
-  },
-  {
-    type: "heading",
-    content: "So Sánh Với Các Phương Pháp Điều Trị Thoái Hóa Khớp Gối Hiện Tại",
-  },
-  {
-    type: "list",
-    items: [
-      "<strong>Thuốc giảm đau (NSAIDs, paracetamol):</strong> Giảm triệu chứng nhưng không điều trị nguyên nhân, có thể gây tổn thương dạ dày, gan, thận khi dùng lâu dài.",
-      "<strong>Tiêm corticosteroid:</strong> Giảm viêm tạm thời, không ngăn tiến triển bệnh, không thể thực hiện quá 3–4 lần/năm.",
-      "<strong>Phẫu thuật thay khớp gối:</strong> Hiệu quả cao ở giai đoạn cuối nhưng là can thiệp lớn, có nguy cơ biến chứng, và tuổi thọ khớp nhân tạo có giới hạn (15–20 năm).",
-      "<strong>Điều chỉnh dáng đi cá nhân hóa:</strong> Không xâm lấn, không tác dụng phụ, giảm đau tương đương thuốc OTC, có bằng chứng làm chậm tiến triển sụn — phù hợp cho giai đoạn nhẹ đến trung bình.",
-    ],
-  },
-  {
-    type: "heading",
-    content: "Ai Là Đối Tượng Phù Hợp Nhất?",
-  },
-  {
-    type: "list",
-    items: [
-      "Bệnh nhân thoái hóa khớp gối khoang trong mức độ <strong>nhẹ đến trung bình</strong> (Kellgren-Lawrence độ 1–3).",
-      "Người muốn trì hoãn hoặc tránh phẫu thuật thay khớp.",
-      "Bệnh nhân không thể dùng thuốc kháng viêm lâu dài do bệnh nền (loét dạ dày, suy thận, bệnh tim mạch).",
-      "Người đang trong chương trình phục hồi chức năng sau can thiệp khớp gối.",
-      "Người có nguy cơ cao thoái hóa khớp gối muốn phòng ngừa sớm (thừa cân, vận động viên, người lao động nặng).",
-    ],
-  },
-  {
-    type: "warning",
-    title: "⚠️ Những Trường Hợp Cần Thận Trọng",
-    items: [
-      "Thoái hóa khớp gối giai đoạn nặng (Kellgren-Lawrence độ 4): hiệu quả có thể hạn chế, cần đánh giá lại chỉ định phẫu thuật.",
-      "Bệnh nhân có bất thường cấu trúc nặng (biến dạng varus/valgus lớn, sau chấn thương trục chi): cần đánh giá chỉnh hình trước.",
-      "Người có bệnh lý thần kinh ảnh hưởng đến dáng đi (bệnh Parkinson, đột quỵ, viêm đa khớp dạng thấp nặng): cần cá thể hóa thêm.",
-      "KHÔNG tự ý điều chỉnh góc bàn chân mà không có đánh giá gait analysis chính thức — sai góc có thể tăng tải trọng lên khoang khớp khác hoặc gây đau cổ chân, hông.",
-    ],
-  },
-  {
-    type: "heading",
-    content: "Hướng Nghiên Cứu Tiếp Theo",
-  },
-  {
-    type: "para",
-    content: "Nhóm nghiên cứu đang lên kế hoạch mở rộng nghiên cứu sang bệnh nhân béo phì — nhóm có nguy cơ thoái hóa khớp gối đặc biệt cao do tải trọng cơ thể lớn. Họ cũng sẽ kiểm tra tính chính xác của các ứng dụng AI phân tích dáng đi qua điện thoại thông minh trong việc xác định góc bàn chân tối ưu cho từng bệnh nhân, hướng đến phổ cập hóa phương pháp này tại các phòng khám không có phòng thí nghiệm chuyên biệt.",
-  },
-  {
-    type: "heading",
-    content: "Tài Liệu Tham Khảo",
-  },
-  {
-    type: "list",
-    items: [
-      "Mazzoli V, Uhlrich S, Kolesar J, et al. <em>Personalised gait retraining for medial compartment knee osteoarthritis: a randomised controlled trial.</em> The Lancet Rheumatology. August 12, 2025. DOI: 10.1016/S2665-9913(25)00151-1",
-      "NYU Langone News. <em>Study Reveals How Small Changes in Walking Technique May Help Treat Knee Osteoarthritis.</em> August 13, 2025. nyulangone.org",
-      "Harvard Health Publishing. <em>Correcting how you walk may ease osteoarthritis knee pain.</em> health.harvard.edu",
-      "Shull PB et al. <em>Six-week gait retraining program reduces knee adduction moment, reduces pain, and improves function for individuals with medial compartment knee osteoarthritis.</em> PubMed PMID: 23494804",
-      "ScienceDaily. <em>Scientists discover simple way to relieve arthritis pain without pills or surgery.</em> May 2026.",
-    ],
-  },
-  {
-    type: "note",
-    content: "Bài viết này được biên soạn với mục đích cung cấp thông tin y khoa tổng quát, không thay thế cho việc thăm khám và tư vấn trực tiếp bởi bác sĩ chuyên khoa. Phương pháp điều chỉnh dáng đi cần được chỉ định và hướng dẫn bởi bác sĩ vật lý trị liệu hoặc chuyên gia phục hồi chức năng sau khi đánh giá lâm sàng đầy đủ. Nếu bạn có triệu chứng đau khớp gối, hãy đến gặp bác sĩ chuyên khoa xương khớp hoặc cột sống để được tư vấn phù hợp.",
-  },
 ],
 };
 

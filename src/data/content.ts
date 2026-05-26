@@ -127,14 +127,6 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
-    slug: "di-bo-dieu-chinh-goc-ban-chan-giam-dau-khop-goi",
-    title: "Điều Chỉnh Góc Bàn Chân Khi Đi Bộ: Phương Pháp Mới Giảm Đau Khớp Gối Không Cần Thuốc",
-    excerpt: "Nghiên cứu đăng trên The Lancet Rheumatology (2025) cho thấy chỉ cần điều chỉnh góc bàn chân thêm 5–10 độ khi đi bộ, bệnh nhân thoái hóa khớp gối có thể giảm đau tương đương thuốc không kê đơn — không phẫu thuật, không tác dụng phụ.",
-    audience: "Cho bệnh nhân",
-    category: "Giáo dục sức khỏe",
-    date: "2026-05-26",
-  },
-  {
     slug: "dau-lung-khi-nao-gap-bac-si",
     title: "Đau lưng — Khi nào cần đến gặp bác sĩ cột sống?",
     excerpt: "Đa số cơn đau lưng tự cải thiện được, nhưng có những dấu hiệu cảnh báo không nên bỏ qua — đặc biệt là đau kèm tê bì chân, yếu cơ hoặc đau cấp ở người cao tuổi sau một động tác nhỏ.",
@@ -237,6 +229,14 @@ export const POSTS: Post[] = [
     audience: "Cho bệnh nhân",
     category: "Giáo dục sức khỏe",
     date: "2026-05-25",
+  },
+  {
+    slug: "di-bo-dieu-chinh-goc-ban-chan-giam-dau-khop-goi",
+    title: "Điều Chỉnh Góc Bàn Chân Khi Đi Bộ: Phương Pháp Mới Giảm Đau Khớp Gối Không Cần Thuốc",
+    excerpt: "Nghiên cứu đăng trên The Lancet Rheumatology (2025) cho thấy chỉ cần điều chỉnh góc bàn chân thêm 5–10 độ khi đi bộ, bệnh nhân thoái hóa khớp gối có thể giảm đau tương đương thuốc không kê đơn — không phẫu thuật, không tác dụng phụ.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-05-26",
   },
 ];
 
