@@ -69,8 +69,11 @@ const ARTICLES: Record<string, Block[]> = {
     content: "Kết Quả Nghiên Cứu: Những Con Số Ấn Tượng",
   },
   {
-    type: "greenbox",
-    title: "✅ Các Kết Quả Chính Sau 12 Tháng",
+    type: "highlight",
+    content: "✅ Các Kết Quả Chính Sau 12 Tháng — Thử nghiệm lâm sàng ngẫu nhiên có đối chứng, theo dõi 1 năm, công bố trên The Lancet Rheumatology 2025.",
+  },
+  {
+    type: "list",
     items: [
       "Nhóm can thiệp giảm điểm đau trung bình <strong>2,5 điểm</strong> trên thang 10 điểm — tương đương hiệu quả của thuốc giảm đau không kê đơn (paracetamol, ibuprofen).",
       "Nhóm đối chứng chỉ giảm được <strong>hơn 1 điểm</strong> đau mà không thay đổi cách đi.",
@@ -146,13 +149,7 @@ const ARTICLES: Record<string, Block[]> = {
   },
   {
     type: "warning",
-    title: "⚠️ Những Trường Hợp Cần Thận Trọng",
-    items: [
-      "Thoái hóa khớp gối giai đoạn nặng (Kellgren-Lawrence độ 4): hiệu quả có thể hạn chế, cần đánh giá lại chỉ định phẫu thuật.",
-      "Bệnh nhân có bất thường cấu trúc nặng (biến dạng varus/valgus lớn, sau chấn thương trục chi): cần đánh giá chỉnh hình trước.",
-      "Người có bệnh lý thần kinh ảnh hưởng đến dáng đi (bệnh Parkinson, đột quỵ, viêm đa khớp dạng thấp nặng): cần cá thể hóa thêm.",
-      "KHÔNG tự ý điều chỉnh góc bàn chân mà không có đánh giá gait analysis chính thức — sai góc có thể tăng tải trọng lên khoang khớp khác hoặc gây đau cổ chân, hông.",
-    ],
+    content: "⚠️ Những trường hợp cần thận trọng: (1) Thoái hóa khớp gối giai đoạn nặng (Kellgren-Lawrence độ 4) — hiệu quả hạn chế, cần đánh giá lại chỉ định phẫu thuật. (2) Biến dạng trục chi nặng (varus/valgus lớn, sau chấn thương) — cần đánh giá chỉnh hình trước. (3) Bệnh lý thần kinh ảnh hưởng dáng đi (Parkinson, đột quỵ, viêm đa khớp dạng thấp nặng) — cần cá thể hóa thêm. (4) KHÔNG tự ý điều chỉnh góc bàn chân mà không có gait analysis chính thức — sai góc có thể tăng tải trọng lên khoang khớp khác hoặc gây đau cổ chân, hông.",
   },
   {
     type: "heading",
