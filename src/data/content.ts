@@ -239,6 +239,14 @@ export const POSTS: Post[] = [
     date: "2026-05-26",
   },
   {
+    slug: "loang-xuong-khong-dieu-tri-gay-vo-dot-song",
+    title: "Loãng Xương Không Điều Trị: Khi Đốt Sống Vỡ Vụn Từng Ngày Mà Người Bệnh Không Hay",
+    excerpt: "Cúi nhặt cái chổi, ho một cái, hắt hơi — và đốt sống gãy. Đây không phải chuyện lạ với bệnh nhân loãng xương nặng không được điều trị. Bác sĩ cột sống BV TWQĐ 108 chia sẻ hình ảnh thật và sự thật đau lòng mà 80% bệnh nhân loãng xương tại Việt Nam chưa biết.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-05-26",
+  },
+  {
     slug: "loi-khuyen-suc-khoe-nang-nong-cuc-doan",
     title: "Lời Khuyên Bảo Vệ Sức Khỏe Trong Những Ngày Nắng Nóng Cực Đoan",
     excerpt: "Nắng nóng cực đoan không chỉ gây mệt mỏi — nó có thể dẫn đến sốc nhiệt, đột quỵ và tử vong trong vài giờ. Bộ Y tế và WHO khuyến cáo 7 nhóm hành động cụ thể để bảo vệ bản thân và gia đình trong những ngày nhiệt độ vượt 39°C.",

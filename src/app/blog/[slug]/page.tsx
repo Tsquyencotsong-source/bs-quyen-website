@@ -27,6 +27,144 @@ type Block =
 
 const ARTICLES: Record<string, Block[]> = {
 
+  "loang-xuong-khong-dieu-tri-gay-vo-dot-song": [
+    {
+      type: "para",
+      content: "Bà N., 68 tuổi, bị đau lưng âm ỉ suốt 3 năm. Con cái nhiều lần khuyên đi khám nhưng bà gạt đi: \"Già thì đau lưng, bình thường thôi. Uống thuốc giảm đau là xong.\" Cho đến một buổi sáng bà cúi xuống nhặt cái chổi — chỉ vậy thôi — và ngã khuỵu xuống vì đau không thể chịu được. Chụp X-quang tại Bệnh viện TWQĐ 108: 4 đốt sống bị xẹp, 2 đốt gãy hoàn toàn. Loãng xương giai đoạn nặng. Không ai báo cho bà biết.",
+    },
+    {
+      type: "para",
+      content: "Câu chuyện của bà N. không hề hiếm. Mỗi tuần tôi tiếp nhận ít nhất 3-5 trường hợp tương tự tại khoa. Người bệnh đến không phải vì ngã ngã mạnh hay tai nạn giao thông — họ đến vì ho một cái, vì hắt hơi, vì cúi người tưới cây. Và cột sống của họ không chịu nổi nữa.",
+    },
+    {
+      type: "heading",
+      content: "Loãng Xương Là Kẻ Giết Người Im Lặng",
+    },
+    {
+      type: "para",
+      content: "Loãng xương không đau. Đó là lý do nó nguy hiểm đến vậy. Trong nhiều năm, xương mất dần mật độ khoáng — âm thầm, không triệu chứng, không cảnh báo. Đốt sống từ chắc như bê tông trở nên xốp như miếng bọt biển. Chỉ đến khi có áp lực đủ lớn — đôi khi chỉ là trọng lượng cơ thể — đốt sống xẹp xuống như chiếc hộp bìa cứng bị dẫm lên.",
+    },
+    {
+      type: "para",
+      content: "Theo Tổ chức Loãng xương Quốc tế (IOF), cứ 3 phụ nữ trên 50 tuổi thì có 1 người sẽ bị gãy xương do loãng xương trong đời. Tại Việt Nam, ước tính có hơn 3,6 triệu người đang mắc loãng xương, nhưng chỉ khoảng 20% được chẩn đoán và điều trị. 80% còn lại đang đi lại, sinh hoạt hàng ngày với những đốt sống ngày càng mỏng manh hơn — mà không hay biết.",
+    },
+    {
+      type: "image",
+      src: "/images/Xquang-dot-song-vo-xep-do-loang-xuong.jpg",
+      alt: "X-quang cột sống thắt lưng cho thấy nhiều đốt sống bị xẹp do loãng xương nặng",
+      caption: "X-quang cột sống thắt lưng: Các vòng tròn xanh khoanh vùng 2 đốt sống bị xẹp nặng — hình dạng thay đổi hoàn toàn so với đốt sống bình thường bên cạnh.",
+      subcaption: "Hình ảnh thực tế tại Khoa C1.1-A, Bệnh viện TWQĐ 108",
+    },
+    {
+      type: "heading",
+      content: "Nhìn Vào Phim Để Hiểu Người Bệnh Đang Chịu Đựng Gì",
+    },
+    {
+      type: "para",
+      content: "Tấm X-quang ở trên là của một bệnh nhân thực tế. Nhìn vào những vòng tròn xanh — đó là 2 đốt sống đã bị xẹp hoàn toàn. Đốt sống bình thường có hình chữ nhật đều đặn, chiều cao trên dưới bằng nhau. Đốt sống bị xẹp bị nghiền bẹp lại như chiếc bánh quy bị bóp nát — mặt trước thấp hơn mặt sau, tạo ra hình nêm. Cột sống mất điểm tựa, bắt đầu cong ra trước. Người bệnh còng lưng không phải vì họ muốn — mà vì xương không còn đứng thẳng được nữa.",
+    },
+    {
+      type: "para",
+      content: "Và khi một đốt sống xẹp, áp lực dồn lên đốt kế tiếp. Rồi đốt đó cũng xẹp. Trong trường hợp nặng — như ảnh MRI dưới đây — có thể 4, 5, thậm chí 6 đốt sống cùng bị tổn thương. Đây không phải viễn cảnh hiếm gặp. Đây là điều tôi nhìn thấy mỗi ngày.",
+    },
+    {
+      type: "image",
+      src: "/images/MRI-dot-song-vo-xep-do-loang-xuong.jpg",
+      alt: "MRI cột sống ngực và thắt lưng cho thấy nhiều đốt sống xẹp do loãng xương, mũi tên đỏ chỉ vùng tổn thương",
+      caption: "MRI cột sống cùng bệnh nhân: Các mũi tên đỏ chỉ rõ nhiều đốt sống bị xẹp và biến dạng ở cột sống ngực và thắt lưng. Tủy sống bị chèn ép ở nhiều tầng.",
+      subcaption: "Hình ảnh thực tế tại Bệnh viện TWQĐ 108 — bệnh nhân cho phép sử dụng cho mục đích giáo dục",
+    },
+    {
+      type: "heading",
+      content: "Cuộc Sống Của Người Bị Vỡ Nhiều Đốt Sống Trông Như Thế Nào?",
+    },
+    {
+      type: "para",
+      content: "Nhiều người nghĩ gãy xương cột sống thì nằm liệt. Thực tế không đơn giản như vậy — và đôi khi còn tàn nhẫn hơn. Người bệnh vẫn đi lại được, nhưng mỗi bước đi là một lần đau. Đau âm ỉ liên tục, đau nhói khi xoay người, đau buốt khi ho hay hắt hơi. Họ không thể nằm ngủ thẳng lưng. Họ không thể cúi xuống mặc quần. Họ không thể bế đứa cháu.",
+    },
+    {
+      type: "list",
+      items: [
+        "Đau lưng mãn tính không dứt: Cơn đau không chỉ đến rồi đi — nó ở lại. Ngày nào cũng đau, chỉ khác nhau về mức độ.",
+        "Mất chiều cao: Mỗi đốt sống xẹp làm người bệnh thấp đi 1-3cm. Nhiều đốt xẹp, người bệnh có thể thấp đi 5-10cm so với lúc trẻ.",
+        "Còng lưng nặng dần: Cột sống mất điểm tựa, cong ra trước (gù ngực), khó thở vì lồng ngực bị thu hẹp, ảnh hưởng cả tiêu hóa.",
+        "Nguy cơ liệt: Mảnh xương vỡ có thể chèn ép tủy sống hoặc rễ thần kinh — gây tê bì, yếu chân, nặng hơn là mất kiểm soát đại tiểu tiện.",
+        "Trầm cảm và cô lập xã hội: Không đi được xa, không ngồi lâu được, không tham gia các hoạt động gia đình — người bệnh dần thu mình lại.",
+        "Tăng nguy cơ tử vong: Nghiên cứu trên Lancet (2022) cho thấy bệnh nhân gãy đốt sống do loãng xương có nguy cơ tử vong trong 5 năm cao hơn 2 lần so với người không gãy.",
+      ],
+    },
+    {
+      type: "warning",
+      content: "Điều đau lòng nhất: Tất cả những điều này hoàn toàn có thể phòng ngừa được. Loãng xương nặng đến mức gãy nhiều đốt sống không xảy ra qua một đêm — nó là kết quả của nhiều năm bệnh không được điều trị. Nếu can thiệp sớm, xương hoàn toàn có thể được giữ vững và gãy xương có thể tránh được.",
+    },
+    {
+      type: "heading",
+      content: "Ai Đang Có Nguy Cơ Mà Không Biết?",
+    },
+    {
+      type: "para",
+      content: "Loãng xương không phân biệt giàu nghèo hay học vấn. Nhưng có những nhóm người có nguy cơ cao hơn rõ rệt — và rất nhiều trong số họ đang đọc bài viết này:",
+    },
+    {
+      type: "list",
+      items: [
+        "Phụ nữ sau mãn kinh: Estrogen bảo vệ xương. Khi mãn kinh, estrogen giảm mạnh, xương mất đi 2-3% mật độ mỗi năm trong 5-10 năm đầu sau mãn kinh.",
+        "Người dùng corticosteroid kéo dài: Thuốc hen, viêm khớp, lupus, ghép tạng dùng lâu năm gây loãng xương nhanh và nặng.",
+        "Người ít vận động hoặc nằm lâu: Xương cần lực tác động để duy trì mật độ. Không vận động là không kích thích tạo xương.",
+        "Người ăn ít canxi và ít ra nắng: Canxi thiếu thì xương không có nguyên liệu tái tạo. Vitamin D thiếu thì canxi không hấp thụ được dù ăn bao nhiêu.",
+        "Người hút thuốc lá và uống nhiều rượu: Cả hai đều ức chế trực tiếp tế bào tạo xương.",
+        "Người có tiền sử gia đình loãng xương hoặc đã từng gãy xương khi va chạm nhẹ.",
+      ],
+    },
+    {
+      type: "highlight",
+      content: "Dấu hiệu cần đi khám NGAY: Đau lưng kéo dài trên 4 tuần không rõ nguyên nhân, đặc biệt ở phụ nữ trên 50 tuổi; Chiều cao giảm hơn 3cm so với lúc trẻ; Đã từng gãy xương khi va chạm nhẹ (trượt chân nhẹ, ngã thấp); Đang dùng hoặc đã dùng corticosteroid trên 3 tháng.",
+    },
+    {
+      type: "heading",
+      content: "Điều Trị Loãng Xương: Không Bao Giờ Là Quá Muộn",
+    },
+    {
+      type: "para",
+      content: "Tin tốt là y học ngày nay có nhiều công cụ hiệu quả để điều trị loãng xương — kể cả khi bệnh đã ở giai đoạn nặng. Điều quan trọng là phải bắt đầu. Điều trị muộn vẫn tốt hơn không điều trị.",
+    },
+    {
+      type: "list",
+      items: [
+        "Đo mật độ xương (DXA scan): Xét nghiệm đơn giản, không đau, chỉ mất 15 phút — cho biết chính xác mức độ loãng xương và nguy cơ gãy xương.",
+        "Thuốc bisphosphonate (Alendronate, Zoledronic acid): Ức chế tiêu xương, giảm nguy cơ gãy đốt sống đến 70%. Uống 1 lần/tuần hoặc truyền 1 lần/năm.",
+        "Denosumab (Prolia): Tiêm dưới da mỗi 6 tháng, hiệu quả cao, phù hợp người không dung nạp được bisphosphonate. Lưu ý: không được tự ý ngưng thuốc.",
+        "Teriparatide/Abaloparatide: Kích thích tạo xương mới — dùng cho loãng xương rất nặng hoặc đã gãy xương.",
+        "Bổ sung Canxi và Vitamin D đúng liều: Là nền tảng bắt buộc, phối hợp với bất kỳ thuốc nào ở trên.",
+        "Vật lý trị liệu và tập luyện thích hợp: Bài tập chịu trọng lượng giúp kích thích tạo xương; bài tập thăng bằng giúp phòng ngừa té ngã.",
+      ],
+    },
+    {
+      type: "note",
+      content: "Với bệnh nhân đã gãy xẹp đốt sống, ngoài điều trị nội khoa, có thể xem xét thủ thuật bơm xi măng đốt sống (Vertebroplasty/Kyphoplasty) để giảm đau nhanh và ổn định đốt sống. Thủ thuật này được thực hiện thường quy tại Bệnh viện TWQĐ 108.",
+    },
+    {
+      type: "heading",
+      content: "Hãy Nói Chuyện Với Người Thân Của Bạn Tối Nay",
+    },
+    {
+      type: "para",
+      content: "Nếu bạn đọc đến đây, tôi có một đề nghị nhỏ: Hãy nghĩ đến một người thân — mẹ, bà, dì, cô — trên 50 tuổi, chưa từng đo mật độ xương, đang tự nhủ rằng \"đau lưng tuổi già bình thường thôi\". Và tối nay, hãy nói chuyện với họ.",
+    },
+    {
+      type: "para",
+      content: "Không cần nói dài. Chỉ cần một câu: \"Mẹ ơi, hay mình đi khám loãng xương đi, con đưa mẹ đi.\" Một câu đó có thể thay đổi tất cả. Bởi vì bà N. mà tôi kể đầu bài — bà ấy có con, có cháu, có người thân. Nhưng không ai nói câu đó với bà trước khi quá muộn.",
+    },
+    {
+      type: "para",
+      content: "Loãng xương không thể chữa khỏi hoàn toàn, nhưng hoàn toàn có thể kiểm soát. Gãy xương có thể phòng ngừa được. Cuộc sống không đau không chỉ là mơ ước — đó là quyền lợi mà người bệnh xứng đáng được hưởng khi được điều trị đúng cách và đúng thời điểm.",
+    },
+    {
+      type: "note",
+      content: "TS.BS. Nguyễn Ngọc Quyền — Phó Chủ nhiệm Khoa Khám bệnh đa khoa C1.1-A, Bệnh viện TWQĐ 108. Chuyên khoa Cột sống và Phục hồi chức năng Chỉnh hình. Liên hệ tư vấn: 0989 052 288. Tất cả hình ảnh trong bài được sử dụng với sự đồng ý của bệnh nhân vì mục đích giáo dục sức khỏe cộng đồng.",
+    },
+  ],
+
   "loi-khuyen-suc-khoe-nang-nong-cuc-doan": [
     {
       type: "para",
