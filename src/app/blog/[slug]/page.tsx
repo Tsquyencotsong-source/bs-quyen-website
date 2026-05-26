@@ -637,13 +637,14 @@ function RenderBlock({ block, index }: { block: Block; index: number }) {
     case "heading":
       return <h2 key={index} className="font-serif-brand text-[20px] font-bold text-navy mt-8 mb-3 leading-snug">{block.content}</h2>;
     case "para":
-      return <p key={index} className="text-[15.5px] font-light leading-[1.85] text-gray-500 mb-5">{block.content}</p>;
+      return <p key={index} className="text-[15.5px] font-light leading-[1.85] text-gray-500 mb-5" dangerouslySetInnerHTML={{ __html: block.content }} />;
     case "list":
       return (
         <ul key={index} className="list-none mb-6 space-y-2.5">
           {block.items.map((item, j) => (
             <li key={j} className="flex items-start gap-3 text-[15px] font-light text-gray-500">
-              <span className="w-1.5 h-1.5 rounded-full bg-navy mt-2.5 flex-shrink-0" />{item}
+              <span className="w-1.5 h-1.5 rounded-full bg-navy mt-2.5 flex-shrink-0" />
+              <span dangerouslySetInnerHTML={{ __html: item }} />
             </li>
           ))}
         </ul>
@@ -651,20 +652,17 @@ function RenderBlock({ block, index }: { block: Block; index: number }) {
     case "highlight":
       return (
         <div key={index} className="my-6 border-l-[3px] border-navy pl-5 py-1">
-          <p className="font-serif-brand text-[17px] font-normal italic text-navy leading-relaxed">{block.content}</p>
+          <p className="font-serif-brand text-[17px] font-normal italic text-navy leading-relaxed" dangerouslySetInnerHTML={{ __html: block.content }} />
         </div>
       );
     case "warning":
       return (
-        <div key={index} className="my-6 p-4 bg-yellow-50 border border-yellow-200 border-l-[3px] border-l-brand-gold text-[13.5px] text-gray-600 leading-relaxed">
-          <strong className="font-semibold text-gray-800 block mb-1">⚠️ Dấu hiệu cần đi khám ngay:</strong>
-          {block.content}
-        </div>
+        <div key={index} className="my-6 p-4 bg-yellow-50 border border-yellow-200 border-l-[3px] border-l-brand-gold text-[13.5px] text-gray-600 leading-relaxed" dangerouslySetInnerHTML={{ __html: block.content }} />
       );
     case "note":
       return (
         <div key={index} className="mt-8 p-4 bg-brand-gold-lt border-l-[3px] border-brand-gold text-[13px] font-light text-gray-600">
-          <strong className="font-semibold text-gray-700">Lưu ý: </strong>{block.content}
+          <strong className="font-semibold text-gray-700">Lưu ý: </strong><span dangerouslySetInnerHTML={{ __html: block.content }} />
         </div>
       );
     case "image":
