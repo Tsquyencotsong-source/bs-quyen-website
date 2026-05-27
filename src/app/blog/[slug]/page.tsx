@@ -27,6 +27,172 @@ type Block =
 
 const ARTICLES: Record<string, Block[]> = {
 
+  "phong-ngua-loang-xuong-phu-nu-sau-man-kinh": [
+    {
+      type: "para",
+      content: "Bạn đang đọc bài này và có thể bạn đã mãn kinh được 3, 5, hay 10 năm rồi. Tôi muốn nói thẳng một điều: trong suốt thời gian đó, xương của bạn đang mất đi khoảng 2-4% mật độ mỗi năm — âm thầm, không đau, không dấu hiệu — và phần lớn phụ nữ không biết điều này cho đến khi xương gãy.",
+    },
+    {
+      type: "para",
+      content: "Đây không phải để dọa. Đây là sự thật được ghi nhận trong hàng chục nghiên cứu và guideline quốc tế mới nhất năm 2024-2025. Tin tốt là: loãng xương sau mãn kinh hoàn toàn có thể phòng ngừa và làm chậm lại được, nếu bạn biết cần làm gì và bắt đầu đúng thời điểm.",
+    },
+    {
+      type: "heading",
+      content: "Tại Sao Mãn Kinh Lại Là Bước Ngoặt Của Xương?",
+    },
+    {
+      type: "para",
+      content: "Câu trả lời nằm ở một chữ: estrogen. Hormone này không chỉ điều tiết chu kỳ kinh nguyệt — nó còn là người gác cổng quan trọng bảo vệ mật độ xương suốt cuộc đời sinh sản của phụ nữ. Estrogen ức chế các tế bào hủy xương (osteoclast) hoạt động quá mức, đồng thời kích thích tế bào tạo xương (osteoblast) làm việc. Khi mãn kinh xảy ra, estrogen giảm mạnh, cân bằng này bị phá vỡ: hủy xương nhanh hơn tạo xương, mật độ khoáng xương giảm dần.",
+    },
+    {
+      type: "highlight",
+      content: "Trong 5-10 năm đầu sau mãn kinh, tốc độ mất xương có thể đạt 2-4% mỗi năm — nhanh hơn gấp 4-8 lần so với nam giới cùng tuổi. Sau 10 năm không can thiệp, một phụ nữ có thể đã mất 20-30% tổng mật độ xương so với thời điểm đỉnh cao.",
+    },
+    {
+      type: "para",
+      content: "Tại Việt Nam, Hội Loãng xương TP.HCM ước tính hiện có khoảng 3,6 triệu người đang mắc loãng xương và dự báo con số này sẽ lên 4,5 triệu vào năm 2030. Cứ 3 phụ nữ trên 50 tuổi thì có 1 người bị loãng xương. Mỗi năm, khoảng 32.000 trường hợp gãy xương hông xảy ra — và gãy xương hông ở người cao tuổi có tỷ lệ tử vong trong năm đầu lên đến 20-30%.",
+    },
+    {
+      type: "heading",
+      content: "5 Nhóm Nguy Cơ Cao — Bạn Có Trong Danh Sách Này?",
+    },
+    {
+      type: "para",
+      content: "Không phải mọi phụ nữ sau mãn kinh đều mất xương với tốc độ như nhau. Theo hướng dẫn điều trị loãng xương năm 2024 của Anh Quốc (NOGG 2024) và Hội Y học Úc (RACGP 2024), các yếu tố nguy cơ sau làm tăng tốc độ mất xương và tăng nguy cơ gãy xương:",
+    },
+    {
+      type: "list",
+      items: [
+        "Mãn kinh sớm (trước 45 tuổi) hoặc cắt buồng trứng: Thời gian thiếu estrogen kéo dài hơn, xương mất đi nhiều hơn.",
+        "Chưa từng mang thai hoặc cho con bú: Mang thai và cho con bú thực ra có tác dụng bảo vệ xương dài hạn thông qua cơ chế hormon và canxi.",
+        "Tiền sử gia đình có mẹ hoặc bà bị gãy xương hông: Yếu tố di truyền đóng góp khoảng 60-80% vào đỉnh mật độ xương.",
+        "Đang hoặc đã dùng corticosteroid kéo dài (trên 3 tháng): Cortisol ức chế trực tiếp tế bào tạo xương và tăng canxi niệu.",
+        "Chỉ số BMI thấp (dưới 19): Mô mỡ sản xuất một lượng nhỏ estrogen sau mãn kinh — người gầy mất bảo vệ này.",
+        "Hút thuốc lá và uống rượu thường xuyên: Cả hai đều ức chế trực tiếp tế bào tạo xương và giảm hấp thu canxi.",
+        "Ít vận động, ngồi nhiều: Xương cần lực tác động để duy trì mật độ — thiếu vận động là thiếu kích thích tạo xương.",
+      ],
+    },
+    {
+      type: "heading",
+      content: "Bằng Chứng Từ Khoa Học: Đâu Là Biện Pháp Thực Sự Có Hiệu Quả?",
+    },
+    {
+      type: "para",
+      content: "Đây là phần quan trọng nhất bài viết này. Tôi sẽ chỉ chia sẻ những gì có bằng chứng khoa học rõ ràng — không phải những gì nghe có vẻ hay nhưng chưa được chứng minh.",
+    },
+    {
+      type: "heading",
+      content: "1. Canxi và Vitamin D — Nền Tảng Không Thể Thiếu",
+    },
+    {
+      type: "para",
+      content: "Một systematic review và meta-analysis công bố năm 2025 trên BMC Musculoskeletal Disorders, tổng hợp dữ liệu từ 37 thử nghiệm lâm sàng ngẫu nhiên có đối chứng (RCT) với 43.397 bệnh nhân, kết luận rằng bổ sung canxi và vitamin D kết hợp giúp tăng mật độ xương và giảm nguy cơ gãy xương có ý nghĩa thống kê ở phụ nữ sau mãn kinh. Đây là cấp độ bằng chứng cao nhất trong y học.",
+    },
+    {
+      type: "list",
+      items: [
+        "Canxi: Phụ nữ trên 51 tuổi cần 1.200mg canxi mỗi ngày (theo NOF, AACE, Endocrine Society). Ưu tiên từ thực phẩm: sữa, phô mai, sữa chua, đậu phụ, tôm, cá nhỏ ăn cả xương, rau cải xanh. Bổ sung thuốc chỉ khi chế độ ăn không đủ.",
+        "Vitamin D: Cần 800-1.000 IU mỗi ngày, có thể lên 2.000 IU nếu thiếu hụt. Vitamin D thiết yếu để ruột hấp thu canxi — thiếu vitamin D thì uống canxi bao nhiêu cũng không vào xương.",
+        "Nguồn vitamin D tốt nhất: Tiếp xúc ánh nắng mặt trời 15-20 phút mỗi ngày (vùng da cánh tay, không qua kính); cá béo (cá hồi, cá thu, cá ngừ); lòng đỏ trứng; nấm phơi nắng.",
+        "Lưu ý quan trọng: Không uống quá 2.500mg canxi mỗi ngày từ mọi nguồn — liều cao canxi từ thuốc (không phải thực phẩm) có thể tăng nguy cơ sỏi thận và một số nghiên cứu lo ngại về tim mạch.",
+      ],
+    },
+    {
+      type: "heading",
+      content: "2. Vận Động — Không Phải Môn Nào Cũng Như Nhau",
+    },
+    {
+      type: "para",
+      content: "Bơi lội và đạp xe tốt cho tim mạch nhưng gần như không có tác dụng tăng mật độ xương. Lý do: xương cần lực tác động (impact) và lực kéo của cơ bắp để kích thích tạo xương mới. Những bài tập sau đây được chứng minh có hiệu quả rõ rệt lên xương:",
+    },
+    {
+      type: "list",
+      items: [
+        "Đi bộ nhanh: Đơn giản nhất, ít rủi ro nhất. Đi bộ 30 phút mỗi ngày, ít nhất 5 ngày/tuần. Nghiên cứu meta-analysis 2024 (Nutrients) với 13 RCT xác nhận đi bộ kết hợp bổ sung canxi/vitamin D hiệu quả hơn đáng kể so với chỉ dùng thuốc bổ sung.",
+        "Tập có trọng tải (weight-bearing): Squat, tập tạ nhẹ, leo cầu thang. Lực kéo của cơ bắp lên xương kích thích osteoblast hoạt động. Bắt đầu nhẹ, tăng dần dưới hướng dẫn.",
+        "Yoga và Tai chi: Không tăng mật độ xương nhiều nhưng cải thiện thăng bằng, giảm nguy cơ té ngã — nguyên nhân trực tiếp của gãy xương hông.",
+        "Tần suất: Ít nhất 150 phút vận động vừa phải mỗi tuần, kết hợp 2 buổi tập cơ/tạ mỗi tuần.",
+      ],
+    },
+    {
+      type: "heading",
+      content: "3. Thuốc Điều Trị — Khi Nào Cần Và Loại Nào Phù Hợp?",
+    },
+    {
+      type: "para",
+      content: "Canxi và vitamin D là nền tảng, nhưng với nhiều phụ nữ sau mãn kinh có nguy cơ cao, thuốc điều trị đặc hiệu là cần thiết. Các guideline quốc tế 2024 (NOGG UK, RACGP Úc, Korean Society of Menopause) đồng thuận về hai nhóm thuốc được ưu tiên:",
+    },
+    {
+      type: "list",
+      items: [
+        "Bisphosphonate (Alendronate, Zoledronic acid, Risedronate): Nhóm thuốc ức chế hủy xương được nghiên cứu nhiều nhất và lâu nhất. Alendronate uống 1 lần/tuần, Zoledronic acid truyền tĩnh mạch 1 lần/năm. Giảm nguy cơ gãy đốt sống đến 40-70%, gãy xương hông đến 40%. Đây là lựa chọn đầu tay tại hầu hết guideline.",
+        "Denosumab (Prolia): Tiêm dưới da mỗi 6 tháng, hiệu quả cao hơn bisphosphonate ở một số nhóm bệnh nhân. Quan trọng: không được tự ý ngưng thuốc vì có thể gây gãy nhiều đốt sống sau khi dừng.",
+        "Liệu pháp hormone thay thế (HRT): Guideline 2024 UK xếp HRT là lựa chọn ưu tiên cho phụ nữ mãn kinh sớm hoặc phụ nữ dưới 60 tuổi có triệu chứng mãn kinh và nguy cơ gãy xương cao. Cần đánh giá lợi ích-nguy cơ cá nhân hóa (không phù hợp với tiền sử ung thư vú hoặc huyết khối).",
+        "Không tự mua thuốc: Tất cả các thuốc điều trị loãng xương đặc hiệu cần chỉ định của bác sĩ sau khi đo mật độ xương (DXA scan) và đánh giá nguy cơ gãy xương (FRAX score).",
+      ],
+    },
+    {
+      type: "warning",
+      content: "Cảnh báo về thuốc gia truyền và thực phẩm chức năng: Không có bất kỳ thực phẩm chức năng nào được chứng minh tương đương bisphosphonate hay denosumab trong điều trị loãng xương đã thiết lập. Nhiều sản phẩm quảng cáo giúp tái tạo xương, tăng mật độ xương trong vài tuần là không có cơ sở khoa học. Chi tiền vào sản phẩm này trong khi bỏ qua thuốc thực sự có hiệu quả có thể gây hại.",
+    },
+    {
+      type: "heading",
+      content: "Kiểm Tra Sức Khỏe Xương: Đừng Đợi Đến Khi Gãy",
+    },
+    {
+      type: "para",
+      content: "Theo hướng dẫn của Tổ chức Loãng xương Quốc tế (IOF) và guideline mới nhất 2024, đây là những ai cần được đo mật độ xương (DXA scan) ngay:",
+    },
+    {
+      type: "list",
+      items: [
+        "Tất cả phụ nữ từ 65 tuổi trở lên — không cần thêm yếu tố nguy cơ nào khác.",
+        "Phụ nữ dưới 65 tuổi đã mãn kinh và có ít nhất 1 yếu tố nguy cơ (tiền sử gia đình, hút thuốc, BMI thấp, dùng corticosteroid, mãn kinh sớm).",
+        "Bất kỳ phụ nữ nào đã từng gãy xương khi va chạm nhẹ sau tuổi 40.",
+        "Phụ nữ đang dùng hoặc cần dùng corticosteroid kéo dài.",
+      ],
+    },
+    {
+      type: "note",
+      content: "DXA scan (đo mật độ xương) là xét nghiệm không xâm lấn, không đau, chỉ mất khoảng 15-20 phút, liều bức xạ rất thấp (thấp hơn nhiều so với chụp X-quang ngực thông thường). Bệnh viện TWQĐ 108 thực hiện đo DXA scan và đánh giá nguy cơ gãy xương FRAX thường quy tại Khoa C1.1-A. Liên hệ: 0989 052 288.",
+    },
+    {
+      type: "heading",
+      content: "Thực Đơn Và Lối Sống Bảo Vệ Xương Từ Bây Giờ",
+    },
+    {
+      type: "para",
+      content: "Phòng ngừa hiệu quả nhất là bắt đầu sớm và duy trì nhất quán. Đây là những thay đổi lối sống có bằng chứng rõ ràng nhất:",
+    },
+    {
+      type: "list",
+      items: [
+        "Mỗi ngày: 2-3 phần sữa hoặc sản phẩm từ sữa (1 ly sữa 240ml = khoảng 300mg canxi). Người không dung nạp lactose có thể dùng sữa đậu nành có bổ sung canxi, đậu phụ cứng, hạnh nhân.",
+        "Mỗi tuần: Ăn cá ít nhất 3 bữa, ưu tiên cá béo (cá thu, cá hồi, cá ngừ) cho vitamin D. Ăn tôm, cua, hàu cho canxi và kẽm.",
+        "Hàng ngày: Ra nắng 15-20 phút vào buổi sáng (trước 10h) hoặc chiều (sau 16h) — không cần kem chống nắng trong thời gian ngắn này.",
+        "Hạn chế: Cà phê dưới 3 ly/ngày (caffeine tăng canxi niệu nhẹ), muối (natri cao làm tăng thải canxi qua nước tiểu), protein động vật quá nhiều.",
+        "Dứt khoát bỏ: Thuốc lá (giảm estrogen, ức chế tạo xương) và rượu bia quá mức (trên 2 đơn vị/ngày).",
+        "Phòng ngừa té ngã: Lắp thanh vịn trong nhà vệ sinh và cầu thang, để ánh sáng đầy đủ ban đêm, không đi dép trơn trượt trong nhà — gãy xương xảy ra khi té, không phải vì xương yếu mà thôi.",
+      ],
+    },
+    {
+      type: "heading",
+      content: "Kết Luận: Bắt Đầu Hôm Nay, Không Phải Khi Xương Gãy",
+    },
+    {
+      type: "para",
+      content: "Mỗi ngày chờ đợi là thêm 0.005-0.01% mật độ xương mất đi. Nghe nhỏ, nhưng tích lũy theo năm tháng thì rất lớn. Điều tôi muốn bác sĩ chia sẻ với bạn qua bài viết này là: loãng xương sau mãn kinh không phải định mệnh. Với can thiệp đúng — vận động đều đặn, dinh dưỡng đủ canxi và vitamin D, và thuốc điều trị nếu cần — phụ nữ hoàn toàn có thể giữ xương chắc khỏe, ngăn gãy xương và duy trì cuộc sống độc lập đến tuổi già.",
+    },
+    {
+      type: "para",
+      content: "Nếu bạn đã mãn kinh và chưa từng đo mật độ xương, đây là lúc để bắt đầu. Hãy chia sẻ bài viết này đến các chị em phụ nữ xung quanh bạn — đặc biệt những người đang ở độ tuổi 45-60, giai đoạn vàng để phòng ngừa trước khi quá muộn.",
+    },
+    {
+      type: "note",
+      content: "Tài liệu tham khảo chính: (1) NOGG 2024 — UK Clinical Guideline for Prevention and Treatment of Osteoporosis, Archives of Osteoporosis 2025; (2) RACGP 2024 — Australian Guideline for Osteoporosis Management and Fracture Prevention, PMC 2024; (3) Systematic review 37 RCT / 43.397 bệnh nhân về canxi và vitamin D, BMC Musculoskeletal Disorders 2025; (4) Hội Loãng xương TP.HCM — Thông điệp loãng xương 2025. Bài viết mang tính chất giáo dục sức khỏe, không thay thế tư vấn y tế cá nhân.",
+    },
+  ],
+
   "loang-xuong-khong-dieu-tri-gay-vo-dot-song": [
     {
       type: "para",

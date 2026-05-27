@@ -239,6 +239,14 @@ export const POSTS: Post[] = [
     date: "2026-05-26",
   },
   {
+    slug: "phong-ngua-loang-xuong-phu-nu-sau-man-kinh",
+    title: "Sau Mãn Kinh, Xương Phụ Nữ Mất 2-4% Mỗi Năm — Và Đây Là Cách Ngăn Lại",
+    excerpt: "Cứ 3 phụ nữ trên 50 tuổi thì có 1 người bị loãng xương mà không hay biết. Bài viết tổng hợp từ guideline quốc tế 2024 và nghiên cứu 43.000 bệnh nhân: đây là những gì thực sự có căn cứ khoa học để bảo vệ xương sau mãn kinh.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-05-28",
+  },
+  {
     slug: "loang-xuong-khong-dieu-tri-gay-vo-dot-song",
     title: "Loãng Xương Không Điều Trị: Khi Đốt Sống Vỡ Vụn Từng Ngày Mà Người Bệnh Không Hay",
     excerpt: "Cúi nhặt cái chổi, ho một cái, hắt hơi — và đốt sống gãy. Đây không phải chuyện lạ với bệnh nhân loãng xương nặng không được điều trị. Bác sĩ cột sống BV TWQĐ 108 chia sẻ hình ảnh thật và sự thật đau lòng mà 80% bệnh nhân loãng xương tại Việt Nam chưa biết.",
