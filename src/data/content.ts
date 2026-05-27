@@ -239,14 +239,6 @@ export const POSTS: Post[] = [
     date: "2026-05-26",
   },
   {
-    slug: "nang-nong-lam-dau-lung-dau-khop-te-hon",
-    title: "Tại Sao Nắng Nóng Làm Đau Lưng Và Đau Khớp Tệ Hơn? Bác Sĩ Cột Sống Giải Thích",
-    excerpt: "Ngồi điều hòa cả ngày mà lưng vẫn đau hơn mọi khi? Không phải ngẫu nhiên. Đĩa đệm mất nước, viêm khớp bùng phát, cơ cột sống co rút vì lạnh đột ngột — đây là 3 cơ chế khoa học giải thích tại sao mùa hè là mùa khó chịu nhất với bệnh nhân cột sống và khớp.",
-    audience: "Cho bệnh nhân",
-    category: "Giáo dục sức khỏe",
-    date: "2026-05-27",
-  },
-  {
     slug: "loang-xuong-khong-dieu-tri-gay-vo-dot-song",
     title: "Loãng Xương Không Điều Trị: Khi Đốt Sống Vỡ Vụn Từng Ngày Mà Người Bệnh Không Hay",
     excerpt: "Cúi nhặt cái chổi, ho một cái, hắt hơi — và đốt sống gãy. Đây không phải chuyện lạ với bệnh nhân loãng xương nặng không được điều trị. Bác sĩ cột sống BV TWQĐ 108 chia sẻ hình ảnh thật và sự thật đau lòng mà 80% bệnh nhân loãng xương tại Việt Nam chưa biết.",
