@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "loang-xuong-nam-gioi-dich-te-nguyen-nhan-co-che",
+    title: "Loãng Xương Ở Nam Giới: Kẻ Thù Vô Hình Mà 80% Đàn Ông Không Biết Mình Đang Đối Mặt",
+    excerpt: "40% ca gãy xương do loãng xương toàn cầu xảy ra ở nam giới. Tỷ lệ tử vong sau gãy xương hông ở đàn ông cao hơn phụ nữ. Vậy tại sao đến hơn 80% nam giới mắc bệnh vẫn chưa được điều trị? Hiểu đúng dịch tễ, nguyên nhân và cơ chế phân tử — để không trở thành một trong số đó.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-05-29",
+  },
+  {
     slug: "dau-lung-khi-nao-gap-bac-si",
     title: "Đau lưng — Khi nào cần đến gặp bác sĩ cột sống?",
     excerpt: "Đa số cơn đau lưng tự cải thiện được, nhưng có những dấu hiệu cảnh báo không nên bỏ qua — đặc biệt là đau kèm tê bì chân, yếu cơ hoặc đau cấp ở người cao tuổi sau một động tác nhỏ.",

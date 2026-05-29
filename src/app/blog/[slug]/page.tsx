@@ -27,6 +27,153 @@ type Block =
 
 const ARTICLES: Record<string, Block[]> = {
 
+  "loang-xuong-nam-gioi-dich-te-nguyen-nhan-co-che": [
+    {
+      type: "para",
+      content: "Nếu ai đó nói với bạn rằng loãng xương là bệnh của phụ nữ — người đó đã sai. Và sự sai lầm này đang khiến hàng triệu đàn ông trên thế giới, trong đó có nhiều người đang đọc bài này, bỏ qua một mối nguy âm thầm đang gặm nhấm xương của họ từng ngày.",
+    },
+    {
+      type: "para",
+      content: "Tôi muốn kể cho bạn nghe về một bệnh nhân. Ông H., 68 tuổi, kỹ sư về hưu. Vào buổi sáng tháng 3, ông khiêng thùng nước lên tầng hai — một việc ông đã làm hàng trăm lần. Lần đó, ông nghe tiếng 'rắc' ở lưng. Phim chụp sau đó cho thấy hai đốt sống thắt lưng đã xẹp. Chẩn đoán: loãng xương nặng, T-score -3.2. Ông chưa bao giờ được ai khuyên đi đo mật độ xương. Ông cũng chưa bao giờ nghĩ đó là vấn đề cần lo ngại với đàn ông.",
+    },
+    {
+      type: "heading",
+      content: "Con Số Bạn Sẽ Không Ngờ Tới",
+    },
+    {
+      type: "para",
+      content: "Theo báo cáo tổng hợp của Tổ chức Loãng xương Quốc tế (IOF) và nghiên cứu đăng trên PMC năm 2023, tỷ lệ loãng xương ở nam giới trên toàn cầu khoảng 12%, và tại một số khu vực vượt 20%. Tại Mỹ, từ đầu thập niên 1990 đến giữa thập niên 2000, tỷ lệ loãng xương và loãng xương tiền giai đoạn (osteopenia) ở nam giới trên 50 tuổi đã tăng gấp đôi — lần lượt đạt 4% và 38%.",
+    },
+    {
+      type: "highlight",
+      content: "Năm 2000, trong số 9 triệu ca gãy xương do loãng xương trên toàn cầu, 40% xảy ra ở nam giới. Đến năm 2050, số ca gãy xương hông ở nam giới dự báo tăng 310% so với năm 1990 — cao hơn mức tăng 240% ở nữ giới trong cùng kỳ.",
+    },
+    {
+      type: "para",
+      content: "Điều đáng lo hơn: tỷ lệ tử vong sau gãy xương hông ở đàn ông cao hơn phụ nữ. Trong năm đầu sau gãy xương hông, tỷ lệ tử vong dao động 20-24%, và ở nam giới con số này có xu hướng cao hơn — bởi vì gãy xương ở nam thường xảy ra muộn hơn 5-10 năm so với nữ, lúc đó nam giới thường mang nhiều bệnh đồng mắc hơn. Nghiên cứu từ Journal of Bone and Mineral Research (2023) xác nhận: gánh nặng bệnh tật sau gãy xương hông ở nam giới bị đánh giá thấp hơn thực tế rất nhiều.",
+    },
+    {
+      type: "warning",
+      content: "Chưa đến 20% nam giới mắc loãng xương được điều trị — kể cả những người đã có tiền sử gãy xương. Đây là khoảng trống điều trị nghiêm trọng nhất trong nội tiết xương học hiện nay.",
+    },
+    {
+      type: "heading",
+      content: "Tại Sao Đàn Ông Vẫn Loãng Xương Dù Không Mãn Kinh?",
+    },
+    {
+      type: "para",
+      content: "Câu hỏi hợp lý. Phụ nữ loãng xương sau mãn kinh vì estrogen giảm đột ngột — điều này ai cũng biết. Còn đàn ông thì sao? Xương của đàn ông được bảo vệ bởi hai hệ thống song song: testosterone trực tiếp và estrogen gián tiếp thông qua quá trình thơm hóa (aromatization). Nhưng không ai thoát khỏi thời gian.",
+    },
+    {
+      type: "para",
+      content: "Đỉnh mật độ xương (peak bone mass) ở nam giới cao hơn nữ giới khoảng 8-10% — đây là lý do loãng xương ở đàn ông xuất hiện muộn hơn và thường ít được nhận ra. Nhưng sau tuổi 50-60, quá trình mất xương bắt đầu tăng tốc. Và không giống phụ nữ với sự sụt giảm estrogen rõ ràng khi mãn kinh, ở đàn ông sự suy giảm xảy ra âm thầm hơn — khiến cả bệnh nhân lẫn bác sĩ dễ bỏ qua.",
+    },
+    {
+      type: "heading",
+      content: "Hai Nhóm Nguyên Nhân Chính: Nguyên Phát và Thứ Phát",
+    },
+    {
+      type: "para",
+      content: "Loãng xương ở nam giới được chia thành hai nhóm lớn. Loãng xương nguyên phát liên quan đến quá trình lão hóa sinh lý bình thường — xương mất dần theo tuổi tác, không có bệnh lý nền cụ thể. Loãng xương thứ phát có nguyên nhân rõ ràng, và quan trọng là: ở nam giới, nguyên nhân thứ phát phổ biến hơn nhiều so với phụ nữ sau mãn kinh. Nghiên cứu đăng trên PMC cho thấy có thể xác định nguyên nhân thứ phát rõ ràng trong 40-50% ca loãng xương ở nam.",
+    },
+    {
+      type: "list",
+      items: [
+        "Suy sinh dục (Hypogonadism): Thiếu testosterone làm giảm nồng độ estrogen nội sinh — mất đi lá chắn bảo vệ xương. Đây là nguyên nhân thứ phát hàng đầu ở nam giới, gặp trong suy tuyến sinh dục nguyên phát, ung thư tuyến tiền liệt điều trị bằng liệu pháp triệt androgen (ADT), xạ trị vùng chậu.",
+        "Corticosteroid mãn tính: Dùng prednisone trên 7.5mg/ngày trong hơn 3 tháng gây ức chế trực tiếp tế bào tạo xương (osteoblast), tăng tốc độ chết theo chương trình (apoptosis) của osteoblast và osteocyte, đồng thời tăng tạm thời hoạt động của tế bào hủy xương (osteoclast). Đây là nguyên nhân thứ phát phổ biến nhất gây loãng xương ở cả hai giới.",
+        "Lạm dụng rượu bia: Ethanol độc trực tiếp với osteoblast, giảm hấp thu canxi tại ruột, tăng đào thải canxi qua thận, và thường đi kèm thiếu vitamin D cùng suy dinh dưỡng.",
+        "Bệnh lý nội tiết: Cường giáp, cường tuyến cận giáp, hội chứng Cushing — tất cả đều gây mất xương qua các cơ chế hormon khác nhau.",
+        "Bệnh lý tiêu hóa mãn tính: Bệnh Crohn, celiac, viêm loét đại tràng — gây kém hấp thu canxi và vitamin D kéo dài.",
+        "Thuốc ức chế bơm proton (PPI) dài hạn, thuốc chống động kinh, heparin: Đây là các nguyên nhân iatrogen thường bị bỏ sót trong thực hành lâm sàng.",
+      ],
+    },
+    {
+      type: "heading",
+      content: "Cơ Chế Phân Tử: Xương Đang Tự Phá Hủy Như Thế Nào?",
+    },
+    {
+      type: "para",
+      content: "Để hiểu loãng xương, bạn cần biết một điều nền tảng: xương không phải là vật chết. Xương là mô sống, không ngừng được tái tạo thông qua chu kỳ hủy xương — tạo xương, gọi là chu kỳ tái cấu trúc xương (bone remodeling). Trong mỗi chu kỳ, osteoclast phá hủy xương cũ, sau đó osteoblast lấp đầy bằng xương mới. Bình thường hai quá trình này cân bằng nhau. Khi cân bằng bị phá vỡ theo hướng phá nhiều hơn tạo — loãng xương xuất hiện.",
+    },
+    {
+      type: "highlight",
+      content: "Hai trục điều hòa quan trọng nhất: Trục RANKL/OPG — RANKL kích hoạt osteoclast, OPG ức chế; khi RANKL/OPG tăng cao, hủy xương chiếm ưu thế. Trục Wnt/beta-catenin — kích hoạt osteoblast tạo xương; bị ức chế bởi sclerostin và DKK-1. Testosterone và estrogen bảo vệ xương bằng cách ức chế RANKL và tăng cường tín hiệu Wnt.",
+    },
+    {
+      type: "para",
+      content: "Trong suy sinh dục ở nam giới, sự giảm testosterone dẫn đến giảm aromatization thành estrogen — estrogen nội sinh giảm là nguyên nhân trực tiếp gây mất xương, không phải testosterone. Điều này được xác nhận qua các nghiên cứu dùng chất ức chế aromatase ở nam: khi chặn chuyển đổi testosterone thành estrogen, mật độ xương giảm nhanh dù testosterone bình thường. Estrogen ở nam, dù nồng độ thấp, đóng vai trò thiết yếu trong duy trì cân bằng RANKL/OPG.",
+    },
+    {
+      type: "para",
+      content: "Với glucocorticoid mãn tính, cơ chế phức tạp hơn: corticoid kích hoạt thụ thể nhân PPARgamma-2 chuyển hướng tế bào gốc trung mô thành tế bào mỡ thay vì osteoblast; tăng biểu hiện sclerostin — chất ức chế tín hiệu Wnt mạnh nhất; tăng tỷ lệ RANKL/OPG giai đoạn sớm; ức chế sản xuất IGF-1 tại chỗ; và tăng thải canxi qua thận trong khi giảm hấp thu canxi tại ruột. Kết quả là mất xương nhanh trong 3-6 tháng đầu dùng thuốc, sau đó tiếp tục mất chậm hơn nhưng bền vững.",
+    },
+    {
+      type: "heading",
+      content: "Câu Chuyện Testosterone: Đúng Hơn Những Gì Bạn Nghĩ",
+    },
+    {
+      type: "para",
+      content: "Nhiều đàn ông nghĩ testosterone thấp là vấn đề của tình dục và cơ bắp. Ít ai nghĩ đến xương. Thực tế, testosterone tác động lên xương theo hai con đường: trực tiếp qua thụ thể androgen trên osteoblast (thúc đẩy tăng sinh và giảm apoptosis) và gián tiếp qua aromatization thành estradiol — và con đường thứ hai quan trọng hơn nhiều đối với mật độ xương.",
+    },
+    {
+      type: "para",
+      content: "Ở nam giới điều trị ung thư tuyến tiền liệt bằng liệu pháp triệt androgen (ADT — leuprolide, bicalutamide), mật độ xương có thể giảm 2-3% mỗi năm ở cột sống và 1.8-2.1% ở cổ xương đùi, bắt đầu chỉ sau 6 tháng. Một nghiên cứu thử nghiệm ngẫu nhiên có đối chứng đã chứng minh bổ sung testosterone ở nam dùng glucocorticoid điều trị hen phế quản làm tăng gần 4% mật độ xương cột sống thắt lưng sau 12 tháng — kèm tăng khối cơ và giảm mỡ cơ thể. Đây là bằng chứng trực tiếp về mối liên hệ testosterone-xương trong bối cảnh lâm sàng thực tế.",
+    },
+    {
+      type: "heading",
+      content: "Vì Sao Đàn Ông Không Được Tầm Soát?",
+    },
+    {
+      type: "para",
+      content: "Đây là điểm đau của hệ thống y tế hiện tại. Hầu hết hướng dẫn lâm sàng quốc tế — bao gồm NOF (Mỹ), ISCD, NOGG (Anh) — đều khuyến cáo tầm soát loãng xương ở phụ nữ từ 65 tuổi. Nhưng ở nam giới? Ngưỡng khuyến cáo không nhất quán, bắt đầu từ 70 tuổi ở một số guideline, và trong thực hành lâm sàng nhiều bác sĩ không nghĩ đến việc chỉ định DXA cho bệnh nhân nam.",
+    },
+    {
+      type: "para",
+      content: "Kết quả là: hàng triệu nam giới đang sống với loãng xương không được chẩn đoán. Và khi gãy xương xảy ra — thường là sau một chấn thương tưởng như nhỏ — đó không phải là sự bắt đầu của bệnh. Đó là biến chứng của nhiều năm bệnh âm thầm không được điều trị.",
+    },
+    {
+      type: "heading",
+      content: "Nhận Diện Nguy Cơ: Bạn Có Nằm Trong Nhóm Cần Kiểm Tra?",
+    },
+    {
+      type: "list",
+      items: [
+        "Tuổi trên 70: Mất xương do lão hóa tích lũy, ngay cả không có bệnh lý nền.",
+        "Đang hoặc đã dùng corticosteroid trên 3 tháng: Prednisolone, methylprednisolone, dexamethasone — dù dùng dạng hít liều cao cũng có nguy cơ.",
+        "Đang điều trị ung thư tuyến tiền liệt bằng liệu pháp triệt androgen (ADT): Nhóm nguy cơ cao nhất, cần theo dõi mật độ xương định kỳ 6-12 tháng.",
+        "Uống rượu nhiều (trên 3 đơn vị/ngày) hoặc hút thuốc lá: Cả hai đều ức chế trực tiếp tế bào tạo xương.",
+        "BMI thấp (dưới 20), hoặc giảm cân nhanh không chủ đích.",
+        "Bệnh lý nội tiết: tiểu đường type 1, cường giáp, suy sinh dục, hội chứng Cushing.",
+        "Đã từng gãy xương khi va chạm nhẹ sau tuổi 50: Đây là dấu hiệu mạnh nhất của loãng xương tiềm ẩn.",
+        "Tiền sử gia đình có bố hoặc anh/chị em bị gãy xương hông.",
+      ],
+    },
+    {
+      type: "note",
+      content: "Bạn có 2 yếu tố trở lên trong danh sách trên? Hãy đề nghị bác sĩ chỉ định đo mật độ xương DXA. Đây là xét nghiệm không xâm lấn, thời gian chưa đến 15 phút, và cho kết quả chính xác nhất về tình trạng xương của bạn hiện tại.",
+    },
+    {
+      type: "heading",
+      content: "Điều Tôi Muốn Đàn Ông Việt Nam Hiểu Sau Bài Viết Này",
+    },
+    {
+      type: "para",
+      content: "Loãng xương ở nam giới không hiếm gặp — nó chỉ bị bỏ qua. Cơ chế gây bệnh rõ ràng về mặt khoa học: mất cân bằng tái cấu trúc xương, sụt giảm testosterone và estrogen nội sinh theo tuổi, cộng với các yếu tố thứ phát như corticoid, rượu bia, bệnh lý nội tiết. Hậu quả — gãy xương hông, xẹp đốt sống — nghiêm trọng không kém và thậm chí nguy hiểm hơn so với nữ giới vì nam giới thường đến muộn hơn với nhiều bệnh đồng mắc hơn.",
+    },
+    {
+      type: "para",
+      content: "Nhưng tin tốt là: loãng xương hoàn toàn có thể phát hiện sớm và điều trị hiệu quả. Thuốc bisphosphonate, denosumab, teriparatide — tất cả đều có bằng chứng tốt ở nam giới. Bổ sung testosterone ở bệnh nhân suy sinh dục rõ ràng làm tăng mật độ xương. Và điều quan trọng hơn cả: phòng ngừa từ lúc còn chưa gãy xương lần nào bao giờ cũng hiệu quả hơn điều trị sau gãy.",
+    },
+    {
+      type: "warning",
+      content: "Nếu bạn là đàn ông trên 60 tuổi, đang dùng corticosteroid, đang điều trị ung thư tuyến tiền liệt, hoặc có bất kỳ yếu tố nguy cơ nào ở trên — hãy chủ động hỏi bác sĩ về đo mật độ xương DXA. Đừng đợi đến khi gãy xương mới biết mình cần điều trị.",
+    },
+    {
+      type: "para",
+      content: "Ông H. của tôi, sau khi được chẩn đoán và bắt đầu điều trị, hỏi tôi: 'Sao bác sĩ trước không nói gì về chuyện này?' Tôi không có câu trả lời thỏa đáng. Nhưng tôi hy vọng bài viết này sẽ giúp nhiều đàn ông khác không phải đặt câu hỏi đó — vì họ đã được tầm soát, được chẩn đoán, và được điều trị đúng lúc.",
+    },
+  ],
+
   "phong-ngua-loang-xuong-phu-nu-sau-man-kinh": [
     {
       type: "para",
