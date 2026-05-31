@@ -89,6 +89,7 @@ const ARTICLES: Record<string, Block[]> = {
     ]},
     { type: "highlight", content: "Mục tiêu của chương trình phục hồi không phải là trở lại như trước khi bị xẹp đốt sống — mà là trở thành người có cột sống được bảo vệ tốt hơn, cơ lưng khỏe hơn, thăng bằng tốt hơn và nguy cơ gãy xương thấp hơn so với trước đây." },
     { type: "note", content: "Bài viết dựa trên: Than và cộng sự, Journal of Orthopaedic Research (2023) — phân tích tổng hợp 12 thử nghiệm lâm sàng về tập luyện sau kyphoplasty; hướng dẫn phục hồi chức năng sau PKP từ Journal of Pharmacology and Therapeutics (2024); và kinh nghiệm lâm sàng tại Khoa Cột sống, BV TWQĐ 108. Không thay thế tư vấn y tế trực tiếp — mỗi bệnh nhân cần chương trình phục hồi được cá thể hóa." },
+    { type: "highlight", content: "Bác sĩ đã xây dựng ứng dụng tập luyện tương tác — theo dõi từng giai đoạn phục hồi, đánh dấu bài tập hoàn thành, xem hình minh họa và nhắc nhở dấu hiệu cần gặp bác sĩ ngay. Truy cập tại: bs-quyen-website.vercel.app/kypho-rehab" },
   ],
 
   "tu-tap-luyen-xep-dot-song-loang-xuong": [
