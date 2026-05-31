@@ -338,17 +338,17 @@ export default function KyphoRehabApp() {
           </p>
 
           {/* Progress */}
-          <div className="mt-5 bg-white/10 rounded-xl p-3">
+          <div className="mt-5 rounded-xl p-4" style={{ background: "rgba(255,255,255,0.18)", border: "1px solid rgba(255,255,255,0.25)" }}>
             <div className="flex items-center justify-between text-sm mb-2">
-              <span>Tiến độ hoàn thành bài tập</span>
-              <span className="font-bold" style={{ color: C.gold }}>{pct}%</span>
+              <span className="font-semibold text-white">Tiến độ hoàn thành bài tập</span>
+              <span className="font-bold text-lg" style={{ color: C.gold }}>{pct}%</span>
             </div>
-            <div className="h-3 rounded-full bg-white/20 overflow-hidden">
-              <div className="h-full rounded-full transition-all duration-500" style={{ width: `${pct}%`, background: C.gold }} />
+            <div className="h-4 rounded-full overflow-hidden" style={{ background: "rgba(255,255,255,0.25)" }}>
+              <div className="h-full rounded-full transition-all duration-500 shadow-sm" style={{ width: `${pct}%`, background: `linear-gradient(90deg, ${C.gold}, #e8b84b)` }} />
             </div>
-            <div className="flex items-center justify-between mt-2 text-xs" style={{ color: "#cdd8e4" }}>
+            <div className="flex items-center justify-between mt-2.5 text-xs font-medium" style={{ color: "#e8f0f8" }}>
               <span>{completed}/{allEx.length} bài tập đã đánh dấu</span>
-              <button onClick={resetAll} className="flex items-center gap-1 hover:text-white">
+              <button onClick={resetAll} className="flex items-center gap-1 opacity-70 hover:opacity-100 transition-opacity">
                 <RotateCcw size={12} /> Đặt lại
               </button>
             </div>
