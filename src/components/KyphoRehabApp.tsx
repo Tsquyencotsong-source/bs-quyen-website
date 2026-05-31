@@ -338,12 +338,12 @@ export default function KyphoRehabApp() {
           </p>
 
           {/* Progress */}
-          <div className="mt-5 rounded-xl p-4" style={{ background: "rgba(193,154,62,0.18)", border: `1px solid ${C.gold}` }}>
+          <div className="mt-5 rounded-xl p-4" style={{ background: "rgba(255,255,255,0.1)" }}>
             <div className="flex items-center justify-between text-sm mb-2">
               <span className="font-semibold" style={{ color: C.gold }}>Tiến độ hoàn thành bài tập</span>
               <span className="font-bold text-lg" style={{ color: C.gold }}>{pct}%</span>
             </div>
-            <div className="h-4 rounded-full overflow-hidden" style={{ background: "rgba(193,154,62,0.25)" }}>
+            <div className="h-4 rounded-full overflow-hidden" style={{ background: "rgba(255,255,255,0.2)" }}>
               <div className="h-full rounded-full transition-all duration-500" style={{ width: `${pct}%`, background: `linear-gradient(90deg, ${C.gold}, #e8b84b)` }} />
             </div>
             <div className="flex items-center justify-between mt-2.5 text-xs font-medium" style={{ color: C.gold }}>
