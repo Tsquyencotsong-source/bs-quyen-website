@@ -127,6 +127,22 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "phuc-hoi-sau-kyphoplasty-tap-luyen",
+    title: "Tập Luyện Sau Bơm Xi Măng Kyphoplasty: Hướng Dẫn Phục Hồi Từng Tuần Cho Người Bệnh Xẹp Đốt Sống",
+    excerpt: "Kyphoplasty giảm đau trong 24-72 giờ — nhưng phục hồi đúng cách mới quyết định chất lượng cuộc sống lâu dài. Hướng dẫn tập luyện theo từng tuần, từ bơm cổ chân trên giường bệnh đến đi bộ 30 phút mỗi ngày, dựa trên bằng chứng từ 12 thử nghiệm lâm sàng quốc tế.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-05-31",
+  },
+  {
+    slug: "tu-tap-luyen-xep-dot-song-loang-xuong",
+    title: "Tự Tập Luyện Khi Bị Xẹp Đốt Sống Do Loãng Xương: Hướng Dẫn An Toàn Và Hiệu Quả",
+    excerpt: "Nằm yên quá nhiều sau xẹp đốt sống có hại không kém gì tập sai. Bài viết cung cấp hướng dẫn tập luyện an toàn theo từng giai đoạn — từ giai đoạn cấp đến phục hồi lâu dài — dựa trên chương trình Too Fit to Fracture và kinh nghiệm lâm sàng tại BV TWQĐ 108.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-05-30",
+  },
+  {
     slug: "loang-xuong-nam-gioi-dich-te-nguyen-nhan-co-che",
     title: "Loãng Xương Ở Nam Giới: Kẻ Thù Vô Hình Mà 80% Đàn Ông Không Biết Mình Đang Đối Mặt",
     excerpt: "40% ca gãy xương do loãng xương toàn cầu xảy ra ở nam giới. Tỷ lệ tử vong sau gãy xương hông ở đàn ông cao hơn phụ nữ. Vậy tại sao đến hơn 80% nam giới mắc bệnh vẫn chưa được điều trị? Hiểu đúng dịch tễ, nguyên nhân và cơ chế phân tử — để không trở thành một trong số đó.",

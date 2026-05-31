@@ -27,1012 +27,143 @@ type Block =
 
 const ARTICLES: Record<string, Block[]> = {
 
-  "loang-xuong-nam-gioi-dich-te-nguyen-nhan-co-che": [
-    {
-      type: "para",
-      content: "Nếu ai đó nói với bạn rằng loãng xương là bệnh của phụ nữ — người đó đã sai. Và sự sai lầm này đang khiến hàng triệu đàn ông trên thế giới, trong đó có nhiều người đang đọc bài này, bỏ qua một mối nguy âm thầm đang gặm nhấm xương của họ từng ngày.",
-    },
-    {
-      type: "para",
-      content: "Tôi muốn kể cho bạn nghe về một bệnh nhân. Ông H., 68 tuổi, kỹ sư về hưu. Vào buổi sáng tháng 3, ông khiêng thùng nước lên tầng hai — một việc ông đã làm hàng trăm lần. Lần đó, ông nghe tiếng 'rắc' ở lưng. Phim chụp sau đó cho thấy hai đốt sống thắt lưng đã xẹp. Chẩn đoán: loãng xương nặng, T-score -3.2. Ông chưa bao giờ được ai khuyên đi đo mật độ xương. Ông cũng chưa bao giờ nghĩ đó là vấn đề cần lo ngại với đàn ông.",
-    },
-    {
-      type: "heading",
-      content: "Con Số Bạn Sẽ Không Ngờ Tới",
-    },
-    {
-      type: "para",
-      content: "Theo báo cáo tổng hợp của Tổ chức Loãng xương Quốc tế (IOF) và nghiên cứu đăng trên PMC năm 2023, tỷ lệ loãng xương ở nam giới trên toàn cầu khoảng 12%, và tại một số khu vực vượt 20%. Tại Mỹ, từ đầu thập niên 1990 đến giữa thập niên 2000, tỷ lệ loãng xương và loãng xương tiền giai đoạn (osteopenia) ở nam giới trên 50 tuổi đã tăng gấp đôi — lần lượt đạt 4% và 38%.",
-    },
-    {
-      type: "highlight",
-      content: "Năm 2000, trong số 9 triệu ca gãy xương do loãng xương trên toàn cầu, 40% xảy ra ở nam giới. Đến năm 2050, số ca gãy xương hông ở nam giới dự báo tăng 310% so với năm 1990 — cao hơn mức tăng 240% ở nữ giới trong cùng kỳ.",
-    },
-    {
-      type: "para",
-      content: "Điều đáng lo hơn: tỷ lệ tử vong sau gãy xương hông ở đàn ông cao hơn phụ nữ. Trong năm đầu sau gãy xương hông, tỷ lệ tử vong dao động 20-24%, và ở nam giới con số này có xu hướng cao hơn — bởi vì gãy xương ở nam thường xảy ra muộn hơn 5-10 năm so với nữ, lúc đó nam giới thường mang nhiều bệnh đồng mắc hơn. Nghiên cứu từ Journal of Bone and Mineral Research (2023) xác nhận: gánh nặng bệnh tật sau gãy xương hông ở nam giới bị đánh giá thấp hơn thực tế rất nhiều.",
-    },
-    {
-      type: "warning",
-      content: "Chưa đến 20% nam giới mắc loãng xương được điều trị — kể cả những người đã có tiền sử gãy xương. Đây là khoảng trống điều trị nghiêm trọng nhất trong nội tiết xương học hiện nay.",
-    },
-    {
-      type: "heading",
-      content: "Tại Sao Đàn Ông Vẫn Loãng Xương Dù Không Mãn Kinh?",
-    },
-    {
-      type: "para",
-      content: "Câu hỏi hợp lý. Phụ nữ loãng xương sau mãn kinh vì estrogen giảm đột ngột — điều này ai cũng biết. Còn đàn ông thì sao? Xương của đàn ông được bảo vệ bởi hai hệ thống song song: testosterone trực tiếp và estrogen gián tiếp thông qua quá trình thơm hóa (aromatization). Nhưng không ai thoát khỏi thời gian.",
-    },
-    {
-      type: "para",
-      content: "Đỉnh mật độ xương (peak bone mass) ở nam giới cao hơn nữ giới khoảng 8-10% — đây là lý do loãng xương ở đàn ông xuất hiện muộn hơn và thường ít được nhận ra. Nhưng sau tuổi 50-60, quá trình mất xương bắt đầu tăng tốc. Và không giống phụ nữ với sự sụt giảm estrogen rõ ràng khi mãn kinh, ở đàn ông sự suy giảm xảy ra âm thầm hơn — khiến cả bệnh nhân lẫn bác sĩ dễ bỏ qua.",
-    },
-    {
-      type: "heading",
-      content: "Hai Nhóm Nguyên Nhân Chính: Nguyên Phát và Thứ Phát",
-    },
-    {
-      type: "para",
-      content: "Loãng xương ở nam giới được chia thành hai nhóm lớn. Loãng xương nguyên phát liên quan đến quá trình lão hóa sinh lý bình thường — xương mất dần theo tuổi tác, không có bệnh lý nền cụ thể. Loãng xương thứ phát có nguyên nhân rõ ràng, và quan trọng là: ở nam giới, nguyên nhân thứ phát phổ biến hơn nhiều so với phụ nữ sau mãn kinh. Nghiên cứu đăng trên PMC cho thấy có thể xác định nguyên nhân thứ phát rõ ràng trong 40-50% ca loãng xương ở nam.",
-    },
-    {
-      type: "list",
-      items: [
-        "Suy sinh dục (Hypogonadism): Thiếu testosterone làm giảm nồng độ estrogen nội sinh — mất đi lá chắn bảo vệ xương. Đây là nguyên nhân thứ phát hàng đầu ở nam giới, gặp trong suy tuyến sinh dục nguyên phát, ung thư tuyến tiền liệt điều trị bằng liệu pháp triệt androgen (ADT), xạ trị vùng chậu.",
-        "Corticosteroid mãn tính: Dùng prednisone trên 7.5mg/ngày trong hơn 3 tháng gây ức chế trực tiếp tế bào tạo xương (osteoblast), tăng tốc độ chết theo chương trình (apoptosis) của osteoblast và osteocyte, đồng thời tăng tạm thời hoạt động của tế bào hủy xương (osteoclast). Đây là nguyên nhân thứ phát phổ biến nhất gây loãng xương ở cả hai giới.",
-        "Lạm dụng rượu bia: Ethanol độc trực tiếp với osteoblast, giảm hấp thu canxi tại ruột, tăng đào thải canxi qua thận, và thường đi kèm thiếu vitamin D cùng suy dinh dưỡng.",
-        "Bệnh lý nội tiết: Cường giáp, cường tuyến cận giáp, hội chứng Cushing — tất cả đều gây mất xương qua các cơ chế hormon khác nhau.",
-        "Bệnh lý tiêu hóa mãn tính: Bệnh Crohn, celiac, viêm loét đại tràng — gây kém hấp thu canxi và vitamin D kéo dài.",
-        "Thuốc ức chế bơm proton (PPI) dài hạn, thuốc chống động kinh, heparin: Đây là các nguyên nhân iatrogen thường bị bỏ sót trong thực hành lâm sàng.",
-      ],
-    },
-    {
-      type: "heading",
-      content: "Cơ Chế Phân Tử: Xương Đang Tự Phá Hủy Như Thế Nào?",
-    },
-    {
-      type: "para",
-      content: "Để hiểu loãng xương, bạn cần biết một điều nền tảng: xương không phải là vật chết. Xương là mô sống, không ngừng được tái tạo thông qua chu kỳ hủy xương — tạo xương, gọi là chu kỳ tái cấu trúc xương (bone remodeling). Trong mỗi chu kỳ, osteoclast phá hủy xương cũ, sau đó osteoblast lấp đầy bằng xương mới. Bình thường hai quá trình này cân bằng nhau. Khi cân bằng bị phá vỡ theo hướng phá nhiều hơn tạo — loãng xương xuất hiện.",
-    },
-    {
-      type: "highlight",
-      content: "Hai trục điều hòa quan trọng nhất: Trục RANKL/OPG — RANKL kích hoạt osteoclast, OPG ức chế; khi RANKL/OPG tăng cao, hủy xương chiếm ưu thế. Trục Wnt/beta-catenin — kích hoạt osteoblast tạo xương; bị ức chế bởi sclerostin và DKK-1. Testosterone và estrogen bảo vệ xương bằng cách ức chế RANKL và tăng cường tín hiệu Wnt.",
-    },
-    {
-      type: "para",
-      content: "Trong suy sinh dục ở nam giới, sự giảm testosterone dẫn đến giảm aromatization thành estrogen — estrogen nội sinh giảm là nguyên nhân trực tiếp gây mất xương, không phải testosterone. Điều này được xác nhận qua các nghiên cứu dùng chất ức chế aromatase ở nam: khi chặn chuyển đổi testosterone thành estrogen, mật độ xương giảm nhanh dù testosterone bình thường. Estrogen ở nam, dù nồng độ thấp, đóng vai trò thiết yếu trong duy trì cân bằng RANKL/OPG.",
-    },
-    {
-      type: "para",
-      content: "Với glucocorticoid mãn tính, cơ chế phức tạp hơn: corticoid kích hoạt thụ thể nhân PPARgamma-2 chuyển hướng tế bào gốc trung mô thành tế bào mỡ thay vì osteoblast; tăng biểu hiện sclerostin — chất ức chế tín hiệu Wnt mạnh nhất; tăng tỷ lệ RANKL/OPG giai đoạn sớm; ức chế sản xuất IGF-1 tại chỗ; và tăng thải canxi qua thận trong khi giảm hấp thu canxi tại ruột. Kết quả là mất xương nhanh trong 3-6 tháng đầu dùng thuốc, sau đó tiếp tục mất chậm hơn nhưng bền vững.",
-    },
-    {
-      type: "heading",
-      content: "Câu Chuyện Testosterone: Đúng Hơn Những Gì Bạn Nghĩ",
-    },
-    {
-      type: "para",
-      content: "Nhiều đàn ông nghĩ testosterone thấp là vấn đề của tình dục và cơ bắp. Ít ai nghĩ đến xương. Thực tế, testosterone tác động lên xương theo hai con đường: trực tiếp qua thụ thể androgen trên osteoblast (thúc đẩy tăng sinh và giảm apoptosis) và gián tiếp qua aromatization thành estradiol — và con đường thứ hai quan trọng hơn nhiều đối với mật độ xương.",
-    },
-    {
-      type: "para",
-      content: "Ở nam giới điều trị ung thư tuyến tiền liệt bằng liệu pháp triệt androgen (ADT — leuprolide, bicalutamide), mật độ xương có thể giảm 2-3% mỗi năm ở cột sống và 1.8-2.1% ở cổ xương đùi, bắt đầu chỉ sau 6 tháng. Một nghiên cứu thử nghiệm ngẫu nhiên có đối chứng đã chứng minh bổ sung testosterone ở nam dùng glucocorticoid điều trị hen phế quản làm tăng gần 4% mật độ xương cột sống thắt lưng sau 12 tháng — kèm tăng khối cơ và giảm mỡ cơ thể. Đây là bằng chứng trực tiếp về mối liên hệ testosterone-xương trong bối cảnh lâm sàng thực tế.",
-    },
-    {
-      type: "heading",
-      content: "Vì Sao Đàn Ông Không Được Tầm Soát?",
-    },
-    {
-      type: "para",
-      content: "Đây là điểm đau của hệ thống y tế hiện tại. Hầu hết hướng dẫn lâm sàng quốc tế — bao gồm NOF (Mỹ), ISCD, NOGG (Anh) — đều khuyến cáo tầm soát loãng xương ở phụ nữ từ 65 tuổi. Nhưng ở nam giới? Ngưỡng khuyến cáo không nhất quán, bắt đầu từ 70 tuổi ở một số guideline, và trong thực hành lâm sàng nhiều bác sĩ không nghĩ đến việc chỉ định DXA cho bệnh nhân nam.",
-    },
-    {
-      type: "para",
-      content: "Kết quả là: hàng triệu nam giới đang sống với loãng xương không được chẩn đoán. Và khi gãy xương xảy ra — thường là sau một chấn thương tưởng như nhỏ — đó không phải là sự bắt đầu của bệnh. Đó là biến chứng của nhiều năm bệnh âm thầm không được điều trị.",
-    },
-    {
-      type: "heading",
-      content: "Nhận Diện Nguy Cơ: Bạn Có Nằm Trong Nhóm Cần Kiểm Tra?",
-    },
-    {
-      type: "list",
-      items: [
-        "Tuổi trên 70: Mất xương do lão hóa tích lũy, ngay cả không có bệnh lý nền.",
-        "Đang hoặc đã dùng corticosteroid trên 3 tháng: Prednisolone, methylprednisolone, dexamethasone — dù dùng dạng hít liều cao cũng có nguy cơ.",
-        "Đang điều trị ung thư tuyến tiền liệt bằng liệu pháp triệt androgen (ADT): Nhóm nguy cơ cao nhất, cần theo dõi mật độ xương định kỳ 6-12 tháng.",
-        "Uống rượu nhiều (trên 3 đơn vị/ngày) hoặc hút thuốc lá: Cả hai đều ức chế trực tiếp tế bào tạo xương.",
-        "BMI thấp (dưới 20), hoặc giảm cân nhanh không chủ đích.",
-        "Bệnh lý nội tiết: tiểu đường type 1, cường giáp, suy sinh dục, hội chứng Cushing.",
-        "Đã từng gãy xương khi va chạm nhẹ sau tuổi 50: Đây là dấu hiệu mạnh nhất của loãng xương tiềm ẩn.",
-        "Tiền sử gia đình có bố hoặc anh/chị em bị gãy xương hông.",
-      ],
-    },
-    {
-      type: "note",
-      content: "Bạn có 2 yếu tố trở lên trong danh sách trên? Hãy đề nghị bác sĩ chỉ định đo mật độ xương DXA. Đây là xét nghiệm không xâm lấn, thời gian chưa đến 15 phút, và cho kết quả chính xác nhất về tình trạng xương của bạn hiện tại.",
-    },
-    {
-      type: "heading",
-      content: "Điều Tôi Muốn Đàn Ông Việt Nam Hiểu Sau Bài Viết Này",
-    },
-    {
-      type: "para",
-      content: "Loãng xương ở nam giới không hiếm gặp — nó chỉ bị bỏ qua. Cơ chế gây bệnh rõ ràng về mặt khoa học: mất cân bằng tái cấu trúc xương, sụt giảm testosterone và estrogen nội sinh theo tuổi, cộng với các yếu tố thứ phát như corticoid, rượu bia, bệnh lý nội tiết. Hậu quả — gãy xương hông, xẹp đốt sống — nghiêm trọng không kém và thậm chí nguy hiểm hơn so với nữ giới vì nam giới thường đến muộn hơn với nhiều bệnh đồng mắc hơn.",
-    },
-    {
-      type: "para",
-      content: "Nhưng tin tốt là: loãng xương hoàn toàn có thể phát hiện sớm và điều trị hiệu quả. Thuốc bisphosphonate, denosumab, teriparatide — tất cả đều có bằng chứng tốt ở nam giới. Bổ sung testosterone ở bệnh nhân suy sinh dục rõ ràng làm tăng mật độ xương. Và điều quan trọng hơn cả: phòng ngừa từ lúc còn chưa gãy xương lần nào bao giờ cũng hiệu quả hơn điều trị sau gãy.",
-    },
-    {
-      type: "warning",
-      content: "Nếu bạn là đàn ông trên 60 tuổi, đang dùng corticosteroid, đang điều trị ung thư tuyến tiền liệt, hoặc có bất kỳ yếu tố nguy cơ nào ở trên — hãy chủ động hỏi bác sĩ về đo mật độ xương DXA. Đừng đợi đến khi gãy xương mới biết mình cần điều trị.",
-    },
-    {
-      type: "para",
-      content: "Ông H. của tôi, sau khi được chẩn đoán và bắt đầu điều trị, hỏi tôi: 'Sao bác sĩ trước không nói gì về chuyện này?' Tôi không có câu trả lời thỏa đáng. Nhưng tôi hy vọng bài viết này sẽ giúp nhiều đàn ông khác không phải đặt câu hỏi đó — vì họ đã được tầm soát, được chẩn đoán, và được điều trị đúng lúc.",
-    },
+  "phuc-hoi-sau-kyphoplasty-tap-luyen": [
+    { type: "para", content: "Ông N.V.T., 76 tuổi, vừa được thực hiện kỹ thuật tạo hình thân đốt sống bằng bơm xi măng (kyphoplasty) tại BV TWQĐ 108. Trước thủ thuật, ông không thể đi lại vì đau quá. Chỉ 24 giờ sau, cơn đau giảm rõ rệt và ông bắt đầu ngồi dậy được. Nhưng câu hỏi tiếp theo của gia đình là: 'Bây giờ ông có thể tập gì? Bao giờ đi bộ được? Cần kiêng những gì?'" },
+    { type: "highlight", content: "Kyphoplasty giúp giảm đau nhanh chóng — nhưng đó mới là khởi đầu, không phải điểm kết thúc. Phục hồi chức năng đúng cách sau thủ thuật quyết định chất lượng cuộc sống lâu dài của người bệnh." },
+    { type: "heading", content: "Kyphoplasty là gì và tại sao vẫn cần tập luyện sau đó?" },
+    { type: "para", content: "Kyphoplasty (tạo hình thân đốt sống có bơm bóng) và vertebroplasty (bơm xi măng trực tiếp) là hai kỹ thuật ít xâm lấn giúp ổn định đốt sống bị xẹp bằng xi măng sinh học. Sau thủ thuật, đau cấp thường giảm 70-90% trong vòng 24-72 giờ đầu — đây là hiệu quả rõ rệt mà bệnh nhân cảm nhận được ngay." },
+    { type: "para", content: "Tuy nhiên, xi măng chỉ ổn định đốt sống đã xẹp — không chữa khỏi loãng xương, không tự động phục hồi cơ lưng đã yếu đi, và không ngăn được đốt sống kế cận bị xẹp tiếp theo. Nghiên cứu đăng trên Journal of Orthopaedic Research (2023) phân tích dữ liệu từ 12 thử nghiệm lâm sàng xác nhận: bệnh nhân được tập luyện phục hồi sau kyphoplasty có điểm đau VAS thấp hơn và chỉ số Oswestry Disability Index tốt hơn đáng kể so với nhóm chỉ nghỉ ngơi." },
+    { type: "warning", content: "Bài viết này dành cho bệnh nhân sau thủ thuật kyphoplasty hoặc vertebroplasty đơn thuần — KHÔNG áp dụng cho bệnh nhân phẫu thuật cột sống có đặt vít (TLIF, PLIF, laminectomy). Nếu không chắc bản thân thuộc nhóm nào, hỏi bác sĩ trước khi tập bất kỳ bài nào." },
+    { type: "heading", content: "Giai đoạn 1: Ngay sau thủ thuật — tuần đầu tiên" },
+    { type: "para", content: "Trong 24-48 giờ đầu, xi măng đang trong giai đoạn đông cứng hoàn toàn. Mục tiêu giai đoạn này là di chuyển an toàn và phòng ngừa biến chứng bất động — không phải tập cường độ cao." },
+    { type: "list", items: [
+      "Hít thở sâu mỗi giờ: nằm ngửa, hít vào phình bụng, thở ra từ từ — 10 lần/lần. Phòng ngừa xẹp phổi và cải thiện tuần hoàn",
+      "Bài tập bơm cổ chân (Ankle Pumps): co và duỗi bàn chân theo chiều lên-xuống, 20 lần/lần, mỗi 1-2 giờ. Phòng ngừa huyết khối tĩnh mạch sâu",
+      "Siết cơ đùi (Quadriceps Sets): nằm ngửa, gồng cứng cơ đùi, giữ 5 giây rồi thư giãn. Lặp 10 lần mỗi 2 giờ",
+      "Đứng dậy và đi vệ sinh ngay hôm thủ thuật hoặc sáng hôm sau nếu bác sĩ cho phép — đây là mục tiêu quan trọng nhất, không để nằm liệt giường",
+      "Đi bộ nhẹ trong phòng bệnh: bắt đầu từ 5 phút, tăng dần theo từng ngày",
+    ]},
+    { type: "heading", content: "Kỹ năng quan trọng nhất: Cách đứng dậy từ giường đúng cách" },
+    { type: "para", content: "Đứng dậy sai tư thế là lúc dễ gây đau và chấn thương nhất. Quy trình 4 bước sau đây cần được học đúng từ đầu và áp dụng mỗi lần thay đổi tư thế:" },
+    { type: "list", items: [
+      "Bước 1 — Lăn nghiêng: từ tư thế nằm ngửa, lăn sang nằm nghiêng một bên (bên ít đau hơn). Toàn thân lăn cùng lúc như một khối cứng, KHÔNG xoắn lưng",
+      "Bước 2 — Đặt chân xuống: hạ hai chân xuống mép giường trong khi dùng tay chống lên đệm để nâng thân người lên",
+      "Bước 3 — Ngồi thẳng: ngồi thẳng lưng ở mép giường, nghỉ 20-30 giây để cơ thể thích nghi, tránh hạ huyết áp tư thế",
+      "Bước 4 — Đứng lên: đẩy tay vào đùi hoặc tay vịn giường để đứng dậy — KHÔNG cúi người ra trước để đứng lên",
+    ]},
+    { type: "heading", content: "Giai đoạn 2: Tuần 2 đến tuần 6 — xây dựng nền tảng cơ bắp" },
+    { type: "para", content: "Sau 1-2 tuần, xi măng đã hoàn toàn ổn định. Đây là lúc bắt đầu chương trình tập có hệ thống. Mục tiêu: tăng cường cơ lưng, cơ vùng lõi và phục hồi dáng đi bình thường. Nghiên cứu lâm sàng cho thấy tập sức mạnh cơ lưng và cơ bụng sớm sau PKP giảm đáng kể nguy cơ xẹp đốt sống kế cận." },
+    { type: "list", items: [
+      "Đi bộ có kiểm soát: mục tiêu 15-20 phút/ngày trên mặt phẳng, tốc độ vừa phải. Đây là bài tập quan trọng nhất — kích thích tạo xương và tăng sức cơ toàn thân",
+      "Kéo vai về sau (Scapular Retraction): đứng hoặc ngồi thẳng, kéo hai vai về phía sau và xuống dưới, giữ 5 giây. Lặp 10 lần, 2 hiệp/ngày. Cải thiện tư thế gù vẹo",
+      "Nâng mông cầu nhẹ (Modified Glute Bridge): nằm ngửa, đầu gối co, bàn chân sát sàn. Siết cơ mông, nâng hông lên nhẹ nhàng. Giữ 3 giây rồi hạ xuống chậm. Lặp 8 lần",
+      "Kích hoạt cơ bụng sâu: nằm ngửa, thở ra và kéo rốn vào cột sống nhẹ nhàng — giữ 5-8 giây. Lặp 10 lần. Kích hoạt cơ transversus abdominis là lớp cơ sâu nhất bảo vệ cột sống",
+      "Ưỡn lưng nhẹ dựa tường: đứng cách tường 30cm, ngả lưng trên vào tường — mở ngực ra phía trước nhẹ nhàng. Giữ 10 giây. Lặp 10 lần. Bài tập an toàn chống gù sau xẹp đốt sống",
+    ]},
+    { type: "note", content: "Trong giai đoạn 2, bác sĩ có thể cho mặc đai lưng khi đi lại — đặc biệt khi ra ngoài hoặc đứng lâu. Đai hỗ trợ nhắc nhở tư thế đúng, nhưng không nên mặc liên tục khi nằm nghỉ vì cơ cần hoạt động để phát triển." },
+    { type: "heading", content: "Giai đoạn 3: Sau 6 tuần — phục hồi toàn diện và duy trì lâu dài" },
+    { type: "para", content: "Sau 6 tuần, nếu không có biến chứng và đau đã kiểm soát tốt, có thể nâng cường độ tập lên mức duy trì lâu dài. Nghiên cứu từ Journal of Pharmacology and Therapeutics (2024) xác nhận: chương trình tập sức mạnh sớm sau kyphoplasty cải thiện kiểm soát tư thế, tăng sức cơ và giảm nguy cơ té ngã đáng kể." },
+    { type: "list", items: [
+      "Đi bộ 30 phút mỗi ngày, ít nhất 5 ngày/tuần: mục tiêu dài hạn quan trọng nhất để duy trì mật độ xương và sức cơ",
+      "Bài tập thăng bằng: đứng một chân (tay giữ vào ghế), đứng trên tấm thảm mỏng, đi theo đường thẳng — giảm nguy cơ té ngã gây gãy xương mới",
+      "Ngồi đứng có kiểm soát (Sit-to-Stand): từ ghế có tay vịn, đứng lên mà KHÔNG cúi người ra trước — siết cơ mông và đùi để đẩy người lên. Lặp 10 lần, 2 hiệp",
+      "Đạp xe đạp tĩnh: tốt cho tim mạch và cơ chân mà không tải trọng mạnh lên cột sống — thích hợp đặc biệt sau kyphoplasty",
+      "Thái cực quyền (Tai chi): bằng chứng khoa học mạnh nhất về cải thiện thăng bằng ở người cao tuổi, giảm té ngã đến 47% theo nhiều nghiên cứu tổng hợp",
+    ]},
+    { type: "heading", content: "Điều trị loãng xương song song — bước không thể thiếu" },
+    { type: "para", content: "Kyphoplasty xử lý đốt sống đã xẹp, nhưng nếu không điều trị loãng xương nguyên nhân, đốt sống kế cận sẽ tiếp tục chịu tải bất thường. Nguy cơ đốt sống lân cận bị gãy tăng 2-3 lần trong 12 tháng đầu sau thủ thuật nếu không điều trị loãng xương song song." },
+    { type: "list", items: [
+      "Bắt đầu hoặc tiếp tục thuốc điều trị loãng xương ngay sau kyphoplasty theo chỉ định bác sĩ",
+      "Bổ sung canxi 1.000-1.200mg/ngày và vitamin D 800-1.000 IU/ngày đều đặn",
+      "Tái khám DXA sau 12-24 tháng để đánh giá đáp ứng điều trị và hiệu quả thuốc",
+      "Tuyệt đối không tự ngưng thuốc — đặc biệt với Denosumab: ngưng đột ngột có thể gây xẹp đốt sống bùng phát nhiều vị trí",
+    ]},
+    { type: "warning", content: "Dừng tập và liên hệ bác sĩ ngay nếu xuất hiện: đau lưng tăng đột ngột trở lại sau khi đã giảm, tê bì hoặc yếu chân, đau lan xuống chân, mất kiểm soát đại tiểu tiện. Đây là dấu hiệu có thể xẹp đốt sống mới hoặc biến chứng cần xử lý khẩn cấp." },
+    { type: "heading", content: "Lịch tập tham khảo theo tuần" },
+    { type: "list", items: [
+      "Tuần 1-2: Bơm cổ chân + hít thở sâu + đi bộ trong phòng 2-3 lần/ngày, mỗi lần 5-10 phút",
+      "Tuần 2-4: Thêm kéo vai về sau + kích hoạt cơ bụng sâu + đi bộ 15-20 phút/ngày",
+      "Tuần 4-6: Thêm cầu mông nhẹ + ưỡn lưng dựa tường + đi bộ 20-25 phút/ngày",
+      "Sau 6 tuần: Đi bộ 30 phút + bài tập thăng bằng + ngồi đứng có kiểm soát + đạp xe tĩnh",
+      "Sau 3 tháng trở đi: Duy trì lịch trên suốt đời — đây là liều thuốc phòng ngừa hiệu quả nhất",
+    ]},
+    { type: "highlight", content: "Mục tiêu của chương trình phục hồi không phải là trở lại như trước khi bị xẹp đốt sống — mà là trở thành người có cột sống được bảo vệ tốt hơn, cơ lưng khỏe hơn, thăng bằng tốt hơn và nguy cơ gãy xương thấp hơn so với trước đây." },
+    { type: "note", content: "Bài viết dựa trên: Than và cộng sự, Journal of Orthopaedic Research (2023) — phân tích tổng hợp 12 thử nghiệm lâm sàng về tập luyện sau kyphoplasty; hướng dẫn phục hồi chức năng sau PKP từ Journal of Pharmacology and Therapeutics (2024); và kinh nghiệm lâm sàng tại Khoa Cột sống, BV TWQĐ 108. Không thay thế tư vấn y tế trực tiếp — mỗi bệnh nhân cần chương trình phục hồi được cá thể hóa." },
   ],
 
-  "phong-ngua-loang-xuong-phu-nu-sau-man-kinh": [
-    {
-      type: "para",
-      content: "Bạn đang đọc bài này và có thể bạn đã mãn kinh được 3, 5, hay 10 năm rồi. Tôi muốn nói thẳng một điều: trong suốt thời gian đó, xương của bạn đang mất đi khoảng 2-4% mật độ mỗi năm — âm thầm, không đau, không dấu hiệu — và phần lớn phụ nữ không biết điều này cho đến khi xương gãy.",
-    },
-    {
-      type: "para",
-      content: "Đây không phải để dọa. Đây là sự thật được ghi nhận trong hàng chục nghiên cứu và guideline quốc tế mới nhất năm 2024-2025. Tin tốt là: loãng xương sau mãn kinh hoàn toàn có thể phòng ngừa và làm chậm lại được, nếu bạn biết cần làm gì và bắt đầu đúng thời điểm.",
-    },
-    {
-      type: "heading",
-      content: "Tại Sao Mãn Kinh Lại Là Bước Ngoặt Của Xương?",
-    },
-    {
-      type: "para",
-      content: "Câu trả lời nằm ở một chữ: estrogen. Hormone này không chỉ điều tiết chu kỳ kinh nguyệt — nó còn là người gác cổng quan trọng bảo vệ mật độ xương suốt cuộc đời sinh sản của phụ nữ. Estrogen ức chế các tế bào hủy xương (osteoclast) hoạt động quá mức, đồng thời kích thích tế bào tạo xương (osteoblast) làm việc. Khi mãn kinh xảy ra, estrogen giảm mạnh, cân bằng này bị phá vỡ: hủy xương nhanh hơn tạo xương, mật độ khoáng xương giảm dần.",
-    },
-    {
-      type: "highlight",
-      content: "Trong 5-10 năm đầu sau mãn kinh, tốc độ mất xương có thể đạt 2-4% mỗi năm — nhanh hơn gấp 4-8 lần so với nam giới cùng tuổi. Sau 10 năm không can thiệp, một phụ nữ có thể đã mất 20-30% tổng mật độ xương so với thời điểm đỉnh cao.",
-    },
-    {
-      type: "para",
-      content: "Tại Việt Nam, Hội Loãng xương TP.HCM ước tính hiện có khoảng 3,6 triệu người đang mắc loãng xương và dự báo con số này sẽ lên 4,5 triệu vào năm 2030. Cứ 3 phụ nữ trên 50 tuổi thì có 1 người bị loãng xương. Mỗi năm, khoảng 32.000 trường hợp gãy xương hông xảy ra — và gãy xương hông ở người cao tuổi có tỷ lệ tử vong trong năm đầu lên đến 20-30%.",
-    },
-    {
-      type: "heading",
-      content: "5 Nhóm Nguy Cơ Cao — Bạn Có Trong Danh Sách Này?",
-    },
-    {
-      type: "para",
-      content: "Không phải mọi phụ nữ sau mãn kinh đều mất xương với tốc độ như nhau. Theo hướng dẫn điều trị loãng xương năm 2024 của Anh Quốc (NOGG 2024) và Hội Y học Úc (RACGP 2024), các yếu tố nguy cơ sau làm tăng tốc độ mất xương và tăng nguy cơ gãy xương:",
-    },
-    {
-      type: "list",
-      items: [
-        "Mãn kinh sớm (trước 45 tuổi) hoặc cắt buồng trứng: Thời gian thiếu estrogen kéo dài hơn, xương mất đi nhiều hơn.",
-        "Chưa từng mang thai hoặc cho con bú: Mang thai và cho con bú thực ra có tác dụng bảo vệ xương dài hạn thông qua cơ chế hormon và canxi.",
-        "Tiền sử gia đình có mẹ hoặc bà bị gãy xương hông: Yếu tố di truyền đóng góp khoảng 60-80% vào đỉnh mật độ xương.",
-        "Đang hoặc đã dùng corticosteroid kéo dài (trên 3 tháng): Cortisol ức chế trực tiếp tế bào tạo xương và tăng canxi niệu.",
-        "Chỉ số BMI thấp (dưới 19): Mô mỡ sản xuất một lượng nhỏ estrogen sau mãn kinh — người gầy mất bảo vệ này.",
-        "Hút thuốc lá và uống rượu thường xuyên: Cả hai đều ức chế trực tiếp tế bào tạo xương và giảm hấp thu canxi.",
-        "Ít vận động, ngồi nhiều: Xương cần lực tác động để duy trì mật độ — thiếu vận động là thiếu kích thích tạo xương.",
-      ],
-    },
-    {
-      type: "heading",
-      content: "Bằng Chứng Từ Khoa Học: Đâu Là Biện Pháp Thực Sự Có Hiệu Quả?",
-    },
-    {
-      type: "para",
-      content: "Đây là phần quan trọng nhất bài viết này. Tôi sẽ chỉ chia sẻ những gì có bằng chứng khoa học rõ ràng — không phải những gì nghe có vẻ hay nhưng chưa được chứng minh.",
-    },
-    {
-      type: "heading",
-      content: "1. Canxi và Vitamin D — Nền Tảng Không Thể Thiếu",
-    },
-    {
-      type: "para",
-      content: "Một systematic review và meta-analysis công bố năm 2025 trên BMC Musculoskeletal Disorders, tổng hợp dữ liệu từ 37 thử nghiệm lâm sàng ngẫu nhiên có đối chứng (RCT) với 43.397 bệnh nhân, kết luận rằng bổ sung canxi và vitamin D kết hợp giúp tăng mật độ xương và giảm nguy cơ gãy xương có ý nghĩa thống kê ở phụ nữ sau mãn kinh. Đây là cấp độ bằng chứng cao nhất trong y học.",
-    },
-    {
-      type: "list",
-      items: [
-        "Canxi: Phụ nữ trên 51 tuổi cần 1.200mg canxi mỗi ngày (theo NOF, AACE, Endocrine Society). Ưu tiên từ thực phẩm: sữa, phô mai, sữa chua, đậu phụ, tôm, cá nhỏ ăn cả xương, rau cải xanh. Bổ sung thuốc chỉ khi chế độ ăn không đủ.",
-        "Vitamin D: Cần 800-1.000 IU mỗi ngày, có thể lên 2.000 IU nếu thiếu hụt. Vitamin D thiết yếu để ruột hấp thu canxi — thiếu vitamin D thì uống canxi bao nhiêu cũng không vào xương.",
-        "Nguồn vitamin D tốt nhất: Tiếp xúc ánh nắng mặt trời 15-20 phút mỗi ngày (vùng da cánh tay, không qua kính); cá béo (cá hồi, cá thu, cá ngừ); lòng đỏ trứng; nấm phơi nắng.",
-        "Lưu ý quan trọng: Không uống quá 2.500mg canxi mỗi ngày từ mọi nguồn — liều cao canxi từ thuốc (không phải thực phẩm) có thể tăng nguy cơ sỏi thận và một số nghiên cứu lo ngại về tim mạch.",
-      ],
-    },
-    {
-      type: "heading",
-      content: "2. Vận Động — Không Phải Môn Nào Cũng Như Nhau",
-    },
-    {
-      type: "para",
-      content: "Bơi lội và đạp xe tốt cho tim mạch nhưng gần như không có tác dụng tăng mật độ xương. Lý do: xương cần lực tác động (impact) và lực kéo của cơ bắp để kích thích tạo xương mới. Những bài tập sau đây được chứng minh có hiệu quả rõ rệt lên xương:",
-    },
-    {
-      type: "list",
-      items: [
-        "Đi bộ nhanh: Đơn giản nhất, ít rủi ro nhất. Đi bộ 30 phút mỗi ngày, ít nhất 5 ngày/tuần. Nghiên cứu meta-analysis 2024 (Nutrients) với 13 RCT xác nhận đi bộ kết hợp bổ sung canxi/vitamin D hiệu quả hơn đáng kể so với chỉ dùng thuốc bổ sung.",
-        "Tập có trọng tải (weight-bearing): Squat, tập tạ nhẹ, leo cầu thang. Lực kéo của cơ bắp lên xương kích thích osteoblast hoạt động. Bắt đầu nhẹ, tăng dần dưới hướng dẫn.",
-        "Yoga và Tai chi: Không tăng mật độ xương nhiều nhưng cải thiện thăng bằng, giảm nguy cơ té ngã — nguyên nhân trực tiếp của gãy xương hông.",
-        "Tần suất: Ít nhất 150 phút vận động vừa phải mỗi tuần, kết hợp 2 buổi tập cơ/tạ mỗi tuần.",
-      ],
-    },
-    {
-      type: "heading",
-      content: "3. Thuốc Điều Trị — Khi Nào Cần Và Loại Nào Phù Hợp?",
-    },
-    {
-      type: "para",
-      content: "Canxi và vitamin D là nền tảng, nhưng với nhiều phụ nữ sau mãn kinh có nguy cơ cao, thuốc điều trị đặc hiệu là cần thiết. Các guideline quốc tế 2024 (NOGG UK, RACGP Úc, Korean Society of Menopause) đồng thuận về hai nhóm thuốc được ưu tiên:",
-    },
-    {
-      type: "list",
-      items: [
-        "Bisphosphonate (Alendronate, Zoledronic acid, Risedronate): Nhóm thuốc ức chế hủy xương được nghiên cứu nhiều nhất và lâu nhất. Alendronate uống 1 lần/tuần, Zoledronic acid truyền tĩnh mạch 1 lần/năm. Giảm nguy cơ gãy đốt sống đến 40-70%, gãy xương hông đến 40%. Đây là lựa chọn đầu tay tại hầu hết guideline.",
-        "Denosumab (Prolia): Tiêm dưới da mỗi 6 tháng, hiệu quả cao hơn bisphosphonate ở một số nhóm bệnh nhân. Quan trọng: không được tự ý ngưng thuốc vì có thể gây gãy nhiều đốt sống sau khi dừng.",
-        "Liệu pháp hormone thay thế (HRT): Guideline 2024 UK xếp HRT là lựa chọn ưu tiên cho phụ nữ mãn kinh sớm hoặc phụ nữ dưới 60 tuổi có triệu chứng mãn kinh và nguy cơ gãy xương cao. Cần đánh giá lợi ích-nguy cơ cá nhân hóa (không phù hợp với tiền sử ung thư vú hoặc huyết khối).",
-        "Không tự mua thuốc: Tất cả các thuốc điều trị loãng xương đặc hiệu cần chỉ định của bác sĩ sau khi đo mật độ xương (DXA scan) và đánh giá nguy cơ gãy xương (FRAX score).",
-      ],
-    },
-    {
-      type: "warning",
-      content: "Cảnh báo về thuốc gia truyền và thực phẩm chức năng: Không có bất kỳ thực phẩm chức năng nào được chứng minh tương đương bisphosphonate hay denosumab trong điều trị loãng xương đã thiết lập. Nhiều sản phẩm quảng cáo giúp tái tạo xương, tăng mật độ xương trong vài tuần là không có cơ sở khoa học. Chi tiền vào sản phẩm này trong khi bỏ qua thuốc thực sự có hiệu quả có thể gây hại.",
-    },
-    {
-      type: "heading",
-      content: "Kiểm Tra Sức Khỏe Xương: Đừng Đợi Đến Khi Gãy",
-    },
-    {
-      type: "para",
-      content: "Theo hướng dẫn của Tổ chức Loãng xương Quốc tế (IOF) và guideline mới nhất 2024, đây là những ai cần được đo mật độ xương (DXA scan) ngay:",
-    },
-    {
-      type: "list",
-      items: [
-        "Tất cả phụ nữ từ 65 tuổi trở lên — không cần thêm yếu tố nguy cơ nào khác.",
-        "Phụ nữ dưới 65 tuổi đã mãn kinh và có ít nhất 1 yếu tố nguy cơ (tiền sử gia đình, hút thuốc, BMI thấp, dùng corticosteroid, mãn kinh sớm).",
-        "Bất kỳ phụ nữ nào đã từng gãy xương khi va chạm nhẹ sau tuổi 40.",
-        "Phụ nữ đang dùng hoặc cần dùng corticosteroid kéo dài.",
-      ],
-    },
-    {
-      type: "note",
-      content: "DXA scan (đo mật độ xương) là xét nghiệm không xâm lấn, không đau, chỉ mất khoảng 15-20 phút, liều bức xạ rất thấp (thấp hơn nhiều so với chụp X-quang ngực thông thường). Bệnh viện TWQĐ 108 thực hiện đo DXA scan và đánh giá nguy cơ gãy xương FRAX thường quy tại Khoa C1.1-A. Liên hệ: 0989 052 288.",
-    },
-    {
-      type: "heading",
-      content: "Thực Đơn Và Lối Sống Bảo Vệ Xương Từ Bây Giờ",
-    },
-    {
-      type: "para",
-      content: "Phòng ngừa hiệu quả nhất là bắt đầu sớm và duy trì nhất quán. Đây là những thay đổi lối sống có bằng chứng rõ ràng nhất:",
-    },
-    {
-      type: "list",
-      items: [
-        "Mỗi ngày: 2-3 phần sữa hoặc sản phẩm từ sữa (1 ly sữa 240ml = khoảng 300mg canxi). Người không dung nạp lactose có thể dùng sữa đậu nành có bổ sung canxi, đậu phụ cứng, hạnh nhân.",
-        "Mỗi tuần: Ăn cá ít nhất 3 bữa, ưu tiên cá béo (cá thu, cá hồi, cá ngừ) cho vitamin D. Ăn tôm, cua, hàu cho canxi và kẽm.",
-        "Hàng ngày: Ra nắng 15-20 phút vào buổi sáng (trước 10h) hoặc chiều (sau 16h) — không cần kem chống nắng trong thời gian ngắn này.",
-        "Hạn chế: Cà phê dưới 3 ly/ngày (caffeine tăng canxi niệu nhẹ), muối (natri cao làm tăng thải canxi qua nước tiểu), protein động vật quá nhiều.",
-        "Dứt khoát bỏ: Thuốc lá (giảm estrogen, ức chế tạo xương) và rượu bia quá mức (trên 2 đơn vị/ngày).",
-        "Phòng ngừa té ngã: Lắp thanh vịn trong nhà vệ sinh và cầu thang, để ánh sáng đầy đủ ban đêm, không đi dép trơn trượt trong nhà — gãy xương xảy ra khi té, không phải vì xương yếu mà thôi.",
-      ],
-    },
-    {
-      type: "heading",
-      content: "Kết Luận: Bắt Đầu Hôm Nay, Không Phải Khi Xương Gãy",
-    },
-    {
-      type: "para",
-      content: "Mỗi ngày chờ đợi là thêm 0.005-0.01% mật độ xương mất đi. Nghe nhỏ, nhưng tích lũy theo năm tháng thì rất lớn. Điều tôi muốn bác sĩ chia sẻ với bạn qua bài viết này là: loãng xương sau mãn kinh không phải định mệnh. Với can thiệp đúng — vận động đều đặn, dinh dưỡng đủ canxi và vitamin D, và thuốc điều trị nếu cần — phụ nữ hoàn toàn có thể giữ xương chắc khỏe, ngăn gãy xương và duy trì cuộc sống độc lập đến tuổi già.",
-    },
-    {
-      type: "para",
-      content: "Nếu bạn đã mãn kinh và chưa từng đo mật độ xương, đây là lúc để bắt đầu. Hãy chia sẻ bài viết này đến các chị em phụ nữ xung quanh bạn — đặc biệt những người đang ở độ tuổi 45-60, giai đoạn vàng để phòng ngừa trước khi quá muộn.",
-    },
-    {
-      type: "note",
-      content: "Tài liệu tham khảo chính: (1) NOGG 2024 — UK Clinical Guideline for Prevention and Treatment of Osteoporosis, Archives of Osteoporosis 2025; (2) RACGP 2024 — Australian Guideline for Osteoporosis Management and Fracture Prevention, PMC 2024; (3) Systematic review 37 RCT / 43.397 bệnh nhân về canxi và vitamin D, BMC Musculoskeletal Disorders 2025; (4) Hội Loãng xương TP.HCM — Thông điệp loãng xương 2025. Bài viết mang tính chất giáo dục sức khỏe, không thay thế tư vấn y tế cá nhân.",
-    },
-  ],
-
-  "loang-xuong-khong-dieu-tri-gay-vo-dot-song": [
-    {
-      type: "para",
-      content: "Bà N., 68 tuổi, bị đau lưng âm ỉ suốt 3 năm. Con cái nhiều lần khuyên đi khám nhưng bà gạt đi: \"Già thì đau lưng, bình thường thôi. Uống thuốc giảm đau là xong.\" Cho đến một buổi sáng bà cúi xuống nhặt cái chổi — chỉ vậy thôi — và ngã khuỵu xuống vì đau không thể chịu được. Chụp X-quang tại Bệnh viện TWQĐ 108: 4 đốt sống bị xẹp, 2 đốt gãy hoàn toàn. Loãng xương giai đoạn nặng. Không ai báo cho bà biết.",
-    },
-    {
-      type: "para",
-      content: "Câu chuyện của bà N. không hề hiếm. Mỗi tuần tôi tiếp nhận ít nhất 3-5 trường hợp tương tự tại khoa. Người bệnh đến không phải vì ngã ngã mạnh hay tai nạn giao thông — họ đến vì ho một cái, vì hắt hơi, vì cúi người tưới cây. Và cột sống của họ không chịu nổi nữa.",
-    },
-    {
-      type: "heading",
-      content: "Loãng Xương Là Kẻ Giết Người Im Lặng",
-    },
-    {
-      type: "para",
-      content: "Loãng xương không đau. Đó là lý do nó nguy hiểm đến vậy. Trong nhiều năm, xương mất dần mật độ khoáng — âm thầm, không triệu chứng, không cảnh báo. Đốt sống từ chắc như bê tông trở nên xốp như miếng bọt biển. Chỉ đến khi có áp lực đủ lớn — đôi khi chỉ là trọng lượng cơ thể — đốt sống xẹp xuống như chiếc hộp bìa cứng bị dẫm lên.",
-    },
-    {
-      type: "para",
-      content: "Theo Tổ chức Loãng xương Quốc tế (IOF), cứ 3 phụ nữ trên 50 tuổi thì có 1 người sẽ bị gãy xương do loãng xương trong đời. Tại Việt Nam, ước tính có hơn 3,6 triệu người đang mắc loãng xương, nhưng chỉ khoảng 20% được chẩn đoán và điều trị. 80% còn lại đang đi lại, sinh hoạt hàng ngày với những đốt sống ngày càng mỏng manh hơn — mà không hay biết.",
-    },
-    {
-      type: "image",
-      src: "/images/Xquang-dot-song-vo-xep-do-loang-xuong.jpg",
-      alt: "X-quang cột sống thắt lưng cho thấy nhiều đốt sống bị xẹp do loãng xương nặng",
-      caption: "X-quang cột sống thắt lưng: Các vòng tròn xanh khoanh vùng 2 đốt sống bị xẹp nặng — hình dạng thay đổi hoàn toàn so với đốt sống bình thường bên cạnh.",
-      subcaption: "Hình ảnh thực tế tại Khoa C1.1-A, Bệnh viện TWQĐ 108",
-    },
-    {
-      type: "heading",
-      content: "Nhìn Vào Phim Để Hiểu Người Bệnh Đang Chịu Đựng Gì",
-    },
-    {
-      type: "para",
-      content: "Tấm X-quang ở trên là của một bệnh nhân thực tế. Nhìn vào những vòng tròn xanh — đó là 2 đốt sống đã bị xẹp hoàn toàn. Đốt sống bình thường có hình chữ nhật đều đặn, chiều cao trên dưới bằng nhau. Đốt sống bị xẹp bị nghiền bẹp lại như chiếc bánh quy bị bóp nát — mặt trước thấp hơn mặt sau, tạo ra hình nêm. Cột sống mất điểm tựa, bắt đầu cong ra trước. Người bệnh còng lưng không phải vì họ muốn — mà vì xương không còn đứng thẳng được nữa.",
-    },
-    {
-      type: "para",
-      content: "Và khi một đốt sống xẹp, áp lực dồn lên đốt kế tiếp. Rồi đốt đó cũng xẹp. Trong trường hợp nặng — như ảnh MRI dưới đây — có thể 4, 5, thậm chí 6 đốt sống cùng bị tổn thương. Đây không phải viễn cảnh hiếm gặp. Đây là điều tôi nhìn thấy mỗi ngày.",
-    },
-    {
-      type: "image",
-      src: "/images/MRI-dot-song-vo-xep-do-loang-xuong.jpg",
-      alt: "MRI cột sống ngực và thắt lưng cho thấy nhiều đốt sống xẹp do loãng xương, mũi tên đỏ chỉ vùng tổn thương",
-      caption: "MRI cột sống cùng bệnh nhân: Các mũi tên đỏ chỉ rõ nhiều đốt sống bị xẹp và biến dạng ở cột sống ngực và thắt lưng. Tủy sống bị chèn ép ở nhiều tầng.",
-      subcaption: "Hình ảnh thực tế tại Bệnh viện TWQĐ 108 — bệnh nhân cho phép sử dụng cho mục đích giáo dục",
-    },
-    {
-      type: "heading",
-      content: "Cuộc Sống Của Người Bị Vỡ Nhiều Đốt Sống Trông Như Thế Nào?",
-    },
-    {
-      type: "para",
-      content: "Nhiều người nghĩ gãy xương cột sống thì nằm liệt. Thực tế không đơn giản như vậy — và đôi khi còn tàn nhẫn hơn. Người bệnh vẫn đi lại được, nhưng mỗi bước đi là một lần đau. Đau âm ỉ liên tục, đau nhói khi xoay người, đau buốt khi ho hay hắt hơi. Họ không thể nằm ngủ thẳng lưng. Họ không thể cúi xuống mặc quần. Họ không thể bế đứa cháu.",
-    },
-    {
-      type: "list",
-      items: [
-        "Đau lưng mãn tính không dứt: Cơn đau không chỉ đến rồi đi — nó ở lại. Ngày nào cũng đau, chỉ khác nhau về mức độ.",
-        "Mất chiều cao: Mỗi đốt sống xẹp làm người bệnh thấp đi 1-3cm. Nhiều đốt xẹp, người bệnh có thể thấp đi 5-10cm so với lúc trẻ.",
-        "Còng lưng nặng dần: Cột sống mất điểm tựa, cong ra trước (gù ngực), khó thở vì lồng ngực bị thu hẹp, ảnh hưởng cả tiêu hóa.",
-        "Nguy cơ liệt: Mảnh xương vỡ có thể chèn ép tủy sống hoặc rễ thần kinh — gây tê bì, yếu chân, nặng hơn là mất kiểm soát đại tiểu tiện.",
-        "Trầm cảm và cô lập xã hội: Không đi được xa, không ngồi lâu được, không tham gia các hoạt động gia đình — người bệnh dần thu mình lại.",
-        "Tăng nguy cơ tử vong: Nghiên cứu trên Lancet (2022) cho thấy bệnh nhân gãy đốt sống do loãng xương có nguy cơ tử vong trong 5 năm cao hơn 2 lần so với người không gãy.",
-      ],
-    },
-    {
-      type: "warning",
-      content: "Điều đau lòng nhất: Tất cả những điều này hoàn toàn có thể phòng ngừa được. Loãng xương nặng đến mức gãy nhiều đốt sống không xảy ra qua một đêm — nó là kết quả của nhiều năm bệnh không được điều trị. Nếu can thiệp sớm, xương hoàn toàn có thể được giữ vững và gãy xương có thể tránh được.",
-    },
-    {
-      type: "heading",
-      content: "Ai Đang Có Nguy Cơ Mà Không Biết?",
-    },
-    {
-      type: "para",
-      content: "Loãng xương không phân biệt giàu nghèo hay học vấn. Nhưng có những nhóm người có nguy cơ cao hơn rõ rệt — và rất nhiều trong số họ đang đọc bài viết này:",
-    },
-    {
-      type: "list",
-      items: [
-        "Phụ nữ sau mãn kinh: Estrogen bảo vệ xương. Khi mãn kinh, estrogen giảm mạnh, xương mất đi 2-3% mật độ mỗi năm trong 5-10 năm đầu sau mãn kinh.",
-        "Người dùng corticosteroid kéo dài: Thuốc hen, viêm khớp, lupus, ghép tạng dùng lâu năm gây loãng xương nhanh và nặng.",
-        "Người ít vận động hoặc nằm lâu: Xương cần lực tác động để duy trì mật độ. Không vận động là không kích thích tạo xương.",
-        "Người ăn ít canxi và ít ra nắng: Canxi thiếu thì xương không có nguyên liệu tái tạo. Vitamin D thiếu thì canxi không hấp thụ được dù ăn bao nhiêu.",
-        "Người hút thuốc lá và uống nhiều rượu: Cả hai đều ức chế trực tiếp tế bào tạo xương.",
-        "Người có tiền sử gia đình loãng xương hoặc đã từng gãy xương khi va chạm nhẹ.",
-      ],
-    },
-    {
-      type: "highlight",
-      content: "Dấu hiệu cần đi khám NGAY: Đau lưng kéo dài trên 4 tuần không rõ nguyên nhân, đặc biệt ở phụ nữ trên 50 tuổi; Chiều cao giảm hơn 3cm so với lúc trẻ; Đã từng gãy xương khi va chạm nhẹ (trượt chân nhẹ, ngã thấp); Đang dùng hoặc đã dùng corticosteroid trên 3 tháng.",
-    },
-    {
-      type: "heading",
-      content: "Điều Trị Loãng Xương: Không Bao Giờ Là Quá Muộn",
-    },
-    {
-      type: "para",
-      content: "Tin tốt là y học ngày nay có nhiều công cụ hiệu quả để điều trị loãng xương — kể cả khi bệnh đã ở giai đoạn nặng. Điều quan trọng là phải bắt đầu. Điều trị muộn vẫn tốt hơn không điều trị.",
-    },
-    {
-      type: "list",
-      items: [
-        "Đo mật độ xương (DXA scan): Xét nghiệm đơn giản, không đau, chỉ mất 15 phút — cho biết chính xác mức độ loãng xương và nguy cơ gãy xương.",
-        "Thuốc bisphosphonate (Alendronate, Zoledronic acid): Ức chế tiêu xương, giảm nguy cơ gãy đốt sống đến 70%. Uống 1 lần/tuần hoặc truyền 1 lần/năm.",
-        "Denosumab (Prolia): Tiêm dưới da mỗi 6 tháng, hiệu quả cao, phù hợp người không dung nạp được bisphosphonate. Lưu ý: không được tự ý ngưng thuốc.",
-        "Teriparatide/Abaloparatide: Kích thích tạo xương mới — dùng cho loãng xương rất nặng hoặc đã gãy xương.",
-        "Bổ sung Canxi và Vitamin D đúng liều: Là nền tảng bắt buộc, phối hợp với bất kỳ thuốc nào ở trên.",
-        "Vật lý trị liệu và tập luyện thích hợp: Bài tập chịu trọng lượng giúp kích thích tạo xương; bài tập thăng bằng giúp phòng ngừa té ngã.",
-      ],
-    },
-    {
-      type: "note",
-      content: "Với bệnh nhân đã gãy xẹp đốt sống, ngoài điều trị nội khoa, có thể xem xét thủ thuật bơm xi măng đốt sống (Vertebroplasty/Kyphoplasty) để giảm đau nhanh và ổn định đốt sống. Thủ thuật này được thực hiện thường quy tại Bệnh viện TWQĐ 108.",
-    },
-    {
-      type: "heading",
-      content: "Hãy Nói Chuyện Với Người Thân Của Bạn Tối Nay",
-    },
-    {
-      type: "para",
-      content: "Nếu bạn đọc đến đây, tôi có một đề nghị nhỏ: Hãy nghĩ đến một người thân — mẹ, bà, dì, cô — trên 50 tuổi, chưa từng đo mật độ xương, đang tự nhủ rằng \"đau lưng tuổi già bình thường thôi\". Và tối nay, hãy nói chuyện với họ.",
-    },
-    {
-      type: "para",
-      content: "Không cần nói dài. Chỉ cần một câu: \"Mẹ ơi, hay mình đi khám loãng xương đi, con đưa mẹ đi.\" Một câu đó có thể thay đổi tất cả. Bởi vì bà N. mà tôi kể đầu bài — bà ấy có con, có cháu, có người thân. Nhưng không ai nói câu đó với bà trước khi quá muộn.",
-    },
-    {
-      type: "para",
-      content: "Loãng xương không thể chữa khỏi hoàn toàn, nhưng hoàn toàn có thể kiểm soát. Gãy xương có thể phòng ngừa được. Cuộc sống không đau không chỉ là mơ ước — đó là quyền lợi mà người bệnh xứng đáng được hưởng khi được điều trị đúng cách và đúng thời điểm.",
-    },
-    {
-      type: "note",
-      content: "TS.BS. Nguyễn Ngọc Quyền — Phó Chủ nhiệm Khoa Khám bệnh đa khoa C1.1-A, Bệnh viện TWQĐ 108. Chuyên khoa Cột sống và Phục hồi chức năng Chỉnh hình. Liên hệ tư vấn: 0989 052 288. Tất cả hình ảnh trong bài được sử dụng với sự đồng ý của bệnh nhân vì mục đích giáo dục sức khỏe cộng đồng.",
-    },
-  ],
-
-  "loi-khuyen-suc-khoe-nang-nong-cuc-doan": [
-    {
-      type: "para",
-      content: "Mùa hè năm 2025–2026, nhiều tỉnh thành Việt Nam ghi nhận nhiệt độ vượt 40°C liên tục nhiều ngày — mức kỷ lục trong lịch sử khí tượng. Không khí oi bức, độ ẩm cao và nhiệt độ không hạ xuống vào ban đêm tạo ra điều kiện nguy hiểm cho hàng triệu người, đặc biệt là người cao tuổi, trẻ nhỏ và người mắc bệnh mãn tính. Tổ chức Y tế Thế giới (WHO) đã xếp nắng nóng cực đoan là một trong những nguyên nhân hàng đầu gây tử vong do thời tiết trên toàn cầu.",
-    },
-    {
-      type: "para",
-      content: "Điều đáng lo ngại là nhiều người không nhận ra mức độ nguy hiểm cho đến khi đã xuất hiện các triệu chứng nặng. Sốc nhiệt (heat stroke) có thể gây tổn thương não vĩnh viễn và tử vong chỉ trong vòng 30 phút nếu không được xử trí kịp thời. Bài viết này tổng hợp các khuyến cáo từ Bộ Y tế Việt Nam, WHO, CDC Hoa Kỳ và các nghiên cứu lâm sàng mới nhất năm 2024–2025 để giúp bạn và gia đình an toàn trong những ngày nắng nóng.",
-    },
-    {
-      type: "heading",
-      content: "Nắng Nóng Tác Động Lên Cơ Thể Như Thế Nào?",
-    },
-    {
-      type: "para",
-      content: "Cơ thể người duy trì thân nhiệt ổn định ở khoảng 37°C thông qua cơ chế đổ mồ hôi và giãn mạch máu ngoại vi. Khi nhiệt độ môi trường quá cao hoặc độ ẩm quá lớn, hai cơ chế này bị suy giảm hiệu quả: mồ hôi bay hơi chậm hơn, nhiệt không thoát ra ngoài được, thân nhiệt bắt đầu tăng. Nếu thân nhiệt vượt 40°C, các enzyme trong tế bào bắt đầu bị phá hủy, màng tế bào mất ổn định và tổn thương đa tạng bắt đầu xảy ra.",
-    },
-    {
-      type: "para",
-      content: "Nghiên cứu đăng trên tạp chí chuyên ngành năm 2025 (NIH/PubMed) chỉ ra rằng nắng nóng không chỉ ảnh hưởng đến tim mạch mà còn gây tổn thương cơ xương khớp qua cơ chế tiêu cơ vân (rhabdomyolysis) — tình trạng các tế bào cơ bị phá hủy hàng loạt, giải phóng myoglobin vào máu, dẫn đến suy thận cấp. Người tập thể dục ngoài trời trong nắng nóng có nguy cơ mắc rhabdomyolysis cao gấp 5–10 lần so với điều kiện bình thường.",
-    },
-    {
-      type: "heading",
-      content: "Ba Mức Độ Say Nắng — Nhận Biết Để Xử Trí Đúng",
-    },
-    {
-      type: "para",
-      content: "Các bệnh lý do nhiệt nắng được chia thành ba mức độ tăng dần, từ nhẹ đến nguy hiểm tính mạng. Việc nhận biết sớm và xử trí đúng cách ở giai đoạn nhẹ có thể ngăn chặn tiến triển sang mức nguy hiểm.",
-    },
-    {
-      type: "highlight",
-      content: "Mức 1 — Kiệt sức do nhiệt (Heat Exhaustion): Ra nhiều mồ hôi, da lạnh và ẩm, mạch nhanh và yếu, chóng mặt, buồn nôn, chuột rút cơ, có thể ngất xỉu. Thân nhiệt thường dưới 40°C. Đây là giai đoạn CẢNH BÁO — cần dừng ngay mọi hoạt động và vào nơi mát.",
-    },
-    {
-      type: "highlight",
-      content: "Mức 2 — Sốc nhiệt (Heat Stroke): Thân nhiệt trên 40°C, da đỏ và nóng (không còn mồ hôi), mạch nhanh và mạnh, lú lẫn, nói nhảm, co giật hoặc mất ý thức. ĐÂY LÀ CẤP CỨU Y TẾ — phải gọi 115 ngay lập tức.",
-    },
-    {
-      type: "heading",
-      content: "Ai Có Nguy Cơ Cao Nhất?",
-    },
-    {
-      type: "para",
-      content: "Không phải ai cũng bị ảnh hưởng như nhau bởi nắng nóng. Bộ Y tế Việt Nam xác định các nhóm cần được ưu tiên bảo vệ đặc biệt:",
-    },
-    {
-      type: "list",
-      items: [
-        "Người cao tuổi (trên 65 tuổi): Khả năng điều hòa nhiệt độ suy giảm, ít nhận biết cảm giác khát, thường dùng nhiều thuốc ảnh hưởng đến cân bằng dịch.",
-        "Trẻ em dưới 5 tuổi: Diện tích da so với khối lượng cơ thể lớn, trao đổi nhiệt nhanh hơn người lớn.",
-        "Phụ nữ có thai: Thân nhiệt cơ sở cao hơn, nhu cầu nước lớn hơn, nguy cơ ảnh hưởng đến thai nhi.",
-        "Người lao động ngoài trời: Nông dân, công nhân xây dựng, bảo vệ, người giao hàng — tiếp xúc trực tiếp nhiều giờ.",
-        "Người mắc bệnh tim mạch, tăng huyết áp, đái tháo đường: Khả năng bù trừ tim mạch kém, mạch máu ngoại vi không giãn được tốt.",
-        "Người mắc bệnh cột sống, khớp đang dùng thuốc kháng viêm NSAID: Nhóm thuốc này làm giảm lưu lượng máu thận, kết hợp mất nước do nắng nóng có thể gây suy thận cấp.",
-        "Người thừa cân, béo phì: Lớp mỡ cách nhiệt làm cơ thể khó thoát nhiệt.",
-      ],
-    },
-    {
-      type: "warning",
-      content: "Lưu ý đặc biệt cho bệnh nhân cột sống và khớp: Các thuốc kháng viêm không steroid (NSAID) như Ibuprofen, Diclofenac, Meloxicam làm giảm lưu lượng máu đến thận. Khi kết hợp với mất nước do nắng nóng, nguy cơ suy thận cấp tăng cao đột biến. Trong những ngày nắng nóng cực đoan, hãy hỏi bác sĩ về việc điều chỉnh liều thuốc và đảm bảo uống đủ nước.",
-    },
-    {
-      type: "heading",
-      content: "7 Hành Động Bảo Vệ Sức Khỏe Trong Nắng Nóng",
-    },
-    {
-      type: "para",
-      content: "Bộ Y tế Việt Nam và WHO đồng thuận về 7 nhóm biện pháp hiệu quả nhất để phòng chống tác hại của nắng nóng cực đoan:",
-    },
-    {
-      type: "list",
-      items: [
-        "Uống đủ nước — kể cả khi không khát: Người lớn cần uống tối thiểu 2–3 lít nước mỗi ngày trong thời tiết nắng nóng. Người lao động ngoài trời cần uống 250ml nước mỗi 15–20 phút. Ưu tiên nước lọc, nước điện giải; tránh rượu bia và đồ uống có caffeine vì gây lợi tiểu.",
-        "Tránh ra ngoài trong khung giờ 10h–16h: Đây là thời điểm bức xạ mặt trời mạnh nhất và nhiệt độ cao nhất. Nếu buộc phải ra ngoài, hãy mặc quần áo sáng màu, rộng rãi, đội mũ rộng vành và sử dụng ô che nắng.",
-        "Bôi kem chống nắng SPF 30 trở lên: Cháy nắng không chỉ làm tổn thương da mà còn làm giảm khả năng tỏa nhiệt của cơ thể. Thoa lại mỗi 2 giờ khi ở ngoài trời.",
-        "Mặc trang phục phù hợp: Chọn vải cotton hoặc vải thoáng khí, màu sáng (phản xạ nhiệt tốt hơn màu tối), rộng rãi để không khí lưu thông. Tránh mặc đồ bó sát khi ra ngoài.",
-        "Làm mát môi trường sống: Dùng quạt, điều hòa không khí hoặc đến các không gian công cộng có điều hòa (thư viện, trung tâm thương mại) vào ban ngày. Đóng rèm cửa phía tây buổi chiều để giảm bức xạ.",
-        "Không để trẻ em hoặc người già một mình trong xe ô tô: Nhiệt độ trong xe có thể tăng thêm 20°C chỉ sau 10 phút. Đây là nguyên nhân gây tử vong hàng đầu ở trẻ nhỏ vào mùa hè.",
-        "Theo dõi sức khỏe người thân có nguy cơ cao: Gọi điện kiểm tra người già sống một mình ít nhất hai lần mỗi ngày trong đợt nắng nóng. Biết số điện thoại cấp cứu 115 và địa chỉ cơ sở y tế gần nhất.",
-      ],
-    },
-    {
-      type: "heading",
-      content: "Xử Trí Khi Gặp Người Bị Say Nắng",
-    },
-    {
-      type: "para",
-      content: "Biết cách sơ cứu đúng có thể cứu sống người thân trong tình huống khẩn cấp. CDC khuyến cáo quy trình xử trí theo thứ tự sau:",
-    },
-    {
-      type: "list",
-      items: [
-        "Bước 1 — Gọi 115 ngay nếu nghi ngờ sốc nhiệt (người lú lẫn, mất ý thức, thân nhiệt trên 40°C). Không chờ xem có tự khỏi không.",
-        "Bước 2 — Chuyển người bệnh ngay vào nơi mát, thoáng gió, có bóng râm hoặc điều hòa.",
-        "Bước 3 — Cởi bớt quần áo bên ngoài, nới lỏng cà vạt, thắt lưng, cúc áo.",
-        "Bước 4 — Làm mát nhanh bằng nước: Lau toàn thân bằng khăn ướt mát. Đặt túi đá hoặc khăn lạnh lên vùng nách, háng, hai bên cổ — đây là nơi mạch máu lớn đi qua, làm mát hiệu quả nhất.",
-        "Bước 5 — Cho uống nước từng ngụm nhỏ nếu người bệnh còn tỉnh táo và nuốt được. KHÔNG cho uống nếu đang mất ý thức.",
-        "Bước 6 — Không cho uống rượu, bia hoặc bất kỳ loại đồ uống có cồn nào.",
-        "Bước 7 — Theo dõi liên tục cho đến khi xe cấp cứu đến hoặc đến được cơ sở y tế.",
-      ],
-    },
-    {
-      type: "note",
-      content: "Với kiệt sức do nhiệt (mức nhẹ): Sau khi nghỉ ngơi ở nơi mát, uống nước điện giải và làm mát cơ thể, hầu hết bệnh nhân hồi phục trong vòng 30 phút. Nếu sau 30 phút không cải thiện hoặc triệu chứng nặng hơn, phải đến cơ sở y tế ngay.",
-    },
-    {
-      type: "heading",
-      content: "Dinh Dưỡng Và Lối Sống Trong Mùa Nắng Nóng",
-    },
-    {
-      type: "para",
-      content: "Ngoài việc uống đủ nước, chế độ ăn uống và sinh hoạt hàng ngày cũng ảnh hưởng đáng kể đến khả năng chịu đựng nắng nóng của cơ thể. Một số điều chỉnh đơn giản nhưng hiệu quả:",
-    },
-    {
-      type: "list",
-      items: [
-        "Ăn nhiều rau quả có hàm lượng nước cao: Dưa hấu, dưa leo, cà chua, cam, bưởi — vừa cung cấp nước vừa bổ sung vitamin và khoáng chất.",
-        "Tránh ăn thực phẩm nhiều dầu mỡ vào bữa trưa: Tiêu hóa thực phẩm béo sinh nhiệt lớn, làm cơ thể nóng hơn.",
-        "Ưu tiên bữa ăn nhẹ, chia nhiều bữa nhỏ: Giảm gánh nặng tiêu hóa trong thời tiết nóng.",
-        "Bổ sung điện giải sau khi ra mồ hôi nhiều: Oresol pha đúng liều, nước dừa tươi hoặc nước có bổ sung muối khoáng — không phải nước lọc thuần túy khi mất mồ hôi nhiều.",
-        "Tập thể dục vào sáng sớm (trước 8h) hoặc chiều tối (sau 17h30): Tránh hoàn toàn tập ngoài trời từ 10h đến 16h.",
-        "Ngủ đủ giấc: Thiếu ngủ làm giảm khả năng điều nhiệt và tăng nguy cơ say nắng.",
-      ],
-    },
-    {
-      type: "heading",
-      content: "Lưu Ý Đặc Biệt Cho Bệnh Nhân Đau Cột Sống Và Khớp",
-    },
-    {
-      type: "para",
-      content: "Với tư cách là bác sĩ chuyên khoa cột sống, tôi muốn nhấn mạnh một số điều đặc biệt quan trọng với nhóm bệnh nhân đang điều trị các bệnh lý xương khớp trong mùa nắng nóng:",
-    },
-    {
-      type: "list",
-      items: [
-        "Không tập phục hồi chức năng ngoài trời trong nắng: Các bài tập đi bộ, đạp xe phục hồi sau phẫu thuật khớp gối hoặc cột sống phải thực hiện trong nhà có điều hòa hoặc vào lúc mát mẻ.",
-        "Đau cơ tăng lên trong nắng nóng là dấu hiệu bình thường nhưng cần theo dõi: Nhiệt độ cao làm giãn mạch máu cơ, có thể gây đau nhức tạm thời. Tuy nhiên, nếu đau tăng đột ngột kèm nước tiểu màu nâu sẫm — đây là dấu hiệu tiêu cơ vân, cần đến cấp cứu ngay.",
-        "Người đặt dụng cụ kim loại (vít, thanh nẹp cột sống, khớp nhân tạo): Kim loại không dẫn nhiệt đáng kể trong điều kiện sinh hoạt bình thường. Tuy nhiên, tránh tắm nắng kéo dài vùng phẫu thuật vừa mổ xong.",
-        "Không ngưng thuốc loãng xương hay bệnh nền khi trời nóng: Hỏi bác sĩ về lịch uống thuốc phù hợp, đặc biệt với các thuốc cần uống kèm nhiều nước như Alendronate.",
-      ],
-    },
-    {
-      type: "heading",
-      content: "Kết Luận",
-    },
-    {
-      type: "para",
-      content: "Nắng nóng cực đoan là mối nguy hiểm thực sự với sức khỏe — không phải chỉ gây khó chịu đơn thuần. Sốc nhiệt có tỷ lệ tử vong cao và để lại di chứng thần kinh nghiêm trọng ngay cả khi bệnh nhân qua khỏi. Tin tốt là hầu hết các trường hợp đều có thể phòng ngừa được bằng những biện pháp đơn giản: uống đủ nước, tránh nắng vào giờ cao điểm, làm mát môi trường sống và nhận biết sớm các dấu hiệu cảnh báo.",
-    },
-    {
-      type: "para",
-      content: "Hãy chia sẻ bài viết này đến người thân — đặc biệt những người cao tuổi, trẻ nhỏ và người đang điều trị bệnh mãn tính trong gia đình bạn. Trong mùa nắng nóng, sự quan tâm kịp thời của người xung quanh đôi khi có thể cứu sống một người.",
-    },
-    {
-      type: "note",
-      content: "Bài viết tổng hợp từ: Tổ chức Y tế Thế giới (WHO, 2025), CDC Hoa Kỳ, Bộ Y tế Việt Nam và các nghiên cứu lâm sàng đăng trên PubMed/NIH năm 2024–2025. Nếu bạn có thắc mắc cụ thể về sức khỏe trong nắng nóng, hãy liên hệ cơ sở y tế gần nhất hoặc gọi đường dây hỗ trợ y tế 1800 9095.",
-    },
-  ],
-
-  "di-bo-dieu-chinh-goc-ban-chan-giam-dau-khop-goi": [
-  {
-    type: "para",
-    content: "Một nghiên cứu lâm sàng ngẫu nhiên có đối chứng (RCT) vừa công bố trên tạp chí <em>The Lancet Rheumatology</em> tháng 8/2025 mang đến hy vọng mới cho hàng triệu bệnh nhân thoái hóa khớp gối: chỉ cần thay đổi góc bàn chân thêm 5–10 độ khi đi bộ — hướng vào trong hoặc ra ngoài tùy từng người — có thể giảm đau khớp gối đáng kể, làm chậm tổn thương sụn khớp và không có bất kỳ tác dụng phụ nào. Đây là công trình hợp tác của các nhà nghiên cứu tại NYU Langone Health, Đại học Utah và Đại học Stanford.",
-  },
-  {
-    type: "heading",
-    content: "Tại Sao Khớp Gối Bị Thoái Hóa? Hiểu Từ Góc Nhìn Sinh Cơ Học",
-  },
-  {
-    type: "para",
-    content: "Trong bước đi bình thường, khoang trong (medial compartment) của khớp gối phải chịu khoảng 60–80% tổng lực tải trọng cơ thể. Ở người có trục chi lệch vào trong (varus malalignment) hoặc dáng đi bất thường, lực này có thể tăng lên đến 80–100% tổng trọng lượng — gây ra tình trạng quá tải mạn tính, bào mòn sụn khớp và cuối cùng dẫn đến thoái hóa.",
-  },
-  {
-    type: "para",
-    content: "Thước đo quan trọng nhất trong đánh giá này là Knee Adduction Moment (KAM) — mô men lực tác động vào khoang trong khớp gối trong mỗi bước đi. KAM càng cao, sụn khoang trong mòn càng nhanh. Các yếu tố như góc tiến bàn chân (foot progression angle), chiều rộng bước chân, và độ lệch thân người đều có thể ảnh hưởng trực tiếp đến chỉ số KAM này.",
-  },
-  {
-    type: "highlight",
-    content: "\"Chúng tôi muốn tìm hiểu liệu thay đổi cách đặt bàn chân khi đi bộ có thể làm giảm lực tải quá mức lên khớp và hỗ trợ điều trị bệnh hay không.\" — TS. Valentina Mazzoli, PhD, Trưởng nhóm nghiên cứu, NYU Langone Health",
-  },
-  {
-    type: "heading",
-    content: "Nghiên Cứu Được Thực Hiện Như Thế Nào?",
-  },
-  {
-    type: "para",
-    content: "Nhóm nghiên cứu tuyển 68 bệnh nhân nam và nữ bị thoái hóa khớp gối mức độ nhẹ đến trung bình (khoang trong). Tất cả được phân tích dáng đi trên máy chạy bộ tại phòng thí nghiệm chuyên biệt, sử dụng phần mềm mô phỏng tính toán lực tải trọng tối đa tại khoang trong của mỗi người.",
-  },
-  {
-    type: "list",
-    items: [
-      "Bước 1 — Mô hình hóa cá nhân: Máy tính tạo ra 4 mô hình bước chân mới cho mỗi bệnh nhân: xoay vào trong 5°, xoay vào trong 10°, xoay ra ngoài 5°, và xoay ra ngoài 10°. Góc nào giảm KAM nhiều nhất sẽ được chọn.",
-      "Bước 2 — Tập luyện có hướng dẫn: Nhóm can thiệp (34 người) tham gia 6 buổi tập với chuyên gia vật lý trị liệu, học cách đi với góc bàn chân cá nhân hóa. Nhóm đối chứng (34 người) được khuyến khích đi bộ nhiều hơn mà không thay đổi cách đi.",
-      "Bước 3 — Theo dõi 12 tháng: Điểm đau và chụp MRI tiên tiến được thực hiện ở đầu nghiên cứu và sau 1 năm để theo dõi cả triệu chứng lẫn cấu trúc sụn khớp.",
-    ],
-  },
-  {
-    type: "heading",
-    content: "Kết Quả Nghiên Cứu: Những Con Số Ấn Tượng",
-  },
-  {
-    type: "highlight",
-    content: "✅ Các Kết Quả Chính Sau 12 Tháng — Thử nghiệm lâm sàng ngẫu nhiên có đối chứng, theo dõi 1 năm, công bố trên The Lancet Rheumatology 2025.",
-  },
-  {
-    type: "list",
-    items: [
-      "Nhóm can thiệp giảm điểm đau trung bình 2,5 điểm trên thang 10 điểm — tương đương hiệu quả của thuốc giảm đau không kê đơn (paracetamol, ibuprofen).",
-      "Nhóm đối chứng chỉ giảm được hơn 1 điểm đau mà không thay đổi cách đi.",
-      "Nhóm can thiệp giảm lực tải trọng tối đa tại khớp gối 4% — trong khi nhóm đối chứng tăng tải trọng thêm hơn 3%.",
-      "Hình ảnh MRI tiên tiến cho thấy nhóm điều chỉnh bước chân có tốc độ thoái hóa sụn chậm hơn ở khoang trong so với nhóm đối chứng.",
-      "Không ghi nhận tác dụng phụ có hại nào trong suốt thời gian nghiên cứu.",
-    ],
-  },
-  {
-    type: "para",
-    content: "Đây là thử nghiệm lâm sàng ngẫu nhiên có đối chứng đầu tiên trên thế giới chứng minh rằng điều chỉnh góc bàn chân theo từng cá nhân — không phải áp dụng một công thức chung — có thể giảm triệu chứng lâu dài và làm chậm tiến triển tổn thương sụn khớp gối.",
-  },
-  {
-    type: "heading",
-    content: "Cơ Chế Hoạt Động: Tại Sao Góc Bàn Chân Lại Quan Trọng?",
-  },
-  {
-    type: "para",
-    content: "Khi bàn chân xoay nhẹ vào trong (toe-in) hoặc ra ngoài (toe-out) so với hướng đi, hướng của lực phản lực mặt đất (ground reaction force) thay đổi tương đối với trục khớp gối. Điều này làm thay đổi cánh tay đòn (moment arm) của lực, từ đó trực tiếp giảm mô men lực tác động lên khoang trong. Tương tự nguyên lý cơ học — cùng một lực nhưng thay đổi điểm tác động sẽ thay đổi hoàn toàn áp suất tạo ra.",
-  },
-  {
-    type: "para",
-    content: "Điều quan trọng là mỗi người có một góc tối ưu riêng. Một số bệnh nhân đáp ứng tốt hơn với toe-in, một số khác với toe-out, và góc hiệu quả có thể là 5° hoặc 10°. Đây là lý do tại sao các nghiên cứu trước đây — áp dụng một góc cố định cho tất cả mọi người — không cho kết quả tích cực: tiếp cận \"một cỡ vừa tất cả\" không phù hợp với sinh cơ học cá thể.",
-  },
-  {
-    type: "heading",
-    content: "Quy Trình Thực Hiện Trong Thực Hành Lâm Sàng",
-  },
-  {
-    type: "list",
-    items: [
-      "Bước 1 — Phân tích dáng đi (Gait Analysis): Bệnh nhân được đánh giá bởi bác sĩ vật lý trị liệu hoặc chuyên gia phục hồi chức năng, sử dụng hệ thống phân tích chuyển động (motion capture) hoặc phần mềm AI phân tích video từ điện thoại thông minh để đo KAM theo các tư thế bàn chân khác nhau.",
-      "Bước 2 — Xác định góc tối ưu cá nhân: Chọn góc (5° hoặc 10°; vào trong hoặc ra ngoài) tạo ra mức giảm KAM lớn nhất cho từng bệnh nhân cụ thể.",
-      "Bước 3 — Tập luyện có hướng dẫn (6 buổi): Bệnh nhân tập đi với góc mới dưới sự giám sát của chuyên gia, sử dụng phản hồi trực quan (gương, vạch kẻ sàn, hoặc cảm biến) để giúp nhận biết và duy trì tư thế đúng. Mục tiêu ít nhất 20 phút/ngày.",
-      "Bước 4 — Hình thành thói quen (4–6 tuần): Qua tập luyện lặp lại, cách đi mới dần trở thành phản xạ tự động, không cần phải chú tâm chỉnh sửa trong từng bước.",
-      "Bước 5 — Duy trì và theo dõi: Tiếp tục duy trì cách đi trong sinh hoạt hàng ngày; tái đánh giá định kỳ để theo dõi tiến triển lâm sàng.",
-    ],
-  },
-  {
-    type: "heading",
-    content: "Ứng Dụng AI Trong Phân Tích Dáng Đi: Bước Tiến Quan Trọng",
-  },
-  {
-    type: "para",
-    content: "Một trong những rào cản lớn nhất của phương pháp này là yêu cầu phòng thí nghiệm chuyên biệt để phân tích dáng đi — điều không phải cơ sở y tế nào cũng có. Tuy nhiên, TS. Mazzoli cho biết hiện đã có phần mềm AI phân tích lực tải khớp thông qua video điện thoại thông minh, giúp bác sĩ lâm sàng có thể thực hiện phân tích dáng đi ngay tại phòng khám. Đây là bước đột phá giúp phổ cập hóa phương pháp điều trị không xâm lấn này.",
-  },
-  {
-    type: "heading",
-    content: "So Sánh Với Các Phương Pháp Điều Trị Thoái Hóa Khớp Gối Hiện Tại",
-  },
-  {
-    type: "list",
-    items: [
-      "Thuốc giảm đau (NSAIDs, paracetamol): Giảm triệu chứng nhưng không điều trị nguyên nhân, có thể gây tổn thương dạ dày, gan, thận khi dùng lâu dài.",
-      "Tiêm corticosteroid: Giảm viêm tạm thời, không ngăn tiến triển bệnh, không thể thực hiện quá 3–4 lần/năm.",
-      "Phẫu thuật thay khớp gối: Hiệu quả cao ở giai đoạn cuối nhưng là can thiệp lớn, có nguy cơ biến chứng, và tuổi thọ khớp nhân tạo có giới hạn (15–20 năm).",
-      "Điều chỉnh dáng đi cá nhân hóa: Không xâm lấn, không tác dụng phụ, giảm đau tương đương thuốc OTC, có bằng chứng làm chậm tiến triển sụn — phù hợp cho giai đoạn nhẹ đến trung bình.",
-    ],
-  },
-  {
-    type: "heading",
-    content: "Ai Là Đối Tượng Phù Hợp Nhất?",
-  },
-  {
-    type: "list",
-    items: [
-      "Bệnh nhân thoái hóa khớp gối khoang trong mức độ nhẹ đến trung bình (Kellgren-Lawrence độ 1–3).",
-      "Người muốn trì hoãn hoặc tránh phẫu thuật thay khớp.",
-      "Bệnh nhân không thể dùng thuốc kháng viêm lâu dài do bệnh nền (loét dạ dày, suy thận, bệnh tim mạch).",
-      "Người đang trong chương trình phục hồi chức năng sau can thiệp khớp gối.",
-      "Người có nguy cơ cao thoái hóa khớp gối muốn phòng ngừa sớm (thừa cân, vận động viên, người lao động nặng).",
-    ],
-  },
-  {
-    type: "warning",
-    content: "⚠️ Những trường hợp cần thận trọng: (1) Thoái hóa khớp gối giai đoạn nặng (Kellgren-Lawrence độ 4) — hiệu quả hạn chế, cần đánh giá lại chỉ định phẫu thuật. (2) Biến dạng trục chi nặng (varus/valgus lớn, sau chấn thương) — cần đánh giá chỉnh hình trước. (3) Bệnh lý thần kinh ảnh hưởng dáng đi (Parkinson, đột quỵ, viêm đa khớp dạng thấp nặng) — cần cá thể hóa thêm. (4) KHÔNG tự ý điều chỉnh góc bàn chân mà không có gait analysis chính thức — sai góc có thể tăng tải trọng lên khoang khớp khác hoặc gây đau cổ chân, hông.",
-  },
-  {
-    type: "heading",
-    content: "Hướng Nghiên Cứu Tiếp Theo",
-  },
-  {
-    type: "para",
-    content: "Nhóm nghiên cứu đang lên kế hoạch mở rộng nghiên cứu sang bệnh nhân béo phì — nhóm có nguy cơ thoái hóa khớp gối đặc biệt cao do tải trọng cơ thể lớn. Họ cũng sẽ kiểm tra tính chính xác của các ứng dụng AI phân tích dáng đi qua điện thoại thông minh trong việc xác định góc bàn chân tối ưu cho từng bệnh nhân, hướng đến phổ cập hóa phương pháp này tại các phòng khám không có phòng thí nghiệm chuyên biệt.",
-  },
-  {
-    type: "heading",
-    content: "Tài Liệu Tham Khảo",
-  },
-  {
-    type: "list",
-    items: [
-      "Mazzoli V, Uhlrich S, Kolesar J, et al. <em>Personalised gait retraining for medial compartment knee osteoarthritis: a randomised controlled trial.</em> The Lancet Rheumatology. August 12, 2025. DOI: 10.1016/S2665-9913(25)00151-1",
-      "NYU Langone News. <em>Study Reveals How Small Changes in Walking Technique May Help Treat Knee Osteoarthritis.</em> August 13, 2025. nyulangone.org",
-      "Harvard Health Publishing. <em>Correcting how you walk may ease osteoarthritis knee pain.</em> health.harvard.edu",
-      "Shull PB et al. <em>Six-week gait retraining program reduces knee adduction moment, reduces pain, and improves function for individuals with medial compartment knee osteoarthritis.</em> PubMed PMID: 23494804",
-      "ScienceDaily. <em>Scientists discover simple way to relieve arthritis pain without pills or surgery.</em> May 2026.",
-    ],
-  },
-  {
-    type: "note",
-    content: "Bài viết này được biên soạn với mục đích cung cấp thông tin y khoa tổng quát, không thay thế cho việc thăm khám và tư vấn trực tiếp bởi bác sĩ chuyên khoa. Phương pháp điều chỉnh dáng đi cần được chỉ định và hướng dẫn bởi bác sĩ vật lý trị liệu hoặc chuyên gia phục hồi chức năng sau khi đánh giá lâm sàng đầy đủ. Nếu bạn có triệu chứng đau khớp gối, hãy đến gặp bác sĩ chuyên khoa xương khớp hoặc cột sống để được tư vấn phù hợp.",
-  },
-],
-
-  "tu-y-bo-thuoc-loang-xuong": [
-    {
-      type: "para",
-      content:
-        "Loãng xương là bệnh mạn tính — điều trị không tính bằng tuần hay tháng, mà thường kéo dài nhiều năm. Thế nhưng trong thực tế lâm sàng, rất nhiều bệnh nhân tự ý bỏ thuốc giữa chừng mà không thông báo cho bác sĩ. Đây là một quyết định tiềm ẩn nguy hiểm nghiêm trọng, đặc biệt với một số nhóm thuốc điều trị hiện đại.",
-    },
-    {
-      type: "heading",
-      content: "Tại sao bệnh nhân thường tự ý bỏ thuốc?",
-    },
-    {
-      type: "list",
-      items: [
-        "Cảm thấy 'đỡ rồi, không đau nữa' — không nhận ra loãng xương là bệnh thầm lặng, không triệu chứng cho đến khi gãy xương",
-        "Sợ tác dụng phụ: đau khớp, buồn nôn, lo lắng về 'hoại tử xương hàm' đọc được trên mạng",
-        "Chi phí điều trị dài hạn gây gánh nặng kinh tế",
-        "Quên uống nhiều lần rồi bỏ hẳn",
-        "Tự mua thuốc, không theo dõi định kỳ, không có bác sĩ quản lý",
-        "Nghe người quen khuyên 'uống nhiều thuốc hại thận, hại gan'",
-      ],
-    },
-    {
-      type: "heading",
-      content: "Các nhóm thuốc điều trị loãng xương hiện nay",
-    },
-    {
-      type: "para",
-      content:
-        "Có nhiều nhóm thuốc điều trị loãng xương với cơ chế khác nhau: Bisphosphonates (alendronate, zoledronate, ibandronate), Denosumab (Prolia®), Teriparatide / Abaloparatide (thuốc tăng tạo xương), Romosozumab, và các thuốc nội tiết như Raloxifene. Mỗi nhóm có đặc điểm dược lý riêng — điều này quyết định mức độ nguy hiểm khi ngưng thuốc đột ngột.",
-    },
-    {
-      type: "heading",
-      content: "Nguy cơ cụ thể khi tự ý ngưng từng nhóm thuốc",
-    },
-    {
-      type: "heading",
-      content: "⚠️ Bisphosphonates (Alendronate, Zoledronate...)",
-    },
-    {
-      type: "warning",
-      content: "Thuốc tích lũy trong xương và có tác dụng kéo dài sau khi ngưng — nhưng tự ý ngưng không theo dõi khiến bác sĩ mất cơ hội đánh giá lại mật độ xương. Với bệnh nhân nguy cơ cao (T-score rất thấp, đã gãy xương), ngưng thuốc làm mất lớp bảo vệ tái tạo xương. Không được tự ý kéo dài thời gian 'nghỉ thuốc' vì nguy cơ gãy xương tăng trở lại.",
-    },
-    {
-      type: "heading",
-      content: "🚨 Denosumab (Prolia®) — NGUY HIỂM NHẤT nếu ngưng đột ngột",
-    },
-    {
-      type: "warning",
-      content: "Denosumab ức chế tiêu xương bằng cách chặn RANKL — nhưng tác dụng chỉ kéo dài 6 tháng (chu kỳ tiêm). Khi ngưng: RANKL bùng phát trở lại → tiêu xương xảy ra với tốc độ rất nhanh, mật độ xương giảm mạnh chỉ sau 6–12 tháng. Đã có nhiều báo cáo bệnh nhân gãy đồng thời nhiều đốt sống (multiple vertebral fractures) chỉ vì trễ 1–2 mũi tiêm. Nếu muốn ngưng Denosumab, BẮT BUỘC phải chuyển tiếp sang Bisphosphonate theo hướng dẫn của bác sĩ.",
-    },
-    {
-      type: "para",
-      content:
-        "Hiện tượng 'rebound' sau ngưng Denosumab là một trong những vấn đề được nghiên cứu và cảnh báo nhiều nhất trong y văn về loãng xương. Đây không phải lý thuyết — đây là biến chứng thực tế xảy ra trên bệnh nhân ngoài đời thực, thường gặp ở phụ nữ sau mãn kinh có loãng xương nặng.",
-    },
-    {
-      type: "heading",
-      content: "⚠️ Teriparatide / Romosozumab (thuốc tăng tạo xương)",
-    },
-    {
-      type: "warning",
-      content: "Đây là thuốc 'xây dựng xương mới' — tác dụng phụ thuộc hoàn toàn vào thời gian dùng thuốc. Khi ngưng đột ngột: phần xương mới tạo thành sẽ bị tiêu dần nếu không được duy trì bằng thuốc chống tiêu xương tiếp theo. Ngưng giữa chừng đồng nghĩa với lãng phí toàn bộ quá trình điều trị. Phải ngưng theo lộ trình có bác sĩ theo dõi và chuyển tiếp phác đồ phù hợp.",
-    },
-    {
-      type: "highlight",
-      content:
-        "Với loãng xương, cảm giác 'không đau = đã khỏi' là sai lầm nguy hiểm. Xương mỏng dần không gây đau — cho đến khi gãy.",
-    },
-    {
-      type: "heading",
-      content: "Gãy xương do rebound: Con số đáng lo ngại",
-    },
-    {
-      type: "para",
-      content:
-        "Trong các nghiên cứu quan sát và hồi cứu tại châu Âu và Nhật Bản, tỷ lệ gãy đốt sống mới sau ngưng Denosumab không đúng chỉ định lên đến 10–15% trong vòng 18 tháng. Nhiều trường hợp gãy 3–5 đốt sống đồng thời, gây đau dữ dội, biến dạng cột sống, và giảm chiều cao đột ngột. Đây là những ca cấp cứu cột sống thực sự — có thể phòng tránh hoàn toàn nếu bệnh nhân không tự ý bỏ thuốc.",
-    },
-    {
-      type: "heading",
-      content: "Điều bệnh nhân cần làm thay vì tự ý bỏ thuốc",
-    },
-    {
-      type: "highlight",
-      content: "✅ Hành động đúng: Liên hệ bác sĩ điều trị trước khi ngưng — có thể gọi điện hoặc nhắn tin, không cần khám trực tiếp. Nếu lo tác dụng phụ, hãy mô tả cụ thể để bác sĩ đánh giá. Nếu khó khăn tài chính, hỏi về phác đồ thay thế chi phí thấp hơn. Tái khám đúng hẹn và đo DXA định kỳ để bác sĩ có căn cứ điều chỉnh.",
-    },
-    {
-      type: "list",
-      items: [
-        "Liên hệ bác sĩ ngay khi có ý định ngưng thuốc — gọi điện hoặc nhắn tin đều được",
-        "Mô tả cụ thể tác dụng phụ nghi ngờ để bác sĩ đánh giá có thực sự liên quan không",
-        "Hỏi bác sĩ về phác đồ thay thế chi phí thấp hơn nếu gặp khó khăn tài chính",
-        "Thiết lập báo thức điện thoại hoặc nhờ người thân nhắc nếu hay quên uống thuốc",
-        "Tái khám đúng hẹn, đo mật độ xương DXA mỗi 1–2 năm để theo dõi hiệu quả điều trị",
-        "Không tự ý tăng hoặc giảm liều dựa trên cảm giác chủ quan",
-      ],
-    },
-    {
-      type: "heading",
-      content: "Khi nào bác sĩ mới quyết định ngưng thuốc?",
-    },
-    {
-      type: "para",
-      content:
-        "Việc ngưng hoặc thay đổi thuốc điều trị loãng xương là một quyết định y khoa dựa trên nhiều yếu tố: mật độ xương hiện tại (DXA), nguy cơ gãy xương 10 năm (FRAX score), thời gian đã dùng thuốc, và các bệnh lý kèm theo. Bác sĩ cũng cân nhắc 'drug holiday' có chọn lọc cho bisphosphonates sau 5 năm — nhưng đây là quyết định lâm sàng có kiểm soát, không phải bệnh nhân tự quyết.",
-    },
-    {
-      type: "list",
-      items: [
-        "Sau 3–5 năm dùng bisphosphonate uống hoặc 3 năm dùng zoledronate IV, bác sĩ có thể xem xét 'nghỉ thuốc' 1–2 năm nếu nguy cơ gãy xương thấp",
-        "Denosumab KHÔNG có 'drug holiday' — phải dùng liên tục hoặc chuyển tiếp sang bisphosphonate khi muốn dừng",
-        "Teriparatide và Romosozumab có giới hạn thời gian dùng tối đa (18–24 tháng), sau đó phải chuyển thuốc theo chỉ định",
-        "Bệnh nhân có biến chứng nghiêm trọng (hoại tử xương hàm, gãy xương không điển hình) mới cần ngưng khẩn cấp — và vẫn phải có sự hướng dẫn của bác sĩ",
-      ],
-    },
-    {
-      type: "note",
-      content:
-        "Bài viết mang tính giáo dục sức khỏe cộng đồng, không thay thế cho thăm khám và tư vấn trực tiếp của bác sĩ. Mỗi bệnh nhân có hồ sơ bệnh lý riêng — quyết định điều trị cần được cá thể hóa. Nếu bạn đang dùng thuốc điều trị loãng xương và có bất kỳ lo ngại nào, hãy liên hệ bác sĩ điều trị của mình trước khi thay đổi bất cứ điều gì.",
-    },
-  ],
-
-  "canh-bao-thuoc-dau-cot-song-khong-ro-nguon-goc": [
-    { type: "heading", content: "⚠️ CẢNH BÁO Y TẾ QUAN TRỌNG" },
-    { type: "warning", content: "Nhiều loại thuốc gia truyền, thuốc 'nam' trị đau xương khớp và đau cột sống đang lưu hành trên thị trường KHÔNG có đăng ký của Bộ Y tế. Phân tích thực tế cho thấy một số sản phẩm chứa corticosteroid (dexamethasone, prednisolone...) liều cao được pha trộn bí mật — người bệnh không hề biết mình đang dùng corticoid." },
-    { type: "image", src: "/images/vien-thuoc-den-khong-nhan-mac.jpg", alt: "Viên thuốc màu đen không rõ nguồn gốc", caption: "Viên thuốc màu đen, đóng gói thô sơ, không nhãn mác hợp lệ", subcaption: "Không xác định được thành phần, không kiểm soát liều lượng — cực kỳ nguy hiểm" },
-    { type: "heading", content: "🦴 TẠI SAO NHỮNG LOẠI THUỐC NÀY LẠI 'HIỆU QUẢ' NHANH?" },
-    { type: "para", content: "Nhiều bệnh nhân phản hồi 'uống vào hết đau ngay', 'hiệu quả hơn cả thuốc bệnh viện'. Đây chính là dấu hiệu nguy hiểm nhất. Corticosteroid liều cao có tác dụng kháng viêm và giảm đau cực nhanh — nhưng cái giá phải trả về lâu dài là vô cùng đắt." },
-    { type: "list", items: ["Corticosteroid ức chế mạnh phản ứng viêm → giảm đau tức thì.", "Người bệnh lầm tưởng 'thuốc hay', tiếp tục uống hàng tuần, hàng tháng, thậm chí hàng năm.", "Cơ thể quen với corticoid ngoại sinh → tuyến thượng thận ngưng sản xuất cortisol nội sinh.", "Khi ngưng thuốc đột ngột hoặc khi stress/phẫu thuật → suy vỏ tuyến thượng thận cấp, đe dọa tính mạng."] },
-    { type: "heading", content: "🩺 SUY VỎ TUYẾN THƯỢNG THẬN DO CORTICOSTEROID" },
-    { type: "para", content: "Vỏ tuyến thượng thận bình thường sản xuất cortisol — hormone thiết yếu giúp cơ thể đối phó với stress, duy trì huyết áp và điều hòa đường huyết. Khi dùng corticosteroid từ bên ngoài kéo dài, cơ chế phản hồi âm tính HPA (Hypothalamus-Pituitary-Adrenal) bị ức chế hoàn toàn." },
-    { type: "warning", content: "TRIỆU CHỨNG CẦN NHẬN BIẾT: Mệt mỏi kéo dài — Chán ăn, sụt cân, buồn nôn — Huyết áp thấp, chóng mặt khi đứng dậy — Da sạm màu — Khi stress hoặc phẫu thuật: tụt huyết áp đột ngột, sốc (Addisonian Crisis) — đây là tình trạng nguy hiểm tính mạng." },
-    { type: "heading", content: "💀 LOÃNG XƯƠNG — HẬU QUẢ TRỰC TIẾP CỦA CORTICOSTEROID KÉO DÀI" },
-    { type: "para", content: "Corticosteroid là một trong những nguyên nhân hàng đầu gây loãng xương thứ phát (Glucocorticoid-Induced Osteoporosis — GIOP). Đặc biệt nguy hiểm với bệnh nhân đã có sẵn loãng xương nguyên phát — thuốc điều trị loãng xương sẽ hoàn toàn không có tác dụng khi vẫn tiếp tục dùng kèm corticoid." },
-    { type: "list", items: ["Corticoid ức chế tạo cốt bào (osteoblast) → giảm tạo xương mới.", "Tăng hoạt động hủy cốt bào (osteoclast) → xương bị phá hủy nhanh hơn.", "Giảm hấp thu canxi tại ruột, tăng thải canxi qua thận.", "Ức chế trục GH-IGF1, giảm testosterone/estrogen → mất xương toàn thân.", "Chỉ 3-6 tháng dùng corticoid → mật độ xương giảm đáng kể, nguy cơ gãy xẹp đốt sống tăng gấp đôi."] },
-    { type: "highlight", content: "⚡ VÒNG LUẨN QUẨN NGUY HIỂM NHẤT: Bệnh nhân loãng xương đang điều trị bisphosphonate/denosumab mà vẫn dùng kèm corticoid ẩn → MỌI ĐIỀU TRỊ LOÃNG XƯƠNG ĐỀU VÔ HIỆU." },
-    { type: "heading", content: "🔍 DẤU HIỆU NHẬN BIẾT THUỐC ĐÁ NGỜ" },
-    { type: "list", items: ["Giảm đau RẤT NHANH trong 1-3 ngày đầu (không thuốc thảo dược nào tác dụng nhanh như vậy).", "Cảm giác 'phấn chấn', ăn ngon, ngủ ngon bất thường.", "Tăng cân, phù mặt tròn, bướu mỡ sau gáy.", "Da mỏng, xuất hiện vết rạn, dễ bầm tím.", "Tăng huyết áp, tăng đường huyết.", "Khi ngưng thuốc: đau dữ dội hơn trước (hội chứng cai corticoid)."] },
-    { type: "list", items: ["Không có số đăng ký Bộ Y tế (dãy số VD-XXXXX-XX).", "Không ghi rõ thành phần hoạt chất, hàm lượng.", "Nhãn mác in chữ nước ngoài không dịch thuật.", "Đóng gói thủ công, không tem chống hàng giả.", "Mua qua mạng xã hội, không hóa đơn, không địa chỉ sản xuất rõ ràng."] },
-    { type: "heading", content: "👨‍⚕️ KHUYẾN CÁO CỦA BÁC SĨ CỘT SỐNG" },
-    { type: "para", content: "Trong thực hành lâm sàng, chúng tôi thường xuyên gặp bệnh nhân nhập viện với bộ ba: (1) đau cột sống nặng hơn, (2) loãng xương tiến triển không đáp ứng điều trị, (3) cortisol máu buổi sáng rất thấp — tất cả đều có tiền sử dùng 'thuốc gia truyền' kéo dài. Đây là hậu quả trực tiếp của corticoid ẩn trong thuốc không rõ nguồn gốc." },
-    { type: "list", items: ["KHÔNG tự ý dùng bất kỳ thuốc nào không có số đăng ký Bộ Y tế.", "KHÔNG ngưng đột ngột nếu đã dùng lâu — cần gặp bác sĩ để được hỗ trợ cai corticoid đúng cách.", "Nếu nghi ngờ đã dùng corticoid dài ngày: xét nghiệm cortisol máu buổi sáng, ACTH, đo mật độ xương (DXA).", "Thông báo cho bác sĩ tất cả thuốc đang dùng kể cả thuốc nam, gia truyền, thực phẩm chức năng.", "Điều trị đau cột sống đúng nguyên nhân: thăm khám, X-quang/MRI, điều trị theo phác đồ chuẩn."] },
-    { type: "highlight", content: "📞 Nếu bạn hoặc người thân đang dùng thuốc đau lưng không rõ nguồn gốc — hãy tham khảo ý kiến bác sĩ TRƯỚC KHI ngưng thuốc đột ngột. Ngưng corticoid đột ngột sau dùng dài ngày có thể gây nguy hiểm tính mạng." },
-    { type: "note", content: "Bài viết mang tính chất giáo dục sức khỏe cộng đồng. Mọi quyết định điều trị cần dựa trên thăm khám trực tiếp và chỉ định của bác sĩ chuyên khoa. Nếu bạn có triệu chứng nghi ngờ suy vỏ tuyến thượng thận hoặc loãng xương, hãy đến cơ sở y tế để được kiểm tra và tư vấn cụ thể." }
-  ],
-
-  "chan-doan-loang-xuong-phuong-phap-va-doi-tuong": [
-    { type: "para", content: "Bà L.T.M., 58 tuổi, đến khám vì đau lưng âm ỉ hơn 3 tháng. Bà vẫn đi làm bình thường, không nghĩ mình bị gì nặng. Kết quả đo mật độ xương cho thấy T-score -2.8 — loãng xương mức độ nặng, đốt sống đã bắt đầu mất cấu trúc. Nếu không được chẩn đoán lúc này, cú ngã đầu tiên có thể là cú ngã thay đổi cả cuộc đời." },
-    { type: "heading", content: "Tại sao phải chẩn đoán sớm?" },
-    { type: "para", content: "Loãng xương là căn bệnh hoàn toàn không có triệu chứng trong giai đoạn đầu và giữa. Người bệnh không đau, không tê, không hạn chế vận động — cho đến khi xương gãy. Nghịch lý là: vào thời điểm gãy xương xảy ra, bệnh đã tiến triển âm thầm từ nhiều năm trước. Chẩn đoán sớm — trước khi gãy xương — là cơ hội duy nhất để điều trị hiệu quả và ngăn ngừa hậu quả nghiêm trọng." },
-    { type: "highlight", content: "Loãng xương không gây đau — nhưng gãy xương do loãng xương thì gây đau rất nhiều. Mục tiêu của chẩn đoán sớm là ngăn cú gãy xương đầu tiên đó xảy ra." },
-
-    { type: "heading", content: "Phương pháp chẩn đoán chuẩn: Đo mật độ xương bằng DXA" },
-    { type: "para", content: "DXA (Dual-energy X-ray Absorptiometry — đo hấp thụ tia X năng lượng kép) là tiêu chuẩn vàng trong chẩn đoán loãng xương, được WHO và các hội y khoa quốc tế khuyến cáo sử dụng rộng rãi. Máy DXA đo mật độ khoáng của xương (Bone Mineral Density — BMD) tại hai vị trí quan trọng nhất: cột sống thắt lưng và cổ xương đùi." },
+  "tu-tap-luyen-xep-dot-song-loang-xuong": [
+    { type: "para", content: "Bà T.T.L., 73 tuổi, vừa được chẩn đoán xẹp đốt sống L1 do loãng xương. Sau khi ra viện, con gái đưa bà đến tái khám và hỏi thẳng: 'Bác sĩ ơi, mẹ con có được tập thể dục không? Hay phải nằm yên?' Đây là câu hỏi tôi nhận được mỗi ngày — và câu trả lời quan trọng hơn nhiều người nghĩ." },
+    { type: "highlight", content: "Nằm yên quá nhiều sau xẹp đốt sống có hại không kém gì tập sai. Vận động đúng cách — đúng bài, đúng kỹ thuật, đúng thời điểm — là một phần thiết yếu trong điều trị và phục hồi." },
+    { type: "heading", content: "Tại sao vận động lại quan trọng sau xẹp đốt sống?" },
+    { type: "para", content: "Nhiều bệnh nhân xẹp đốt sống lo sợ vận động sẽ làm xương vỡ thêm. Thực tế ngược lại: bất động kéo dài làm loãng xương nặng hơn, cơ lưng yếu đi, nguy cơ đốt sống kế tiếp xẹp theo càng cao. Nghiên cứu đăng trên Osteoporosis International (2024) xác nhận: bệnh nhân xẹp đốt sống được tập vật lý trị liệu sớm có mật độ xương cao hơn và tỷ lệ gãy xương mới thấp hơn so với nhóm nằm nghỉ hoàn toàn." },
+    { type: "para", content: "Chương trình 'Too Fit to Fracture' — được Hội Loãng xương Canada phát triển và công bố trên tạp chí Osteoporosis International — là tài liệu khoa học quan trọng nhất hiện nay về tập luyện an toàn cho bệnh nhân loãng xương có xẹp đốt sống. Chương trình này chia nhỏ bài tập theo mức độ nguy cơ và tình trạng bệnh, giúp bệnh nhân tập hiệu quả mà không gây thêm tổn thương." },
+    { type: "warning", content: "TRƯỚC KHI TẬP BẤT KỲ BÀI NÀO: Bắt buộc hỏi ý kiến bác sĩ chuyên khoa cột sống. Nếu đang trong giai đoạn đau cấp (dưới 6 tuần sau xẹp mới) — hầu hết các bài tập dưới đây CHƯA được chỉ định. Dừng ngay và báo bác sĩ nếu đau tăng, tê bì hoặc yếu chân khi tập." },
+    { type: "heading", content: "Những bài tập TUYỆT ĐỐI TRÁNH khi bị xẹp đốt sống" },
+    { type: "para", content: "Đây là điều quan trọng nhất cần nắm rõ trước khi bắt đầu. Xương cột sống bị xẹp do loãng xương có cấu trúc yếu ở phần trước (mặt bụng) của thân đốt. Các động tác cúi gập người ra trước (gập cột sống) sẽ dồn thêm lực ép lên vùng đã yếu này — gây nguy cơ xẹp thêm hoặc gãy thêm." },
     { type: "list", items: [
-      "Thời gian đo: 10–20 phút, không xâm lấn, không gây đau",
-      "Liều phóng xạ rất thấp — thấp hơn nhiều lần so với chụp X-quang thường quy",
-      "Kết quả cho ra chỉ số T-score để phân loại tình trạng xương",
-      "Có thể theo dõi đáp ứng điều trị qua các lần đo định kỳ",
+      "Cúi người gập cột sống: gập người cúi đầu xuống chân, ngồi gập người ra trước, cúi nhặt đồ vật không uốn gối",
+      "Động tác twist xoay cột sống: xoay người mạnh sang hai bên trong khi lưng không được đỡ",
+      "Bài tập crunch (sit-up) và các biến thể: kéo đầu lên trong tư thế nằm ngửa gây áp lực uốn cột sống",
+      "Yoga có động tác cúi gập: child's pose, forward fold, seated forward bend — đặc biệt nguy hiểm",
+      "Các bài tập tác động mạnh: nhảy, chạy trên địa hình gồ ghề, aerobics cường độ cao, khiêng vác nặng",
+      "Bơi theo kiểu breaststroke (bơi ếch): đầu ngẩng cao liên tục gây ưỡn cổ — không phù hợp",
+      "Gập người nhặt đồ: luôn uốn đầu gối và hạ thấp cơ thể bằng khớp hông, KHÔNG cúi lưng",
     ]},
-
-    { type: "heading", content: "Đọc kết quả T-score như thế nào?" },
-    { type: "para", content: "T-score là chỉ số so sánh mật độ xương của bạn với mật độ xương trung bình của người trưởng thành khỏe mạnh ở độ tuổi đỉnh cao (khoảng 25–30 tuổi). Theo tiêu chuẩn WHO:" },
+    { type: "heading", content: "Nguyên tắc tập luyện an toàn: Cột sống trung tính" },
+    { type: "para", content: "Thuật ngữ 'cột sống trung tính' (neutral spine) là chìa khóa trong mọi bài tập cho bệnh nhân xẹp đốt sống. Đây là tư thế cột sống giữ nguyên đường cong tự nhiên — lưng thắt lưng hơi ưỡn nhẹ, không cúi, không ưỡn quá mức. Trong mọi bài tập, bất kể đứng, ngồi hay nằm, bạn phải giữ được tư thế cột sống trung tính này." },
+    { type: "highlight", content: "Quy tắc vàng: nếu bài tập khiến bạn phải cúi lưng hoặc xoay mạnh — đó không phải bài tập phù hợp với bạn. Hãy hỏi bác sĩ hoặc kỹ thuật viên vật lý trị liệu về phương án thay thế." },
+    { type: "heading", content: "Giai đoạn 1: Đau cấp — 0 đến 6 tuần đầu sau xẹp mới" },
+    { type: "para", content: "Đây là giai đoạn đốt sống đang lành lại. Mục tiêu không phải tập luyện mà là bảo vệ vùng tổn thương và duy trì chức năng cơ bản. Nghỉ ngơi có kiểm soát — không nằm liệt, không làm đau thêm." },
     { type: "list", items: [
-      "T-score từ -1.0 trở lên: Xương bình thường",
-      "T-score từ -1.0 đến -2.5: Thiếu xương (osteopenia) — cảnh báo sớm, cần can thiệp dự phòng",
-      "T-score từ -2.5 trở xuống: Loãng xương (osteoporosis) — cần điều trị",
-      "T-score từ -2.5 trở xuống kèm tiền sử gãy xương: Loãng xương nặng — nguy cơ cao nhất",
+      "Đi bộ nhẹ trong nhà: bắt đầu từ 5–10 phút, tăng dần theo khả năng chịu đau. Đây là vận động an toàn nhất trong giai đoạn cấp",
+      "Bài tập thở bụng: nằm ngửa, đặt tay lên bụng, hít vào phình bụng — thở ra xẹp bụng. Duy trì 5–10 phút mỗi ngày. Kích hoạt cơ hoành, giảm căng cơ lưng",
+      "Co cơ mông nhẹ: nằm ngửa, siết cơ mông 5 giây rồi thư giãn — lặp 10 lần. Không nâng lưng lên",
+      "Tư thế đúng khi nằm: nằm nghiêng với gối kẹp giữa hai đầu gối; hoặc nằm ngửa với gối dưới đầu gối để giảm áp lực cột sống thắt lưng",
+      "Mặc đai lưng khi di chuyển nếu bác sĩ chỉ định: đai hỗ trợ giảm áp lực đốt sống trong giai đoạn cấp",
     ]},
-    { type: "highlight", content: "T-score -2.5 không có nghĩa là xương yếu gấp 2.5 lần. Nó có nghĩa là mật độ xương của bạn thấp hơn 2.5 độ lệch chuẩn so với người trẻ khỏe mạnh — và nguy cơ gãy xương tăng lên đáng kể." },
-
-    { type: "heading", content: "Công cụ đánh giá nguy cơ gãy xương: FRAX" },
-    { type: "para", content: "FRAX (Fracture Risk Assessment Tool) là công cụ trực tuyến của WHO, tích hợp nhiều yếu tố nguy cơ để tính xác suất gãy xương trong 10 năm tới. FRAX đặc biệt hữu ích khi kết quả DXA nằm trong vùng 'thiếu xương' — ranh giới giữa cần và chưa cần điều trị thuốc." },
+    { type: "heading", content: "Giai đoạn 2: Phục hồi — 6 đến 12 tuần, đau đã giảm đáng kể" },
+    { type: "para", content: "Khi cơn đau cấp đã giảm (thường sau 4–8 tuần với điều trị đúng), bắt đầu tập tăng sức mạnh cơ lưng và cơ vùng lõi (core). Mục tiêu: xây dựng "vành đai bảo vệ" cơ bắp quanh cột sống để giảm tải trọng lên đốt sống đã xẹp." },
     { type: "list", items: [
-      "Tuổi, giới tính, cân nặng và chiều cao",
-      "Tiền sử gãy xương cá nhân và gia đình",
-      "Hút thuốc lá, uống rượu bia",
-      "Sử dụng corticosteroid kéo dài",
-      "Mắc bệnh viêm khớp dạng thấp",
-      "Kết quả DXA cổ xương đùi (nếu có)",
+      "Bài 1 — Kéo vai về sau (Scapular Retraction): Ngồi hoặc đứng thẳng, kéo hai vai về phía sau và xuống, giữ 5 giây. Lặp 10 lần, 2–3 hiệp/ngày. Tăng cường cơ lưng trên, cải thiện tư thế",
+      "Bài 2 — Ưỡn lưng trên dựa tường (Wall Extension): Đứng cách tường 30cm, ngả lưng vào tường nhẹ nhàng cho phần lưng trên chạm tường. Giữ 10 giây. Lặp 10 lần. An toàn hơn ưỡn lưng trên sàn",
+      "Bài 3 — Nâng tay từ tư thế nằm sấp (Modified Prone Extension): Nằm sấp, gối đệm dưới bụng nếu cần. Nâng nhẹ đầu và vai lên khỏi sàn 2–3cm — giữ 3 giây, hạ xuống. KHÔNG ngửa đầu mạnh. Lặp 8–10 lần",
+      "Bài 4 — Siết cơ bụng dưới (Abdominal Drawing-In): Nằm ngửa, đầu gối co, bàn chân sát sàn. Thở ra, kéo rốn vào cột sống nhẹ nhàng — giữ 5–10 giây. Lặp 10 lần. Kích hoạt cơ transversus abdominis — cơ sâu nhất bảo vệ cột sống",
+      "Bài 5 — Nâng mông cầu (Glute Bridge): Nằm ngửa, đầu gối co, bàn chân sát sàn. Siết cơ mông và nâng hông lên khỏi sàn đến khi đùi và thân tạo đường thẳng. Giữ 3–5 giây, hạ xuống chậm. Lặp 8–10 lần",
+      "Bài 6 — Đi bộ có kiểm soát: Tăng dần lên 20–30 phút/ngày trên mặt phẳng. Đi bộ là bài tập tải trọng tốt nhất, kích thích tạo xương và tăng sức cơ lưng",
     ]},
-    { type: "para", content: "Kết quả FRAX cho biết xác suất phần trăm gãy xương hông và gãy xương lớn trong 10 năm tới. Nhiều hướng dẫn điều trị quốc tế sử dụng ngưỡng FRAX để quyết định bắt đầu điều trị thuốc hay chưa." },
-
-    { type: "heading", content: "Các phương pháp bổ sung khác" },
-    { type: "para", content: "Ngoài DXA và FRAX, một số phương pháp khác có thể cung cấp thêm thông tin trong các tình huống cụ thể:" },
+    { type: "heading", content: "Giai đoạn 3: Duy trì lâu dài — Sau 3 tháng" },
+    { type: "para", content: "Sau 3 tháng, nếu đau đã kiểm soát tốt và bác sĩ cho phép, có thể nâng cường độ tập luyện. Mục tiêu giai đoạn này: duy trì mật độ xương, phòng ngừa gãy xương tiếp theo và duy trì sự độc lập trong sinh hoạt." },
     { type: "list", items: [
-      "Hounsfield Unit (HU) trên CT scan: Đo mật độ xương tại vị trí phẫu thuật, đặc biệt hữu ích khi đánh giá trước mổ cột sống. HU dưới 110 tại thân đốt sống là dấu hiệu nguy cơ cao cho biến chứng sau phẫu thuật.",
-      "Siêu âm xương gót (QUS): Không dùng tia X, thiết bị nhỏ gọn, chi phí thấp — phù hợp tầm soát ban đầu ở vùng thiếu máy DXA. Tuy nhiên, không thay thế được DXA để chẩn đoán chính xác.",
-      "X-quang cột sống thường quy: Không đủ nhạy để phát hiện loãng xương sớm, nhưng giúp phát hiện gãy xẹp đốt sống đã xảy ra — thường là dấu hiệu đầu tiên người bệnh mới biết mình có loãng xương.",
-      "Xét nghiệm máu và nước tiểu: Canxi, phospho, vitamin D, PTH, marker chuyển hóa xương (CTX, P1NP) — hỗ trợ tìm nguyên nhân thứ phát và theo dõi điều trị, không phải để chẩn đoán loãng xương.",
+      "Đi bộ 30 phút mỗi ngày, ít nhất 5 ngày/tuần: Nghiên cứu xác nhận đi bộ là bài tập hiệu quả nhất về lợi ích/nguy cơ cho bệnh nhân xẹp đốt sống do loãng xương",
+      "Bài tập thăng bằng: Đứng một chân (giữ tay vào ghế khi cần), đứng trên tấm nệm mỏng, đi trên đường thẳng — giảm nguy cơ té ngã",
+      "Tập cơ chân: Ngồi đứng (sit-to-stand) từ ghế thấp lên — mà KHÔNG cúi lưng ra trước. Lặp 10 lần, 2 hiệp/ngày",
+      "Bơi lội và đạp xe đạp tĩnh: An toàn cho cột sống, tốt cho tim mạch và toàn thân",
+      "Tai chi (thái cực quyền): Cải thiện thăng bằng và phối hợp động tác, giảm nguy cơ té ngã đến 47% theo meta-analysis",
     ]},
-
-    { type: "heading", content: "Ai nên được kiểm tra loãng xương?" },
-    { type: "para", content: "Không phải ai cũng cần đo mật độ xương ngay. Dưới đây là các nhóm được khuyến cáo tầm soát chủ động theo hướng dẫn của Tổ chức Loãng xương Quốc tế (IOF) và Hội Nội tiết Mỹ:" },
+    { type: "heading", content: "Hỏi đáp thường gặp" },
+    { type: "para", content: "Câu hỏi: 'Đau lưng tăng lên khi tập có nghĩa là tập sai không?' — Đau nhẹ và mỏi cơ sau tập là bình thường. Nhưng đau tăng rõ rệt trong khi tập, đau nhói, hoặc xuất hiện tê bì chân tay là dấu hiệu phải DỪNG và liên hệ bác sĩ ngay." },
+    { type: "para", content: "Câu hỏi: 'Tôi có thể tập cùng với người bình thường không?' — Không. Người bị xẹp đốt sống do loãng xương cần chương trình tập riêng, được thiết kế phù hợp với giới hạn của cột sống. Tham gia lớp yoga, aerobics hoặc gym thông thường có thể nguy hiểm nếu không có sự giám sát và điều chỉnh." },
+    { type: "para", content: "Câu hỏi: 'Bao lâu thì thấy kết quả?' — Cơ lưng khỏe hơn rõ rệt sau 6–8 tuần tập đều đặn. Mật độ xương cần 12–24 tháng để có thay đổi đo được trên DXA. Nhưng giảm đau và cải thiện vận động có thể thấy sớm hơn nhiều." },
+    { type: "heading", content: "Môi trường và sinh hoạt an toàn hàng ngày" },
     { type: "list", items: [
-      "Phụ nữ từ 65 tuổi trở lên — tầm soát thường quy ngay cả khi không có triệu chứng",
-      "Phụ nữ sau mãn kinh dưới 65 tuổi nếu có ít nhất một yếu tố nguy cơ (gãy xương sau chấn thương nhẹ, tiền sử gia đình, BMI thấp, hút thuốc, uống rượu)",
-      "Nam giới từ 70 tuổi trở lên",
-      "Nam giới 50–70 tuổi nếu có yếu tố nguy cơ cao (dùng corticosteroid, bệnh mạn tính ảnh hưởng xương)",
-      "Người đã từng gãy xương sau chấn thương nhẹ (ngã từ tư thế đứng trở xuống)",
-      "Người dùng corticosteroid toàn thân liều tương đương prednisone ≥5mg/ngày từ 3 tháng trở lên",
-      "Người mắc bệnh có ảnh hưởng đến chuyển hóa xương: cường giáp, cường tuyến cận giáp, viêm khớp dạng thấp, bệnh Crohn, suy thận mạn",
-      "Người đang hoặc đã điều trị loãng xương — để đánh giá đáp ứng và điều chỉnh liệu trình",
+      "Nâng đồ vật đúng cách: luôn uốn đầu gối, giữ vật sát cơ thể, không cúi lưng",
+      "Không với tay cao quá đầu để lấy đồ: dùng ghế thấp có tay vịn hoặc nhờ người khác",
+      "Tay vịn trong nhà vệ sinh: lắp thanh vịn cạnh bồn cầu và bồn tắm",
+      "Giày dép có đế chống trơn: tránh dép lê, đi chân trần trên sàn trơn",
+      "Ánh sáng đủ sáng ban đêm: té ngã khi đi vệ sinh ban đêm là nguyên nhân hàng đầu gãy xương hông",
+      "Ngồi đứng đúng cách: ghế vừa tầm, bàn chân chạm sàn, không ngồi lâu quá 30 phút liên tục",
     ]},
-
-    { type: "heading", content: "Dấu hiệu gợi ý cần đi kiểm tra sớm hơn" },
-    { type: "para", content: "Ngay cả khi bạn chưa thuộc nhóm tuổi được khuyến cáo tầm soát thường quy, hãy chủ động đi khám nếu có bất kỳ dấu hiệu nào dưới đây:" },
-    { type: "list", items: [
-      "Chiều cao giảm hơn 2–3 cm so với khi còn trẻ",
-      "Lưng ngày càng khom gù không giải thích được",
-      "Đau lưng cấp tính xuất hiện sau một động tác nhỏ như cúi người, ho mạnh, hắt hơi",
-      "Gãy xương sau chấn thương mà người khác không gãy — nhất là cổ tay, hông, cột sống",
-      "Mãn kinh sớm trước 45 tuổi hoặc cắt buồng trứng hai bên",
-    ]},
-    { type: "warning", content: "Đau lưng cấp tính xuất hiện đột ngột ở người trên 50 tuổi, đặc biệt phụ nữ sau mãn kinh, sau một cử động nhỏ — cần nghĩ đến gãy xẹp đốt sống do loãng xương và đi khám ngay, không nên tự điều trị tại nhà." },
-
-    { type: "heading", content: "Tần suất kiểm tra bao lâu một lần?" },
-    { type: "para", content: "Tần suất đo DXA phụ thuộc vào kết quả và yếu tố nguy cơ:" },
-    { type: "list", items: [
-      "Xương bình thường, ít yếu tố nguy cơ: đo lại sau 2–3 năm",
-      "Thiếu xương (T-score -1.0 đến -2.5): đo lại sau 1–2 năm tùy yếu tố nguy cơ",
-      "Đang điều trị loãng xương: đo lại sau 1–2 năm để đánh giá đáp ứng",
-      "Dùng corticosteroid liều cao kéo dài: có thể cần đo sau 6–12 tháng",
-    ]},
-
-    { type: "highlight", content: "Chẩn đoán loãng xương không phải để gây lo lắng — mà để có cơ sở hành động sớm. Biết T-score của mình là thông tin bảo vệ bạn, không phải bản án." },
-
-    { type: "note", content: "Bài viết mang tính giáo dục sức khỏe tổng quát, không thay thế tư vấn y tế trực tiếp. Việc chỉ định đo mật độ xương và giải thích kết quả cần được thực hiện bởi bác sĩ có chuyên môn dựa trên tình trạng cụ thể của từng người bệnh." },
+    { type: "highlight", content: "Bài tập tốt nhất là bài tập bạn có thể thực hiện đều đặn mỗi ngày, không gây đau và được bác sĩ phê duyệt. Tính kiên trì quan trọng hơn cường độ." },
+    { type: "note", content: "Bài viết được biên soạn dựa trên chương trình Too Fit to Fracture (Osteoporosis International), hướng dẫn của Hội Vật lý trị liệu Canada về loãng xương và kinh nghiệm lâm sàng tại Khoa C1.1-A, Bệnh viện TWQĐ 108. Không thay thế tư vấn y tế trực tiếp — mỗi bệnh nhân cần được đánh giá và có chương trình tập luyện cá thể hóa từ bác sĩ chuyên khoa." },
   ],
 
   "loang-xuong-phu-nu-sau-man-kinh": [
     { type: "para", content: "Bà N.T.H., 72 tuổi, đến phòng khám trong tình trạng không thể tự đi lại sau một cú trượt chân nhẹ khi xuống cầu thang. X-quang cho thấy nhiều đốt sống đã xẹp từ trước — lặng lẽ, không ai hay biết. Đây không phải câu chuyện hiếm gặp." },
-
-    { type: "image",
-      src: "/images/Patient1_blurred.jpg",
-      alt: "Bệnh nhân cao tuổi đến khám bằng xe lăn do loãng xương nặng và gãy xẹp đốt sống",
-      caption: "Hình 1. Bệnh nhân nữ, 72 tuổi đến khám bằng xe lăn",
-      subcaption: "Không thể đi lại sau gãy xẹp đốt sống do loãng xương tiến triển lâu năm không được điều trị. Ảnh đã được xử lý bảo vệ danh tính." },
-
+    { type: "image", src: "/images/Patient1_blurred.jpg", alt: "Bệnh nhân cao tuổi đến khám bằng xe lăn do loãng xương nặng và gãy xẹp đốt sống", caption: "Hình 1. Bệnh nhân nữ, 72 tuổi đến khám bằng xe lăn", subcaption: "Không thể đi lại sau gãy xẹp đốt sống do loãng xương tiến triển lâu năm không được điều trị. Ảnh đã được xử lý bảo vệ danh tính." },
     { type: "heading", content: "Loãng xương — căn bệnh không có tiếng động" },
     { type: "para", content: "Loãng xương là tình trạng mật độ xương giảm và cấu trúc xương bị suy yếu tiến triển, khiến xương ngày càng mỏng manh và dễ gãy hơn. Điều làm cho căn bệnh này đặc biệt nguy hiểm chính là tính chất hoàn toàn không có triệu chứng trong giai đoạn đầu và giữa. Người bệnh không đau, không khó chịu, không biết gì — cho đến khi xương gãy." },
     { type: "para", content: "Ở phụ nữ sau mãn kinh, tốc độ mất xương xảy ra rất nhanh trong 5–7 năm đầu do sự sụt giảm đột ngột của estrogen. Trong giai đoạn này, phụ nữ có thể mất tới 20–30% khối lượng xương mà không hề hay biết." },
-
     { type: "highlight", content: "Loãng xương không gõ cửa trước. Nó đến lặng lẽ, và chỉ lộ diện khi một cú ngã nhẹ, một cái hắt hơi — hay thậm chí không có gì — cũng đủ để gãy xương." },
-
     { type: "heading", content: "Tại sao phụ nữ sau mãn kinh là nhóm nguy cơ cao nhất?" },
     { type: "para", content: "Phụ nữ chiếm hơn 80% số người bị loãng xương. Sau mãn kinh, hai yếu tố cộng hưởng làm tăng nguy cơ vượt trội so với nam giới cùng tuổi:" },
     { type: "list", items: [
@@ -1041,13 +172,7 @@ const ARTICLES: Record<string, Block[]> = {
       "Tuổi thọ dài hơn đồng nghĩa với thời gian tiếp tục mất xương dài hơn",
       "Các yếu tố bổ sung: ít vận động, thiếu canxi và vitamin D, hút thuốc lá",
     ]},
-
-    { type: "image",
-      src: "/images/Xquang_1.jpg",
-      alt: "X-quang cột sống thắt lưng bệnh nhân nữ loãng xương nặng — gãy xẹp nhiều đốt sống",
-      caption: "Hình 2. X-quang cột sống thắt lưng — gãy xẹp đốt sống do loãng xương (13/12/2024)",
-      subcaption: "Phim X-quang thẳng và nghiêng cho thấy gãy xẹp nhiều đốt sống vùng thắt lưng ở bệnh nhân nữ sau mãn kinh, xương thưa loãng rõ rệt — hậu quả của loãng xương tiến triển nhiều năm không được tầm soát." },
-
+    { type: "image", src: "/images/Xquang_1.jpg", alt: "X-quang cột sống thắt lưng bệnh nhân nữ loãng xương nặng — gãy xẹp nhiều đốt sống", caption: "Hình 2. X-quang cột sống thắt lưng — gãy xẹp đốt sống do loãng xương (13/12/2024)", subcaption: "Phim X-quang thẳng và nghiêng cho thấy gãy xẹp nhiều đốt sống vùng thắt lưng ở bệnh nhân nữ sau mãn kinh, xương thưa loãng rõ rệt — hậu quả của loãng xương tiến triển nhiều năm không được tầm soát." },
     { type: "heading", content: "Gãy xẹp đốt sống — hậu quả thường bị đánh giá thấp" },
     { type: "para", content: "Gãy xẹp đốt sống là biến chứng thường gặp nhất nhưng lại thường bị đánh giá chưa đủ mức độ nghiêm trọng. Người bệnh và đôi khi cả thầy thuốc thường nghĩ đây chỉ là 'đau lưng do tuổi già' — bỏ qua cơ hội can thiệp sớm." },
     { type: "list", items: [
@@ -1057,23 +182,8 @@ const ARTICLES: Record<string, Block[]> = {
       "Mất sự độc lập, tăng nguy cơ phụ thuộc vào người thân",
       "Tăng nguy cơ gãy tiếp theo — mỗi lần gãy làm tăng nguy cơ gãy thêm gấp 5 lần",
     ]},
-
-    { type: "image",
-      src: "/images/Xquang_2.jpg",
-      alt: "X-quang cột sống thắt lưng gãy xẹp và thoái hóa nặng do loãng xương",
-      caption: "Hình 3. X-quang cột sống thắt lưng — gãy xẹp và thoái hóa cột sống mức độ nặng",
-      subcaption: "Hình ảnh gãy xẹp đốt sống kết hợp thoái hóa lan tỏa toàn bộ cột sống thắt lưng — hình ảnh điển hình của loãng xương không được điều trị ở phụ nữ sau mãn kinh." },
-
-    { type: "heading", content: "Tại sao căn bệnh này chưa được quan tâm thỏa đáng?" },
-    { type: "list", items: [
-      "Người bệnh không biết mình thuộc nhóm nguy cơ cao, không có triệu chứng nên không đi khám",
-      "Cho rằng 'đau lưng là chuyện bình thường khi già' — bỏ qua dấu hiệu cảnh báo",
-      "Sàng lọc loãng xương chưa được thực hiện thường quy tại nhiều cơ sở y tế cơ sở",
-      "Loãng xương chưa được truyền thông đúng mức so với bệnh tim mạch hay ung thư",
-    ]},
-
+    { type: "image", src: "/images/Xquang_2.jpg", alt: "X-quang cột sống thắt lưng gãy xẹp và thoái hóa nặng do loãng xương", caption: "Hình 3. X-quang cột sống thắt lưng — gãy xẹp và thoái hóa cột sống mức độ nặng", subcaption: "Hình ảnh gãy xẹp đốt sống kết hợp thoái hóa lan tỏa toàn bộ cột sống thắt lưng — hình ảnh điển hình của loãng xương không được điều trị ở phụ nữ sau mãn kinh." },
     { type: "warning", content: "Dấu hiệu cần đi khám ngay: Đau lưng cấp tính đột ngột sau một động tác nhỏ (cúi người, ho, hắt hơi) · Chiều cao giảm hơn 2 cm so với lúc trẻ · Lưng ngày càng gù hơn · Đã từng gãy xương sau chấn thương nhẹ." },
-
     { type: "heading", content: "Phát hiện sớm — điều trị hiệu quả" },
     { type: "para", content: "Phụ nữ sau mãn kinh nên được đo mật độ xương bằng máy DXA ít nhất mỗi 2 năm một lần, hoặc sớm hơn nếu có yếu tố nguy cơ. Điều trị toàn diện bao gồm:" },
     { type: "list", items: [
@@ -1083,9 +193,7 @@ const ARTICLES: Record<string, Block[]> = {
       "Phòng ngừa té ngã — kiểm tra thị lực, điều chỉnh môi trường sống",
       "Can thiệp tạo hình thân đốt sống (kyphoplasty) khi có gãy xẹp gây đau nặng",
     ]},
-
     { type: "highlight", content: "Mục tiêu điều trị không chỉ là làm chậm quá trình mất xương — mà là giúp người phụ nữ tiếp tục sống tự lập, đi lại được, và có chất lượng cuộc sống xứng đáng với những năm tháng phía trước." },
-
     { type: "note", content: "Bài viết mang tính giáo dục sức khỏe tổng quát, không thay thế tư vấn y tế trực tiếp. Nếu bạn có triệu chứng nghi ngờ, vui lòng đến gặp bác sĩ để được thăm khám đầy đủ." },
   ],
 
@@ -1151,25 +259,7 @@ const ARTICLES: Record<string, Block[]> = {
     { type: "note", content: "Bài viết dành cho bác sĩ, điều dưỡng và học viên y khoa." },
   ],
 
-"bom-xi-mang-tao-hinh-dot-song": [
-    { type: "para", content: "Kỹ thuật bơm xi măng sinh học tạo hình thân đốt sống (vertebroplasty/kyphoplasty) có thể giảm đau kịch tính trong vòng 24–48 giờ sau can thiệp. Nhưng nếu chỉ dừng ở đó mà không điều trị loãng xương — căn nguyên thực sự của vấn đề — người bệnh đang đứng trên nền đất sụt." },
-    { type: "heading", content: "Bơm xi măng đốt sống là gì?" },
-    { type: "para", content: "Khi một đốt sống bị xẹp do loãng xương, phần thân đốt bị vỡ vụn bên trong gây đau dữ dội. Kỹ thuật bơm xi măng sinh học (PMMA) vào bên trong thân đốt xẹp nhằm ổn định cơ học và giảm đau nhanh." },
-    { type: "list", items: ["Vertebroplasty: bơm xi măng trực tiếp vào thân đốt xẹp", "Kyphoplasty: nong bóng trước tạo khoang, sau đó bơm xi măng — phục hồi chiều cao thân đốt tốt hơn", "Thực hiện qua da, không cần mổ mở", "Giảm đau rõ rệt trong 24–72 giờ sau thủ thuật"] },
-    { type: "image", src: "/images/Bom-xi-mang-1.jpg", alt: "X-quang cột sống sau bơm xi măng tạo hình đốt sống", caption: "Hình 1. X-quang cột sống thắt lưng — sau tạo hình thân đốt sống bằng xi măng sinh học (24/12/2024)", subcaption: "Phim X-quang cho thấy xi măng sinh học (vùng trắng đậm) trong thân đốt sống đã xẹp. Đốt sống được ổn định cơ học, người bệnh giảm đau rõ rệt sau can thiệp." },
-    { type: "heading", content: "Khi nào được xem xét bơm xi măng?" },
-    { type: "list", items: ["Đau lưng cấp tính dữ dội do xẹp đốt sống mới, xác nhận trên MRI có phù tủy xương", "Điều trị bảo tồn không hiệu quả sau 4–6 tuần", "Người bệnh không thể chịu đựng đau để vận động, nguy cơ nằm lâu cao", "Không có chống chỉ định: nhiễm trùng, rối loạn đông máu, tổn thương thần kinh"] },
-    { type: "highlight", content: "Xi măng sinh học giải quyết triệu chứng đau — nhưng không thể thay thế xương đã mất. Nếu không điều trị loãng xương, đốt sống kế cận sẽ tiếp tục sụp đổ." },
-    { type: "image", src: "/images/Bom-xi-mang-2.jpg", alt: "X-quang cột sống thắt lưng thẳng và nghiêng — xi măng tại nhiều tầng đốt sống", caption: "Hình 2. X-quang cột sống thắt lưng — xi măng sinh học tại nhiều tầng đốt sống", subcaption: "Minh họa hậu quả của loãng xương không được điều trị — nhiều đốt sống lần lượt xẹp theo thời gian, buộc phải can thiệp nhiều lần." },
-    { type: "heading", content: "Nguy cơ khi lạm dụng mà không điều trị loãng xương" },
-    { type: "list", items: ["Xẹp đốt sống kế cận: xi măng cứng hơn xương bình thường, truyền lực bất thường lên đốt liền kề", "Vòng xoáy can thiệp nhiều lần trong khi loãng xương vẫn tiến triển", "Biến dạng cột sống tiến triển: gù nặng, mất cân bằng, suy giảm hô hấp", "Rò xi măng vào ống sống hoặc mạch máu trong trường hợp hiếm gặp"] },
-    { type: "heading", content: "Điều trị đúng nghĩa: bơm xi măng kết hợp điều trị gốc" },
-    { type: "list", items: ["Bơm xi măng: giảm đau cấp tính, ổn định cơ học", "Đánh giá mật độ xương: DXA, Hounsfield Unit trên CT", "Điều trị loãng xương bằng thuốc theo chỉ định bác sĩ", "Bổ sung canxi và vitamin D đầy đủ", "Phục hồi chức năng và phòng ngừa té ngã", "Theo dõi định kỳ để phát hiện xẹp mới"] },
-    { type: "highlight", content: "Bơm xi măng là công cụ — không phải giải pháp. Người bệnh xứng đáng được nhận cả hai: giảm đau nhanh VÀ điều trị loãng xương bền vững để bảo vệ những đốt sống còn lại." },
-    { type: "note", content: "Bài viết mang tính giáo dục sức khỏe tổng quát. Quyết định điều trị cần được thảo luận với bác sĩ chuyên khoa dựa trên tình trạng cụ thể của từng người bệnh." },
-  ],
-  
-"loang-xuong-o-nguoi-cao-tuoi": [
+  "loang-xuong-o-nguoi-cao-tuoi": [
     { type: "para", content: "Loãng xương là tình trạng mật độ xương giảm, khiến xương giòn và dễ gãy. Bệnh thường không có triệu chứng cho đến khi xảy ra gãy xương." },
     { type: "heading", content: "Ai có nguy cơ?" },
     { type: "list", items: [
@@ -1188,58 +278,279 @@ const ARTICLES: Record<string, Block[]> = {
     { type: "note", content: "Thông tin giáo dục sức khỏe tổng quát. Không thay thế tư vấn y tế trực tiếp." },
   ],
 
-"bai-tap-phuc-hoi-cot-song-that-lung": [
-  { type: "para", content: "Tập luyện đúng cách là một phần quan trọng trong điều trị và phục hồi bệnh lý cột sống thắt lưng. Các bài tập dưới đây được thiết kế đơn giản, có thể thực hiện tại nhà, giúp giảm đau, tăng cường cơ lưng và cải thiện khả năng vận động." },
-  { type: "note", content: "Trước khi tập, hãy tham khảo ý kiến bác sĩ. Nếu xuất hiện đau tăng hoặc tê bì trong khi tập, dừng lại ngay và báo cho bác sĩ." },
-  { type: "heading", content: "Bài tập 1 — Cầu mông (Glute Bridge)" },
-  { type: "para", content: "Nằm sấp, mặt nghiêng, hai tay xuôi. Nâng chân phải lên giữ thẳng, nâng căng cao tốt. Cột sống lưng hơi ưỡn giữ khoảng 5 giây. Mỗi động tác làm 5 lần luân phiên chân phải rồi chân trái, tổng cộng 10 lần." },
-  { type: "heading", content: "Bài tập 2 — Nâng chân thẳng" },
-  { type: "para", content: "Nằm sấp hai chân khép, nâng hai chân lên khỏi mặt giường, hai chân thẳng, cột sống cưỡn về phía trước. Thời gian làm động tác này khoảng 5 giây. Nằm thư giãn 10 giây, thở đều rồi làm lại động tác trên 10 lần." },
-  { type: "heading", content: "Bài tập 3 — Ưỡn lưng sấp" },
-  { type: "para", content: "Nằm sấp, khuỵu tay co, hai chân duỗi thẳng. Đẩy tay nâng nửa người phía trên lên, ưỡn dần và ngoẹo tít đầu ra sau. Toàn thân thả lỏng, thư giãn, thở đều khoảng 5 giây rồi lặp lại bài tập trên." },
-  { type: "heading", content: "Bài tập 4 — Kéo giãn gối" },
-  { type: "para", content: "Nằm ngửa co hai chân vuông góc với mặt sàn, nâng mông lên tối đa, kéo dài khoảng 5 giây. Thư giãn 5–10 giây rồi lặp lại bài tập trên 10 lần." },
-  { type: "heading", content: "Bài tập 5 — Nâng chân thẳng ngửa" },
-  { type: "para", content: "Nằm ngửa hai tay xuôi, chân duỗi thẳng. Nâng chân phải lên đến khi chân phải thẳng góc với mặt sàn. Thời gian làm động tác này khoảng 5 giây. Mỗi chân tập 5 lần xen kẽ nhau, tổng số 10 lần." },
-  { type: "heading", content: "Bài tập 6 — Nâng chân thẳng đứng" },
-  { type: "para", content: "Nằm ngửa hai chân thẳng, nâng hai chân duỗi thẳng và khép sát, đến khi hai chân thẳng góc với mặt sàn. Thời gian khoảng 5 giây. Thư giãn, thở đều 5–10 giây rồi lặp lại bài tập trên 10 lần." },
-  { type: "heading", content: "Bài tập 7 — Kéo gối vào ngực" },
-  { type: "para", content: "Nằm ngửa hai tay xuôi, nâng đầu gối bên phải lên, áp đùi vào ngực. Bàn tay giữ đầu gối, cột sống giữ thẳng và sát mặt sàn. Động tác trên kéo dài khoảng 5 giây. Mỗi chân tập 5 lần xen kẽ nhau, tổng số 10 lần." },
-  { type: "heading", content: "Bài tập 8 — Nâng chân 45 độ" },
-  { type: "para", content: "Nằm ngửa hai tay xuôi, hai chân khép sát nhau duỗi thẳng. Duỗi thẳng, nâng cả hai chân lên góc 45 độ. Chân trái và thân người áp sát mặt sàn. Động tác này kéo dài khoảng 5 giây. Mỗi chân tập 5 lần, tổng số 10 lần." },
-  { type: "heading", content: "Bài tập 9 — Nâng chân 45 độ khép" },
-  { type: "para", content: "Nằm ngửa hai tay xuôi, hai chân khép sát nhau duỗi thẳng. Duỗi thẳng nâng hai chân lên góc 45 độ thì dừng lại. Động tác này kéo dài khoảng 5 giây. Nằm thư giãn và thở đều khoảng 5–10 giây sau đó lặp lại bài tập trên 10 lần." },
-  { type: "highlight", content: "Tập đều đặn mỗi ngày, kiên trì ít nhất 4–6 tuần để thấy rõ hiệu quả. Kết hợp với điều trị của bác sĩ để đạt kết quả tốt nhất." },
-  { type: "note", content: "Thông tin giáo dục sức khỏe tổng quát. Không thay thế tư vấn y tế trực tiếp. Người bệnh cần được thăm khám và có chỉ định cụ thể từ bác sĩ chuyên khoa." },
-],
+  "loang-xuong-nam-gioi-dich-te-nguyen-nhan-co-che": [
+    { type: "para", content: "Nếu ai đó nói với bạn rằng loãng xương là bệnh của phụ nữ — người đó đã sai. Và sự sai lầm này đang khiến hàng triệu đàn ông trên thế giới bỏ qua một mối nguy âm thầm đang gặm nhấm xương của họ từng ngày." },
+    { type: "para", content: "Ông H., 68 tuổi, kỹ sư về hưu. Vào buổi sáng tháng 3, ông khiêng thùng nước lên tầng hai — một việc ông đã làm hàng trăm lần. Lần đó, ông nghe tiếng 'rắc' ở lưng. Phim chụp sau đó cho thấy hai đốt sống thắt lưng đã xẹp. Chẩn đoán: loãng xương nặng, T-score -3.2. Ông chưa bao giờ được ai khuyên đi đo mật độ xương." },
+    { type: "heading", content: "Con số đáng kinh ngạc" },
+    { type: "para", content: "Theo báo cáo của Tổ chức Loãng xương Quốc tế (IOF) và nghiên cứu đăng trên PMC năm 2023: trong số 9 triệu ca gãy xương do loãng xương toàn cầu năm 2000, 40% xảy ra ở nam giới. Tỷ lệ tử vong sau gãy xương hông ở đàn ông cao hơn phụ nữ — trong năm đầu sau gãy, tỷ lệ tử vong dao động 20-24%. Chưa đến 20% nam giới mắc loãng xương được điều trị." },
+    { type: "heading", content: "Tại sao đàn ông vẫn loãng xương?" },
+    { type: "para", content: "Xương của đàn ông được bảo vệ bởi testosterone trực tiếp và estrogen gián tiếp. Nhưng sau tuổi 50-60, quá trình mất xương bắt đầu tăng tốc. Ở nam giới suy sinh dục, sự giảm testosterone dẫn đến giảm aromatization thành estrogen — chính estrogen nội sinh giảm là nguyên nhân trực tiếp gây mất xương, không phải testosterone." },
+    { type: "heading", content: "Nguyên nhân thứ phát ở nam giới" },
+    { type: "list", items: [
+      "Suy sinh dục: thiếu testosterone → giảm estrogen nội sinh → mất xương",
+      "Corticosteroid mãn tính: ức chế osteoblast, tăng calcium niệu, giảm hấp thu calcium",
+      "Liệu pháp triệt androgen (ADT) điều trị ung thư tuyến tiền liệt: mật độ xương giảm 2-3%/năm",
+      "Lạm dụng rượu bia: ức chế osteoblast, giảm hấp thu canxi",
+      "Bệnh lý nội tiết: cường giáp, cường tuyến cận giáp, hội chứng Cushing",
+      "Bệnh lý tiêu hóa mãn tính: kém hấp thu canxi và vitamin D",
+    ]},
+    { type: "heading", content: "Nhận diện nguy cơ" },
+    { type: "list", items: [
+      "Tuổi trên 70 hoặc đang dùng corticosteroid trên 3 tháng",
+      "Đang điều trị ung thư tuyến tiền liệt bằng ADT — nhóm nguy cơ cao nhất",
+      "Uống rượu nhiều (trên 3 đơn vị/ngày) hoặc hút thuốc lá",
+      "BMI thấp (dưới 20) hoặc giảm cân nhanh không chủ đích",
+      "Tiểu đường type 1, cường giáp, suy sinh dục",
+      "Đã từng gãy xương khi va chạm nhẹ sau tuổi 50",
+    ]},
+    { type: "highlight", content: "Bạn có 2 yếu tố trở lên? Hãy đề nghị bác sĩ chỉ định đo mật độ xương DXA. Đây là xét nghiệm không xâm lấn, chưa đến 15 phút, và cho kết quả chính xác nhất về tình trạng xương." },
+    { type: "note", content: "Loãng xương hoàn toàn có thể phát hiện sớm và điều trị hiệu quả ở nam giới. Phòng ngừa từ lúc còn chưa gãy xương bao giờ cũng hiệu quả hơn điều trị sau gãy." },
+  ],
 
-"loang-xuong-co-che-va-nguyen-nhan": [
-  { type: "para", content: "Nhiều người nghĩ loãng xương chỉ là 'xương yếu đi theo tuổi tác' và không làm gì được. Thực ra không phải vậy. Hiểu đúng cơ chế, bạn hoàn toàn có thể làm chậm quá trình này." },
-  { type: "heading", content: "Xương hoạt động như thế nào?" },
-  { type: "para", content: "Xương không phải khối đá chết — đây là bộ phận sống, liên tục được tái tạo. Trong xương có hai loại tế bào làm việc song song: tế bào tạo xương (osteoblast) chuyên xây dựng xương mới, và tế bào hủy xương (osteoclast) chuyên phá vỡ xương cũ để tái sử dụng khoáng chất." },
-  { type: "list", items: [
-    "Trước 30 tuổi: xây dựng nhiều hơn phá vỡ — xương ngày càng chắc",
-    "30–50 tuổi: xây dựng cân bằng phá vỡ — xương giữ nguyên sức mạnh",
-    "Sau 50 tuổi: phá vỡ nhiều hơn xây dựng — xương bắt đầu mỏng dần"
-  ]},
-  { type: "heading", content: "Loãng xương xảy ra khi nào?" },
-  { type: "para", content: "Loãng xương xảy ra khi quá trình phá vỡ vượt quá quá trình xây dựng kéo dài. Có ba nguyên nhân chính:" },
-  { type: "heading", content: "1. Giảm estrogen sau mãn kinh" },
-  { type: "para", content: "Estrogen hoạt động như một 'nút phanh' kiểm soát tế bào hủy xương. Khi phụ nữ mãn kinh, estrogen giảm mạnh, tế bào hủy xương hoạt động quá mức, tế bào tạo xương không kịp bù đắp. Đây là lý do phụ nữ sau mãn kinh có nguy cơ loãng xương cao hơn nam giới cùng tuổi." },
-  { type: "heading", content: "2. Thiếu canxi và vitamin D" },
-  { type: "para", content: "Canxi là nguyên liệu chính để xây dựng xương. Vitamin D giúp cơ thể hấp thu canxi từ thức ăn. Thiếu một trong hai, tế bào tạo xương không đủ nguyên liệu để làm việc, xương không được tái tạo đủ nhanh." },
-  { type: "heading", content: "3. Ít vận động" },
-  { type: "para", content: "Xương cần lực tác động để duy trì sức mạnh. Khi vận động, xương cảm nhận lực và kích thích tế bào tạo xương hoạt động tích cực hơn. Ít vận động đồng nghĩa với xương không có động lực để chắc chắn." },
-  { type: "highlight", content: "Xương bình thường: xây dựng và phá vỡ cân bằng. Loãng xương: phá vỡ vượt trội — xương mỏng dần, nhiều lỗ hơn, dễ gãy hơn dù chỉ từ một cú ngã nhẹ." },
-  { type: "heading", content: "Hậu quả của loãng xương" },
-  { type: "list", items: [
-    "Xương trở nên xốp như tổ ong — mất khả năng chịu lực",
-    "Gãy xương từ chấn thương nhỏ: ngã nhẹ, ho mạnh, cúi người",
-    "Vị trí gãy thường gặp: cột sống, hông, cổ tay",
-    "Hậu quả: đau mạn tính, mất khả năng đi lại, phụ thuộc người thân"
-  ]},
-  { type: "note", content: "Thông tin giáo dục sức khỏe tổng quát. Nếu bạn có nguy cơ loãng xương hoặc đã được chẩn đoán, hãy gặp bác sĩ để được đánh giá và tư vấn điều trị phù hợp." },
-],
+  "bom-xi-mang-tao-hinh-dot-song": [
+    { type: "para", content: "Kỹ thuật bơm xi măng sinh học tạo hình thân đốt sống (vertebroplasty/kyphoplasty) có thể giảm đau kịch tính trong vòng 24–48 giờ sau can thiệp. Nhưng nếu chỉ dừng ở đó mà không điều trị loãng xương — căn nguyên thực sự — người bệnh đang đứng trên nền đất sụt." },
+    { type: "heading", content: "Bơm xi măng đốt sống là gì?" },
+    { type: "list", items: [
+      "Vertebroplasty: bơm xi măng sinh học (PMMA) trực tiếp vào thân đốt xẹp",
+      "Kyphoplasty: nong bóng trước tạo khoang, sau đó bơm xi măng — phục hồi chiều cao tốt hơn",
+      "Thực hiện qua da, không cần mổ mở",
+      "Giảm đau rõ rệt trong 24–72 giờ sau thủ thuật",
+    ]},
+    { type: "image", src: "/images/Xquang_bom_xi_mang.jpg", alt: "X-quang cột sống thắt lưng sau tạo hình thân đốt sống bằng xi măng sinh học", caption: "Hình 1. X-quang cột sống thắt lưng — sau tạo hình thân đốt sống bằng xi măng sinh học", subcaption: "Phim X-quang cho thấy xi măng sinh học (vùng trắng đậm) trong thân đốt sống đã xẹp. Đốt sống được ổn định cơ học, người bệnh giảm đau rõ rệt sau can thiệp." },
+    { type: "heading", content: "Khi nào được xem xét bơm xi măng?" },
+    { type: "list", items: [
+      "Đau lưng cấp tính dữ dội do xẹp đốt sống mới, xác nhận trên MRI có phù tủy xương",
+      "Điều trị bảo tồn không hiệu quả sau 4–6 tuần",
+      "Người bệnh không thể chịu đựng đau để vận động, nguy cơ nằm lâu cao",
+      "Không có chống chỉ định: nhiễm trùng, rối loạn đông máu, tổn thương thần kinh",
+    ]},
+    { type: "warning", content: "Xi măng sinh học giải quyết triệu chứng đau — nhưng không thể thay thế xương đã mất. Nếu không điều trị loãng xương, đốt sống kế cận sẽ tiếp tục sụp đổ." },
+    { type: "heading", content: "Nguy cơ khi không điều trị loãng xương song song" },
+    { type: "list", items: [
+      "Xẹp đốt sống kế cận: xi măng cứng hơn xương bình thường, truyền lực bất thường lên đốt liền kề",
+      "Vòng xoáy can thiệp nhiều lần trong khi loãng xương vẫn tiến triển",
+      "Biến dạng cột sống tiến triển: gù nặng, mất cân bằng, suy giảm hô hấp",
+    ]},
+    { type: "highlight", content: "Bơm xi măng là công cụ — không phải giải pháp. Người bệnh xứng đáng được nhận cả hai: giảm đau nhanh VÀ điều trị loãng xương bền vững để bảo vệ những đốt sống còn lại." },
+    { type: "note", content: "Bài viết mang tính giáo dục sức khỏe tổng quát. Quyết định điều trị cần được thảo luận với bác sĩ chuyên khoa dựa trên tình trạng cụ thể của từng người bệnh." },
+  ],
+
+  "bai-tap-phuc-hoi-cot-song-that-lung": [
+    { type: "para", content: "Tập luyện đúng cách là một phần quan trọng trong điều trị và phục hồi bệnh lý cột sống thắt lưng. Các bài tập dưới đây được thiết kế đơn giản, có thể thực hiện tại nhà, giúp giảm đau, tăng cường cơ lưng và cải thiện khả năng vận động." },
+    { type: "warning", content: "Trước khi tập, hãy tham khảo ý kiến bác sĩ. Nếu xuất hiện đau tăng hoặc tê bì trong khi tập, dừng lại ngay và báo cho bác sĩ." },
+    { type: "heading", content: "Bài tập 1 — Cầu mông (Glute Bridge)" },
+    { type: "para", content: "Nằm sấp, mặt nghiêng, hai tay xuôi. Nâng chân phải lên giữ thẳng, nâng căng cao tốt. Cột sống lưng hơi ưỡn giữ khoảng 5 giây. Mỗi động tác làm 5 lần luân phiên chân phải rồi chân trái, tổng cộng 10 lần." },
+    { type: "heading", content: "Bài tập 2 — Nâng chân thẳng" },
+    { type: "para", content: "Nằm sấp hai chân khép, nâng hai chân lên khỏi mặt giường, hai chân thẳng, cột sống cưỡn về phía trước. Thời gian làm động tác này khoảng 5 giây. Nằm thư giãn 10 giây, thở đều rồi làm lại động tác trên 10 lần." },
+    { type: "heading", content: "Bài tập 3 — Ưỡn lưng sấp" },
+    { type: "para", content: "Nằm sấp, khuỵu tay co, hai chân duỗi thẳng. Đẩy tay nâng nửa người phía trên lên, ưỡn dần và ngoẹo tít đầu ra sau. Toàn thân thả lỏng, thư giãn, thở đều khoảng 5 giây rồi lặp lại bài tập trên." },
+    { type: "heading", content: "Bài tập 4 — Kéo giãn gối" },
+    { type: "para", content: "Nằm ngửa co hai chân vuông góc với mặt sàn, nâng mông lên tối đa, kéo dài khoảng 5 giây. Thư giãn 5–10 giây rồi lặp lại bài tập trên 10 lần." },
+    { type: "heading", content: "Bài tập 5 — Nâng chân thẳng ngửa" },
+    { type: "para", content: "Nằm ngửa hai tay xuôi, chân duỗi thẳng. Nâng chân phải lên đến khi chân phải thẳng góc với mặt sàn. Thời gian làm động tác này khoảng 5 giây. Mỗi chân tập 5 lần xen kẽ nhau, tổng số 10 lần." },
+    { type: "heading", content: "Bài tập 6 — Nâng chân thẳng đứng" },
+    { type: "para", content: "Nằm ngửa hai chân thẳng, nâng hai chân duỗi thẳng và khép sát, đến khi hai chân thẳng góc với mặt sàn. Thời gian khoảng 5 giây. Thư giãn, thở đều 5–10 giây rồi lặp lại bài tập trên 10 lần." },
+    { type: "heading", content: "Bài tập 7 — Kéo gối vào ngực" },
+    { type: "para", content: "Nằm ngửa hai tay xuôi, nâng đầu gối bên phải lên, áp đùi vào ngực. Bàn tay giữ đầu gối, cột sống giữ thẳng và sát mặt sàn. Động tác trên kéo dài khoảng 5 giây. Mỗi chân tập 5 lần xen kẽ nhau, tổng số 10 lần." },
+    { type: "heading", content: "Bài tập 8 — Nâng chân 45 độ" },
+    { type: "para", content: "Nằm ngửa hai tay xuôi, hai chân khép sát nhau duỗi thẳng. Duỗi thẳng, nâng cả hai chân lên góc 45 độ. Chân trái và thân người áp sát mặt sàn. Động tác này kéo dài khoảng 5 giây. Mỗi chân tập 5 lần, tổng số 10 lần." },
+    { type: "heading", content: "Bài tập 9 — Nâng chân 45 độ khép" },
+    { type: "para", content: "Nằm ngửa hai tay xuôi, hai chân khép sát nhau duỗi thẳng. Duỗi thẳng nâng hai chân lên góc 45 độ thì dừng lại. Động tác này kéo dài khoảng 5 giây. Nằm thư giãn và thở đều khoảng 5–10 giây sau đó lặp lại bài tập trên 10 lần." },
+    { type: "para", content: "Tập đều đặn mỗi ngày, kiên trì ít nhất 4–6 tuần để thấy rõ hiệu quả. Kết hợp với điều trị của bác sĩ để đạt kết quả tốt nhất." },
+    { type: "note", content: "Thông tin giáo dục sức khỏe tổng quát. Không thay thế tư vấn y tế trực tiếp. Người bệnh cần được thăm khám và có chỉ định cụ thể từ bác sĩ chuyên khoa." },
+  ],
+
+  "loang-xuong-co-che-va-nguyen-nhan": [
+    { type: "para", content: "Nhiều người nghĩ loãng xương chỉ là 'xương yếu đi theo tuổi tác' và không làm gì được. Thực ra không phải vậy. Hiểu đúng cơ chế, bạn hoàn toàn có thể làm chậm quá trình này." },
+    { type: "heading", content: "Xương hoạt động như thế nào?" },
+    { type: "para", content: "Xương không phải khối đá chết — đây là bộ phận sống, liên tục được tái tạo. Trong xương có hai loại tế bào làm việc song song: tế bào tạo xương (osteoblast) chuyên xây dựng xương mới, và tế bào hủy xương (osteoclast) chuyên phá vỡ xương cũ để tái sử dụng khoáng chất." },
+    { type: "list", items: [
+      "Trước 30 tuổi: xây dựng nhiều hơn phá vỡ — xương ngày càng chắc",
+      "30–50 tuổi: xây dựng cân bằng phá vỡ — xương giữ nguyên sức mạnh",
+      "Sau 50 tuổi: phá vỡ nhiều hơn xây dựng — xương bắt đầu mỏng dần",
+    ]},
+    { type: "heading", content: "3 nguyên nhân chính gây loãng xương" },
+    { type: "list", items: [
+      "Giảm estrogen sau mãn kinh: estrogen là 'nút phanh' kiểm soát tế bào hủy xương. Khi mãn kinh, estrogen giảm mạnh, tế bào hủy xương hoạt động quá mức",
+      "Thiếu canxi và vitamin D: canxi là nguyên liệu xây xương; vitamin D giúp hấp thu canxi. Thiếu một trong hai, xương không được tái tạo đủ nhanh",
+      "Ít vận động: xương cần lực tác động để duy trì sức mạnh. Ít vận động đồng nghĩa với xương không có động lực để chắc chắn",
+    ]},
+    { type: "heading", content: "Hậu quả" },
+    { type: "list", items: [
+      "Xương trở nên xốp như tổ ong — mất khả năng chịu lực",
+      "Gãy xương từ chấn thương nhỏ: ngã nhẹ, ho mạnh, cúi người",
+      "Vị trí gãy thường gặp: cột sống, hông, cổ tay",
+    ]},
+    { type: "note", content: "Thông tin giáo dục sức khỏe tổng quát. Nếu bạn có nguy cơ loãng xương, hãy gặp bác sĩ để được đánh giá và tư vấn điều trị phù hợp." },
+  ],
+
+  "chan-doan-loang-xuong-phuong-phap-va-doi-tuong": [
+    { type: "para", content: "Bà L.T.M., 58 tuổi, đến khám vì đau lưng âm ỉ hơn 3 tháng. Kết quả đo mật độ xương cho thấy T-score -2.8 — loãng xương mức độ nặng, đốt sống đã bắt đầu mất cấu trúc. Nếu không được chẩn đoán lúc này, cú ngã đầu tiên có thể là cú ngã thay đổi cả cuộc đời." },
+    { type: "heading", content: "Phương pháp chẩn đoán chuẩn: DXA" },
+    { type: "para", content: "DXA (Dual-energy X-ray Absorptiometry) là tiêu chuẩn vàng trong chẩn đoán loãng xương. Thời gian đo 10–20 phút, không xâm lấn, liều phóng xạ rất thấp." },
+    { type: "heading", content: "Đọc kết quả T-score" },
+    { type: "list", items: [
+      "T-score từ -1.0 trở lên: Xương bình thường",
+      "T-score từ -1.0 đến -2.5: Thiếu xương (osteopenia) — cảnh báo sớm",
+      "T-score từ -2.5 trở xuống: Loãng xương — cần điều trị",
+      "T-score từ -2.5 trở xuống kèm tiền sử gãy xương: Loãng xương nặng",
+    ]},
+    { type: "heading", content: "Công cụ FRAX đánh giá nguy cơ gãy xương" },
+    { type: "para", content: "FRAX (Fracture Risk Assessment Tool) của WHO tích hợp nhiều yếu tố nguy cơ để tính xác suất gãy xương trong 10 năm tới. Đặc biệt hữu ích khi DXA nằm vùng 'thiếu xương' — ranh giới cần và chưa cần điều trị thuốc." },
+    { type: "heading", content: "Ai nên được kiểm tra?" },
+    { type: "list", items: [
+      "Phụ nữ từ 65 tuổi trở lên — tầm soát thường quy",
+      "Phụ nữ sau mãn kinh dưới 65 tuổi có ít nhất một yếu tố nguy cơ",
+      "Nam giới từ 70 tuổi trở lên",
+      "Người đã từng gãy xương sau chấn thương nhẹ",
+      "Người dùng corticosteroid toàn thân từ 3 tháng trở lên",
+    ]},
+    { type: "warning", content: "Dấu hiệu cần đi kiểm tra sớm: chiều cao giảm hơn 2–3cm · lưng ngày càng khom gù · đau lưng cấp tính sau động tác nhỏ · gãy xương khi va chạm nhẹ · mãn kinh sớm trước 45 tuổi." },
+    { type: "note", content: "Chẩn đoán loãng xương không phải để gây lo lắng — mà để có cơ sở hành động sớm. Biết T-score của mình là thông tin bảo vệ bạn, không phải bản án." },
+  ],
+
+  "canh-bao-thuoc-dau-cot-song-khong-ro-nguon-goc": [
+    { type: "warning", content: "CẢNH BÁO Y TẾ: Nhiều loại thuốc gia truyền trị đau xương khớp đang lưu hành KHÔNG có đăng ký Bộ Y tế. Phân tích thực tế cho thấy một số sản phẩm chứa corticosteroid (dexamethasone, prednisolone...) liều cao được pha trộn bí mật — người bệnh không hề biết mình đang dùng corticoid." },
+    { type: "heading", content: "Tại sao những loại thuốc này 'hiệu quả' nhanh?" },
+    { type: "para", content: "Corticosteroid liều cao có tác dụng kháng viêm và giảm đau cực nhanh — nhưng cái giá phải trả về lâu dài là vô cùng đắt. Người bệnh lầm tưởng 'thuốc hay', tiếp tục uống hàng tuần, hàng tháng, thậm chí hàng năm. Cơ thể quen với corticoid ngoại sinh → tuyến thượng thận ngưng sản xuất cortisol nội sinh." },
+    { type: "heading", content: "Nguy cơ suy vỏ tuyến thượng thận" },
+    { type: "list", items: [
+      "Mệt mỏi kéo dài, chán ăn, sụt cân, buồn nôn",
+      "Huyết áp thấp, chóng mặt khi đứng dậy, da sạm màu",
+      "Khi stress hoặc phẫu thuật: tụt huyết áp đột ngột, sốc (Addisonian Crisis) — đe dọa tính mạng",
+      "Khi ngưng thuốc đột ngột: đau dữ dội hơn trước (hội chứng cai corticoid)",
+    ]},
+    { type: "heading", content: "Loãng xương nặng thêm do corticoid" },
+    { type: "para", content: "Corticosteroid là nguyên nhân hàng đầu gây loãng xương thứ phát. Chỉ 3-6 tháng dùng corticoid → mật độ xương giảm đáng kể, nguy cơ gãy xẹp đốt sống tăng gấp đôi. Đặc biệt nguy hiểm: bệnh nhân đang điều trị loãng xương bằng bisphosphonate mà vẫn dùng kèm corticoid ẩn → mọi điều trị loãng xương đều vô hiệu." },
+    { type: "heading", content: "Nhận biết thuốc đáng ngờ" },
+    { type: "list", items: [
+      "Giảm đau RẤT NHANH trong 1-3 ngày đầu — không thuốc thảo dược nào tác dụng nhanh như vậy",
+      "Cảm giác phấn chấn, ăn ngon, ngủ ngon bất thường; tăng cân, phù mặt tròn",
+      "Không có số đăng ký Bộ Y tế, không ghi thành phần hoạt chất, mua qua mạng xã hội",
+    ]},
+    { type: "note", content: "KHÔNG tự ý dùng bất kỳ thuốc nào không có số đăng ký Bộ Y tế. Nếu đã dùng lâu, KHÔNG ngưng đột ngột — cần gặp bác sĩ để được hỗ trợ đúng cách. Nếu nghi ngờ: xét nghiệm cortisol máu buổi sáng, ACTH, đo mật độ xương DXA." },
+  ],
+
+  "tu-y-bo-thuoc-loang-xuong": [
+    { type: "para", content: "Loãng xương là bệnh mãn tính — điều trị thường kéo dài nhiều năm. Thế nhưng rất nhiều bệnh nhân tự ý bỏ thuốc giữa chừng. Đây là quyết định tiềm ẩn nguy hiểm nghiêm trọng, đặc biệt với một số nhóm thuốc điều trị hiện đại." },
+    { type: "heading", content: "Tại sao bệnh nhân tự ý bỏ thuốc?" },
+    { type: "list", items: [
+      "Cảm thấy 'đỡ rồi, không đau nữa' — không nhận ra loãng xương là bệnh thầm lặng",
+      "Sợ tác dụng phụ: đau khớp, buồn nôn, lo lắng về 'hoại tử xương hàm' đọc trên mạng",
+      "Chi phí điều trị dài hạn gây gánh nặng kinh tế",
+      "Quên uống nhiều lần rồi bỏ hẳn",
+    ]},
+    { type: "heading", content: "Denosumab (Prolia) — NGUY HIỂM NHẤT nếu ngưng đột ngột" },
+    { type: "para", content: "Denosumab ức chế tiêu xương bằng cách chặn RANKL — nhưng tác dụng chỉ kéo dài 6 tháng (chu kỳ tiêm). Khi ngưng: RANKL bùng phát → tiêu xương xảy ra rất nhanh, mật độ xương giảm mạnh chỉ sau 6–12 tháng." },
+    { type: "warning", content: "Trong các nghiên cứu quan sát tại châu Âu và Nhật Bản, tỷ lệ gãy đốt sống mới sau ngưng Denosumab không đúng chỉ định lên đến 10–15% trong vòng 18 tháng. Nhiều trường hợp gãy 3–5 đốt sống đồng thời. Nếu muốn ngưng Denosumab, BẮT BUỘC phải chuyển tiếp sang Bisphosphonate theo hướng dẫn của bác sĩ." },
+    { type: "heading", content: "Điều bệnh nhân cần làm" },
+    { type: "list", items: [
+      "Liên hệ bác sĩ ngay khi có ý định ngưng thuốc — gọi điện hoặc nhắn tin đều được",
+      "Mô tả cụ thể tác dụng phụ nghi ngờ để bác sĩ đánh giá",
+      "Thiết lập báo thức điện thoại nếu hay quên uống thuốc",
+      "Tái khám đúng hẹn, đo DXA mỗi 1–2 năm để theo dõi hiệu quả",
+    ]},
+    { type: "highlight", content: "Với loãng xương, cảm giác 'không đau = đã khỏi' là sai lầm nguy hiểm. Xương mỏng dần không gây đau — cho đến khi gãy." },
+    { type: "note", content: "Mỗi bệnh nhân có hồ sơ bệnh lý riêng — quyết định điều trị cần được cá thể hóa. Nếu đang dùng thuốc và có bất kỳ lo ngại nào, hãy liên hệ bác sĩ điều trị trước khi thay đổi bất cứ điều gì." },
+  ],
+
+  "di-bo-dieu-chinh-goc-ban-chan-giam-dau-khop-goi": [
+    { type: "para", content: "Một nghiên cứu lâm sàng ngẫu nhiên có đối chứng vừa công bố trên tạp chí The Lancet Rheumatology (8/2025) mang đến hy vọng mới cho bệnh nhân thoái hóa khớp gối: chỉ cần thay đổi góc bàn chân thêm 5–10 độ khi đi bộ có thể giảm đau khớp gối đáng kể, làm chậm tổn thương sụn khớp và không có tác dụng phụ nào." },
+    { type: "heading", content: "Tại sao góc bàn chân quan trọng?" },
+    { type: "para", content: "Khoang trong (medial compartment) của khớp gối chịu 60–80% tổng lực tải trọng cơ thể. Ở người có trục chi bất thường, lực này tăng lên đến 80–100% — gây quá tải mạn tính và bào mòn sụn khớp. Thước đo quan trọng nhất là Knee Adduction Moment (KAM). Góc tiến bàn chân ảnh hưởng trực tiếp đến KAM này." },
+    { type: "heading", content: "Kết quả nghiên cứu" },
+    { type: "list", items: [
+      "68 bệnh nhân thoái hóa khớp gối nhẹ-trung bình được chia 2 nhóm",
+      "Nhóm can thiệp giảm điểm đau trung bình 2,5 điểm (thang 10 điểm) — tương đương thuốc giảm đau OTC",
+      "Giảm lực tải trọng tối đa tại khớp gối 4%; nhóm đối chứng tăng thêm 3%",
+      "MRI cho thấy sụn khoang trong thoái hóa chậm hơn sau 12 tháng theo dõi",
+      "Không ghi nhận tác dụng phụ có hại nào",
+    ]},
+    { type: "heading", content: "Ai phù hợp?" },
+    { type: "list", items: [
+      "Bệnh nhân thoái hóa khớp gối khoang trong mức độ nhẹ đến trung bình",
+      "Người muốn trì hoãn hoặc tránh phẫu thuật thay khớp",
+      "Người không thể dùng thuốc kháng viêm lâu dài do bệnh nền",
+    ]},
+    { type: "warning", content: "KHÔNG tự ý điều chỉnh góc bàn chân mà không có gait analysis chính thức — sai góc có thể tăng tải trọng lên khoang khớp khác hoặc gây đau cổ chân, hông. Phương pháp này cần được chỉ định và hướng dẫn bởi bác sĩ vật lý trị liệu sau đánh giá lâm sàng đầy đủ." },
+    { type: "note", content: "Tài liệu tham khảo: Mazzoli V, et al. Personalised gait retraining for medial compartment knee osteoarthritis: a randomised controlled trial. The Lancet Rheumatology. August 2025. DOI: 10.1016/S2665-9913(25)00151-1" },
+  ],
+
+  "phong-ngua-loang-xuong-phu-nu-sau-man-kinh": [
+    { type: "para", content: "Trong suốt những năm sau mãn kinh, xương của phụ nữ đang mất đi khoảng 2-4% mật độ mỗi năm — âm thầm, không đau, không dấu hiệu. Tin tốt là: hoàn toàn có thể phòng ngừa và làm chậm lại được, nếu biết cần làm gì và bắt đầu đúng thời điểm." },
+    { type: "heading", content: "Tại sao mãn kinh là bước ngoặt của xương?" },
+    { type: "para", content: "Estrogen là người gác cổng bảo vệ mật độ xương suốt cuộc đời sinh sản của phụ nữ. Khi mãn kinh, estrogen giảm mạnh: hủy xương nhanh hơn tạo xương. Trong 5-10 năm đầu sau mãn kinh, có thể mất 2-4% mật độ xương mỗi năm — nhanh hơn gấp 4-8 lần so với nam giới cùng tuổi." },
+    { type: "heading", content: "Canxi và Vitamin D — nền tảng không thể thiếu" },
+    { type: "para", content: "Meta-analysis năm 2025 (BMC Musculoskeletal Disorders), tổng hợp 37 RCT với 43.397 bệnh nhân, xác nhận bổ sung canxi và vitamin D kết hợp giúp tăng mật độ xương và giảm nguy cơ gãy xương ở phụ nữ sau mãn kinh." },
+    { type: "list", items: [
+      "Canxi: 1.200mg/ngày — ưu tiên từ thực phẩm (sữa, đậu phụ, tôm, cá nhỏ ăn cả xương)",
+      "Vitamin D: 800-1.000 IU/ngày, có thể lên 2.000 IU nếu thiếu hụt",
+      "Tiếp xúc ánh nắng 15-20 phút mỗi ngày (trước 10h hoặc sau 16h)",
+    ]},
+    { type: "heading", content: "Vận động — không phải môn nào cũng như nhau" },
+    { type: "para", content: "Bơi lội và đạp xe tốt cho tim mạch nhưng gần như không có tác dụng tăng mật độ xương vì thiếu lực tác động. Các bài tập hiệu quả lên xương:" },
+    { type: "list", items: [
+      "Đi bộ nhanh 30 phút/ngày, ít nhất 5 ngày/tuần",
+      "Tập có trọng tải: squat, tập tạ nhẹ, leo cầu thang",
+      "Yoga và Tai chi: cải thiện thăng bằng, giảm nguy cơ té ngã",
+    ]},
+    { type: "heading", content: "Thuốc điều trị khi cần" },
+    { type: "list", items: [
+      "Bisphosphonate (Alendronate, Zoledronic acid): lựa chọn đầu tay, giảm nguy cơ gãy đốt sống đến 40-70%",
+      "Denosumab (Prolia): tiêm mỗi 6 tháng, hiệu quả cao — không được tự ý ngưng",
+      "Liệu pháp hormone thay thế (HRT): phù hợp phụ nữ mãn kinh sớm hoặc dưới 60 tuổi theo guideline 2024",
+    ]},
+    { type: "highlight", content: "Loãng xương sau mãn kinh không phải định mệnh. Với can thiệp đúng — vận động đều đặn, dinh dưỡng đủ canxi và vitamin D, thuốc điều trị nếu cần — phụ nữ hoàn toàn có thể giữ xương chắc khỏe và duy trì cuộc sống độc lập." },
+    { type: "note", content: "Tài liệu tham khảo chính: NOGG 2024, RACGP 2024, Meta-analysis 37 RCT / 43.397 bệnh nhân (BMC Musculoskeletal Disorders 2025). Không thay thế tư vấn y tế cá nhân." },
+  ],
+
+  "loang-xuong-khong-dieu-tri-gay-vo-dot-song": [
+    { type: "para", content: "Bà N., 68 tuổi, bị đau lưng âm ỉ suốt 3 năm. Con cái nhiều lần khuyên đi khám nhưng bà gạt đi: 'Già thì đau lưng, bình thường thôi.' Cho đến một buổi sáng bà cúi xuống nhặt cái chổi — chỉ vậy thôi — và ngã khuỵu xuống vì đau không thể chịu được. X-quang: 4 đốt sống bị xẹp, 2 đốt gãy hoàn toàn. Loãng xương giai đoạn nặng." },
+    { type: "highlight", content: "80% người mắc loãng xương tại Việt Nam không được chẩn đoán và điều trị. Họ đang đi lại, sinh hoạt hàng ngày với những đốt sống ngày càng mỏng manh — mà không hay biết." },
+    { type: "heading", content: "Cuộc sống của người bị vỡ nhiều đốt sống" },
+    { type: "list", items: [
+      "Đau lưng mãn tính không dứt: cơn đau ở lại mỗi ngày, chỉ khác nhau về mức độ",
+      "Mất chiều cao: mỗi đốt xẹp làm người bệnh thấp đi 1-3cm, nhiều đốt có thể thấp 5-10cm",
+      "Còng lưng nặng dần: cột sống mất điểm tựa, ảnh hưởng hô hấp và tiêu hóa",
+      "Nguy cơ liệt: mảnh xương vỡ có thể chèn ép tủy sống hoặc rễ thần kinh",
+      "Trầm cảm và cô lập xã hội: không đi được xa, không tham gia hoạt động gia đình",
+      "Tăng nguy cơ tử vong: nghiên cứu Lancet (2022) cho thấy gãy đốt sống do loãng xương tăng nguy cơ tử vong 5 năm gấp đôi",
+    ]},
+    { type: "warning", content: "Dấu hiệu cần đi khám NGAY: đau lưng kéo dài trên 4 tuần không rõ nguyên nhân ở người trên 50 tuổi · chiều cao giảm hơn 3cm · đã từng gãy xương khi va chạm nhẹ · đang dùng corticosteroid trên 3 tháng." },
+    { type: "heading", content: "Điều trị loãng xương — không bao giờ là quá muộn" },
+    { type: "list", items: [
+      "Đo mật độ xương DXA: xét nghiệm 15 phút, không đau, cho kết quả chính xác nhất",
+      "Thuốc Bisphosphonate: giảm nguy cơ gãy đốt sống đến 70%",
+      "Denosumab (Prolia): tiêm mỗi 6 tháng, hiệu quả cao",
+      "Teriparatide: kích thích tạo xương mới — dùng cho loãng xương rất nặng hoặc đã gãy",
+      "Bổ sung Canxi và Vitamin D đúng liều: nền tảng bắt buộc",
+      "Vật lý trị liệu và bài tập thăng bằng: phòng ngừa té ngã",
+    ]},
+    { type: "note", content: "TS.BS. Nguyễn Ngọc Quyền — Bệnh viện TWQĐ 108. Tất cả hình ảnh trong bài được sử dụng với sự đồng ý của bệnh nhân vì mục đích giáo dục sức khỏe cộng đồng." },
+  ],
+
+  "loi-khuyen-suc-khoe-nang-nong-cuc-doan": [
+    { type: "para", content: "Mùa hè 2025–2026, nhiều tỉnh thành Việt Nam ghi nhận nhiệt độ vượt 40°C liên tục nhiều ngày. Sốc nhiệt (heat stroke) có thể gây tổn thương não vĩnh viễn và tử vong chỉ trong vòng 30 phút nếu không được xử trí kịp thời." },
+    { type: "heading", content: "Ba mức độ say nắng" },
+    { type: "list", items: [
+      "Mức 1 — Kiệt sức do nhiệt: ra nhiều mồ hôi, da lạnh và ẩm, mạch nhanh yếu, chóng mặt, buồn nôn, thân nhiệt dưới 40°C — cần dừng hoạt động và vào nơi mát ngay",
+      "Mức 2 — Sốc nhiệt: thân nhiệt trên 40°C, da đỏ và nóng (không còn mồ hôi), lú lẫn, co giật hoặc mất ý thức — GỌI 115 NGAY",
+    ]},
+    { type: "heading", content: "7 hành động bảo vệ sức khỏe" },
+    { type: "list", items: [
+      "Uống đủ nước kể cả khi không khát: 2–3 lít/ngày; người lao động ngoài trời uống 250ml mỗi 15–20 phút",
+      "Tránh ra ngoài khung giờ 10h–16h; mặc quần áo sáng màu, rộng rãi, đội mũ rộng vành",
+      "Bôi kem chống nắng SPF 30 trở lên, thoa lại mỗi 2 giờ",
+      "Làm mát môi trường sống bằng quạt, điều hòa hoặc đến nơi công cộng có điều hòa",
+      "Không để trẻ em hoặc người già một mình trong xe ô tô — nhiệt độ trong xe tăng thêm 20°C chỉ sau 10 phút",
+      "Theo dõi sức khỏe người thân có nguy cơ cao, gọi điện kiểm tra người già sống một mình ít nhất 2 lần/ngày",
+    ]},
+    { type: "heading", content: "Lưu ý đặc biệt cho bệnh nhân cột sống và khớp" },
+    { type: "para", content: "Thuốc kháng viêm NSAID (Ibuprofen, Diclofenac, Meloxicam) làm giảm lưu lượng máu đến thận. Kết hợp với mất nước do nắng nóng, nguy cơ suy thận cấp tăng cao đột biến. Không tập phục hồi chức năng ngoài trời trong nắng; không ngưng thuốc loãng xương hay bệnh nền khi trời nóng." },
+    { type: "warning", content: "Với sốc nhiệt: chuyển người bệnh vào nơi mát · cởi bớt quần áo · đặt túi đá lên nách, háng, hai bên cổ · cho uống nước từng ngụm nhỏ nếu còn tỉnh · GỌI 115 NGAY và theo dõi liên tục." },
+    { type: "note", content: "Tổng hợp từ: WHO 2025, CDC Hoa Kỳ, Bộ Y tế Việt Nam và các nghiên cứu lâm sàng đăng trên PubMed/NIH năm 2024–2025. Liên hệ cấp cứu: 115." },
+  ],
+
 };
 
 function RenderBlock({ block, index }: { block: Block; index: number }) {
@@ -1247,14 +558,13 @@ function RenderBlock({ block, index }: { block: Block; index: number }) {
     case "heading":
       return <h2 key={index} className="font-serif-brand text-[20px] font-bold text-navy mt-8 mb-3 leading-snug">{block.content}</h2>;
     case "para":
-      return <p key={index} className="text-[15.5px] font-light leading-[1.85] text-gray-500 mb-5" dangerouslySetInnerHTML={{ __html: block.content }} />;
+      return <p key={index} className="text-[15.5px] font-light leading-[1.85] text-gray-500 mb-5">{block.content}</p>;
     case "list":
       return (
         <ul key={index} className="list-none mb-6 space-y-2.5">
           {block.items.map((item, j) => (
             <li key={j} className="flex items-start gap-3 text-[15px] font-light text-gray-500">
-              <span className="w-1.5 h-1.5 rounded-full bg-navy mt-2.5 flex-shrink-0" />
-              <span dangerouslySetInnerHTML={{ __html: item }} />
+              <span className="w-1.5 h-1.5 rounded-full bg-navy mt-2.5 flex-shrink-0" />{item}
             </li>
           ))}
         </ul>
@@ -1262,17 +572,20 @@ function RenderBlock({ block, index }: { block: Block; index: number }) {
     case "highlight":
       return (
         <div key={index} className="my-6 border-l-[3px] border-navy pl-5 py-1">
-          <p className="font-serif-brand text-[17px] font-normal italic text-navy leading-relaxed" dangerouslySetInnerHTML={{ __html: block.content }} />
+          <p className="font-serif-brand text-[17px] font-normal italic text-navy leading-relaxed">{block.content}</p>
         </div>
       );
     case "warning":
       return (
-        <div key={index} className="my-6 p-4 bg-yellow-50 border border-yellow-200 border-l-[3px] border-l-brand-gold text-[13.5px] text-gray-600 leading-relaxed" dangerouslySetInnerHTML={{ __html: block.content }} />
+        <div key={index} className="my-6 p-4 bg-yellow-50 border border-yellow-200 border-l-[3px] border-l-brand-gold text-[13.5px] text-gray-600 leading-relaxed">
+          <strong className="font-semibold text-gray-800 block mb-1">⚠️ Lưu ý quan trọng:</strong>
+          {block.content}
+        </div>
       );
     case "note":
       return (
         <div key={index} className="mt-8 p-4 bg-brand-gold-lt border-l-[3px] border-brand-gold text-[13px] font-light text-gray-600">
-          <strong className="font-semibold text-gray-700">Lưu ý: </strong><span dangerouslySetInnerHTML={{ __html: block.content }} />
+          <strong className="font-semibold text-gray-700">Lưu ý: </strong>{block.content}
         </div>
       );
     case "image":
