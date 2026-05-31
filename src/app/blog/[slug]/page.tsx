@@ -122,7 +122,7 @@ const ARTICLES: Record<string, Block[]> = {
       "Mặc đai lưng khi di chuyển nếu bác sĩ chỉ định: đai hỗ trợ giảm áp lực đốt sống trong giai đoạn cấp",
     ]},
     { type: "heading", content: "Giai đoạn 2: Phục hồi — 6 đến 12 tuần, đau đã giảm đáng kể" },
-    { type: "para", content: "Khi cơn đau cấp đã giảm (thường sau 4–8 tuần với điều trị đúng), bắt đầu tập tăng sức mạnh cơ lưng và cơ vùng lõi (core). Mục tiêu: xây dựng "vành đai bảo vệ" cơ bắp quanh cột sống để giảm tải trọng lên đốt sống đã xẹp." },
+    { type: "para", content: "Khi cơn đau cấp đã giảm (thường sau 4–8 tuần với điều trị đúng), bắt đầu tập tăng sức mạnh cơ lưng và cơ vùng lõi (core). Mục tiêu: xây dựng lớp cơ bảo vệ quanh cột sống để giảm tải trọng lên đốt sống đã xẹp." },
     { type: "list", items: [
       "Bài 1 — Kéo vai về sau (Scapular Retraction): Ngồi hoặc đứng thẳng, kéo hai vai về phía sau và xuống, giữ 5 giây. Lặp 10 lần, 2–3 hiệp/ngày. Tăng cường cơ lưng trên, cải thiện tư thế",
       "Bài 2 — Ưỡn lưng trên dựa tường (Wall Extension): Đứng cách tường 30cm, ngả lưng vào tường nhẹ nhàng cho phần lưng trên chạm tường. Giữ 10 giây. Lặp 10 lần. An toàn hơn ưỡn lưng trên sàn",
