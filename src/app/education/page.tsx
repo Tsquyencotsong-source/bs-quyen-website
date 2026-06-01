@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { Container, Section, SectionHeader } from "@/components/Section";
 
 export const metadata: Metadata = {
@@ -158,48 +157,6 @@ export default function EducationPage() {
                 </div>
               </details>
             ))}
-          </div>
-        </Container>
-      </Section>
-
-      {/* Hướng dẫn tự tập luyện */}
-      <Section>
-        <Container>
-          <SectionHeader eyebrow="Công cụ tương tác" title={<>Hướng dẫn <em className="font-normal not-italic text-navy">tự tập luyện</em></>} />
-          <div className="grid md:grid-cols-2 gap-4">
-            <Link
-              href="/education/tu-tap-luyen/sau-bom-xi-mang-dot-song"
-              className="group border border-gray-200 hover:border-navy transition-all p-6 flex flex-col gap-3"
-            >
-              <div className="flex items-center justify-between">
-                <span className="text-2xl">🦴</span>
-                <span className="text-[11px] font-semibold tracking-wider uppercase text-brand-gold bg-brand-gold-lt px-2.5 py-1">
-                  Kyphoplasty
-                </span>
-              </div>
-              <h3 className="font-serif-brand text-[17px] font-bold text-navy group-hover:text-navy-light transition-colors">
-                Tập luyện sau bơm xi măng đốt sống
-              </h3>
-              <p className="text-[13.5px] font-light text-gray-500">
-                Lộ trình 4 giai đoạn, 19 bài tập có hình minh họa, checklist theo dõi tiến độ.
-              </p>
-              <span className="text-[13px] font-semibold text-navy mt-auto group-hover:underline">
-                Xem hướng dẫn →
-              </span>
-            </Link>
-
-            <Link
-              href="/education/tu-tap-luyen"
-              className="group border border-dashed border-gray-200 hover:border-gray-300 transition-all p-6 flex flex-col gap-3 justify-center items-center text-center"
-            >
-              <span className="text-2xl opacity-50">📋</span>
-              <h3 className="font-serif-brand text-[17px] font-bold text-gray-400">
-                Xem tất cả hướng dẫn tập luyện
-              </h3>
-              <p className="text-[13px] text-gray-400">
-                Thêm chương trình tập luyện đang được cập nhật.
-              </p>
-            </Link>
           </div>
         </Container>
       </Section>
