@@ -305,16 +305,16 @@ export default function KyphoRehabApp() {
             Hướng dẫn phục hồi từng giai đoạn cho người bệnh gãy xẹp đốt sống do loãng xương. Tập đúng cách quyết định khả năng đi lại và sự độc lập lâu dài.
           </p>
 
-          {/* Progress — tất cả chữ màu vàng gold */}
+          {/* Progress */}
           <div className="mt-5 rounded-xl p-4" style={{ background: "rgba(255,255,255,0.1)" }}>
             <div className="flex items-center justify-between text-sm mb-2">
-              <span className="font-semibold" style={{ color: C.gold }}>Tiến độ hoàn thành bài tập</span>
-              <span className="font-bold text-lg" style={{ color: C.gold }}>{pct}%</span>
+              <span className="font-semibold" style={{ color: "#FFD700" }}>Tiến độ hoàn thành bài tập</span>
+              <span className="font-bold text-lg" style={{ color: "#FFD700" }}>{pct}%</span>
             </div>
             <div className="h-4 rounded-full overflow-hidden" style={{ background: "rgba(255,255,255,0.2)" }}>
-              <div className="h-full rounded-full transition-all duration-500" style={{ width: `${pct}%`, background: `linear-gradient(90deg, ${C.gold}, #e8b84b)` }} />
+              <div className="h-full rounded-full transition-all duration-500" style={{ width: `${pct}%`, background: "#FFD700" }} />
             </div>
-            <div className="flex items-center justify-between mt-2.5 text-xs font-medium" style={{ color: C.gold }}>
+            <div className="flex items-center justify-between mt-2.5 text-xs font-medium" style={{ color: "#FFD700" }}>
               <span>{completed}/{allEx.length} bài tập đã đánh dấu</span>
               <button onClick={resetAll} className="flex items-center gap-1 opacity-80 hover:opacity-100 transition-opacity">
                 <RotateCcw size={12} /> Đặt lại
