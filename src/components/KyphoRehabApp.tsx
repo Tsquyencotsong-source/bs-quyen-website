@@ -24,185 +24,166 @@ function Illu({ type }: { type: string }) {
     <svg viewBox="0 0 140 100" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">{children}</svg>
   );
   switch (type) {
-    case "ankle":
-      return svg(<>
-        <line x1="12" y1="86" x2="128" y2="86" stroke={GR} strokeWidth="3" {...s} />
-        <line x1="24" y1="72" x2="92" y2="72" stroke={N} strokeWidth="6" {...s} />
-        <circle cx="92" cy="72" r="4" fill={T} />
-        <line x1="92" y1="72" x2="104" y2="54" stroke={T} strokeWidth="6" {...s} />
-        <line x1="92" y1="72" x2="106" y2="80" stroke={T} strokeWidth="4" strokeDasharray="3 4" opacity="0.55" {...s} />
-        <path d="M114 56 A15 15 0 0 1 116 78" stroke={G} strokeWidth="3" {...s} />
-        <polyline points="110,57 115,53 118,58" stroke={G} strokeWidth="3" {...s} />
-        <polyline points="120,73 116,79 111,74" stroke={G} strokeWidth="3" {...s} />
-      </>);
-    case "breathing":
-      return svg(<>
-        <line x1="12" y1="92" x2="128" y2="92" stroke={GR} strokeWidth="3" {...s} />
-        <circle cx="56" cy="30" r="11" stroke={N} strokeWidth="4" {...s} />
-        <rect x="46" y="40" width="20" height="44" rx="9" stroke={N} strokeWidth="4" {...s} />
-        <path d="M48 66 q8 8 16 0" stroke={T} strokeWidth="4" {...s} />
-        <line x1="56" y1="20" x2="56" y2="8" stroke={G} strokeWidth="3" {...s} />
-        <polyline points="51,13 56,7 61,13" stroke={G} strokeWidth="3" {...s} />
-        <line x1="44" y1="62" x2="30" y2="62" stroke={G} strokeWidth="3" {...s} />
-        <polyline points="35,57 29,62 35,67" stroke={G} strokeWidth="3" {...s} />
-        <line x1="68" y1="62" x2="82" y2="62" stroke={G} strokeWidth="3" {...s} />
-        <polyline points="77,57 83,62 77,67" stroke={G} strokeWidth="3" {...s} />
-      </>);
-    case "quadGlute":
-      return svg(<>
-        <line x1="8" y1="84" x2="132" y2="84" stroke={GR} strokeWidth="3" {...s} />
-        <circle cx="20" cy="66" r="8" stroke={N} strokeWidth="4" {...s} />
-        <line x1="28" y1="66" x2="122" y2="66" stroke={N} strokeWidth="6" {...s} />
-        <line x1="78" y1="66" x2="112" y2="66" stroke={T} strokeWidth="6" {...s} />
-        <line x1="90" y1="58" x2="90" y2="52" stroke={G} strokeWidth="2.5" {...s} />
-        <line x1="100" y1="58" x2="100" y2="52" stroke={G} strokeWidth="2.5" {...s} />
-        <line x1="84" y1="58" x2="84" y2="53" stroke={G} strokeWidth="2.5" {...s} />
-      </>);
-    case "logroll":
-      return svg(<>
-        <circle cx="30" cy="52" r="9" stroke={N} strokeWidth="4" {...s} />
-        <rect x="40" y="42" width="44" height="20" rx="9" stroke={N} strokeWidth="4" {...s} />
-        <line x1="84" y1="47" x2="120" y2="44" stroke={N} strokeWidth="4" {...s} />
-        <line x1="84" y1="57" x2="120" y2="60" stroke={N} strokeWidth="4" {...s} />
-        <path d="M38 26 Q70 12 102 26" stroke={G} strokeWidth="3" {...s} />
-        <polyline points="96,20 103,25 97,31" stroke={G} strokeWidth="3" {...s} />
-      </>);
-    case "standSupport":
-      return svg(<>
-        <line x1="14" y1="92" x2="126" y2="92" stroke={GR} strokeWidth="3" {...s} />
-        <line x1="116" y1="22" x2="116" y2="92" stroke={N} strokeWidth="5" {...s} />
-        <line x1="108" y1="22" x2="124" y2="22" stroke={N} strokeWidth="4" {...s} />
-        <circle cx="48" cy="24" r="9" stroke={N} strokeWidth="4" {...s} />
-        <line x1="48" y1="33" x2="48" y2="62" stroke={N} strokeWidth="4" {...s} />
-        <line x1="48" y1="62" x2="38" y2="90" stroke={N} strokeWidth="4" {...s} />
-        <line x1="48" y1="62" x2="58" y2="90" stroke={N} strokeWidth="4" {...s} />
-        <line x1="48" y1="42" x2="110" y2="40" stroke={T} strokeWidth="4" {...s} />
-      </>);
-    case "walking":
-      return svg(<>
-        <line x1="14" y1="90" x2="126" y2="90" stroke={GR} strokeWidth="3" {...s} />
-        <circle cx="64" cy="22" r="9" stroke={N} strokeWidth="4" {...s} />
-        <line x1="64" y1="31" x2="59" y2="60" stroke={N} strokeWidth="4" {...s} />
-        <line x1="60" y1="60" x2="76" y2="88" stroke={T} strokeWidth="4" {...s} />
-        <line x1="60" y1="60" x2="44" y2="86" stroke={N} strokeWidth="4" {...s} />
-        <line x1="62" y1="40" x2="76" y2="52" stroke={N} strokeWidth="4" {...s} />
-        <line x1="62" y1="40" x2="48" y2="50" stroke={N} strokeWidth="4" {...s} />
-      </>);
-    case "brace":
-      return svg(<>
-        <line x1="8" y1="86" x2="132" y2="86" stroke={GR} strokeWidth="3" {...s} />
-        <circle cx="18" cy="70" r="8" stroke={N} strokeWidth="4" {...s} />
-        <line x1="26" y1="70" x2="60" y2="70" stroke={N} strokeWidth="5" {...s} />
-        <line x1="60" y1="70" x2="80" y2="50" stroke={N} strokeWidth="4" {...s} />
-        <line x1="80" y1="50" x2="84" y2="76" stroke={N} strokeWidth="4" {...s} />
-        <ellipse cx="48" cy="66" rx="11" ry="7" stroke={T} strokeWidth="4" {...s} />
-        <line x1="40" y1="58" x2="44" y2="62" stroke={G} strokeWidth="2.5" {...s} />
-        <line x1="56" y1="58" x2="52" y2="62" stroke={G} strokeWidth="2.5" {...s} />
-      </>);
-    case "scapular":
-      return svg(<>
-        <circle cx="60" cy="24" r="9" stroke={N} strokeWidth="4" {...s} />
-        <line x1="42" y1="42" x2="78" y2="42" stroke={N} strokeWidth="4" {...s} />
-        <line x1="60" y1="42" x2="60" y2="78" stroke={N} strokeWidth="4" {...s} />
-        <line x1="50" y1="46" x2="56" y2="54" stroke={T} strokeWidth="4" {...s} />
-        <line x1="70" y1="46" x2="64" y2="54" stroke={T} strokeWidth="4" {...s} />
-        <line x1="28" y1="42" x2="44" y2="42" stroke={G} strokeWidth="3" {...s} />
-        <polyline points="39,37 45,42 39,47" stroke={G} strokeWidth="3" {...s} />
-        <line x1="92" y1="42" x2="76" y2="42" stroke={G} strokeWidth="3" {...s} />
-        <polyline points="81,37 75,42 81,47" stroke={G} strokeWidth="3" {...s} />
-      </>);
-    case "limbRaise":
-      return svg(<>
-        <line x1="8" y1="86" x2="132" y2="86" stroke={GR} strokeWidth="3" {...s} />
-        <circle cx="18" cy="72" r="8" stroke={N} strokeWidth="4" {...s} />
-        <line x1="26" y1="72" x2="64" y2="72" stroke={N} strokeWidth="5" {...s} />
-        <line x1="64" y1="72" x2="102" y2="72" stroke={N} strokeWidth="5" {...s} />
-        <line x1="32" y1="72" x2="26" y2="50" stroke={T} strokeWidth="5" {...s} />
-        <line x1="64" y1="72" x2="94" y2="52" stroke={T} strokeWidth="5" {...s} />
-        <line x1="24" y1="46" x2="24" y2="38" stroke={G} strokeWidth="2.5" {...s} />
-        <polyline points="20,42 24,37 28,42" stroke={G} strokeWidth="2.5" {...s} />
-      </>);
-    case "balanceRail":
-      return svg(<>
-        <line x1="14" y1="92" x2="126" y2="92" stroke={GR} strokeWidth="3" {...s} />
-        <line x1="116" y1="22" x2="116" y2="92" stroke={N} strokeWidth="5" {...s} />
-        <line x1="108" y1="22" x2="124" y2="22" stroke={N} strokeWidth="4" {...s} />
-        <circle cx="48" cy="22" r="9" stroke={N} strokeWidth="4" {...s} />
-        <line x1="48" y1="31" x2="48" y2="58" stroke={N} strokeWidth="4" {...s} />
-        <line x1="48" y1="58" x2="46" y2="90" stroke={N} strokeWidth="4" {...s} />
-        <line x1="48" y1="58" x2="62" y2="68" stroke={T} strokeWidth="4" {...s} />
-        <line x1="62" y1="68" x2="58" y2="82" stroke={T} strokeWidth="4" {...s} />
-        <line x1="48" y1="40" x2="110" y2="40" stroke={T} strokeWidth="4" {...s} />
-      </>);
-    case "backExt":
-      return svg(<>
-        <line x1="8" y1="84" x2="132" y2="84" stroke={GR} strokeWidth="3" {...s} />
-        <circle cx="34" cy="56" r="9" stroke={N} strokeWidth="4" {...s} />
-        <path d="M52 66 L96 76 L124 78" stroke={N} strokeWidth="5" {...s} />
-        <path d="M52 66 L96 76" stroke={T} strokeWidth="5" {...s} />
-        <path d="M40 60 L34 47" stroke={N} strokeWidth="4" {...s} />
-        <line x1="52" y1="66" x2="60" y2="82" stroke={N} strokeWidth="4" {...s} />
-        <line x1="44" y1="40" x2="44" y2="28" stroke={G} strokeWidth="3" {...s} />
-        <polyline points="39,33 44,27 49,33" stroke={G} strokeWidth="3" {...s} />
-      </>);
-    case "bridge":
-      return svg(<>
-        <line x1="8" y1="88" x2="132" y2="88" stroke={GR} strokeWidth="3" {...s} />
-        <circle cx="16" cy="78" r="8" stroke={N} strokeWidth="4" {...s} />
-        <line x1="24" y1="78" x2="40" y2="78" stroke={N} strokeWidth="4" {...s} />
-        <path d="M40 78 L64 54" stroke={T} strokeWidth="6" {...s} />
-        <line x1="64" y1="54" x2="84" y2="60" stroke={N} strokeWidth="4" {...s} />
-        <line x1="84" y1="60" x2="86" y2="86" stroke={N} strokeWidth="4" {...s} />
-        <line x1="64" y1="44" x2="64" y2="32" stroke={G} strokeWidth="3" {...s} />
-        <polyline points="59,37 64,31 69,37" stroke={G} strokeWidth="3" {...s} />
-      </>);
-    case "chestStretch":
-      return svg(<>
-        <line x1="14" y1="92" x2="126" y2="92" stroke={GR} strokeWidth="3" {...s} />
-        <circle cx="60" cy="22" r="9" stroke={N} strokeWidth="4" {...s} />
-        <line x1="60" y1="31" x2="60" y2="64" stroke={N} strokeWidth="4" {...s} />
-        <line x1="60" y1="64" x2="52" y2="90" stroke={N} strokeWidth="4" {...s} />
-        <line x1="60" y1="64" x2="68" y2="90" stroke={N} strokeWidth="4" {...s} />
-        <line x1="60" y1="40" x2="42" y2="34" stroke={T} strokeWidth="4" {...s} />
-        <line x1="60" y1="40" x2="78" y2="34" stroke={T} strokeWidth="4" {...s} />
-        <line x1="44" y1="44" x2="32" y2="40" stroke={G} strokeWidth="3" {...s} />
-        <polyline points="38,37 31,40 36,46" stroke={G} strokeWidth="3" {...s} />
-        <line x1="76" y1="44" x2="88" y2="40" stroke={G} strokeWidth="3" {...s} />
-        <polyline points="82,37 89,40 84,46" stroke={G} strokeWidth="3" {...s} />
-      </>);
-    case "taichi":
-      return svg(<>
-        <line x1="14" y1="92" x2="126" y2="92" stroke={GR} strokeWidth="3" {...s} />
-        <circle cx="62" cy="22" r="9" stroke={N} strokeWidth="4" {...s} />
-        <line x1="62" y1="31" x2="62" y2="58" stroke={N} strokeWidth="4" {...s} />
-        <line x1="62" y1="58" x2="50" y2="90" stroke={N} strokeWidth="4" {...s} />
-        <line x1="62" y1="58" x2="76" y2="86" stroke={N} strokeWidth="4" {...s} />
-        <path d="M50 44 Q62 62 76 46" stroke={T} strokeWidth="4" {...s} />
-        <line x1="62" y1="40" x2="50" y2="44" stroke={N} strokeWidth="4" {...s} />
-        <line x1="62" y1="40" x2="76" y2="46" stroke={N} strokeWidth="4" {...s} />
-      </>);
-    case "homeSafety":
-      return svg(<>
-        <polyline points="22,48 70,18 118,48" stroke={N} strokeWidth="4" {...s} />
-        <path d="M34 48 V86 H106 V48" stroke={N} strokeWidth="4" {...s} />
-        <line x1="22" y1="86" x2="118" y2="86" stroke={GR} strokeWidth="3" {...s} />
-        <line x1="94" y1="56" x2="94" y2="76" stroke={T} strokeWidth="5" {...s} />
-        <line x1="89" y1="56" x2="99" y2="56" stroke={T} strokeWidth="3" {...s} />
-        <line x1="89" y1="76" x2="99" y2="76" stroke={T} strokeWidth="3" {...s} />
-        <rect x="44" y="79" width="30" height="6" rx="2" stroke={G} strokeWidth="3" {...s} />
-        <line x1="50" y1="82" x2="52" y2="82" stroke={G} strokeWidth="2" {...s} />
-      </>);
-    default:
-      return svg(<circle cx="70" cy="50" r="20" stroke={N} strokeWidth="4" {...s} />);
+    case "ankle": return svg(<>
+      <line x1="12" y1="86" x2="128" y2="86" stroke={GR} strokeWidth="3" {...s} />
+      <line x1="24" y1="72" x2="92" y2="72" stroke={N} strokeWidth="6" {...s} />
+      <circle cx="92" cy="72" r="4" fill={T} />
+      <line x1="92" y1="72" x2="104" y2="54" stroke={T} strokeWidth="6" {...s} />
+      <line x1="92" y1="72" x2="106" y2="80" stroke={T} strokeWidth="4" strokeDasharray="3 4" opacity="0.55" {...s} />
+      <path d="M114 56 A15 15 0 0 1 116 78" stroke={G} strokeWidth="3" {...s} />
+      <polyline points="110,57 115,53 118,58" stroke={G} strokeWidth="3" {...s} />
+      <polyline points="120,73 116,79 111,74" stroke={G} strokeWidth="3" {...s} />
+    </>);
+    case "breathing": return svg(<>
+      <line x1="12" y1="92" x2="128" y2="92" stroke={GR} strokeWidth="3" {...s} />
+      <circle cx="56" cy="30" r="11" stroke={N} strokeWidth="4" {...s} />
+      <rect x="46" y="40" width="20" height="44" rx="9" stroke={N} strokeWidth="4" {...s} />
+      <path d="M48 66 q8 8 16 0" stroke={T} strokeWidth="4" {...s} />
+      <line x1="56" y1="20" x2="56" y2="8" stroke={G} strokeWidth="3" {...s} />
+      <polyline points="51,13 56,7 61,13" stroke={G} strokeWidth="3" {...s} />
+      <line x1="44" y1="62" x2="30" y2="62" stroke={G} strokeWidth="3" {...s} />
+      <polyline points="35,57 29,62 35,67" stroke={G} strokeWidth="3" {...s} />
+      <line x1="68" y1="62" x2="82" y2="62" stroke={G} strokeWidth="3" {...s} />
+      <polyline points="77,57 83,62 77,67" stroke={G} strokeWidth="3" {...s} />
+    </>);
+    case "quadGlute": return svg(<>
+      <line x1="8" y1="84" x2="132" y2="84" stroke={GR} strokeWidth="3" {...s} />
+      <circle cx="20" cy="66" r="8" stroke={N} strokeWidth="4" {...s} />
+      <line x1="28" y1="66" x2="122" y2="66" stroke={N} strokeWidth="6" {...s} />
+      <line x1="78" y1="66" x2="112" y2="66" stroke={T} strokeWidth="6" {...s} />
+      <line x1="90" y1="58" x2="90" y2="52" stroke={G} strokeWidth="2.5" {...s} />
+      <line x1="100" y1="58" x2="100" y2="52" stroke={G} strokeWidth="2.5" {...s} />
+      <line x1="84" y1="58" x2="84" y2="53" stroke={G} strokeWidth="2.5" {...s} />
+    </>);
+    case "logroll": return svg(<>
+      <circle cx="30" cy="52" r="9" stroke={N} strokeWidth="4" {...s} />
+      <rect x="40" y="42" width="44" height="20" rx="9" stroke={N} strokeWidth="4" {...s} />
+      <line x1="84" y1="47" x2="120" y2="44" stroke={N} strokeWidth="4" {...s} />
+      <line x1="84" y1="57" x2="120" y2="60" stroke={N} strokeWidth="4" {...s} />
+      <path d="M38 26 Q70 12 102 26" stroke={G} strokeWidth="3" {...s} />
+      <polyline points="96,20 103,25 97,31" stroke={G} strokeWidth="3" {...s} />
+    </>);
+    case "standSupport": return svg(<>
+      <line x1="14" y1="92" x2="126" y2="92" stroke={GR} strokeWidth="3" {...s} />
+      <line x1="116" y1="22" x2="116" y2="92" stroke={N} strokeWidth="5" {...s} />
+      <line x1="108" y1="22" x2="124" y2="22" stroke={N} strokeWidth="4" {...s} />
+      <circle cx="48" cy="24" r="9" stroke={N} strokeWidth="4" {...s} />
+      <line x1="48" y1="33" x2="48" y2="62" stroke={N} strokeWidth="4" {...s} />
+      <line x1="48" y1="62" x2="38" y2="90" stroke={N} strokeWidth="4" {...s} />
+      <line x1="48" y1="62" x2="58" y2="90" stroke={N} strokeWidth="4" {...s} />
+      <line x1="48" y1="42" x2="110" y2="40" stroke={T} strokeWidth="4" {...s} />
+    </>);
+    case "walking": return svg(<>
+      <line x1="14" y1="90" x2="126" y2="90" stroke={GR} strokeWidth="3" {...s} />
+      <circle cx="64" cy="22" r="9" stroke={N} strokeWidth="4" {...s} />
+      <line x1="64" y1="31" x2="59" y2="60" stroke={N} strokeWidth="4" {...s} />
+      <line x1="60" y1="60" x2="76" y2="88" stroke={T} strokeWidth="4" {...s} />
+      <line x1="60" y1="60" x2="44" y2="86" stroke={N} strokeWidth="4" {...s} />
+      <line x1="62" y1="40" x2="76" y2="52" stroke={N} strokeWidth="4" {...s} />
+      <line x1="62" y1="40" x2="48" y2="50" stroke={N} strokeWidth="4" {...s} />
+    </>);
+    case "brace": return svg(<>
+      <line x1="8" y1="86" x2="132" y2="86" stroke={GR} strokeWidth="3" {...s} />
+      <circle cx="18" cy="70" r="8" stroke={N} strokeWidth="4" {...s} />
+      <line x1="26" y1="70" x2="60" y2="70" stroke={N} strokeWidth="5" {...s} />
+      <line x1="60" y1="70" x2="80" y2="50" stroke={N} strokeWidth="4" {...s} />
+      <line x1="80" y1="50" x2="84" y2="76" stroke={N} strokeWidth="4" {...s} />
+      <ellipse cx="48" cy="66" rx="11" ry="7" stroke={T} strokeWidth="4" {...s} />
+      <line x1="40" y1="58" x2="44" y2="62" stroke={G} strokeWidth="2.5" {...s} />
+      <line x1="56" y1="58" x2="52" y2="62" stroke={G} strokeWidth="2.5" {...s} />
+    </>);
+    case "scapular": return svg(<>
+      <circle cx="60" cy="24" r="9" stroke={N} strokeWidth="4" {...s} />
+      <line x1="42" y1="42" x2="78" y2="42" stroke={N} strokeWidth="4" {...s} />
+      <line x1="60" y1="42" x2="60" y2="78" stroke={N} strokeWidth="4" {...s} />
+      <line x1="50" y1="46" x2="56" y2="54" stroke={T} strokeWidth="4" {...s} />
+      <line x1="70" y1="46" x2="64" y2="54" stroke={T} strokeWidth="4" {...s} />
+      <line x1="28" y1="42" x2="44" y2="42" stroke={G} strokeWidth="3" {...s} />
+      <polyline points="39,37 45,42 39,47" stroke={G} strokeWidth="3" {...s} />
+      <line x1="92" y1="42" x2="76" y2="42" stroke={G} strokeWidth="3" {...s} />
+      <polyline points="81,37 75,42 81,47" stroke={G} strokeWidth="3" {...s} />
+    </>);
+    case "limbRaise": return svg(<>
+      <line x1="8" y1="86" x2="132" y2="86" stroke={GR} strokeWidth="3" {...s} />
+      <circle cx="18" cy="72" r="8" stroke={N} strokeWidth="4" {...s} />
+      <line x1="26" y1="72" x2="64" y2="72" stroke={N} strokeWidth="5" {...s} />
+      <line x1="64" y1="72" x2="102" y2="72" stroke={N} strokeWidth="5" {...s} />
+      <line x1="32" y1="72" x2="26" y2="50" stroke={T} strokeWidth="5" {...s} />
+      <line x1="64" y1="72" x2="94" y2="52" stroke={T} strokeWidth="5" {...s} />
+      <line x1="24" y1="46" x2="24" y2="38" stroke={G} strokeWidth="2.5" {...s} />
+      <polyline points="20,42 24,37 28,42" stroke={G} strokeWidth="2.5" {...s} />
+    </>);
+    case "balanceRail": return svg(<>
+      <line x1="14" y1="92" x2="126" y2="92" stroke={GR} strokeWidth="3" {...s} />
+      <line x1="116" y1="22" x2="116" y2="92" stroke={N} strokeWidth="5" {...s} />
+      <line x1="108" y1="22" x2="124" y2="22" stroke={N} strokeWidth="4" {...s} />
+      <circle cx="48" cy="22" r="9" stroke={N} strokeWidth="4" {...s} />
+      <line x1="48" y1="31" x2="48" y2="58" stroke={N} strokeWidth="4" {...s} />
+      <line x1="48" y1="58" x2="46" y2="90" stroke={N} strokeWidth="4" {...s} />
+      <line x1="48" y1="58" x2="62" y2="68" stroke={T} strokeWidth="4" {...s} />
+      <line x1="62" y1="68" x2="58" y2="82" stroke={T} strokeWidth="4" {...s} />
+      <line x1="48" y1="40" x2="110" y2="40" stroke={T} strokeWidth="4" {...s} />
+    </>);
+    case "backExt": return svg(<>
+      <line x1="8" y1="84" x2="132" y2="84" stroke={GR} strokeWidth="3" {...s} />
+      <circle cx="34" cy="56" r="9" stroke={N} strokeWidth="4" {...s} />
+      <path d="M52 66 L96 76 L124 78" stroke={N} strokeWidth="5" {...s} />
+      <path d="M52 66 L96 76" stroke={T} strokeWidth="5" {...s} />
+      <path d="M40 60 L34 47" stroke={N} strokeWidth="4" {...s} />
+      <line x1="52" y1="66" x2="60" y2="82" stroke={N} strokeWidth="4" {...s} />
+      <line x1="44" y1="40" x2="44" y2="28" stroke={G} strokeWidth="3" {...s} />
+      <polyline points="39,33 44,27 49,33" stroke={G} strokeWidth="3" {...s} />
+    </>);
+    case "bridge": return svg(<>
+      <line x1="8" y1="88" x2="132" y2="88" stroke={GR} strokeWidth="3" {...s} />
+      <circle cx="16" cy="78" r="8" stroke={N} strokeWidth="4" {...s} />
+      <line x1="24" y1="78" x2="40" y2="78" stroke={N} strokeWidth="4" {...s} />
+      <path d="M40 78 L64 54" stroke={T} strokeWidth="6" {...s} />
+      <line x1="64" y1="54" x2="84" y2="60" stroke={N} strokeWidth="4" {...s} />
+      <line x1="84" y1="60" x2="86" y2="86" stroke={N} strokeWidth="4" {...s} />
+      <line x1="64" y1="44" x2="64" y2="32" stroke={G} strokeWidth="3" {...s} />
+      <polyline points="59,37 64,31 69,37" stroke={G} strokeWidth="3" {...s} />
+    </>);
+    case "chestStretch": return svg(<>
+      <line x1="14" y1="92" x2="126" y2="92" stroke={GR} strokeWidth="3" {...s} />
+      <circle cx="60" cy="22" r="9" stroke={N} strokeWidth="4" {...s} />
+      <line x1="60" y1="31" x2="60" y2="64" stroke={N} strokeWidth="4" {...s} />
+      <line x1="60" y1="64" x2="52" y2="90" stroke={N} strokeWidth="4" {...s} />
+      <line x1="60" y1="64" x2="68" y2="90" stroke={N} strokeWidth="4" {...s} />
+      <line x1="60" y1="40" x2="42" y2="34" stroke={T} strokeWidth="4" {...s} />
+      <line x1="60" y1="40" x2="78" y2="34" stroke={T} strokeWidth="4" {...s} />
+      <line x1="44" y1="44" x2="32" y2="40" stroke={G} strokeWidth="3" {...s} />
+      <polyline points="38,37 31,40 36,46" stroke={G} strokeWidth="3" {...s} />
+      <line x1="76" y1="44" x2="88" y2="40" stroke={G} strokeWidth="3" {...s} />
+      <polyline points="82,37 89,40 84,46" stroke={G} strokeWidth="3" {...s} />
+    </>);
+    case "taichi": return svg(<>
+      <line x1="14" y1="92" x2="126" y2="92" stroke={GR} strokeWidth="3" {...s} />
+      <circle cx="62" cy="22" r="9" stroke={N} strokeWidth="4" {...s} />
+      <line x1="62" y1="31" x2="62" y2="58" stroke={N} strokeWidth="4" {...s} />
+      <line x1="62" y1="58" x2="50" y2="90" stroke={N} strokeWidth="4" {...s} />
+      <line x1="62" y1="58" x2="76" y2="86" stroke={N} strokeWidth="4" {...s} />
+      <path d="M50 44 Q62 62 76 46" stroke={T} strokeWidth="4" {...s} />
+      <line x1="62" y1="40" x2="50" y2="44" stroke={N} strokeWidth="4" {...s} />
+      <line x1="62" y1="40" x2="76" y2="46" stroke={N} strokeWidth="4" {...s} />
+    </>);
+    case "homeSafety": return svg(<>
+      <polyline points="22,48 70,18 118,48" stroke={N} strokeWidth="4" {...s} />
+      <path d="M34 48 V86 H106 V48" stroke={N} strokeWidth="4" {...s} />
+      <line x1="22" y1="86" x2="118" y2="86" stroke={GR} strokeWidth="3" {...s} />
+      <line x1="94" y1="56" x2="94" y2="76" stroke={T} strokeWidth="5" {...s} />
+      <line x1="89" y1="56" x2="99" y2="56" stroke={T} strokeWidth="3" {...s} />
+      <line x1="89" y1="76" x2="99" y2="76" stroke={T} strokeWidth="3" {...s} />
+      <rect x="44" y="79" width="30" height="6" rx="2" stroke={G} strokeWidth="3" {...s} />
+      <line x1="50" y1="82" x2="52" y2="82" stroke={G} strokeWidth="2" {...s} />
+    </>);
+    default: return svg(<circle cx="70" cy="50" r="20" stroke={N} strokeWidth="4" {...s} />);
   }
 }
 
 const PHASES = [
   {
-    id: "p1",
-    icon: HeartPulse,
-    range: "Ngày 0 – 7",
-    name: "Giai đoạn 1",
+    id: "p1", icon: HeartPulse, range: "Ngày 0 – 7", name: "Giai đoạn 1",
     title: "Cấp tính & vận động sớm",
     goal: "Kiểm soát đau, chống huyết khối, ngồi dậy – đi lại an toàn, học tư thế đúng.",
     exercises: [
@@ -217,10 +198,7 @@ const PHASES = [
     milestone: "Tự ngồi dậy và đi được vài bước trong phòng.",
   },
   {
-    id: "p2",
-    icon: Footprints,
-    range: "Tuần 2 – 4",
-    name: "Giai đoạn 2",
+    id: "p2", icon: Footprints, range: "Tuần 2 – 4", name: "Giai đoạn 2",
     title: "Phục hồi vận động",
     goal: "Đi lại độc lập, tăng dần quãng đường, giữ tư thế thẳng, khởi động cơ lõi nhẹ nhàng.",
     exercises: [
@@ -235,10 +213,7 @@ const PHASES = [
     milestone: "Đi bộ liên tục 15 phút, tự làm vệ sinh – sinh hoạt cơ bản.",
   },
   {
-    id: "p3",
-    icon: Activity,
-    range: "Tuần 5 – 8",
-    name: "Giai đoạn 3",
+    id: "p3", icon: Activity, range: "Tuần 5 – 8", name: "Giai đoạn 3",
     title: "Tăng cường & thăng bằng",
     goal: "Mạnh nhóm cơ duỗi lưng và cơ lõi, cải thiện thăng bằng — giảm nguy cơ ngã và gãy đốt sống mới.",
     exercises: [
@@ -253,10 +228,7 @@ const PHASES = [
     milestone: "Đi bộ 30 phút, thăng bằng tốt hơn rõ rệt.",
   },
   {
-    id: "p4",
-    icon: ShieldCheck,
-    range: "Tuần 9 – 12+",
-    name: "Giai đoạn 4",
+    id: "p4", icon: ShieldCheck, range: "Tuần 9 – 12+", name: "Giai đoạn 4",
     title: "Duy trì & phòng tái gãy",
     goal: "Giữ sức cơ và thăng bằng lâu dài, tuân thủ điều trị loãng xương, phòng ngã và gãy đốt sống mới.",
     exercises: [
@@ -310,15 +282,11 @@ export default function KyphoRehabApp() {
     persist(next);
   };
 
-  const resetAll = () => {
-    setDone({});
-    persist({});
-  };
+  const resetAll = () => { setDone({}); persist({}); };
 
   const allEx = PHASES.flatMap((p) => p.exercises.map((e) => e.id));
   const completed = allEx.filter((id) => done[id]).length;
   const pct = Math.round((completed / allEx.length) * 100);
-
   const phase = PHASES.find((p) => p.id === active)!;
   const PhaseIcon = phase.icon;
 
@@ -337,7 +305,7 @@ export default function KyphoRehabApp() {
             Hướng dẫn phục hồi từng giai đoạn cho người bệnh gãy xẹp đốt sống do loãng xương. Tập đúng cách quyết định khả năng đi lại và sự độc lập lâu dài.
           </p>
 
-          {/* Progress */}
+          {/* Progress — tất cả chữ màu vàng gold */}
           <div className="mt-5 rounded-xl p-4" style={{ background: "rgba(255,255,255,0.1)" }}>
             <div className="flex items-center justify-between text-sm mb-2">
               <span className="font-semibold" style={{ color: C.gold }}>Tiến độ hoàn thành bài tập</span>
@@ -348,7 +316,7 @@ export default function KyphoRehabApp() {
             </div>
             <div className="flex items-center justify-between mt-2.5 text-xs font-medium" style={{ color: C.gold }}>
               <span>{completed}/{allEx.length} bài tập đã đánh dấu</span>
-              <button onClick={resetAll} className="flex items-center gap-1 opacity-70 hover:opacity-100 transition-opacity">
+              <button onClick={resetAll} className="flex items-center gap-1 opacity-80 hover:opacity-100 transition-opacity">
                 <RotateCcw size={12} /> Đặt lại
               </button>
             </div>
@@ -382,15 +350,9 @@ export default function KyphoRehabApp() {
             const isAct = p.id === active;
             const pd = p.exercises.filter((e) => done[e.id]).length;
             return (
-              <button
-                key={p.id}
-                onClick={() => setActive(p.id)}
+              <button key={p.id} onClick={() => setActive(p.id)}
                 className="rounded-xl p-3 text-left border transition-all"
-                style={{
-                  background: isAct ? C.navy : "#fff",
-                  borderColor: isAct ? C.navy : "#e3e8ee",
-                  color: isAct ? "#fff" : C.text,
-                }}
+                style={{ background: isAct ? C.navy : "#fff", borderColor: isAct ? C.navy : "#e3e8ee", color: isAct ? "#fff" : C.text }}
               >
                 <Ic size={18} style={{ color: isAct ? C.gold : C.teal }} />
                 <div className="text-xs mt-2 opacity-80">{p.range}</div>
@@ -412,28 +374,22 @@ export default function KyphoRehabApp() {
               <h2 className="text-xl font-bold" style={{ color: C.navy }}>{phase.title}</h2>
             </div>
           </div>
-
           <div className="mt-3 text-sm rounded-xl p-3" style={{ background: C.tealSoft, color: C.navy }}>
             <span className="font-semibold">Mục tiêu: </span>{phase.goal}
           </div>
 
-          {/* Exercises */}
           <h3 className="font-semibold mt-5" style={{ color: C.navy }}>Bài tập (chạm để đánh dấu hoàn thành)</h3>
           <p className="text-xs mb-3 mt-0.5" style={{ color: C.sub }}>Hình minh họa mang tính sơ đồ; thực hiện theo hướng dẫn của bác sĩ / kỹ thuật viên.</p>
           <div className="space-y-2">
             {phase.exercises.map((e) => {
               const isDone = !!done[e.id];
               return (
-                <button
-                  key={e.id}
-                  onClick={() => toggle(e.id)}
+                <button key={e.id} onClick={() => toggle(e.id)}
                   className="w-full text-left rounded-xl p-3 border flex gap-3 items-stretch transition-all"
                   style={{ background: isDone ? C.tealSoft : "#fff", borderColor: isDone ? C.teal : "#e3e8ee" }}
                 >
-                  <div
-                    className="rounded-lg flex items-center justify-center p-1"
-                    style={{ width: 104, minWidth: 104, height: 80, background: isDone ? "#ffffff" : "#f3f6f9", border: `1px solid ${isDone ? C.teal : "#e3e8ee"}` }}
-                  >
+                  <div className="rounded-lg flex items-center justify-center p-1"
+                    style={{ width: 104, minWidth: 104, height: 80, background: isDone ? "#ffffff" : "#f3f6f9", border: `1px solid ${isDone ? C.teal : "#e3e8ee"}` }}>
                     <Illu type={e.img} />
                   </div>
                   <div className="flex-1">
@@ -451,7 +407,6 @@ export default function KyphoRehabApp() {
             })}
           </div>
 
-          {/* Do / Don't */}
           <div className="grid sm:grid-cols-2 gap-3 mt-5">
             <div className="rounded-xl p-3 border" style={{ borderColor: "#cfe8e2", background: "#f1faf8" }}>
               <div className="font-semibold text-sm mb-2" style={{ color: C.teal }}>✓ Nên làm</div>
