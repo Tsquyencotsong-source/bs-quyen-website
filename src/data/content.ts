@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "tu-tap-luyen-thoai-hoa-khop-goi",
+    title: "Thoái Hóa Khớp Gối: 7 Bài Tập Đơn Giản Tại Nhà Giúp Giảm Đau Và Đi Lại Tốt Hơn",
+    excerpt: "Không phải ngồi yên một chỗ — bài tập đúng cách mới là thuốc số 1 cho thoái hóa khớp gối. 7 bài tập đã được kiểm chứng khoa học, hướng dẫn từng bước, kèm lịch tập trong tuần — dành cho bất kỳ ai đang đau gối.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-06-01",
+  },
+  {
     slug: "phuc-hoi-sau-kyphoplasty-tap-luyen",
     title: "Tập Luyện Sau Bơm Xi Măng Kyphoplasty: Hướng Dẫn Phục Hồi Từng Tuần Cho Người Bệnh Xẹp Đốt Sống",
     excerpt: "Kyphoplasty giảm đau trong 24-72 giờ — nhưng phục hồi đúng cách mới quyết định chất lượng cuộc sống lâu dài. Hướng dẫn tập luyện theo từng tuần, từ bơm cổ chân trên giường bệnh đến đi bộ 30 phút mỗi ngày, dựa trên bằng chứng từ 12 thử nghiệm lâm sàng quốc tế.",
