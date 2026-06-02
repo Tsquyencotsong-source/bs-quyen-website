@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "thoai-hoa-khop-goi-dinh-nghia-nguyen-nhan-co-che",
+    title: "Thoái Hóa Khớp Gối: Hiểu Đúng Từ Định Nghĩa, Cơ Chế Đến Chẩn Đoán — Vì Sao Bệnh Lại Phổ Biến Và Nguy Hiểm Đến Vậy?",
+    excerpt: "34% người Việt trên 40 tuổi đã bị thoái hóa khớp gối mà nhiều người không biết. Bài viết giải thích đầy đủ từ định nghĩa, cơ chế phá hủy sụn từng bước, phân loại Kellgren-Lawrence đến triệu chứng nhận biết sớm và cách bác sĩ chẩn đoán — để bạn hiểu đúng thay vì 'sống chung với đau' một cách mù quáng.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-06-02",
+  },
+  {
     slug: "tu-tap-luyen-thoai-hoa-khop-goi",
     title: "Thoái Hóa Khớp Gối: 7 Bài Tập Đơn Giản Tại Nhà Giúp Giảm Đau Và Đi Lại Tốt Hơn",
     excerpt: "Không phải ngồi yên một chỗ — bài tập đúng cách mới là thuốc số 1 cho thoái hóa khớp gối. 7 bài tập đã được kiểm chứng khoa học, hướng dẫn từng bước, kèm lịch tập trong tuần — dành cho bất kỳ ai đang đau gối.",
