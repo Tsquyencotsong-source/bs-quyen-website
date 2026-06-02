@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "thoai-hoa-khop-goi-phuong-phap-dieu-tri",
+    title: "Thoái Hóa Khớp Gối: Toàn Bộ Phương Pháp Điều Trị Từ Tập Luyện Đến Phẫu Thuật — Chỉ Định, Hiệu Quả Và Biến Chứng Cần Biết",
+    excerpt: "Tập luyện giảm đau ngang NSAIDs. Tiêm corticosteroid chỉ hiệu quả 6 tuần. PRP kéo dài 6-12 tháng. Nội soi khớp đã bị loại khỏi guideline. Thay khớp toàn phần đạt 94% hài lòng. Bài viết tổng hợp toàn bộ bằng chứng khoa học mới nhất về từng phương pháp — để bạn và bác sĩ đưa ra quyết định điều trị đúng nhất.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-06-03",
+  },
+  {
     slug: "thoai-hoa-khop-goi-dinh-nghia-nguyen-nhan-co-che",
     title: "Thoái Hóa Khớp Gối: Hiểu Đúng Từ Định Nghĩa, Cơ Chế Đến Chẩn Đoán — Vì Sao Bệnh Lại Phổ Biến Và Nguy Hiểm Đến Vậy?",
     excerpt: "34% người Việt trên 40 tuổi đã bị thoái hóa khớp gối mà nhiều người không biết. Bài viết giải thích đầy đủ từ định nghĩa, cơ chế phá hủy sụn từng bước, phân loại Kellgren-Lawrence đến triệu chứng nhận biết sớm và cách bác sĩ chẩn đoán — để bạn hiểu đúng thay vì 'sống chung với đau' một cách mù quáng.",
