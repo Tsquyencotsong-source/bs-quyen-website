@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "thuc-pham-chuc-nang-thoai-hoa-khop-goi",
+    title: "Thực Phẩm Chức Năng Cho Thoái Hóa Khớp Gối: Bảng Xếp Hạng Theo Bằng Chứng Khoa Học 2025 — Cái Nào Thực Sự Có Ích, Cái Nào Là Tiền Ném Qua Cửa Sổ?",
+    excerpt: "Từ glucosamine đến boswellia, curcumin đến krill oil — meta-analysis 4.599 bệnh nhân năm 2025 xếp hạng rõ ràng cái nào hiệu quả nhất. Bác sĩ cột sống giải thích thẳng thắn: loại nào đáng tiền, liều bao nhiêu, dùng bao lâu, và ai không nên dùng.",
+    audience: "Cho bệnh nhân",
+    category: "Dinh dưỡng & Bổ sung",
+    date: "2026-06-04",
+  },
+  {
     slug: "thoai-hoa-khop-goi-phuong-phap-dieu-tri",
     title: "Thoái Hóa Khớp Gối: Toàn Bộ Phương Pháp Điều Trị Từ Tập Luyện Đến Phẫu Thuật — Chỉ Định, Hiệu Quả Và Biến Chứng Cần Biết",
     excerpt: "Tập luyện giảm đau ngang NSAIDs. Tiêm corticosteroid chỉ hiệu quả 6 tuần. PRP kéo dài 6-12 tháng. Nội soi khớp đã bị loại khỏi guideline. Thay khớp toàn phần đạt 94% hài lòng. Bài viết tổng hợp toàn bộ bằng chứng khoa học mới nhất về từng phương pháp — để bạn và bác sĩ đưa ra quyết định điều trị đúng nhất.",
