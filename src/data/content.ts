@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "boi-loi-cot-song-co-xuong-khop",
+    title: "Bơi Lội — 'Phòng Tập Lý Tưởng' Dưới Nước Cho Người Bệnh Cột Sống Và Cơ Xương Khớp: Khoa Học Nói Gì?",
+    excerpt: "Ngâm tới ngực, nước nâng đỡ 75% trọng lượng cơ thể, giải nén cột sống và khớp một cách tự nhiên. Từ đau lưng mạn, thoái hóa khớp gối - khớp háng đến đau cơ xơ hóa, bằng chứng khoa học cho thấy bơi giúp giảm đau và phục hồi vận động an toàn. Bác sĩ cột sống giải thích: bơi kiểu nào cho ai, sự thật về bơi và loãng xương, và ai cần thận trọng.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-06-05",
+  },
+  {
     slug: "thuc-pham-chuc-nang-thoai-hoa-khop-goi",
     title: "Thực Phẩm Chức Năng Cho Thoái Hóa Khớp Gối: Bảng Xếp Hạng Theo Bằng Chứng Khoa Học 2025 — Cái Nào Thực Sự Có Ích, Cái Nào Là Tiền Ném Qua Cửa Sổ?",
     excerpt: "Từ glucosamine đến boswellia, curcumin đến krill oil — meta-analysis 4.599 bệnh nhân năm 2025 xếp hạng rõ ràng cái nào hiệu quả nhất. Bác sĩ cột sống giải thích thẳng thắn: loại nào đáng tiền, liều bao nhiêu, dùng bao lâu, và ai không nên dùng.",

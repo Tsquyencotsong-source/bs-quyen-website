@@ -27,6 +27,63 @@ type Block =
 
 const ARTICLES: Record<string, Block[]> = {
 
+  "boi-loi-cot-song-co-xuong-khop": [
+    { type: "para", content: "Anh T., 42 tuổi, dân văn phòng, đến phòng khám với câu nói quen thuộc: 'Bác sĩ ơi, tôi đau lưng quanh năm, đi bộ thì đau gối, chạy bộ thì đau lưng hơn, tập gym thì sợ sai tư thế. Vậy tôi tập gì bây giờ?'. Tôi mỉm cười và hỏi lại một câu khiến anh bất ngờ: 'Anh biết bơi không?'. Với rất nhiều người mắc bệnh cột sống và cơ xương khớp, câu trả lời cho bài toán vận động lại nằm ngay dưới mặt nước." },
+    { type: "highlight", content: "Bơi lội là một trong số ít môn thể thao mà bạn có thể vận động toàn thân, rèn tim mạch, tăng sức cơ và sự dẻo dai mà gần như KHÔNG tạo áp lực đè nén lên cột sống và các khớp. Khi ngâm mình đến ngực, nước nâng đỡ khoảng 75% trọng lượng cơ thể; khi ngập đến cổ, con số này lên tới gần 90%. Đây chính là lý do khoa học khiến nước trở thành 'phòng tập lý tưởng' cho người đau lưng, thoái hóa khớp." },
+    { type: "heading", content: "Vì sao tập dưới nước lại đặc biệt đến vậy? Bốn 'phép màu vật lý'" },
+    { type: "para", content: "Nhiều người nghĩ bơi chỉ đơn giản là 'vận động cho khỏe'. Thực ra, môi trường nước tác động lên cơ thể qua bốn cơ chế vật lý rất rõ ràng, và chính bốn cơ chế này tạo nên giá trị điều trị mà các môn trên cạn khó có được." },
+    { type: "list", items: [
+      "Lực đẩy nổi (buoyancy): Nước đẩy cơ thể nổi lên, giảm mạnh trọng lực đè lên đĩa đệm, thân đốt sống và khớp. Khi ngâm tới ngực, tải nén lên cột sống thắt lưng giảm tới khoảng 75% — tạo hiệu ứng 'kéo giãn cột sống tự nhiên', giúp giải nén rễ thần kinh và đĩa đệm bị chèn ép.",
+      "Áp lực thủy tĩnh (hydrostatic pressure): Nước ép đều lên bề mặt cơ thể giúp cải thiện tuần hoàn, đẩy dịch giàu dinh dưỡng tới vùng tổn thương, giảm sưng nề và làm dịu cơn đau.",
+      "Lực cản của nước (resistance): Nước cản trở mọi hướng chuyển động, biến từng động tác thành bài tập tăng sức cơ nhẹ nhàng mà an toàn, không cần tạ, không gây giật cơ đột ngột.",
+      "Nhiệt độ ấm: Bể trị liệu thường giữ 32-36°C — hơi ấm làm giãn cơ, giảm co cứng và giảm cảm giác đau, giúp người bệnh vận động dễ dàng hơn.",
+    ]},
+    { type: "heading", content: "Đau lưng mạn tính: nước nói gì qua các nghiên cứu?" },
+    { type: "para", content: "Đau thắt lưng mạn tính là một trong những lý do hàng đầu khiến người ta phải nghỉ việc và giảm chất lượng sống. Tin tốt: ngày càng nhiều bằng chứng cho thấy tập luyện dưới nước thực sự giúp ích." },
+    { type: "list", items: [
+      "Một thử nghiệm lâm sàng ngẫu nhiên đăng trên JAMA Network Open (2022) so sánh tập trị liệu dưới nước với các phương pháp vật lý trị liệu thông thường ở bệnh nhân đau thắt lưng mạn: nhóm tập dưới nước giảm đau và cải thiện chức năng vận động rõ rệt hơn, hiệu quả còn duy trì sau nhiều tháng theo dõi.",
+      "Tổng quan hệ thống và phân tích gộp (meta-analysis) nhiều nghiên cứu kết luận: tập trị liệu dưới nước giúp giảm cường độ đau và cải thiện chức năng ở người đau thắt lưng mạn, và quan trọng là không nghiên cứu nào ghi nhận tác dụng xấu lên cột sống.",
+      "Một thử nghiệm năm 2025 đăng trên Scientific Reports còn cho thấy tập dưới nước cải thiện cả hình thái và chức năng nhóm cơ cạnh sống (paraspinal) — chính là nhóm cơ giữ vững cột sống mà người đau lưng mạn thường bị yếu đi.",
+      "Với phụ nữ mang thai bị đau lưng — nhóm rất khó tập trên cạn — tập dưới nước được chứng minh an toàn và giúp giảm đau hiệu quả.",
+    ]},
+    { type: "note", content: "Cần trung thực: một số tổng quan ghi nhận bơi không vượt trội hẳn so với đi bộ hay các bài tập trên cạn khác, và còn thiếu các thử nghiệm quy mô lớn chuyên về bơi. Thông điệp đúng là: bơi hiệu quả tương đương các hình thức vận động tốt khác, nhưng lại nhẹ nhàng và an toàn hơn nhiều cho người không chịu được tải trọng trên cạn." },
+    { type: "heading", content: "Thoái hóa khớp gối và khớp háng: bằng chứng mạnh từ Cochrane" },
+    { type: "para", content: "Đây là lĩnh vực mà bằng chứng khoa học thuyết phục nhất. Người thoái hóa khớp gối, khớp háng thường rơi vào vòng luẩn quẩn: đau nên ngại vận động, ít vận động nên cơ yếu, cơ yếu thì khớp càng đau. Nước giúp phá vỡ vòng luẩn quẩn này." },
+    { type: "list", items: [
+      "Tổng quan Cochrane (phân tích gộp 13 thử nghiệm ngẫu nhiên, 1.190 bệnh nhân) kết luận: tập dưới nước có bằng chứng mức độ trung bình giúp giảm đau, giảm hạn chế vận động và cải thiện chất lượng cuộc sống trong ngắn hạn ở người thoái hóa khớp gối và khớp háng.",
+      "Một thử nghiệm ngẫu nhiên (71 người) cho thấy vật lý trị liệu dưới nước giúp giảm đau, giảm cứng khớp, tăng chức năng vận động, cải thiện chất lượng sống và tăng cả sức cơ vùng háng.",
+      "Ở người cao tuổi thoái hóa khớp gối, các thử nghiệm ghi nhận điểm đau giảm có ý nghĩa thống kê sau chương trình tập dưới nước — đặc biệt phù hợp với nhóm khó tập trên cạn vì cân nặng hoặc đau nhiều.",
+    ]},
+    { type: "heading", content: "Đau cơ xơ hóa (fibromyalgia): khi nước làm dịu cả cơ thể lẫn tinh thần" },
+    { type: "para", content: "Đau cơ xơ hóa là hội chứng đau lan tỏa toàn thân kèm mệt mỏi, rối loạn giấc ngủ, khó tập luyện. Đây lại là một 'điểm sáng' của tập dưới nước. Các tổng quan hệ thống cho thấy tập dưới nước cải thiện rõ rệt mức độ đau (mức cải thiện mạnh, SMD khoảng -0,92), đồng thời giảm mệt mỏi, cải thiện chức năng vận động, giảm trầm cảm và nâng cao chất lượng cuộc sống. Nước ấm và lực nâng giúp người bệnh vận động được mà không làm bùng phát cơn đau — điều rất khó đạt được trên cạn." },
+    { type: "heading", content: "Bơi và xương: sự thật cần nói thẳng về loãng xương" },
+    { type: "para", content: "Đây là điểm dễ hiểu lầm nhất, và với vai trò một bác sĩ chuyên về cột sống và loãng xương, tôi muốn nói thật rõ. Xương chắc khỏe lên nhờ chịu lực — tức là nhờ các bài tập có trọng lực như đi bộ, chạy nhẹ, nâng tạ. Bơi diễn ra trong môi trường gần như không trọng lực, nên KHÔNG phải là bài tập tốt nhất để tăng mật độ xương." },
+    { type: "warning", content: "Nếu bạn bị loãng xương và mục tiêu chính là TĂNG mật độ xương, bơi đơn thuần là chưa đủ. Cần kết hợp thêm bài tập chịu lực (đi bộ, tập kháng lực) và bổ sung canxi, vitamin D theo chỉ định. Đừng bơi thay thế hoàn toàn cho vận động trên cạn nếu bạn đang điều trị loãng xương." },
+    { type: "para", content: "Tuy nhiên, bơi vẫn có giá trị gián tiếp với người loãng xương: một số nghiên cứu ghi nhận người bơi đều 3-6 giờ mỗi tuần có mật độ xương cột sống thắt lưng tốt hơn người không bơi, đặc biệt ở phụ nữ sau mãn kinh. Quan trọng hơn, bơi giúp tăng sức cơ, cải thiện thăng bằng và phối hợp — qua đó giảm nguy cơ té ngã, mà phần lớn gãy xương ở người loãng xương lại xảy ra do té ngã. Nói cách khác: bơi không trực tiếp 'xây xương', nhưng giúp bạn ít gãy xương hơn." },
+    { type: "heading", content: "Bơi kiểu nào cho ai? Chọn đúng kiểu bơi rất quan trọng" },
+    { type: "para", content: "Không phải kiểu bơi nào cũng phù hợp với mọi bệnh lý cột sống. Chọn sai kiểu bơi có thể làm đau nặng thêm, đặc biệt với người đau cổ hoặc hẹp ống sống." },
+    { type: "list", items: [
+      "Bơi ngửa: Thân thiện nhất với cột sống. Giữ lưng thẳng tự nhiên, không phải ngửa cổ, ít gây ưỡn lưng. Lựa chọn hàng đầu cho người đau thắt lưng và đau cổ.",
+      "Bơi sải (trườn sấp): Tốt cho thể lực, nhưng cần học cách thở nghiêng bằng cách xoay cả thân mình thay vì chỉ vặn cổ, để tránh căng cổ vai gáy.",
+      "Bơi ếch: Nhiều người thích vì nhẹ nhàng, nhưng động tác ngẩng đầu và ưỡn lưng có thể làm nặng thêm tình trạng đau cổ, hẹp ống sống hay thoái hóa cột sống. Người có các bệnh này nên hạn chế hoặc tập dưới hướng dẫn.",
+      "Đi bộ và tập dưới nước (aquatic therapy): Nếu bạn chưa biết bơi, chỉ cần đi bộ, tập các động tác nhẹ trong nước ngang ngực cũng đã mang lại phần lớn lợi ích — không nhất thiết phải biết bơi giỏi.",
+    ]},
+    { type: "note", content: "Bạn KHÔNG cần phải là vận động viên. Phần lớn lợi ích đến từ việc vận động đều đặn trong nước, dù chỉ là đi bộ dưới nước hay những động tác tay chân đơn giản. Mục tiêu khả thi: 2-3 buổi mỗi tuần, mỗi buổi 30-45 phút." },
+    { type: "heading", content: "Ai cần thận trọng hoặc hỏi ý kiến bác sĩ trước khi bơi?" },
+    { type: "warning", content: "Hãy hỏi ý kiến bác sĩ trước khi bắt đầu nếu bạn: đang đau cấp dữ dội hoặc có dấu hiệu thần kinh (tê, yếu chân, rối loạn tiểu tiện); mới phẫu thuật cột sống chưa lành; có vết thương hở, nhiễm trùng da; mắc bệnh tim mạch nặng, động kinh chưa kiểm soát; hoặc chóng mặt, dễ ngất. Bơi rất an toàn, nhưng an toàn nhất khi được 'kê đơn' đúng với tình trạng của bạn." },
+    { type: "heading", content: "Lời khuyên thực hành để bơi thật sự có lợi" },
+    { type: "list", items: [
+      "Khởi động kỹ trên cạn 5-10 phút trước khi xuống nước để làm nóng cơ và khớp.",
+      "Bắt đầu chậm: tuần đầu chỉ 15-20 phút, tăng dần theo sức chịu đựng, không gắng sức gây đau.",
+      "Ưu tiên bể nước ấm (28-34°C) nếu bạn đau khớp hoặc đau cơ xơ hóa.",
+      "Lắng nghe cơ thể: đau tăng lên trong và sau khi bơi là tín hiệu cần điều chỉnh kiểu bơi hoặc cường độ, không phải cố chịu.",
+      "Kết hợp đa dạng: với người loãng xương, xen kẽ bơi với đi bộ và bài tập kháng lực nhẹ để vừa khỏe cơ, vừa chắc xương.",
+      "Kiên trì: lợi ích về giảm đau và chức năng thường rõ sau 4-8 tuần tập đều đặn, không phải sau một vài buổi.",
+    ]},
+    { type: "para", content: "Quay lại câu chuyện của anh T. dân văn phòng. Ba tháng sau khi bắt đầu bơi ngửa hai buổi mỗi tuần, anh nhắn tin cho tôi: lưng đỡ đau hẳn, ngủ ngon hơn, và lần đầu sau nhiều năm anh thấy mình 'vận động mà không sợ đau'. Đó chính là giá trị lớn nhất của nước: nó cho phép người bệnh cột sống và cơ xương khớp vận động trở lại một cách an toàn, để rồi từ đó cơ thể tự phục hồi. Nước không phải thuốc tiên, nhưng với rất nhiều bệnh nhân, nó là con đường nhẹ nhàng nhất để quay về với vận động — và vận động đúng cách luôn là một trong những 'liều thuốc' tốt nhất cho xương khớp." },
+    { type: "note", content: "Bài viết mang tính cung cấp thông tin và giáo dục sức khỏe, không thay thế cho thăm khám và tư vấn trực tiếp. Mỗi người có tình trạng bệnh lý khác nhau — hãy trao đổi với bác sĩ để có chương trình tập luyện phù hợp và an toàn nhất với riêng bạn." },
+  ],
+
   "thuc-pham-chuc-nang-thoai-hoa-khop-goi": [
     { type: "para", content: "Bà N.T.H., 58 tuổi, mở chiếc hộp to bày lên bàn khám: glucosamine từ Mỹ, collagen từ Nhật, curcumin từ Ấn Độ, canxi từ Úc, và thêm một lọ 'sụn cá mập' từ không biết đâu. Tổng chi phí mỗi tháng: hơn 3 triệu đồng. 'Bác sĩ ơi, tôi uống đủ thứ mà sao vẫn đau?' Đây là câu chuyện tôi gặp mỗi tuần tại phòng khám — và câu trả lời đòi hỏi phải nói thật, dù thật không phải lúc nào cũng dễ nghe." },
     { type: "highlight", content: "Thị trường thực phẩm chức năng khớp gối tại Việt Nam trị giá hàng nghìn tỷ đồng mỗi năm. Nhưng bằng chứng khoa học thực sự về hiệu quả của từng loại rất khác nhau — từ 'có ích thực sự' đến 'không có bằng chứng' và thậm chí 'có thể có hại'. Bài viết này giúp bạn phân biệt rõ ràng." },
