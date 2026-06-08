@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dinh-duong-thoai-hoa-khop-goi",
+    title: "Dinh Dưỡng Cho Người Thoái Hóa Khớp Gối: Ăn Gì Để Khớp Khỏe, Tránh Gì Để Không Đau Thêm — Bằng Chứng Khoa Học 2025",
+    excerpt: "Những gì bạn ăn mỗi ngày có thể âm thầm làm khớp gối viêm và thoái hóa nhanh hơn — hoặc ngược lại, giúp giảm đau và làm chậm quá trình phá hủy sụn. Từ chế độ ăn Địa Trung Hải, omega-3, collagen thủy phân đến curcumin chuẩn hóa: bác sĩ cột sống tổng hợp bằng chứng mới nhất 2025 và hướng dẫn thực hành cụ thể cho bệnh nhân Việt Nam.",
+    audience: "Cho bệnh nhân",
+    category: "Dinh dưỡng & Bổ sung",
+    date: "2026-06-08",
+  },
+  {
     slug: "boi-loi-cot-song-co-xuong-khop",
     title: "Bơi Lội — 'Phòng Tập Lý Tưởng' Dưới Nước Cho Người Bệnh Cột Sống Và Cơ Xương Khớp: Khoa Học Nói Gì?",
     excerpt: "Ngâm tới ngực, nước nâng đỡ 75% trọng lượng cơ thể, giải nén cột sống và khớp một cách tự nhiên. Từ đau lưng mạn, thoái hóa khớp gối - khớp háng đến đau cơ xơ hóa, bằng chứng khoa học cho thấy bơi giúp giảm đau và phục hồi vận động an toàn. Bác sĩ cột sống giải thích: bơi kiểu nào cho ai, sự thật về bơi và loãng xương, và ai cần thận trọng.",
