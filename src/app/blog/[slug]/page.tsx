@@ -27,6 +27,66 @@ type Block =
 
 const ARTICLES: Record<string, Block[]> = {
 
+  "hut-thuoc-la-cot-song-co-xuong-khop": [
+    { type: "para", content: "Ông T., 55 tuổi, đến khám vì đau lưng dữ dội lan xuống chân đã 2 năm. Phim MRI cho thấy thoát vị đĩa đệm thắt lưng nặng, đĩa đệm đen xỉn — dấu hiệu thoái hóa sớm bất thường với người chưa đến 60. Tôi hỏi: 'Anh hút thuốc bao lâu rồi?'. Ông nhìn tôi ngạc nhiên: '30 năm, nhưng thuốc lá liên quan gì đến lưng hả bác sĩ?'. Câu trả lời tôi đưa ra hôm đó đã khiến ông quyết định bỏ thuốc ngay tại phòng khám. Và câu trả lời đó — chính là nội dung bài viết này." },
+    { type: "highlight", content: "Hầu hết mọi người biết thuốc lá gây ung thư phổi, bệnh tim mạch. Nhưng rất ít người biết: thuốc lá đang phá hủy cột sống, xương khớp và sụn khớp của bạn từng ngày một — âm thầm, chắc chắn, và không thể đảo ngược nếu cứ để mặc. Đây là sự thật mà phần lớn bệnh nhân chỉ biết khi đã quá muộn." },
+    { type: "heading", content: "Cơ chế phá hủy: thuốc lá làm gì với cột sống và khớp của bạn?" },
+    { type: "para", content: "Đĩa đệm cột sống là cấu trúc đặc biệt — không có mạch máu trực tiếp nuôi dưỡng. Thay vào đó, chúng sống nhờ khuếch tán dưỡng chất từ các mạch máu nhỏ li ti ở xương đốt sống xung quanh. Đây chính là điểm yếu chết người khi bạn hút thuốc." },
+    { type: "list", items: [
+      "Nicotine co mạch máu mạnh: làm hẹp và giảm lưu lượng máu đến các mạch nuôi đĩa đệm — tương tự như tắt vòi nước dẫn vào ruộng. Đĩa đệm dần bị 'chết đói'.",
+      "CO (carbon monoxide) trong khói thuốc chiếm chỗ oxy trên hemoglobin: máu mang oxy đến đĩa đệm đã ít, nay lại càng ít hơn. Nghiên cứu PLOS ONE cho thấy nồng độ oxy trong đĩa đệm người hút thuốc thấp hơn rõ rệt so với người không hút.",
+      "Tế bào sụn đĩa đệm (nucleus pulposus cells) bị nicotine ức chế tổng hợp proteoglycan và GAG (glycosaminoglycan) — chất giữ nước giúp đĩa đệm đàn hồi. Một thí nghiệm kinh điển ghi nhận nồng độ GAG ở đĩa đệm giảm tới 65% dưới tác dụng của nicotine.",
+      "Collagen bị phá hủy nhanh hơn: thuốc lá tăng hoạt tính enzyme MMP (matrix metalloproteinase) — men phân hủy collagen — đồng thời giảm tổng hợp collagen mới. Kết quả: vòng xơ của đĩa đệm yếu dần, rách và thoát vị sớm hơn nhiều năm so với người không hút.",
+    ]},
+    { type: "para", content: "Tổng quan hệ thống đăng trên Journal of Orthopaedics (2022) phân tích hàng chục nghiên cứu kết luận: hút thuốc là yếu tố nguy cơ độc lập cho thoái hóa cột sống thắt lưng và cột sống cổ. Người hút thuốc có nguy cơ thoát vị đĩa đệm cao hơn người không hút, và đĩa đệm thoái hóa sớm hơn trung bình 10-15 năm." },
+    { type: "heading", content: "Xương loãng hơn, gãy dễ hơn, lành chậm hơn" },
+    { type: "para", content: "Không chỉ đĩa đệm, thuốc lá tấn công trực tiếp vào xương theo nhiều đường khác nhau. Người hút thuốc lâu năm có mật độ xương thấp hơn rõ rệt — và điều này đã được chứng minh qua nhiều cơ chế sinh lý cụ thể:" },
+    { type: "list", items: [
+      "Nicotine ức chế trực tiếp tế bào tạo xương (osteoblast): tế bào chịu trách nhiệm xây dựng xương mới bị 'đóng băng' hoạt động. Trong khi đó, tế bào hủy xương (osteoclast) lại hoạt động mạnh hơn — xương bị phá nhiều hơn xây.",
+      "Thuốc lá giảm hấp thu Canxi ở ruột và tăng thải canxi qua thận: 'tháo xương' từ hai phía cùng lúc.",
+      "Ức chế chuyển hóa Vitamin D: gan và thận bị ảnh hưởng bởi độc chất thuốc lá làm giảm hoạt hóa vitamin D — hậu quả kép vì vitamin D vừa cần cho hấp thu canxi vừa bảo vệ sụn khớp.",
+      "Giảm estrogen ở phụ nữ: hút thuốc đẩy nhanh mãn kinh sớm hơn 1-2 năm và làm giảm nồng độ estrogen — hormone quan trọng bảo vệ xương. Phụ nữ hút thuốc có nguy cơ loãng xương và gãy xương hông cao hơn đáng kể.",
+    ]},
+    { type: "warning", content: "Khi bạn đã bị gãy xương hoặc phẫu thuật cột sống/khớp — hút thuốc còn nguy hiểm hơn nữa. Nghiên cứu trên tạp chí Orthopedics ghi nhận: người hút thuốc sau phẫu thuật cột sống có tỷ lệ liền xương (bone fusion) thấp hơn 2 lần, biến chứng nhiễm trùng vết mổ cao hơn 4 lần, và thời gian hồi phục kéo dài hơn trung bình 6-8 tuần so với người không hút. Đó là lý do các phẫu thuật viên cột sống yêu cầu bệnh nhân cai thuốc ít nhất 6-8 tuần trước mổ." },
+    { type: "heading", content: "Khớp gối, khớp háng và toàn bộ cơ xương khớp đều bị vạ lây" },
+    { type: "para", content: "Tác hại của thuốc lá không dừng lại ở cột sống. Tổng quan hệ thống trên European Journal of Preventive Cardiology (2018, hơn 700.000 đối tượng) cho thấy thuốc lá liên quan đến toàn bộ hệ cơ xương khớp theo nhiều chiều:" },
+    { type: "list", items: [
+      "Thoái hóa khớp gối và khớp háng: thuốc lá tăng cytokine viêm IL-6, TNF-α trong dịch khớp, đẩy nhanh phá hủy sụn. Người hút thuốc lâu năm có sụn khớp gối mỏng hơn trên MRI.",
+      "Viêm khớp dạng thấp (Rheumatoid Arthritis): đây là mối liên hệ được nghiên cứu nhiều nhất. Hút thuốc tăng nguy cơ mắc RA lên 1.5-2 lần; ở người đã mắc RA, hút thuốc làm bệnh nặng hơn, kém đáp ứng thuốc điều trị (methotrexate, anti-TNF) và phá hủy khớp nhanh hơn.",
+      "Dây chằng và gân cơ: sau tái tạo dây chằng chéo trước (ACL) — phẫu thuật thể thao phổ biến — người hút thuốc có tỷ lệ thất bại cao hơn và phục hồi chậm hơn rõ rệt. Tương tự với sửa chữa gân cơ chóp xoay vai.",
+      "Đau mạn tính: nicotine làm thay đổi cách não xử lý tín hiệu đau — nghịch lý thay, dù ban đầu có cảm giác giảm đau thoáng qua, về lâu dài người nghiện thuốc có ngưỡng đau thấp hơn và nhạy cảm hơn với đau mạn tính.",
+    ]},
+    { type: "heading", content: "Hút thuốc thụ động: 'kẻ thứ ba' trong phòng ngủ của bạn" },
+    { type: "para", content: "Nhiều người nghĩ: 'Tôi không hút, nhà có người hút ngoài ban công thì ăn nhằm gì'. Khoa học nói khác. Khói thuốc thụ động (secondhand smoke) chứa hơn 7.000 hóa chất độc hại — trong đó hơn 70 chất gây ung thư — và không có ngưỡng an toàn." },
+    { type: "list", items: [
+      "Một nghiên cứu 2025 phân tích dữ liệu NHANES (Mỹ) xác nhận: phụ nữ sau mãn kinh tiếp xúc thường xuyên với khói thuốc thụ động có nguy cơ loãng xương cao hơn đáng kể so với nhóm không tiếp xúc.",
+      "Trẻ em sống trong nhà có người hút thuốc: nghiên cứu từ Phần Lan theo dõi suốt 30 năm cho thấy trẻ tiếp xúc nhiều khói thuốc thụ động thời thơ ấu có mật độ xương thấp hơn khi trưởng thành và nguy cơ gãy xương cao hơn.",
+      "Viêm khớp dạng thấp: tiếp xúc khói thuốc thụ động kéo dài liên quan đến tăng nguy cơ mắc RA và làm giảm đáp ứng điều trị. Nghiên cứu PMC (2021) kết luận: không có mức độ tiếp xúc nào là 'an toàn' với khói thuốc và sức khỏe khớp.",
+      "Ô nhiễm không khí trong nhà: khói thuốc còn bám vào tường, đồ nội thất, quần áo — được gọi là 'thirdhand smoke' — và tiếp tục phát tán độc chất trong nhiều giờ, thậm chí nhiều ngày sau khi điếu thuốc đã tắt.",
+    ]},
+    { type: "note", content: "Không có kiểu hút thuốc nào 'an toàn' hơn cho xương khớp: thuốc lá điện tử (e-cigarette) chứa nicotine cũng co mạch và ức chế tế bào tạo xương. Shisha (hookah) chứa lượng CO cao gấp nhiều lần thuốc lá thông thường. Không có lối tắt — muốn bảo vệ cột sống và khớp, cần bỏ tất cả." },
+    { type: "heading", content: "Tin tốt: bỏ thuốc, cơ thể tự hồi phục" },
+    { type: "para", content: "Nếu bạn đọc đến đây và cảm thấy nặng nề vì đã hút thuốc nhiều năm — có một tin tốt thực sự: cơ thể có khả năng hồi phục đáng kinh ngạc khi bạn ngừng đưa độc chất vào." },
+    { type: "list", items: [
+      "Sau 20 phút bỏ thuốc: mạch máu bắt đầu giãn, tuần hoàn cải thiện — máu nuôi đĩa đệm và xương khớp bắt đầu tốt hơn.",
+      "Sau 1-3 tháng: lưu lượng máu đến xương và đĩa đệm phục hồi rõ rệt. Nồng độ CO trong máu trở về bình thường, oxy đến mô xương khớp tăng.",
+      "Sau 1 năm: mật độ xương bắt đầu cải thiện — đặc biệt rõ ở người dưới 50 tuổi. Khả năng liền xương sau phẫu thuật gần bằng người không hút.",
+      "Sau 5-10 năm: nguy cơ gãy xương hông giảm dần về gần mức người không hút (mặc dù không hoàn toàn phục hồi 100% nếu đã hút nhiều năm).",
+    ]},
+    { type: "para", content: "Nghiên cứu về hút thuốc và bệnh cột sống nhấn mạnh: bỏ thuốc trước phẫu thuật cột sống ít nhất 6-8 tuần có thể cải thiện đáng kể tỷ lệ thành công phẫu thuật, giảm biến chứng và rút ngắn thời gian nằm viện. Đây không phải khuyến cáo tùy chọn — đó là điều kiện cần thiết để phẫu thuật an toàn." },
+    { type: "heading", content: "Nếu trong nhà có người hút thuốc — bạn cần làm gì ngay bây giờ?" },
+    { type: "list", items: [
+      "Yêu cầu hút thuốc hoàn toàn ra ngoài nhà — không phải trong phòng khác, không phải 'mở cửa sổ'. Khói thuốc lan khắp nhà trong vài phút.",
+      "Không để trẻ em, phụ nữ mang thai và người cao tuổi (xương đang yếu dần) ở trong phòng vừa có người hút thuốc — ngay cả khi thuốc đã tắt.",
+      "Nếu bạn là người hút: hãy coi đây là 'deadline sức khỏe xương khớp', không kém khẩn cấp gì so với tim mạch hay ung thư. Nhờ bác sĩ tư vấn liệu pháp thay thế nicotine (miếng dán, kẹo cao su nicotine) hoặc thuốc hỗ trợ bỏ thuốc.",
+      "Đo mật độ xương (DXA): nếu bạn là người hút thuốc trên 40 tuổi hoặc đã hút nhiều năm, hỏi bác sĩ về chỉ định đo DXA để phát hiện loãng xương sớm trước khi gãy xương xảy ra.",
+    ]},
+    { type: "heading", content: "Một điếu thuốc — bao nhiêu tổn hại cho xương khớp?" },
+    { type: "para", content: "Để hình dung rõ hơn: mỗi điếu thuốc bạn hút đồng nghĩa với nicotine co thắt các mạch máu li ti nuôi đĩa đệm trong 20-40 phút liên tục. Nếu bạn hút 1 gói mỗi ngày (20 điếu), gần như suốt ngày đĩa đệm cột sống của bạn đang trong tình trạng thiếu dưỡng chất. Sau 20-30 năm, hậu quả là những đĩa đệm đen xỉn, xẹp lép, rách và thoát vị — đúng như những gì tôi thấy trên phim MRI của ông T. buổi sáng hôm đó." },
+    { type: "highlight", content: "Thuốc lá không chỉ 'đen phổi' — nó còn đang 'đen đĩa đệm', 'rỗng xương', 'mòn sụn' và 'phá khớp' của bạn từng ngày. Và điều đau lòng nhất: tổn thương này diễn ra âm thầm trong nhiều thập kỷ trước khi bạn cảm thấy đau. Đến khi đau — thường đã muộn để đảo ngược hoàn toàn. Bỏ thuốc là quyết định sức khỏe cột sống và xương khớp tốt nhất bạn có thể làm ngay hôm nay — bất kể bạn đã hút bao nhiêu năm." },
+    { type: "note", content: "Bài viết tổng hợp bằng chứng từ các nghiên cứu và tổng quan hệ thống quốc tế, mang mục đích giáo dục sức khỏe cộng đồng. Nếu bạn hoặc người thân muốn bỏ thuốc lá, hãy trao đổi với bác sĩ để được hỗ trợ cai nghiện hiệu quả và an toàn nhất." },
+  ],
+
   "dinh-duong-thoai-hoa-khop-goi": [
     { type: "para", content: "Bà M., 62 tuổi, đến khám với đầu gối đau nhức đã hơn 3 năm. Tôi hỏi về chế độ ăn hằng ngày, bà nhìn tôi ngạc nhiên: 'Bác sĩ hỏi ăn uống làm gì, tôi đau xương khớp chứ có phải đau dạ dày đâu?'. Đây là quan niệm sai lầm mà tôi gặp rất thường xuyên. Những gì bạn ăn mỗi ngày có thể âm thầm làm khớp gối viêm và thoái hóa nhanh hơn — hoặc ngược lại, giúp giảm đau và làm chậm quá trình phá hủy sụn một cách thực sự có bằng chứng khoa học." },
     { type: "highlight", content: "Một tổng quan hệ thống và phân tích gộp công bố trên European Journal of Clinical Nutrition (2025) tổng hợp 9 thử nghiệm lâm sàng ngẫu nhiên cho thấy: can thiệp chế độ ăn đặc hiệu giúp giảm đau có ý nghĩa thống kê và cải thiện chức năng vận động ở người bệnh thoái hóa khớp. Ăn uống không phải chuyện phụ — đó là một phần của điều trị." },

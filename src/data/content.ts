@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "hut-thuoc-la-cot-song-co-xuong-khop",
+    title: "Thuốc Lá Đang Phá Hủy Cột Sống Và Xương Khớp Của Bạn — Sự Thật Mà Hầu Hết Người Hút Thuốc Không Biết",
+    excerpt: "Mỗi điếu thuốc co thắt mạch máu nuôi đĩa đệm trong 40 phút. 20 điếu/ngày nghĩa là cột sống bạn 'chết đói' cả ngày. Bác sĩ cột sống giải thích cơ chế phá hủy, số liệu từ các nghiên cứu lớn, tác hại của khói thuốc thụ động — và tin tốt khi bạn quyết định bỏ.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-06-09",
+  },
+  {
     slug: "dinh-duong-thoai-hoa-khop-goi",
     title: "Dinh Dưỡng Cho Người Thoái Hóa Khớp Gối: Ăn Gì Để Khớp Khỏe, Tránh Gì Để Không Đau Thêm — Bằng Chứng Khoa Học 2025",
     excerpt: "Những gì bạn ăn mỗi ngày có thể âm thầm làm khớp gối viêm và thoái hóa nhanh hơn — hoặc ngược lại, giúp giảm đau và làm chậm quá trình phá hủy sụn. Từ chế độ ăn Địa Trung Hải, omega-3, collagen thủy phân đến curcumin chuẩn hóa: bác sĩ cột sống tổng hợp bằng chứng mới nhất 2025 và hướng dẫn thực hành cụ thể cho bệnh nhân Việt Nam.",
