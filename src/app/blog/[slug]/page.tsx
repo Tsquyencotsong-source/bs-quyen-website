@@ -27,6 +27,57 @@ type Block =
 
 const ARTICLES: Record<string, Block[]> = {
 
+  "do-loang-xuong-ngoai-vi-xuong-got-co-tay": [
+    { type: "para", content: "Bà H., 62 tuổi, hớn hở mang tờ kết quả vào phòng khám: 'Bác sĩ ơi, tôi vừa đo xương ở nhà thuốc, máy đặt ở gót chân, kết quả T-score là -1.2, họ nói xương tôi bình thường nên tôi không cần uống thuốc'. Nhưng khi tôi cho bà chụp DXA chuẩn tại bệnh viện, kết quả cột sống thắt lưng T-score là -2.8 — loãng xương thực sự. Nếu dựa hoàn toàn vào kết quả đo gót chân hôm đó, bà sẽ bỏ qua điều trị trong nhiều năm và đối mặt với nguy cơ gãy xương rất cao." },
+    { type: "highlight", content: "Các máy đo mật độ xương ở gót chân, cổ tay hay ngón tay ngày càng phổ biến — xuất hiện ở nhà thuốc, phòng khám tư, hội khám sức khỏe. Chúng có giá trị thực sự, nhưng cũng có những giới hạn quan trọng mà phần lớn người dân chưa được giải thích đầy đủ. Bài viết này giúp bạn hiểu đúng để dùng thông tin đúng cách." },
+    { type: "heading", content: "Tiêu chuẩn vàng: DXA tại cột sống và cổ xương đùi là gì và tại sao?" },
+    { type: "para", content: "Để hiểu giá trị của các phương pháp đo ngoại vi, trước tiên cần hiểu tại sao cột sống thắt lưng và cổ xương đùi (phần cổ của xương đùi gần khớp háng) lại là vị trí 'vàng' được Tổ chức Y tế Thế giới (WHO) và Liên đoàn Loãng xương Quốc tế (IOF) chọn làm tiêu chuẩn chẩn đoán." },
+    { type: "list", items: [
+      "Đây là hai vị trí gãy xương quan trọng nhất về hậu quả: gãy cột sống thắt lưng gây đau, còng lưng, mất chiều cao và giảm chất lượng sống nghiêm trọng. Gãy cổ xương đùi là thảm kịch thực sự — tỷ lệ tử vong trong năm đầu sau gãy xương hông lên tới 20-30% ở người cao tuổi.",
+      "T-score tại cổ xương đùi là thông số đầu vào chính của công cụ FRAX — phần mềm WHO tính nguy cơ gãy xương 10 năm để quyết định điều trị. Không có T-score chuẩn tại đây, FRAX không hoạt động chính xác.",
+      "Kỹ thuật DXA (Dual-energy X-ray Absorptiometry) cho phép đo trực tiếp mật độ khoáng xương (BMD — g/cm²) với độ chính xác cao và tái lập được, cho phép theo dõi hiệu quả điều trị theo thời gian.",
+      "Tiêu chuẩn chẩn đoán loãng xương của WHO (T-score ≤ -2.5, thiếu xương T-score từ -1.0 đến -2.5) được xây dựng DỰA TRÊN dữ liệu đo tại cột sống và cổ xương đùi — không thể áp nguyên xi sang vị trí khác.",
+    ]},
+    { type: "heading", content: "Đo siêu âm định lượng ở gót chân (QUS — Quantitative Ultrasound): không phải DXA nhưng có giá trị riêng" },
+    { type: "para", content: "Máy đo QUS gót chân hoạt động bằng cách truyền sóng siêu âm qua xương gót, đo tốc độ lan truyền và độ suy giảm của sóng để ước tính chất lượng xương. Hai thông số chính: BUA (Broadband Ultrasound Attenuation) và SOS (Speed of Sound). Từ đó máy tính ra 'Stiffness Index' hoặc 'T-score tương đương'." },
+    { type: "para", content: "Một tổng quan hệ thống công bố trên Biomedicines (2023) phân tích QUS và sức khỏe xương ở người cao tuổi đưa ra kết luận cân bằng: QUS gót chân có khả năng dự đoán nguy cơ gãy xương có ý nghĩa lâm sàng — cụ thể, cứ mỗi độ lệch chuẩn (SD) giảm đi trong chỉ số QUS, nguy cơ gãy xương hông và cột sống tăng lên khoảng gấp đôi, tương đương với DXA về khả năng phân tầng nguy cơ." },
+    { type: "list", items: [
+      "Ưu điểm thực tế rõ ràng: không dùng tia X (hoàn toàn an toàn), máy nhỏ gọn và di động, chi phí thấp hơn DXA nhiều lần, thời gian đo chỉ 30-60 giây, không cần phòng chuyên biệt — phù hợp để đưa tầm soát loãng xương ra cộng đồng và vùng xa.",
+      "Giá trị sàng lọc dân số: nghiên cứu Scientific Reports (2021) trên hàng nghìn đối tượng cho thấy QUS gót chân hoạt động tốt như một công cụ phân loại ban đầu — người có QUS thấp có nguy cơ cao cần chuyển lên DXA xác nhận, người QUS tốt có nguy cơ thấp.",
+      "Nghiên cứu 2024 trên bệnh nhân COPD (bệnh phổi tắc nghẽn mạn tính — nhóm nguy cơ cao loãng xương) xác nhận QUS gót chân có tương quan đáng kể với DXA và có thể dùng để sàng lọc ban đầu trước khi chỉ định DXA.",
+    ]},
+    { type: "warning", content: "Điều cần cẩn trọng quan trọng nhất: T-score từ máy QUS gót chân KHÔNG tương đương và KHÔNG thể dùng thay thế T-score DXA để CHẨN ĐOÁN loãng xương theo tiêu chuẩn WHO. Đây là nguồn gốc của rất nhiều hiểu lầm — kể cả từ nhân viên y tế. Kết quả QUS 'bình thường' KHÔNG loại trừ loãng xương tại cột sống hay cổ xương đùi. Cần DXA để chẩn đoán xác định." },
+    { type: "heading", content: "Đo DXA ngoại vi tại cổ tay, cẳng tay (pDXA): cùng công nghệ DXA nhưng ở vị trí khác" },
+    { type: "para", content: "pDXA (peripheral DXA) sử dụng đúng kỹ thuật tia X năng lượng kép như DXA trung tâm, nhưng đặt máy nhỏ hơn đo tại cẳng tay (xương quay — radius) hoặc ngón tay. Vì dùng cùng công nghệ nên T-score từ pDXA 'gần hơn' với DXA chuẩn so với QUS." },
+    { type: "para", content: "Một meta-analysis công bố trên Frontiers in Endocrinology (2025) tổng hợp nhiều nghiên cứu tìm thấy tương quan giữa BMD tại cẳng tay và tại cột sống/cổ xương đùi ở mức trung bình khá — hệ số tương quan r khoảng 0.60-0.64. Đây là tương quan có ý nghĩa nhưng không đủ chặt để thay thế nhau." },
+    { type: "list", items: [
+      "Tình huống pDXA cẳng tay thực sự có giá trị: bệnh nhân cường cận giáp trạng (hyperparathyroidism) — ở bệnh này xương vỏ (cortical bone) ở cẳng tay bị ảnh hưởng sớm và nặng hơn cột sống. Guideline quốc tế chỉ định đo cẳng tay là bắt buộc trong đánh giá cường cận giáp trạng.",
+      "Khi không thể đo cột sống và cổ xương đùi: bệnh nhân rất béo phì (vượt quá giới hạn bàn máy DXA), người có kim loại cột sống (đã phẫu thuật), xương cột sống biến dạng nặng làm kết quả không đọc được — pDXA cẳng tay là lựa chọn thay thế được chấp nhận.",
+      "Vị trí 1/3 giữa xương quay: guideline NOF (National Osteoporosis Foundation - Mỹ) chấp nhận T-score ≤ -2.5 tại vị trí này (33% radius) để chẩn đoán loãng xương khi các vị trí trung tâm không đo được.",
+    ]},
+    { type: "warning", content: "Giới hạn quan trọng của pDXA cẳng tay: khoảng 5-9% phụ nữ có kết quả pDXA cẳng tay bình thường thực ra đã bị loãng xương tại cột sống hoặc cổ xương đùi. Ngược lại, một số người có pDXA thấp nhưng DXA trung tâm bình thường. Không nên dùng pDXA cẳng tay để theo dõi hiệu quả điều trị thuốc loãng xương — vì cẳng tay ít nhạy với thuốc tác động lên xương xốp (trabecular bone) là chủ yếu." },
+    { type: "heading", content: "Cách đọc và sử dụng kết quả đo ngoại vi: hướng dẫn thực tế" },
+    { type: "para", content: "Giả sử bạn vừa được đo QUS gót chân hoặc pDXA cẳng tay — đây là cách đọc kết quả một cách đúng đắn:" },
+    { type: "list", items: [
+      "Kết quả QUS gót chân 'thấp' (T-score tương đương dưới -1.0 đến -2.5): Đây là tín hiệu cần chú ý và nên đi đo DXA chuẩn tại cột sống và cổ xương đùi để xác nhận. Không nên tự điều trị hay bỏ qua.",
+      "Kết quả QUS gót chân 'bình thường': Giảm thiểu nguy cơ nhưng KHÔNG loại trừ loãng xương tại cột sống hay hông. Nếu bạn là phụ nữ trên 65 tuổi, phụ nữ mãn kinh sớm, người dùng corticoid dài ngày, hoặc có nhiều yếu tố nguy cơ khác — vẫn cần DXA chuẩn theo lịch tầm soát.",
+      "Kết quả pDXA cẳng tay thấp: Nên làm thêm DXA trung tâm để có bức tranh đầy đủ trước khi quyết định điều trị, trừ khi bạn đang trong tình huống đặc biệt như cường cận giáp trạng.",
+      "Tích hợp với bảng điểm FRAX: Nếu không có DXA, FRAX vẫn có thể tính nguy cơ gãy xương chỉ với các yếu tố lâm sàng (không cần T-score). Kết hợp FRAX với QUS gót chân thấp là tín hiệu mạnh để chỉ định DXA hoặc thậm chí bắt đầu điều trị.",
+    ]},
+    { type: "heading", content: "Ai nên làm DXA chuẩn dù đã có kết quả đo ngoại vi?" },
+    { type: "list", items: [
+      "Phụ nữ từ 65 tuổi trở lên và nam giới từ 70 tuổi trở lên — guideline khuyến cáo DXA tầm soát định kỳ cho nhóm này, bất kể kết quả đo ngoại vi.",
+      "Phụ nữ mãn kinh dưới 65 tuổi có ít nhất một yếu tố nguy cơ: tiền sử gãy xương bản thân hay cha mẹ, cân nặng thấp (BMI < 19), hút thuốc, dùng corticoid, uống rượu nhiều.",
+      "Bất kỳ ai đã từng gãy xương sau tuổi 50 từ chấn thương nhỏ hoặc không rõ nguyên nhân.",
+      "Người đang hoặc cần xem xét điều trị loãng xương — cần T-score chuẩn để quyết định phác đồ và theo dõi hiệu quả.",
+      "Người đã có kết quả đo ngoại vi bất thường (QUS thấp, pDXA thấp) và muốn xác nhận chẩn đoán chính xác.",
+    ]},
+    { type: "heading", content: "Tóm lại: đo ngoài cột sống và cổ xương đùi — dùng đúng chỗ, hiểu đúng giá trị" },
+    { type: "para", content: "Các phương pháp đo ngoại vi không phải kém cỏi hay vô dụng — chúng có vai trò riêng và thực sự có ích khi được dùng đúng mục đích. Vấn đề nằm ở chỗ chúng thường bị hiểu và sử dụng sai: dùng như công cụ chẩn đoán thay thế DXA, giải thích kết quả như thể tương đương với DXA chuẩn, hoặc dùng để quyết định có uống thuốc loãng xương hay không." },
+    { type: "highlight", content: "Nguyên tắc nhớ nhanh: QUS gót chân và pDXA cẳng tay là 'cổng sàng lọc' — giúp phân loại ai cần đi sâu hơn. DXA tại cột sống và cổ xương đùi là 'chuẩn vàng' — để chẩn đoán xác định, quyết định điều trị và theo dõi hiệu quả. Kết quả đo ngoại vi tốt KHÔNG có nghĩa là bạn không cần DXA chuẩn nếu thuộc nhóm nguy cơ cao. Kết quả đo ngoại vi thấp là tín hiệu cần đi khám bác sĩ chuyên khoa, không phải để tự lo lắng cũng không phải để bỏ qua." },
+    { type: "note", content: "Bài viết tổng hợp bằng chứng từ các nghiên cứu và guideline quốc tế (WHO, IOF, NOF), mang mục đích giáo dục sức khỏe. Nếu bạn vừa nhận kết quả đo mật độ xương và không chắc ý nghĩa của nó, hãy trao đổi trực tiếp với bác sĩ chuyên khoa để được tư vấn đúng bước tiếp theo — đặc biệt nếu bạn trên 50 tuổi hoặc có tiền sử gãy xương." },
+  ],
+
   "hut-thuoc-la-cot-song-co-xuong-khop": [
     { type: "para", content: "Ông T., 55 tuổi, đến khám vì đau lưng dữ dội lan xuống chân đã 2 năm. Phim MRI cho thấy thoát vị đĩa đệm thắt lưng nặng, đĩa đệm đen xỉn — dấu hiệu thoái hóa sớm bất thường với người chưa đến 60. Tôi hỏi: 'Anh hút thuốc bao lâu rồi?'. Ông nhìn tôi ngạc nhiên: '30 năm, nhưng thuốc lá liên quan gì đến lưng hả bác sĩ?'. Câu trả lời tôi đưa ra hôm đó đã khiến ông quyết định bỏ thuốc ngay tại phòng khám. Và câu trả lời đó — chính là nội dung bài viết này." },
     { type: "highlight", content: "Hầu hết mọi người biết thuốc lá gây ung thư phổi, bệnh tim mạch. Nhưng rất ít người biết: thuốc lá đang phá hủy cột sống, xương khớp và sụn khớp của bạn từng ngày một — âm thầm, chắc chắn, và không thể đảo ngược nếu cứ để mặc. Đây là sự thật mà phần lớn bệnh nhân chỉ biết khi đã quá muộn." },

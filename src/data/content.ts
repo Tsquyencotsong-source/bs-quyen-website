@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "do-loang-xuong-ngoai-vi-xuong-got-co-tay",
+    title: "Đo Loãng Xương Ở Gót Chân Và Cổ Tay: Có Thể Tin Vào Đó Không? Bác Sĩ Giải Thích Giá Trị Và Giới Hạn Bạn Cần Biết",
+    excerpt: "Máy đo xương ở gót chân cho T-score -1.2, bảo 'bình thường' — nhưng DXA chuẩn tại bệnh viện lại ra -2.8, loãng xương thực sự. Bài viết giải thích rõ QUS gót chân, pDXA cẳng tay có giá trị gì, giới hạn nào và khi nào bạn nhất định cần làm DXA chuẩn tại cột sống và cổ xương đùi.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-06-10",
+  },
+  {
     slug: "hut-thuoc-la-cot-song-co-xuong-khop",
     title: "Thuốc Lá Đang Phá Hủy Cột Sống Và Xương Khớp Của Bạn — Sự Thật Mà Hầu Hết Người Hút Thuốc Không Biết",
     excerpt: "Mỗi điếu thuốc co thắt mạch máu nuôi đĩa đệm trong 40 phút. 20 điếu/ngày nghĩa là cột sống bạn 'chết đói' cả ngày. Bác sĩ cột sống giải thích cơ chế phá hủy, số liệu từ các nghiên cứu lớn, tác hại của khói thuốc thụ động — và tin tốt khi bạn quyết định bỏ.",
