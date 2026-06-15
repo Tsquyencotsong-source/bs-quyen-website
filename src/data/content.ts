@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dau-lung-deo-dai-lien-tuc-co-tot-khong",
+    title: "Đau Lưng Đeo Đai Liên Tục Có Tốt Không? Bác Sĩ Nói Thật",
+    excerpt: "Nhiều người đeo đai lưng suốt ngày tưởng là tốt cho lưng — nhưng thực ra đang khiến cơ lưng ngày càng yếu và lệ thuộc vào đai. Bác sĩ giải thích khi nào nên đeo, đeo bao lâu là đủ, và điều gì quan trọng hơn đai lưng để lưng thực sự khỏe.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-06-15",
+  },
+  {
     slug: "do-loang-xuong-ngoai-vi-xuong-got-co-tay",
     title: "Đo Loãng Xương Ở Gót Chân Và Cổ Tay: Có Thể Tin Vào Đó Không? Bác Sĩ Giải Thích Giá Trị Và Giới Hạn Bạn Cần Biết",
     excerpt: "Máy đo xương ở gót chân cho T-score -1.2, bảo 'bình thường' — nhưng DXA chuẩn tại bệnh viện lại ra -2.8, loãng xương thực sự. Bài viết giải thích rõ QUS gót chân, pDXA cẳng tay có giá trị gì, giới hạn nào và khi nào bạn nhất định cần làm DXA chuẩn tại cột sống và cổ xương đùi.",
