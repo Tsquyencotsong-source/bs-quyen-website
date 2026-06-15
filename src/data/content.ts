@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dau-lung-khi-nao-can-chup-mri",
+    title: "Đau Lưng Phải Chụp MRI Không? Bác Sĩ Nói Sự Thật Mà Nhiều Người Không Muốn Nghe",
+    excerpt: "52% người khỏe mạnh không đau lưng vẫn có đĩa đệm 'bất thường' trên MRI. Chụp MRI sớm không đúng chỉ định còn làm bạn đau lâu hơn. Bác sĩ cột sống giải thích khi nào thực sự cần chụp, khi nào không — và những dấu hiệu nguy hiểm không được bỏ qua.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-06-16",
+  },
+  {
     slug: "dau-lung-deo-dai-lien-tuc-co-tot-khong",
     title: "Đau Lưng Đeo Đai Liên Tục Có Tốt Không? Bác Sĩ Nói Thật",
     excerpt: "Nhiều người đeo đai lưng suốt ngày tưởng là tốt cho lưng — nhưng thực ra đang khiến cơ lưng ngày càng yếu và lệ thuộc vào đai. Bác sĩ giải thích khi nào nên đeo, đeo bao lâu là đủ, và điều gì quan trọng hơn đai lưng để lưng thực sự khỏe.",
