@@ -31,91 +31,91 @@ const ARTICLES: Record<string, Block[]> = {
     { type: "para", content: "Em L., 14 tuổi, vừa được chẩn đoán vẹo cột sống vô căn với góc Cobb 26°. Bác sĩ kết luận chưa cần phẫu thuật và kê đơn nẹp chỉnh hình. Mẹ em hỏi: 'Ngoài đeo nẹp ra, con tôi còn cần làm gì nữa không?'. Câu trả lời là: có rất nhiều điều có thể làm — và bằng chứng khoa học chỉ ra rõ ràng rằng tập luyện đúng phương pháp, kết hợp với nẹp, cho kết quả tốt hơn đáng kể so với chỉ đeo nẹp đơn thuần." },
     { type: "highlight", content: "Tập luyện không thay thế nẹp chỉnh hình, nhưng nghiên cứu nhất quán cho thấy tập luyện đặc hiệu + nẹp tốt hơn nẹp đơn thuần. Đối với trẻ có góc Cobb 10-25° chưa cần nẹp, tập luyện là can thiệp CHÍNH. Bài viết này hướng dẫn cụ thể: tập gì, tập như thế nào, bao lâu, và những gì nên tránh." },
     { type: "heading", content: "Tại sao cần tập luyện đặc hiệu, không phải tập luyện thông thường?" },
-    { type: "para", content: "Điểm khác biệt then chốt giữa tập luyện đặc hiệu cho vẹo cột sống (Physiotherapeutic Scoliosis-Specific Exercises — PSSE) và tập luyện thông thường nằm ở mục tiêu: tập thông thường củng cố cơ bắp tổng thể, còn PSSE tập trung vào việc chỉnh lại sự mất cân bằng cơ cụ thể ở mỗi bệnh nhân vẹo." },
-    { type: "para", content: "Cột sống vẹo tạo ra sự bất đối xứng: cơ ở phía lõm của đường cong bị co rút và ngắn lại, cơ ở phía lồi bị kéo căng và yếu đi. Nếu tập luyện không đúng mục tiêu — ví dụ tập bơi ếch, hoặc các động tác vặn mình ngẫu nhiên — có thể vô tình củng cố thêm sự mất cân bằng này thay vì giải quyết nó. PSSE được thiết kế để làm ngược lại: kéo dài cơ ngắn, kích hoạt cơ yếu, và dạy cơ thể duy trì tư thế chỉnh hơn trong sinh hoạt hàng ngày." },
-    { type: "note", content: "Hai phương pháp PSSE được nghiên cứu nhiều nhất và được SOSORT (Hiệp hội Quốc tế về Điều trị Chỉnh hình Vẹo cột sống) khuyến cáo là: phương pháp Schroth (phổ biến nhất tại Đức, Mỹ, châu Âu) và SEAS — Scientific Exercise Approach to Scoliosis (phát triển tại Ý). Cả hai đều có bằng chứng lâm sàng tốt." },
-    { type: "heading", content: "PHƯƠNG PHÁP SCHROTH — Tập thở 3 chiều cho cột sống vẹo" },
-    { type: "para", content: "Schroth là phương pháp được nghiên cứu nhiều nhất trong điều trị bảo tồn AIS. Một phân tích tổng hợp (meta-analysis) đăng trên tạp chí Children (MDPI, 2024) phân tích 11 thử nghiệm lâm sàng kết luận: bài tập Schroth 3D giảm góc Cobb trung bình 4,8° và cải thiện đáng kể góc xoay thân mình (ATR) cùng chất lượng cuộc sống." },
+    { type: "para", content: "Điểm khác biệt then chốt giữa tập luyện đặc hiệu cho vẹo cột sống  và tập luyện thông thường nằm ở mục tiêu: tập thông thường củng cố cơ bắp tổng thể, còn bài tập đặc hiệu tập trung vào việc chỉnh lại sự mất cân bằng cơ cụ thể ở mỗi bệnh nhân vẹo." },
+    { type: "para", content: "Cột sống vẹo tạo ra sự bất đối xứng: cơ ở phía lõm của đường cong bị co rút và ngắn lại, cơ ở phía lồi bị kéo căng và yếu đi. Nếu tập luyện không đúng mục tiêu — ví dụ tập bơi ếch, hoặc các động tác vặn mình ngẫu nhiên — có thể vô tình củng cố thêm sự mất cân bằng này thay vì giải quyết nó. Bài tập đặc hiệu được thiết kế để làm ngược lại: kéo dài cơ ngắn, kích hoạt cơ yếu, và dạy cơ thể duy trì tư thế chỉnh hơn trong sinh hoạt hàng ngày." },
+    { type: "note", content: "Hai phương pháp bài tập đặc hiệu được nghiên cứu nhiều nhất và được Hiệp hội Quốc tế về Điều trị Chỉnh hình Vẹo cột sống khuyến cáo là: phương pháp Schroth (phổ biến nhất tại Đức, Mỹ, châu Âu) và phương pháp tập luyện khoa học đặc hiệu (phát triển tại Ý). Cả hai đều có bằng chứng lâm sàng tốt." },
+    { type: "heading", content: "PHƯƠNG PHÁP SCHROTH — Tập thở ba chiều cho cột sống vẹo" },
+    { type: "para", content: "Schroth là phương pháp được nghiên cứu nhiều nhất trong điều trị bảo tồn vẹo cột sống vô căn. Một phân tích tổng hợp đăng trên tạp chí Children (2024) phân tích 11 thử nghiệm lâm sàng kết luận: bài tập Schroth ba chiều giảm góc Cobb trung bình 4,8° và cải thiện đáng kể mức độ xoay thân mình cùng chất lượng cuộc sống." },
     { type: "para", content: "Nguyên lý cốt lõi của Schroth: cột sống vẹo không chỉ cong sang ngang mà còn xoay ba chiều. Schroth điều trị cả ba chiều đó — không chỉ chỉnh cong mà còn 'tháo xoắn' cột sống — thông qua 5 nguyên tắc chính:" },
     { type: "list", items: [
-      "Tự kéo dài trục (Auto-elongation): Đứng/ngồi thẳng, kéo dài cột sống lên trên, tưởng tượng đỉnh đầu đang chạm trần nhà — tạo khoảng cách giữa các đốt sống",
-      "Chỉnh lệch (Deflection): Dịch chuyển thân mình theo hướng ngược chiều đường cong để tạo ra lực đối kháng với sự cong vẹo",
-      "Xoay ngược chiều (Derotation): Xoay các đốt sống và khung xương sườn ngược chiều với chiều xoay của đường cong",
-      "Thở xoay góc (Rotational Angular Breathing — RAB): Thở vào theo hướng cụ thể để 'thổi phồng' vùng lõm của lồng ngực, tạo áp lực từ bên trong chỉnh lại sự bất đối xứng. Đây là kỹ thuật đặc trưng và quan trọng nhất của Schroth",
-      "Ổn định (Stabilization): Co cơ lõi để duy trì tư thế đã chỉnh trong khi thực hiện các động tác sinh hoạt hàng ngày",
+      "Tự kéo dài trục: Đứng/ngồi thẳng, kéo dài cột sống lên trên, tưởng tượng đỉnh đầu đang chạm trần nhà — tạo khoảng cách giữa các đốt sống",
+      "Chỉnh lệch: Dịch chuyển thân mình theo hướng ngược chiều đường cong để tạo ra lực đối kháng với sự cong vẹo",
+      "Xoay ngược chiều: Xoay các đốt sống và khung xương sườn ngược chiều với chiều xoay của đường cong",
+      "Thở xoay góc: Thở vào theo hướng cụ thể để 'thổi phồng' vùng lõm của lồng ngực, tạo áp lực từ bên trong chỉnh lại sự bất đối xứng. Đây là kỹ thuật đặc trưng và quan trọng nhất của Schroth",
+      "Ổn định: Co cơ lõi để duy trì tư thế đã chỉnh trong khi thực hiện các động tác sinh hoạt hàng ngày",
     ]},
     { type: "heading", content: "Hướng dẫn bài tập Schroth cơ bản (phải học với chuyên gia trước)" },
     { type: "warning", content: "QUAN TRỌNG: Các bài tập Schroth CẦN được học ban đầu với chuyên gia vật lý trị liệu đã được đào tạo phương pháp Schroth. Bài tập không đúng kỹ thuật có thể không hiệu quả hoặc tăng nặng mất cân bằng. Sau khi học đúng, trẻ có thể tập tại nhà hàng ngày." },
     { type: "para", content: "Sau khi được học bởi chuyên gia, đây là 4 bài tập Schroth cơ bản mà trẻ có thể tập hàng ngày tại nhà — mỗi bài 5-10 phút, tổng 30-45 phút mỗi ngày:" },
     { type: "list", items: [
-      "Bài 1 — Thở mở góc lõm (Concave side breathing): Nằm nghiêng phía lõm xuống dưới, đặt gối nhỏ dưới eo để mở rộng khoảng sườn phía lõm. Hít thở sâu, tập trung 'thổi' không khí vào phía lõm của lồng ngực (phía trên, đang được mở rộng bởi gối). Giữ 3 giây, thở ra chậm. 10 lần. Mục tiêu: mở rộng vùng lõm, tạo áp lực chỉnh từ bên trong",
-      "Bài 2 — Tư thế bốn điểm với kéo dài trục (Quadruped auto-elongation): Quỳ 4 điểm chống (tay và gối), giữ lưng thẳng. Kéo dài cột sống ra phía đầu và đuôi cùng lúc. Từ từ nâng tay cùng phía với đường cong lõm kèm thở vào — giữ 5-10 giây. 10 lần. Mục tiêu: kích hoạt cơ cạnh sống phía lõm",
-      "Bài 3 — Tư thế đứng chỉnh lệch (Standing correction): Đứng sát tường, gót chân cách tường 5cm. Tự kéo dài người lên, xê dịch hông về phía đường cong lõm. Dang tay bên lõm lên cao, tay bên lồi xuống thấp — tạo lực kéo dài phía lõm. Giữ 30 giây, thở Schroth trong suốt thời gian. 5 lần. Mục tiêu: chỉnh lệch và thở kết hợp",
-      "Bài 4 — Chim bay biến thể (Modified bird-dog): Quỳ 4 điểm chống. Nâng tay và chân đối bên (không phải cùng bên). Trước khi nâng, hít thở Schroth vào phía lõm. Giữ 10 giây, hạ xuống thở ra. 10 lần mỗi bên. Mục tiêu: ổn định cột sống trong tư thế đã chỉnh",
+      "Bài 1 — Thở mở phần lõm: Nằm nghiêng phía lõm xuống dưới, đặt gối nhỏ dưới eo để mở rộng khoảng sườn phía lõm. Hít thở sâu, tập trung 'thổi' không khí vào phía lõm của lồng ngực (phía trên, đang được mở rộng bởi gối). Giữ 3 giây, thở ra chậm. 10 lần. Mục tiêu: mở rộng vùng lõm, tạo áp lực chỉnh từ bên trong",
+      "Bài 2 — Quỳ bốn điểm kéo dài trục: Quỳ bốn điểm chống bằng tay và gối, giữ lưng thẳng. Kéo dài cột sống ra phía đầu và đuôi cùng lúc. Từ từ nâng tay cùng phía với đường cong lõm kèm thở vào — giữ 5-10 giây. 10 lần. Mục tiêu: kích hoạt cơ cạnh sống phía lõm",
+      "Bài 3 — Đứng chỉnh tư thế sát tường: Đứng sát tường, gót chân cách tường 5cm. Tự kéo dài người lên, xê dịch hông về phía đường cong lõm. Dang tay bên lõm lên cao, tay bên lồi xuống thấp — tạo lực kéo dài phía lõm. Giữ 30 giây, thở Schroth trong suốt thời gian. 5 lần. Mục tiêu: chỉnh lệch và thở kết hợp",
+      "Bài 4 — Chim bay biến thể: Quỳ bốn điểm chống. Nâng tay và chân đối bên (không phải cùng bên). Trước khi nâng, hít thở Schroth vào phía lõm. Giữ 10 giây, hạ xuống thở ra. 10 lần mỗi bên. Mục tiêu: ổn định cột sống trong tư thế đã chỉnh",
     ]},
-    { type: "heading", content: "BÀI TẬP CỐT LÕI (CORE) — Nền tảng không thể thiếu" },
-    { type: "para", content: "Song song với Schroth, tăng sức mạnh nhóm cơ cốt lõi (core) là yêu cầu bắt buộc. Nghiên cứu PMC (2025) về kết hợp Schroth và bài tập core trên trẻ trước dậy thì bị AIS mức 20-40° cho thấy cải thiện đáng kể góc Cobb và chất lượng cuộc sống sau 6 tháng. Một nghiên cứu PMC (2017) về chương trình 12 tuần tập cơ cốt lõi cho thấy giảm góc Cobb và tăng lực cơ lưng có ý nghĩa thống kê." },
-    { type: "para", content: "Nhóm cơ cần tập mạnh nhất trong AIS: cơ ngang bụng (transversus abdominis), cơ đa liên (multifidus), cơ mông và cơ hông — tất cả đều đóng vai trò ổn định cột sống từ bên trong. Đây là 5 bài tập core an toàn, đã được kiểm chứng, không gây tải lên cột sống, phù hợp cho lứa tuổi thiếu niên:" },
+    { type: "heading", content: "BÀI TẬP CƠ LÕI — Nền tảng không thể thiếu" },
+    { type: "para", content: "Song song với Schroth, tăng sức mạnh nhóm cơ lõi là yêu cầu bắt buộc. Nghiên cứu năm 2025 về kết hợp Schroth và bài tập cơ lõi trên trẻ trước dậy thì bị vẹo cột sống mức 20-40° cho thấy cải thiện đáng kể góc Cobb và chất lượng cuộc sống sau 6 tháng. Một nghiên cứu năm 2017 về chương trình 12 tuần tập cơ lõi cho thấy giảm góc Cobb và tăng lực cơ lưng có ý nghĩa thống kê." },
+    { type: "para", content: "Nhóm cơ cần tập mạnh nhất trong vẹo cột sống: cơ ngang bụng sâu, cơ đa liên cạnh sống, cơ mông và cơ hông — tất cả đều đóng vai trò ổn định cột sống từ bên trong. Đây là 5 bài tập an toàn, đã được kiểm chứng, không gây tải lên cột sống, phù hợp cho lứa tuổi thiếu niên:" },
     { type: "list", items: [
-      "Siết cơ bụng sâu (Transversus Abdominis Activation): Nằm ngửa, gập gối, bàn chân phẳng sàn. Hít thở nhẹ. Thở ra, kéo rốn vào trong và lên trên (không phải hóp bụng mà là 'siết' sâu bên trong). Giữ 10 giây, thở đều trong lúc giữ. 10 lần. Đây là bài tập nền tảng, phải thành thạo trước khi làm các bài khác",
-      "Cầu mông (Glute Bridge): Nằm ngửa, gập gối. Siết cơ bụng sâu (như bài 1), sau đó từ từ nâng hông lên tạo đường thẳng từ vai đến gối. Giữ 5-10 giây. Hạ xuống chậm. 15 lần, 3 hiệp. Nâng cao: nhấc một chân lên khi đang ở tư thế cầu — làm chậm, kiểm soát",
-      "Plank trước (Forearm Plank): Chống tay dưới vai, tựa cẳng tay và ngón chân. Giữ thân thẳng từ đầu đến gót. Không để mông nhô lên hay đổ xuống. Bắt đầu 20 giây, tăng dần đến 60 giây khi cơ khỏe hơn. 3 hiệp. Không nên làm nếu cảm thấy đau lưng dưới",
-      "Plank bên (Side Plank): Nằm nghiêng, chống cẳng tay và cạnh bàn chân. Nâng hông lên thẳng hàng. Bài tập này đặc biệt quan trọng vì làm không đối xứng — ưu tiên làm nhiều hơn về phía lõm của đường cong. Giữ 20-30 giây mỗi bên. 3 hiệp",
-      "Chim bay (Bird-Dog): Quỳ 4 điểm. Giữ lưng phẳng, không đổ hông. Từ từ nâng tay phải và chân trái đồng thời — giữ thẳng hàng. Giữ 5 giây. Đổi bên. 10 lần mỗi bên, 3 hiệp. Không xoay hông hay đổ người khi nâng tay chân",
+      "Bài 1 — Siết cơ bụng sâu: Nằm ngửa, gập gối, bàn chân phẳng sàn. Hít thở nhẹ. Thở ra, kéo rốn vào trong và lên trên (không phải hóp bụng mà là 'siết' sâu bên trong). Giữ 10 giây, thở đều trong lúc giữ. 10 lần. Đây là bài tập nền tảng, phải thành thạo trước khi làm các bài khác",
+      "Bài 2 — Nâng hông: Nằm ngửa, gập gối. Siết cơ bụng sâu (như bài 1), sau đó từ từ nâng hông lên tạo đường thẳng từ vai đến gối. Giữ 5-10 giây. Hạ xuống chậm. 15 lần, 3 hiệp. Nâng cao: nhấc một chân lên khi đang ở tư thế cầu — làm chậm, kiểm soát",
+      "Bài 3 — Tấm ván sấp: Chống tay dưới vai, tựa cẳng tay và ngón chân. Giữ thân thẳng từ đầu đến gót. Không để mông nhô lên hay đổ xuống. Bắt đầu 20 giây, tăng dần đến 60 giây khi cơ khỏe hơn. 3 hiệp. Không nên làm nếu cảm thấy đau lưng dưới",
+      "Bài 4 — Tấm ván nghiêng: Nằm nghiêng, chống cẳng tay và cạnh bàn chân. Nâng hông lên thẳng hàng. Bài tập này đặc biệt quan trọng vì làm không đối xứng — ưu tiên làm nhiều hơn về phía lõm của đường cong. Giữ 20-30 giây mỗi bên. 3 hiệp",
+      "Bài 5 — Chim bay: Quỳ bốn điểm. Giữ lưng phẳng, không đổ hông. Từ từ nâng tay phải và chân trái đồng thời — giữ thẳng hàng. Giữ 5 giây. Đổi bên. 10 lần mỗi bên, 3 hiệp. Không xoay hông hay đổ người khi nâng tay chân",
     ]},
     { type: "heading", content: "KÉO GIÃN — Giải phóng cơ căng phía lồi" },
     { type: "para", content: "Song song với tăng sức mạnh, kéo giãn cơ phía lồi của đường cong là cần thiết để tạo điều kiện cho cột sống có thể chỉnh lại. Các bài kéo giãn cần được làm ở phía lồi của đường cong — ngược với bài tập tăng lực vốn ưu tiên phía lõm." },
     { type: "list", items: [
       "Kéo giãn cơ cạnh sống: Ngồi thẳng trên ghế. Tay phía lồi giơ thẳng lên đầu. Nghiêng người nhẹ về phía lõm (ngược với đường cong) cho đến khi cảm thấy căng nhẹ ở hông và eo phía lồi. Giữ 20-30 giây. 3 lần. Không kéo quá mức đến đau",
-      "Mèo-bò (Cat-Cow): Quỳ 4 điểm. Thở ra — cong lưng lên như mèo giận. Hít vào — ép lưng xuống như bò. Di chuyển chậm, đồng bộ với hơi thở. 10 chu kỳ. Bài này tốt cho linh hoạt tổng thể cột sống",
-      "Kéo giãn cơ hông gấp (Hip Flexor Stretch): Quỳ một chân trước, một chân sau. Đẩy hông về phía trước và xuống cho đến khi cảm thấy căng ở đùi sau của chân sau. Giữ 30 giây. Đổi bên. Cơ hông gấp căng làm xấu tư thế cột sống lưng",
+      "Động tác mèo-bò: Quỳ bốn điểm. Thở ra — cong lưng lên như mèo giận. Hít vào — ép lưng xuống như bò. Di chuyển chậm, đồng bộ với hơi thở. 10 chu kỳ. Bài này tốt cho linh hoạt tổng thể cột sống",
+      "Kéo giãn cơ hông trước: Quỳ một chân trước, một chân sau. Đẩy hông về phía trước và xuống cho đến khi cảm thấy căng ở mặt trước đùi của chân sau. Giữ 30 giây. Đổi bên. Cơ hông gấp căng làm xấu tư thế cột sống lưng",
     ]},
-    { type: "heading", content: "YOGA VÀ PILATES — Bổ trợ có bằng chứng" },
-    { type: "para", content: "Một nghiên cứu thử nghiệm ngẫu nhiên có đối chứng năm 2025 trên PMC đánh giá yoga đẳng trường (isometric yoga-like exercise) trong AIS vẹo thắt lưng cho kết quả khả quan về giảm góc Cobb. Tổng quan mạng (network meta-analysis) 2025 xác nhận yoga/Pilates cho kết quả giảm góc Cobb trung bình 5,2° — tương đương Schroth." },
+    { type: "heading", content: "YOGA VÀ TẬP PILATES — Hỗ trợ có bằng chứng" },
+    { type: "para", content: "Một thử nghiệm lâm sàng ngẫu nhiên có đối chứng năm 2025 đánh giá yoga đẳng trường trong vẹo cột sống thắt lưng cho kết quả khả quan về giảm góc Cobb. Tổng quan mạng lưới các thử nghiệm lâm sàng năm 2025 xác nhận yoga và tập Pilates cho kết quả giảm góc Cobb trung bình 5,2° — tương đương phương pháp Schroth." },
     { type: "list", items: [
-      "Yoga phù hợp: Các tư thế kéo dài cột sống (Mountain Pose, Tree Pose, Warrior I), tư thế mở hông (Pigeon Pose), và tư thế nằm dưỡng sinh (Savasana) với ý thức về tư thế. Tránh các tư thế vặn mình (twisting poses) mà không có hướng dẫn chuyên gia vì có thể làm tăng xoay của đường cong",
-      "Pilates phù hợp: Bài tập Pilates tập trung vào co cơ cốt lõi trước khi chuyển động (Pilates breath + neutral spine), bài nằm như Single Leg Stretch, Double Leg Stretch, Hundred (biến thể nhẹ). Pilates cổ điển thường an toàn hơn yoga về việc kiểm soát tư thế",
-      "Lưu ý quan trọng: Báo với giáo viên yoga/Pilates về tình trạng vẹo cột sống để được điều chỉnh tư thế phù hợp. Một bài tập đúng cho người bình thường có thể không phù hợp cho người có AIS",
+      "Yoga phù hợp: Các tư thế kéo dài cột sống như tư thế núi, tư thế cây, tư thế chiến binh; tư thế mở hông; và tư thế nằm thư giãn với ý thức về tư thế. Tránh các tư thế vặn mình mạnh mà không có hướng dẫn chuyên gia vì có thể làm tăng xoay của đường cong",
+      "Pilates phù hợp: Bài tập tập trung vào co cơ lõi trước khi chuyển động, các bài tập nằm có kiểm soát ở mức độ nhẹ. Tập Pilates thường an toàn hơn yoga về mặt kiểm soát tư thế cột sống",
+      "Lưu ý quan trọng: Báo với giáo viên yoga/Pilates về tình trạng vẹo cột sống để được điều chỉnh tư thế phù hợp. Một bài tập đúng cho người bình thường có thể không phù hợp cho người bị vẹo cột sống",
     ]},
     { type: "heading", content: "BƠI LỘI — Tốt, nhưng không phải 'thần dược' chỉnh vẹo" },
-    { type: "para", content: "Có một quan niệm sai lầm rất phổ biến rằng bơi lội chữa được vẹo cột sống. Sự thật từ bằng chứng khoa học: bơi lội là môn thể thao tuyệt vời cho cơ lưng và tim mạch, nhưng không có bằng chứng bơi lội làm giảm góc Cobb ở AIS." },
-    { type: "para", content: "Thậm chí một số nghiên cứu quan sát thấy vận động viên bơi lội tập chuyên sâu (đặc biệt bơi ếch và bơi bướm) có tỷ lệ AIS cao hơn dân số chung — có thể liên quan đến các động tác không đối xứng lặp đi lặp lại. Tuy nhiên đây chỉ là quan sát, chưa chứng minh nhân quả." },
+    { type: "para", content: "Có một quan niệm sai lầm rất phổ biến rằng bơi lội chữa được vẹo cột sống. Sự thật từ bằng chứng khoa học: bơi lội là môn thể thao tuyệt vời cho cơ lưng và tim mạch, nhưng không có bằng chứng bơi lội làm giảm góc Cobb trong vẹo cột sống vô căn." },
+    { type: "para", content: "Thậm chí một số nghiên cứu quan sát thấy vận động viên bơi lội tập chuyên sâu (đặc biệt bơi ếch và bơi bướm) có tỷ lệ vẹo cột sống cao hơn dân số chung — có thể liên quan đến các động tác không đối xứng lặp đi lặp lại. Tuy nhiên đây chỉ là quan sát, chưa chứng minh nhân quả." },
     { type: "list", items: [
-      "Kiểu bơi phù hợp: Bơi tự do (freestyle/crawl) và bơi ngửa — các kiểu bơi này duy trì tư thế tương đối đối xứng và tốt cho cơ lưng tổng thể",
-      "Kiểu bơi cần thận trọng: Bơi ếch (breaststroke) và bơi bướm (butterfly) — tạo lực ưỡn lưng và xoay mạnh, có thể làm tăng áp lực không đồng đều lên cột sống vẹo. Không cần hoàn toàn kiêng nếu trẻ thích, nhưng nên hạn chế và bổ sung thêm Schroth",
+      "Kiểu bơi phù hợp: Bơi tự do và bơi ngửa — các kiểu bơi này duy trì tư thế tương đối đối xứng và tốt cho cơ lưng tổng thể",
+      "Kiểu bơi cần thận trọng: Bơi ếch và bơi bướm — tạo lực ưỡn lưng và xoay mạnh, có thể làm tăng áp lực không đồng đều lên cột sống vẹo. Không cần hoàn toàn kiêng nếu trẻ thích, nhưng nên hạn chế và bổ sung thêm Schroth",
       "Kết luận thực tế: Bơi lội như một môn giải trí và thể thao tổng quát thì rất tốt và nên khuyến khích. Nhưng không nên thay thế Schroth bằng bơi lội với kỳ vọng bơi sẽ chỉnh vẹo",
     ]},
     { type: "heading", content: "THỂ THAO NÀO ĐƯỢC PHÉP — VÀ NÀO NÊN TRÁNH?" },
-    { type: "para", content: "Một câu hỏi thực tế mà phụ huynh hay hỏi: 'Con tôi có thể chơi thể thao bình thường không?'. Câu trả lời là có — AIS không phải lý do để cấm trẻ vận động. Ngược lại, hoạt động thể chất thường xuyên là tốt cho sức khỏe tổng thể và tâm lý của trẻ. Nhưng có một số lưu ý:" },
+    { type: "para", content: "Một câu hỏi thực tế mà phụ huynh hay hỏi: 'Con tôi có thể chơi thể thao bình thường không?'. Câu trả lời là có — vẹo cột sống không phải lý do để cấm trẻ vận động. Ngược lại, hoạt động thể chất thường xuyên là tốt cho sức khỏe tổng thể và tâm lý của trẻ. Nhưng có một số lưu ý:" },
     { type: "list", items: [
       "Được khuyến khích: Bơi tự do, đi bộ, đạp xe (yên xe điều chỉnh đúng tư thế), cầu lông (cả hai tay — không phải chỉ một tay), tennis (kiểm tra tư thế), bóng rổ, chạy bộ nhẹ, võ thuật không va chạm mạnh",
       "Được phép nhưng nên trao đổi với bác sĩ: Bóng đá, võ thuật có đối kháng, thể dục dụng cụ (có thể làm tăng ưỡn lưng), múa ba lê (áp lực lên cột sống cao), cử tạ nặng",
-      "Nên tránh hoặc thận trọng: Cử tạ nặng (deadlift, squat nặng) ở giai đoạn tăng trưởng mạnh, các môn tạo lực va chạm xoắn vặn mạnh vào cột sống (rugby, judo đối kháng nặng), ưỡn lưng cực độ (backbend trong thể dục nhịp điệu)",
-      "Không có chống chỉ định tuyệt đối: Không có bằng chứng rõ ràng rằng bất kỳ môn thể thao cụ thể nào gây ra AIS hoặc làm AIS tiến triển nghiêm trọng. Lợi ích của vận động thể thao (thể chất, tâm lý, xã hội) thường lớn hơn rủi ro",
+      "Nên tránh hoặc thận trọng: Nhấc tạ nặng từ sàn hoặc ngồi xổm với tạ nặng ở giai đoạn tăng trưởng mạnh; các môn tạo lực va chạm xoắn vặn mạnh vào cột sống; uốn ngược lưng cực độ trong thể dục nhịp điệu",
+      "Không có chống chỉ định tuyệt đối: Không có bằng chứng rõ ràng rằng bất kỳ môn thể thao cụ thể nào gây ra vẹo cột sống hoặc làm vẹo tiến triển nghiêm trọng. Lợi ích của vận động thể thao (thể chất, tâm lý, xã hội) thường lớn hơn rủi ro",
     ]},
     { type: "heading", content: "LỊCH TẬP GỢI Ý — 5 ngày/tuần, thực tế và khả thi" },
-    { type: "para", content: "Nhiều gia đình thất bại không phải vì không biết cần tập gì, mà vì không có kế hoạch cụ thể và thiếu kiên trì. Đây là lịch tập gợi ý thực tế cho trẻ đang điều trị bảo tồn AIS:" },
+    { type: "para", content: "Nhiều gia đình thất bại không phải vì không biết cần tập gì, mà vì không có kế hoạch cụ thể và thiếu kiên trì. Đây là lịch tập gợi ý thực tế cho trẻ đang điều trị bảo tồn vẹo cột sống:" },
     { type: "list", items: [
-      "Thứ 2, 4, 6 (buổi tối, 30-45 phút): Schroth đầy đủ — thở mở góc lõm (10 phút) + 3-4 bài Schroth cơ bản (20 phút) + giữ tư thế ổn định (5 phút). Đây là buổi tập quan trọng nhất",
-      "Thứ 3, 5 (buổi tối, 20-30 phút): Bài tập core — 5 bài cốt lõi kể trên, 3 hiệp mỗi bài. Kéo giãn sau tập 5 phút",
-      "Thứ 7 hoặc Chủ nhật: Thể thao tự do (bơi lội, đạp xe, đi bộ, bóng rổ...). Đây là ngày trẻ được tập theo sở thích — quan trọng cho tâm lý và sự gắn kết với tập luyện",
-      "Mỗi buổi sáng (5 phút): Kéo giãn nhẹ — mèo-bò 10 lần, siết cơ bụng sâu 10 lần. Thói quen nhỏ mỗi sáng dễ duy trì hơn buổi tập dài hiếm khi làm",
+      "Thứ Hai, Tư, Sáu (buổi tối, 30-45 phút): Schroth đầy đủ — thở mở phần lõm 10 phút, 3-4 bài Schroth cơ bản 20 phút, giữ tư thế ổn định 5 phút. Đây là buổi tập quan trọng nhất",
+      "Thứ Ba, Năm (buổi tối, 20-30 phút): Bài tập cơ lõi — 5 bài kể trên, 3 hiệp mỗi bài. Kéo giãn sau tập 5 phút",
+      "Thứ Bảy hoặc Chủ nhật: Thể thao tự do theo sở thích của trẻ — bơi lội, đạp xe, đi bộ, bóng rổ. Đây là ngày quan trọng cho tâm lý và sự gắn kết lâu dài với vận động",
+      "Mỗi buổi sáng 5 phút: Kéo giãn nhẹ — động tác mèo-bò 10 lần, siết cơ bụng sâu 10 lần. Thói quen nhỏ mỗi sáng dễ duy trì hơn buổi tập dài hiếm khi thực hiện",
       "Tái khám vật lý trị liệu chuyên gia: Mỗi 1-3 tháng để điều chỉnh bài tập theo tiến triển. Không nên tự tập mà không có đánh giá định kỳ",
     ]},
     { type: "heading", content: "TƯ THẾ HÀNG NGÀY — Ít được chú ý nhưng quan trọng không kém tập luyện" },
-    { type: "para", content: "Tập 45 phút mỗi ngày nhưng ngồi sai tư thế 8 tiếng ở trường sẽ phủ nhận một phần lợi ích của tập luyện. Một nghiên cứu năm 2025 về bài tập PSSE thực hiện ở nhà qua ứng dụng kỹ thuật số (n=128 bệnh nhân) xác nhận: nhóm được nhắc nhở tư thế kết hợp bài tập có kết quả tốt hơn nhóm chỉ tập mà không có ý thức về tư thế." },
+    { type: "para", content: "Tập 45 phút mỗi ngày nhưng ngồi sai tư thế 8 tiếng ở trường sẽ phủ nhận một phần lợi ích của tập luyện. Một thử nghiệm lâm sàng ngẫu nhiên năm 2025 với 128 bệnh nhân xác nhận: nhóm được nhắc nhở tư thế kết hợp bài tập có kết quả tốt hơn nhóm chỉ tập mà không có ý thức về tư thế trong sinh hoạt hàng ngày." },
     { type: "list", items: [
-      "Ngồi học: Ghế và bàn đúng chiều cao (gối gập 90°, bàn chân phẳng sàn, màn hình ngang tầm mắt). Không ngồi vắt chân chéo một bên. Đứng dậy và đi lại mỗi 30-45 phút",
+      "Ngồi học: Ghế và bàn đúng chiều cao, gối gập 90 độ, bàn chân phẳng sàn, màn hình ngang tầm mắt. Không ngồi vắt chân chéo một bên. Đứng dậy đi lại mỗi 30-45 phút",
       "Đeo balo: Đeo hai quai, không đeo một bên. Nặng tối đa 10-15% trọng lượng cơ thể. Điều chỉnh quai cho balo sát lưng, không đung đưa",
       "Ngủ: Nệm đủ cứng để đỡ cột sống (không quá mềm sụp xuống). Nằm ngửa là tư thế tốt nhất. Nằm nghiêng có thể kê gối giữa hai gối để giữ hông thẳng hàng. Không nằm sấp dài hạn",
-      "Sử dụng điện thoại: Nâng điện thoại lên ngang mắt thay vì cúi đầu xuống. 'Text neck' (cúi đầu nhìn điện thoại) làm tăng tải trọng lên cột sống cổ và thay đổi đường cong tự nhiên của cột sống",
+      "Sử dụng điện thoại: Nâng điện thoại lên ngang mắt thay vì cúi đầu xuống. Thói quen cúi đầu nhìn điện thoại làm tăng tải trọng lên cột sống cổ và thay đổi đường cong tự nhiên của cột sống",
     ]},
     { type: "heading", content: "KHI TẬP KẾT HỢP ĐANG ĐEO NẸP — Những điều cần biết" },
     { type: "para", content: "Một câu hỏi thường gặp: có nên tháo nẹp khi tập luyện không? Câu trả lời: có — và đây là cơ hội quan trọng để cơ bắp được làm việc tự do. Tập luyện cơ lưng khi đang đeo nẹp hiệu quả thấp hơn vì nẹp đang 'làm thay' công việc của cơ." },
-    { type: "para", content: "Nghiên cứu về hiệu quả kết hợp nẹp + tập đặc hiệu cho thấy nhóm kết hợp có kết quả vượt trội: giảm góc Cobb tốt hơn, tỷ lệ thành công cao hơn so với chỉ đeo nẹp. Bác sĩ Negrini và cộng sự (SOSORT) khuyến cáo: trong giờ tập vật lý trị liệu đặc hiệu — tháo nẹp. Ngoài giờ tập — đeo nẹp theo chỉ định." },
-    { type: "highlight", content: "Công thức thành công cho điều trị bảo tồn AIS: Nẹp đúng giờ (13-18 giờ/ngày) + Schroth 5 ngày/tuần + Core 3 ngày/tuần + Tư thế đúng suốt ngày + Tái khám đúng lịch (mỗi 4-6 tháng có X-quang). Không có phím tắt. Nhưng trẻ tuân thủ đầy đủ công thức này có tỷ lệ tránh được phẫu thuật rất cao." },
-    { type: "para", content: "Điều trị bảo tồn AIS là một hành trình dài — thường từ lúc phát hiện đến khi xương trưởng thành (Risser 5) có thể mất 3-5 năm. Điều quan trọng nhất không phải là tập luyện nào tốt nhất về mặt lý thuyết, mà là phương pháp nào trẻ sẵn sàng duy trì đều đặn nhất. Hãy tìm sự kết hợp giữa Schroth/SEAS bắt buộc và một môn thể thao trẻ thích — đó là công thức thực tế bền vững nhất." },
-    { type: "note", content: "Tài liệu tham khảo: (1) Xu L, et al. Effects of Schroth 3D Exercise on AIS: Systematic Review and Meta-Analysis. Children (MDPI) 2024;11(7):806; (2) Romano M, Negrini A, et al. SEAS: Scientific Exercise Approach to Scoliosis. Scoliosis 2015;10:3; (3) Evaluating exercise therapies in AIS: Bayesian network meta-analysis. PMC 2025 (PMC11967429); (4) Xu et al. 12-week core stabilization exercise — Cobb angle and muscle strength in AIS. PMC 2017 (PMC5412502); (5) Preliminary study: Schroth + core in prepubescent AIS. Frontiers in Rehabilitation Sciences 2025; (6) Digital home-based PSSE RCT, n=128. PMC 2025 (PMC11836762); (7) SOSORT guidelines 2016 for conservative treatment of idiopathic scoliosis during growth. Bài viết mang tính giáo dục sức khỏe — không thay thế thăm khám và chỉ định cá thể hóa từ bác sĩ chuyên khoa." },
+    { type: "para", content: "Nghiên cứu về hiệu quả kết hợp nẹp + tập đặc hiệu cho thấy nhóm kết hợp có kết quả vượt trội: giảm góc Cobb tốt hơn, tỷ lệ thành công cao hơn so với chỉ đeo nẹp. Khuyến cáo của Hiệp hội Quốc tế về Điều trị Chỉnh hình Vẹo cột sống: trong giờ tập vật lý trị liệu đặc hiệu — tháo nẹp. Ngoài giờ tập — đeo nẹp theo chỉ định." },
+    { type: "highlight", content: "Công thức thành công cho điều trị bảo tồn: Nẹp đúng giờ 13-18 giờ mỗi ngày + Schroth 5 ngày mỗi tuần + Bài tập cơ lõi 3 ngày mỗi tuần + Tư thế đúng suốt ngày + Tái khám đúng lịch mỗi 4-6 tháng có chụp X-quang. Không có phím tắt. Nhưng trẻ tuân thủ đầy đủ công thức này có tỷ lệ tránh được phẫu thuật rất cao." },
+    { type: "para", content: "Điều trị bảo tồn vẹo cột sống là một hành trình dài — thường từ lúc phát hiện đến khi xương trưởng thành có thể mất 3-5 năm. Điều quan trọng nhất không phải là tập luyện nào tốt nhất về mặt lý thuyết, mà là phương pháp nào trẻ sẵn sàng duy trì đều đặn nhất. Hãy tìm sự kết hợp giữa bài tập Schroth bắt buộc và một môn thể thao trẻ thích — đó là công thức thực tế bền vững nhất." },
+    { type: "note", content: "Tài liệu tham khảo: (1) Xu L, et al. Effects of Schroth 3D Exercise on Adolescent Idiopathic Scoliosis: Systematic Review and Meta-Analysis. Children 2024;11(7):806; (2) Romano M, Negrini A, et al. Scientific Exercise Approach to Scoliosis. Scoliosis 2015;10:3; (3) Evaluating exercise therapies in adolescent idiopathic scoliosis: Bayesian network meta-analysis. PMC 2025; (4) Xu et al. 12-week core stabilization exercise in adolescent idiopathic scoliosis. PMC 2017; (5) Schroth combined with core exercises for prepubescent AIS. Frontiers in Rehabilitation Sciences 2025; (6) Digital home-based scoliosis-specific exercise RCT, 128 patients. PMC 2025; (7) SOSORT guidelines 2016 for conservative treatment of idiopathic scoliosis during growth. Bài viết mang tính giáo dục sức khỏe — không thay thế thăm khám và chỉ định cá thể hóa từ bác sĩ chuyên khoa." },
   ],
 
   "veo-cot-song-vo-can-tuoi-thieu-nien": [
@@ -1307,243 +1307,4 @@ const ARTICLES: Record<string, Block[]> = {
     { type: "para", content: "Sụn khớp gối không có mạch máu nuôi — nó nhận dinh dưỡng qua cơ chế ép và giải phóng áp lực khi vận động, giống như miếng bọt biển khi bóp và thả. Ngồi yên quá nhiều đồng nghĩa với sụn bị 'khô' và teo đét dần. Ngoài ra, cơ đùi (quadriceps) yếu là yếu tố nguy cơ hàng đầu làm đau khớp gối nặng hơn — bởi vì cơ đùi chính là hệ thống giảm xóc tự nhiên của khớp gối khi đi đứng." },
     { type: "warning", content: "Bài viết này dành cho bệnh nhân thoái hóa khớp gối độ 1-3 chưa phẫu thuật. Nếu vừa phẫu thuật thay khớp hoặc nội soi khớp gối, bạn cần chương trình phục hồi riêng — hãy hỏi bác sĩ trực tiếp trước khi tập bất kỳ bài nào." },
     { type: "heading", content: "Khởi động 5 phút trước khi tập — không được bỏ qua" },
-    { type: "para", content: "Khớp gối cần được 'làm ấm' trước khi chịu tải. Khởi động tốt giúp dịch khớp phân bố đều vào sụn, giảm độ cứng sáng và hạn chế nguy cơ chấn thương khi tập. Dành 5 phút làm các động tác sau trước mỗi buổi tập:" },
-    { type: "list", items: [
-      "Đi bộ tại chỗ nhẹ nhàng 2-3 phút — đơn giản nhất và hiệu quả nhất để khởi động toàn thân",
-      "Ngồi trên ghế, gập và duỗi đầu gối nhẹ nhàng 10-15 lần mỗi bên — làm trơn ổ khớp",
-      "Xoay vòng cổ chân 10 vòng mỗi bên theo chiều kim đồng hồ và ngược lại",
-      "Tùy chọn: chườm ấm lên khớp gối 10-15 phút trước khi tập — rất hiệu quả vào buổi sáng khi khớp còn cứng",
-    ]},
-    { type: "heading", content: "Bài 1: Nâng chân thẳng (Straight Leg Raise)" },
-    { type: "para", content: "Đây là bài tập nền tảng số 1, được khuyến cáo trong tất cả guideline điều trị thoái hóa khớp gối quốc tế. Bài tập tăng cường cơ đùi (quadriceps) — lớp cơ bảo vệ quan trọng nhất của khớp gối — mà không tạo áp lực trực tiếp lên mặt sụn khớp đang tổn thương. Nếu chỉ có thể tập một bài duy nhất, hãy chọn bài này." },
-    { type: "list", items: [
-      "Nằm ngửa trên sàn hoặc giường cứng. Một chân co nhẹ (bàn chân đặt sàn), một chân duỗi thẳng",
-      "Siết cứng cơ đùi chân duỗi thẳng — cảm giác như đang ép đầu gối xuống sàn",
-      "Giữ cơ đùi siết, nâng chân lên cao khoảng 30-45 độ so với sàn — giữ 3 giây",
-      "Hạ xuống chậm rãi và có kiểm soát. Đổi chân. Lặp 10-15 lần mỗi bên, 2-3 hiệp mỗi ngày",
-      "Nâng cao hơn: sau 2-3 tuần tập tốt, có thể đeo tạ cổ chân nhẹ 0.5-1kg",
-    ]},
-    { type: "heading", content: "Bài 2: Siết cơ đùi tĩnh (Quad Sets)" },
-    { type: "para", content: "Bài tập đẳng trường (isometric) này đặc biệt phù hợp với bệnh nhân đang trong giai đoạn đau cấp hoặc vừa trải qua đợt viêm khớp. Không có chuyển động ở khớp gối nhưng vẫn kích thích cơ đùi hoạt động hiệu quả." },
-    { type: "list", items: [
-      "Ngồi trên sàn hoặc giường, chân duỗi thẳng. Đặt một chiếc khăn cuộn nhỏ dưới đầu gối",
-      "Siết (gồng) cơ đùi — cảm giác như đang ép chiếc khăn xuống sàn và duỗi thẳng đầu gối",
-      "Giữ 5-10 giây, thư giãn hoàn toàn. Lặp 10-15 lần. Thực hiện 3 lần mỗi ngày",
-      "Có thể tập ngay trên giường khi mới thức dậy — lý tưởng để giảm cứng khớp buổi sáng",
-    ]},
-    { type: "heading", content: "Bài 3: Ngồi đứng có kiểm soát (Sit-to-Stand)" },
-    { type: "para", content: "Đây là bài tập chức năng quan trọng nhất — bởi vì đứng lên ngồi xuống là động tác người thoái hóa khớp gối phải thực hiện hàng chục lần mỗi ngày. Tập đúng kỹ thuật giúp bảo vệ khớp trong sinh hoạt hàng ngày và tăng sức mạnh cơ đùi, cơ mông đồng thời." },
-    { type: "list", items: [
-      "Ngồi thẳng lưng trên ghế có độ cao vừa phải — không quá thấp (ghế thấp gây đầu gối gập hơn 90 độ, tăng áp lực khớp)",
-      "Đặt hai bàn chân rộng bằng vai, hơi nghiêng người ra trước từ hông — KHÔNG cúi lưng",
-      "Đẩy từ gót chân và siết cơ đùi, cơ mông để đứng lên — tránh dùng tay vịn ghế nếu có thể",
-      "Từ từ ngồi xuống có kiểm soát — KHÔNG ngồi phịch xuống, kiểm soát chuyển động đến khi mông chạm ghế",
-      "Lặp 10-15 lần, 2-3 hiệp. Khi đã tập tốt, đặt gối bên dưới mông để tăng độ khó dần",
-    ]},
-    { type: "heading", content: "Bài 4: Kéo gót chân (Hamstring Curl)" },
-    { type: "para", content: "Cơ sau đùi (hamstrings) và cơ trước đùi (quadriceps) cần được cân bằng — tập mỗi bên đơn độc dễ tạo mất cân bằng cơ, tăng nguy cơ chấn thương. Bài này giúp kéo giãn và tăng sức mạnh cơ sau đùi." },
-    { type: "list", items: [
-      "Đứng thẳng, tay vịn nhẹ vào thành ghế hoặc tường để giữ thăng bằng",
-      "Từ từ gập một đầu gối lên phía sau — cố gắng đưa gót chân gần về phía mông",
-      "Giữ 2-3 giây, hạ xuống chậm và có kiểm soát. Đổi chân. Lặp 10-15 lần mỗi bên",
-      "Không xoay hông hay nghiêng người sang bên khi thực hiện động tác",
-    ]},
-    { type: "heading", content: "Bài 5: Nâng gót chân đứng (Calf Raise)" },
-    { type: "para", content: "Bắp chân (calf) đóng vai trò bơm máu về tim và hỗ trợ giảm sưng cho khớp gối. Bài tập này cũng cải thiện tuần hoàn máu toàn bộ chân dưới và giảm cảm giác nặng nề sau một ngày dài." },
-    { type: "list", items: [
-      "Đứng thẳng, hai chân rộng bằng vai. Tay vịn nhẹ vào ghế hoặc tường để giữ thăng bằng",
-      "Từ từ nhón hai gót chân lên cao hết mức có thể — giữ 2-3 giây",
-      "Hạ xuống chậm rãi — KHÔNG thả gót xuống đột ngột, kiểm soát đến khi gót chạm sàn nhẹ nhàng",
-      "Lặp 15-20 lần, 2-3 hiệp. Nâng cao: tập một chân khi đã quen",
-    ]},
-    { type: "heading", content: "Bài 6: Bước lên bậc thang (Step-Up)" },
-    { type: "para", content: "Bài tập chức năng mô phỏng thực tế hàng ngày — giúp người thoái hóa khớp gối đi cầu thang an toàn và tự tin hơn. Tập có kiểm soát giúp xây dựng sức mạnh và sự phối hợp cần thiết cho vận động thực tế." },
-    { type: "list", items: [
-      "Đứng trước một bậc thang thấp khoảng 10-15cm (hoặc dùng một cuốn sách dày đặt dưới chân)",
-      "Bước chân phải lên bậc trước, đẩy cơ đùi và mông để kéo cơ thể lên — giữ lưng thẳng",
-      "Đặt chân trái lên bậc cạnh chân phải rồi bước xuống từng bước. Lặp 10 lần mỗi bên",
-      "Tay có thể vịn tường bên cạnh khi mới tập, giảm dần khi đã quen. Không vội, không nhún mạnh",
-    ]},
-    { type: "heading", content: "Bài 7: Đi bộ — bài tập quan trọng và đơn giản nhất" },
-    { type: "para", content: "Đi bộ đều đặn mỗi ngày là liệu pháp vận động có bằng chứng khoa học mạnh nhất cho thoái hóa khớp gối. Phân tích tổng hợp năm 2025 xác nhận: tập thể dục aerobic (bao gồm đi bộ) mang lại lợi ích về giảm đau và cải thiện chức năng lớn hơn so với nhiều can thiệp khác. Không cần phòng gym, không cần dụng cụ — chỉ cần đôi giày phù hợp và sự kiên trì." },
-    { type: "list", items: [
-      "Bắt đầu từ 10-15 phút mỗi ngày nếu chưa quen tập — tăng dần 5 phút mỗi tuần",
-      "Mục tiêu dài hạn: 30 phút mỗi ngày, 5 ngày mỗi tuần theo khuyến cáo của OARSI",
-      "Đi trên mặt phẳng bằng phẳng, tránh đường dốc cao hoặc gồ ghề trong giai đoạn đầu",
-      "Chọn giày đế mềm, đệm tốt — giày không phù hợp làm tăng đáng kể lực tác động lên khớp gối",
-      "Đi bộ dưới nước hoặc trong hồ bơi (aqua walking): giảm 50-70% trọng lực lên khớp — cực kỳ phù hợp khi đau nặng",
-      "Đạp xe đạp tĩnh cũng là lựa chọn tốt: tập aerobic mà không tải trọng mạnh lên khớp",
-    ]},
-    { type: "highlight", content: "Một phân tích năm 2025 so sánh đi bộ có hỗ trợ và đi bộ tự do ở bệnh nhân thoái hóa khớp gối — kết quả: cả hai đều cải thiện đau và chức năng đáng kể. Yếu tố quan trọng nhất không phải là bài tập bạn chọn, mà là sự kiên trì và đều đặn." },
-    { type: "heading", content: "Những gì TUYỆT ĐỐI TRÁNH khi bị thoái hóa khớp gối" },
-    { type: "list", items: [
-      "Ngồi xổm sâu hoặc quỳ lâu: tạo áp lực lên sụn khớp gấp 5-8 lần trọng lượng cơ thể",
-      "Chạy bộ trên mặt đường nhựa cứng khi cơ đùi chưa đủ mạnh: tăng tốc độ mòn sụn",
-      "Các môn thể thao va chạm: bóng đá, bóng rổ, cầu lông cường độ cao trong giai đoạn đau",
-      "Ngồi hoặc đứng một tư thế quá lâu: thay đổi tư thế mỗi 30-45 phút, đứng lên đi lại vài bước",
-      "Leo cầu thang nhiều lần không cần thiết trong giai đoạn đau cấp",
-      "Tăng cân: mỗi 1kg tăng thêm tạo khoảng 3-4kg áp lực lên mỗi đầu gối khi đi bộ",
-      "Dừng tập hoàn toàn vì sợ đau: nghịch lý nhưng ngồi yên một chỗ thường làm khớp đau hơn về lâu dài",
-    ]},
-    { type: "heading", content: "Lịch tập gợi ý trong tuần" },
-    { type: "list", items: [
-      "Thứ 2, 4, 6: Nâng chân thẳng + Siết cơ đùi tĩnh + Ngồi đứng + Kéo gót chân + Nâng gót chân (khoảng 25-30 phút)",
-      "Thứ 3, 5: Đi bộ 20-30 phút nhẹ nhàng hoặc đạp xe đạp tĩnh 20 phút",
-      "Thứ 7: Đi bộ dài hơn (30-45 phút) hoặc thêm bài Bước lên bậc thang",
-      "Chủ nhật: Nghỉ ngơi hoặc hoạt động nhẹ — kéo giãn nhẹ nhàng không xoay gối",
-      "Mỗi buổi tập: 5 phút khởi động trước và 5 phút kéo giãn thả lỏng sau khi tập",
-    ]},
-    { type: "note", content: "Nguyên tắc 2 giờ: nếu sau khi tập đầu gối đau hơn và kéo dài hơn 2 giờ — bạn đang tập quá sức. Giảm số lần lặp hoặc thời gian xuống 50% và thử lại. Một chút đau cơ bắp sau tập là bình thường, nhưng đau khớp tăng kéo dài là dấu hiệu cần điều chỉnh." },
-    { type: "heading", content: "Khi nào cần gặp bác sĩ ngay?" },
-    { type: "warning", content: "Liên hệ bác sĩ ngay nếu: đau tăng đột ngột sau khi đang ổn định | đầu gối sưng to, nóng đỏ bất thường (có thể viêm khớp cấp) | cảm giác khớp lỏng, bị kẹt không duỗi thẳng được | đau về đêm làm mất ngủ kéo dài | đã tập đúng phương pháp 8-12 tuần nhưng hoàn toàn không cải thiện." },
-    { type: "para", content: "Thoái hóa khớp gối là bệnh mãn tính — không có thuốc chữa khỏi hoàn toàn, nhưng hoàn toàn có thể kiểm soát tốt để giữ chất lượng cuộc sống. Bài tập đúng cách, đều đặn mỗi ngày là nền tảng quan trọng nhất của điều trị. Bác sĩ có thể kê thêm thuốc giảm đau, hỗ trợ tiêm khớp hay vật lý trị liệu chuyên sâu — nhưng việc tập luyện hằng ngày là trách nhiệm của chính bạn và không ai có thể thay thế bạn làm điều đó." },
-    { type: "note", content: "Tài liệu tham khảo: OARSI Guidelines for Knee Osteoarthritis (2019, cập nhật 2022); AAOS Clinical Practice Guideline on Knee OA (2021); Supervised or Home-Based Exercise for Knee OA: Systematic Review and Meta-Analysis, PMC (2025); Nonoperative Management Recommendations for Knee OA — PMC (2025). Bài viết mang tính giáo dục sức khỏe — không thay thế tư vấn y tế trực tiếp." },
-  ],
-
-  "loi-khuyen-suc-khoe-nang-nong-cuc-doan": [
-    { type: "para", content: "Mùa hè 2025–2026, nhiều tỉnh thành Việt Nam ghi nhận nhiệt độ vượt 40°C liên tục nhiều ngày. Sốc nhiệt (heat stroke) có thể gây tổn thương não vĩnh viễn và tử vong chỉ trong vòng 30 phút nếu không được xử trí kịp thời." },
-    { type: "heading", content: "Ba mức độ say nắng" },
-    { type: "list", items: [
-      "Mức 1 — Kiệt sức do nhiệt: ra nhiều mồ hôi, da lạnh và ẩm, mạch nhanh yếu, chóng mặt, buồn nôn, thân nhiệt dưới 40°C — cần dừng hoạt động và vào nơi mát ngay",
-      "Mức 2 — Sốc nhiệt: thân nhiệt trên 40°C, da đỏ và nóng (không còn mồ hôi), lú lẫn, co giật hoặc mất ý thức — GỌI 115 NGAY",
-    ]},
-    { type: "heading", content: "7 hành động bảo vệ sức khỏe" },
-    { type: "list", items: [
-      "Uống đủ nước kể cả khi không khát: 2–3 lít/ngày; người lao động ngoài trời uống 250ml mỗi 15–20 phút",
-      "Tránh ra ngoài khung giờ 10h–16h; mặc quần áo sáng màu, rộng rãi, đội mũ rộng vành",
-      "Bôi kem chống nắng SPF 30 trở lên, thoa lại mỗi 2 giờ",
-      "Làm mát môi trường sống bằng quạt, điều hòa hoặc đến nơi công cộng có điều hòa",
-      "Không để trẻ em hoặc người già một mình trong xe ô tô — nhiệt độ trong xe tăng thêm 20°C chỉ sau 10 phút",
-      "Theo dõi sức khỏe người thân có nguy cơ cao, gọi điện kiểm tra người già sống một mình ít nhất 2 lần/ngày",
-    ]},
-    { type: "heading", content: "Lưu ý đặc biệt cho bệnh nhân cột sống và khớp" },
-    { type: "para", content: "Thuốc kháng viêm NSAID (Ibuprofen, Diclofenac, Meloxicam) làm giảm lưu lượng máu đến thận. Kết hợp với mất nước do nắng nóng, nguy cơ suy thận cấp tăng cao đột biến. Không tập phục hồi chức năng ngoài trời trong nắng; không ngưng thuốc loãng xương hay bệnh nền khi trời nóng." },
-    { type: "warning", content: "Với sốc nhiệt: chuyển người bệnh vào nơi mát · cởi bớt quần áo · đặt túi đá lên nách, háng, hai bên cổ · cho uống nước từng ngụm nhỏ nếu còn tỉnh · GỌI 115 NGAY và theo dõi liên tục." },
-    { type: "note", content: "Tổng hợp từ: WHO 2025, CDC Hoa Kỳ, Bộ Y tế Việt Nam và các nghiên cứu lâm sàng đăng trên PubMed/NIH năm 2024–2025. Liên hệ cấp cứu: 115." },
-  ],
-
-};
-
-function RenderBlock({ block, index }: { block: Block; index: number }) {
-  switch (block.type) {
-    case "heading":
-      return <h2 key={index} className="font-serif-brand text-[20px] font-bold text-navy mt-8 mb-3 leading-snug">{block.content}</h2>;
-    case "para":
-      return <p key={index} className="text-[15.5px] font-light leading-[1.85] text-gray-500 mb-5">{block.content}</p>;
-    case "list":
-      return (
-        <ul key={index} className="list-none mb-6 space-y-2.5">
-          {block.items.map((item, j) => (
-            <li key={j} className="flex items-start gap-3 text-[15px] font-light text-gray-500">
-              <span className="w-1.5 h-1.5 rounded-full bg-navy mt-2.5 flex-shrink-0" />{item}
-            </li>
-          ))}
-        </ul>
-      );
-    case "highlight":
-      return (
-        <div key={index} className="my-6 border-l-[3px] border-navy pl-5 py-1">
-          <p className="font-serif-brand text-[17px] font-normal italic text-navy leading-relaxed">{block.content}</p>
-        </div>
-      );
-    case "warning":
-      return (
-        <div key={index} className="my-6 p-4 bg-yellow-50 border border-yellow-200 border-l-[3px] border-l-brand-gold text-[13.5px] text-gray-600 leading-relaxed">
-          <strong className="font-semibold text-gray-800 block mb-1">⚠️ Lưu ý quan trọng:</strong>
-          {block.content}
-        </div>
-      );
-    case "note":
-      return (
-        <div key={index} className="mt-8 p-4 bg-brand-gold-lt border-l-[3px] border-brand-gold text-[13px] font-light text-gray-600">
-          <strong className="font-semibold text-gray-700">Lưu ý: </strong>{block.content}
-        </div>
-      );
-    case "image":
-      return (
-        <div key={index} className="my-7 border border-gray-200 overflow-hidden bg-gray-50">
-          <div className="relative w-full" style={{aspectRatio: "4/3"}}>
-            <Image src={block.src} alt={block.alt} fill className="object-cover" />
-          </div>
-          <div className="px-4 py-3 border-t border-gray-200">
-            <p className="text-[13px] font-semibold text-gray-800 mb-1">{block.caption}</p>
-            <p className="text-[12px] text-gray-400 italic leading-relaxed">{block.subcaption}</p>
-          </div>
-        </div>
-      );
-    default:
-      return null;
-  }
-}
-
-export default function BlogPostPage({ params }: { params: { slug: string } }) {
-  const post = POSTS.find((p) => p.slug === params.slug);
-  if (!post) notFound();
-  const blocks = ARTICLES[params.slug];
-  const postUrl = `https://bs-quyen-website.vercel.app/blog/${params.slug}`;
-
-  return (
-    <>
-      <div className="bg-navy py-10 md:py-14">
-        <Container>
-          <Link href="/blog" className="inline-flex items-center gap-2 text-[13px] text-white/50 hover:text-white mb-6 transition-colors">
-            <ArrowLeft size={14} /> Quay lại tất cả bài viết
-          </Link>
-          <p className="text-[11px] font-semibold tracking-[0.18em] uppercase text-brand-gold mb-3">{post!.audience}</p>
-          <h1 className="font-serif-brand text-[clamp(24px,3.5vw,38px)] font-bold text-white leading-tight max-w-2xl">{post!.title}</h1>
-          <p className="text-[13px] text-white/40 mt-4">TS.BS. Nguyễn Ngọc Quyền &nbsp;·&nbsp; {post!.date}</p>
-        </Container>
-      </div>
-
-      <div className="py-12 md:py-16">
-        <Container>
-          <div className="grid md:grid-cols-[1fr_260px] gap-12 items-start">
-            <article className="max-w-2xl">
-              <p className="text-[16.5px] font-light leading-[1.85] text-gray-500 mb-8 font-serif-brand italic border-l-2 border-brand-gold pl-5">
-                {post!.excerpt}
-              </p>
-              {blocks
-                ? blocks.map((block, i) => <RenderBlock key={i} block={block} index={i} />)
-                : <p className="text-gray-400 italic">Nội dung đầy đủ sẽ được cập nhật sớm.</p>
-              }
-              <div className="mt-10 pt-6 border-t border-gray-100 flex items-center gap-4 flex-wrap">
-                <span className="text-[13px] text-gray-400">Chia sẻ bài viết:</span>
-                <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(postUrl)}`}
-                  target="_blank" rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-[#1877F2] text-white text-[13px] font-semibold px-4 py-2 hover:bg-[#166FE5] transition-colors">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="white"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                  Chia sẻ Facebook
-                </a>
-              </div>
-            </article>
-
-            <aside className="space-y-4 sticky top-20">
-              <div className="bg-navy p-5">
-                <p className="text-[11px] font-semibold tracking-[0.15em] uppercase text-brand-gold mb-2">Về tác giả</p>
-                <p className="font-serif-brand text-[15px] font-bold text-white">TS.BS. Nguyễn Ngọc Quyền</p>
-                <p className="text-[12px] text-white/50 mt-1">Bác sĩ Cột sống · Bệnh viện TWQĐ 108</p>
-                <div className="mt-4 pt-4 border-t border-white/10">
-                  <p className="text-[11px] text-white/40 uppercase tracking-wider mb-1">Đặt lịch khám</p>
-                  <a href="tel:0989052288" className="text-[22px] font-bold text-white block hover:text-brand-gold transition-colors">0989 052 288</a>
-                  <p className="text-[11.5px] text-white/40 mt-1 leading-relaxed">T2–T6: 6h30–17h · Phòng 225, BV 108<br/>Thứ 6: 17h30+ · SpineTech, 257 Giải Phóng</p>
-                </div>
-              </div>
-              <div className="bg-gray-50 border border-gray-200 p-5">
-                <p className="text-[11px] font-semibold tracking-[0.15em] uppercase text-navy mb-3">Bài viết liên quan</p>
-                <ul className="space-y-2 list-none">
-                  {POSTS.filter((p) => p.slug !== params.slug).slice(0, 4).map((p) => (
-                    <li key={p.slug}>
-                      <Link href={`/blog/${p.slug}`} className="text-[13px] text-gray-600 hover:text-navy transition-colors leading-snug block py-1 border-b border-gray-100 last:border-b-0">
-                        {p.title}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </aside>
-          </div>
-        </Container>
-      </div>
-    </>
-  );
-}
+    { type: "para", content: "
