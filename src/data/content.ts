@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "veo-cot-song-vo-can-tuoi-thieu-nien",
+    title: "Vẹo Cột Sống Vô Căn Ở Tuổi Thanh Thiếu Niên: Khi Nào Cần Phẫu Thuật, Khi Nào Chưa Cần?",
+    excerpt: "Phần lớn trẻ bị vẹo cột sống KHÔNG cần phẫu thuật. Quyết định phụ thuộc vào góc Cobb và độ trưởng thành xương (Risser). Bác sĩ giải thích rõ ngưỡng 20°-45°-50°, hiệu quả của nẹp chỉnh hình (BrAIST study: 72% thành công), bài tập Schroth, và khi nào phẫu thuật thực sự cần thiết.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-06-16",
+  },
+  {
     slug: "dau-lung-khi-nao-can-chup-mri",
     title: "Đau Lưng Phải Chụp MRI Không? Bác Sĩ Nói Sự Thật Mà Nhiều Người Không Muốn Nghe",
     excerpt: "52% người khỏe mạnh không đau lưng vẫn có đĩa đệm 'bất thường' trên MRI. Chụp MRI sớm không đúng chỉ định còn làm bạn đau lâu hơn. Bác sĩ cột sống giải thích khi nào thực sự cần chụp, khi nào không — và những dấu hiệu nguy hiểm không được bỏ qua.",
