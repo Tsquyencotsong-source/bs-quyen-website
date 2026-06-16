@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "tap-luyen-phcn-veo-cot-song-khong-phau-thuat",
+    title: "Vẹo Cột Sống Tuổi Thiếu Niên Chưa Mổ — Hướng Dẫn Tập Luyện Cụ Thể Từ Bằng Chứng Khoa Học",
+    excerpt: "Tập Schroth giảm Cobb trung bình 4,8°; kết hợp core + Schroth cho kết quả vượt trội nẹp đơn thuần. Bác sĩ hướng dẫn cụ thể 4 bài Schroth, 5 bài core, lịch tập 5 ngày/tuần, môn thể thao nên và tránh — tất cả có dẫn chứng nghiên cứu lâm sàng.",
+    audience: "Cho bệnh nhân",
+    category: "Phục hồi chức năng",
+    date: "2026-06-17",
+  },
+  {
     slug: "veo-cot-song-vo-can-tuoi-thieu-nien",
     title: "Vẹo Cột Sống Vô Căn Ở Tuổi Thanh Thiếu Niên: Khi Nào Cần Phẫu Thuật, Khi Nào Chưa Cần?",
     excerpt: "Phần lớn trẻ bị vẹo cột sống KHÔNG cần phẫu thuật. Quyết định phụ thuộc vào góc Cobb và độ trưởng thành xương (Risser). Bác sĩ giải thích rõ ngưỡng 20°-45°-50°, hiệu quả của nẹp chỉnh hình (BrAIST study: 72% thành công), bài tập Schroth, và khi nào phẫu thuật thực sự cần thiết.",
@@ -384,22 +392,4 @@ export const TRAINEES = [
     year: "2026",
     name: "Vũ Hồng Vân",
     thesis:
-      "Thực trạng vận động, sinh hoạt hàng ngày của người bệnh xẹp đốt sống có loãng xương đến khám tại Phòng khám Cột sống — Bệnh viện TWQĐ 108 năm 2025",
-  },
-  {
-    type: "Bác sĩ nội trú",
-    school: "ĐH Y Dược Thái Nguyên",
-    year: "2026",
-    name: "Bùi Văn Kha",
-    thesis:
-      "Kết quả phẫu thuật cột sống lối sau điều trị trượt đốt sống thắt lưng trên bệnh nhân loãng xương tại Bệnh viện TWQĐ 108",
-  },
-  {
-    type: "Bác sĩ nội trú",
-    school: "ĐH Y Dược Thái Nguyên",
-    year: "2026",
-    name: "Lê Thanh Tùng",
-    thesis:
-      "Kết quả phẫu thuật lối sau điều trị vẹo cột sống thắt lưng do thoái hóa tại Bệnh viện TWQĐ 108",
-  },
-] as const;
+      "Thực trạng vận động, sinh hoạt hàng ngày của người bệnh xẹp đốt sống có loãng xương đến khám tại Phòng khám Cột sống — Bệnh viện TWQ
