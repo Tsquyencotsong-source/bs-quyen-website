@@ -1307,4 +1307,4 @@ const ARTICLES: Record<string, Block[]> = {
     { type: "para", content: "Sụn khớp gối không có mạch máu nuôi — nó nhận dinh dưỡng qua cơ chế ép và giải phóng áp lực khi vận động, giống như miếng bọt biển khi bóp và thả. Ngồi yên quá nhiều đồng nghĩa với sụn bị 'khô' và teo đét dần. Ngoài ra, cơ đùi (quadriceps) yếu là yếu tố nguy cơ hàng đầu làm đau khớp gối nặng hơn — bởi vì cơ đùi chính là hệ thống giảm xóc tự nhiên của khớp gối khi đi đứng." },
     { type: "warning", content: "Bài viết này dành cho bệnh nhân thoái hóa khớp gối độ 1-3 chưa phẫu thuật. Nếu vừa phẫu thuật thay khớp hoặc nội soi khớp gối, bạn cần chương trình phục hồi riêng — hãy hỏi bác sĩ trực tiếp trước khi tập bất kỳ bài nào." },
     { type: "heading", content: "Khởi động 5 phút trước khi tập — không được bỏ qua" },
-    { type: "para", content: "
+    { type: "para", content: "Khớp gối
