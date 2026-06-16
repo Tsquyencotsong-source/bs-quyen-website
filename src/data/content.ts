@@ -392,4 +392,22 @@ export const TRAINEES = [
     year: "2026",
     name: "Vũ Hồng Vân",
     thesis:
-      "Thực trạng vận động, sinh hoạt hàng ngày của người bệnh xẹp đốt sống có loãng xương đến khám tại Phòng khám Cột sống — Bệnh viện TWQ
+      "Thực trạng vận động, sinh hoạt hàng ngày của người bệnh xẹp đốt sống có loãng xương đến khám tại Phòng khám Cột sống — Bệnh viện TWQĐ 108 năm 2025",
+  },
+  {
+    type: "Bác sĩ nội trú",
+    school: "ĐH Y Dược Thái Nguyên",
+    year: "2026",
+    name: "Bùi Văn Kha",
+    thesis:
+      "Kết quả phẫu thuật cột sống lối sau điều trị trượt đốt sống thắt lưng trên bệnh nhân loãng xương tại Bệnh viện TWQĐ 108",
+  },
+  {
+    type: "Bác sĩ nội trú",
+    school: "ĐH Y Dược Thái Nguyên",
+    year: "2026",
+    name: "Lê Thanh Tùng",
+    thesis:
+      "Kết quả phẫu thuật lối sau điều trị vẹo cột sống thắt lưng do thoái hóa tại Bệnh viện TWQĐ 108",
+  },
+] as const;
