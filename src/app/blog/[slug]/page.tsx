@@ -26,6 +26,60 @@ type Block =
   | { type: "warning"; content: string };
 
 const ARTICLES: Record<string, Block[]> = {
+  "dau-lung-uong-thuoc-dung-gio-hay-cho-den-khi-khong-chiu-duoc": [
+    { "type": "para", "content": "Bà Lan, 58 tuổi, vừa được bác sĩ chẩn đoán thoái hóa cột sống thắt lưng và kê đơn thuốc giảm đau viêm 10 ngày. Về nhà, bà để hộp thuốc trên bàn và tự nhủ: còn chịu được thì chịu, thuốc nhiều uống hại người. Đến ngày thứ ba, khi cơn đau đã khiến bà không thể cúi người rửa mặt, bà mới uống một viên. Nhưng phải chờ thêm 2 giờ thuốc mới bắt đầu có hiệu quả — trong khi cơn đau đã lên đến đỉnh điểm. Bà không biết rằng mình đã vô tình làm khó chính mình, và đây là sai lầm rất phổ biến." },
+    { "type": "highlight", "content": "Khi bác sĩ đã chẩn đoán xác định và kê đơn thuốc giảm đau, thuốc đó cần được uống ĐÚNG GIỜ theo đơn — không phải chờ đến khi đau không chịu được. Đây không phải quan điểm riêng của một bác sĩ, mà là nguyên tắc y học có bằng chứng, được Tổ chức Y tế Thế giới ghi rõ trong hướng dẫn điều trị đau toàn cầu." },
+    { "type": "heading", "content": "Đau Là Gì? Hệ Thần Kinh Hoạt Động Như Thế Nào?" },
+    { "type": "para", "content": "Hãy hình dung hệ thần kinh của bạn như một mạng lưới điện thoại khổng lồ: từ vùng cột sống bị tổn thương, các dây thần kinh liên tục gửi tín hiệu báo động lên não. Não nhận tín hiệu đó và bạn cảm thấy đau. Thuốc giảm đau hoạt động bằng cách ngăn chặn hoặc làm yếu các tín hiệu đó tại nhiều điểm khác nhau trên đường truyền — giống như giảm âm lượng của một chiếc còi báo động đang hú liên hồi." },
+    { "type": "para", "content": "Vấn đề là: chiếc còi đó không tự tắt. Khi thuốc hết tác dụng và bạn chờ đau mới uống tiếp — nghĩa là bạn đang để còi hú hết cỡ trong một khoảng thời gian trước khi tắt nó. Và đây là nơi khoa học thần kinh hiện đại chỉ ra một hậu quả nghiêm trọng mà ít bệnh nhân nào được nghe giải thích." },
+    { "type": "heading", "content": "Điều Gì Xảy Ra Khi Bạn Để Đau Leo Thang Mới Uống Thuốc?" },
+    { "type": "para", "content": "Khi một cơn đau không được kiểm soát liên tục, hệ thần kinh trung ương — tức não và tủy sống — dần dần thay đổi cách xử lý tín hiệu đau. Quá trình này được gọi là tăng nhạy cảm trung ương. Hàng loạt nghiên cứu lớn công bố năm 2024-2025 trên các tạp chí quốc tế đã làm rõ cơ chế này." },
+    { "type": "para", "content": "Hãy hình dung như sau: ban đầu, để cảm thấy đau, bạn cần một kích thích đủ mạnh. Nhưng khi hệ thần kinh bị kích thích liên tục bởi các tín hiệu đau không được dập tắt, nó bắt đầu thay đổi cấu trúc và cách hoạt động — giống như một chiếc chuông báo động bị kẹt, ngày càng nhạy hơn, chỉ cần gõ khẽ cũng hú to. Kết quả: những kích thích vốn không đau như chạm nhẹ, thay đổi tư thế nhỏ cũng bắt đầu gây đau; liều thuốc vốn có tác dụng tốt nay không còn đủ hiệu quả." },
+    { "type": "warning", "content": "Nghiên cứu đăng trên Pain Reports (2024) và Frontiers in Molecular Neuroscience (2025) kết luận nhất quán: đau cấp tính không được kiểm soát đầy đủ là một trong những yếu tố nguy cơ quan trọng nhất dẫn đến đau mãn tính. Nghĩa là: chịu đựng đau lưng cấp, không dùng thuốc đúng đơn → tăng đáng kể khả năng trở thành đau mãn tính kéo dài nhiều tháng hoặc nhiều năm." },
+    { "type": "heading", "content": "Tại Sao Uống Thuốc Khi Đau Đỉnh Điểm Lại Kém Hiệu Quả Hơn?" },
+    { "type": "para", "content": "Đây là một thực tế sinh lý quan trọng: khi một cơn đau đã bùng phát và đạt mức độ nặng, hệ thần kinh đang ở trạng thái kích hoạt mạnh. Để dập tắt cơn đau đó, thuốc phải đấu lại với một làn sóng tín hiệu đau đang ở đỉnh điểm, và cần thêm thời gian để thuốc đủ nồng độ trong máu đạt hiệu quả. Ngược lại, nếu uống thuốc đúng giờ — khi thuốc còn duy trì nồng độ ổn định trong máu — thuốc chỉ cần tiếp tục ức chế tín hiệu đau, không phải đuổi theo một cơn đau đã leo thang." },
+    { "type": "para", "content": "Cùng một viên thuốc, cùng một liều lượng — nhưng uống đúng giờ trước khi đau tăng cho hiệu quả tốt hơn đáng kể so với uống khi đau đã lên đỉnh. Giống như dập lửa nhỏ dễ hơn rất nhiều so với dập đám cháy đã bùng to." },
+    { "type": "heading", "content": "Nguyên Tắc Của Tổ Chức Y Tế Thế Giới: Uống Thuốc Theo Đồng Hồ" },
+    { "type": "para", "content": "Tổ chức Y tế Thế giới đã xây dựng hướng dẫn điều trị đau từ nhiều thập kỷ nay với một nguyên tắc cốt lõi gói gọn trong 3 cụm từ: theo đường miệng — theo từng bậc — theo đồng hồ. Cụm từ cuối cùng là then chốt nhất: uống thuốc theo đúng giờ cố định đã được kê đơn, không chờ đến khi đau xuất hiện." },
+    { "type": "highlight", "content": "Nguyên tắc theo đồng hồ trong điều trị đau: Không chờ đau mới uống thuốc. Uống đúng giờ đã được kê — ví dụ mỗi 6 giờ hoặc mỗi 8 giờ — để duy trì nồng độ thuốc ổn định trong máu, kiểm soát đau liên tục suốt ngày, và ngăn cơn đau leo thang. Điều này áp dụng cho hầu hết các loại thuốc giảm đau thông thường được kê trong điều trị đau lưng." },
+    { "type": "heading", "content": "Bằng Chứng Khoa Học Từ Các Nghiên Cứu Lâm Sàng" },
+    { "type": "para", "content": "Thử nghiệm lâm sàng về thuốc giảm đau thông thường cho đau lưng cấp — một trong những thử nghiệm ngẫu nhiên có đối chứng đầu tiên thuộc loại này — được thiết kế dựa trên giả thuyết rằng uống đúng giờ cố định nhiều lần trong ngày sẽ kiểm soát đau tốt hơn so với chỉ uống khi cần. Thiết kế này phản ánh quan điểm lâm sàng được đúc kết qua nhiều thập kỷ: kiểm soát đau chủ động tốt hơn bị động." },
+    { "type": "para", "content": "Một nghiên cứu công bố trên thư viện y khoa quốc gia (2013) về phục hồi sau gãy xương vùng hông cho thấy: nhóm được dùng thuốc giảm đau theo lịch cố định có khả năng tham gia vật lý trị liệu tốt hơn, đi lại sớm hơn và ít biến chứng hơn so với nhóm chỉ dùng khi đau. Lý do đơn giản và có thể đo lường: đau không được kiểm soát cản trở trực tiếp khả năng vận động và phục hồi chức năng." },
+    { "type": "para", "content": "Tổng kết các thử nghiệm lâm sàng về quản lý đau sau phẫu thuật (2024-2025) kết luận nhất quán: phác đồ thuốc giảm đau theo lịch cố định, kết hợp nhiều loại thuốc tác động ở các điểm khác nhau của đường dẫn truyền đau, cho hiệu quả kiểm soát đau tốt hơn và giảm tổng lượng thuốc cần dùng so với chỉ dùng khi đau." },
+    { "type": "heading", "content": "Các Loại Thuốc Thường Được Kê Và Cách Dùng Đúng" },
+    { "type": "list", "items": [
+      "Thuốc hạ sốt giảm đau thông thường (thành phần: paracetamol): Thường kê 500-1000mg mỗi 6-8 giờ. Uống đúng giờ kể cả khi chưa đau. Liều tối đa trong ngày không quá 4000mg. An toàn với dạ dày, uống được lúc đói. Không kết hợp với rượu bia.",
+      "Thuốc kháng viêm không steroid (ví dụ: diclofenac, ibuprofen, celecoxib): Uống sau bữa ăn đủ no, theo đúng giờ trong đơn. Cần uống kèm thuốc bảo vệ dạ dày nếu bác sĩ kê kèm. Không tự ý dùng kéo dài hơn số ngày trong đơn.",
+      "Thuốc giãn cơ (ví dụ: eperisone, tolperisone): Thường uống 3 lần mỗi ngày sau ăn. Có thể gây buồn ngủ nhẹ — đây là tác dụng phụ thường gặp, không đáng lo. Uống liều tối vào buổi tối để tận dụng giúp ngủ tốt hơn.",
+      "Vitamin nhóm B hỗ trợ thần kinh: Không phải thuốc giảm đau nhưng hỗ trợ phục hồi dây thần kinh — uống đều đặn theo đơn, không bỏ giữa chừng khi thấy đỡ đau."
+    ] },
+    { "type": "heading", "content": "Giải Đáp Những Lo Lắng Thường Gặp" },
+    { "type": "para", "content": "Câu hỏi phổ biến nhất: Uống thuốc nhiều có bị nghiện không? Câu trả lời rõ ràng: thuốc giảm đau thông thường như paracetamol và thuốc kháng viêm không steroid KHÔNG gây nghiện. Nguy cơ phụ thuộc có thể xảy ra với nhóm thuốc giảm đau mạnh dạng opioid — nhưng đây không phải thuốc được kê thường quy cho đau lưng thông thường tại Việt Nam." },
+    { "type": "para", "content": "Uống thuốc nhiều có hại thận, hại gan không? Lo ngại này có cơ sở nhưng cần đặt đúng ngữ cảnh: thuốc giảm đau dùng đúng liều, đúng thời gian theo đơn bác sĩ trong khoảng 5-14 ngày ở người có chức năng thận và gan bình thường là an toàn. Nguy cơ tổn thương tạng xảy ra khi dùng quá liều, dùng kéo dài không kiểm soát, hoặc ở người đã có bệnh thận, gan từ trước. Bác sĩ đã biết thông tin này khi kê đơn cho bạn." },
+    { "type": "para", "content": "Dạ dày yếu có uống được không? Đây là lo ngại đúng với nhóm thuốc kháng viêm không steroid thế hệ cũ. Giải pháp: uống sau bữa ăn đủ no, dùng kèm thuốc bảo vệ dạ dày theo đơn, hoặc dùng nhóm kháng viêm thế hệ mới ít tác dụng phụ dạ dày hơn. Hãy báo bác sĩ nếu bạn có tiền sử loét dạ dày — bác sĩ sẽ điều chỉnh thuốc phù hợp." },
+    { "type": "heading", "content": "Khi Nào Cần Gặp Lại Bác Sĩ Ngay?" },
+    { "type": "list", "items": [
+      "Đau tăng lên thay vì giảm sau 3-5 ngày uống thuốc đúng đơn",
+      "Xuất hiện tê, yếu chân tăng lên, hoặc khó kiểm soát đi tiểu hoặc đại tiện",
+      "Đau kèm theo sốt cao, ớn lạnh",
+      "Buồn nôn, đau bụng nhiều hoặc đi ngoài phân đen sau khi dùng thuốc kháng viêm",
+      "Nước tiểu sẫm màu, vàng da, mệt mỏi bất thường — dấu hiệu có thể liên quan đến gan",
+      "Cơn đau lan xuống chân theo đường thẳng, kèm cảm giác điện giật hoặc kiến bò"
+    ] },
+    { "type": "note", "content": "Thuốc giảm đau là công cụ hỗ trợ điều trị — không phải điều trị nguyên nhân. Uống đúng giờ để kiểm soát đau là cần thiết, nhưng phải kết hợp với vật lý trị liệu, bài tập phục hồi và điều chỉnh tư thế sinh hoạt. Thực ra, kiểm soát đau tốt bằng thuốc giúp bạn có thể tham gia vật lý trị liệu hiệu quả hơn — đó là vòng lặp tích cực của điều trị đau lưng đúng cách." },
+    { "type": "heading", "content": "Quy Tắc Vàng Khi Dùng Thuốc Giảm Đau Đau Lưng" },
+    { "type": "list", "items": [
+      "Uống đúng giờ theo đơn, không chờ đau leo thang — để duy trì nồng độ thuốc ổn định và kiểm soát đau chủ động",
+      "Không tự ý tăng liều khi thấy chưa đủ hiệu quả — hãy gọi điện hỏi bác sĩ",
+      "Không tự ý giảm liều hoặc bỏ thuốc giữa chừng khi thấy đỡ đau — đợi đủ đợt điều trị theo đơn",
+      "Không tự ý kéo dài dùng thuốc quá số ngày trong đơn mà không có chỉ định mới",
+      "Uống nhiều nước trong ngày khi đang dùng thuốc kháng viêm",
+      "Báo ngay cho bác sĩ nếu có bất kỳ triệu chứng bất thường nào như đã liệt kê ở trên"
+    ] },
+    { "type": "para", "content": "Khi bác sĩ đã chẩn đoán xác định và kê đơn thuốc giảm đau, quyết định không uống hoặc chờ đau không chịu được mới uống là một sai lầm y học có thể đo lường được bằng tốc độ hồi phục chậm hơn và nguy cơ đau kéo dài cao hơn. Thuốc trong đơn bác sĩ không phải thứ để dùng khi muốn hay bỏ khi thấy đỡ — mà là một phần của kế hoạch điều trị được tính toán kỹ. Hãy tin tưởng vào đơn thuốc của bác sĩ và dùng đúng theo hướng dẫn." },
+    { "type": "note", "content": "Tài liệu tham khảo: (1) Nguyên tắc theo đồng hồ của Tổ chức Y tế Thế giới trong điều trị đau — WHO analgesic guidelines; (2) Neuroplasticity in the transition from acute to chronic pain — PMC/ScienceDirect 2024; (3) Indication for spinal sensitization in chronic low back pain — Pain Reports, Tháng 8/2024; (4) Decoding pain chronification: mechanisms of the acute-to-chronic transition — Frontiers in Molecular Neuroscience 2025; (5) Scheduled Analgesic Regimen Improves Rehabilitation After Hip Fracture Surgery — PMC 2013; (6) PACE trial: first placebo-controlled RCT of paracetamol for acute low back pain — BMC Musculoskeletal Disorders. Bài viết mang tính giáo dục sức khỏe — không thay thế thăm khám và chỉ định cá thể hóa từ bác sĩ chuyên khoa." }
+  ],
+
 
   "tap-luyen-phcn-veo-cot-song-khong-phau-thuat": [
     { type: "para", content: "Em L., 14 tuổi, vừa được chẩn đoán vẹo cột sống vô căn với góc Cobb 26°. Bác sĩ kết luận chưa cần phẫu thuật và kê đơn nẹp chỉnh hình. Mẹ em hỏi: 'Ngoài đeo nẹp ra, con tôi còn cần làm gì nữa không?'. Câu trả lời là: có rất nhiều điều có thể làm — và bằng chứng khoa học chỉ ra rõ ràng rằng tập luyện đúng phương pháp, kết hợp với nẹp, cho kết quả tốt hơn đáng kể so với chỉ đeo nẹp đơn thuần." },

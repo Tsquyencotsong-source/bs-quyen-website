@@ -127,6 +127,15 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dau-lung-uong-thuoc-dung-gio-hay-cho-den-khi-khong-chiu-duoc",
+    title: "Đau Lưng Đã Có Đơn Thuốc: Uống Đúng Giờ Hay Chờ Đến Khi Không Chịu Được?",
+    excerpt: "Phần lớn bệnh nhân đau lưng nhận đơn thuốc về rồi chờ đau thêm mới uống — sai lầm làm chậm hồi phục và tăng nguy cơ đau mãn tính. Bác sĩ cột sống giải thích cơ chế khoa học và nguyên tắc theo đồng hồ của Tổ chức Y tế Thế giới mà mọi bệnh nhân cần biết.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-06-18",
+  },
+
+  {
     slug: "tap-luyen-phcn-veo-cot-song-khong-phau-thuat",
     title: "Vẹo Cột Sống Tuổi Thiếu Niên Chưa Mổ — Hướng Dẫn Tập Luyện Cụ Thể Từ Bằng Chứng Khoa Học",
     excerpt: "Tập Schroth giảm Cobb trung bình 4,8°; kết hợp core + Schroth cho kết quả vượt trội nẹp đơn thuần. Bác sĩ hướng dẫn cụ thể 4 bài Schroth, 5 bài core, lịch tập 5 ngày/tuần, môn thể thao nên và tránh — tất cả có dẫn chứng nghiên cứu lâm sàng.",
