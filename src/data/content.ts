@@ -127,6 +127,15 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "bien-chung-phau-thuat-thoat-vi-dia-dem-that-lung",
+    title: "Các Biến Chứng Của Phẫu Thuật Thoát Vị Đĩa Đệm Thắt Lưng: Những Điều Bệnh Nhân Cần Biết",
+    excerpt: "Trước khi bước vào phòng mổ, bạn cần biết những biến chứng nào có thể xảy ra, tỉ lệ ra sao, và làm gì để bảo vệ bản thân. Bài viết giải thích đầy đủ bằng ngôn ngữ gần gũi, dễ hiểu.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-06-22",
+  },
+
+  {
     slug: "dau-lung-uong-thuoc-dung-gio-hay-cho-den-khi-khong-chiu-duoc",
     title: "Đau Lưng Đã Có Đơn Thuốc: Uống Đúng Giờ Hay Chờ Đến Khi Không Chịu Được?",
     excerpt: "Phần lớn bệnh nhân đau lưng nhận đơn thuốc về rồi chờ đau thêm mới uống — sai lầm làm chậm hồi phục và tăng nguy cơ đau mãn tính. Bác sĩ cột sống giải thích cơ chế khoa học và nguyên tắc theo đồng hồ của Tổ chức Y tế Thế giới mà mọi bệnh nhân cần biết.",
