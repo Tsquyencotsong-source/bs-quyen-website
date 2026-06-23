@@ -1950,7 +1950,7 @@ function RenderBlock({ block, index }: { block: Block; index: number }) {
       return (
         <div key={index} className="my-7 border border-gray-200 overflow-hidden bg-gray-50">
           <div className="relative w-full" style={{aspectRatio: "4/3"}}>
-            <Image src={block.src} alt={block.alt} fill className="object-cover" />
+            <Image src={block.src} alt={block.alt} fill className="object-contain" />
           </div>
           <div className="px-4 py-3 border-t border-gray-200">
             <p className="text-[13px] font-semibold text-gray-800 mb-1">{block.caption}</p>
