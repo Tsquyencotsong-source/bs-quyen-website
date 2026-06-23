@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kê đơn bài tập đau lưng cá thể hóa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#15302B;--pine:#0E6F63;--pine-deep:#0A4F47;--teal:#16A394;
+  --coral:#FF6F61;--coral-deep:#E8543F;--amber:#F6A823;--violet:#7C5CFC;
+  --mint:#EAF7F2;--cream:#FFFDF7;--card:#FFFFFF;
+  --danger:#D92D20;--danger-bg:#FEF3F2;--danger-line:#FECDCA;
+  --ok:#0E9F6E;--ok-bg:#E7F8F0;--muted:#5B6B66;--line:#DCEAE4;
+  --shadow:0 10px 30px -12px rgba(10,79,71,.25);--shadow-sm:0 4px 14px -8px rgba(10,79,71,.30);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:'Be Vietnam Pro',system-ui,sans-serif;color:var(--ink);line-height:1.55;
+  background:radial-gradient(1100px 560px at 108% -6%,#FDEEE0 0,transparent 54%),radial-gradient(950px 480px at -8% 4%,#E2F4ED 0,transparent 50%),var(--cream);
+  -webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:0 18px}
+h1,h2,h3,h4{line-height:1.18;margin:0}
+p{margin:0}
+button{font-family:inherit;cursor:pointer;border:none;background:none}
+svg{max-width:100%}
+
+header.topbar{position:sticky;top:0;z-index:40;backdrop-filter:blur(10px);background:rgba(255,253,247,.85);border-bottom:1px solid var(--line)}
+.topbar .wrap{display:flex;align-items:center;gap:12px;height:62px}
+.brand{display:flex;align-items:center;gap:11px;font-weight:800;color:var(--pine-deep)}
+.brand .logo{width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,var(--pine),var(--teal));display:grid;place-items:center;box-shadow:var(--shadow-sm)}
+.brand .logo svg{width:23px;height:23px}
+.tag-mini{margin-left:auto;font-size:.78rem;font-weight:700;color:var(--pine);background:var(--mint);padding:7px 13px;border-radius:999px}
+@media(max-width:560px){.tag-mini{display:none}}
+
+.hero{position:relative;overflow:hidden;color:#fff;background:linear-gradient(135deg,var(--pine-deep),var(--pine) 48%,var(--teal));border-radius:0 0 34px 34px;padding:46px 0 50px}
+.hero::after{content:"";position:absolute;right:-70px;top:-80px;width:320px;height:320px;border-radius:50%;background:radial-gradient(circle at 30% 30%,rgba(246,168,35,.5),transparent 62%)}
+.hero::before{content:"";position:absolute;left:-50px;bottom:-110px;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle at 60% 40%,rgba(255,111,97,.42),transparent 60%)}
+.hero .wrap{position:relative;z-index:2}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.28);padding:7px 14px;border-radius:999px;font-size:.8rem;font-weight:700}
+.hero h1{font-size:clamp(1.75rem,4.8vw,2.7rem);font-weight:900;margin:16px 0 10px;max-width:20ch}
+.hero h1 .hl{color:var(--amber)}
+.hero p.lead{font-size:clamp(1rem,2.3vw,1.14rem);max-width:56ch;color:rgba(255,255,255,.94);font-weight:500}
+
+section{padding:34px 0}
+.sec-head{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+.sec-num{flex:none;width:40px;height:40px;border-radius:12px;background:var(--mint);color:var(--pine-deep);display:grid;place-items:center;font-weight:900;font-size:1.05rem}
+.sec-head h2{font-size:clamp(1.3rem,3.4vw,1.8rem);font-weight:900;color:var(--pine-deep)}
+.sec-sub{color:var(--muted);max-width:64ch;margin:2px 0 22px 52px;font-weight:500}
+@media(max-width:600px){.sec-sub{margin-left:0}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);padding:24px}
+
+/* confirm banner */
+.confirm{display:flex;gap:14px;align-items:flex-start;background:var(--ok-bg);border:1px solid #bfe8d4;border-radius:16px;padding:15px 18px;margin-bottom:20px;cursor:pointer}
+.confirm .cbx{flex:none;width:26px;height:26px;border-radius:8px;border:2px solid #9ed8bd;display:grid;place-items:center;background:#fff;margin-top:1px;transition:.14s}
+.confirm.on .cbx{background:var(--ok);border-color:var(--ok)}
+.confirm .cbx svg{width:15px;height:15px;opacity:0;transition:.14s}
+.confirm.on .cbx svg{opacity:1}
+.confirm b{color:#0a6b4a}
+.confirm small{display:block;color:#1c7a58;font-weight:500;font-size:.86rem;margin-top:2px}
+.rf-toggle{margin-top:10px;font-size:.84rem;color:var(--danger);font-weight:700;background:none;text-decoration:underline;padding:0}
+.rf-list{display:none;margin-top:10px;background:var(--danger-bg);border:1px solid var(--danger-line);border-radius:12px;padding:12px 14px;font-size:.86rem;color:#9a1c14}
+.rf-list.show{display:block}
+.rf-list ul{margin:6px 0 0;padding-left:18px}
+
+/* form */
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+@media(max-width:720px){.form-grid{grid-template-columns:1fr}}
+.field{margin-bottom:4px}
+.field>label{display:block;font-weight:800;color:var(--pine-deep);margin-bottom:8px;font-size:.98rem}
+.field .desc{font-weight:500;color:var(--muted);font-size:.82rem;margin:-4px 0 9px}
+.inrow{display:flex;gap:10px;align-items:center}
+.inp{width:100%;padding:13px 15px;border:2px solid var(--line);border-radius:13px;font-family:inherit;font-size:1rem;font-weight:600;color:var(--ink);background:#fff;transition:.14s}
+.inp:focus{outline:none;border-color:var(--teal);box-shadow:0 0 0 4px rgba(22,163,148,.12)}
+.unit{font-weight:700;color:var(--muted);font-size:.92rem}
+.bmi-box{margin-top:9px;background:var(--mint);border-radius:12px;padding:10px 14px;font-weight:700;color:var(--pine-deep);font-size:.9rem;display:flex;justify-content:space-between;align-items:center}
+.bmi-box .bv{font-size:1.15rem;font-weight:900}
+.bmi-cat{font-size:.78rem;padding:3px 9px;border-radius:7px;font-weight:800}
+
+.btns{display:flex;gap:9px;flex-wrap:wrap}
+.seg{padding:11px 15px;border:2px solid var(--line);border-radius:12px;background:#fff;font-weight:700;font-size:.9rem;color:var(--ink);transition:.14s;flex:1;min-width:fit-content;text-align:center}
+.seg:hover{border-color:var(--teal)}
+.seg.on{border-color:var(--pine);background:var(--mint);color:var(--pine-deep);box-shadow:0 0 0 3px rgba(22,163,148,.1)}
+.seg small{display:block;font-weight:500;color:var(--muted);font-size:.76rem;margin-top:1px}
+.seg.on small{color:var(--pine)}
+.opts-col{display:flex;flex-direction:column;gap:9px}
+.opts-col .seg{flex:none;text-align:left;display:flex;flex-direction:column}
+
+/* pain slider */
+.pain-wrap{padding:6px 2px 0}
+.pain-val{display:flex;align-items:baseline;gap:8px;margin-bottom:6px}
+.pain-num{font-size:2rem;font-weight:900}
+.pain-lab{font-weight:700;font-size:.92rem}
+input[type=range]{-webkit-appearance:none;width:100%;height:10px;border-radius:999px;background:linear-gradient(90deg,#22c55e,#f6a823 55%,#ef4444);outline:none}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:26px;height:26px;border-radius:50%;background:#fff;border:4px solid var(--pine);cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+input[type=range]::-moz-range-thumb{width:24px;height:24px;border-radius:50%;background:#fff;border:4px solid var(--pine);cursor:pointer}
+.scale-marks{display:flex;justify-content:space-between;font-size:.72rem;color:var(--muted);font-weight:600;margin-top:4px}
+
+.osteo-check{display:flex;gap:12px;align-items:flex-start;border:2px solid var(--line);border-radius:13px;padding:13px 15px;cursor:pointer;transition:.14s}
+.osteo-check.on{border-color:var(--amber);background:#FFF8EC}
+.osteo-check .cbx{flex:none;width:24px;height:24px;border-radius:7px;border:2px solid var(--line);display:grid;place-items:center;background:#fff;margin-top:1px}
+.osteo-check.on .cbx{background:var(--amber);border-color:var(--amber)}
+.osteo-check .cbx svg{width:14px;height:14px;opacity:0}.osteo-check.on .cbx svg{opacity:1}
+.osteo-check b{font-size:.94rem}
+.osteo-check small{display:block;color:var(--muted);font-weight:500;font-size:.82rem;margin-top:2px}
+
+.gen-row{display:flex;gap:13px;align-items:center;flex-wrap:wrap;margin-top:24px}
+.btn-gen{background:var(--coral);color:#fff;padding:16px 34px;border-radius:14px;font-weight:800;font-size:1.05rem;box-shadow:0 12px 26px -8px rgba(232,84,63,.7);display:inline-flex;align-items:center;gap:9px}
+.btn-gen:hover{background:var(--coral-deep)}
+.btn-gen:disabled{opacity:.45;cursor:not-allowed;box-shadow:none}
+.err{color:var(--danger);font-weight:700;font-size:.9rem;display:none}
+.err.show{display:block}
+
+/* RESULT */
+#result{display:none}
+#result.show{display:block;animation:pop .35s ease}
+@keyframes pop{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.res-hero{background:linear-gradient(135deg,var(--pine-deep),var(--pine));color:#fff;border-radius:24px;padding:28px;position:relative;overflow:hidden}
+.res-hero::after{content:"";position:absolute;right:-50px;top:-50px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(246,168,35,.4),transparent 65%)}
+.res-hero .tag{display:inline-block;background:var(--amber);color:#3a2a06;font-weight:800;font-size:.78rem;padding:5px 13px;border-radius:999px;position:relative}
+.res-hero h3{font-size:clamp(1.35rem,3.6vw,1.85rem);font-weight:900;margin:12px 0 8px;position:relative}
+.res-hero p{color:rgba(255,255,255,.94);max-width:62ch;position:relative;font-weight:500}
+.chips-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px;position:relative}
+.mchip{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.25);border-radius:10px;padding:7px 12px;font-size:.82rem;font-weight:700}
+.mchip b{color:var(--amber)}
+
+.banner{display:flex;gap:13px;align-items:flex-start;border-radius:16px;padding:15px 18px;margin-top:16px;font-weight:500}
+.banner svg{flex:none;width:24px;height:24px;margin-top:1px}
+.banner.amber{background:#FFF8EC;border:1px solid #FAE3B0;color:#7a5b16}
+.banner.amber b{color:#8a4b00}
+.banner.violet{background:#F3F0FF;border:1px solid #DDD4FF;color:#4a3a9e}
+.banner.violet b{color:#3a2a8e}
+.banner.teal{background:var(--mint);border:1px solid #bfe8d4;color:#0a6b4a}
+.banner.teal b{color:var(--pine-deep)}
+
+.block-title{display:flex;align-items:center;gap:11px;font-size:1.3rem;font-weight:900;color:var(--pine-deep);margin:34px 0 4px}
+.block-title .bi{width:36px;height:36px;border-radius:11px;background:var(--mint);display:grid;place-items:center;flex:none}
+.block-sub{color:var(--muted);margin:0 0 18px 47px;font-weight:500;font-size:.92rem}
+@media(max-width:600px){.block-sub{margin-left:0}}
+
+/* prescription group */
+.pgroup{margin-bottom:26px}
+.pgroup>h4{font-size:1.05rem;font-weight:800;color:var(--ink);margin-bottom:13px;display:flex;align-items:center;gap:9px}
+.pgroup>h4 .gdot{width:11px;height:11px;border-radius:3px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:18px}
+.ex{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:var(--shadow-sm);display:flex;flex-direction:column}
+.ex-fig{background:linear-gradient(135deg,#F3FBF8,#FFF6EE);padding:12px;display:grid;place-items:center}
+.ex-fig svg{width:100%;height:128px}
+.ex-body{padding:16px 16px 18px;display:flex;flex-direction:column;flex:1}
+.ex-body h5{font-size:1.06rem;font-weight:800;margin-bottom:3px}
+.ex-aim{color:var(--muted);font-size:.85rem;font-weight:500;margin-bottom:11px}
+.dose{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:11px}
+.dose span{background:var(--mint);color:var(--pine-deep);font-weight:800;font-size:.78rem;padding:5px 10px;border-radius:8px}
+.dose span.hi{background:#FFEEE9;color:var(--coral-deep)}
+.steps{list-style:none;padding:0;margin:0 0 11px}
+.steps li{display:flex;gap:9px;margin-bottom:7px;font-size:.89rem}
+.steps li .sn{flex:none;width:20px;height:20px;border-radius:6px;background:var(--pine);color:#fff;font-size:.72rem;font-weight:800;display:grid;place-items:center;margin-top:2px}
+.ex-safe{margin-top:auto;background:#FFF8F6;border:1px solid #FBE0DB;border-radius:10px;padding:9px 11px;font-size:.81rem;color:#9a3b2a;font-weight:500;display:flex;gap:7px}
+.ex-safe svg{flex:none;width:16px;height:16px;margin-top:1px}
+
+/* weekly calendar */
+.week{display:grid;grid-template-columns:repeat(7,1fr);gap:11px}
+@media(max-width:880px){.week{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.week{grid-template-columns:1fr}}
+.day{border:1px solid var(--line);border-radius:15px;overflow:hidden;background:#fff;display:flex;flex-direction:column;box-shadow:var(--shadow-sm)}
+.day-h{padding:9px 12px;font-weight:800;font-size:.84rem;color:#fff;display:flex;justify-content:space-between;align-items:center}
+.day.train .day-h{background:linear-gradient(135deg,var(--pine),var(--teal))}
+.day.rec .day-h{background:linear-gradient(135deg,var(--amber),#e89b1e)}
+.day-b{padding:12px;font-size:.84rem;flex:1}
+.day-focus{font-weight:800;color:var(--pine-deep);font-size:.82rem;margin-bottom:7px;display:inline-block;background:var(--mint);padding:3px 8px;border-radius:7px}
+.day.rec .day-focus{background:#FFF4E0;color:#8a4b00}
+.day-list{list-style:none;padding:0;margin:0}
+.day-list li{display:flex;gap:6px;margin-bottom:5px;color:var(--ink)}
+.day-list li::before{content:"";flex:none;width:6px;height:6px;border-radius:50%;background:var(--teal);margin-top:7px}
+.day-walk{margin-top:9px;padding-top:9px;border-top:1px dashed var(--line);font-weight:700;color:var(--pine);font-size:.8rem;display:flex;align-items:center;gap:6px}
+
+/* progression timeline */
+.prog{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
+.pstep{border:1px solid var(--line);border-radius:15px;padding:17px;background:#fff;position:relative}
+.pstep .pw{font-weight:900;color:#fff;background:var(--coral);font-size:.74rem;padding:4px 11px;border-radius:999px;display:inline-block;margin-bottom:9px}
+.pstep h5{font-weight:800;color:var(--pine-deep);font-size:.98rem;margin-bottom:5px}
+.pstep p{font-size:.86rem;color:var(--muted);font-weight:500}
+
+.lights{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin-top:8px}
+.light{border-radius:16px;padding:17px;border:1.5px solid}
+.light h5{display:flex;align-items:center;gap:10px;font-weight:800;margin-bottom:7px}
+.light .bulb{width:22px;height:22px;border-radius:50%;flex:none}
+.light.green{background:var(--ok-bg);border-color:#bfe8d4}.light.green .bulb{background:var(--ok)}
+.light.amber2{background:#FFF7E8;border-color:#FAE3B0}.light.amber2 .bulb{background:var(--amber)}
+.light.red{background:var(--danger-bg);border-color:var(--danger-line)}.light.red .bulb{background:var(--danger)}
+.light p{font-size:.88rem;font-weight:500}
+
+.actions{display:flex;gap:11px;flex-wrap:wrap;margin-top:26px}
+.btn-print{background:var(--pine);color:#fff;padding:14px 26px;border-radius:13px;font-weight:800;display:inline-flex;align-items:center;gap:9px}
+.btn-print:hover{background:var(--pine-deep)}
+.btn-edit{background:#fff;border:1.5px solid var(--line);color:var(--muted);padding:14px 24px;border-radius:13px;font-weight:700}
+
+.disc{background:#FFF8EC;border:1px solid #FAE3B0;border-radius:16px;padding:16px 20px;display:flex;gap:13px;align-items:flex-start;margin-top:30px}
+.disc svg{flex:none;width:24px;height:24px;margin-top:2px}
+.disc p{font-size:.88rem;color:#7a5b16;font-weight:500}
+.disc b{color:#8a4b00}
+
+footer{background:var(--pine-deep);color:rgba(255,255,255,.82);padding:30px 0;margin-top:24px;border-radius:34px 34px 0 0}
+footer .wrap{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center}
+footer .fb{font-weight:800;color:#fff}
+footer small{display:block;color:rgba(255,255,255,.6);font-size:.8rem;margin-top:3px}
+
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+@media print{
+  header.topbar,.hero,#intake,.actions,footer,.rf-toggle{display:none!important}
+  body{background:#fff}
+  #result{display:block!important}
+  .ex,.day,.pstep,.card{break-inside:avoid;box-shadow:none}
+  section{padding:10px 0}
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <div class="brand">
+      <span class="logo"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3c0 3-3 4-3 7s3 4 3 7" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="3.4" r="1.8" fill="#F6A823"/><path d="M9 7.5h6M8.6 11h6.8M9 14.5h6" stroke="#FFD9A0" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+      Đơn Tập Lưng Cá Thể Hóa
+    </div>
+    <span class="tag-mini">Dành cho người đã được bác sĩ loại trừ cờ đỏ</span>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <span class="eyebrow">✦ Kê đơn theo hồ sơ từng người</span>
+    <h1>Nhập tình trạng của bạn — nhận <span class="hl">đơn bài tập riêng</span></h1>
+    <p class="lead">Sau khi đã được bác sĩ khám và loại trừ các dấu hiệu nguy hiểm, hãy cung cấp một vài thông tin về tuổi, thể trạng, cơn đau và quỹ thời gian. Công cụ sẽ chọn bài tập, liều lượng và xếp lịch tập trong tuần phù hợp với riêng bạn.</p>
+  </div>
+</div>
+
+<main class="wrap">
+
+<!-- INTAKE -->
+<section id="intake">
+  <div class="sec-head"><span class="sec-num">1</span><h2>Hồ sơ của bạn</h2></div>
+  <p class="sec-sub">Mọi thông tin chỉ xử lý ngay trên máy của bạn, không gửi đi đâu. Hãy điền trung thực để chương trình chính xác nhất.</p>
+
+  <div class="card">
+    <div class="confirm" id="confirm">
+      <span class="cbx"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <div><b>Tôi đã được bác sĩ khám và loại trừ các dấu hiệu nguy hiểm (cờ đỏ).</b>
+        <small>Cần xác nhận điều này trước khi tạo chương trình tự tập.</small>
+        <button class="rf-toggle" id="rfToggle" type="button">Xem lại các dấu hiệu cờ đỏ cần dừng tập ›</button>
+        <div class="rf-list" id="rfList">Nếu đang hoặc bỗng xuất hiện bất kỳ dấu hiệu nào sau đây, hãy DỪNG tập và đi khám ngay:
+          <ul><li>Mất kiểm soát đại/tiểu tiện, bí tiểu</li><li>Tê vùng "yên ngựa" (quanh hậu môn, sinh dục, mặt trong đùi)</li><li>Yếu hai chân tăng dần, đi lại khó</li><li>Sốt, sút cân không rõ lý do, tiền sử ung thư</li><li>Chấn thương mạnh gần đây</li><li>Đau dữ dội về đêm không đỡ khi nghỉ</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-grid">
+      <!-- LEFT -->
+      <div>
+        <div class="field">
+          <label>Tuổi</label>
+          <div class="inrow"><input class="inp" id="age" type="number" min="14" max="100" placeholder="Ví dụ: 52"><span class="unit">tuổi</span></div>
+        </div>
+        <div class="field" style="margin-top:18px">
+          <label>Giới tính</label>
+          <div class="btns" data-seg="sex">
+            <button class="seg" data-v="nam" type="button">Nam</button>
+            <button class="seg" data-v="nu" type="button">Nữ</button>
+          </div>
+        </div>
+        <div class="field" style="margin-top:18px">
+          <label>Chiều cao & cân nặng</label>
+          <div class="inrow">
+            <input class="inp" id="height" type="number" min="120" max="220" placeholder="Cao"><span class="unit">cm</span>
+            <input class="inp" id="weight" type="number" min="30" max="200" placeholder="Nặng"><span class="unit">kg</span>
+          </div>
+          <div class="bmi-box" id="bmiBox" style="display:none"><span>Chỉ số khối cơ thể (BMI)</span><span><span class="bv" id="bmiVal">–</span> <span class="bmi-cat" id="bmiCat"></span></span></div>
+        </div>
+        <div class="field" style="margin-top:18px">
+          <label>Mức độ đau hiện tại</label>
+          <div class="desc">Kéo thanh trượt: 0 = không đau, 10 = đau dữ dội nhất.</div>
+          <div class="pain-wrap">
+            <div class="pain-val"><span class="pain-num" id="painNum">4</span><span class="pain-lab" id="painLab">Đau vừa</span></div>
+            <input type="range" id="pain" min="0" max="10" value="4">
+            <div class="scale-marks"><span>0</span><span>2</span><span>4</span><span>6</span><span>8</span><span>10</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div>
+        <div class="field">
+          <label>Vị trí đau</label>
+          <div class="opts-col" data-seg="loc">
+            <button class="seg" data-v="central" type="button">Chính giữa vùng thắt lưng<small>Đau tập trung ở giữa lưng dưới</small></button>
+            <button class="seg" data-v="side" type="button">Lệch hẳn về một bên<small>Đau một bên thắt lưng</small></button>
+            <button class="seg" data-v="buttock" type="button">Lan xuống mông<small>Đau lan tới vùng mông, chưa xuống chân</small></button>
+            <button class="seg" data-v="leg" type="button">Lan xuống chân, kèm tê<small>Đau/tê chạy dọc xuống đùi, cẳng chân</small></button>
+          </div>
+        </div>
+        <div class="field" style="margin-top:18px">
+          <label>Tư thế nào làm bạn đau hơn?</label>
+          <div class="opts-col" data-seg="pattern">
+            <button class="seg" data-v="flexAgg" type="button">Đau hơn khi cúi người / ngồi lâu<small>Dễ chịu hơn khi đi lại, đứng thẳng</small></button>
+            <button class="seg" data-v="extAgg" type="button">Đau hơn khi ưỡn / đứng / đi lâu<small>Dễ chịu hơn khi ngồi hoặc cúi nhẹ</small></button>
+            <button class="seg" data-v="morning" type="button">Cứng & đau buổi sáng, đỡ khi vận động<small>Khởi động xong thấy dễ chịu hơn</small></button>
+            <button class="seg" data-v="unclear" type="button">Không rõ / đau khá chung chung<small>Khó nói tư thế nào rõ rệt hơn</small></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- osteo -->
+    <div class="field" style="margin-top:22px">
+      <label>Tình trạng xương</label>
+      <div class="osteo-check" id="osteo">
+        <span class="cbx"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5l4.5 4.5L19 7" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <div><b>Tôi bị loãng xương / loãng xương nặng, hoặc từng gãy lún đốt sống.</b>
+          <small>Nếu có, chương trình sẽ ưu tiên bài an toàn cho xương và tránh các động tác cúi gập mạnh.</small></div>
+      </div>
+    </div>
+
+    <!-- time -->
+    <div class="form-grid" style="margin-top:22px">
+      <div class="field">
+        <label>Mỗi buổi bạn tập được bao lâu?</label>
+        <div class="btns" data-seg="mins">
+          <button class="seg" data-v="10" type="button">~10 phút<small>Ngắn gọn</small></button>
+          <button class="seg" data-v="20" type="button">15–20 phút<small>Vừa phải</small></button>
+          <button class="seg" data-v="30" type="button">30 phút+<small>Đầy đủ</small></button>
+        </div>
+      </div>
+      <div class="field">
+        <label>Mỗi tuần tập được mấy buổi?</label>
+        <div class="btns" data-seg="days">
+          <button class="seg" data-v="3" type="button">2–3 buổi</button>
+          <button class="seg" data-v="4" type="button">3–4 buổi</button>
+          <button class="seg" data-v="5" type="button">5 buổi+</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="field" style="margin-top:22px">
+      <label>Mức vận động hiện tại của bạn</label>
+      <div class="btns" data-seg="activity">
+        <button class="seg" data-v="low" type="button">Ít vận động<small>Chủ yếu ngồi</small></button>
+        <button class="seg" data-v="mid" type="button">Vận động vừa<small>Đi lại đều</small></button>
+        <button class="seg" data-v="high" type="button">Năng động<small>Tập thể dục thường xuyên</small></button>
+      </div>
+    </div>
+
+    <div class="gen-row">
+      <button class="btn-gen" id="genBtn" disabled>Tạo chương trình cho tôi
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <span class="err" id="err">Vui lòng hoàn thành các mục còn thiếu.</span>
+    </div>
+  </div>
+</section>
+
+<!-- RESULT -->
+<section id="result"></section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><div class="fb">Đơn Tập Lưng Cá Thể Hóa</div><small>Công cụ giáo dục người bệnh — dựa trên y học bằng chứng.</small></div>
+    <small style="max-width:42ch">Biên soạn — TS.BS. Nguyễn Ngọc Quyền. Không thay thế thăm khám trực tiếp của bác sĩ.</small>
+  </div>
+</footer>
+
+<script>
+/* ===== FIGURES ===== */
+const S={
+ pelvic:`<svg viewBox="0 0 200 130"><rect x="20" y="92" width="160" height="7" rx="3.5" fill="#16A394" opacity=".25"/><path d="M30 92 Q70 78 96 88 l22 -2" fill="none" stroke="#0E6F63" stroke-width="5" stroke-linecap="round"/><path d="M118 86 q14 2 14 18 l0 -16 q14 0 18 14" fill="none" stroke="#0E6F63" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M150 92 l14 0" stroke="#0E6F63" stroke-width="5" stroke-linecap="round"/><circle cx="26" cy="88" r="9" fill="#FF6F61"/></svg>`,
+ cat:`<svg viewBox="0 0 200 130"><path d="M40 100 v-26M150 100 v-26" stroke="#0E6F63" stroke-width="5" stroke-linecap="round"/><path d="M40 74 Q95 40 150 74" fill="none" stroke="#0E6F63" stroke-width="6" stroke-linecap="round"/><circle cx="158" cy="70" r="9" fill="#FF6F61"/><path d="M95 36 l0 -8M89 30 l6 -6 6 6" stroke="#F6A823" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+ rot:`<svg viewBox="0 0 200 130"><rect x="20" y="100" width="160" height="7" rx="3.5" fill="#16A394" opacity=".25"/><circle cx="36" cy="92" r="9" fill="#FF6F61"/><path d="M45 92 H96 q20 0 20 18 l0 -14 q16 -2 16 -16" fill="none" stroke="#0E6F63" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M104 74 q-6 -8 -2 -16" stroke="#F6A823" stroke-width="3" fill="none" stroke-linecap="round"/></svg>`,
+ knee:`<svg viewBox="0 0 200 130"><rect x="20" y="100" width="160" height="7" rx="3.5" fill="#16A394" opacity=".25"/><circle cx="38" cy="92" r="9" fill="#FF6F61"/><path d="M47 92 H96 q22 0 22 -22 q0 -16 -16 -16" fill="none" stroke="#0E6F63" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M118 70 l26 6" stroke="#0E6F63" stroke-width="5" stroke-linecap="round"/></svg>`,
+ child:`<svg viewBox="0 0 200 130"><rect x="20" y="104" width="160" height="7" rx="3.5" fill="#16A394" opacity=".25"/><path d="M40 104 q4 -30 30 -30Q110 70 150 96" fill="none" stroke="#0E6F63" stroke-width="6" stroke-linecap="round"/><circle cx="156" cy="100" r="9" fill="#FF6F61"/></svg>`,
+ prone:`<svg viewBox="0 0 200 130"><rect x="14" y="92" width="172" height="7" rx="3.5" fill="#16A394" opacity=".25"/><path d="M30 86 H168" stroke="#0E6F63" stroke-width="6" stroke-linecap="round"/><circle cx="26" cy="84" r="9" fill="#FF6F61"/></svg>`,
+ elbow:`<svg viewBox="0 0 200 130"><rect x="14" y="100" width="172" height="7" rx="3.5" fill="#16A394" opacity=".25"/><path d="M44 100 l14 -18Q98 80 148 96 l22 4" fill="none" stroke="#0E6F63" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="52" cy="76" r="9" fill="#FF6F61"/></svg>`,
+ cobra:`<svg viewBox="0 0 200 130"><rect x="14" y="104" width="172" height="7" rx="3.5" fill="#16A394" opacity=".25"/><path d="M46 104 V70 Q70 50 100 58 T160 92 l16 6" fill="none" stroke="#0E6F63" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="40" cy="62" r="9" fill="#FF6F61"/><path d="M28 50 l-2 -6 6 2" stroke="#F6A823" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+ stand:`<svg viewBox="0 0 200 130"><path d="M100 116 V60 Q98 42 110 34" stroke="#0E6F63" stroke-width="6" fill="none" stroke-linecap="round"/><circle cx="114" cy="30" r="10" fill="#FF6F61"/><path d="M100 78 q-16 4 -20 -6M100 78 q16 4 20 -6M100 116 l-12 0M100 116 l12 0" stroke="#0E6F63" stroke-width="5" fill="none" stroke-linecap="round"/></svg>`,
+ backext:`<svg viewBox="0 0 200 130"><rect x="14" y="100" width="172" height="7" rx="3.5" fill="#16A394" opacity=".25"/><path d="M50 100 q40 4 80 -10 q14 -6 18 -16" fill="none" stroke="#0E6F63" stroke-width="6" stroke-linecap="round"/><circle cx="150" cy="68" r="9" fill="#FF6F61"/><path d="M60 98 l-16 6M70 96 l-16 8" stroke="#0E6F63" stroke-width="5" stroke-linecap="round" opacity=".6"/><path d="M150 56 l0 -8M144 52 l6 -6 6 6" stroke="#F6A823" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+ brace:`<svg viewBox="0 0 200 130"><rect x="20" y="96" width="160" height="7" rx="3.5" fill="#16A394" opacity=".25"/><circle cx="36" cy="88" r="9" fill="#FF6F61"/><path d="M45 88 H92 q18 0 18 -16 q0 16 18 16 l16 0" fill="none" stroke="#0E6F63" stroke-width="5" stroke-linecap="round"/><ellipse cx="78" cy="80" rx="14" ry="9" fill="none" stroke="#F6A823" stroke-width="3" stroke-dasharray="3 4"/></svg>`,
+ bridge:`<svg viewBox="0 0 200 130"><rect x="20" y="104" width="160" height="7" rx="3.5" fill="#16A394" opacity=".25"/><circle cx="34" cy="96" r="9" fill="#FF6F61"/><path d="M43 96 Q80 60 110 78 q14 0 14 26" fill="none" stroke="#0E6F63" stroke-width="6" stroke-linecap="round"/><path d="M70 58 l0 -8M64 54 l6 -6 6 6" stroke="#F6A823" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>`,
+ bird:`<svg viewBox="0 0 200 130"><path d="M70 100 V78M110 100 V78" stroke="#0E6F63" stroke-width="5" stroke-linecap="round"/><path d="M70 78 H110" stroke="#0E6F63" stroke-width="6" stroke-linecap="round"/><path d="M70 78 L40 64M110 78 L150 66" stroke="#0E6F63" stroke-width="5" stroke-linecap="round"/><circle cx="34" cy="62" r="8" fill="#FF6F61"/><path d="M40 64 l-14 -2M150 66 l14 -2" stroke="#F6A823" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 4"/></svg>`,
+ deadbug:`<svg viewBox="0 0 200 130"><rect x="20" y="100" width="160" height="7" rx="3.5" fill="#16A394" opacity=".25"/><path d="M40 92 H120" stroke="#0E6F63" stroke-width="6" stroke-linecap="round"/><circle cx="34" cy="90" r="9" fill="#FF6F61"/><path d="M70 92 l-4 -28M70 92 l30 -10" stroke="#0E6F63" stroke-width="5" stroke-linecap="round"/><path d="M100 92 l24 -22M100 92 l-6 26" stroke="#0E6F63" stroke-width="5" stroke-linecap="round" opacity=".55"/></svg>`,
+ plank:`<svg viewBox="0 0 200 130"><rect x="20" y="104" width="160" height="7" rx="3.5" fill="#16A394" opacity=".25"/><path d="M44 104 L150 60" stroke="#0E6F63" stroke-width="7" stroke-linecap="round"/><circle cx="156" cy="56" r="9" fill="#FF6F61"/><path d="M44 104 L44 84M120 76 L120 104" stroke="#0E6F63" stroke-width="5" stroke-linecap="round"/></svg>`,
+ ham:`<svg viewBox="0 0 200 130"><rect x="20" y="100" width="160" height="7" rx="3.5" fill="#16A394" opacity=".25"/><circle cx="36" cy="92" r="9" fill="#FF6F61"/><path d="M45 92 H92 L132 50" stroke="#0E6F63" stroke-width="5" stroke-linecap="round"/><path d="M92 92 L140 96" stroke="#0E6F63" stroke-width="5" stroke-linecap="round" opacity=".5"/></svg>`,
+ piri:`<svg viewBox="0 0 200 130"><rect x="20" y="102" width="160" height="7" rx="3.5" fill="#16A394" opacity=".25"/><circle cx="36" cy="94" r="9" fill="#FF6F61"/><path d="M45 94 H90 q24 -2 22 -24" fill="none" stroke="#0E6F63" stroke-width="5" stroke-linecap="round"/><path d="M96 84 l30 4" stroke="#0E6F63" stroke-width="5" stroke-linecap="round"/></svg>`,
+ nerve:`<svg viewBox="0 0 200 130"><path d="M90 116 V58 q-2 -14 8 -20" stroke="#0E6F63" stroke-width="5" fill="none" stroke-linecap="round"/><circle cx="102" cy="32" r="9" fill="#FF6F61"/><path d="M90 78 L130 74M90 116 L128 112 L126 92" stroke="#0E6F63" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M126 92 q14 0 22 -8" stroke="#F6A823" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="3 4"/></svg>`,
+ balance:`<svg viewBox="0 0 200 130"><path d="M150 116 V40M150 116 h22M150 70 h-18" stroke="#16A394" stroke-width="4" stroke-linecap="round" opacity=".5"/><path d="M90 114 V58" stroke="#0E6F63" stroke-width="6" stroke-linecap="round"/><circle cx="90" cy="44" r="11" fill="#FF6F61"/><path d="M90 70 L120 64M90 70 L66 80M90 90 L92 114" stroke="#0E6F63" stroke-width="5" stroke-linecap="round"/><path d="M90 90 q-14 6 -10 22" stroke="#0E6F63" stroke-width="6" fill="none" stroke-linecap="round"/></svg>`,
+ walk:`<svg viewBox="0 0 200 130"><path d="M100 112 V58" stroke="#0E6F63" stroke-width="6" stroke-linecap="round"/><circle cx="100" cy="44" r="11" fill="#FF6F61"/><path d="M100 70 L122 84M100 70 L80 86M100 90 L120 112M100 90 L82 112" stroke="#0E6F63" stroke-width="6" fill="none" stroke-linecap="round"/><path d="M150 70 h16M148 80 h22M152 90 h14" stroke="#16A394" stroke-width="3" stroke-linecap="round" opacity=".6"/></svg>`
+};
+
+/* ===== EXERCISE LIBRARY (with attributes) =====
+ cat: mob|dir|core|stretch|nerve|balance ; dir: ext|flex|neutral
+ base: text dose pieces with {reps},{sets},{hold}; we substitute scaled numbers
+ intensity 1..3 ; flex:true if involves spinal flexion (avoid in osteoporosis) */
+const EX={
+ pelvic:{name:'Nghiêng khung chậu',svg:S.pelvic,cat:'mob',dir:'neutral',int:1,flex:false,
+   aim:'Khởi động cột sống, đánh thức cơ bụng sâu',base:{reps:10,sets:2},holdS:4,
+   steps:['Nằm ngửa, hai gối co, bàn chân đặt sàn.','Ép nhẹ lưng dưới xuống sát sàn bằng cách gồng nhẹ bụng.','Giữ vài giây rồi thả lỏng.'],
+   safe:'Thở đều, động tác nhỏ, không gắng sức.'},
+ cat:{name:'Tư thế mèo – lạc đà',svg:S.cat,cat:'mob',dir:'neutral',int:1,flex:false,
+   aim:'Tăng linh hoạt, thư giãn cơ dọc cột sống',base:{reps:8,sets:2},
+   steps:['Quỳ chống tay và gối (tư thế bò).','Hít vào võng nhẹ lưng, ngẩng đầu.','Thở ra cong lưng lên, cúi cằm. Lặp lại nhịp nhàng.'],
+   safe:'Di chuyển trong biên độ thoải mái, không ép đến mức đau.'},
+ rot:{name:'Xoay lưng nhẹ nằm ngửa',svg:S.rot,cat:'mob',dir:'neutral',int:1,flex:false,
+   aim:'Thư giãn cơ, tăng linh hoạt xoay',base:{reps:8,sets:2},
+   steps:['Nằm ngửa, hai gối co sát nhau, hai tay dang ngang.','Nhẹ nhàng ngả hai gối sang một bên đến mức thoải mái.','Giữ 2–3 giây rồi đổi bên, vai vẫn áp sàn.'],
+   safe:'Nếu đau lan chân tăng, giảm biên độ.'},
+ knee:{name:'Kéo gối về ngực',svg:S.knee,cat:'stretch',dir:'flex',int:1,flex:true,
+   aim:'Giãn nhẹ cơ lưng dưới theo hướng cúi',base:{reps:0,sets:0},holdS:20,sides:true,
+   steps:['Nằm ngửa, hai gối co.','Ôm một gối kéo nhẹ về phía ngực đến khi căng nhẹ.','Giữ rồi đổi bên.'],
+   safe:'Kéo từ từ, dừng ở mức căng dễ chịu.'},
+ child:{name:'Tư thế em bé',svg:S.child,cat:'stretch',dir:'flex',int:1,flex:true,
+   aim:'Thư giãn, giãn lưng theo hướng cúi',base:{reps:0,sets:3},holdS:25,
+   steps:['Quỳ gối, ngồi mông về phía gót.','Vươn tay ra trước, hạ thân và trán về phía sàn.','Thở chậm, cảm nhận lưng giãn nhẹ.'],
+   safe:'Hợp khi bạn dễ chịu lúc cúi. Nếu đau lan chân tăng thì dừng.'},
+ prone:{name:'Nằm sấp thư giãn',svg:S.prone,cat:'dir',dir:'ext',int:1,flex:false,
+   aim:'Bước khởi đầu hướng ưỡn (McKenzie)',base:{reps:0,sets:1},holdS:120,
+   steps:['Nằm sấp, hai tay xuôi thân, mặt nghiêng một bên.','Thở đều, thả lỏng hoàn toàn cơ lưng và mông.'],
+   safe:'Nếu tăng đau, kê gối mỏng dưới bụng hoặc bỏ qua.'},
+ elbow:{name:'Chống khuỷu tay nằm sấp',svg:S.elbow,cat:'dir',dir:'ext',int:1,flex:false,
+   aim:'Ưỡn nhẹ vùng thắt lưng, mức thấp',base:{reps:0,sets:2},holdS:60,
+   steps:['Từ nằm sấp, chống hai khuỷu tay nâng thân trên lên.','Giữ hông và bụng áp sàn, thả lỏng lưng dưới.','Giữ tư thế, hít thở đều.'],
+   safe:'Dấu hiệu tốt: đau ở chân rút về lưng. Lan xa hơn xuống chân thì dừng.'},
+ cobra:{name:'Ưỡn lưng kiểu McKenzie',svg:S.cobra,cat:'dir',dir:'ext',int:2,flex:false,
+   aim:'Bài ưỡn chủ lực cho hướng ưu thế ưỡn',base:{reps:10,sets:3},
+   steps:['Nằm sấp, hai bàn tay dưới vai như chống đẩy.','Từ từ duỗi tay nâng thân trên, giữ hông áp sàn.','Lên mức thoải mái rồi hạ xuống, mỗi lần cố lên cao hơn chút.'],
+   safe:'Theo dõi: đau dồn về lưng là tốt; lan xuống chân thì dừng.'},
+ stand:{name:'Đứng ưỡn lưng',svg:S.stand,cat:'dir',dir:'ext',int:1,flex:false,
+   aim:'Duy trì hướng ưỡn, "phá thế" sau khi ngồi',base:{reps:8,sets:1},
+   steps:['Đứng thẳng, hai tay chống hông/eo.','Ngả người ra sau nhẹ nhàng.','Trở về thẳng. Làm sau mỗi lần ngồi lâu.'],
+   safe:'Ưỡn vừa phải, không cố quá.'},
+ backext:{name:'Nâng lưng nằm sấp',svg:S.backext,cat:'core',dir:'ext',int:2,flex:false,
+   aim:'Tăng sức mạnh cơ duỗi lưng — rất tốt cho xương',base:{reps:8,sets:2},holdS:3,
+   steps:['Nằm sấp, hai tay xuôi dọc thân hoặc đặt sau lưng.','Nâng nhẹ phần ngực và đầu lên khỏi sàn, giữ mắt nhìn xuống.','Giữ 2–3 giây rồi hạ xuống nhẹ nhàng.'],
+   safe:'Nâng vừa phải, không giật. Đặc biệt phù hợp khi có loãng xương.'},
+ brace:{name:'Gồng cơ bụng sâu',svg:S.brace,cat:'core',dir:'neutral',int:1,flex:false,
+   aim:'Kích hoạt cơ lõi nâng đỡ cột sống',base:{reps:8,sets:1},holdS:6,
+   steps:['Nằm ngửa, hai gối co, tay đặt bụng dưới.','Hóp nhẹ rốn về cột sống, gồng nhẹ như sắp bị thúc vào bụng.','Vẫn thở bình thường khi gồng. Giữ rồi thả.'],
+   safe:'Chỉ gồng nhẹ (~30% sức), không nín thở.'},
+ bridge:{name:'Cây cầu',svg:S.bridge,cat:'core',dir:'neutral',int:2,flex:false,
+   aim:'Tăng sức mạnh cơ mông và lưng dưới',base:{reps:10,sets:2},
+   steps:['Nằm ngửa, hai gối co, bàn chân đặt sàn.','Gồng nhẹ bụng, nâng hông tạo đường thẳng vai–gối.','Giữ 2–3 giây rồi hạ xuống chậm.'],
+   safe:'Không nâng quá cao gây ưỡn. Cảm nhận cơ mông làm việc.'},
+ bird:{name:'Chim – chó (Bird-dog)',svg:S.bird,cat:'core',dir:'neutral',int:2,flex:false,
+   aim:'Rèn kiểm soát vận động & thăng bằng cột sống',base:{reps:8,sets:2},sides:true,
+   steps:['Quỳ chống tay và gối, lưng thẳng, gồng nhẹ bụng.','Duỗi thẳng một tay ra trước và chân đối diện ra sau.','Giữ 2–3 giây, không xoay thân, rồi đổi bên.'],
+   safe:'Giữ lưng thẳng như mặt bàn, chuyển động chậm.'},
+ deadbug:{name:'Bọ chết (Dead bug)',svg:S.deadbug,cat:'core',dir:'neutral',int:2,flex:false,
+   aim:'Ổn định cột sống khi tay chân chuyển động',base:{reps:8,sets:2},sides:true,
+   steps:['Nằm ngửa, hai tay vươn lên trần, hai gối nâng 90 độ.','Gồng bụng ép lưng sát sàn.','Hạ một tay và chân đối diện xuống thấp rồi đổi bên.'],
+   safe:'Lưng luôn áp sàn. Nếu lưng nhấc lên, hạ tay/chân ít hơn.'},
+ plank:{name:'Tấm ván nghiêng (gối chạm sàn)',svg:S.plank,cat:'core',dir:'neutral',int:3,flex:false,
+   aim:'Tăng sức bền cơ bên thân',base:{reps:0,sets:3},holdS:15,sides:true,
+   steps:['Nằm nghiêng, chống khuỷu tay dưới vai, hai gối co chạm sàn.','Nâng hông tạo đường thẳng vai–gối.','Giữ rồi hạ. Đổi bên.'],
+   safe:'Giữ thân thẳng, không để hông tụt.'},
+ ham:{name:'Giãn gân kheo',svg:S.ham,cat:'stretch',dir:'neutral',int:1,flex:false,
+   aim:'Giảm căng mặt sau đùi kéo vào lưng',base:{reps:0,sets:3},holdS:25,sides:true,
+   steps:['Nằm ngửa, dùng tay hoặc khăn vòng qua bàn chân nâng một chân.','Giữ gối hơi thẳng đến khi căng mặt sau đùi.','Giữ yên, thở đều, rồi đổi chân.'],
+   safe:'Nếu kéo thẳng làm tê chân tăng, gập gối nhiều hơn.'},
+ piri:{name:'Giãn cơ hình lê (mông sâu)',svg:S.piri,cat:'stretch',dir:'neutral',int:1,flex:false,
+   aim:'Giảm căng cơ mông thường gây đau lan',base:{reps:0,sets:3},holdS:25,sides:true,
+   steps:['Nằm ngửa, gác mắt cá chân bên đau lên gối chân kia (hình số 4).','Ôm đùi chân dưới kéo nhẹ về ngực.','Giữ rồi đổi bên.'],
+   safe:'Vai và đầu thư giãn trên sàn, không giật mạnh.'},
+ nerve:{name:'Trượt thần kinh tọa',svg:S.nerve,cat:'nerve',dir:'neutral',int:1,flex:false,
+   aim:'Giúp dây thần kinh "trượt" tự do, giảm tê đau chân',base:{reps:12,sets:2},
+   steps:['Ngồi thẳng trên ghế, hai tay đặt đùi.','Duỗi thẳng chân bên đau ra trước, đồng thời ngẩng đầu nhìn lên.','Gập gối lại và cúi cằm xuống. Lặp lại nhẹ nhàng.'],
+   safe:'Là động tác "ru" nhẹ, KHÔNG kéo căng mạnh. Tăng tê thì giảm biên độ.'},
+ balance:{name:'Đứng thăng bằng một chân',svg:S.balance,cat:'balance',dir:'neutral',int:1,flex:false,
+   aim:'Cải thiện thăng bằng, phòng ngã & gãy xương',base:{reps:0,sets:3},holdS:20,sides:true,
+   steps:['Đứng cạnh bàn/ghế chắc để vịn khi cần.','Nhấc một chân khỏi sàn, giữ thăng bằng trên chân kia.','Giữ rồi đổi chân. Khó hơn thì buông tay vịn.'],
+   safe:'Luôn có điểm tựa gần bên. An toàn là trên hết.'}
+};
+
+/* ===== STATE ===== */
+const F={confirmed:false,age:null,sex:null,height:null,weight:null,pain:4,loc:null,pattern:null,osteo:false,mins:null,days:null,activity:null};
+
+/* confirm */
+const confirmEl=document.getElementById('confirm');
+confirmEl.addEventListener('click',e=>{if(e.target.id==='rfToggle')return;confirmEl.classList.toggle('on');F.confirmed=confirmEl.classList.contains('on');validate();});
+document.getElementById('rfToggle').addEventListener('click',e=>{e.stopPropagation();document.getElementById('rfList').classList.toggle('show');});
+/* osteo */
+const osteoEl=document.getElementById('osteo');
+osteoEl.addEventListener('click',()=>{osteoEl.classList.toggle('on');F.osteo=osteoEl.classList.contains('on');});
+
+/* segmented controls */
+document.querySelectorAll('[data-seg]').forEach(g=>{
+  const key=g.getAttribute('data-seg');
+  g.querySelectorAll('.seg').forEach(b=>b.addEventListener('click',()=>{
+    g.querySelectorAll('.seg').forEach(x=>x.classList.remove('on'));b.classList.add('on');
+    F[key]=b.getAttribute('data-v');validate();
+  }));
+});
+
+/* numbers + bmi */
+['age','height','weight'].forEach(id=>document.getElementById(id).addEventListener('input',e=>{F[id]=e.target.value?+e.target.value:null;updateBMI();validate();}));
+function updateBMI(){
+  const box=document.getElementById('bmiBox');
+  if(F.height>0&&F.weight>0){
+    const b=F.weight/Math.pow(F.height/100,2);
+    box.style.display='flex';document.getElementById('bmiVal').textContent=b.toFixed(1);
+    const c=document.getElementById('bmiCat');let t,col,bg;
+    if(b<18.5){t='Gầy';col='#1d5fa6';bg='#E3F1FF';}
+    else if(b<23){t='Bình thường';col='#0a7a55';bg='#E7F8F0';}
+    else if(b<25){t='Thừa cân nhẹ';col='#9a6a08';bg='#FDEFD9';}
+    else if(b<30){t='Thừa cân';col='#c33a26';bg='#FFEAE6';}
+    else{t='Béo phì';col='#a01b0c';bg='#FEE2DE';}
+    c.textContent=t;c.style.color=col;c.style.background=bg;
+  }else box.style.display='none';
+}
+/* pain slider */
+const pain=document.getElementById('pain');
+pain.addEventListener('input',()=>{F.pain=+pain.value;document.getElementById('painNum').textContent=pain.value;
+  const l=pain.value==0?'Không đau':pain.value<=3?'Đau nhẹ':pain.value<=6?'Đau vừa':pain.value<=8?'Đau nhiều':'Đau dữ dội';
+  document.getElementById('painLab').textContent=l;
+  document.getElementById('painNum').style.color=pain.value<=3?'#22a559':pain.value<=6?'#e0890f':'#e0392b';});
+pain.dispatchEvent(new Event('input'));
+
+function validate(){
+  const ok=F.confirmed&&F.age>0&&F.sex&&F.height>0&&F.weight>0&&F.loc&&F.pattern&&F.mins&&F.days&&F.activity;
+  document.getElementById('genBtn').disabled=!ok;
+  if(ok)document.getElementById('err').classList.remove('show');
+}
+
+/* ===== ENGINE ===== */
+function round(n){return Math.max(1,Math.round(n));}
+function painCat(){return F.pain>=7?'high':F.pain>=4?'mid':'low';}
+function ageBand(){return F.age>=75?'old2':F.age>=65?'old':'adult';}
+function bmiVal(){return F.weight/Math.pow(F.height/100,2);}
+
+function bias(){ // directional emphasis
+  if(F.osteo) return 'ext';
+  if(F.pattern==='flexAgg') return 'ext';
+  if(F.pattern==='extAgg') return 'flex';
+  return 'neutral';
+}
+function isRadicular(){return F.loc==='leg';}
+
+function doseText(ex,pc,ab){
+  // scaling factors
+  let rf = pc==='high'?0.6 : pc==='low'?1.2 : 1.0;
+  let hf = pc==='high'?0.7 : pc==='low'?1.2 : 1.0;
+  if(ab==='old'||ab==='old2'){rf*=0.85;hf*=0.9;}
+  const out=[];
+  const b=ex.base;
+  if(b.reps>0){out.push(`${round(b.reps*rf)} lần${ex.sides?'/bên':''}`);}
+  if(ex.holdS){out.push(`Giữ ${round(ex.holdS*hf)} giây`);}
+  let sets=b.sets||1; if(pc==='high'&&sets>1)sets=sets-1; sets=Math.max(1,sets);
+  if(b.sets>0)out.push(`${sets} hiệp`);
+  return out;
+}
+
+function build(){
+  const pc=painCat(), ab=ageBand(), bias_=bias(), rad=isRadicular(), bmi=bmiVal();
+  const groups={mobility:[],directional:[],core:[],stretch:[],nerve:[],balance:[]};
+
+  // mobility – everyone
+  groups.mobility.push('pelvic','cat'); if(F.mins!=='10')groups.mobility.push('rot');
+
+  // directional
+  if(bias_==='ext'){
+    groups.directional.push('prone','elbow','cobra'); if(F.mins==='30')groups.directional.push('stand');
+  }else if(bias_==='flex'){
+    groups.directional.push('knee','child'); if(F.mins==='30')groups.directional.push('rot');
+  }else{
+    groups.directional.push('elbow'); if(!F.osteo)groups.directional.push('knee'); groups.directional.push('stand');
+  }
+
+  // core – everyone gets brace; add by capacity
+  groups.core.push('brace');
+  if(F.osteo) groups.core.unshift('backext'); // extension strengthening, good for bone
+  if(pc!=='high'){ groups.core.push('bridge','bird'); if(F.mins!=='10')groups.core.push('deadbug'); }
+  if(pc==='low'&&ab==='adult'&&F.activity!=='low'&&F.mins==='30'&&!F.osteo) groups.core.push('plank');
+
+  // stretch
+  groups.stretch.push('ham','piri');
+
+  // nerve – radicular
+  if(rad) groups.nerve.push('nerve');
+
+  // balance – older / osteo / fall risk
+  if(ab!=='adult'||F.osteo) groups.balance.push('balance');
+
+  // de-dup keep order
+  for(const k in groups) groups[k]=[...new Set(groups[k])];
+
+  // aerobic start
+  const start = F.activity==='low'?10 : F.activity==='mid'?15 : 20;
+
+  // banners
+  const banners=[];
+  if(F.osteo) banners.push({c:'violet',t:`<b>Lưu ý loãng xương:</b> Chương trình đã tránh các động tác cúi gập cột sống mạnh và ưu tiên bài làm khỏe cơ duỗi lưng cùng bài thăng bằng. Bằng chứng cho thấy nên tránh gập cột sống lặp lại/quá mức và tập trung vào hướng ưỡn để giảm nguy cơ gãy lún đốt sống.`});
+  if(ab!=='adult') banners.push({c:'amber',t:`<b>Lưu ý tuổi tác:</b> Cường độ được điều chỉnh nhẹ nhàng hơn và có thêm bài thăng bằng để phòng ngã. Hãy luôn có điểm tựa gần bên khi tập các bài đứng.`});
+  if(bmi>=25) banners.push({c:'teal',t:`<b>Về cân nặng (BMI ${bmi.toFixed(1)}):</b> Giảm cân hợp lý sẽ giảm tải cho cột sống. Hãy ưu tiên đi bộ và vận động ít va chạm đều đặn — vừa tốt cho lưng vừa tốt cho cân nặng.`});
+  if(bmi<18.5&&F.osteo) banners.push({c:'amber',t:`<b>Thể trạng gầy:</b> Cùng với tập luyện, hãy chú ý dinh dưỡng đủ canxi và đạm, trao đổi với bác sĩ về sức khỏe xương.`});
+  if(pc==='high') banners.push({c:'amber',t:`<b>Đang đau nhiều:</b> Liều tập đã được giảm xuống mức nhẹ nhàng. Hãy bắt đầu thật từ từ, ưu tiên các bài vận động và giãn cơ. Nếu sau vài ngày dịu hơn, có thể tăng dần.`});
+
+  // principle text by bias
+  let bLabel, principle;
+  if(rad){
+    bLabel='Đau lan xuống chân — tập theo hướng ưu thế + thư giãn thần kinh';
+    principle=`Cơn đau lan xuống chân của bạn cần được tập theo đúng hướng giúp "kéo" đau từ chân rút về lưng (hiện tượng dồn đau về trung tâm), kết hợp động tác trượt thần kinh nhẹ. ${bias_==='flex'?'Bạn dễ chịu hơn khi cúi nên ưu tiên nhóm bài gập nhẹ.':'Ưu tiên nhóm bài ưỡn lưng.'} Nếu đau lan xa thêm xuống chân khi tập, hãy đổi hướng hoặc dừng lại.`;
+  }else if(bias_==='ext'){
+    bLabel=F.osteo?'Hướng ưỡn — an toàn cho xương':'Hướng ưỡn lưng (extension)';
+    principle=`Bạn dễ chịu hơn khi ưỡn ra sau${F.osteo?' và cần bảo vệ xương':''}, nên trọng tâm là nhóm bài ưỡn lưng và làm khỏe cơ duỗi lưng, kết hợp ổn định cơ lõi và đi bộ.`;
+  }else if(bias_==='flex'){
+    bLabel='Hướng cúi/gập (flexion)';
+    principle=`Bạn dễ chịu hơn khi cúi hoặc ngồi (kiểu thường gặp khi hẹp ống sống), nên ưu tiên nhóm bài gập nhẹ giúp mở rộng khoang sống, kết hợp ổn định cơ lõi và đi bộ.`;
+  }else{
+    bLabel='Cân bằng — ổn định cơ lõi & vận động';
+    principle=`Chưa có hướng ưu thế rõ ràng, nên trọng tâm là tập kiểm soát cơ lõi, vận động mềm dẻo và đi bộ. Khi tập hãy để ý hướng nào làm bạn dễ chịu hơn để nghiêng về hướng đó.`;
+  }
+
+  return {pc,ab,bias:bias_,rad,bmi,groups,start,banners,bLabel,principle};
+}
+
+/* weekly schedule */
+function schedule(plan){
+  const nDays=+F.days;
+  const dayIdx = nDays<=3?[0,2,4] : nDays===4?[0,1,3,5] : [0,1,2,3,4];
+  const names=['Thứ 2','Thứ 3','Thứ 4','Thứ 5','Thứ 6','Thứ 7','Chủ nhật'];
+  const minsN = F.mins==='10'?'A' : F.mins==='20'?'B' : 'C';
+  const nMain = minsN==='A'?2 : minsN==='B'?3 : 4;
+  const nMob  = minsN==='A'?1 : 2;
+  const nStr  = minsN==='A'?1 : 2;
+
+  const pick=(arr,n)=>arr.slice(0,n);
+  // two templates
+  const dirPool=plan.groups.directional.concat(plan.rad?plan.groups.nerve:[]);
+  const tA=()=>({focus:'Linh hoạt + '+(plan.bias==='flex'?'hướng cúi':plan.bias==='ext'?'hướng ưỡn':'vận động'),
+                 ids:[...pick(plan.groups.mobility,nMob),...pick(dirPool,nMain),...pick(plan.groups.stretch,nStr)]});
+  const tB=()=>({focus:'Sức mạnh cơ lõi'+(plan.groups.balance.length?' + thăng bằng':''),
+                 ids:[...pick(plan.groups.mobility,1),...pick(plan.groups.core,nMain),...pick(plan.groups.balance,1),...pick(plan.groups.stretch,1)]});
+
+  const week=[];
+  let t=0;
+  for(let i=0;i<7;i++){
+    if(dayIdx.includes(i)){
+      const tpl = (t%2===0)?tA():tB(); t++;
+      week.push({day:names[i],type:'train',focus:tpl.focus,ids:[...new Set(tpl.ids)]});
+    }else{
+      week.push({day:names[i],type:'rec'});
+    }
+  }
+  return week;
+}
+
+/* ===== RENDER ===== */
+function exCard(id,pc,ab){
+  const e=EX[id];
+  const dose=doseText(e,pc,ab).map((d,i)=>`<span class="${i===0?'':''}">${d}</span>`).join('');
+  const freq=`<span class="hi">${F.days==='3'?'3 buổi/tuần':F.days==='4'?'3–4 buổi/tuần':'5 buổi/tuần'}</span>`;
+  const steps=e.steps.map((s,i)=>`<li><span class="sn">${i+1}</span><span>${s}</span></li>`).join('');
+  return `<article class="ex"><div class="ex-fig">${e.svg}</div><div class="ex-body">
+    <h5>${e.name}</h5><p class="ex-aim">${e.aim}</p>
+    <div class="dose">${dose}${freq}</div>
+    <ol class="steps">${steps}</ol>
+    <div class="ex-safe"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z" stroke="#E8543F" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 8v4" stroke="#E8543F" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="15" r="1" fill="#E8543F"/></svg><span>${e.safe}</span></div>
+  </div></article>`;
+}
+
+const GROUPMETA=[
+ {key:'mobility',label:'Khởi động & vận động mềm dẻo',color:'#16A394',desc:'Làm nóng cột sống trước khi vào bài chính.'},
+ {key:'directional',label:'Bài theo hướng ưu thế',color:'#F6A823',desc:'Nhóm bài quan trọng nhất cho kiểu đau của bạn.'},
+ {key:'nerve',label:'Thư giãn thần kinh',color:'#7C5CFC',desc:'Giúp giảm tê và đau lan xuống chân.'},
+ {key:'core',label:'Sức mạnh & ổn định cơ lõi',color:'#3b51b5',desc:'Xây "đai bảo vệ" tự nhiên cho cột sống.'},
+ {key:'balance',label:'Thăng bằng & phòng ngã',color:'#0E9F6E',desc:'Giảm nguy cơ té ngã và chấn thương.'},
+ {key:'stretch',label:'Giãn cơ & thư giãn',color:'#c33a26',desc:'Giảm căng cơ, kết thúc buổi tập nhẹ nhàng.'}
+];
+
+function render(){
+  const plan=build();
+  const week=schedule(plan);
+  const pc=plan.pc, ab=plan.ab;
+
+  // header chips
+  const chips=[
+   `Tuổi <b>${F.age}</b>`,
+   `BMI <b>${plan.bmi.toFixed(1)}</b>`,
+   `Đau <b>${F.pain}/10</b>`,
+   `<b>${F.days==='3'?'3':F.days==='4'?'4':'5'}</b> buổi/tuần`,
+   `<b>${F.mins==='10'?'10':F.mins==='20'?'15–20':'30'}</b> phút/buổi`
+  ].map(c=>`<span class="mchip">${c}</span>`).join('');
+
+  // banners
+  const banners=plan.banners.map(b=>{
+    const ic = b.c==='violet'?'<path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4z" stroke="#7C5CFC" stroke-width="1.8" stroke-linejoin="round"/>'
+            : `<circle cx="12" cy="12" r="9" fill="#FFF" stroke="#F6A823" stroke-width="2"/><path d="M12 8v5" stroke="#F6A823" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16" r="1.1" fill="#F6A823"/>`;
+    const ic2 = b.c==='teal'?'<circle cx="12" cy="12" r="9" fill="#FFF" stroke="#0E9F6E" stroke-width="2"/><path d="M8 12.5l2.5 2.5L16 9" stroke="#0E9F6E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>':ic;
+    return `<div class="banner ${b.c==='violet'?'violet':b.c==='teal'?'teal':'amber'}"><svg viewBox="0 0 24 24" fill="none">${b.c==='teal'?ic2:ic}</svg><div>${b.t}</div></div>`;
+  }).join('');
+
+  // prescription groups
+  let presc='';
+  GROUPMETA.forEach(g=>{
+    const ids=plan.groups[g.key]; if(!ids||!ids.length)return;
+    presc+=`<div class="pgroup"><h4><span class="gdot" style="background:${g.color}"></span>${g.label}</h4>
+      <p style="color:var(--muted);font-weight:500;font-size:.88rem;margin:-6px 0 13px">${g.desc}</p>
+      <div class="grid">${ids.map(id=>exCard(id,pc,ab)).join('')}</div></div>`;
+  });
+
+  // weekly calendar
+  const weekHtml=week.map(d=>{
+    if(d.type==='rec'){
+      return `<div class="day rec"><div class="day-h"><span>${d.day}</span>☀️</div><div class="day-b">
+        <span class="day-focus">Nghỉ chủ động</span>
+        <ul class="day-list"><li>Giãn cơ nhẹ nhàng</li><li>Vận động sinh hoạt bình thường</li></ul>
+        <div class="day-walk">🚶 Đi bộ ${plan.start}–30 phút</div></div></div>`;
+    }
+    const items=d.ids.map(id=>`<li>${EX[id].name}</li>`).join('');
+    return `<div class="day train"><div class="day-h"><span>${d.day}</span>💪</div><div class="day-b">
+      <span class="day-focus">${d.focus}</span>
+      <ul class="day-list">${items}</ul>
+      <div class="day-walk">🚶 Đi bộ ${plan.start}–30 phút</div></div></div>`;
+  }).join('');
+
+  // progression
+  const prog=[
+   {w:'Tuần 1–2',h:'Làm quen',p:`Tập đúng kỹ thuật, biên độ nhỏ. Đi bộ ${plan.start} phút/buổi. Ưu tiên cảm nhận đúng động tác hơn là số lượng.`},
+   {w:'Tuần 3–6',h:'Tăng dần',p:'Tăng số lần/hiệp khi thấy nhẹ nhàng. Kéo dài đi bộ thêm ~5 phút mỗi 2 tuần, hướng tới 30 phút.'},
+   {w:'Tuần 7–12',h:'Củng cố',p:'Duy trì đều đặn, có thể thêm bài khó hơn nếu hết đau. Đi bộ 30 phút × 5 ngày/tuần.'},
+   {w:'Từ tuần 12+',h:'Duy trì lâu dài',p:'Giữ thói quen như một phần cuộc sống để phòng tái phát. Bằng chứng cho thấy hiệu quả rõ nhất khi duy trì ≥16 tuần.'}
+  ].map(s=>`<div class="pstep"><span class="pw">${s.w}</span><h5>${s.h}</h5><p>${s.p}</p></div>`).join('');
+
+  const R=document.getElementById('result');
+  R.innerHTML=`
+    <div class="sec-head"><span class="sec-num">2</span><h2>Chương trình của bạn</h2></div>
+    <div class="res-hero">
+      <span class="tag">${plan.bLabel}</span>
+      <h3>Đơn bài tập cá thể hóa</h3>
+      <p>${plan.principle}</p>
+      <div class="chips-row">${chips}</div>
+    </div>
+    ${banners}
+
+    <div class="block-title"><span class="bi"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 7h16M4 12h16M4 17h10" stroke="#0E6F63" stroke-width="2" stroke-linecap="round"/></svg></span>Các bài tập được kê cho bạn</div>
+    <p class="block-sub">Liều lượng (số lần, thời gian giữ) đã được điều chỉnh theo mức đau ${F.pain}/10${ab!=='adult'?' và độ tuổi của bạn':''}. Làm theo thứ tự nhóm từ trên xuống trong mỗi buổi.</p>
+    ${presc}
+
+    <div class="block-title"><span class="bi"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="16" rx="2" stroke="#0E6F63" stroke-width="2"/><path d="M3 9h18M8 3v4M16 3v4" stroke="#0E6F63" stroke-width="2" stroke-linecap="round"/></svg></span>Lịch tập trong tuần của bạn</div>
+    <p class="block-sub">Xếp theo ${F.days==='3'?'3':F.days==='4'?'4':'5'} buổi tập chính/tuần, mỗi buổi ~${F.mins==='10'?'10':F.mins==='20'?'15–20':'30'} phút, xen kẽ ngày nghỉ chủ động. Đi bộ là nền tảng nên duy trì gần như mỗi ngày.</p>
+    <div class="week">${weekHtml}</div>
+    <div class="banner teal" style="margin-top:16px"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" fill="#FFF" stroke="#0E9F6E" stroke-width="2"/><path d="M8 12.5l2.5 2.5L16 9" stroke="#0E9F6E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><div><b>Vì sao lịch này hợp lý?</b> Bằng chứng cho thấy tập khoảng 3–5 buổi/tuần, mỗi buổi 20–30 phút mang lại hiệu quả tốt cho đau lưng; đi bộ ~150 phút/tuần vừa giảm đau vừa phòng tái phát. Lịch trên được cân đối quanh quỹ thời gian bạn cung cấp.</div></div>
+
+    <div class="block-title"><span class="bi"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 18L9 8l4 6 3-4 4 8" stroke="#0E6F63" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Lộ trình tiến triển</div>
+    <p class="block-sub">Tăng dần theo nguyên tắc "vừa sức rồi nâng lên". Đừng vội — sự đều đặn quan trọng hơn cường độ.</p>
+    <div class="prog">${prog}</div>
+
+    <div class="block-title"><span class="bi"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#0E6F63" stroke-width="2"/><path d="M12 7v5l3 2" stroke="#0E6F63" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Theo dõi khi tập — quy tắc đèn giao thông</div>
+    <div class="lights">
+      <div class="light green"><h5><span class="bulb"></span>Xanh — Tiếp tục</h5><p>Đau chỉ tăng nhẹ lúc tập và trở về mức nền trong vài giờ. Hơi mỏi cơ là bình thường.</p></div>
+      <div class="light amber2"><h5><span class="bulb"></span>Vàng — Điều chỉnh</h5><p>Đau tăng nhiều, kéo dài hơn 24 giờ. Hãy giảm số lần/biên độ hoặc nghỉ bài đó 1–2 ngày rồi tập nhẹ lại.</p></div>
+      <div class="light red"><h5><span class="bulb"></span>Đỏ — Dừng & đi khám</h5><p>Đau lan xa thêm xuống chân, tê/yếu chân tăng, hoặc xuất hiện dấu hiệu cờ đỏ. Dừng tập và đến cơ sở y tế.</p></div>
+    </div>
+
+    <div class="actions">
+      <button class="btn-print" onclick="window.print()"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M6 9V3h12v6M6 18H4v-7h16v7h-2M8 14h8v7H8z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>In / Lưu PDF chương trình</button>
+      <button class="btn-edit" id="editBtn">Chỉnh sửa hồ sơ</button>
+    </div>
+
+    <div class="disc"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#FFF" stroke="#F6A823" stroke-width="2"/><path d="M12 8v5" stroke="#F6A823" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16" r="1.2" fill="#F6A823"/></svg>
+      <p><b>Lưu ý:</b> Đây là gợi ý giáo dục dựa trên thông tin bạn cung cấp, <b>không thay thế thăm khám trực tiếp</b>. Nếu sau 2–4 tuần không cải thiện, đau nặng lên, hoặc xuất hiện dấu hiệu cờ đỏ, hãy đến gặp bác sĩ chuyên khoa cột sống / phục hồi chức năng để được đánh giá cá thể hóa hơn.</p>
+    </div>`;
+  R.classList.add('show');
+  document.getElementById('editBtn').addEventListener('click',()=>{document.getElementById('intake').scrollIntoView({behavior:'smooth'});});
+  R.scrollIntoView({behavior:'smooth'});
+}
+
+document.getElementById('genBtn').addEventListener('click',()=>{if(!document.getElementById('genBtn').disabled)render();});
+</script>
+</body>
+</html>
