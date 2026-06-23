@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "bai-tap-dieu-tri-dau-co-vai-canh-tay",
+    title: "Hướng Dẫn 7 Bài Tập Điều Trị Đau Cổ Vai Cánh Tay: Từ Khoa Học Đến Thực Hành",
+    excerpt: "75 đến 90% bệnh nhân đau cổ vai cánh tay không cần phẫu thuật. TS.BS. Quyền hướng dẫn 7 bài tập có bằng chứng khoa học — kèm hình ảnh minh họa — để giảm đau tê tay hiệu quả ngay tại nhà.",
+    audience: "Cho bệnh nhân",
+    category: "Phục hồi chức năng",
+    date: "2026-06-23",
+  },
+  {
     slug: "bien-chung-phau-thuat-thoat-vi-dia-dem-that-lung",
     title: "Các Biến Chứng Của Phẫu Thuật Thoát Vị Đĩa Đệm Thắt Lưng: Những Điều Bệnh Nhân Cần Biết",
     excerpt: "Trước khi bước vào phòng mổ, bạn cần biết những biến chứng nào có thể xảy ra, tỉ lệ ra sao, và làm gì để bảo vệ bản thân. Bài viết giải thích đầy đủ bằng ngôn ngữ gần gũi, dễ hiểu.",
