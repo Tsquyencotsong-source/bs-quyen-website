@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "bai-tap-tai-nha-dieu-tri-dau-lung-that-lung-hong",
+    title: "Hướng Dẫn 7 Bài Tập Tại Nhà Điều Trị Đau Lưng Và Hội Chứng Thắt Lưng Hông",
+    excerpt: "Hội chứng thắt lưng hông chiếm 41,45% bệnh cột sống tại Việt Nam. TS.BS. Quyền hướng dẫn 7 bài tập tại nhà có cơ sở khoa học — kèm hình ảnh minh họa — giúp giảm đau hiệu quả mà không cần phẫu thuật.",
+    audience: "Cho bệnh nhân",
+    category: "Phục hồi chức năng",
+    date: "2026-06-23",
+  },
+  {
     slug: "bai-tap-dieu-tri-dau-co-vai-canh-tay",
     title: "Hướng Dẫn 7 Bài Tập Điều Trị Đau Cổ Vai Cánh Tay: Từ Khoa Học Đến Thực Hành",
     excerpt: "75 đến 90% bệnh nhân đau cổ vai cánh tay không cần phẫu thuật. TS.BS. Quyền hướng dẫn 7 bài tập có bằng chứng khoa học — kèm hình ảnh minh họa — để giảm đau tê tay hiệu quả ngay tại nhà.",
