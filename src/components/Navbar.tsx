@@ -15,6 +15,7 @@ const NAV_LINKS = [
   { href: "/contact",    label: "Liên hệ" },
   { href: "/frax", label: "FRAX" },
   { href: "/bai-tap-lung", label: "Bài tập lưng" },
+  { href: "/co-vai-gay", label: "Cổ Vai Gáy" },
 ];
 
 export default function Navbar() {
