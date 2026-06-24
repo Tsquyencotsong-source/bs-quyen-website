@@ -791,3 +791,6 @@ export default function CoVaiGayTool() {
 
       </div>
     </div>
+
+  );
+}
