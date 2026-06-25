@@ -26,6 +26,62 @@ type Block =
   | { type: "warning"; content: string };
 
 const ARTICLES: Record<string, Block[]> = {
+  "bai-tap-phuc-hoi-chuc-nang-dau-khop-goi": [
+    { type: "para", content: "Chú Hùng, 62 tuổi, buôn bán ở chợ, đến khám với bước đi khập khiễng rõ rệt: Bác ơi, gối con đau từ sáng đến tối, xuống cầu thang là run hết cả chân, ngồi xuống đứng lên khó lắm. Phim X-quang cho thấy chú bị thoái hóa khớp gối độ III — khe khớp hẹp, có gai xương. Nhưng câu trả lời của tôi không phải là mổ ngay — mà là: hãy thử 7 bài tập này đều đặn trong 8 tuần, rồi chúng ta đánh giá lại." },
+    { type: "para", content: "Đau khớp gối là một trong những nguyên nhân hàng đầu gây tàn phế ở người trưởng thành. Theo Tổ chức Y tế Thế giới, hơn 365 triệu người trên toàn cầu đang sống chung với thoái hóa khớp gối. Tại Việt Nam, ước tính hơn 6 triệu người bị ảnh hưởng — chiếm khoảng 6,4% dân số trưởng thành — và tỷ lệ này tăng nhanh theo đà già hóa dân số." },
+    { type: "highlight", content: "Nghiên cứu tổng hợp năm 2024 trên tạp chí BMC Musculoskeletal Disorders, phân tích 16 thử nghiệm lâm sàng ngẫu nhiên có đối chứng với hơn 3.015 bệnh nhân, kết luận: tập luyện tại nhà đều đặn hiệu quả giảm đau và cải thiện chức năng khớp gối tương đương tập có giám sát tại bệnh viện." },
+    { type: "heading", content: "Tại Sao Vận Động Lại Chữa Được Đau Khớp Gối?" },
+    { type: "para", content: "Nhiều bệnh nhân nghe đến đau khớp là nghĩ ngay đến nghỉ ngơi hoàn toàn. Nhưng khoa học chứng minh điều ngược lại: sụn khớp gối không có mạch máu nuôi trực tiếp, nó nhận dưỡng chất qua hoạt động co bóp của cơ bắp và chuyển động của khớp. Khi bất động quá lâu, sụn thiếu nuôi dưỡng, cơ tứ đầu đùi teo yếu, áp lực lên khớp tăng lên và bệnh nặng hơn. Ngược lại, vận động đúng cách giúp dưỡng chất thấm vào sụn, cơ bắp khỏe hơn nâng đỡ khớp, giảm viêm và giảm đau hiệu quả." },
+    { type: "para", content: "Hướng dẫn lâm sàng AAOS năm 2023 của Hiệp hội Phẫu thuật Chỉnh hình Hoa Kỳ khuyến cáo mạnh mẽ: bài tập aerobic cường độ thấp và tập luyện thần kinh-cơ là liệu pháp nền tảng, được ưu tiên trước thuốc và trước phẫu thuật đối với thoái hóa khớp gối. Nghiên cứu tại Bệnh viện Chỉnh hình và Phục hồi Chức năng Cần Thơ ghi nhận: sau liệu trình tập vận động, 76,7% bệnh nhân đạt sức cơ tứ đầu đùi bậc 5, điểm đau giảm trung bình 4,2 điểm trên thang VAS, biên độ vận động khớp gối tăng trung bình 17,5 độ." },
+    { type: "heading", content: "Nguyên Tắc An Toàn Trước Khi Tập" },
+    { type: "list", items: [
+      "Dừng ngay nếu xuất hiện đau nhói, sưng nề tăng lên, hoặc khớp gối bị khóa không cử động được",
+      "Không tập khi khớp đang viêm cấp tính: đỏ, nóng, sưng nhiều",
+      "Tập chậm và kiểm soát — không giật cơ, không đau vượt quá mức 4 trên thang 0-10",
+      "Tập đều đặn mỗi ngày quan trọng hơn tập cường độ cao không đều",
+      "Giảm cân nếu thừa cân: mỗi 1 kg giảm, áp lực lên khớp gối giảm đến 4 kg"
+    ]},
+    { type: "heading", content: "Bài Tập 1: Gồng Cơ Tứ Đầu Đùi Tĩnh" },
+    { type: "para", content: "Đây là bài tập nền tảng nhất, phù hợp ngay cả khi đang đau nhiều vì khớp gối không cần chuyển động. Nằm ngửa trên sàn, duỗi thẳng chân. Ấn nhẹ khoeo chân xuống sàn, siết chặt cơ đùi trước (cơ tứ đầu) và giữ 5-10 giây rồi thả lỏng. Thực hiện 10-15 lần mỗi bên, 2-3 lần mỗi ngày. Nghiên cứu đăng trên PMC năm 2014 xác nhận tập isometric đều đặn 6 tuần cải thiện sức cơ tứ đầu đùi có ý nghĩa thống kê và giảm đau trên thang VAS." },
+    { type: "image", src: "/images/Bai_Tap_Khop_Goi/1.Bai_tap_1.png", alt: "Bài tập gồng cơ tứ đầu đùi tĩnh", caption: "Bài Tập 1: Gồng Cơ Tứ Đầu Đùi Tĩnh", subcaption: "Nằm ngửa, duỗi thẳng chân, siết cơ đùi giữ 5-10 giây. 10-15 lần/bên." },
+    { type: "heading", content: "Bài Tập 2: Nâng Chân Thẳng" },
+    { type: "para", content: "Nằm ngửa, gập một gối lại để lưng dưới được hỗ trợ, chân kia duỗi thẳng trên sàn. Siết chặt cơ đùi chân thẳng rồi từ từ nâng lên khoảng 30-45 cm, giữ 3-5 giây, hạ xuống chậm rãi. Thực hiện 10-15 lần mỗi bên, 2-3 hiệp. Bài tập này tăng sức mạnh cơ tứ đầu đùi mà không tạo lực nén lên sụn khớp gối — đặc biệt phù hợp trong giai đoạn đau cấp hoặc sau phẫu thuật khớp gối." },
+    { type: "image", src: "/images/Bai_Tap_Khop_Goi/2.Bai_tap_2.png", alt: "Bài tập nâng chân thẳng", caption: "Bài Tập 2: Nâng Chân Thẳng", subcaption: "Nằm ngửa, nâng chân thẳng lên 30-45 cm, giữ 3-5 giây. 10-15 lần/bên." },
+    { type: "heading", content: "Bài Tập 3: Kéo Giãn Cơ Đùi Sau" },
+    { type: "para", content: "Nằm ngửa, dùng khăn hoặc dây vòng qua gan bàn chân. Từ từ kéo thẳng chân lên cao đến khi cảm thấy căng nhẹ ở mặt sau đùi, giữ 20-30 giây. Không giật cơ, thở đều. Lặp lại 3 lần mỗi bên. Cơ đùi sau căng cứng là nguyên nhân thường bị bỏ qua gây tăng áp lực lên sụn khớp gối. Kéo giãn đúng cách giúp giảm áp lực này và cải thiện tầm vận động khớp đáng kể." },
+    { type: "image", src: "/images/Bai_Tap_Khop_Goi/3.Bai_tap_3.png", alt: "Bài tập kéo giãn cơ đùi sau", caption: "Bài Tập 3: Kéo Giãn Cơ Đùi Sau", subcaption: "Nằm ngửa, dùng khăn kéo thẳng chân lên, giữ 20-30 giây. 3 lần/bên." },
+    { type: "heading", content: "Bài Tập 4: Gập Duỗi Gối Trên Ghế" },
+    { type: "para", content: "Ngồi thẳng lưng trên ghế chắc chắn, hai bàn chân chạm đất ngang vai. Từ từ duỗi thẳng một chân lên ngang tầm hông, giữ 3 giây rồi hạ xuống chậm rãi có kiểm soát. Thực hiện 10-15 lần mỗi bên, 2-3 hiệp. Bài này rèn luyện cơ tứ đầu đùi trong tầm vận động đầy đủ, cải thiện đồng thời sức mạnh và độ linh hoạt của khớp — động tác gần giống với ngồi xuống đứng lên trong sinh hoạt hàng ngày." },
+    { type: "image", src: "/images/Bai_Tap_Khop_Goi/4.Bai_tap_4.png", alt: "Bài tập gập duỗi gối trên ghế", caption: "Bài Tập 4: Gập Duỗi Gối Trên Ghế", subcaption: "Ngồi thẳng lưng, duỗi thẳng một chân lên ngang hông, giữ 3 giây. 10-15 lần/bên." },
+    { type: "heading", content: "Bài Tập 5: Nhún Gối Một Phần (Mini Squat)" },
+    { type: "para", content: "Đứng thẳng, tay vịn nhẹ vào thành ghế hoặc tường để giữ thăng bằng. Từ từ khuỵu gối xuống khoảng 20-30 độ, giữ 3-5 giây rồi đứng dậy. Thực hiện 10-15 lần, 2-3 hiệp. Lưu ý: đầu gối không vượt quá mũi chân, lưng thẳng, không khuỵu sâu quá 45 độ khi còn đau nhiều. Đây là bài tập chức năng quan trọng giúp khớp gối quen với tải trọng. Tổng hợp phân tích mạng lưới năm 2023 trên PMC xác nhận tập tăng sức mạnh như mini squat hiệu quả hơn thuốc giảm đau về cải thiện chức năng lâu dài." },
+    { type: "image", src: "/images/Bai_Tap_Khop_Goi/5.Bai_tap_5.png", alt: "Bài tập nhún gối một phần mini squat", caption: "Bài Tập 5: Nhún Gối Một Phần (Mini Squat)", subcaption: "Đứng tay vịn ghế, khuỵu gối 20-30 độ, giữ 3-5 giây. Không để gối vượt mũi chân." },
+    { type: "heading", content: "Bài Tập 6: Tập Thăng Bằng Đứng Một Chân" },
+    { type: "para", content: "Đứng gần tường hoặc cạnh ghế để đảm bảo an toàn. Nhấc một chân lên khỏi mặt đất, giữ thăng bằng trên chân kia trong 10-30 giây. Đổi chân. Lặp lại 3-5 lần mỗi bên. Khi đã quen có thể nhắm mắt để tăng độ khó. Bài tập này cải thiện khả năng phối hợp thần kinh-cơ — thường bị suy giảm ở bệnh nhân đau khớp gối, làm khớp mất ổn định và dễ chấn thương. AAOS 2023 xếp tập thăng bằng là thành phần bắt buộc trong phục hồi khớp gối." },
+    { type: "image", src: "/images/Bai_Tap_Khop_Goi/6.Bai_tap_6.png", alt: "Bài tập thăng bằng đứng một chân", caption: "Bài Tập 6: Thăng Bằng Đứng Một Chân", subcaption: "Đứng gần tường, nhấc một chân, giữ 10-30 giây. 3-5 lần/bên." },
+    { type: "heading", content: "Bài Tập 7: Đi Bộ Đúng Phương Pháp" },
+    { type: "para", content: "Đi bộ tốc độ vừa phải 20-30 phút mỗi ngày là bài tập tốt nhất cho cả tim mạch lẫn khớp gối. Chọn mặt phẳng bằng phẳng, giày đế đệm tốt có hỗ trợ vòm bàn chân. Hoặc thay thế bằng đạp xe đạp tĩnh 15-20 phút với yên xe nâng đủ cao để gối không gập quá 90 độ. Tránh leo cầu thang nhiều trong giai đoạn còn đau. Tổng hợp nghiên cứu hệ thống năm 2024 trên PMC khẳng định đi bộ và đạp xe đều đặn giảm đau khớp gối và cải thiện chất lượng cuộc sống ở bệnh nhân thoái hóa khớp gối sau 12 tuần duy trì." },
+    { type: "image", src: "/images/Bai_Tap_Khop_Goi/7.Bai_tap_7.png", alt: "Bài tập đi bộ đúng phương pháp", caption: "Bài Tập 7: Đi Bộ Đúng Phương Pháp", subcaption: "Đi bộ 20-30 phút/ngày trên mặt phẳng bằng, giày đế mềm. Hoặc đạp xe đạp tĩnh 15-20 phút." },
+    { type: "heading", content: "Lịch Tập Được Khuyến Nghị" },
+    { type: "list", items: [
+      "Tuần 1-2: Bài 1, 2, 3 — tập nhẹ, cho cơ thể quen dần với vận động",
+      "Tuần 3-4: Thêm bài 4 và 5 — bắt đầu tập có tải trọng nhẹ",
+      "Tuần 5-6: Thêm bài 6 — tập thăng bằng và phối hợp thần kinh-cơ",
+      "Tuần 7 trở đi: Đủ cả 7 bài kết hợp đi bộ hoặc đạp xe 20-30 phút mỗi ngày",
+      "Duy trì lâu dài: tập ít nhất 3-5 ngày mỗi tuần để giữ kết quả"
+    ]},
+    { type: "warning", content: "Dừng tập và đến gặp bác sĩ ngay nếu: đau tăng đột ngột, khớp gối sưng nóng đỏ nhiều, khớp bị khóa không gập duỗi được, hoặc nghe tiếng lách cách bất thường kèm đau." },
+    { type: "heading", content: "Kết Hợp Thêm Để Tăng Hiệu Quả" },
+    { type: "list", items: [
+      "Chườm lạnh 15-20 phút sau tập nếu khớp còn sưng đau",
+      "Giảm cân: mỗi 1 kg giảm, áp lực lên khớp gối khi đi bộ giảm đến 4 kg",
+      "Bơi lội hoặc tập dưới nước: không tải trọng, rất tốt cho khớp gối",
+      "Tránh các môn thể thao có va chạm mạnh: đá bóng, tennis, chạy trên địa hình gồ ghề",
+      "Bổ sung dinh dưỡng đầy đủ canxi, vitamin D, omega-3 từ thực phẩm tự nhiên"
+    ]},
+    { type: "para", content: "Khớp gối của bạn không cần nghỉ ngơi hoàn toàn — nó cần được vận động đúng cách và đúng liều lượng. Với 7 bài tập đơn giản này, chỉ cần 30-45 phút mỗi ngày, bạn hoàn toàn có thể giảm đau, tăng sức mạnh cơ bắp xung quanh khớp, và cải thiện chất lượng cuộc sống ngay tại nhà. Như chú Hùng sau 8 tuần kiên trì tập — bước đi đã vững hơn, xuống cầu thang không còn sợ nữa. Hãy bắt đầu từ hôm nay, từng bước nhỏ." },
+    { type: "note", content: "Tài liệu tham khảo: Nguyen TH et al., BMC Musculoskeletal Disorders 2024 (home-based exercise meta-analysis, n=3.015); AAOS Clinical Practice Guideline for OA of the Knee, 2023; Bệnh viện Chỉnh hình và PHCN Cần Thơ, Tạp chí Y Dược học Cần Thơ 2022; Juhl C et al., Arthritis Rheumatol 2023 (network meta-analysis exercise therapy knee OA)." },
+  ],
   "phuc-hoi-chuc-nang-dau-khop-vai-tai-nha": [
     { type: "para", content: "Chú Tám, 55 tuổi, giáo viên về hưu, đến khám với cánh tay phải ép sát người: Bác ơi, vai con đau đến mức chải đầu cũng không được, với tay lấy đồ trên cao là đau điếng. Chụp phim cho thấy chú bị viêm gân cơ chóp xoay vai kèm co cứng bao khớp — dân gian hay gọi là vai đông cứng hay vai đóng băng. Câu hỏi đầu tiên của chú: Có cần mổ không bác? Câu trả lời: gần như chắc chắn là không — nếu tập đúng bài đúng cách." },
     { type: "para", content: "Đau khớp vai là vấn đề cực kỳ phổ biến, ảnh hưởng khoảng 18 đến 26% dân số trưởng thành. Hai nguyên nhân thường gặp nhất là viêm gân cơ chóp xoay vai và hội chứng vai đông cứng (adhesive capsulitis). Cả hai đều đáp ứng tốt với tập luyện phục hồi chức năng tại nhà." },

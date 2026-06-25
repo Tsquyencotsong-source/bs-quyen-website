@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "bai-tap-phuc-hoi-chuc-nang-dau-khop-goi",
+    title: "Hướng Dẫn 7 Bài Tập Phục Hồi Chức Năng Đau Khớp Gối Tại Nhà: Có Cơ Sở Khoa Học",
+    excerpt: "Hơn 6 triệu người Việt Nam đang sống chung với thoái hóa khớp gối. TS.BS. Quyền hướng dẫn 7 bài tập phục hồi tại nhà có cơ sở khoa học — kèm hình ảnh minh họa — giúp giảm đau, tăng sức cơ và cải thiện chức năng vận động mà không cần phẫu thuật.",
+    audience: "Cho bệnh nhân",
+    category: "Phục hồi chức năng",
+    date: "2026-06-25",
+  },
+  {
     slug: "phuc-hoi-chuc-nang-dau-khop-vai-tai-nha",
     title: "Hướng Dẫn Phục Hồi Chức Năng Đau Khớp Vai Tại Nhà: 7 Bài Tập Có Cơ Sở Khoa Học",
     excerpt: "Đau khớp vai ảnh hưởng 18 đến 26% người trưởng thành. TS.BS. Quyền hướng dẫn 7 bài tập phục hồi chức năng tại nhà theo phác đồ quốc tế 2024-2025 — kèm hình ảnh minh họa — giúp lấy lại tầm vận động vai mà không cần phẫu thuật.",
