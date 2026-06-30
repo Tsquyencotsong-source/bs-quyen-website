@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "khi-nao-can-kham-bac-si-chuyen-khoa-cot-song",
+    title: "Đau Cổ, Đau Vai, Đau Lưng — Khi Nào Cần Đi Khám Bác Sĩ Chuyên Khoa Cột Sống?",
+    excerpt: "Không phải cơn đau cổ lưng nào cũng nguy hiểm — nhưng cũng không phải cơn nào cũng có thể bỏ qua. TS.BS. Quyền hướng dẫn cách phân biệt đèn đỏ, đèn vàng, đèn xanh để biết khi nào cần đi cấp cứu, khi nào cần khám sớm, và khi nào có thể tự theo dõi tại nhà.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-06-30",
+  },
+  {
     slug: "bai-tap-phuc-hoi-chuc-nang-dau-khop-goi",
     title: "Hướng Dẫn 7 Bài Tập Phục Hồi Chức Năng Đau Khớp Gối Tại Nhà: Có Cơ Sở Khoa Học",
     excerpt: "Hơn 6 triệu người Việt Nam đang sống chung với thoái hóa khớp gối. TS.BS. Quyền hướng dẫn 7 bài tập phục hồi tại nhà có cơ sở khoa học — kèm hình ảnh minh họa — giúp giảm đau, tăng sức cơ và cải thiện chức năng vận động mà không cần phẫu thuật.",

@@ -26,6 +26,64 @@ type Block =
   | { type: "warning"; content: string };
 
 const ARTICLES: Record<string, Block[]> = {
+  "khi-nao-can-kham-bac-si-chuyen-khoa-cot-song": [
+    { type: "para", content: "Tuần trước có một bệnh nhân tên Minh, 45 tuổi, kỹ sư công nghệ thông tin, nhắn tin hỏi tôi: Bác ơi, con bị đau cổ mấy tuần nay rồi, ngồi máy tính lâu là đau lắm, có cần đi khám không hay cứ uống thuốc giảm đau mà chịu? Câu hỏi của Minh rất hay — và cũng là câu hỏi mà hàng ngàn người đang thắc mắc mỗi ngày. Bởi vì đau cổ, đau vai, đau lưng, đau khớp là những triệu chứng cực kỳ phổ biến, nhưng không phải lúc nào cũng nguy hiểm — và cũng không phải lúc nào cũng có thể bỏ qua." },
+    { type: "para", content: "Theo Tổ chức Y tế Thế giới, đau lưng dưới là nguyên nhân gây tàn phế hàng đầu toàn cầu, ảnh hưởng đến khoảng 619 triệu người năm 2020 và dự báo tăng lên 843 triệu người vào năm 2050. Tại Việt Nam, ước tính trên 30% người trưởng thành có triệu chứng đau cột sống ở mức độ nào đó. Tin tốt là: khoảng 80 đến 90% trường hợp đau lưng và đau cổ cấp tính sẽ tự cải thiện trong vòng 4 đến 6 tuần mà không cần can thiệp chuyên sâu. Nhưng 10 đến 20% còn lại — nếu bỏ qua — có thể để lại hậu quả nghiêm trọng, thậm chí liệt." },
+    { type: "highlight", content: "Bí quyết để không bỏ lỡ những trường hợp nguy hiểm là biết nhận ra đúng dấu hiệu. Tôi thường dùng hình ảnh đèn giao thông để giải thích cho bệnh nhân: đèn đỏ là phải đi cấp cứu ngay, đèn vàng là cần đặt lịch khám sớm trong vài ngày, đèn xanh là có thể tự theo dõi tại nhà thêm." },
+    { type: "heading", content: "Đèn Đỏ: Đi Cấp Cứu Ngay Không Chần Chừ" },
+    { type: "para", content: "Những dấu hiệu sau đây là tín hiệu khẩn cấp — được gọi là cờ đỏ trong y học. Tổng hợp các hướng dẫn lâm sàng quốc tế được đăng tải trên tạp chí Medicine năm 2025 xác nhận: các dấu hiệu cờ đỏ cần được xử lý trong vòng vài giờ để tránh tổn thương thần kinh không hồi phục." },
+    { type: "list", items: [
+      "Tê bì hoặc yếu liệt tay chân xuất hiện đột ngột và ngày càng nặng hơn — có thể do tủy sống hoặc rễ thần kinh bị chèn ép nặng",
+      "Mất kiểm soát đại tiện hoặc tiểu tiện (không nhịn được, hoặc ngược lại bí tiểu hoàn toàn) — đây là hội chứng đuôi ngựa, cần phẫu thuật giải phóng khẩn cấp trong 24-48 giờ",
+      "Đau cổ hoặc đau lưng sau chấn thương mạnh: tai nạn xe, ngã từ cao, va đập vùng cột sống — nghi ngờ gãy đốt sống",
+      "Đau kèm sốt cao, ớn lạnh, mồ hôi đêm không rõ nguyên nhân — nghi ngờ nhiễm trùng cột sống hoặc viêm đĩa đệm",
+      "Đau dữ dội không giảm dù đã nằm nghỉ hoàn toàn, không đỡ với bất kỳ tư thế nào — nghi ngờ u xương, di căn ung thư cột sống",
+      "Yếu tay chân tiến triển nhanh trong vài giờ đến vài ngày — chèn ép tủy sống cấp tính"
+    ]},
+    { type: "warning", content: "Nếu có bất kỳ dấu hiệu nào trong nhóm Đèn Đỏ kể trên: đừng tự uống thuốc, đừng chờ hôm sau đi khám — hãy đến phòng cấp cứu bệnh viện ngay lập tức. Mỗi giờ trì hoãn có thể là mỗi giờ tổn thương thần kinh không thể hồi phục." },
+    { type: "heading", content: "Đèn Vàng: Đặt Lịch Khám Chuyên Khoa Trong Vòng 1 Tuần" },
+    { type: "para", content: "Những dấu hiệu sau không cần cấp cứu nhưng cũng không nên chần chừ quá một tuần. Hướng dẫn của Hiệp hội Phẫu thuật Cột Sống Bắc Mỹ và các khuyến nghị từ MSD Manual phiên bản tiếng Việt đều nhấn mạnh: phát hiện và xử lý sớm nhóm này giúp tránh tiến triển thành mạn tính và giảm nguy cơ phải phẫu thuật." },
+    { type: "list", items: [
+      "Đau lan theo đường thần kinh: đau cổ lan xuống vai, cánh tay, bàn tay; hoặc đau lưng lan xuống mông, đùi, bắp chân, bàn chân theo đường thẳng — dấu hiệu rễ thần kinh bị chèn ép",
+      "Tê bì, ngứa ran, kiến bò ở tay hoặc chân kèm theo đau — chèn ép rễ thần kinh mức độ trung bình",
+      "Đau không cải thiện sau 4 đến 6 tuần dù đã nghỉ ngơi, uống thuốc giảm đau và chườm nóng lạnh",
+      "Đau buổi sáng kéo dài trên 30 phút, cứng khớp cột sống cổ hoặc lưng khi mới ngủ dậy — nghi ngờ viêm khớp dạng thấp hoặc viêm cột sống dính khớp",
+      "Giảm tầm vận động cột sống cổ hoặc lưng rõ rệt: không quay đầu sang hai bên được, không cúi xuống tự mang dép",
+      "Đau cổ hoặc đau đầu gáy kèm chóng mặt, ù tai, mất thăng bằng — nghi ngờ ảnh hưởng đến mạch máu hoặc hệ thần kinh trung ương vùng cổ",
+      "Bệnh nhân trên 50 tuổi bị đau lưng mới khởi phát mà trước đây chưa bao giờ có — cần loại trừ loãng xương, xẹp đốt sống, u xương",
+      "Có tiền sử ung thư (bất kỳ loại nào) và xuất hiện đau cột sống mới — cần loại trừ di căn xương cột sống"
+    ]},
+    { type: "heading", content: "Đèn Xanh: Có Thể Tự Theo Dõi Tại Nhà Thêm 2-4 Tuần" },
+    { type: "para", content: "Phần lớn các cơn đau cổ, đau vai, đau lưng thông thường đều thuộc nhóm này. Đây là đau cơ học — do tư thế sai, căng thẳng, ngồi lâu, vận động sai kỹ thuật — và thường tự hồi phục nếu xử lý đúng cách tại nhà." },
+    { type: "list", items: [
+      "Đau xuất hiện sau vận động mạnh, bê vác nặng, hoặc ngồi sai tư thế kéo dài — đau cơ thông thường",
+      "Đau khu trú tại chỗ, không lan xuống tay hoặc chân, không kèm tê bì",
+      "Đau giảm khi nghỉ ngơi, thay đổi tư thế, hoặc chườm ấm",
+      "Không có triệu chứng thần kinh đi kèm (không yếu tay chân, không tê bì, không rối loạn tiểu tiện)",
+      "Mức đau vừa phải (dưới 6 điểm trên thang 0-10), không ảnh hưởng nghiêm trọng đến giấc ngủ"
+    ]},
+    { type: "para", content: "Với nhóm đèn xanh, bác sĩ khuyến nghị: nghỉ ngơi hợp lý (không nằm bất động hoàn toàn), chườm ấm hoặc lạnh, điều chỉnh tư thế ngồi làm việc, tập các bài tập giãn cơ nhẹ, và uống thuốc giảm đau đơn giản theo hướng dẫn nếu cần. Nếu sau 4-6 tuần không cải thiện — chuyển sang đèn vàng và đi khám." },
+    { type: "heading", content: "Bảng Tóm Tắt: Đau Cổ / Vai / Lưng / Khớp — Tôi Cần Làm Gì?" },
+    { type: "list", items: [
+      "Tê liệt tay chân đột ngột, mất kiểm soát tiểu tiện, đau sau chấn thương mạnh → Đèn đỏ: cấp cứu ngay",
+      "Đau lan tay chân kèm tê bì, đau trên 6 tuần không hết, cứng khớp buổi sáng, chóng mặt kèm đau cổ → Đèn vàng: khám trong 1 tuần",
+      "Đau sau vận động, đau cơ thuần túy, không có triệu chứng thần kinh → Đèn xanh: tự theo dõi tại nhà 2-4 tuần",
+      "Bất kỳ nghi ngờ nào về nhóm đèn đỏ hoặc đèn vàng → Ưu tiên đến khám, không tự chẩn đoán"
+    ]},
+    { type: "heading", content: "Những Sai Lầm Thường Gặp Cần Tránh" },
+    { type: "list", items: [
+      "Nhờ người bẻ khớp, nắn cột sống khi chưa biết nguyên nhân đau — có thể gây tổn thương nặng hơn nếu đã có thoát vị đĩa đệm hoặc gai xương",
+      "Tự mua thuốc giảm đau uống liên tục quá 2 tuần mà không khám — che khuất triệu chứng, bỏ lỡ bệnh nền nguy hiểm",
+      "Nghỉ ngơi bất động hoàn toàn kéo dài — khiến cơ yếu hơn và đau mạn tính hơn",
+      "Chờ đến khi không đi lại được mới đi khám — nhiều tổn thương thần kinh không hồi phục nếu để quá lâu",
+      "Chỉ chụp phim mà không khám lâm sàng — hình ảnh học cần đọc cùng triệu chứng lâm sàng để có ý nghĩa"
+    ]},
+    { type: "heading", content: "Khám Chuyên Khoa Cột Sống — Bác Sĩ Sẽ Làm Gì?" },
+    { type: "para", content: "Khi bạn đến khám chuyên khoa cột sống, bác sĩ sẽ hỏi chi tiết về cơn đau: bắt đầu khi nào, đau như thế nào, lan đi đâu, yếu tố nào làm đau tăng hoặc giảm. Tiếp theo là khám thần kinh để đánh giá sức cơ, cảm giác, phản xạ gân xương. Tùy theo kết quả thăm khám, bác sĩ sẽ chỉ định chụp hình ảnh phù hợp: X-quang để xem cấu trúc xương, chụp cộng hưởng từ để đánh giá đĩa đệm và rễ thần kinh, hoặc chụp cắt lớp vi tính nếu cần." },
+    { type: "para", content: "Dựa trên toàn bộ dữ liệu đó, bác sĩ sẽ lên kế hoạch điều trị cụ thể — từ vật lý trị liệu, thuốc, tiêm ngoài màng cứng, đến can thiệp phẫu thuật nếu thực sự cần. Điều quan trọng là: hầu hết các trường hợp đau cột sống có thể điều trị hiệu quả mà không cần phẫu thuật nếu được phát hiện đúng lúc." },
+    { type: "para", content: "Quay lại với Minh — sau khi nghe tôi phân tích, anh nhận ra mình đang ở nhóm đèn vàng (đau cổ trên 4 tuần kèm tê nhẹ ở ngón tay). Anh đặt lịch khám, chụp cộng hưởng từ phát hiện thoát vị đĩa đệm cột sống cổ mức độ nhẹ. Sau 6 tuần vật lý trị liệu và điều chỉnh tư thế làm việc, Minh hết đau hoàn toàn — không cần phẫu thuật, không cần thuốc kéo dài. Bí quyết chỉ là: đi khám đúng lúc." },
+    { type: "note", content: "Tài liệu tham khảo: WHO Global Burden of Disease Study 2020-2050 (low back pain projection); Christe G et al., Medicine 2025 (standardized red flags musculoskeletal care, MDPI); North American Spine Society Clinical Guidelines 2023; MSD Manual phiên bản tiếng Việt — Tổng quan đau cổ và đau lưng; Mediplus.vn — Dấu hiệu cần khám cột sống cổ." },
+  ],
   "bai-tap-phuc-hoi-chuc-nang-dau-khop-goi": [
     { type: "para", content: "Chú Hùng, 62 tuổi, buôn bán ở chợ, đến khám với bước đi khập khiễng rõ rệt: Bác ơi, gối con đau từ sáng đến tối, xuống cầu thang là run hết cả chân, ngồi xuống đứng lên khó lắm. Phim X-quang cho thấy chú bị thoái hóa khớp gối độ III — khe khớp hẹp, có gai xương. Nhưng câu trả lời của tôi không phải là mổ ngay — mà là: hãy thử 7 bài tập này đều đặn trong 8 tuần, rồi chúng ta đánh giá lại." },
     { type: "para", content: "Đau khớp gối là một trong những nguyên nhân hàng đầu gây tàn phế ở người trưởng thành. Theo Tổ chức Y tế Thế giới, hơn 365 triệu người trên toàn cầu đang sống chung với thoái hóa khớp gối. Tại Việt Nam, ước tính hơn 6 triệu người bị ảnh hưởng — chiếm khoảng 6,4% dân số trưởng thành — và tỷ lệ này tăng nhanh theo đà già hóa dân số." },
