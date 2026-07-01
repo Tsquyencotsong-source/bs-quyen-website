@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "bai-tap-viem-diem-bam-loi-cau-xuong-canh-tay",
+    title: "Hướng Dẫn 7 Bài Tập Tại Nhà Cho Người Bị Viêm Điểm Bám Lồi Cầu Xương Cánh Tay",
+    excerpt: "Viêm lồi cầu ngoài (khuỷu tennis) và lồi cầu trong (khuỷu golf) ảnh hưởng 1-3% người trưởng thành. TS.BS. Quyền hướng dẫn 7 bài tập lệch tâm và kéo giãn có cơ sở khoa học — kèm hình ảnh minh họa — giúp giảm đau 42% và hồi phục sức cầm nắm mà không cần phẫu thuật.",
+    audience: "Cho bệnh nhân",
+    category: "Phục hồi chức năng",
+    date: "2026-07-01",
+  },
+  {
     slug: "khi-nao-can-kham-bac-si-chuyen-khoa-cot-song",
     title: "Đau Cổ, Đau Vai, Đau Lưng — Khi Nào Cần Đi Khám Bác Sĩ Chuyên Khoa Cột Sống?",
     excerpt: "Không phải cơn đau cổ lưng nào cũng nguy hiểm — nhưng cũng không phải cơn nào cũng có thể bỏ qua. TS.BS. Quyền hướng dẫn cách phân biệt đèn đỏ, đèn vàng, đèn xanh để biết khi nào cần đi cấp cứu, khi nào cần khám sớm, và khi nào có thể tự theo dõi tại nhà.",

@@ -26,6 +26,58 @@ type Block =
   | { type: "warning"; content: string };
 
 const ARTICLES: Record<string, Block[]> = {
+  "bai-tap-viem-diem-bam-loi-cau-xuong-canh-tay": [
+    { type: "para", content: "Anh Tuấn, 38 tuổi, nhân viên văn phòng kiêm chơi tennis cuối tuần, đến khám với cánh tay phải không thể cầm chắc được ly cà phê buổi sáng: Bác ơi, con chỉ cần vặn tay mở vòi nước là đau điếng người, bắt tay người khác cũng không dám. Chẩn đoán: viêm điểm bám lồi cầu ngoài xương cánh tay — dân gian hay gọi là khuỷu tay người chơi tennis. Chị Lan, 52 tuổi, cắt may kiêm làm bếp, thì đau ở phía trong khuỷu — lồi cầu trong — hay gọi là khuỷu tay người chơi golf. Hai vị trí khác nhau, nhưng cùng một nguyên tắc điều trị: tập luyện đúng cách là chìa khóa." },
+    { type: "para", content: "Xương cánh tay có hai mấu nhô ra ở đầu dưới gần khuỷu tay: lồi cầu ngoài (phía ngón cái) và lồi cầu trong (phía ngón út). Đây là nơi các gân cơ duỗi và gập cổ tay bám vào. Khi sử dụng tay lặp đi lặp lại quá mức — gõ phím, cầm vợt, cắt may, vặn ốc vít — các gân này bị vi chấn thương tích lũy, dẫn đến thoái hóa vi thể và đau tại điểm bám. Tỷ lệ mắc trong dân số chung là 1-3%, nhưng ở nhóm làm việc tay nhiều có thể lên đến 7-8%." },
+    { type: "highlight", content: "Tổng hợp nghiên cứu hệ thống mới nhất từ Tạp chí Y khoa Tiên phong năm 2024 xác nhận: bài tập lệch tâm (eccentric) kết hợp vật lý trị liệu giúp giảm đau đến 42% trên thang VAS và tăng sức cầm nắm lên 35% — hiệu quả hơn chích corticoid đơn thuần về lâu dài." },
+    { type: "para", content: "Gân không có mạch máu nuôi phong phú như cơ. Chúng cần chuyển động và tải trọng có kiểm soát để kích thích tổng hợp collagen mới, phục hồi cấu trúc vi thể bị tổn thương. Đó là lý do tại sao nghỉ ngơi hoàn toàn không chữa được bệnh này — mà phải tập đúng bài đúng cách." },
+    { type: "heading", content: "Nguyên Tắc An Toàn Trước Khi Tập" },
+    { type: "list", items: [
+      "Không tập khi đang đau cấp nhiều hơn 6 trên thang 10 — chờ đến khi đau dưới 4 mới bắt đầu",
+      "Tập chậm và kiểm soát — không giật cơ, không đau vượt quá 4 trên 10 khi đang tập",
+      "Bắt đầu không tạ, tăng dần trọng lượng theo tuần",
+      "Không bóp mạnh, không vặn vợt, không bê vác nặng trong giai đoạn đầu phục hồi",
+      "Kiên trì ít nhất 8-12 tuần — đây là thời gian tối thiểu để gân hồi phục cấu trúc"
+    ]},
+    { type: "heading", content: "Bài Tập 1: Kéo Giãn Cơ Duỗi Cổ Tay" },
+    { type: "para", content: "Dành cho: viêm lồi cầu ngoài (mặt ngoài khuỷu). Duỗi thẳng cánh tay ra trước, lòng bàn tay hướng xuống đất. Dùng tay kia nhẹ nhàng ấn mu bàn tay xuống và về phía cơ thể cho đến khi cảm thấy căng nhẹ ở mặt ngoài cẳng tay và khuỷu. Giữ 30 giây, thả ra. Lặp lại 3-5 lần, 2-3 lần mỗi ngày. Đây là động tác kéo giãn trực tiếp gân cơ duỗi cổ tay ngắn — nhóm cơ bị tổn thương trong lồi cầu ngoài." },
+    { type: "image", src: "/images/Bai_tap_viem_loi_cau_tay/1.Bai_tap_1.png", alt: "Kéo giãn cơ duỗi cổ tay", caption: "Bài Tập 1: Kéo Giãn Cơ Duỗi Cổ Tay", subcaption: "Duỗi thẳng tay, ấn mu bàn tay xuống, giữ 30 giây. 3-5 lần, 2-3 lần/ngày." },
+    { type: "heading", content: "Bài Tập 2: Kéo Giãn Cơ Gập Cổ Tay" },
+    { type: "para", content: "Dành cho: viêm lồi cầu trong (mặt trong khuỷu). Duỗi thẳng cánh tay ra trước, lòng bàn tay hướng lên trên. Dùng tay kia nhẹ nhàng kéo ngón tay và bàn tay về phía lưng bàn tay (ngửa tay ra sau) cho đến khi cảm thấy căng nhẹ ở mặt trong cẳng tay. Giữ 30 giây, lặp lại 3-5 lần, 2-3 lần mỗi ngày. Bài này nhắm trực tiếp vào nhóm cơ gập cổ tay bám tại lồi cầu trong." },
+    { type: "image", src: "/images/Bai_tap_viem_loi_cau_tay/2.Bai_tap_2.png", alt: "Kéo giãn cơ gập cổ tay", caption: "Bài Tập 2: Kéo Giãn Cơ Gập Cổ Tay", subcaption: "Duỗi thẳng tay, kéo ngón tay ra sau, giữ 30 giây. 3-5 lần, 2-3 lần/ngày." },
+    { type: "heading", content: "Bài Tập 3: Lệch Tâm Cơ Duỗi Cổ Tay (Bài Cốt Lõi Cho Lồi Cầu Ngoài)" },
+    { type: "para", content: "Ngồi trên ghế, cẳng tay đặt trên đùi hoặc mặt bàn, lòng bàn tay hướng xuống, cầm tạ nhẹ 0,5-1 kg (hoặc chai nước). Dùng tay lành giúp nâng cổ tay lên cao (gập mu bàn tay về phía khuỷu), rồi buông tay lành ra — để tay bị đau tự hạ cổ tay xuống thật chậm trong 3-5 giây. Chỉ pha hạ xuống mới kích hoạt cơ chế lệch tâm chữa lành gân. Thực hiện 3 hiệp x 15 lần, mỗi ngày một lần." },
+    { type: "image", src: "/images/Bai_tap_viem_loi_cau_tay/3.Bai_tap_3.png", alt: "Lệch tâm cơ duỗi cổ tay", caption: "Bài Tập 3: Lệch Tâm Cơ Duỗi Cổ Tay", subcaption: "Lòng bàn tay sấp, hạ cổ tay xuống thật chậm 3-5 giây. 3 hiệp x 15 lần/ngày." },
+    { type: "heading", content: "Bài Tập 4: Lệch Tâm Cơ Gập Cổ Tay (Bài Cốt Lõi Cho Lồi Cầu Trong)" },
+    { type: "para", content: "Tương tự bài 3 nhưng lòng bàn tay hướng lên trên. Cẳng tay đặt trên đùi, cầm tạ nhẹ. Dùng tay lành giúp nâng cổ tay lên (gập lòng bàn tay về phía khuỷu), rồi thả ra — để tay bị đau tự hạ cổ tay xuống thật chậm trong 3-5 giây. Thực hiện 3 hiệp x 15 lần mỗi ngày. Đây là bài tập lệch tâm cho nhóm cơ gập cổ tay — nền tảng của phác đồ phục hồi lồi cầu trong." },
+    { type: "image", src: "/images/Bai_tap_viem_loi_cau_tay/4.Bai_tap_4.png", alt: "Lệch tâm cơ gập cổ tay", caption: "Bài Tập 4: Lệch Tâm Cơ Gập Cổ Tay", subcaption: "Lòng bàn tay ngửa, hạ cổ tay xuống thật chậm 3-5 giây. 3 hiệp x 15 lần/ngày." },
+    { type: "heading", content: "Bài Tập 5: Xoay Cẳng Tay Sấp-Ngửa" },
+    { type: "para", content: "Ngồi, cẳng tay đặt trên đùi, cầm một cây bút hoặc thước dài (có thể buộc thêm tạ nhẹ ở một đầu). Từ từ xoay cẳng tay: úp bàn tay xuống (sấp) rồi ngửa bàn tay lên (ngửa) — giữ mỗi tư thế 2-3 giây. Thực hiện 3 hiệp x 15 lần. Động tác này tập nhóm cơ sấp và ngửa cẳng tay, giúp phục hồi chức năng toàn bộ vùng khuỷu và cẳng tay sau chấn thương điểm bám lồi cầu." },
+    { type: "image", src: "/images/Bai_tap_viem_loi_cau_tay/5.Bai_Tap_5.png", alt: "Xoay cẳng tay sấp ngửa", caption: "Bài Tập 5: Xoay Cẳng Tay Sấp-Ngửa", subcaption: "Cầm bút/thước, xoay sấp rồi ngửa, giữ 2-3 giây mỗi bên. 3 hiệp x 15 lần." },
+    { type: "heading", content: "Bài Tập 6: Bóp Bóng Tập Cầm Nắm" },
+    { type: "para", content: "Cầm quả bóng tennis, bóng cao su mềm, hoặc cuộn băng nhỏ. Bóp chặt trong 5 giây rồi thả lỏng hoàn toàn. Thực hiện 2-3 hiệp x 15 lần, 2 lần mỗi ngày. Bài này phục hồi sức mạnh cơ cầm nắm — chức năng bị ảnh hưởng nhiều nhất trong cả lồi cầu trong lẫn ngoài. Nghiên cứu năm 2024 cho thấy tập sức cầm nắm có kiểm soát giúp tăng sức mạnh tay lên trung bình 35% sau 8 tuần tập đều đặn." },
+    { type: "image", src: "/images/Bai_tap_viem_loi_cau_tay/6.Bai_tap_6.png", alt: "Bóp bóng tập cầm nắm", caption: "Bài Tập 6: Bóp Bóng Tập Cầm Nắm", subcaption: "Bóp bóng mềm giữ 5 giây rồi thả. 2-3 hiệp x 15 lần, 2 lần/ngày." },
+    { type: "heading", content: "Bài Tập 7: Kéo Giãn Ngón Tay Với Dây Chun" },
+    { type: "para", content: "Chụm 5 ngón tay lại với nhau. Dùng dây chun hoặc dây thun buộc lỏng quanh 5 ngón. Xòe rộng 5 ngón ra chống lại lực cản của dây, giữ 3-5 giây rồi thả. Thực hiện 3 hiệp x 15 lần. Bài này tập nhóm cơ duỗi ngón tay — ít được chú ý nhưng đóng vai trò quan trọng trong phục hồi toàn diện chức năng bàn tay và giảm tải cho điểm bám lồi cầu ngoài." },
+    { type: "image", src: "/images/Bai_tap_viem_loi_cau_tay/7.Bai_Tap_7.png", alt: "Kéo giãn ngón tay với dây chun", caption: "Bài Tập 7: Kéo Giãn Ngón Tay Với Dây Chun", subcaption: "Buộc dây chun quanh 5 ngón, xòe rộng giữ 3-5 giây. 3 hiệp x 15 lần." },
+    { type: "heading", content: "Lịch Tập Được Khuyến Nghị" },
+    { type: "list", items: [
+      "Tuần 1-2: Chỉ tập bài 1 và 2 (kéo giãn) — cho gân quen với vận động nhẹ",
+      "Tuần 3-4: Thêm bài 3 và 4 (lệch tâm) với không tạ hoặc tạ nhẹ 0,5 kg",
+      "Tuần 5-6: Thêm bài 5, 6, 7 — tập toàn bộ 7 bài, tăng tạ lên 1 kg",
+      "Tuần 7 trở đi: Đủ 7 bài, tăng dần lên 1,5 kg theo mức chịu đựng",
+      "Duy trì ít nhất 8-12 tuần — đây là thời gian tối thiểu để gân hồi phục hoàn toàn"
+    ]},
+    { type: "warning", content: "Không chích corticoid quá 3 lần vào cùng một vị trí — làm yếu gân về lâu dài và tăng nguy cơ đứt gân. Nếu đau không cải thiện sau 12 tuần tập đúng phương pháp, cần tái khám để đánh giá can thiệp chuyên sâu hơn." },
+    { type: "list", items: [
+      "Không bóp mạnh hay vặn vợt trong giai đoạn đầu phục hồi",
+      "Không tự bẻ khớp khuỷu tay — có thể làm tổn thương thêm",
+      "Không bỏ tập khi hết đau — gân cần tiếp tục được tập để không tái phát",
+      "Tránh các động tác lặp đi lặp lại liên tục quá 30 phút không nghỉ"
+    ]},
+    { type: "para", content: "Anh Tuấn sau 10 tuần kiên trì với bộ 7 bài tập này — mà không cần chích, không cần phẫu thuật — đã cầm vợt tennis trở lại được. Chị Lan thì hết đau hoàn toàn sau 8 tuần. Điều quan trọng là hiểu đúng: gân cần được tập — không phải nghỉ ngơi tuyệt đối. Bắt đầu nhẹ, kiên trì đúng phương pháp, và khuỷu tay của bạn sẽ hồi phục." },
+    { type: "note", content: "Tài liệu tham khảo: Advances in the Diagnosis, Management, and Rehabilitation of Lateral Epicondylitis, Journal of Pioneering Medical Sciences 2024; Kinesio Taping Plus Exercise for Lateral Epicondylitis, PMC Systematic Review 2025; Effectiveness of Active Release Technique, PMC 2024; Boston Sports and Biologics — Medial and Lateral Epicondylitis Clinical Guidelines." },
+  ],
   "khi-nao-can-kham-bac-si-chuyen-khoa-cot-song": [
     { type: "para", content: "Tuần trước có một bệnh nhân tên Minh, 45 tuổi, kỹ sư công nghệ thông tin, nhắn tin hỏi tôi: Bác ơi, con bị đau cổ mấy tuần nay rồi, ngồi máy tính lâu là đau lắm, có cần đi khám không hay cứ uống thuốc giảm đau mà chịu? Câu hỏi của Minh rất hay — và cũng là câu hỏi mà hàng ngàn người đang thắc mắc mỗi ngày. Bởi vì đau cổ, đau vai, đau lưng, đau khớp là những triệu chứng cực kỳ phổ biến, nhưng không phải lúc nào cũng nguy hiểm — và cũng không phải lúc nào cũng có thể bỏ qua." },
     { type: "para", content: "Theo Tổ chức Y tế Thế giới, đau lưng dưới là nguyên nhân gây tàn phế hàng đầu toàn cầu, ảnh hưởng đến khoảng 619 triệu người năm 2020 và dự báo tăng lên 843 triệu người vào năm 2050. Tại Việt Nam, ước tính trên 30% người trưởng thành có triệu chứng đau cột sống ở mức độ nào đó. Tin tốt là: khoảng 80 đến 90% trường hợp đau lưng và đau cổ cấp tính sẽ tự cải thiện trong vòng 4 đến 6 tuần mà không cần can thiệp chuyên sâu. Nhưng 10 đến 20% còn lại — nếu bỏ qua — có thể để lại hậu quả nghiêm trọng, thậm chí liệt." },
