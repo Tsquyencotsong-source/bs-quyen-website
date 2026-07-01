@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "nguyen-nhan-te-bi-chi-tren",
+    title: "Tê Bì Tay: 7 Nguyên Nhân Thường Gặp Và Khi Nào Cần Đi Khám?",
+    excerpt: "Tê bì tay có thể do ống cổ tay, rễ thần kinh cổ, dây thần kinh trụ, lối thoát lồng ngực hay tiểu đường. TS.BS. Quyền giải thích 7 nguyên nhân phổ biến nhất, cách phân biệt từng loại và dấu hiệu nào cần đi khám ngay.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-07-01",
+  },
+  {
     slug: "bai-tap-viem-diem-bam-loi-cau-xuong-canh-tay",
     title: "Hướng Dẫn 7 Bài Tập Tại Nhà Cho Người Bị Viêm Điểm Bám Lồi Cầu Xương Cánh Tay",
     excerpt: "Viêm lồi cầu ngoài (khuỷu tennis) và lồi cầu trong (khuỷu golf) ảnh hưởng 1-3% người trưởng thành. TS.BS. Quyền hướng dẫn 7 bài tập lệch tâm và kéo giãn có cơ sở khoa học — kèm hình ảnh minh họa — giúp giảm đau 42% và hồi phục sức cầm nắm mà không cần phẫu thuật.",

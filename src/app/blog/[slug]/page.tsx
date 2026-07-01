@@ -26,6 +26,68 @@ type Block =
   | { type: "warning"; content: string };
 
 const ARTICLES: Record<string, Block[]> = {
+  "nguyen-nhan-te-bi-chi-tren": [
+    { type: "para", content: "Chị Hoa, 48 tuổi, kế toán, đến khám với nét mặt lo lắng: Bác ơi, mấy tháng nay tay con cứ tê bì suốt, nhất là ban đêm, có hôm con thức giấc vì tê cả bàn tay không cử động được. Con lên mạng đọc thì thấy người ta nói đủ thứ bệnh, con sợ quá không biết mình bị gì. Câu hỏi của chị Hoa rất phổ biến — tê bì tay là một trong những triệu chứng thần kinh khiến người bệnh lo lắng nhất, nhưng lại thường bị bỏ qua hoặc tự chẩn đoán sai." },
+    { type: "para", content: "Tê bì chi trên — tức tê bì vùng vai, cánh tay, cẳng tay, bàn tay và ngón tay — là triệu chứng xuất hiện khi dây thần kinh hoặc mạch máu nuôi chi trên bị tác động theo cách nào đó. Triệu chứng này có thể đơn giản như tê do ngồi đè tay, hoặc là dấu hiệu cảnh báo của những bệnh lý nghiêm trọng cần được chẩn đoán và điều trị kịp thời. Điều quan trọng là biết phân biệt." },
+    { type: "highlight", content: "Nghiên cứu từ Tạp chí Phẫu thuật Cột sống năm 2024 cho thấy: trong số 561 bệnh nhân bị chèn ép rễ thần kinh cổ, có đến 90% báo cáo triệu chứng tê bì tay. Đây là nguyên nhân từ cột sống phổ biến nhất gây tê bì chi trên — nhưng không phải nguyên nhân duy nhất." },
+    { type: "heading", content: "Vì Sao Tay Lại Bị Tê Bì?" },
+    { type: "para", content: "Toàn bộ cảm giác và vận động của cánh tay, bàn tay, ngón tay đều do hệ thống thần kinh điều khiển. Hệ thống này bắt đầu từ tủy sống cổ (đốt C5 đến T1), tỏa ra qua đám rối thần kinh cánh tay, rồi phân nhánh thành các dây thần kinh ngoại biên chạy dọc theo cánh tay xuống tới từng ngón tay. Khi bất kỳ điểm nào trên hành trình dài này bị chèn ép, kích thích hoặc tổn thương, não bộ sẽ nhận được tín hiệu bất thường — biểu hiện ra ngoài là cảm giác tê, kiến bò, ngứa ran, hoặc mất cảm giác hoàn toàn." },
+    { type: "heading", content: "Nguyên Nhân 1: Chèn Ép Rễ Thần Kinh Cổ" },
+    { type: "para", content: "Đây là nguyên nhân từ cột sống phổ biến nhất. Các đốt sống cổ có những lỗ nhỏ ở hai bên để rễ thần kinh đi ra. Khi đĩa đệm bị thoát vị hoặc đốt sống bị thoái hóa mọc gai xương, những rễ thần kinh này bị chèn ép hoặc kích thích. Mỗi rễ thần kinh phụ trách cảm giác và vận động của một vùng cụ thể trên tay (gọi là vùng cảm giác của rễ thần kinh), nên bác sĩ có thể khoanh vùng đốt sống nào bị tổn thương dựa vào vị trí tê bì. Ví dụ: tê ngón cái và ngón trỏ thường gợi ý rễ C6; tê ngón giữa gợi ý C7; tê ngón đeo nhẫn và ngón út gợi ý C8." },
+    { type: "list", items: [
+      "Triệu chứng: đau từ cổ lan xuống vai, cánh tay, bàn tay — kèm tê bì theo đường thần kinh",
+      "Thường đau tăng khi quay đầu, cúi cổ hoặc ngẩng cổ",
+      "Có thể kèm yếu cơ tay, giảm phản xạ",
+      "Nguyên nhân: thoát vị đĩa đệm cổ, thoái hóa cột sống cổ, gai xương cột sống"
+    ]},
+    { type: "heading", content: "Nguyên Nhân 2: Hội Chứng Ống Cổ Tay" },
+    { type: "para", content: "Đây là bệnh lý chèn ép dây thần kinh ngoại biên phổ biến nhất toàn cầu. Dây thần kinh giữa chạy qua một ống hẹp ở cổ tay cùng với các gân ngón tay. Khi ống này bị thu hẹp — do viêm bao gân, phù nề, hay áp lực mãn tính — dây thần kinh giữa bị chèn ép, gây tê bì ở ngón cái, ngón trỏ, ngón giữa và nửa ngón đeo nhẫn phía ngón cái. Tại Mỹ, khoảng 50 trên 1.000 người mắc hàng năm, với 70% trường hợp không rõ nguyên nhân. Phụ nữ trung niên là đối tượng dễ mắc nhất." },
+    { type: "list", items: [
+      "Triệu chứng điển hình: tê ngón 1, 2, 3 và nửa ngón 4, nặng nhất về đêm và sáng sớm",
+      "Hay thức giấc vì tê tay, phải lắc cổ tay để giảm tê",
+      "Nặng hơn khi gõ phím, cầm điện thoại lâu, cầm vô lăng xe",
+      "Giai đoạn nặng: yếu cơ ngón cái, khó cầm nắm đồ vật nhỏ"
+    ]},
+    { type: "heading", content: "Nguyên Nhân 3: Chèn Ép Dây Thần Kinh Trụ Tại Khuỷu" },
+    { type: "para", content: "Dây thần kinh trụ chạy qua rãnh xương ở mặt trong khuỷu tay — vị trí chúng ta hay đụng vào khi va khuỷu tay vào cạnh bàn (gây cảm giác tê buốt thoáng qua mà dân gian gọi là chạm dây buồn cười). Khi bị chèn ép mạn tính tại đây — do tư thế gập khuỷu kéo dài, ngủ gối tay, hoặc do thoái hóa — dây thần kinh trụ bị tổn thương, gây tê bì ở ngón đeo nhẫn và ngón út, mặt trong cẳng tay." },
+    { type: "list", items: [
+      "Tê bì ngón 4 và ngón 5 (ngón đeo nhẫn và ngón út)",
+      "Tê tăng khi gập khuỷu lâu: đọc sách, dùng điện thoại, lái xe",
+      "Nặng hơn có thể yếu cơ bàn tay, khó dang ngón tay ra",
+      "Điều trị: tránh gập khuỷu kéo dài, nẹp khuỷu ban đêm, phẫu thuật nếu nặng"
+    ]},
+    { type: "heading", content: "Nguyên Nhân 4: Hội Chứng Lối Thoát Lồng Ngực" },
+    { type: "para", content: "Đám rối thần kinh cánh tay — bó dây thần kinh lớn điều khiển toàn bộ cánh tay — phải đi qua một khoang hẹp giữa xương đòn, xương sườn số 1 và các cơ cổ trước để xuống tay. Khi khoang này bị hẹp bất thường (do xương sườn cổ phụ, cơ bậc thang phì đại, hay tư thế vai đổ về phía trước kéo dài), đám rối thần kinh hoặc mạch máu bị chèn ép, gây tê bì lan tỏa toàn cánh tay, khó xác định vùng rõ ràng. Tỷ lệ mắc dao động 3-80 trên 1.000 dân tùy nghiên cứu — thường gặp hơn ở người làm công việc giơ tay cao." },
+    { type: "list", items: [
+      "Tê bì lan tỏa cả cánh tay, khó xác định vùng rõ ràng",
+      "Tê tăng khi giơ tay cao, mang túi nặng, hoặc quay đầu sang một bên",
+      "Có thể kèm đau vai, mỏi cánh tay, tay lạnh hơn bên kia",
+      "Chẩn đoán khó — cần nhiều test lâm sàng chuyên biệt và hình ảnh học"
+    ]},
+    { type: "heading", content: "Nguyên Nhân 5: Bệnh Thần Kinh Ngoại Biên Do Tiểu Đường" },
+    { type: "para", content: "Đường huyết cao kéo dài gây tổn thương trực tiếp các sợi thần kinh nhỏ — đặc biệt sợi cảm giác. Triệu chứng thường bắt đầu ở bàn chân (tê bì như đi trên bông), rồi tiến triển lên cẳng chân, và sau đó mới ảnh hưởng đến tay. Tê bì do tiểu đường thường lan tỏa đều cả hai bên, không theo đường thần kinh cụ thể, thường kèm cảm giác bỏng rát hoặc đau nhức kiểu kim châm về đêm. Theo Hiệp hội Tiểu đường Hoa Kỳ, khoảng 50% bệnh nhân tiểu đường type 2 sẽ phát triển bệnh thần kinh ngoại biên ở một mức độ nào đó." },
+    { type: "list", items: [
+      "Tê bì thường bắt đầu ở chân trước, sau mới đến tay",
+      "Đối xứng hai bên, không theo đường thần kinh cụ thể",
+      "Kèm cảm giác bỏng rát, đau nhức về đêm",
+      "Điều trị nền tảng: kiểm soát đường huyết chặt chẽ"
+    ]},
+    { type: "heading", content: "Nguyên Nhân 6: Bệnh Lý Tủy Sống Cổ" },
+    { type: "para", content: "Đây là nguyên nhân nghiêm trọng nhất cần phát hiện sớm. Khi tủy sống (không phải rễ thần kinh) bị chèn ép do hẹp ống sống cổ, triệu chứng không chỉ dừng ở tê bì tay — mà còn ảnh hưởng đến chân và chức năng ruột bàng quang. Bệnh nhân có thể tê bì cả hai tay đồng thời, đi đứng không vững, hay đánh rơi đồ vật. Đây là tình trạng cần can thiệp phẫu thuật sớm để tránh tổn thương thần kinh không hồi phục." },
+    { type: "warning", content: "Đến gặp bác sĩ ngay nếu tê bì tay kèm theo: yếu liệt tay chân tiến triển nhanh, mất kiểm soát tiểu tiện hoặc đại tiện, đi đứng không vững như say rượu, hoặc tê cả hai tay cùng lúc kèm tê chân. Đây là các dấu hiệu của bệnh lý tủy sống cổ cần xử lý khẩn cấp." },
+    { type: "heading", content: "Nguyên Nhân 7: Các Nguyên Nhân Khác Cần Loại Trừ" },
+    { type: "list", items: [
+      "Thiếu vitamin B12: tê bì đối xứng hai bên, mệt mỏi, hay gặp ở người ăn chay, người lớn tuổi",
+      "Suy giáp: tê bì tay kèm mệt mỏi, tăng cân, rụng tóc, lạnh tay chân",
+      "Viêm đa dây thần kinh do rượu: tê bì tiến triển chậm ở người uống rượu nhiều năm",
+      "Hội chứng đè ép đôi (double crush): chèn ép cùng lúc ở hai vị trí trên cùng dây thần kinh — ví dụ vừa thoát vị đĩa đệm cổ vừa hội chứng ống cổ tay",
+      "Tê bì thoáng qua do tư thế: ngủ đè tay, ngồi chéo tay lâu — thường tự hết trong vài phút"
+    ]},
+    { type: "heading", content: "Bác Sĩ Chẩn Đoán Tê Bì Tay Như Thế Nào?" },
+    { type: "para", content: "Bước đầu tiên là hỏi bệnh sử chi tiết: tê ở đâu chính xác, bắt đầu khi nào, tê liên tục hay từng lúc, yếu tố nào làm tê tăng hay giảm, có kèm đau không, có yếu tay không. Tiếp theo là khám thần kinh đánh giá cảm giác, sức cơ và phản xạ. Từ đó bác sĩ sẽ chỉ định xét nghiệm phù hợp: đo dẫn truyền thần kinh và điện cơ để phát hiện chèn ép ngoại biên, chụp cộng hưởng từ cột sống cổ để phát hiện thoát vị đĩa đệm hoặc hẹp ống sống, xét nghiệm máu để loại trừ tiểu đường, thiếu B12, suy giáp." },
+    { type: "para", content: "Quay lại chị Hoa — sau khám lâm sàng và đo dẫn truyền thần kinh, chị được chẩn đoán hội chứng ống cổ tay hai bên mức độ vừa. Điều trị bảo tồn với nẹp cổ tay ban đêm và điều chỉnh tư thế làm việc giúp chị hết tê sau 6 tuần. Không cần mổ, không cần lo lắng quá mức — nhưng phải đi khám đúng lúc để biết chính xác nguyên nhân. Bởi vì tê bì tay có rất nhiều nguyên nhân, và mỗi nguyên nhân lại có cách điều trị hoàn toàn khác nhau." },
+    { type: "note", content: "Tài liệu tham khảo: Jajeh et al., Journal of Spine Surgery 2024 (hand manifestations of cervical radiculopathy, n=561); American Diabetes Association — Peripheral Neuropathy Statistics; PMC 2023 — Characteristics of CTS in patients with cervical radiculopathy (double crush syndrome); Thoracic Outlet Syndrome Comprehensive Review, PMC 2019; Tam Anh Hospital — Hội chứng ống cổ tay, thống kê Việt Nam." },
+  ],
   "bai-tap-viem-diem-bam-loi-cau-xuong-canh-tay": [
     { type: "para", content: "Anh Tuấn, 38 tuổi, nhân viên văn phòng kiêm chơi tennis cuối tuần, đến khám với cánh tay phải không thể cầm chắc được ly cà phê buổi sáng: Bác ơi, con chỉ cần vặn tay mở vòi nước là đau điếng người, bắt tay người khác cũng không dám. Chẩn đoán: viêm điểm bám lồi cầu ngoài xương cánh tay — dân gian hay gọi là khuỷu tay người chơi tennis. Chị Lan, 52 tuổi, cắt may kiêm làm bếp, thì đau ở phía trong khuỷu — lồi cầu trong — hay gọi là khuỷu tay người chơi golf. Hai vị trí khác nhau, nhưng cùng một nguyên tắc điều trị: tập luyện đúng cách là chìa khóa." },
     { type: "para", content: "Xương cánh tay có hai mấu nhô ra ở đầu dưới gần khuỷu tay: lồi cầu ngoài (phía ngón cái) và lồi cầu trong (phía ngón út). Đây là nơi các gân cơ duỗi và gập cổ tay bám vào. Khi sử dụng tay lặp đi lặp lại quá mức — gõ phím, cầm vợt, cắt may, vặn ốc vít — các gân này bị vi chấn thương tích lũy, dẫn đến thoái hóa vi thể và đau tại điểm bám. Tỷ lệ mắc trong dân số chung là 1-3%, nhưng ở nhóm làm việc tay nhiều có thể lên đến 7-8%." },
