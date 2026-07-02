@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dinh-duong-thoai-hoa-cot-song-that-lung",
+    title: "Chế Độ Dinh Dưỡng Cho Người Thoái Hóa Cột Sống Thắt Lưng: Ăn Gì Để Xương Chắc, Đĩa Đệm Khỏe Và Giảm Đau — Bằng Chứng Khoa Học",
+    excerpt: "Thoái hóa cột sống rồi thì ăn uống có ích gì? Rất nhiều. Từ vitamin D (hơn 50% người đau lưng mãn thiếu hụt), canxi, omega-3 chống viêm cho đĩa đệm, đến chất đạm giữ khối cơ và chế độ ăn Địa Trung Hải — TS.BS. Quyền tổng hợp bằng chứng khoa học và hướng dẫn thực đơn cụ thể, dễ áp dụng cho người Việt.",
+    audience: "Cho bệnh nhân",
+    category: "Dinh dưỡng & Bổ sung",
+    date: "2026-07-02",
+  },
+  {
     slug: "nguyen-nhan-te-bi-chi-tren",
     title: "Tê Bì Tay: 7 Nguyên Nhân Thường Gặp Và Khi Nào Cần Đi Khám?",
     excerpt: "Tê bì tay có thể do ống cổ tay, rễ thần kinh cổ, dây thần kinh trụ, lối thoát lồng ngực hay tiểu đường. TS.BS. Quyền giải thích 7 nguyên nhân phổ biến nhất, cách phân biệt từng loại và dấu hiệu nào cần đi khám ngay.",
