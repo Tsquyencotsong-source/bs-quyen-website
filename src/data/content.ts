@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "thoi-quen-hai-cot-song-co-that-lung-phong-tranh",
+    title: "7 Thói Quen Âm Thầm Phá Hủy Cột Sống Cổ Và Thắt Lưng — Đặc Biệt Nguy Hiểm Với Người Thoái Hóa, Và Cách Phòng Tránh",
+    excerpt: "Cúi đầu xem điện thoại khiến cột sống cổ chịu lực tương đương hơn 27 kg. Ngồi lâu làm áp lực đĩa đệm tăng 40-90%. Cúi nhấc vật nặng sai cách tăng áp lực đĩa đệm 40%. TS.BS. Quyền điểm lại 7 thói quen gây hại phổ biến nhất cho cột sống — kèm bằng chứng khoa học — và cách sửa từng thói quen để làm chậm thoái hóa, giảm đau.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-07-03",
+  },
+  {
     slug: "dinh-duong-thoai-hoa-cot-song-that-lung",
     title: "Chế Độ Dinh Dưỡng Cho Người Thoái Hóa Cột Sống Thắt Lưng: Ăn Gì Để Xương Chắc, Đĩa Đệm Khỏe Và Giảm Đau — Bằng Chứng Khoa Học",
     excerpt: "Thoái hóa cột sống rồi thì ăn uống có ích gì? Rất nhiều. Từ vitamin D (hơn 50% người đau lưng mãn thiếu hụt), canxi, omega-3 chống viêm cho đĩa đệm, đến chất đạm giữ khối cơ và chế độ ăn Địa Trung Hải — TS.BS. Quyền tổng hợp bằng chứng khoa học và hướng dẫn thực đơn cụ thể, dễ áp dụng cho người Việt.",
