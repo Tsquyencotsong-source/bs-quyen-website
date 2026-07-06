@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "hoi-chung-ong-co-tay",
+    title: "Hội Chứng Ống Cổ Tay: Nguyên Nhân, Phân Loại, Triệu Chứng, Luyện Tập – Dinh Dưỡng, Điều Trị Bảo Tồn Và Phẫu Thuật — Bằng Chứng Khoa Học",
+    excerpt: "Tê buốt bàn tay về đêm khiến bạn thức giấc? Đó có thể là hội chứng ống cổ tay — bệnh chèn ép thần kinh phổ biến nhất. TS.BS. Quyền giải thích nguyên nhân, cách phân độ nhẹ – trung bình – nặng, chế độ luyện tập và dinh dưỡng, hiệu quả thực sự của nẹp và tiêm corticoid, khi nào cần mổ và vì sao phẫu thuật giải phóng ống cổ tay đạt tỷ lệ thành công 75–90% — theo hướng dẫn AAOS 2024.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-07-06",
+  },
+  {
     slug: "thoi-quen-hai-cot-song-co-that-lung-phong-tranh",
     title: "7 Thói Quen Âm Thầm Phá Hủy Cột Sống Cổ Và Thắt Lưng — Đặc Biệt Nguy Hiểm Với Người Thoái Hóa, Và Cách Phòng Tránh",
     excerpt: "Cúi đầu xem điện thoại khiến cột sống cổ chịu lực tương đương hơn 27 kg. Ngồi lâu làm áp lực đĩa đệm tăng 40-90%. Cúi nhấc vật nặng sai cách tăng áp lực đĩa đệm 40%. TS.BS. Quyền điểm lại 7 thói quen gây hại phổ biến nhất cho cột sống — kèm bằng chứng khoa học — và cách sửa từng thói quen để làm chậm thoái hóa, giảm đau.",
