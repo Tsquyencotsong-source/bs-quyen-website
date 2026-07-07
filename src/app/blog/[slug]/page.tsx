@@ -2338,4 +2338,200 @@ const ARTICLES: Record<string, Block[]> = {
     ]},
     { type: "heading", content: "Bài 5: Nâng gót chân đứng (Calf Raise)" },
     { type: "para", content: "Bắp chân (calf) đóng vai trò bơm máu về tim và hỗ trợ giảm sưng cho khớp gối. Bài tập này cũng cải thiện tuần hoàn máu toàn bộ chân dưới và giảm cảm giác nặng nề sau một ngày dài." },
-    {
+    { type: "list", items: [
+      "Đứng thẳng, hai chân rộng bằng vai. Tay vịn nhẹ vào ghế hoặc tường để giữ thăng bằng",
+      "Từ từ nhón hai gót chân lên cao hết mức có thể — giữ 2-3 giây",
+      "Hạ xuống chậm rãi — KHÔNG thả gót xuống đột ngột, kiểm soát đến khi gót chạm sàn nhẹ nhàng",
+      "Lặp 15-20 lần, 2-3 hiệp. Nâng cao: tập một chân khi đã quen",
+    ]},
+    { type: "heading", content: "Bài 6: Bước lên bậc thang (Step-Up)" },
+    { type: "para", content: "Bài tập chức năng mô phỏng thực tế hàng ngày — giúp người thoái hóa khớp gối đi cầu thang an toàn và tự tin hơn. Tập có kiểm soát giúp xây dựng sức mạnh và sự phối hợp cần thiết cho vận động thực tế." },
+    { type: "list", items: [
+      "Đứng trước một bậc thang thấp khoảng 10-15cm (hoặc dùng một cuốn sách dày đặt dưới chân)",
+      "Bước chân phải lên bậc trước, đẩy cơ đùi và mông để kéo cơ thể lên — giữ lưng thẳng",
+      "Đặt chân trái lên bậc cạnh chân phải rồi bước xuống từng bước. Lặp 10 lần mỗi bên",
+      "Tay có thể vịn tường bên cạnh khi mới tập, giảm dần khi đã quen. Không vội, không nhún mạnh",
+    ]},
+    { type: "heading", content: "Bài 7: Đi bộ — bài tập quan trọng và đơn giản nhất" },
+    { type: "para", content: "Đi bộ đều đặn mỗi ngày là liệu pháp vận động có bằng chứng khoa học mạnh nhất cho thoái hóa khớp gối. Phân tích tổng hợp năm 2025 xác nhận: tập thể dục aerobic (bao gồm đi bộ) mang lại lợi ích về giảm đau và cải thiện chức năng lớn hơn so với nhiều can thiệp khác. Không cần phòng gym, không cần dụng cụ — chỉ cần đôi giày phù hợp và sự kiên trì." },
+    { type: "list", items: [
+      "Bắt đầu từ 10-15 phút mỗi ngày nếu chưa quen tập — tăng dần 5 phút mỗi tuần",
+      "Mục tiêu dài hạn: 30 phút mỗi ngày, 5 ngày mỗi tuần theo khuyến cáo của OARSI",
+      "Đi trên mặt phẳng bằng phẳng, tránh đường dốc cao hoặc gồ ghề trong giai đoạn đầu",
+      "Chọn giày đế mềm, đệm tốt — giày không phù hợp làm tăng đáng kể lực tác động lên khớp gối",
+      "Đi bộ dưới nước hoặc trong hồ bơi (aqua walking): giảm 50-70% trọng lực lên khớp — cực kỳ phù hợp khi đau nặng",
+      "Đạp xe đạp tĩnh cũng là lựa chọn tốt: tập aerobic mà không tải trọng mạnh lên khớp",
+    ]},
+    { type: "highlight", content: "Một phân tích năm 2025 so sánh đi bộ có hỗ trợ và đi bộ tự do ở bệnh nhân thoái hóa khớp gối — kết quả: cả hai đều cải thiện đau và chức năng đáng kể. Yếu tố quan trọng nhất không phải là bài tập bạn chọn, mà là sự kiên trì và đều đặn." },
+    { type: "heading", content: "Những gì TUYỆT ĐỐI TRÁNH khi bị thoái hóa khớp gối" },
+    { type: "list", items: [
+      "Ngồi xổm sâu hoặc quỳ lâu: tạo áp lực lên sụn khớp gấp 5-8 lần trọng lượng cơ thể",
+      "Chạy bộ trên mặt đường nhựa cứng khi cơ đùi chưa đủ mạnh: tăng tốc độ mòn sụn",
+      "Các môn thể thao va chạm: bóng đá, bóng rổ, cầu lông cường độ cao trong giai đoạn đau",
+      "Ngồi hoặc đứng một tư thế quá lâu: thay đổi tư thế mỗi 30-45 phút, đứng lên đi lại vài bước",
+      "Leo cầu thang nhiều lần không cần thiết trong giai đoạn đau cấp",
+      "Tăng cân: mỗi 1kg tăng thêm tạo khoảng 3-4kg áp lực lên mỗi đầu gối khi đi bộ",
+      "Dừng tập hoàn toàn vì sợ đau: nghịch lý nhưng ngồi yên một chỗ thường làm khớp đau hơn về lâu dài",
+    ]},
+    { type: "heading", content: "Lịch tập gợi ý trong tuần" },
+    { type: "list", items: [
+      "Thứ 2, 4, 6: Nâng chân thẳng + Siết cơ đùi tĩnh + Ngồi đứng + Kéo gót chân + Nâng gót chân (khoảng 25-30 phút)",
+      "Thứ 3, 5: Đi bộ 20-30 phút nhẹ nhàng hoặc đạp xe đạp tĩnh 20 phút",
+      "Thứ 7: Đi bộ dài hơn (30-45 phút) hoặc thêm bài Bước lên bậc thang",
+      "Chủ nhật: Nghỉ ngơi hoặc hoạt động nhẹ — kéo giãn nhẹ nhàng không xoay gối",
+      "Mỗi buổi tập: 5 phút khởi động trước và 5 phút kéo giãn thả lỏng sau khi tập",
+    ]},
+    { type: "note", content: "Nguyên tắc 2 giờ: nếu sau khi tập đầu gối đau hơn và kéo dài hơn 2 giờ — bạn đang tập quá sức. Giảm số lần lặp hoặc thời gian xuống 50% và thử lại. Một chút đau cơ bắp sau tập là bình thường, nhưng đau khớp tăng kéo dài là dấu hiệu cần điều chỉnh." },
+    { type: "heading", content: "Khi nào cần gặp bác sĩ ngay?" },
+    { type: "warning", content: "Liên hệ bác sĩ ngay nếu: đau tăng đột ngột sau khi đang ổn định | đầu gối sưng to, nóng đỏ bất thường (có thể viêm khớp cấp) | cảm giác khớp lỏng, bị kẹt không duỗi thẳng được | đau về đêm làm mất ngủ kéo dài | đã tập đúng phương pháp 8-12 tuần nhưng hoàn toàn không cải thiện." },
+    { type: "para", content: "Thoái hóa khớp gối là bệnh mãn tính — không có thuốc chữa khỏi hoàn toàn, nhưng hoàn toàn có thể kiểm soát tốt để giữ chất lượng cuộc sống. Bài tập đúng cách, đều đặn mỗi ngày là nền tảng quan trọng nhất của điều trị. Bác sĩ có thể kê thêm thuốc giảm đau, hỗ trợ tiêm khớp hay vật lý trị liệu chuyên sâu — nhưng việc tập luyện hằng ngày là trách nhiệm của chính bạn và không ai có thể thay thế bạn làm điều đó." },
+    { type: "note", content: "Tài liệu tham khảo: OARSI Guidelines for Knee Osteoarthritis (2019, cập nhật 2022); AAOS Clinical Practice Guideline on Knee OA (2021); Supervised or Home-Based Exercise for Knee OA: Systematic Review and Meta-Analysis, PMC (2025); Nonoperative Management Recommendations for Knee OA — PMC (2025). Bài viết mang tính giáo dục sức khỏe — không thay thế tư vấn y tế trực tiếp." },
+  ],
+
+  "loi-khuyen-suc-khoe-nang-nong-cuc-doan": [
+    { type: "para", content: "Mùa hè 2025–2026, nhiều tỉnh thành Việt Nam ghi nhận nhiệt độ vượt 40°C liên tục nhiều ngày. Sốc nhiệt (heat stroke) có thể gây tổn thương não vĩnh viễn và tử vong chỉ trong vòng 30 phút nếu không được xử trí kịp thời." },
+    { type: "heading", content: "Ba mức độ say nắng" },
+    { type: "list", items: [
+      "Mức 1 — Kiệt sức do nhiệt: ra nhiều mồ hôi, da lạnh và ẩm, mạch nhanh yếu, chóng mặt, buồn nôn, thân nhiệt dưới 40°C — cần dừng hoạt động và vào nơi mát ngay",
+      "Mức 2 — Sốc nhiệt: thân nhiệt trên 40°C, da đỏ và nóng (không còn mồ hôi), lú lẫn, co giật hoặc mất ý thức — GỌI 115 NGAY",
+    ]},
+    { type: "heading", content: "7 hành động bảo vệ sức khỏe" },
+    { type: "list", items: [
+      "Uống đủ nước kể cả khi không khát: 2–3 lít/ngày; người lao động ngoài trời uống 250ml mỗi 15–20 phút",
+      "Tránh ra ngoài khung giờ 10h–16h; mặc quần áo sáng màu, rộng rãi, đội mũ rộng vành",
+      "Bôi kem chống nắng SPF 30 trở lên, thoa lại mỗi 2 giờ",
+      "Làm mát môi trường sống bằng quạt, điều hòa hoặc đến nơi công cộng có điều hòa",
+      "Không để trẻ em hoặc người già một mình trong xe ô tô — nhiệt độ trong xe tăng thêm 20°C chỉ sau 10 phút",
+      "Theo dõi sức khỏe người thân có nguy cơ cao, gọi điện kiểm tra người già sống một mình ít nhất 2 lần/ngày",
+    ]},
+    { type: "heading", content: "Lưu ý đặc biệt cho bệnh nhân cột sống và khớp" },
+    { type: "para", content: "Thuốc kháng viêm NSAID (Ibuprofen, Diclofenac, Meloxicam) làm giảm lưu lượng máu đến thận. Kết hợp với mất nước do nắng nóng, nguy cơ suy thận cấp tăng cao đột biến. Không tập phục hồi chức năng ngoài trời trong nắng; không ngưng thuốc loãng xương hay bệnh nền khi trời nóng." },
+    { type: "warning", content: "Với sốc nhiệt: chuyển người bệnh vào nơi mát · cởi bớt quần áo · đặt túi đá lên nách, háng, hai bên cổ · cho uống nước từng ngụm nhỏ nếu còn tỉnh · GỌI 115 NGAY và theo dõi liên tục." },
+    { type: "note", content: "Tổng hợp từ: WHO 2025, CDC Hoa Kỳ, Bộ Y tế Việt Nam và các nghiên cứu lâm sàng đăng trên PubMed/NIH năm 2024–2025. Liên hệ cấp cứu: 115." },
+  ],
+
+};
+
+function RenderBlock({ block, index }: { block: Block; index: number }) {
+  switch (block.type) {
+    case "heading":
+      return <h2 key={index} className="font-serif-brand text-[20px] font-bold text-navy mt-8 mb-3 leading-snug">{block.content}</h2>;
+    case "para":
+      return <p key={index} className="text-[15.5px] font-light leading-[1.85] text-gray-500 mb-5">{block.content}</p>;
+    case "list":
+      return (
+        <ul key={index} className="list-none mb-6 space-y-2.5">
+          {block.items.map((item, j) => (
+            <li key={j} className="flex items-start gap-3 text-[15px] font-light text-gray-500">
+              <span className="w-1.5 h-1.5 rounded-full bg-navy mt-2.5 flex-shrink-0" />{item}
+            </li>
+          ))}
+        </ul>
+      );
+    case "highlight":
+      return (
+        <div key={index} className="my-6 border-l-[3px] border-navy pl-5 py-1">
+          <p className="font-serif-brand text-[17px] font-normal italic text-navy leading-relaxed">{block.content}</p>
+        </div>
+      );
+    case "warning":
+      return (
+        <div key={index} className="my-6 p-4 bg-yellow-50 border border-yellow-200 border-l-[3px] border-l-brand-gold text-[13.5px] text-gray-600 leading-relaxed">
+          <strong className="font-semibold text-gray-800 block mb-1">⚠️ Lưu ý quan trọng:</strong>
+          {block.content}
+        </div>
+      );
+    case "note":
+      return (
+        <div key={index} className="mt-8 p-4 bg-brand-gold-lt border-l-[3px] border-brand-gold text-[13px] font-light text-gray-600">
+          <strong className="font-semibold text-gray-700">Lưu ý: </strong>{block.content}
+        </div>
+      );
+    case "image":
+      return (
+        <div key={index} className="my-7 border border-gray-200 overflow-hidden bg-gray-50">
+          <div className="relative w-full" style={{aspectRatio: "4/3"}}>
+            <Image src={block.src} alt={block.alt} fill className="object-contain" />
+          </div>
+          <div className="px-4 py-3 border-t border-gray-200">
+            <p className="text-[13px] font-semibold text-gray-800 mb-1">{block.caption}</p>
+            <p className="text-[12px] text-gray-400 italic leading-relaxed">{block.subcaption}</p>
+          </div>
+        </div>
+      );
+    default:
+      return null;
+  }
+}
+
+export default function BlogPostPage({ params }: { params: { slug: string } }) {
+  const post = POSTS.find((p) => p.slug === params.slug);
+  if (!post) notFound();
+  const blocks = ARTICLES[params.slug];
+  const postUrl = `https://bs-quyen-website.vercel.app/blog/${params.slug}`;
+
+  return (
+    <>
+      <div className="bg-navy py-10 md:py-14">
+        <Container>
+          <Link href="/blog" className="inline-flex items-center gap-2 text-[13px] text-white/50 hover:text-white mb-6 transition-colors">
+            <ArrowLeft size={14} /> Quay lại tất cả bài viết
+          </Link>
+          <p className="text-[11px] font-semibold tracking-[0.18em] uppercase text-brand-gold mb-3">{post!.audience}</p>
+          <h1 className="font-serif-brand text-[clamp(24px,3.5vw,38px)] font-bold text-white leading-tight max-w-2xl">{post!.title}</h1>
+          <p className="text-[13px] text-white/40 mt-4">TS.BS. Nguyễn Ngọc Quyền &nbsp;·&nbsp; {post!.date}</p>
+        </Container>
+      </div>
+
+      <div className="py-12 md:py-16">
+        <Container>
+          <div className="grid md:grid-cols-[1fr_260px] gap-12 items-start">
+            <article className="max-w-2xl">
+              <p className="text-[16.5px] font-light leading-[1.85] text-gray-500 mb-8 font-serif-brand italic border-l-2 border-brand-gold pl-5">
+                {post!.excerpt}
+              </p>
+              {blocks
+                ? blocks.map((block, i) => <RenderBlock key={i} block={block} index={i} />)
+                : <p className="text-gray-400 italic">Nội dung đầy đủ sẽ được cập nhật sớm.</p>
+              }
+              <div className="mt-10 pt-6 border-t border-gray-100 flex items-center gap-4 flex-wrap">
+                <span className="text-[13px] text-gray-400">Chia sẻ bài viết:</span>
+                <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(postUrl)}`}
+                  target="_blank" rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-[#1877F2] text-white text-[13px] font-semibold px-4 py-2 hover:bg-[#166FE5] transition-colors">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="white"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                  Chia sẻ Facebook
+                </a>
+              </div>
+            </article>
+
+            <aside className="space-y-4 sticky top-20">
+              <div className="bg-navy p-5">
+                <p className="text-[11px] font-semibold tracking-[0.15em] uppercase text-brand-gold mb-2">Về tác giả</p>
+                <p className="font-serif-brand text-[15px] font-bold text-white">TS.BS. Nguyễn Ngọc Quyền</p>
+                <p className="text-[12px] text-white/50 mt-1">Bác sĩ Cột sống · Bệnh viện TWQĐ 108</p>
+                <div className="mt-4 pt-4 border-t border-white/10">
+                  <p className="text-[11px] text-white/40 uppercase tracking-wider mb-1">Đặt lịch khám</p>
+                  <a href="tel:0989052288" className="text-[22px] font-bold text-white block hover:text-brand-gold transition-colors">0989 052 288</a>
+                  <p className="text-[11.5px] text-white/40 mt-1 leading-relaxed">T2–T6: 6h30–17h · Phòng 225, BV 108<br/>Thứ 6: 17h30+ · SpineTech, 257 Giải Phóng</p>
+                </div>
+              </div>
+              <div className="bg-gray-50 border border-gray-200 p-5">
+                <p className="text-[11px] font-semibold tracking-[0.15em] uppercase text-navy mb-3">Bài viết liên quan</p>
+                <ul className="space-y-2 list-none">
+                  {POSTS.filter((p) => p.slug !== params.slug).slice(0, 4).map((p) => (
+                    <li key={p.slug}>
+                      <Link href={`/blog/${p.slug}`} className="text-[13px] text-gray-600 hover:text-navy transition-colors leading-snug block py-1 border-b border-gray-100 last:border-b-0">
+                        {p.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </aside>
+          </div>
+        </Container>
+      </div>
+    </>
+  );
+}
