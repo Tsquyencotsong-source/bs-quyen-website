@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "bai-tap-hoai-tu-chom-xuong-dui-bao-ton",
+    title: "Hướng Dẫn Tập Luyện Tại Nhà Cho Người Hoại Tử Chỏm Xương Đùi Đang Điều Trị Bảo Tồn (Chưa Mổ) — Có Hình Minh Họa Từng Bài",
+    excerpt: "Chưa có chỉ định mổ không có nghĩa là ngồi chờ. TS.BS. Quyền hướng dẫn 7 bài tập an toàn tại nhà — kèm hình minh họa từng bài — cùng cách đi lại với gậy, tư thế trong sinh hoạt và làm việc để giảm tải cho chỏm xương, giữ tầm vận động và làm chậm xẹp chỏm. Dựa trên nguyên tắc phục hồi chức năng đã được y văn ghi nhận.",
+    audience: "Cho bệnh nhân",
+    category: "Phục hồi chức năng",
+    date: "2026-07-07",
+  },
+  {
     slug: "hoi-chung-ong-co-tay",
     title: "Hội Chứng Ống Cổ Tay: Nguyên Nhân, Phân Loại, Triệu Chứng, Luyện Tập – Dinh Dưỡng, Điều Trị Bảo Tồn Và Phẫu Thuật — Bằng Chứng Khoa Học",
     excerpt: "Tê buốt bàn tay về đêm khiến bạn thức giấc? Đó có thể là hội chứng ống cổ tay — bệnh chèn ép thần kinh phổ biến nhất. TS.BS. Quyền giải thích nguyên nhân, cách phân độ nhẹ – trung bình – nặng, chế độ luyện tập và dinh dưỡng, hiệu quả thực sự của nẹp và tiêm corticoid, khi nào cần mổ và vì sao phẫu thuật giải phóng ống cổ tay đạt tỷ lệ thành công 75–90% — theo hướng dẫn AAOS 2024.",

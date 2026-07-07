@@ -26,6 +26,69 @@ type Block =
   | { type: "warning"; content: string };
 
 const ARTICLES: Record<string, Block[]> = {
+  "bai-tap-hoai-tu-chom-xuong-dui-bao-ton": [
+    { type: "para", content: "Anh Tuấn, 39 tuổi, đến khám vì đau háng bên phải âm ỉ đã vài tháng, đi lại hơi khó, nhất là khi đứng lên ngồi xuống. Phim cộng hưởng từ cho thấy anh bị hoại tử chỏm xương đùi giai đoạn sớm, chỏm chưa bị xẹp. Câu đầu tiên anh hỏi tôi là: Bác sĩ ơi, tôi có phải mổ thay khớp ngay không? Tôi trả lời anh rằng chưa. Ở giai đoạn này, khi chỏm còn nguyên vẹn, chúng ta còn cơ hội điều trị bảo tồn để giữ khớp — và một phần rất quan trọng của điều trị bảo tồn nằm ở chính đôi tay và đôi chân của người bệnh: cách bạn tập luyện, đi lại và sinh hoạt mỗi ngày." },
+    { type: "para", content: "Bài viết này dành cho những người bệnh như anh Tuấn — đã được chẩn đoán hoại tử chỏm xương đùi nhưng bác sĩ đánh giá chưa cần phẫu thuật và đang theo hướng điều trị bảo tồn. Tôi sẽ hướng dẫn bạn những bài tập an toàn có thể làm tại nhà, kèm hình minh họa cho từng bài, và cách đi lại, sinh hoạt, làm việc sao cho bảo vệ được khớp háng. Tất cả đều dựa trên các nguyên tắc phục hồi chức năng đã được y văn ghi nhận." },
+    { type: "highlight", content: "Thông điệp cốt lõi: Mục tiêu của tập luyện trong giai đoạn bảo tồn KHÔNG phải để chữa khỏi hoại tử, mà để giữ tầm vận động khớp háng, duy trì sức mạnh cơ, giảm đau và làm chậm quá trình chỏm bị xẹp. Nguyên tắc quan trọng nhất là giảm tải trọng lên chỏm xương và tập trong ngưỡng không gây đau." },
+    { type: "heading", content: "Vì sao tập luyện quan trọng — và cả những giới hạn cần thành thật" },
+    { type: "para", content: "Hoại tử chỏm xương đùi xảy ra khi phần xương ở chỏm bị thiếu máu nuôi, dần chết đi và yếu, nguy cơ cao nhất là chỏm bị xẹp xuống, phá hỏng bề mặt khớp. Điều trị bảo tồn — gồm giảm tải trọng, dùng thuốc, vật lý trị liệu và các phương pháp lý sinh — được áp dụng chủ yếu ở giai đoạn sớm, khi tổn thương nhỏ và chỏm chưa xẹp, với mục tiêu cải thiện chức năng, giảm đau và trì hoãn xẹp chỏm." },
+    { type: "para", content: "Tôi cần nói thẳng để bạn có kỳ vọng đúng: các tổng quan hệ thống cho thấy riêng biện pháp giảm tải trọng đơn thuần không ngăn được tiến triển ở phần lớn trường hợp — có nghiên cứu ghi nhận tỷ lệ thất bại tới 80–90% nếu chỉ dựa vào việc hạn chế đi lại mà không kết hợp các biện pháp khác. Vì vậy tập luyện và điều chỉnh sinh hoạt cần được xem là một phần trong kế hoạch điều trị tổng thể do bác sĩ theo dõi, chứ không thay thế cho việc tái khám và cân nhắc phẫu thuật đúng thời điểm. Dù vậy, tập đúng cách vẫn mang lại lợi ích rõ về giảm đau, giữ biên độ khớp và duy trì sức cơ — giúp bạn đi lại tốt hơn và chuẩn bị tốt hơn cho mọi kịch bản." },
+    { type: "warning", content: "Đây là hướng dẫn chung mang tính giáo dục. Mức độ chịu lực (đi lại bình thường, tì một phần hay dùng nạng hoàn toàn) và các bài tập cụ thể PHẢI theo chỉ định của bác sĩ điều trị dựa trên giai đoạn bệnh của riêng bạn. Nếu một động tác gây đau tăng lên, đau kéo dài sau khi tập hoặc đau về đêm, hãy ngừng và báo cho bác sĩ." },
+    { type: "heading", content: "Năm nguyên tắc vàng khi tập tại nhà" },
+    { type: "list", items: [
+      "Không gây đau: tập trong biên độ thoải mái; đau là tín hiệu dừng lại, không phải để cố vượt qua",
+      "Ưu tiên bài tập không hoặc ít chịu trọng lực: nằm và ngồi trước, đứng có điểm vịn sau",
+      "Nhẹ và đều đặn hơn là nặng và dồn dập: chia nhỏ nhiều lần trong ngày, mỗi động tác chậm rãi, có kiểm soát",
+      "Tránh va đập và xoay vặn mạnh: không chạy, nhảy, mang vác nặng, không xoay người đột ngột trên chân bệnh",
+      "Khởi động khớp nhẹ nhàng trước và thư giãn sau khi tập; kết hợp thở đều, không nín thở khi gồng cơ",
+    ]},
+    { type: "heading", content: "Nhóm 1 — Bài tập giữ tầm vận động (nằm ngửa, không chịu lực)" },
+    { type: "para", content: "Đây là nhóm nền tảng và an toàn nhất, nên tập đầu tiên mỗi ngày. Vì thực hiện khi nằm, khớp háng gần như không phải chịu trọng lượng cơ thể, giúp duy trì độ mềm dẻo của khớp mà không tăng tải lên chỏm xương." },
+    { type: "para", content: "Bài tập trượt gót giúp duy trì biên độ gập – duỗi của khớp háng và gối. Nằm ngửa, hai chân duỗi thẳng, từ từ kéo gót chân bên bệnh trượt trên mặt giường về phía mông đến mức không đau, rồi duỗi thẳng trở lại. Làm chậm rãi 10–15 lần, 2–3 lần mỗi ngày." },
+    { type: "image", src: "/images/Bai_tap_hoai_tu_chom_dui/1.Bai_tap_1.png", alt: "Bài tập trượt gót nằm ngửa cho khớp háng", caption: "Bài 1: Trượt Gót — Gập Duỗi Háng Gối", subcaption: "Nằm ngửa, kéo gót trượt về phía mông rồi duỗi thẳng. 10–15 lần, 2–3 lần/ngày." },
+    { type: "para", content: "Bài tập dạng – khép háng giúp giữ biên độ mở của khớp. Vẫn nằm ngửa, chân duỗi thẳng, giữ gót luôn chạm mặt giường, từ từ trượt chân bệnh dạng ra ngoài rồi khép về vị trí giữa. Không nâng chân lên khỏi giường để tránh tăng tải. Làm 10–15 lần, 2–3 lần mỗi ngày." },
+    { type: "image", src: "/images/Bai_tap_hoai_tu_chom_dui/2.Bai_tap_2.png", alt: "Bài tập dạng khép háng nằm ngửa", caption: "Bài 2: Dạng – Khép Háng (Nằm Ngửa)", subcaption: "Trượt chân ra ngoài rồi khép về, gót luôn chạm giường. 10–15 lần, 2–3 lần/ngày." },
+    { type: "para", content: "Bài tập xoay háng nhẹ giúp duy trì khả năng xoay của khớp, vốn thường mất sớm. Nằm ngửa, gối gập, bàn chân đặt trên giường; nhẹ nhàng nghiêng cẳng chân sang trong rồi sang ngoài trong biên độ nhỏ, không đau. Làm 8–10 lần mỗi bên, 1–2 lần mỗi ngày." },
+    { type: "image", src: "/images/Bai_tap_hoai_tu_chom_dui/5.Bai_tap_5.png", alt: "Bài tập xoay háng nhẹ nhàng nằm ngửa", caption: "Bài 3: Xoay Háng Nhẹ Nhàng", subcaption: "Gối gập, nghiêng cẳng chân trong – ngoài biên độ nhỏ. 8–10 lần/bên, 1–2 lần/ngày." },
+    { type: "heading", content: "Nhóm 2 — Bài tập co cơ tĩnh (giữ sức cơ, không di chuyển khớp)" },
+    { type: "para", content: "Co cơ tĩnh nghĩa là gồng cơ mà không làm khớp cử động — đây là cách lý tưởng để duy trì sức mạnh cơ đùi và cơ mông trong khi gần như không tạo thêm lực nén hay lực trượt lên chỏm xương." },
+    { type: "para", content: "Bài co cơ tĩnh cơ đùi trước: nằm ngửa, chân bệnh duỗi thẳng, có thể kê một khăn cuộn nhỏ dưới khoeo. Gồng chặt cơ đùi trước để ép nhẹ khoeo xuống giường, giữ 5–10 giây rồi thả lỏng. Làm 10 lần, 2–3 lần mỗi ngày." },
+    { type: "image", src: "/images/Bai_tap_hoai_tu_chom_dui/3.Bai_tap_3.png", alt: "Bài tập co cơ tĩnh cơ đùi trước", caption: "Bài 4: Co Cơ Tĩnh Cơ Đùi Trước", subcaption: "Gồng chặt cơ đùi ép khoeo xuống, giữ 5–10 giây. 10 lần, 2–3 lần/ngày." },
+    { type: "para", content: "Bài co cơ tĩnh cơ mông: nằm ngửa, siết chặt hai bên mông lại với nhau như đang giữ một tờ giấy giữa hai mông, giữ 5–10 giây rồi thả. Bài này giúp duy trì nhóm cơ mông rất quan trọng cho việc đứng và đi. Làm 10 lần, 2–3 lần mỗi ngày." },
+    { type: "image", src: "/images/Bai_tap_hoai_tu_chom_dui/4.Bai_tap_4.png", alt: "Bài tập co cơ tĩnh cơ mông", caption: "Bài 5: Co Cơ Tĩnh Cơ Mông", subcaption: "Siết chặt hai mông, giữ 5–10 giây rồi thả lỏng. 10 lần, 2–3 lần/ngày." },
+    { type: "heading", content: "Nhóm 3 — Bài tập đứng có điểm tựa (khi bác sĩ cho phép)" },
+    { type: "para", content: "Khi bạn đã tập tốt các bài nằm và bác sĩ đồng ý, có thể thêm vài bài đứng nhẹ nhàng, luôn có điểm vịn chắc chắn như thành ghế hay mặt bàn. Toàn bộ trọng lượng dồn lên chân lành, chân bệnh chỉ vận động trong không khí nên không phải chịu tải." },
+    { type: "para", content: "Đứng vịn ghế, dạng háng: đứng thẳng, vịn ghế cho vững, đưa chân bệnh dạng thẳng ra ngoài rồi hạ về, giữ thân người thẳng, không nghiêng. Làm 8–10 lần, 1–2 lần mỗi ngày." },
+    { type: "image", src: "/images/Bai_tap_hoai_tu_chom_dui/6.Bai_tap_6.png", alt: "Đứng vịn ghế dạng háng", caption: "Bài 6: Đứng Vịn Ghế — Dạng Háng", subcaption: "Đưa chân bệnh dạng ra ngoài rồi hạ về, thân thẳng. 8–10 lần, 1–2 lần/ngày." },
+    { type: "para", content: "Đứng vịn ghế, đưa chân ra sau: đứng thẳng, vịn ghế, đưa chân bệnh thẳng ra phía sau một đoạn ngắn rồi thu về. Chú ý không ưỡn lưng, biên độ nhỏ, chậm rãi. Làm 8–10 lần, 1–2 lần mỗi ngày." },
+    { type: "image", src: "/images/Bai_tap_hoai_tu_chom_dui/7.Bai_tap_7.png", alt: "Đứng vịn ghế đưa chân ra sau", caption: "Bài 7: Đứng Vịn Ghế — Đưa Chân Ra Sau", subcaption: "Đưa chân bệnh ra sau đoạn ngắn rồi thu về, không ưỡn lưng. 8–10 lần, 1–2 lần/ngày." },
+    { type: "note", content: "Về vận động toàn thân, các hình thức không hoặc ít chịu trọng lực như bơi, tập dưới nước và đạp xe tại chỗ với lực cản nhẹ thường được khuyến khích vì giúp duy trì thể lực và tuần hoàn mà không dồn tải lên chỏm xương. Ngược lại, nên tránh chạy bộ, nhảy, leo cầu thang nhiều và các môn va chạm." },
+    { type: "heading", content: "Đi lại và di chuyển trong sinh hoạt" },
+    { type: "para", content: "Cách bạn đi lại hằng ngày ảnh hưởng trực tiếp đến chỏm xương. Nguyên tắc là giảm bớt trọng lượng dồn lên chân bệnh. Dụng cụ trợ giúp như gậy hoặc nạng không phải dấu hiệu của yếu đuối — chúng là công cụ bảo vệ khớp, giúp giảm đau và tạo điều kiện cho vùng xương tổn thương có cơ hội hồi phục." },
+    { type: "para", content: "Một điểm nhiều người làm sai: cầm gậy ở tay bên nào? Câu trả lời là cầm gậy ở tay ĐỐI DIỆN với bên chân đau. Khi bước, gậy và chân bệnh cùng tiến về phía trước một lúc, để lực được san đều qua gậy thay vì dồn hết lên chỏm xương." },
+    { type: "image", src: "/images/Bai_tap_hoai_tu_chom_dui/8.Bai_tap_8.png", alt: "Đi lại chịu lực một phần với gậy", caption: "Đi Lại Chịu Lực Một Phần Với Gậy / Nạng", subcaption: "Cầm gậy tay đối diện bên chân đau; gậy và chân đau cùng bước để san bớt tải trọng." },
+    { type: "list", items: [
+      "Dùng gậy hoặc nạng theo đúng mức chịu lực bác sĩ chỉ định; đi chậm, bước ngắn, đặt chân nhẹ nhàng",
+      "Tránh đi bộ đường dài, đứng lâu một chỗ, leo dốc và lên xuống cầu thang nhiều lần",
+      "Khi lên xuống cầu thang: lên bằng chân lành trước, xuống bằng chân bệnh trước, luôn bám tay vịn",
+      "Giữ cân nặng hợp lý — mỗi ký giảm được là bớt tải trọng cho khớp háng mỗi bước đi",
+      "Bỏ hoàn toàn rượu bia và không tự ý dùng thuốc chứa corticoid, vì đây là hai yếu tố làm nặng thêm hoại tử xương",
+    ]},
+    { type: "heading", content: "Tư thế trong sinh hoạt và làm việc" },
+    { type: "para", content: "Với người còn đi làm, việc tổ chức lại tư thế và thói quen giúp bảo vệ khớp mà vẫn duy trì công việc. Mấu chốt là tránh các tư thế làm tăng lực nén lên khớp háng như ngồi xổm, ngồi bệt, gập háng quá sâu và những động tác dồn trọng lượng đột ngột." },
+    { type: "list", items: [
+      "Ưu tiên ngồi ghế cao vừa phải để khớp háng không phải gập quá sâu; tránh ngồi xổm, ngồi bệt, ngồi khoanh chân",
+      "Chọn công việc ít phải đi lại, đứng lâu hoặc mang vác; nếu làm văn phòng, đứng dậy đổi tư thế nhẹ nhàng mỗi 30–45 phút",
+      "Khi ngủ, nằm ngửa hoặc nghiêng về bên lành, có thể kê một gối mỏng giữa hai đùi cho thoải mái",
+      "Sắp xếp đồ dùng trong tầm với để hạn chế cúi gập và xoay người trên chân bệnh",
+      "Nhờ hỗ trợ khi cần bê vác; tuyệt đối không tự mang vật nặng khi đang phải giảm tải khớp háng",
+    ]},
+    { type: "warning", content: "Hãy đi khám lại ngay nếu: đau háng tăng nhanh, đau cả khi nghỉ hoặc về đêm, đi lại khó hơn rõ rệt, chân bệnh ngắn lại hoặc xoay lệch. Đây có thể là dấu hiệu chỏm xương bắt đầu xẹp và cần được đánh giá lại để cân nhắc phẫu thuật kịp thời." },
+    { type: "heading", content: "Lời kết từ bác sĩ" },
+    { type: "para", content: "Trở lại với anh Tuấn: sau khi được hướng dẫn tập các bài nằm mỗi sáng, dùng gậy khi đi làm và điều chỉnh lại chỗ ngồi, sắp xếp công việc, anh đỡ đau nhiều và đi lại tự tin hơn. Quan trọng hơn, anh hiểu rằng mình đang chủ động tham gia vào việc giữ khớp của chính mình, thay vì thụ động chờ đợi. Chúng tôi vẫn hẹn tái khám định kỳ để theo dõi sát chỏm xương bằng phim chụp." },
+    { type: "para", content: "Điều tôi muốn nhắn gửi là: hoại tử chỏm xương đùi giai đoạn bảo tồn không có nghĩa là bạn chỉ biết ngồi chờ. Những bài tập nhẹ nhàng đúng cách, cách đi lại và sinh hoạt khôn ngoan mỗi ngày chính là cách bạn nâng niu khớp háng của mình. Hãy tập đều đặn, lắng nghe cơ thể, và giữ liên lạc chặt chẽ với bác sĩ điều trị — vì mỗi người bệnh là một trường hợp riêng, cần một kế hoạch riêng." },
+    { type: "note", content: "Tài liệu tham khảo: Tổng quan hệ thống về điều trị bảo tồn hoại tử chỏm xương đùi (Journal of Clinical Medicine / Medical Sciences, 2024); các chiến lược bảo tồn khớp háng từ không phẫu thuật đến phẫu thuật (2024–2025); hướng dẫn phục hồi chức năng và giảm tải trọng cho hoại tử chỏm xương đùi (StatPearls, Physiopedia, Mayo Clinic). Bài viết mang tính giáo dục sức khỏe, không thay thế thăm khám và chỉ định trực tiếp của bác sĩ." },
+  ],
   "hoi-chung-ong-co-tay": [
     { type: "para", content: "Chị Hạnh, 46 tuổi, làm kế toán, đến khám vì hơn nửa năm nay đêm nào cũng thức giấc vì tê buốt hai bàn tay. Chị kể ban đầu chỉ tê nhẹ đầu ngón, phải vẩy tay vài cái mới đỡ, nhưng gần đây tê nhiều đến mức cầm đũa run tay, mở nắp chai cũng khó, có lần rơi cả cốc nước. Chị lo lắng hỏi tôi: Bác sĩ ơi, có phải tôi bị tai biến không? Tôi trấn an chị rằng đây không phải tai biến, mà rất có thể là hội chứng ống cổ tay — một bệnh lý chèn ép thần kinh rất thường gặp, đặc biệt ở phụ nữ trung niên và người làm việc dùng tay nhiều. Tin tốt là nếu phát hiện sớm, phần lớn trường hợp điều trị bảo tồn là đủ; và ngay cả khi phải mổ, đây là một trong những phẫu thuật có tỷ lệ thành công cao nhất trong y học." },
     { type: "para", content: "Hội chứng ống cổ tay là tình trạng dây thần kinh giữa bị chèn ép khi đi qua một đường hầm hẹp ở cổ tay gọi là ống cổ tay. Đây là bệnh lý chèn ép dây thần kinh ngoại vi phổ biến nhất ở người. Một phân tích gộp năm 2024 dựa trên tổng quan hệ thống nhiều nghiên cứu ước tính tỷ lệ mắc trong cộng đồng dao động quanh mức vài phần trăm dân số, và cao hơn rõ rệt ở phụ nữ cũng như người trên 40 tuổi. Bài viết này sẽ giúp bạn hiểu vì sao bệnh xuất hiện, nhận biết triệu chứng, biết khi nào cần mổ và hiệu quả của từng phương pháp điều trị ra sao." },
@@ -2275,200 +2338,4 @@ const ARTICLES: Record<string, Block[]> = {
     ]},
     { type: "heading", content: "Bài 5: Nâng gót chân đứng (Calf Raise)" },
     { type: "para", content: "Bắp chân (calf) đóng vai trò bơm máu về tim và hỗ trợ giảm sưng cho khớp gối. Bài tập này cũng cải thiện tuần hoàn máu toàn bộ chân dưới và giảm cảm giác nặng nề sau một ngày dài." },
-    { type: "list", items: [
-      "Đứng thẳng, hai chân rộng bằng vai. Tay vịn nhẹ vào ghế hoặc tường để giữ thăng bằng",
-      "Từ từ nhón hai gót chân lên cao hết mức có thể — giữ 2-3 giây",
-      "Hạ xuống chậm rãi — KHÔNG thả gót xuống đột ngột, kiểm soát đến khi gót chạm sàn nhẹ nhàng",
-      "Lặp 15-20 lần, 2-3 hiệp. Nâng cao: tập một chân khi đã quen",
-    ]},
-    { type: "heading", content: "Bài 6: Bước lên bậc thang (Step-Up)" },
-    { type: "para", content: "Bài tập chức năng mô phỏng thực tế hàng ngày — giúp người thoái hóa khớp gối đi cầu thang an toàn và tự tin hơn. Tập có kiểm soát giúp xây dựng sức mạnh và sự phối hợp cần thiết cho vận động thực tế." },
-    { type: "list", items: [
-      "Đứng trước một bậc thang thấp khoảng 10-15cm (hoặc dùng một cuốn sách dày đặt dưới chân)",
-      "Bước chân phải lên bậc trước, đẩy cơ đùi và mông để kéo cơ thể lên — giữ lưng thẳng",
-      "Đặt chân trái lên bậc cạnh chân phải rồi bước xuống từng bước. Lặp 10 lần mỗi bên",
-      "Tay có thể vịn tường bên cạnh khi mới tập, giảm dần khi đã quen. Không vội, không nhún mạnh",
-    ]},
-    { type: "heading", content: "Bài 7: Đi bộ — bài tập quan trọng và đơn giản nhất" },
-    { type: "para", content: "Đi bộ đều đặn mỗi ngày là liệu pháp vận động có bằng chứng khoa học mạnh nhất cho thoái hóa khớp gối. Phân tích tổng hợp năm 2025 xác nhận: tập thể dục aerobic (bao gồm đi bộ) mang lại lợi ích về giảm đau và cải thiện chức năng lớn hơn so với nhiều can thiệp khác. Không cần phòng gym, không cần dụng cụ — chỉ cần đôi giày phù hợp và sự kiên trì." },
-    { type: "list", items: [
-      "Bắt đầu từ 10-15 phút mỗi ngày nếu chưa quen tập — tăng dần 5 phút mỗi tuần",
-      "Mục tiêu dài hạn: 30 phút mỗi ngày, 5 ngày mỗi tuần theo khuyến cáo của OARSI",
-      "Đi trên mặt phẳng bằng phẳng, tránh đường dốc cao hoặc gồ ghề trong giai đoạn đầu",
-      "Chọn giày đế mềm, đệm tốt — giày không phù hợp làm tăng đáng kể lực tác động lên khớp gối",
-      "Đi bộ dưới nước hoặc trong hồ bơi (aqua walking): giảm 50-70% trọng lực lên khớp — cực kỳ phù hợp khi đau nặng",
-      "Đạp xe đạp tĩnh cũng là lựa chọn tốt: tập aerobic mà không tải trọng mạnh lên khớp",
-    ]},
-    { type: "highlight", content: "Một phân tích năm 2025 so sánh đi bộ có hỗ trợ và đi bộ tự do ở bệnh nhân thoái hóa khớp gối — kết quả: cả hai đều cải thiện đau và chức năng đáng kể. Yếu tố quan trọng nhất không phải là bài tập bạn chọn, mà là sự kiên trì và đều đặn." },
-    { type: "heading", content: "Những gì TUYỆT ĐỐI TRÁNH khi bị thoái hóa khớp gối" },
-    { type: "list", items: [
-      "Ngồi xổm sâu hoặc quỳ lâu: tạo áp lực lên sụn khớp gấp 5-8 lần trọng lượng cơ thể",
-      "Chạy bộ trên mặt đường nhựa cứng khi cơ đùi chưa đủ mạnh: tăng tốc độ mòn sụn",
-      "Các môn thể thao va chạm: bóng đá, bóng rổ, cầu lông cường độ cao trong giai đoạn đau",
-      "Ngồi hoặc đứng một tư thế quá lâu: thay đổi tư thế mỗi 30-45 phút, đứng lên đi lại vài bước",
-      "Leo cầu thang nhiều lần không cần thiết trong giai đoạn đau cấp",
-      "Tăng cân: mỗi 1kg tăng thêm tạo khoảng 3-4kg áp lực lên mỗi đầu gối khi đi bộ",
-      "Dừng tập hoàn toàn vì sợ đau: nghịch lý nhưng ngồi yên một chỗ thường làm khớp đau hơn về lâu dài",
-    ]},
-    { type: "heading", content: "Lịch tập gợi ý trong tuần" },
-    { type: "list", items: [
-      "Thứ 2, 4, 6: Nâng chân thẳng + Siết cơ đùi tĩnh + Ngồi đứng + Kéo gót chân + Nâng gót chân (khoảng 25-30 phút)",
-      "Thứ 3, 5: Đi bộ 20-30 phút nhẹ nhàng hoặc đạp xe đạp tĩnh 20 phút",
-      "Thứ 7: Đi bộ dài hơn (30-45 phút) hoặc thêm bài Bước lên bậc thang",
-      "Chủ nhật: Nghỉ ngơi hoặc hoạt động nhẹ — kéo giãn nhẹ nhàng không xoay gối",
-      "Mỗi buổi tập: 5 phút khởi động trước và 5 phút kéo giãn thả lỏng sau khi tập",
-    ]},
-    { type: "note", content: "Nguyên tắc 2 giờ: nếu sau khi tập đầu gối đau hơn và kéo dài hơn 2 giờ — bạn đang tập quá sức. Giảm số lần lặp hoặc thời gian xuống 50% và thử lại. Một chút đau cơ bắp sau tập là bình thường, nhưng đau khớp tăng kéo dài là dấu hiệu cần điều chỉnh." },
-    { type: "heading", content: "Khi nào cần gặp bác sĩ ngay?" },
-    { type: "warning", content: "Liên hệ bác sĩ ngay nếu: đau tăng đột ngột sau khi đang ổn định | đầu gối sưng to, nóng đỏ bất thường (có thể viêm khớp cấp) | cảm giác khớp lỏng, bị kẹt không duỗi thẳng được | đau về đêm làm mất ngủ kéo dài | đã tập đúng phương pháp 8-12 tuần nhưng hoàn toàn không cải thiện." },
-    { type: "para", content: "Thoái hóa khớp gối là bệnh mãn tính — không có thuốc chữa khỏi hoàn toàn, nhưng hoàn toàn có thể kiểm soát tốt để giữ chất lượng cuộc sống. Bài tập đúng cách, đều đặn mỗi ngày là nền tảng quan trọng nhất của điều trị. Bác sĩ có thể kê thêm thuốc giảm đau, hỗ trợ tiêm khớp hay vật lý trị liệu chuyên sâu — nhưng việc tập luyện hằng ngày là trách nhiệm của chính bạn và không ai có thể thay thế bạn làm điều đó." },
-    { type: "note", content: "Tài liệu tham khảo: OARSI Guidelines for Knee Osteoarthritis (2019, cập nhật 2022); AAOS Clinical Practice Guideline on Knee OA (2021); Supervised or Home-Based Exercise for Knee OA: Systematic Review and Meta-Analysis, PMC (2025); Nonoperative Management Recommendations for Knee OA — PMC (2025). Bài viết mang tính giáo dục sức khỏe — không thay thế tư vấn y tế trực tiếp." },
-  ],
-
-  "loi-khuyen-suc-khoe-nang-nong-cuc-doan": [
-    { type: "para", content: "Mùa hè 2025–2026, nhiều tỉnh thành Việt Nam ghi nhận nhiệt độ vượt 40°C liên tục nhiều ngày. Sốc nhiệt (heat stroke) có thể gây tổn thương não vĩnh viễn và tử vong chỉ trong vòng 30 phút nếu không được xử trí kịp thời." },
-    { type: "heading", content: "Ba mức độ say nắng" },
-    { type: "list", items: [
-      "Mức 1 — Kiệt sức do nhiệt: ra nhiều mồ hôi, da lạnh và ẩm, mạch nhanh yếu, chóng mặt, buồn nôn, thân nhiệt dưới 40°C — cần dừng hoạt động và vào nơi mát ngay",
-      "Mức 2 — Sốc nhiệt: thân nhiệt trên 40°C, da đỏ và nóng (không còn mồ hôi), lú lẫn, co giật hoặc mất ý thức — GỌI 115 NGAY",
-    ]},
-    { type: "heading", content: "7 hành động bảo vệ sức khỏe" },
-    { type: "list", items: [
-      "Uống đủ nước kể cả khi không khát: 2–3 lít/ngày; người lao động ngoài trời uống 250ml mỗi 15–20 phút",
-      "Tránh ra ngoài khung giờ 10h–16h; mặc quần áo sáng màu, rộng rãi, đội mũ rộng vành",
-      "Bôi kem chống nắng SPF 30 trở lên, thoa lại mỗi 2 giờ",
-      "Làm mát môi trường sống bằng quạt, điều hòa hoặc đến nơi công cộng có điều hòa",
-      "Không để trẻ em hoặc người già một mình trong xe ô tô — nhiệt độ trong xe tăng thêm 20°C chỉ sau 10 phút",
-      "Theo dõi sức khỏe người thân có nguy cơ cao, gọi điện kiểm tra người già sống một mình ít nhất 2 lần/ngày",
-    ]},
-    { type: "heading", content: "Lưu ý đặc biệt cho bệnh nhân cột sống và khớp" },
-    { type: "para", content: "Thuốc kháng viêm NSAID (Ibuprofen, Diclofenac, Meloxicam) làm giảm lưu lượng máu đến thận. Kết hợp với mất nước do nắng nóng, nguy cơ suy thận cấp tăng cao đột biến. Không tập phục hồi chức năng ngoài trời trong nắng; không ngưng thuốc loãng xương hay bệnh nền khi trời nóng." },
-    { type: "warning", content: "Với sốc nhiệt: chuyển người bệnh vào nơi mát · cởi bớt quần áo · đặt túi đá lên nách, háng, hai bên cổ · cho uống nước từng ngụm nhỏ nếu còn tỉnh · GỌI 115 NGAY và theo dõi liên tục." },
-    { type: "note", content: "Tổng hợp từ: WHO 2025, CDC Hoa Kỳ, Bộ Y tế Việt Nam và các nghiên cứu lâm sàng đăng trên PubMed/NIH năm 2024–2025. Liên hệ cấp cứu: 115." },
-  ],
-
-};
-
-function RenderBlock({ block, index }: { block: Block; index: number }) {
-  switch (block.type) {
-    case "heading":
-      return <h2 key={index} className="font-serif-brand text-[20px] font-bold text-navy mt-8 mb-3 leading-snug">{block.content}</h2>;
-    case "para":
-      return <p key={index} className="text-[15.5px] font-light leading-[1.85] text-gray-500 mb-5">{block.content}</p>;
-    case "list":
-      return (
-        <ul key={index} className="list-none mb-6 space-y-2.5">
-          {block.items.map((item, j) => (
-            <li key={j} className="flex items-start gap-3 text-[15px] font-light text-gray-500">
-              <span className="w-1.5 h-1.5 rounded-full bg-navy mt-2.5 flex-shrink-0" />{item}
-            </li>
-          ))}
-        </ul>
-      );
-    case "highlight":
-      return (
-        <div key={index} className="my-6 border-l-[3px] border-navy pl-5 py-1">
-          <p className="font-serif-brand text-[17px] font-normal italic text-navy leading-relaxed">{block.content}</p>
-        </div>
-      );
-    case "warning":
-      return (
-        <div key={index} className="my-6 p-4 bg-yellow-50 border border-yellow-200 border-l-[3px] border-l-brand-gold text-[13.5px] text-gray-600 leading-relaxed">
-          <strong className="font-semibold text-gray-800 block mb-1">⚠️ Lưu ý quan trọng:</strong>
-          {block.content}
-        </div>
-      );
-    case "note":
-      return (
-        <div key={index} className="mt-8 p-4 bg-brand-gold-lt border-l-[3px] border-brand-gold text-[13px] font-light text-gray-600">
-          <strong className="font-semibold text-gray-700">Lưu ý: </strong>{block.content}
-        </div>
-      );
-    case "image":
-      return (
-        <div key={index} className="my-7 border border-gray-200 overflow-hidden bg-gray-50">
-          <div className="relative w-full" style={{aspectRatio: "4/3"}}>
-            <Image src={block.src} alt={block.alt} fill className="object-contain" />
-          </div>
-          <div className="px-4 py-3 border-t border-gray-200">
-            <p className="text-[13px] font-semibold text-gray-800 mb-1">{block.caption}</p>
-            <p className="text-[12px] text-gray-400 italic leading-relaxed">{block.subcaption}</p>
-          </div>
-        </div>
-      );
-    default:
-      return null;
-  }
-}
-
-export default function BlogPostPage({ params }: { params: { slug: string } }) {
-  const post = POSTS.find((p) => p.slug === params.slug);
-  if (!post) notFound();
-  const blocks = ARTICLES[params.slug];
-  const postUrl = `https://bs-quyen-website.vercel.app/blog/${params.slug}`;
-
-  return (
-    <>
-      <div className="bg-navy py-10 md:py-14">
-        <Container>
-          <Link href="/blog" className="inline-flex items-center gap-2 text-[13px] text-white/50 hover:text-white mb-6 transition-colors">
-            <ArrowLeft size={14} /> Quay lại tất cả bài viết
-          </Link>
-          <p className="text-[11px] font-semibold tracking-[0.18em] uppercase text-brand-gold mb-3">{post!.audience}</p>
-          <h1 className="font-serif-brand text-[clamp(24px,3.5vw,38px)] font-bold text-white leading-tight max-w-2xl">{post!.title}</h1>
-          <p className="text-[13px] text-white/40 mt-4">TS.BS. Nguyễn Ngọc Quyền &nbsp;·&nbsp; {post!.date}</p>
-        </Container>
-      </div>
-
-      <div className="py-12 md:py-16">
-        <Container>
-          <div className="grid md:grid-cols-[1fr_260px] gap-12 items-start">
-            <article className="max-w-2xl">
-              <p className="text-[16.5px] font-light leading-[1.85] text-gray-500 mb-8 font-serif-brand italic border-l-2 border-brand-gold pl-5">
-                {post!.excerpt}
-              </p>
-              {blocks
-                ? blocks.map((block, i) => <RenderBlock key={i} block={block} index={i} />)
-                : <p className="text-gray-400 italic">Nội dung đầy đủ sẽ được cập nhật sớm.</p>
-              }
-              <div className="mt-10 pt-6 border-t border-gray-100 flex items-center gap-4 flex-wrap">
-                <span className="text-[13px] text-gray-400">Chia sẻ bài viết:</span>
-                <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(postUrl)}`}
-                  target="_blank" rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-[#1877F2] text-white text-[13px] font-semibold px-4 py-2 hover:bg-[#166FE5] transition-colors">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="white"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                  Chia sẻ Facebook
-                </a>
-              </div>
-            </article>
-
-            <aside className="space-y-4 sticky top-20">
-              <div className="bg-navy p-5">
-                <p className="text-[11px] font-semibold tracking-[0.15em] uppercase text-brand-gold mb-2">Về tác giả</p>
-                <p className="font-serif-brand text-[15px] font-bold text-white">TS.BS. Nguyễn Ngọc Quyền</p>
-                <p className="text-[12px] text-white/50 mt-1">Bác sĩ Cột sống · Bệnh viện TWQĐ 108</p>
-                <div className="mt-4 pt-4 border-t border-white/10">
-                  <p className="text-[11px] text-white/40 uppercase tracking-wider mb-1">Đặt lịch khám</p>
-                  <a href="tel:0989052288" className="text-[22px] font-bold text-white block hover:text-brand-gold transition-colors">0989 052 288</a>
-                  <p className="text-[11.5px] text-white/40 mt-1 leading-relaxed">T2–T6: 6h30–17h · Phòng 225, BV 108<br/>Thứ 6: 17h30+ · SpineTech, 257 Giải Phóng</p>
-                </div>
-              </div>
-              <div className="bg-gray-50 border border-gray-200 p-5">
-                <p className="text-[11px] font-semibold tracking-[0.15em] uppercase text-navy mb-3">Bài viết liên quan</p>
-                <ul className="space-y-2 list-none">
-                  {POSTS.filter((p) => p.slug !== params.slug).slice(0, 4).map((p) => (
-                    <li key={p.slug}>
-                      <Link href={`/blog/${p.slug}`} className="text-[13px] text-gray-600 hover:text-navy transition-colors leading-snug block py-1 border-b border-gray-100 last:border-b-0">
-                        {p.title}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </aside>
-          </div>
-        </Container>
-      </div>
-    </>
-  );
-}
+    {
