@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "nguyen-nhan-hoai-tu-chom-xuong-dui-va-cach-phong-tranh",
+    title: "Hoại Tử Chỏm Xương Đùi: Nguyên Nhân Thường Gặp Và 7 Cách Phòng Tránh — Giải Thích Dễ Hiểu Trên Cơ Sở Khoa Học",
+    excerpt: "Corticoid liều cao và rượu bia chiếm trên 80% các ca hoại tử chỏm xương đùi không do chấn thương, và bệnh thường tấn công người 30–50 tuổi. TS.BS. Quyền giải thích cơ chế bệnh bằng ngôn ngữ dễ hiểu, chỉ ra các dấu hiệu cảnh báo sớm, và đưa ra 7 việc cụ thể ai cũng làm được để bảo vệ khớp háng của mình.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-07-09",
+  },
+  {
     slug: "tu-tap-hoai-tu-chom-xuong-dui-tai-nha",
     title: "Hướng Dẫn Tự Tập Luyện Tại Nhà Cho Người Hoại Tử Chỏm Xương Đùi Chưa Phẫu Thuật — 8 Bài Có Hình Minh Họa",
     excerpt: "Chưa có chỉ định mổ không có nghĩa là chỉ nằm chờ. TS.BS. Quyền hướng dẫn 8 bài tập tại nhà — mô tả từng bước, kèm hình minh họa rõ ràng — chia 4 nhóm từ tầm vận động, co cơ tĩnh, tăng sức cơ nhẹ đến đi lại với gậy, giúp giữ khớp mềm, duy trì sức cơ và giảm tải cho chỏm xương. Dựa trên nguyên tắc phục hồi chức năng đã được y văn ghi nhận.",
@@ -498,22 +506,4 @@ export const TRAINEES = [
     year: "2026",
     name: "Vũ Hồng Vân",
     thesis:
-      "Thực trạng vận động, sinh hoạt hàng ngày của người bệnh xẹp đốt sống có loãng xương đến khám tại Phòng khám Cột sống — Bệnh viện TWQĐ 108 năm 2025",
-  },
-  {
-    type: "Bác sĩ nội trú",
-    school: "ĐH Y Dược Thái Nguyên",
-    year: "2026",
-    name: "Bùi Văn Kha",
-    thesis:
-      "Kết quả phẫu thuật cột sống lối sau điều trị trượt đốt sống thắt lưng trên bệnh nhân loãng xương tại Bệnh viện TWQĐ 108",
-  },
-  {
-    type: "Bác sĩ nội trú",
-    school: "ĐH Y Dược Thái Nguyên",
-    year: "2026",
-    name: "Lê Thanh Tùng",
-    thesis:
-      "Kết quả phẫu thuật lối sau điều trị vẹo cột sống thắt lưng do thoái hóa tại Bệnh viện TWQĐ 108",
-  },
-] as const;
+      "Thực trạng vận động, sinh hoạt hàng ngày c�

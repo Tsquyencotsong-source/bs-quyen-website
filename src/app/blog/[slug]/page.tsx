@@ -26,6 +26,53 @@ type Block =
   | { type: "warning"; content: string };
 
 const ARTICLES: Record<string, Block[]> = {
+  "nguyen-nhan-hoai-tu-chom-xuong-dui-va-cach-phong-tranh": [
+    { type: "para", content: "Anh Tuấn, 38 tuổi, làm nghề lái xe, đến phòng khám vì đau vùng bẹn phải khoảng bốn tháng nay. Ban đầu chỉ đau khi lên xuống xe, sau đau cả khi nằm nghỉ. Anh kể mình uống rượu gần như mỗi ngày suốt mười lăm năm, mỗi bữa vài chén. Phim X-quang thường quy gần như bình thường, nhưng cộng hưởng từ cho thấy vùng hoại tử rõ ở chỏm xương đùi hai bên. Anh sững người hỏi tôi: chỉ vì rượu thôi sao, bác sĩ?" },
+    { type: "para", content: "Câu chuyện của anh Tuấn không hiếm. Hoại tử chỏm xương đùi là bệnh lý âm thầm, thường tấn công người trẻ và trung niên đang ở tuổi lao động, và phần lớn trường hợp có thể truy ra được nguyên nhân — nghĩa là phần lớn có thể phòng tránh. Bài viết này giải thích một cách dễ hiểu chỏm xương đùi chết vì lý do gì, ai là người dễ mắc, và bạn có thể làm gì để bảo vệ khớp háng của mình." },
+    { type: "highlight", content: "Ba câu cần nhớ: Hoại tử chỏm xương đùi là tình trạng xương chỏm bị chết vì mất nguồn máu nuôi. Hai thủ phạm hàng đầu trong nhóm không do chấn thương là thuốc corticoid liều cao kéo dài và rượu, chiếm trên 80% các trường hợp. Phát hiện sớm bằng cộng hưởng từ khi chỏm chưa xẹp là cơ hội tốt nhất để giữ lại khớp háng thật của mình." },
+    { type: "heading", content: "Hiểu đơn giản: chuyện gì xảy ra bên trong chỏm xương đùi" },
+    { type: "para", content: "Hãy hình dung chỏm xương đùi như quả cầu xương nằm gọn trong ổ cối, giúp bạn đi, ngồi, xoay người. Xương không phải vật liệu chết — nó là mô sống, có mạch máu nuôi và tế bào xương liên tục tự sửa chữa. Điều đặc biệt là chỏm xương đùi được nuôi bởi một hệ mạch máu rất mảnh, chủ yếu từ động mạch mũ đùi, và gần như không có đường máu dự phòng thay thế. Đây là điểm yếu chí mạng: chỉ cần nguồn máu ấy bị chặn, vùng xương phía trong không nhận được oxy và bắt đầu chết." },
+    { type: "para", content: "Khi tế bào xương chết, phần xương đó mất khả năng tự sửa chữa. Các vi gãy xương tích tụ dần dưới sức nặng cơ thể, giống như một mái nhà bị mối ăn ruỗng bên trong nhưng bề ngoài vẫn nguyên. Đến một ngày, lớp xương dưới sụn không chống đỡ nổi nữa và chỏm bị xẹp. Khi chỏm đã xẹp, bề mặt khớp không còn tròn, sụn bị phá hủy, thoái hóa khớp háng tiến triển nhanh và người bệnh thường phải thay khớp." },
+    { type: "para", content: "Toàn bộ quá trình này có thể diễn ra âm thầm trong nhiều tháng đến vài năm. Đó là lý do bệnh hay được phát hiện muộn: khi bắt đầu đau nhiều thì chỏm thường đã tổn thương đáng kể." },
+    { type: "heading", content: "Nguyên nhân thứ nhất: Corticoid liều cao, dùng kéo dài" },
+    { type: "para", content: "Corticoid là nhóm thuốc chống viêm mạnh, gồm prednisolone, methylprednisolone, dexamethasone. Đây là thuốc cứu mạng trong nhiều bệnh lý như lupus ban đỏ, hội chứng thận hư, bệnh máu ác tính, thải ghép. Nhưng khi dùng liều cao và kéo dài, corticoid làm tăng mỡ máu và khiến các tế bào mỡ trong tủy xương phình to ra. Tủy xương nằm trong một khoang xương cứng không giãn nở được, nên khi mỡ tăng thể tích, áp lực trong xương tăng lên và chèn ép chính những mạch máu nhỏ đang nuôi chỏm. Corticoid đồng thời gây tổn thương nội mạc mạch máu và làm tăng nguy cơ hình thành cục máu đông nhỏ trong lòng mạch." },
+    { type: "para", content: "Về con số, y văn ghi nhận tỷ lệ hoại tử chỏm khoảng 6,7% ở nhóm dùng liều tương đương trên 2 gam prednisolone, và cứ tăng thêm mỗi 10 mg mỗi ngày thì nguy cơ tăng thêm khoảng 3,6%. Nói cách khác, nguy cơ phụ thuộc chủ yếu vào tổng liều tích lũy và liều đỉnh, chứ không phải vào việc bạn có uống thuốc hay không." },
+    { type: "warning", content: "Điều nguy hiểm nhất trong thực tế lâm sàng ở nước ta không phải là corticoid do bác sĩ kê đơn có theo dõi, mà là corticoid trộn trong thuốc nam, thuốc bắc, thuốc tễ, thuốc gia truyền không rõ nguồn gốc. Người bệnh uống thấy hết đau khớp rất nhanh nên dùng liên tục nhiều tháng, nhiều năm mà không hề biết mình đang uống corticoid liều cao. Đây là con đường phổ biến dẫn đến hoại tử chỏm xương đùi ở người Việt Nam." },
+    { type: "para", content: "Dấu hiệu gợi ý bạn có thể đang dùng thuốc trộn corticoid: hết đau nhanh một cách bất thường, mặt tròn lên như mặt trăng, tăng cân nhanh ở thân mình trong khi tay chân teo nhỏ, da mỏng dễ bầm tím, xuất hiện vết rạn da màu tím, huyết áp và đường huyết tăng lên không rõ lý do." },
+    { type: "heading", content: "Nguyên nhân thứ hai: Rượu bia uống nhiều, uống lâu năm" },
+    { type: "para", content: "Rượu gây hoại tử chỏm theo cơ chế rất giống corticoid, chỉ khác con đường đi tới. Rượu thúc đẩy các tế bào gốc trong tủy xương biệt hóa thành tế bào mỡ thay vì thành tế bào tạo xương. Kết quả là tủy xương ngày càng nhiều mỡ, áp lực trong xương tăng, mạch máu nuôi bị chèn ép; đồng thời khả năng tạo xương mới suy giảm nên xương không sửa chữa nổi các vi tổn thương. Rượu còn làm tăng triglyceride máu, gây tắc các mao mạch nhỏ bằng những giọt mỡ." },
+    { type: "para", content: "Nhiều nghiên cứu dùng ngưỡng trên 400 ml rượu mỗi tuần, tương đương khoảng 320 gam cồn nguyên chất mỗi tuần, để xác định hoại tử chỏm liên quan rượu. Con số này thấp hơn mức nhiều người vẫn tưởng. Quan trọng hơn, nguy cơ tăng dần theo tổng lượng rượu tích lũy suốt đời chứ không chỉ theo lượng uống hiện tại." },
+    { type: "para", content: "Corticoid và rượu cộng lại chiếm trên 80% các ca hoại tử chỏm không do chấn thương. Nếu một người vừa dùng corticoid vừa uống rượu, nguy cơ không cộng vào nhau mà nhân lên với nhau." },
+    { type: "heading", content: "Nguyên nhân thứ ba: Chấn thương vùng khớp háng" },
+    { type: "para", content: "Đây là nhóm nguyên nhân dễ hiểu nhất: mạch máu nuôi chỏm bị đứt hoặc bị xoắn vặn trực tiếp. Gãy cổ xương đùi, đặc biệt là gãy di lệch nhiều, có tỷ lệ hoại tử chỏm về sau lên tới 15–50%. Trật khớp háng gây hoại tử ở khoảng 10–25% trường hợp." },
+    { type: "para", content: "Với trật khớp háng, thời gian là yếu tố quyết định. Nắn trật càng sớm, tốt nhất trong vòng sáu giờ đầu, nguy cơ hoại tử càng thấp. Đây là lý do vì sao trật khớp háng luôn được coi là cấp cứu chỉnh hình, không thể chờ đợi." },
+    { type: "heading", content: "Các nguyên nhân và yếu tố nguy cơ khác" },
+    { type: "list", items: ["Bệnh hồng cầu hình liềm và các bệnh máu: hồng cầu biến dạng gây tắc mao mạch nuôi xương", "Bệnh giảm áp ở thợ lặn và công nhân làm việc trong buồng khí nén: bọt khí nitơ gây tắc mạch", "Bệnh tự miễn như lupus ban đỏ hệ thống — vừa do bản thân bệnh gây viêm mạch, vừa do phải dùng corticoid kéo dài", "Xạ trị và hóa trị vùng chậu gây tổn thương mạch máu nhỏ", "Bệnh Gaucher, bệnh gan mạn tính, suy thận mạn phải lọc máu", "Nhiễm HIV và một số thuốc kháng virus", "Ghép tạng, nơi corticoid và thuốc ức chế miễn dịch được dùng dài ngày", "Rối loạn lipid máu nặng và hội chứng chuyển hóa", "Hút thuốc lá — làm co mạch và giảm tưới máu xương", "Khoảng 10–20% trường hợp không tìm được nguyên nhân, gọi là hoại tử chỏm vô căn"] },
+    { type: "para", content: "Sau đại dịch COVID-19, y văn thế giới ghi nhận số ca hoại tử chỏm xương đùi tăng lên ở những bệnh nhân từng điều trị bằng corticoid liều cao trong giai đoạn bệnh nặng. Điều này một lần nữa nhấn mạnh: vấn đề nằm ở liều và thời gian dùng thuốc." },
+    { type: "heading", content: "Ai nên cảnh giác và cảnh giác với dấu hiệu nào" },
+    { type: "para", content: "Người bệnh điển hình là nam giới, tuổi khoảng 30 đến 50 — nghĩa là đang ở giai đoạn lao động chính. Bệnh thường xảy ra ở cả hai bên khớp háng, nên khi phát hiện một bên, bác sĩ luôn phải kiểm tra bên còn lại." },
+    { type: "list", items: ["Đau sâu vùng bẹn, đôi khi lan xuống mặt trong đùi hoặc ra mông, ít khi đau ở hông ngoài", "Đau tăng khi đứng lâu, đi lại, lên xuống cầu thang, và đặc biệt là khi chịu lực lên chân bệnh", "Giai đoạn muộn có đau cả khi nghỉ và đau về đêm", "Khó ngồi xổm, khó xỏ tất, khó bắt chéo chân — dấu hiệu hạn chế xoay trong khớp háng", "Đi tập tễnh, chân bệnh có cảm giác ngắn lại khi chỏm đã xẹp"] },
+    { type: "warning", content: "Nếu bạn thuộc nhóm nguy cơ — từng dùng corticoid liều cao, uống rượu nhiều năm, từng gãy cổ xương đùi hay trật khớp háng — và xuất hiện đau bẹn kéo dài trên vài tuần, hãy đi khám sớm. X-quang thường quy giai đoạn đầu hoàn toàn bình thường; chỉ cộng hưởng từ mới phát hiện được tổn thương ở giai đoạn này. Đừng chấp nhận kết luận không sao khi chỉ mới chụp X-quang." },
+    { type: "heading", content: "Vì sao phát hiện sớm lại quan trọng đến vậy" },
+    { type: "para", content: "Toàn bộ tiên lượng của bệnh xoay quanh một câu hỏi duy nhất: chỏm xương đã xẹp hay chưa. Theo phân độ ARCO được dùng phổ biến hiện nay, giai đoạn I là khi X-quang bình thường nhưng cộng hưởng từ đã có tổn thương; giai đoạn II là khi có thay đổi trên X-quang nhưng chỏm vẫn còn tròn; giai đoạn III là khi chỏm bắt đầu xẹp; giai đoạn IV là khi thoái hóa khớp háng đã hình thành." },
+    { type: "para", content: "Ranh giới giữa giai đoạn II và III chính là ranh giới giữa hai thế giới điều trị khác nhau. Khi chỏm còn nguyên vẹn, các phẫu thuật bảo tồn khớp như khoan giảm áp, có thể kết hợp ghép xương hoặc tế bào gốc tủy xương, còn cơ hội giữ lại khớp háng thật. Khi chỏm đã xẹp, phần lớn bệnh nhân sẽ đi tới thay khớp háng toàn phần." },
+    { type: "para", content: "Cần trung thực về hiệu quả: khoan giảm áp không phải phép màu. Y văn cho thấy tỷ lệ chỏm vẫn xẹp sau khoan giảm áp là khoảng 27,7% ở giai đoạn I và 33,3% ở giai đoạn II, và một số nghiên cứu lớn báo cáo tỷ lệ thất bại chung tới hơn 50%. Nhưng con số này vẫn tốt hơn hẳn so với không can thiệp gì, và tiên lượng phụ thuộc mạnh vào thể tích vùng hoại tử — vùng hoại tử càng nhỏ, cơ hội giữ chỏm càng cao. Điều đó có nghĩa là: phát hiện càng sớm, vùng hoại tử càng nhỏ, kết quả càng tốt." },
+    { type: "highlight", content: "Với người bệnh, thông điệp gói gọn trong một câu: mỗi tháng chậm trễ là một phần cơ hội giữ lại khớp háng của chính mình bị mất đi." },
+    { type: "heading", content: "Bảy cách phòng tránh — dễ nhớ, làm được ngay" },
+    { type: "para", content: "Khác với nhiều bệnh xương khớp, hoại tử chỏm xương đùi có nhóm nguyên nhân rõ ràng và phần lớn nằm trong tầm kiểm soát của chính người bệnh. Dưới đây là bảy việc cụ thể." },
+    { type: "list", items: ["Một — Tuyệt đối không tự mua thuốc giảm đau xương khớp không rõ nguồn gốc. Không uống thuốc nam, thuốc bắc, thuốc tễ, thuốc gia truyền chỉ vì thấy hết đau nhanh. Hết đau nhanh bất thường thường là dấu hiệu của corticoid trộn lẫn", "Hai — Nếu buộc phải dùng corticoid vì bệnh lý, hãy dùng đúng chỉ định bác sĩ, đúng liều thấp nhất có hiệu quả, trong thời gian ngắn nhất có thể, và tái khám định kỳ. Không tự ý tăng liều hay kéo dài đợt điều trị", "Ba — Cắt giảm rượu bia. Không có ngưỡng rượu nào được coi là an toàn tuyệt đối cho xương; càng giảm càng tốt, và bỏ hẳn là tốt nhất", "Bốn — Bỏ thuốc lá. Nicotine gây co mạch và làm giảm tưới máu xương, đồng thời khuếch đại tác hại của rượu và corticoid", "Năm — Kiểm soát mỡ máu, đường huyết và cân nặng. Rối loạn lipid máu là mắt xích trung tâm trong cơ chế tắc mạch mỡ ở chỏm xương", "Sáu — Xử trí chấn thương khớp háng đúng cách. Trật khớp háng phải được nắn trong vòng sáu giờ đầu. Gãy cổ xương đùi cần được mổ sớm và theo dõi cộng hưởng từ ít nhất một đến hai năm sau", "Bảy — Nếu bạn thuộc nhóm nguy cơ cao, hãy chủ động tầm soát. Đau bẹn kéo dài trên bốn tuần ở người từng dùng corticoid hoặc uống rượu nhiều năm là chỉ định cân nhắc chụp cộng hưởng từ, ngay cả khi X-quang bình thường"] },
+    { type: "heading", content: "Một vài hiểu lầm cần đính chính" },
+    { type: "para", content: "Hiểu lầm thứ nhất: hoại tử chỏm là bệnh của người già. Thực tế ngược lại — bệnh nhân điển hình khoảng 40 tuổi, và bệnh chính vì thế mới nặng nề, bởi khớp nhân tạo thay ở tuổi 40 nhiều khả năng phải mổ thay lại một hoặc hai lần trong đời." },
+    { type: "para", content: "Hiểu lầm thứ hai: đau bẹn thì chắc là thoát vị bẹn hay đau thần kinh tọa. Đau khớp háng thường được cảm nhận ở vùng bẹn và mặt trong đùi, dễ bị nhầm với bệnh khác và chẩn đoán muộn." },
+    { type: "para", content: "Hiểu lầm thứ ba: nằm nghỉ hoàn toàn sẽ giúp chỏm hồi phục. Không phải vậy. Giảm tải là cần thiết theo chỉ định, nhưng bất động hoàn toàn gây teo cơ và cứng khớp mà không ngăn được chỏm xẹp. Người bệnh cần một chương trình tập luyện phù hợp dưới hướng dẫn của bác sĩ." },
+    { type: "para", content: "Hiểu lầm thứ tư: uống canxi và thuốc bổ xương sẽ chữa được hoại tử chỏm. Canxi và vitamin D là nền tảng cho sức khỏe xương nói chung nhưng không tái tưới máu cho vùng xương đã chết. Không có thực phẩm chức năng nào chữa được hoại tử chỏm." },
+    { type: "heading", content: "Lời kết" },
+    { type: "para", content: "Trở lại với anh Tuấn. Vì phát hiện khi chỏm chưa xẹp, anh được khoan giảm áp kết hợp ghép xương và quan trọng nhất là anh bỏ rượu hoàn toàn. Hai năm sau, chỏm hai bên vẫn giữ được hình dạng, anh trở lại công việc lái xe. Không phải ai cũng may mắn như vậy, và điều làm nên khác biệt phần lớn là thời điểm phát hiện." },
+    { type: "para", content: "Hoại tử chỏm xương đùi là một trong số ít bệnh lý xương khớp mà nguyên nhân đã được xác định khá rõ, và phần lớn nguyên nhân đó nằm trong tay chúng ta. Không uống thuốc không rõ nguồn gốc, không lạm dụng corticoid, giảm rượu bia, bỏ thuốc lá, và đi khám khi đau bẹn kéo dài — năm việc ấy đơn giản nhưng có thể giữ lại cho bạn khớp háng thật của mình trong nhiều thập kỷ." },
+    { type: "para", content: "Nếu bạn hoặc người thân đang có yếu tố nguy cơ, đừng chờ đến khi đi không nổi mới đi khám. Khớp háng không tự báo trước, nhưng cộng hưởng từ thì có." },
+    { type: "note", content: "Tài liệu tham khảo chính: Femoral Head Avascular Necrosis, StatPearls, NCBI Bookshelf, cập nhật 2024. Avascular Necrosis of Femoral Head — Overview and Current State of the Art, Journal of Clinical Medicine, 2022. Osteonecrosis Related to Steroid and Alcohol Use — An Update on Pathogenesis, Healthcare (MDPI), 2023. Updating Osteonecrosis of the Femoral Head, 2023. Predictors of Core Decompression Success in Patients with Femoral Head Avascular Necrosis, 2023. The indications for core decompression surgery in patients with ARCO stage I-II osteonecrosis of the femoral head, BMC Musculoskeletal Disorders, 2023. Exploring the Association between COVID-19 and Femoral Head Necrosis, 2024." },
+    { type: "note", content: "Bài viết mang tính chất giáo dục sức khỏe, không thay thế cho việc thăm khám và chỉ định của bác sĩ điều trị. Người bệnh có triệu chứng nghi ngờ cần đến cơ sở y tế chuyên khoa để được đánh giá cụ thể." },
+  ],
   "tu-tap-hoai-tu-chom-xuong-dui-tai-nha": [
     { type: "para", content: "Bác Minh, 52 tuổi, đến khám vì đau âm ỉ vùng bẹn và mông phải suốt mấy tháng, đi lại hơi tập tễnh, ngồi xổm rất khó. Phim cộng hưởng từ cho thấy hoại tử chỏm xương đùi giai đoạn sớm, chỏm còn nguyên vẹn chưa bị xẹp. Bác lo lắng hỏi tôi có phải nằm yên một chỗ cho khỏi hỏng khớp không. Tôi giải thích: nằm bất động hoàn toàn không những không giúp ích mà còn làm khớp cứng lại và cơ teo đi. Điều cần làm là tập đúng cách — vừa giữ khớp mềm mại, vừa duy trì cơ bắp, vừa giảm tải cho chỏm xương để nó có cơ hội hồi phục." },
     { type: "para", content: "Bài viết này hướng dẫn những người bệnh đã được chẩn đoán hoại tử chỏm xương đùi nhưng chưa có chỉ định phẫu thuật cách tự tập tại nhà. Mỗi bài tập được mô tả rõ ràng theo từng bước, kèm hình minh họa, để bạn dễ hiểu và dễ thực hiện." },
@@ -2311,220 +2358,3 @@ const ARTICLES: Record<string, Block[]> = {
       "Siết (gồng) cơ đùi — cảm giác như đang ép chiếc khăn xuống sàn và duỗi thẳng đầu gối",
       "Giữ 5-10 giây, thư giãn hoàn toàn. Lặp 10-15 lần. Thực hiện 3 lần mỗi ngày",
       "Có thể tập ngay trên giường khi mới thức dậy — lý tưởng để giảm cứng khớp buổi sáng",
-    ]},
-    { type: "heading", content: "Bài 3: Ngồi đứng có kiểm soát (Sit-to-Stand)" },
-    { type: "para", content: "Đây là bài tập chức năng quan trọng nhất — bởi vì đứng lên ngồi xuống là động tác người thoái hóa khớp gối phải thực hiện hàng chục lần mỗi ngày. Tập đúng kỹ thuật giúp bảo vệ khớp trong sinh hoạt hàng ngày và tăng sức mạnh cơ đùi, cơ mông đồng thời." },
-    { type: "list", items: [
-      "Ngồi thẳng lưng trên ghế có độ cao vừa phải — không quá thấp (ghế thấp gây đầu gối gập hơn 90 độ, tăng áp lực khớp)",
-      "Đặt hai bàn chân rộng bằng vai, hơi nghiêng người ra trước từ hông — KHÔNG cúi lưng",
-      "Đẩy từ gót chân và siết cơ đùi, cơ mông để đứng lên — tránh dùng tay vịn ghế nếu có thể",
-      "Từ từ ngồi xuống có kiểm soát — KHÔNG ngồi phịch xuống, kiểm soát chuyển động đến khi mông chạm ghế",
-      "Lặp 10-15 lần, 2-3 hiệp. Khi đã tập tốt, đặt gối bên dưới mông để tăng độ khó dần",
-    ]},
-    { type: "heading", content: "Bài 4: Kéo gót chân (Hamstring Curl)" },
-    { type: "para", content: "Cơ sau đùi (hamstrings) và cơ trước đùi (quadriceps) cần được cân bằng — tập mỗi bên đơn độc dễ tạo mất cân bằng cơ, tăng nguy cơ chấn thương. Bài này giúp kéo giãn và tăng sức mạnh cơ sau đùi." },
-    { type: "list", items: [
-      "Đứng thẳng, tay vịn nhẹ vào thành ghế hoặc tường để giữ thăng bằng",
-      "Từ từ gập một đầu gối lên phía sau — cố gắng đưa gót chân gần về phía mông",
-      "Giữ 2-3 giây, hạ xuống chậm và có kiểm soát. Đổi chân. Lặp 10-15 lần mỗi bên",
-      "Không xoay hông hay nghiêng người sang bên khi thực hiện động tác",
-    ]},
-    { type: "heading", content: "Bài 5: Nâng gót chân đứng (Calf Raise)" },
-    { type: "para", content: "Bắp chân (calf) đóng vai trò bơm máu về tim và hỗ trợ giảm sưng cho khớp gối. Bài tập này cũng cải thiện tuần hoàn máu toàn bộ chân dưới và giảm cảm giác nặng nề sau một ngày dài." },
-    { type: "list", items: [
-      "Đứng thẳng, hai chân rộng bằng vai. Tay vịn nhẹ vào ghế hoặc tường để giữ thăng bằng",
-      "Từ từ nhón hai gót chân lên cao hết mức có thể — giữ 2-3 giây",
-      "Hạ xuống chậm rãi — KHÔNG thả gót xuống đột ngột, kiểm soát đến khi gót chạm sàn nhẹ nhàng",
-      "Lặp 15-20 lần, 2-3 hiệp. Nâng cao: tập một chân khi đã quen",
-    ]},
-    { type: "heading", content: "Bài 6: Bước lên bậc thang (Step-Up)" },
-    { type: "para", content: "Bài tập chức năng mô phỏng thực tế hàng ngày — giúp người thoái hóa khớp gối đi cầu thang an toàn và tự tin hơn. Tập có kiểm soát giúp xây dựng sức mạnh và sự phối hợp cần thiết cho vận động thực tế." },
-    { type: "list", items: [
-      "Đứng trước một bậc thang thấp khoảng 10-15cm (hoặc dùng một cuốn sách dày đặt dưới chân)",
-      "Bước chân phải lên bậc trước, đẩy cơ đùi và mông để kéo cơ thể lên — giữ lưng thẳng",
-      "Đặt chân trái lên bậc cạnh chân phải rồi bước xuống từng bước. Lặp 10 lần mỗi bên",
-      "Tay có thể vịn tường bên cạnh khi mới tập, giảm dần khi đã quen. Không vội, không nhún mạnh",
-    ]},
-    { type: "heading", content: "Bài 7: Đi bộ — bài tập quan trọng và đơn giản nhất" },
-    { type: "para", content: "Đi bộ đều đặn mỗi ngày là liệu pháp vận động có bằng chứng khoa học mạnh nhất cho thoái hóa khớp gối. Phân tích tổng hợp năm 2025 xác nhận: tập thể dục aerobic (bao gồm đi bộ) mang lại lợi ích về giảm đau và cải thiện chức năng lớn hơn so với nhiều can thiệp khác. Không cần phòng gym, không cần dụng cụ — chỉ cần đôi giày phù hợp và sự kiên trì." },
-    { type: "list", items: [
-      "Bắt đầu từ 10-15 phút mỗi ngày nếu chưa quen tập — tăng dần 5 phút mỗi tuần",
-      "Mục tiêu dài hạn: 30 phút mỗi ngày, 5 ngày mỗi tuần theo khuyến cáo của OARSI",
-      "Đi trên mặt phẳng bằng phẳng, tránh đường dốc cao hoặc gồ ghề trong giai đoạn đầu",
-      "Chọn giày đế mềm, đệm tốt — giày không phù hợp làm tăng đáng kể lực tác động lên khớp gối",
-      "Đi bộ dưới nước hoặc trong hồ bơi (aqua walking): giảm 50-70% trọng lực lên khớp — cực kỳ phù hợp khi đau nặng",
-      "Đạp xe đạp tĩnh cũng là lựa chọn tốt: tập aerobic mà không tải trọng mạnh lên khớp",
-    ]},
-    { type: "highlight", content: "Một phân tích năm 2025 so sánh đi bộ có hỗ trợ và đi bộ tự do ở bệnh nhân thoái hóa khớp gối — kết quả: cả hai đều cải thiện đau và chức năng đáng kể. Yếu tố quan trọng nhất không phải là bài tập bạn chọn, mà là sự kiên trì và đều đặn." },
-    { type: "heading", content: "Những gì TUYỆT ĐỐI TRÁNH khi bị thoái hóa khớp gối" },
-    { type: "list", items: [
-      "Ngồi xổm sâu hoặc quỳ lâu: tạo áp lực lên sụn khớp gấp 5-8 lần trọng lượng cơ thể",
-      "Chạy bộ trên mặt đường nhựa cứng khi cơ đùi chưa đủ mạnh: tăng tốc độ mòn sụn",
-      "Các môn thể thao va chạm: bóng đá, bóng rổ, cầu lông cường độ cao trong giai đoạn đau",
-      "Ngồi hoặc đứng một tư thế quá lâu: thay đổi tư thế mỗi 30-45 phút, đứng lên đi lại vài bước",
-      "Leo cầu thang nhiều lần không cần thiết trong giai đoạn đau cấp",
-      "Tăng cân: mỗi 1kg tăng thêm tạo khoảng 3-4kg áp lực lên mỗi đầu gối khi đi bộ",
-      "Dừng tập hoàn toàn vì sợ đau: nghịch lý nhưng ngồi yên một chỗ thường làm khớp đau hơn về lâu dài",
-    ]},
-    { type: "heading", content: "Lịch tập gợi ý trong tuần" },
-    { type: "list", items: [
-      "Thứ 2, 4, 6: Nâng chân thẳng + Siết cơ đùi tĩnh + Ngồi đứng + Kéo gót chân + Nâng gót chân (khoảng 25-30 phút)",
-      "Thứ 3, 5: Đi bộ 20-30 phút nhẹ nhàng hoặc đạp xe đạp tĩnh 20 phút",
-      "Thứ 7: Đi bộ dài hơn (30-45 phút) hoặc thêm bài Bước lên bậc thang",
-      "Chủ nhật: Nghỉ ngơi hoặc hoạt động nhẹ — kéo giãn nhẹ nhàng không xoay gối",
-      "Mỗi buổi tập: 5 phút khởi động trước và 5 phút kéo giãn thả lỏng sau khi tập",
-    ]},
-    { type: "note", content: "Nguyên tắc 2 giờ: nếu sau khi tập đầu gối đau hơn và kéo dài hơn 2 giờ — bạn đang tập quá sức. Giảm số lần lặp hoặc thời gian xuống 50% và thử lại. Một chút đau cơ bắp sau tập là bình thường, nhưng đau khớp tăng kéo dài là dấu hiệu cần điều chỉnh." },
-    { type: "heading", content: "Khi nào cần gặp bác sĩ ngay?" },
-    { type: "warning", content: "Liên hệ bác sĩ ngay nếu: đau tăng đột ngột sau khi đang ổn định | đầu gối sưng to, nóng đỏ bất thường (có thể viêm khớp cấp) | cảm giác khớp lỏng, bị kẹt không duỗi thẳng được | đau về đêm làm mất ngủ kéo dài | đã tập đúng phương pháp 8-12 tuần nhưng hoàn toàn không cải thiện." },
-    { type: "para", content: "Thoái hóa khớp gối là bệnh mãn tính — không có thuốc chữa khỏi hoàn toàn, nhưng hoàn toàn có thể kiểm soát tốt để giữ chất lượng cuộc sống. Bài tập đúng cách, đều đặn mỗi ngày là nền tảng quan trọng nhất của điều trị. Bác sĩ có thể kê thêm thuốc giảm đau, hỗ trợ tiêm khớp hay vật lý trị liệu chuyên sâu — nhưng việc tập luyện hằng ngày là trách nhiệm của chính bạn và không ai có thể thay thế bạn làm điều đó." },
-    { type: "note", content: "Tài liệu tham khảo: OARSI Guidelines for Knee Osteoarthritis (2019, cập nhật 2022); AAOS Clinical Practice Guideline on Knee OA (2021); Supervised or Home-Based Exercise for Knee OA: Systematic Review and Meta-Analysis, PMC (2025); Nonoperative Management Recommendations for Knee OA — PMC (2025). Bài viết mang tính giáo dục sức khỏe — không thay thế tư vấn y tế trực tiếp." },
-  ],
-
-  "loi-khuyen-suc-khoe-nang-nong-cuc-doan": [
-    { type: "para", content: "Mùa hè 2025–2026, nhiều tỉnh thành Việt Nam ghi nhận nhiệt độ vượt 40°C liên tục nhiều ngày. Sốc nhiệt (heat stroke) có thể gây tổn thương não vĩnh viễn và tử vong chỉ trong vòng 30 phút nếu không được xử trí kịp thời." },
-    { type: "heading", content: "Ba mức độ say nắng" },
-    { type: "list", items: [
-      "Mức 1 — Kiệt sức do nhiệt: ra nhiều mồ hôi, da lạnh và ẩm, mạch nhanh yếu, chóng mặt, buồn nôn, thân nhiệt dưới 40°C — cần dừng hoạt động và vào nơi mát ngay",
-      "Mức 2 — Sốc nhiệt: thân nhiệt trên 40°C, da đỏ và nóng (không còn mồ hôi), lú lẫn, co giật hoặc mất ý thức — GỌI 115 NGAY",
-    ]},
-    { type: "heading", content: "7 hành động bảo vệ sức khỏe" },
-    { type: "list", items: [
-      "Uống đủ nước kể cả khi không khát: 2–3 lít/ngày; người lao động ngoài trời uống 250ml mỗi 15–20 phút",
-      "Tránh ra ngoài khung giờ 10h–16h; mặc quần áo sáng màu, rộng rãi, đội mũ rộng vành",
-      "Bôi kem chống nắng SPF 30 trở lên, thoa lại mỗi 2 giờ",
-      "Làm mát môi trường sống bằng quạt, điều hòa hoặc đến nơi công cộng có điều hòa",
-      "Không để trẻ em hoặc người già một mình trong xe ô tô — nhiệt độ trong xe tăng thêm 20°C chỉ sau 10 phút",
-      "Theo dõi sức khỏe người thân có nguy cơ cao, gọi điện kiểm tra người già sống một mình ít nhất 2 lần/ngày",
-    ]},
-    { type: "heading", content: "Lưu ý đặc biệt cho bệnh nhân cột sống và khớp" },
-    { type: "para", content: "Thuốc kháng viêm NSAID (Ibuprofen, Diclofenac, Meloxicam) làm giảm lưu lượng máu đến thận. Kết hợp với mất nước do nắng nóng, nguy cơ suy thận cấp tăng cao đột biến. Không tập phục hồi chức năng ngoài trời trong nắng; không ngưng thuốc loãng xương hay bệnh nền khi trời nóng." },
-    { type: "warning", content: "Với sốc nhiệt: chuyển người bệnh vào nơi mát · cởi bớt quần áo · đặt túi đá lên nách, háng, hai bên cổ · cho uống nước từng ngụm nhỏ nếu còn tỉnh · GỌI 115 NGAY và theo dõi liên tục." },
-    { type: "note", content: "Tổng hợp từ: WHO 2025, CDC Hoa Kỳ, Bộ Y tế Việt Nam và các nghiên cứu lâm sàng đăng trên PubMed/NIH năm 2024–2025. Liên hệ cấp cứu: 115." },
-  ],
-
-};
-
-function RenderBlock({ block, index }: { block: Block; index: number }) {
-  switch (block.type) {
-    case "heading":
-      return <h2 key={index} className="font-serif-brand text-[20px] font-bold text-navy mt-8 mb-3 leading-snug">{block.content}</h2>;
-    case "para":
-      return <p key={index} className="text-[15.5px] font-light leading-[1.85] text-gray-500 mb-5">{block.content}</p>;
-    case "list":
-      return (
-        <ul key={index} className="list-none mb-6 space-y-2.5">
-          {block.items.map((item, j) => (
-            <li key={j} className="flex items-start gap-3 text-[15px] font-light text-gray-500">
-              <span className="w-1.5 h-1.5 rounded-full bg-navy mt-2.5 flex-shrink-0" />{item}
-            </li>
-          ))}
-        </ul>
-      );
-    case "highlight":
-      return (
-        <div key={index} className="my-6 border-l-[3px] border-navy pl-5 py-1">
-          <p className="font-serif-brand text-[17px] font-normal italic text-navy leading-relaxed">{block.content}</p>
-        </div>
-      );
-    case "warning":
-      return (
-        <div key={index} className="my-6 p-4 bg-yellow-50 border border-yellow-200 border-l-[3px] border-l-brand-gold text-[13.5px] text-gray-600 leading-relaxed">
-          <strong className="font-semibold text-gray-800 block mb-1">⚠️ Lưu ý quan trọng:</strong>
-          {block.content}
-        </div>
-      );
-    case "note":
-      return (
-        <div key={index} className="mt-8 p-4 bg-brand-gold-lt border-l-[3px] border-brand-gold text-[13px] font-light text-gray-600">
-          <strong className="font-semibold text-gray-700">Lưu ý: </strong>{block.content}
-        </div>
-      );
-    case "image":
-      return (
-        <div key={index} className="my-7 border border-gray-200 overflow-hidden bg-gray-50">
-          <div className="relative w-full" style={{aspectRatio: "4/3"}}>
-            <Image src={block.src} alt={block.alt} fill className="object-contain" />
-          </div>
-          <div className="px-4 py-3 border-t border-gray-200">
-            <p className="text-[13px] font-semibold text-gray-800 mb-1">{block.caption}</p>
-            <p className="text-[12px] text-gray-400 italic leading-relaxed">{block.subcaption}</p>
-          </div>
-        </div>
-      );
-    default:
-      return null;
-  }
-}
-
-export default function BlogPostPage({ params }: { params: { slug: string } }) {
-  const post = POSTS.find((p) => p.slug === params.slug);
-  if (!post) notFound();
-  const blocks = ARTICLES[params.slug];
-  const postUrl = `https://bs-quyen-website.vercel.app/blog/${params.slug}`;
-
-  return (
-    <>
-      <div className="bg-navy py-10 md:py-14">
-        <Container>
-          <Link href="/blog" className="inline-flex items-center gap-2 text-[13px] text-white/50 hover:text-white mb-6 transition-colors">
-            <ArrowLeft size={14} /> Quay lại tất cả bài viết
-          </Link>
-          <p className="text-[11px] font-semibold tracking-[0.18em] uppercase text-brand-gold mb-3">{post!.audience}</p>
-          <h1 className="font-serif-brand text-[clamp(24px,3.5vw,38px)] font-bold text-white leading-tight max-w-2xl">{post!.title}</h1>
-          <p className="text-[13px] text-white/40 mt-4">TS.BS. Nguyễn Ngọc Quyền &nbsp;·&nbsp; {post!.date}</p>
-        </Container>
-      </div>
-
-      <div className="py-12 md:py-16">
-        <Container>
-          <div className="grid md:grid-cols-[1fr_260px] gap-12 items-start">
-            <article className="max-w-2xl">
-              <p className="text-[16.5px] font-light leading-[1.85] text-gray-500 mb-8 font-serif-brand italic border-l-2 border-brand-gold pl-5">
-                {post!.excerpt}
-              </p>
-              {blocks
-                ? blocks.map((block, i) => <RenderBlock key={i} block={block} index={i} />)
-                : <p className="text-gray-400 italic">Nội dung đầy đủ sẽ được cập nhật sớm.</p>
-              }
-              <div className="mt-10 pt-6 border-t border-gray-100 flex items-center gap-4 flex-wrap">
-                <span className="text-[13px] text-gray-400">Chia sẻ bài viết:</span>
-                <a href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(postUrl)}`}
-                  target="_blank" rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-[#1877F2] text-white text-[13px] font-semibold px-4 py-2 hover:bg-[#166FE5] transition-colors">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="white"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                  Chia sẻ Facebook
-                </a>
-              </div>
-            </article>
-
-            <aside className="space-y-4 sticky top-20">
-              <div className="bg-navy p-5">
-                <p className="text-[11px] font-semibold tracking-[0.15em] uppercase text-brand-gold mb-2">Về tác giả</p>
-                <p className="font-serif-brand text-[15px] font-bold text-white">TS.BS. Nguyễn Ngọc Quyền</p>
-                <p className="text-[12px] text-white/50 mt-1">Bác sĩ Cột sống · Bệnh viện TWQĐ 108</p>
-                <div className="mt-4 pt-4 border-t border-white/10">
-                  <p className="text-[11px] text-white/40 uppercase tracking-wider mb-1">Đặt lịch khám</p>
-                  <a href="tel:0989052288" className="text-[22px] font-bold text-white block hover:text-brand-gold transition-colors">0989 052 288</a>
-                  <p className="text-[11.5px] text-white/40 mt-1 leading-relaxed">T2–T6: 6h30–17h · Phòng 225, BV 108<br/>Thứ 6: 17h30+ · SpineTech, 257 Giải Phóng</p>
-                </div>
-              </div>
-              <div className="bg-gray-50 border border-gray-200 p-5">
-                <p className="text-[11px] font-semibold tracking-[0.15em] uppercase text-navy mb-3">Bài viết liên quan</p>
-                <ul className="space-y-2 list-none">
-                  {POSTS.filter((p) => p.slug !== params.slug).slice(0, 4).map((p) => (
-                    <li key={p.slug}>
-                      <Link href={`/blog/${p.slug}`} className="text-[13px] text-gray-600 hover:text-navy transition-colors leading-snug block py-1 border-b border-gray-100 last:border-b-0">
-                        {p.title}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </aside>
-          </div>
-        </Container>
-      </div>
-    </>
-  );
-}
