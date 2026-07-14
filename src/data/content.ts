@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "hoi-chung-co-rua-forward-head-posture",
+    title: "Hội Chứng Cổ Rùa: Vì Sao Chiếc Điện Thoại Đang Âm Thầm Bẻ Cong Cột Sống Cổ Của Bạn — Nguyên Nhân, Cơ Chế, Hậu Quả Và Cách Phòng Ngừa",
+    excerpt: "Cúi đầu nhìn điện thoại có thể đặt tới 27kg lực lên cột sống cổ — như đang đeo một đứa trẻ 8 tuổi trên gáy. TS.BS. Quyền giải thích hội chứng cổ rùa bằng ngôn ngữ dễ hiểu trên cơ sở khoa học: vì sao ngày càng nhiều người mắc, cơ chế gây tổn thương, các dấu hiệu cảnh báo và những việc cụ thể ai cũng làm được để giữ cổ luôn thẳng thớm.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-07-14",
+  },
+  {
     slug: "nguyen-nhan-hoai-tu-chom-xuong-dui-va-cach-phong-tranh",
     title: "Hoại Tử Chỏm Xương Đùi: Nguyên Nhân Thường Gặp Và 7 Cách Phòng Tránh — Giải Thích Dễ Hiểu Trên Cơ Sở Khoa Học",
     excerpt: "Corticoid liều cao và rượu bia chiếm trên 80% các ca hoại tử chỏm xương đùi không do chấn thương, và bệnh thường tấn công người 30–50 tuổi. TS.BS. Quyền giải thích cơ chế bệnh bằng ngôn ngữ dễ hiểu, chỉ ra các dấu hiệu cảnh báo sớm, và đưa ra 7 việc cụ thể ai cũng làm được để bảo vệ khớp háng của mình.",
