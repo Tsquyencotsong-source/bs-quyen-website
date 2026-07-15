@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "vi-sao-phai-uong-thuoc-giam-dau-theo-don",
+    title: "Sợ Thuốc Giảm Đau Nên Tự Ý Bỏ Đơn: Nỗi Sợ Đặt Nhầm Chỗ Và Cái Giá Phải Trả — Giải Thích Trên Cơ Sở Khoa Học",
+    excerpt: "Khoảng 50-60% bệnh nhân không uống thuốc đúng hướng dẫn, phần lớn vì sợ nghiện và sợ tác dụng phụ. Nhưng thuốc thường được kê cho thoát vị đĩa đệm, đau cổ lưng và viêm khớp lại không hề gây nghiện. TS.BS. Quyền giải thích vì sao bác sĩ phải kê thuốc, điều gì thật sự xảy ra khi bạn cắn răng chịu đau, và vì sao chính tác dụng phụ mới là lý do phải uống đúng đơn.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-07-15",
+  },
+  {
     slug: "hoi-chung-co-rua-forward-head-posture",
     title: "Hội Chứng Cổ Rùa: Vì Sao Chiếc Điện Thoại Đang Âm Thầm Bẻ Cong Cột Sống Cổ Của Bạn — Nguyên Nhân, Cơ Chế, Hậu Quả Và Cách Phòng Ngừa",
     excerpt: "Cúi đầu nhìn điện thoại có thể đặt tới 27kg lực lên cột sống cổ — như đang đeo một đứa trẻ 8 tuổi trên gáy. TS.BS. Quyền giải thích hội chứng cổ rùa bằng ngôn ngữ dễ hiểu trên cơ sở khoa học: vì sao ngày càng nhiều người mắc, cơ chế gây tổn thương, các dấu hiệu cảnh báo và những việc cụ thể ai cũng làm được để giữ cổ luôn thẳng thớm.",
