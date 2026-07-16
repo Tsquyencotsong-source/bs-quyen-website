@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "viem-khop-cung-chau",
+    title: "Viêm Khớp Cùng Chậu: Nguyên Nhân, Triệu Chứng, Hình Ảnh, Chẩn Đoán Và Điều Trị — Giải Thích Dễ Hiểu Trên Cơ Sở Khoa Học",
+    excerpt: "Bệnh thường bị chẩn đoán muộn trung bình 6,7 năm và hay bị nhầm với thoát vị đĩa đệm. Chìa khóa nhận biết không nằm ở mức độ đau, mà ở kiểu đau: đau nhất lúc gần sáng và đỡ khi vận động. TS.BS. Quyền giải thích các nguyên nhân, vì sao phim cộng hưởng từ vừa quý giá vừa dễ gây chẩn đoán nhầm, và hướng điều trị theo từng nguyên nhân.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-07-16",
+  },
+  {
     slug: "vi-sao-phai-uong-thuoc-giam-dau-theo-don",
     title: "Sợ Thuốc Giảm Đau Nên Tự Ý Bỏ Đơn: Nỗi Sợ Đặt Nhầm Chỗ Và Cái Giá Phải Trả — Giải Thích Trên Cơ Sở Khoa Học",
     excerpt: "Khoảng 50-60% bệnh nhân không uống thuốc đúng hướng dẫn, phần lớn vì sợ nghiện và sợ tác dụng phụ. Nhưng thuốc thường được kê cho thoát vị đĩa đệm, đau cổ lưng và viêm khớp lại không hề gây nghiện. TS.BS. Quyền giải thích vì sao bác sĩ phải kê thuốc, điều gì thật sự xảy ra khi bạn cắn răng chịu đau, và vì sao chính tác dụng phụ mới là lý do phải uống đúng đơn.",
