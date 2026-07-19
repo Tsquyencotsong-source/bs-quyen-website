@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "khoi-dong-truoc-choi-pickleball-phong-dau-lung",
+    title: "Khởi Động 10 Phút Trước Khi Chơi Pickleball: Cách Phòng Đau Lưng Và Thoát Vị Đĩa Đệm Cho Người Trên 40 Tuổi",
+    excerpt: "Người từ 50 tuổi trở lên chiếm khoảng 90% số ca chấn thương Pickleball, và lưng là vùng dễ tổn thương nhất. Khởi động động đúng cách được chứng minh giảm tới 63% chấn thương lưng cấp. TS.BS. Quyền hướng dẫn quy trình khởi động 3 giai đoạn cụ thể, dễ làm theo ngay tại sân, cùng cơ sở khoa học vì sao nó hiệu quả.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-07-17",
+  },
+  {
     slug: "viem-khop-cung-chau",
     title: "Viêm Khớp Cùng Chậu: Nguyên Nhân, Triệu Chứng, Hình Ảnh, Chẩn Đoán Và Điều Trị — Giải Thích Dễ Hiểu Trên Cơ Sở Khoa Học",
     excerpt: "Bệnh thường bị chẩn đoán muộn trung bình 6,7 năm và hay bị nhầm với thoát vị đĩa đệm. Chìa khóa nhận biết không nằm ở mức độ đau, mà ở kiểu đau: đau nhất lúc gần sáng và đỡ khi vận động. TS.BS. Quyền giải thích các nguyên nhân, vì sao phim cộng hưởng từ vừa quý giá vừa dễ gây chẩn đoán nhầm, và hướng điều trị theo từng nguyên nhân.",
