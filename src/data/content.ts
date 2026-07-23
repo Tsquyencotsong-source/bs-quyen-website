@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "truot-dot-song-thoai-hoa-that-lung",
+    title: "Trượt Đốt Sống Do Thoái Hóa Vùng Thắt Lưng: Nguyên Nhân, Cơ Chế Bệnh Sinh, Triệu Chứng, Hình Ảnh Và Điều Trị",
+    excerpt: "Tỷ lệ mắc ở nữ cao gấp 3 lần nam và tăng mạnh sau 50 tuổi, hay gặp nhất ở tầng L4-L5. Triệu chứng đặc trưng là đau cách hồi thần kinh: đau tê chân khi đi, giảm khi cúi người. TS.BS. Quyền trình bày cơ chế bệnh sinh, phân độ Meyerding, hình ảnh học và bằng chứng mới nhất về giải ép đơn thuần so với hàn xương.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-07-18",
+  },
+  {
     slug: "khoi-dong-truoc-choi-pickleball-phong-dau-lung",
     title: "Khởi Động 10 Phút Trước Khi Chơi Pickleball: Cách Phòng Đau Lưng Và Thoát Vị Đĩa Đệm Cho Người Trên 40 Tuổi",
     excerpt: "Người từ 50 tuổi trở lên chiếm khoảng 90% số ca chấn thương Pickleball, và lưng là vùng dễ tổn thương nhất. Khởi động động đúng cách được chứng minh giảm tới 63% chấn thương lưng cấp. TS.BS. Quyền hướng dẫn quy trình khởi động 3 giai đoạn cụ thể, dễ làm theo ngay tại sân, cùng cơ sở khoa học vì sao nó hiệu quả.",
