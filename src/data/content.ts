@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "viem-diem-bam-gan-loi-cau-ngoai-xuong-canh-tay",
+    title: "Viêm Điểm Bám Gân Lồi Cầu Ngoài Xương Cánh Tay: Nguyên Nhân, Triệu Chứng, Điều Trị Và Cách Phòng Ngừa",
+    excerpt: "Chỉ 5-10% người mắc bệnh này chơi quần vợt, phần lớn còn lại đến từ nghề nghiệp và sinh hoạt. Bản chất không phải viêm mà là thoái hóa gân, nên tiêm corticoid tuy giảm đau nhanh lại làm tỷ lệ tái phát sau một năm tăng từ 12% lên 54%. TS.BS. Quyền trình bày cơ chế bệnh sinh, bài tập ly tâm nền tảng và nguyên tắc phòng tái phát.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-07-31",
+  },
+  {
     slug: "truot-dot-song-thoai-hoa-that-lung",
     title: "Trượt Đốt Sống Do Thoái Hóa Vùng Thắt Lưng: Nguyên Nhân, Cơ Chế Bệnh Sinh, Triệu Chứng, Hình Ảnh Và Điều Trị",
     excerpt: "Tỷ lệ mắc ở nữ cao gấp 3 lần nam và tăng mạnh sau 50 tuổi, hay gặp nhất ở tầng L4-L5. Triệu chứng đặc trưng là đau cách hồi thần kinh: đau tê chân khi đi, giảm khi cúi người. TS.BS. Quyền trình bày cơ chế bệnh sinh, phân độ Meyerding, hình ảnh học và bằng chứng mới nhất về giải ép đơn thuần so với hàn xương.",
