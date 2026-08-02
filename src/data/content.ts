@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "viem-diem-bam-gan-got-do-choi-the-thao",
+    title: "Viêm Điểm Bám Gân Gót Do Chơi Thể Thao: Nguyên Nhân, Triệu Chứng, Điều Trị Và Phòng Ngừa",
+    excerpt: "Chiếm 6-17% chấn thương ở người chạy bộ, trong đó thể điểm bám chiếm 27,7%. Điểm mấu chốt ít người biết: bài tập ly tâm kinh điển hạ gót xuống bậc thang lại làm thể điểm bám nặng thêm do chèn ép. TS.BS. Quyền trình bày cơ chế bệnh sinh, phác đồ tập đúng cho thể điểm bám và bằng chứng cập nhật 2025 về sóng xung kích, PRP.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-03",
+  },
+  {
     slug: "viem-diem-bam-gan-loi-cau-ngoai-xuong-canh-tay",
     title: "Viêm Điểm Bám Gân Lồi Cầu Ngoài Xương Cánh Tay: Nguyên Nhân, Triệu Chứng, Điều Trị Và Cách Phòng Ngừa",
     excerpt: "Chỉ 5-10% người mắc bệnh này chơi quần vợt, phần lớn còn lại đến từ nghề nghiệp và sinh hoạt. Bản chất không phải viêm mà là thoái hóa gân, nên tiêm corticoid tuy giảm đau nhanh lại làm tỷ lệ tái phát sau một năm tăng từ 12% lên 54%. TS.BS. Quyền trình bày cơ chế bệnh sinh, bài tập ly tâm nền tảng và nguyên tắc phòng tái phát.",
