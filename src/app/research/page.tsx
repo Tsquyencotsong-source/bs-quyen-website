@@ -6,6 +6,7 @@ import { PubItem } from "@/components/PubItem";
 import { DOCTOR, PUBLICATIONS } from "@/data/content";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/research" },
   title: "Nghiên cứu khoa học",
   description: "45 công trình nghiên cứu, 6 bài báo ISI, 1 giải pháp hữu ích. TS.BS. Nguyễn Ngọc Quyền.",
 };

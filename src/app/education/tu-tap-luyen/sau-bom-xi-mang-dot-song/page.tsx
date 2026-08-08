@@ -3,6 +3,7 @@ import Link from "next/link";
 import KyphoRehabApp from "@/components/KyphoRehabApp";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/education/tu-tap-luyen/sau-bom-xi-mang-dot-song" },
   title: "Tập luyện sau bơm xi măng đốt sống (Kyphoplasty) — TS.BS. Nguyễn Ngọc Quyền",
   description: "Hướng dẫn phục hồi từng giai đoạn sau kyphoplasty / vertebroplasty: bài tập, nguyên tắc vàng, theo dõi tiến độ. TS.BS. Nguyễn Ngọc Quyền, Bệnh viện TWQĐ 108.",
 };

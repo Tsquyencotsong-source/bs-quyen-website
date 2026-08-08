@@ -5,6 +5,7 @@ import { Container, Section, SectionHeader } from "@/components/Section";
 import { POSTS } from "@/data/content";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/blog" },
   title: "Kiến thức y học",
   description: "Bài viết về bệnh lý cột sống, loãng xương, gãy xẹp đốt sống và ứng dụng AI trong y học.",
 };

@@ -6,6 +6,12 @@ import { PubItem } from "@/components/PubItem";
 import { PostCard } from "@/components/PostCard";
 import { DOCTOR, STATS, EXPERTISE, PUBLICATIONS, POSTS } from "@/data/content";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
+
 export default function HomePage() {
   return (
     <>

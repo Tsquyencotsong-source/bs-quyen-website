@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Container } from "@/components/Section";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/education/tu-tap-luyen" },
   title: "Huong dan tu tap luyen",
   description: "TS.BS. Nguyen Ngoc Quyen, BV TWQD 108.",
 };

@@ -4,6 +4,7 @@ import { Container, Section, SectionHeader } from "@/components/Section";
 import { DOCTOR } from "@/data/content";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/contact" },
   title: "Liên hệ & Đặt khám",
   description: "Thông tin phòng khám, giờ khám và liên hệ TS.BS. Nguyễn Ngọc Quyền.",
 };

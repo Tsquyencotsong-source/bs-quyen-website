@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Container, Section, SectionHeader } from "@/components/Section";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/education" },
   title: "Thông tin dành cho người bệnh",
   description: "Kiến thức y tế về cột sống, loãng xương và phục hồi chức năng dành cho người bệnh và gia đình.",
 };

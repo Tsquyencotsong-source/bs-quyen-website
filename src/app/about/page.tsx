@@ -5,6 +5,7 @@ import { Container, Section, SectionHeader } from "@/components/Section";
 import { DOCTOR, EXPERTISE, TRAINEES } from "@/data/content";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/about" },
   title: "Giới thiệu",
   description: "Tiểu sử, triết lý làm nghề, học vị và giải thưởng của TS.BS. Nguyễn Ngọc Quyền.",
 };
