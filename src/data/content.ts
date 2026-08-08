@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "te-bi-ban-tay-khi-lai-xe-may",
+    title: "Tê Bì Bàn Tay Khi Lái Xe Máy: Nguyên Nhân, Ý Nghĩa Cảnh Báo Và Cách Xử Trí",
+    excerpt: "Cứ chạy xe khoảng mười lăm phút là các ngón tay tê rần, nghỉ một lát lại hết — vì sao? Bài viết phân tích ba cơ chế đan xen là chèn ép thần kinh do tư thế và lực nắm, rung động từ xe và giảm tưới máu, cùng cách dựa vào vị trí ngón tê để định vị dây thần kinh. Hội chứng ống cổ tay gặp ở 2,7 đến 5,8% dân số, còn nghiên cứu trên người đạp xe đường dài ghi nhận tới 92% xuất hiện triệu chứng tê hoặc yếu tay. TS.BS. Quyền chỉ rõ khi nào chỉ là thoáng qua lành tính, khi nào là dấu hiệu cần đi khám và cách xử trí.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-08",
+  },
+  {
     slug: "cung-cap-ho-so-cu-khi-kham-co-xuong-khop-cot-song",
     title: "Vì Sao Phim Cũ Và Đơn Thuốc Cũ Lại Quan Trọng Đến Vậy Khi Đi Khám Cơ Xương Khớp Và Cột Sống?",
     excerpt: "Nghiên cứu kinh điển trên British Medical Journal cho thấy 82,5% chẩn đoán được xác lập chỉ từ bệnh sử, trong khi toàn bộ xét nghiệm chỉ bổ sung thêm chưa tới 9%. Không máy móc hiện đại nào cho biết một đốt sống xẹp từ bao giờ nếu thiếu phim cũ để so sánh. TS.BS. Quyền phân tích giá trị chẩn đoán của hồ sơ y tế cũ và danh mục cần chuẩn bị trước khi đi khám.",
