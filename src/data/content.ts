@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "te-bi-tay-khi-ngu",
+    title: "Tê Bì Tay Khi Ngủ: Cơ Chế, Nguyên Nhân, Phòng Ngừa, Điều Trị Và Bài Tập Phục Hồi",
+    excerpt: "Dị cảm về đêm là triệu chứng chỉ điểm của hội chứng ống cổ tay, hiện diện ở khoảng 85 đến 88% người bệnh mắc hội chứng này. Bài viết phân tích theo hướng khoa học cơ chế bệnh sinh vì sao triệu chứng nặng lên về đêm, cách định khu tổn thương theo vùng ngón tê, các nguyên nhân từ hội chứng ống cổ tay, hội chứng ống trụ đến nguyên nhân toàn thân, cùng phác đồ chẩn đoán, phòng ngừa và điều trị. Phần cuối trình bày chương trình bài tập trượt thần kinh và trượt gân có cơ sở bằng chứng: nghiên cứu Rozmaryn 1998 cho thấy tập luyện giúp giảm tỷ lệ phải phẫu thuật từ 71,2% xuống 43,0%.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-09",
+  },
+  {
     slug: "te-bi-ban-tay-khi-lai-xe-may",
     title: "Tê Bì Bàn Tay Khi Lái Xe Máy: Nguyên Nhân, Ý Nghĩa Cảnh Báo Và Cách Xử Trí",
     excerpt: "Cứ chạy xe khoảng mười lăm phút là các ngón tay tê rần, nghỉ một lát lại hết — vì sao? Bài viết phân tích ba cơ chế đan xen là chèn ép thần kinh do tư thế và lực nắm, rung động từ xe và giảm tưới máu, cùng cách dựa vào vị trí ngón tê để định vị dây thần kinh. Hội chứng ống cổ tay gặp ở 2,7 đến 5,8% dân số, còn nghiên cứu trên người đạp xe đường dài ghi nhận tới 92% xuất hiện triệu chứng tê hoặc yếu tay. TS.BS. Quyền chỉ rõ khi nào chỉ là thoáng qua lành tính, khi nào là dấu hiệu cần đi khám và cách xử trí.",
