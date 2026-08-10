@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import CozeChat from "@/components/CozeChat";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://bs-quyen-website.vercel.app"),
@@ -25,14 +26,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main>{children}</main>
         <Footer />
 
-        {/* Nút Messenger nổi góc phải */}
+        {/* Trợ lý AI Bé Bự (Coze Chat SDK) — bong bóng chat góc phải dưới */}
+        <CozeChat />
+
+        {/* Nút Messenger nổi góc phải (đẩy lên trên để không đè bong bóng Bé Bự) */}
         <a
           href="https://m.me/61576562018406"
           target="_blank"
           rel="noopener noreferrer"
           style={{
             position: "fixed",
-            bottom: "24px",
+            bottom: "96px",
             right: "24px",
             zIndex: 9999,
             width: "56px",
