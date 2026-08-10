@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "xuong-cau-thang-dau-lung-hon-len-cau-thang",
+    title: "Xuống Cầu Thang Đau Lưng Hơn Lên Cầu Thang: Đó Là Dấu Hiệu Gì?",
+    excerpt: "Cùng một cầu thang nhưng chiều lên gần như không sao, chiều xuống lại đau lưng rõ rệt — vì sao? Bài viết giải thích cơ sở cơ học: khi xuống cầu thang, cột sống thắt lưng thiên về tư thế ưỡn, kèm co cơ lệch tâm và lực dội lớn hơn, làm hẹp ống sống. Đây là kiểu đau tăng khi ưỡn, chỉ điểm hàng đầu tới hẹp ống sống thắt lưng và hội chứng khớp mấu (chiếm 15–45% đau lưng mạn). TS.BS. Quyền phân tích cách phân biệt theo chiều đau, dấu hiệu cảnh báo cần khám và hướng xử trí.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-10",
+  },
+  {
     slug: "te-bi-tay-khi-ngu",
     title: "Tê Bì Tay Khi Ngủ: Cơ Chế, Nguyên Nhân, Phòng Ngừa, Điều Trị Và Bài Tập Phục Hồi",
     excerpt: "Dị cảm về đêm là triệu chứng chỉ điểm của hội chứng ống cổ tay, hiện diện ở khoảng 85 đến 88% người bệnh mắc hội chứng này. Bài viết phân tích theo hướng khoa học cơ chế bệnh sinh vì sao triệu chứng nặng lên về đêm, cách định khu tổn thương theo vùng ngón tê, các nguyên nhân từ hội chứng ống cổ tay, hội chứng ống trụ đến nguyên nhân toàn thân, cùng phác đồ chẩn đoán, phòng ngừa và điều trị. Phần cuối trình bày chương trình bài tập trượt thần kinh và trượt gân có cơ sở bằng chứng: nghiên cứu Rozmaryn 1998 cho thấy tập luyện giúp giảm tỷ lệ phải phẫu thuật từ 71,2% xuống 43,0%.",
