@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "hay-lam-roi-do-yeu-tay-co-phai-cu-gia-la-bi",
+    title: "Hay Làm Rơi Điện Thoại, Cầm Đồ Không Chắc Tay: Có Phải Cứ Già Là Bị?",
+    excerpt: "Người lớn tuổi hay tuột tay làm rơi điện thoại, cầm cốc không chắc, khó cài cúc — có phải cứ già là đương nhiên như vậy? Câu trả lời chỉ đúng một phần. Sức cơ giảm dần theo tuổi là có thật, lực nắm tay còn là chỉ dấu sức khỏe (nghiên cứu PURE trên 142.000 người: giảm 5kg lực nắm tăng 16% nguy cơ tử vong). Nhưng làm rơi đồ và vụng tay thường là dấu hiệu sớm của bệnh lý điều trị được — đứng đầu là bệnh lý tủy cổ. TS.BS. Quyền phân tích cách phân biệt theo kiểu khởi phát và dấu hiệu cảnh báo cần đi khám.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-10",
+  },
+  {
     slug: "xuong-cau-thang-dau-lung-hon-len-cau-thang",
     title: "Xuống Cầu Thang Đau Lưng Hơn Lên Cầu Thang: Đó Là Dấu Hiệu Gì?",
     excerpt: "Cùng một cầu thang nhưng chiều lên gần như không sao, chiều xuống lại đau lưng rõ rệt — vì sao? Bài viết giải thích cơ sở cơ học: khi xuống cầu thang, cột sống thắt lưng thiên về tư thế ưỡn, kèm co cơ lệch tâm và lực dội lớn hơn, làm hẹp ống sống. Đây là kiểu đau tăng khi ưỡn, chỉ điểm hàng đầu tới hẹp ống sống thắt lưng và hội chứng khớp mấu (chiếm 15–45% đau lưng mạn). TS.BS. Quyền phân tích cách phân biệt theo chiều đau, dấu hiệu cảnh báo cần khám và hướng xử trí.",
