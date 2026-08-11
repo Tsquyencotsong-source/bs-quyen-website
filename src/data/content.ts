@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "thoat-vi-noi-xop-dia-dem-not-schmorl",
+    title: "Thoát Vị Nội Xốp Đĩa Đệm (Nốt Schmorl): Nguyên Nhân, Cơ Chế, Triệu Chứng, Điều Trị Và Tập Luyện",
+    excerpt: "Đọc kết quả chụp phim thấy dòng chữ thoát vị đĩa đệm nội xốp hay nốt Schmorl và lo lắng? Đây là tình trạng nhân nhầy đĩa đệm thoát vị theo chiều dọc, lún vào thân đốt sống qua chỗ yếu của tấm tận — khác hẳn thoát vị ra sau chèn thần kinh. Bài viết giải thích dễ hiểu, có hình minh họa cơ chế: đây là tổn thương rất thường gặp, đa số lành tính và không triệu chứng (gặp ở khoảng 1/3 người đau lưng và 1/10 người không đau), thường không chèn ép thần kinh. TS.BS. Quyền trình bày nguyên nhân, triệu chứng, chẩn đoán, điều trị và chương trình tập luyện phục hồi.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-11",
+  },
+  {
     slug: "hay-lam-roi-do-yeu-tay-co-phai-cu-gia-la-bi",
     title: "Hay Làm Rơi Điện Thoại, Cầm Đồ Không Chắc Tay: Có Phải Cứ Già Là Bị?",
     excerpt: "Người lớn tuổi hay tuột tay làm rơi điện thoại, cầm cốc không chắc, khó cài cúc — có phải cứ già là đương nhiên như vậy? Câu trả lời chỉ đúng một phần. Sức cơ giảm dần theo tuổi là có thật, lực nắm tay còn là chỉ dấu sức khỏe (nghiên cứu PURE trên 142.000 người: giảm 5kg lực nắm tăng 16% nguy cơ tử vong). Nhưng làm rơi đồ và vụng tay thường là dấu hiệu sớm của bệnh lý điều trị được — đứng đầu là bệnh lý tủy cổ. TS.BS. Quyền phân tích cách phân biệt theo kiểu khởi phát và dấu hiệu cảnh báo cần đi khám.",
