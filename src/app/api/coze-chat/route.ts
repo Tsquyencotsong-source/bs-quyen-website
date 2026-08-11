@@ -8,21 +8,6 @@ export const maxDuration = 30;
 const BOT_ID = "7671836676280909877";
 const API = "https://api.coze.com";
 
-function sleep(ms: number): Promise<void> {
-  return new Promise((r) => setTimeout(r, ms));
-}
-
-type StartResp = {
-  code?: number;
-  msg?: string;
-  data?: { id: string; conversation_id: string; status: string };
-};
-type RetrieveResp = {
-  data?: { status: string; last_error?: { code: number; msg: string } };
-};
-type CozeMsg = { role?: string; type?: string; content?: string };
-type ListResp = { data?: CozeMsg[] };
-
 export async function POST(req: Request) {
   try {
     if (!cozeConfigured()) {
@@ -40,61 +25,68 @@ export async function POST(req: Request) {
     const userId = body.userId && typeof body.userId === "string" ? body.userId : "web_guest";
     const token = await getCozeAccessToken();
 
-    // 1) Gửi tin nhắn, tạo phiên chat
-    const startUrl = new URL(API + "/v3/chat");
-    if (body.conversationId) startUrl.searchParams.set("conversation_id", body.conversationId);
-    const startRes = await fetch(startUrl.toString(), {
+    // Gọi v3/chat ở chế độ STREAM — câu trả lời trả về ngay trong luồng SSE,
+    // không cần message/list (tránh phải xin thêm quyền "Message").
+    const url = new URL(API + "/v3/chat");
+    if (body.conversationId) url.searchParams.set("conversation_id", body.conversationId);
+    const res = await fetch(url.toString(), {
       method: "POST",
       headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
       body: JSON.stringify({
         bot_id: BOT_ID,
         user_id: userId,
-        stream: false,
+        stream: true,
         auto_save_history: true,
         additional_messages: [{ role: "user", content: message, content_type: "text" }],
       }),
     });
-    const start = (await startRes.json()) as StartResp;
-    if (start.code !== 0 || !start.data) {
-      return NextResponse.json({ error: "Coze từ chối", detail: start }, { status: 502 });
-    }
-    const chatId = start.data.id;
-    const convId = start.data.conversation_id;
 
-    // 2) Chờ Bé Bự trả lời (poll ~25s)
-    let status = start.data.status;
-    for (let i = 0; i < 25 && (status === "in_progress" || status === "created"); i++) {
-      await sleep(1000);
-      const rRes = await fetch(
-        `${API}/v3/chat/retrieve?chat_id=${chatId}&conversation_id=${convId}`,
-        { headers: { Authorization: `Bearer ${token}` } }
-      );
-      const r = (await rRes.json()) as RetrieveResp;
-      status = r.data?.status || status;
-      if (status === "failed") {
-        return NextResponse.json(
-          { error: "Bé Bự chưa trả lời được", detail: r.data?.last_error },
-          { status: 502 }
-        );
+    if (!res.ok || !res.body) {
+      const t = await res.text().catch(() => "");
+      return NextResponse.json({ error: "Coze từ chối", detail: t.slice(0, 200) }, { status: 502 });
+    }
+
+    const reader = res.body.getReader();
+    const decoder = new TextDecoder();
+    let buffer = "";
+    let answer = "";
+    let convId = body.conversationId || "";
+    let curEvent = "";
+
+    const handleData = (dataStr: string) => {
+      if (!dataStr || dataStr === "[DONE]") return;
+      let obj: Record<string, unknown>;
+      try {
+        obj = JSON.parse(dataStr) as Record<string, unknown>;
+      } catch {
+        return;
+      }
+      if (typeof obj.conversation_id === "string") convId = obj.conversation_id;
+      if (
+        curEvent === "conversation.message.delta" &&
+        obj.type === "answer" &&
+        typeof obj.content === "string"
+      ) {
+        answer += obj.content;
+      }
+    };
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      buffer += decoder.decode(value, { stream: true });
+      const lines = buffer.split("\n");
+      buffer = lines.pop() || "";
+      for (const raw of lines) {
+        const line = raw.trim();
+        if (line.startsWith("event:")) curEvent = line.slice(6).trim();
+        else if (line.startsWith("data:")) handleData(line.slice(5).trim());
       }
     }
 
-    // 3) Lấy câu trả lời
-    const mRes = await fetch(
-      `${API}/v3/chat/message/list?chat_id=${chatId}&conversation_id=${convId}`,
-      { headers: { Authorization: `Bearer ${token}` } }
-    );
-    const list = (await mRes.json()) as ListResp;
-    const msgs = Array.isArray(list.data) ? list.data : [];
-    const answer = msgs
-      .filter((m) => m.role === "assistant" && m.type === "answer")
-      .map((m) => m.content || "")
-      .join("\n")
-      .trim();
-
     return NextResponse.json({
       reply:
-        answer ||
+        answer.trim() ||
         "Dạ em xin phép ghi nhận và chuyển phòng khám hỗ trợ mình nhé, anh/chị có thể gọi 0989 052 288 ạ 🙏",
       conversationId: convId,
     });
