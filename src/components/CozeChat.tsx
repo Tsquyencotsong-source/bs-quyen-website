@@ -1,11 +1,42 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 
 type Msg = { role: "user" | "assistant"; content: string };
 
 const GREETING =
   "Dạ em chào anh/chị, em là Bé Bự — trợ lý của phòng khám BS. Nguyễn Ngọc Quyền ạ 🌿 Anh/chị cần em hỗ trợ gì ạ? (tư vấn cột sống - loãng xương, đặt lịch khám, hay dặn dò sau khám...)";
+
+// Hiển thị đẹp: [text](url) và link trần → link bấm được; **chữ** → in đậm.
+function renderRich(text: string, linkColor: string): ReactNode[] {
+  const nodes: ReactNode[] = [];
+  const pattern =
+    /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)|\*\*([^*]+)\*\*|(https?:\/\/[^\s)]+)/g;
+  let last = 0;
+  let key = 0;
+  let m: RegExpExecArray | null;
+  while ((m = pattern.exec(text)) !== null) {
+    if (m.index > last) nodes.push(text.slice(last, m.index));
+    if (m[1] && m[2]) {
+      nodes.push(
+        <a key={key++} href={m[2]} target="_blank" rel="noopener noreferrer" style={{ color: linkColor, textDecoration: "underline", wordBreak: "break-all" }}>
+          {m[1]}
+        </a>
+      );
+    } else if (m[3]) {
+      nodes.push(<strong key={key++}>{m[3]}</strong>);
+    } else if (m[4]) {
+      nodes.push(
+        <a key={key++} href={m[4]} target="_blank" rel="noopener noreferrer" style={{ color: linkColor, textDecoration: "underline", wordBreak: "break-all" }}>
+          {m[4]}
+        </a>
+      );
+    }
+    last = pattern.lastIndex;
+  }
+  if (last < text.length) nodes.push(text.slice(last));
+  return nodes;
+}
 
 export default function CozeChat() {
   const [open, setOpen] = useState(false);
@@ -175,7 +206,7 @@ export default function CozeChat() {
                   boxShadow: "0 1px 2px rgba(0,0,0,0.06)",
                 }}
               >
-                {m.content}
+                {renderRich(m.content, m.role === "user" ? "#bfdbfe" : "#2563eb")}
               </div>
             ))}
             {loading && (

@@ -26,35 +26,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main>{children}</main>
         <Footer />
 
-        {/* Trợ lý AI Bé Bự (Coze Chat SDK) — bong bóng chat góc phải dưới */}
+        {/* Trợ lý AI Bé Bự — bong bóng chat góc phải dưới */}
         <CozeChat />
-
-        {/* Nút Messenger nổi góc phải (đẩy lên trên để không đè bong bóng Bé Bự) */}
-        <a
-          href="https://m.me/61576562018406"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            position: "fixed",
-            bottom: "96px",
-            right: "24px",
-            zIndex: 9999,
-            width: "56px",
-            height: "56px",
-            borderRadius: "50%",
-            background: "linear-gradient(135deg, #0084FF, #0099FF)",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            boxShadow: "0 4px 16px rgba(0,132,255,0.4)",
-            textDecoration: "none",
-          }}
-          title="Nhắn tin qua Messenger"
-        >
-          <svg width="28" height="28" viewBox="0 0 28 28" fill="white">
-            <path d="M14 2C7.373 2 2 7.149 2 13.5c0 3.352 1.52 6.349 3.938 8.389V26l3.787-2.087C10.965 24.284 12.455 24.5 14 24.5c6.627 0 12-5.149 12-11.5S20.627 2 14 2zm1.193 15.494l-3.057-3.26-5.965 3.26 6.563-6.973 3.13 3.26 5.893-3.26-6.564 6.973z"/>
-          </svg>
-        </a>
       </body>
     </html>
   );
