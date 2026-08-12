@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import CozeChat from "@/components/CozeChat";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://bs-quyen-website.vercel.app"),
+  metadataBase: new URL("https://www.bsquyen108.com"),
   title: {
     default: "TS.BS. Nguyễn Ngọc Quyền — Bác sĩ Cột sống, Bệnh viện TWQĐ 108",
     template: "%s | TS.BS. Nguyễn Ngọc Quyền",

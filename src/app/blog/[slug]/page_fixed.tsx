@@ -609,7 +609,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   const post = POSTS.find((p) => p.slug === params.slug);
   if (!post) notFound();
   const blocks = ARTICLES[params.slug];
-  const postUrl = `https://bs-quyen-website.vercel.app/blog/${params.slug}`;
+  const postUrl = `https://www.bsquyen108.com/blog/${params.slug}`;
 
   return (
     <>

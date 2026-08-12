@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { POSTS } from '@/data/content'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://bs-quyen-website.vercel.app'
+  const baseUrl = 'https://www.bsquyen108.com'
   
   const blogUrls = POSTS.map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,
