@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "phong-ngua-truot-nga-o-nguoi-loang-xuong",
+    title: "Phòng Ngừa Trượt Ngã Ở Người Loãng Xương: Các Biện Pháp Có Bằng Chứng",
+    excerpt: "Với người loãng xương, chính cú ngã mới là thứ biến bộ xương giòn thành ca gãy xương nghiêm trọng — khoảng 90% gãy cổ xương đùi ở người cao tuổi xảy ra sau một cú ngã. Bài viết trình bày các biện pháp phòng ngã có bằng chứng, trong đó tập luyện thăng bằng là mạnh nhất: theo tổng quan Cochrane 2019, bài tập thăng bằng và chức năng giảm khoảng 24% tỷ lệ ngã, tập đa dạng giảm tới 34%. Cùng với rà soát thuốc, cải tạo nhà ở, chăm sóc thị lực và điều trị loãng xương. TS.BS. Quyền tổng hợp cách phòng ngã toàn diện và danh mục kiểm tra tại nhà.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-12",
+  },
+  {
     slug: "du-xa-boi-loi-dap-xe-co-tot-cho-dau-that-lung",
     title: "Đu Xà Đơn, Bơi Lội Và Đạp Xe Có Tốt Cho Người Đau Cột Sống Thắt Lưng Không?",
     excerpt: "Đu xà, đi bơi, đạp xe — ba hoạt động quen thuộc, nhưng có thật sự tốt cho người đau thắt lưng? Câu trả lời là có thể tốt, nhưng còn tùy. Bơi lội có lợi nhờ lực đẩy của nước giảm tải cột sống, song cần chọn kiểu bơi (sải, ngửa nhẹ hơn ếch, bướm). Đạp xe ít va đập và đặc biệt hợp với người hẹp ống sống (dấu hiệu xe đạp), nhưng tư thế mới là điều quyết định. Riêng đu xà kéo giãn cột sống, theo tổng quan Cochrane, không hơn giả dược nên cần hiểu đúng và thận trọng. TS.BS. Quyền phân tích từng môn theo bằng chứng và cách tập an toàn.",
