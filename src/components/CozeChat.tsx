@@ -46,10 +46,18 @@ export default function CozeChat() {
   const convRef = useRef<string | undefined>(undefined);
   const userIdRef = useRef<string>("web_" + Math.random().toString(36).slice(2, 12));
   const bottomRef = useRef<HTMLDivElement>(null);
+  const [showTip, setShowTip] = useState(false);
+  const [tipDismissed, setTipDismissed] = useState(false);
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages, loading, open]);
+
+  // Bong bóng chào mời tự hiện sau ~2.8s để thu hút sự chú ý.
+  useEffect(() => {
+    const t = setTimeout(() => setShowTip(true), 2800);
+    return () => clearTimeout(t);
+  }, []);
 
   async function send() {
     const text = input.trim();
@@ -88,30 +96,132 @@ export default function CozeChat() {
 
   return (
     <>
-      <button
-        onClick={() => setOpen((o) => !o)}
-        aria-label="Chat với Bé Bự"
-        style={{
-          position: "fixed",
-          bottom: "24px",
-          right: "24px",
-          zIndex: 9999,
-          width: "56px",
-          height: "56px",
-          borderRadius: "50%",
-          border: "none",
-          cursor: "pointer",
-          background: "linear-gradient(135deg,#7c3aed,#6d28d9)",
-          boxShadow: "0 4px 16px rgba(109,40,217,0.45)",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <svg width="28" height="28" viewBox="0 0 24 24" fill="white">
-          <path d="M12 3C6.5 3 2 6.86 2 11.5c0 2.08.9 3.98 2.4 5.44-.1.9-.5 2.2-1.4 3.06 0 0 2.2-.3 3.7-1.3.9.35 2.1.8 3.3.8 5.5 0 10-3.86 10-8.5S17.5 3 12 3z" />
-        </svg>
-      </button>
+      <style>{`
+        @keyframes bebu-pulse {
+          0%   { box-shadow: 0 0 0 0 rgba(124,58,237,0.55); }
+          70%  { box-shadow: 0 0 0 20px rgba(124,58,237,0); }
+          100% { box-shadow: 0 0 0 0 rgba(124,58,237,0); }
+        }
+        @keyframes bebu-bob {
+          0%,100% { transform: translateY(0); }
+          50%     { transform: translateY(-5px); }
+        }
+        @keyframes bebu-in {
+          from { opacity: 0; transform: translateY(8px); }
+          to   { opacity: 1; transform: translateY(0); }
+        }
+        .bebu-launcher:hover { filter: brightness(1.06); transform: translateY(-2px); }
+      `}</style>
+
+      {!open && (
+        <div
+          style={{
+            position: "fixed",
+            bottom: "24px",
+            right: "24px",
+            zIndex: 9999,
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "flex-end",
+            gap: "12px",
+          }}
+        >
+          {showTip && !tipDismissed && (
+            <div
+              style={{
+                position: "relative",
+                maxWidth: "260px",
+                background: "#fff",
+                color: "#1f2937",
+                padding: "12px 34px 12px 14px",
+                borderRadius: "14px",
+                boxShadow: "0 8px 28px rgba(0,0,0,0.18)",
+                fontSize: "14px",
+                lineHeight: 1.5,
+                border: "1px solid #eee",
+                animation: "bebu-in 0.35s ease both",
+              }}
+            >
+              👋 Anh/chị cần tư vấn <b>cột sống – loãng xương</b> hay đặt lịch khám? Bấm vào đây chat với <b>Bé Bự</b> nhé!
+              <button
+                onClick={() => setTipDismissed(true)}
+                aria-label="Đóng lời mời"
+                style={{
+                  position: "absolute",
+                  top: "6px",
+                  right: "8px",
+                  background: "none",
+                  border: "none",
+                  color: "#9ca3af",
+                  fontSize: "18px",
+                  lineHeight: 1,
+                  cursor: "pointer",
+                }}
+              >
+                ×
+              </button>
+            </div>
+          )}
+
+          <button
+            className="bebu-launcher"
+            onClick={() => {
+              setOpen(true);
+              setTipDismissed(true);
+            }}
+            aria-label="Chat với Bé Bự"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "12px",
+              height: "62px",
+              padding: "0 22px 0 10px",
+              borderRadius: "34px",
+              border: "none",
+              cursor: "pointer",
+              color: "#fff",
+              background: "linear-gradient(135deg,#7c3aed,#6d28d9)",
+              boxShadow: "0 8px 24px rgba(109,40,217,0.5)",
+              transition: "transform 0.2s, filter 0.2s",
+              animation: "bebu-pulse 2s infinite, bebu-bob 3.2s ease-in-out infinite",
+              fontFamily: "system-ui, -apple-system, sans-serif",
+            }}
+          >
+            <span
+              style={{
+                position: "relative",
+                width: "44px",
+                height: "44px",
+                borderRadius: "50%",
+                background: "#fff",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontSize: "24px",
+                flexShrink: 0,
+              }}
+            >
+              🩺
+              <span
+                style={{
+                  position: "absolute",
+                  bottom: "1px",
+                  right: "1px",
+                  width: "12px",
+                  height: "12px",
+                  borderRadius: "50%",
+                  background: "#22c55e",
+                  border: "2px solid #fff",
+                }}
+              />
+            </span>
+            <span style={{ textAlign: "left", lineHeight: 1.2 }}>
+              <span style={{ display: "block", fontWeight: 700, fontSize: "16px" }}>Chat với Bé Bự</span>
+              <span style={{ display: "block", fontSize: "11.5px", opacity: 0.9 }}>Tư vấn miễn phí · 24/7</span>
+            </span>
+          </button>
+        </div>
+      )}
 
       {open && (
         <div
