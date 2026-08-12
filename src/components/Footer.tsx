@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { DOCTOR } from "@/data/content";
+import VisitorCounter from "@/components/VisitorCounter";
 
 const LINKS = [
   { href: "/about",     label: "Giới thiệu" },
@@ -55,9 +56,12 @@ export default function Footer() {
             ))}
           </ul>
 
-          <p className="text-[11.5px] text-white/25">
-            Nội dung mang tính giáo dục. Không thay thế tư vấn y tế trực tiếp.
-          </p>
+          <div className="flex flex-col gap-1.5">
+            <VisitorCounter />
+            <p className="text-[11.5px] text-white/25">
+              Nội dung mang tính giáo dục. Không thay thế tư vấn y tế trực tiếp.
+            </p>
+          </div>
         </div>
       </div>
     </footer>

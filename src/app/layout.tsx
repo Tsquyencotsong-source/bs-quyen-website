@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CozeChat from "@/components/CozeChat";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.bsquyen108.com"),
@@ -28,6 +29,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         {/* Trợ lý AI Bé Bự — bong bóng chat góc phải dưới */}
         <CozeChat />
+
+        {/* Thống kê lượt truy cập (dashboard riêng trên Vercel) */}
+        <Analytics />
       </body>
     </html>
   );
