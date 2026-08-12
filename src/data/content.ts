@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "du-xa-boi-loi-dap-xe-co-tot-cho-dau-that-lung",
+    title: "Đu Xà Đơn, Bơi Lội Và Đạp Xe Có Tốt Cho Người Đau Cột Sống Thắt Lưng Không?",
+    excerpt: "Đu xà, đi bơi, đạp xe — ba hoạt động quen thuộc, nhưng có thật sự tốt cho người đau thắt lưng? Câu trả lời là có thể tốt, nhưng còn tùy. Bơi lội có lợi nhờ lực đẩy của nước giảm tải cột sống, song cần chọn kiểu bơi (sải, ngửa nhẹ hơn ếch, bướm). Đạp xe ít va đập và đặc biệt hợp với người hẹp ống sống (dấu hiệu xe đạp), nhưng tư thế mới là điều quyết định. Riêng đu xà kéo giãn cột sống, theo tổng quan Cochrane, không hơn giả dược nên cần hiểu đúng và thận trọng. TS.BS. Quyền phân tích từng môn theo bằng chứng và cách tập an toàn.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-12",
+  },
+  {
     slug: "thoat-vi-noi-xop-dia-dem-not-schmorl",
     title: "Thoát Vị Nội Xốp Đĩa Đệm (Nốt Schmorl): Nguyên Nhân, Cơ Chế, Triệu Chứng, Điều Trị Và Tập Luyện",
     excerpt: "Đọc kết quả chụp phim thấy dòng chữ thoát vị đĩa đệm nội xốp hay nốt Schmorl và lo lắng? Đây là tình trạng nhân nhầy đĩa đệm thoát vị theo chiều dọc, lún vào thân đốt sống qua chỗ yếu của tấm tận — khác hẳn thoát vị ra sau chèn thần kinh. Bài viết giải thích dễ hiểu, có hình minh họa cơ chế: đây là tổn thương rất thường gặp, đa số lành tính và không triệu chứng (gặp ở khoảng 1/3 người đau lưng và 1/10 người không đau), thường không chèn ép thần kinh. TS.BS. Quyền trình bày nguyên nhân, triệu chứng, chẩn đoán, điều trị và chương trình tập luyện phục hồi.",
