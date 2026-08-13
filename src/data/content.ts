@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "roi-loan-tien-dinh-nguyen-nhan-dieu-tri-phong-ngua",
+    title: "Rối Loạn Tiền Đình: Triệu Chứng, Nguyên Nhân, Điều Trị Và Phòng Ngừa Dựa Trên Bằng Chứng",
+    excerpt: "Sáng ngủ dậy vừa trở mình là căn phòng quay cuồng — rối loạn tiền đình là nhóm bệnh rất thường gặp, đa số lành tính và điều trị được. Chóng mặt ảnh hưởng 15 đến hơn 20% người lớn mỗi năm; nguyên nhân số một là chóng mặt tư thế kịch phát lành tính (BPPV), đáp ứng tốt với nghiệm pháp Epley (tổng quan Cochrane 2014). Bài viết phân tích triệu chứng, nguyên nhân (kể cả chóng mặt do cột sống cổ), điều trị và cách phòng ngừa qua ăn uống, tập luyện — đều dựa trên bằng chứng. TS.BS. Quyền cũng chỉ rõ dấu hiệu chóng mặt nguy hiểm cần đi cấp cứu ngay.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-13",
+  },
+  {
     slug: "phong-ngua-truot-nga-o-nguoi-loang-xuong",
     title: "Phòng Ngừa Trượt Ngã Ở Người Loãng Xương: Các Biện Pháp Có Bằng Chứng",
     excerpt: "Với người loãng xương, chính cú ngã mới là thứ biến bộ xương giòn thành ca gãy xương nghiêm trọng — khoảng 90% gãy cổ xương đùi ở người cao tuổi xảy ra sau một cú ngã. Bài viết trình bày các biện pháp phòng ngã có bằng chứng, trong đó tập luyện thăng bằng là mạnh nhất: theo tổng quan Cochrane 2019, bài tập thăng bằng và chức năng giảm khoảng 24% tỷ lệ ngã, tập đa dạng giảm tới 34%. Cùng với rà soát thuốc, cải tạo nhà ở, chăm sóc thị lực và điều trị loãng xương. TS.BS. Quyền tổng hợp cách phòng ngã toàn diện và danh mục kiểm tra tại nhà.",
