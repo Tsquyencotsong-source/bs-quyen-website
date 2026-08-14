@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "ton-thuong-cot-song-trong-hoi-chung-marfan",
+    title: "Tổn Thương Cột Sống Trong Hội Chứng Marfan: Dịch Tễ, Triệu Chứng, Chẩn Đoán, Điều Trị Và Tập Luyện",
+    excerpt: "Người cao gầy khác thường, tay chân dài mảnh, khớp lỏng lẻo — có thể là hội chứng Marfan, một bệnh mô liên kết di truyền do đột biến gen FBN1, gặp ở khoảng 1 trên 5000 người. Cột sống là nơi thường bị ảnh hưởng: vẹo cột sống gặp khoảng 63%, giãn màng cứng ở hơn 90% người bệnh. Bài viết trình bày dễ hiểu nguyên nhân, triệu chứng, chẩn đoán hình ảnh, các thể tổn thương cột sống, điều trị và chỉ định (nẹp, phẫu thuật), cùng cách tập luyện an toàn cho tim mạch. TS.BS. Quyền nhấn mạnh mọi can thiệp cột sống ở người Marfan đều phải cân nhắc cùng nguy cơ động mạch chủ.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-14",
+  },
+  {
     slug: "roi-loan-tien-dinh-nguyen-nhan-dieu-tri-phong-ngua",
     title: "Rối Loạn Tiền Đình: Triệu Chứng, Nguyên Nhân, Điều Trị Và Phòng Ngừa Dựa Trên Bằng Chứng",
     excerpt: "Sáng ngủ dậy vừa trở mình là căn phòng quay cuồng — rối loạn tiền đình là nhóm bệnh rất thường gặp, đa số lành tính và điều trị được. Chóng mặt ảnh hưởng 15 đến hơn 20% người lớn mỗi năm; nguyên nhân số một là chóng mặt tư thế kịch phát lành tính (BPPV), đáp ứng tốt với nghiệm pháp Epley (tổng quan Cochrane 2014). Bài viết phân tích triệu chứng, nguyên nhân (kể cả chóng mặt do cột sống cổ), điều trị và cách phòng ngừa qua ăn uống, tập luyện — đều dựa trên bằng chứng. TS.BS. Quyền cũng chỉ rõ dấu hiệu chóng mặt nguy hiểm cần đi cấp cứu ngay.",
