@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "thoat-vi-dia-dem-cot-song-co",
+    title: "Thoát Vị Đĩa Đệm Cột Sống Cổ: Nguyên Nhân, Triệu Chứng, Chẩn Đoán Và Các Phương Pháp Điều Trị",
+    excerpt: "Đau cổ lan xuống vai, cánh tay kèm tê yếu tay có thể là dấu hiệu thoát vị đĩa đệm cột sống cổ. Bài viết trình bày dễ hiểu nhưng dựa trên bằng chứng: nguyên nhân (chủ yếu thoái hóa theo tuổi), triệu chứng (chèn ép rễ gây đau lan tay và chèn ép tủy là tình trạng nặng cần lưu ý), chẩn đoán hình ảnh, và toàn bộ bậc thang điều trị. Theo y văn, khoảng 80% cải thiện trong 12 tuần và 70–90% đáp ứng điều trị bảo tồn. TS.BS. Quyền phân tích chỉ định và hiệu quả của từng phương pháp: thuốc, tập luyện, tiêm ngoài màng cứng, RFA (nói rõ vai trò thực), và các kỹ thuật phẫu thuật (ACDF, đĩa đệm nhân tạo).",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-13",
+  },
+  {
     slug: "ton-thuong-cot-song-trong-hoi-chung-marfan",
     title: "Tổn Thương Cột Sống Trong Hội Chứng Marfan: Dịch Tễ, Triệu Chứng, Chẩn Đoán, Điều Trị Và Tập Luyện",
     excerpt: "Người cao gầy khác thường, tay chân dài mảnh, khớp lỏng lẻo — có thể là hội chứng Marfan, một bệnh mô liên kết di truyền do đột biến gen FBN1, gặp ở khoảng 1 trên 5000 người. Cột sống là nơi thường bị ảnh hưởng: vẹo cột sống gặp khoảng 63%, giãn màng cứng ở hơn 90% người bệnh. Bài viết trình bày dễ hiểu nguyên nhân, triệu chứng, chẩn đoán hình ảnh, các thể tổn thương cột sống, điều trị và chỉ định (nẹp, phẫu thuật), cùng cách tập luyện an toàn cho tim mạch. TS.BS. Quyền nhấn mạnh mọi can thiệp cột sống ở người Marfan đều phải cân nhắc cùng nguy cơ động mạch chủ.",
