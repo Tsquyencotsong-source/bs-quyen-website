@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "hep-ong-song-that-lung-di-mot-doan-phai-nghi",
+    title: "Đi Được Một Đoạn Phải Ngồi Nghỉ Mới Đi Tiếp Được — Hẹp Ống Sống Thắt Lưng: Cơ Chế, Chẩn Đoán, Điều Trị Và Bài Tập",
+    excerpt: "Đi chợ được vài chục mét là hai chân tê mỏi, phải ngồi bệt xuống nghỉ mới đi tiếp được — nhưng đạp xe hay đẩy xe hàng thì lại đi được rất xa. Đó không phải là \"già rồi yếu chân\", mà là dấu hiệu rất đặc trưng của hẹp ống sống thắt lưng. Bài viết giải thích dễ hiểu cơ chế vì sao tư thế đứng thẳng làm hẹp thêm ống sống còn tư thế cúi lại làm dễ chịu, cách phân biệt với đau cách hồi do tắc mạch chân, và toàn bộ bậc thang điều trị dựa trên bằng chứng. Điểm quan trọng: theo các nghiên cứu theo dõi dài hạn, bệnh thường không xấu đi nhanh; tập luyện và phục hồi chức năng đa phương thức là lựa chọn đầu tay có bằng chứng tốt nhất, còn phẫu thuật dành cho những trường hợp có chỉ định rõ ràng.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-19",
+  },
+  {
     slug: "thoat-vi-dia-dem-cot-song-co",
     title: "Thoát Vị Đĩa Đệm Cột Sống Cổ: Nguyên Nhân, Triệu Chứng, Chẩn Đoán Và Các Phương Pháp Điều Trị",
     excerpt: "Đau cổ lan xuống vai, cánh tay kèm tê yếu tay có thể là dấu hiệu thoát vị đĩa đệm cột sống cổ. Bài viết trình bày dễ hiểu nhưng dựa trên bằng chứng: nguyên nhân (chủ yếu thoái hóa theo tuổi), triệu chứng (chèn ép rễ gây đau lan tay và chèn ép tủy là tình trạng nặng cần lưu ý), chẩn đoán hình ảnh, và toàn bộ bậc thang điều trị. Theo y văn, khoảng 80% cải thiện trong 12 tuần và 70–90% đáp ứng điều trị bảo tồn. TS.BS. Quyền phân tích chỉ định và hiệu quả của từng phương pháp: thuốc, tập luyện, tiêm ngoài màng cứng, RFA (nói rõ vai trò thực), và các kỹ thuật phẫu thuật (ACDF, đĩa đệm nhân tạo).",
