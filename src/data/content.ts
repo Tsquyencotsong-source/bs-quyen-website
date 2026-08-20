@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "deo-dai-lung-co-tot-khong-khi-nao-nen-deo",
+    title: "Đeo Đai Lưng Có Tốt Không? Khi Nào Nên Đeo, Đeo Bao Lâu Và Những Sai Lầm Thường Gặp",
+    excerpt: "Đai lưng là món đồ được mua nhiều nhất khi bị đau cột sống thắt lưng: dễ mua, rẻ, đeo vào thấy đỡ ngay. Nhưng đeo bao lâu thì đủ, đeo suốt ngày có hại không, gãy xẹp đốt sống do loãng xương có bắt buộc phải mặc áo nẹp, và sau mổ cột sống có cần đeo đai hay không? Bài viết trả lời từng câu hỏi đó dựa trên bằng chứng thật, kể cả những chỗ mà các nghiên cứu còn mâu thuẫn nhau. Điểm cốt lõi: đai lưng có thể là một trợ thủ ngắn hạn hữu ích, nhưng nó không chữa được bệnh và không bao giờ được phép thay thế cho việc tập luyện — cái đai bền nhất của cột sống chính là hệ cơ bụng và cơ lưng của bạn.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-20",
+  },
+  {
     slug: "gai-cot-song-co-that-su-gay-dau-khong",
     title: "Gai Cột Sống Có Thật Sự Gây Đau Không? Sự Thật Về Gai Xương, Chẩn Đoán Và Điều Trị",
     excerpt: "Cầm tờ kết quả chụp X-quang ghi \"gai cột sống\", rất nhiều người hình dung ra một cái gai nhọn đang đâm vào thịt mỗi khi cử động — rồi lo lắng đi tìm thuốc \"tan gai\". Thực tế y học lại khác hẳn: gai xương là phản ứng thích nghi tự nhiên của cơ thể trước quá trình thoái hóa, gặp ở khoảng 80% nam và 60% nữ trên 50 tuổi, và đến tuổi 70 thì gần như ai cũng có. Phần lớn hoàn toàn không gây triệu chứng. Bài viết giải thích dễ hiểu bản chất của gai xương, vì sao hình ảnh trên phim không đồng nghĩa với nguyên nhân gây đau, khi nào gai mới thực sự nguy hiểm, và toàn bộ hướng điều trị dựa trên bằng chứng. TS.BS. Quyền cũng nói thẳng một điều nhiều người chưa biết: đến nay chưa có thuốc nào được chứng minh làm tan được gai xương.",
