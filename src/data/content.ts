@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "gai-cot-song-co-that-su-gay-dau-khong",
+    title: "Gai Cột Sống Có Thật Sự Gây Đau Không? Sự Thật Về Gai Xương, Chẩn Đoán Và Điều Trị",
+    excerpt: "Cầm tờ kết quả chụp X-quang ghi \"gai cột sống\", rất nhiều người hình dung ra một cái gai nhọn đang đâm vào thịt mỗi khi cử động — rồi lo lắng đi tìm thuốc \"tan gai\". Thực tế y học lại khác hẳn: gai xương là phản ứng thích nghi tự nhiên của cơ thể trước quá trình thoái hóa, gặp ở khoảng 80% nam và 60% nữ trên 50 tuổi, và đến tuổi 70 thì gần như ai cũng có. Phần lớn hoàn toàn không gây triệu chứng. Bài viết giải thích dễ hiểu bản chất của gai xương, vì sao hình ảnh trên phim không đồng nghĩa với nguyên nhân gây đau, khi nào gai mới thực sự nguy hiểm, và toàn bộ hướng điều trị dựa trên bằng chứng. TS.BS. Quyền cũng nói thẳng một điều nhiều người chưa biết: đến nay chưa có thuốc nào được chứng minh làm tan được gai xương.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-20",
+  },
+  {
     slug: "hep-ong-song-that-lung-di-mot-doan-phai-nghi",
     title: "Đi Được Một Đoạn Phải Ngồi Nghỉ Mới Đi Tiếp Được — Hẹp Ống Sống Thắt Lưng: Cơ Chế, Chẩn Đoán, Điều Trị Và Bài Tập",
     excerpt: "Đi chợ được vài chục mét là hai chân tê mỏi, phải ngồi bệt xuống nghỉ mới đi tiếp được — nhưng đạp xe hay đẩy xe hàng thì lại đi được rất xa. Đó không phải là \"già rồi yếu chân\", mà là dấu hiệu rất đặc trưng của hẹp ống sống thắt lưng. Bài viết giải thích dễ hiểu cơ chế vì sao tư thế đứng thẳng làm hẹp thêm ống sống còn tư thế cúi lại làm dễ chịu, cách phân biệt với đau cách hồi do tắc mạch chân, và toàn bộ bậc thang điều trị dựa trên bằng chứng. Điểm quan trọng: theo các nghiên cứu theo dõi dài hạn, bệnh thường không xấu đi nhanh; tập luyện và phục hồi chức năng đa phương thức là lựa chọn đầu tay có bằng chứng tốt nhất, còn phẫu thuật dành cho những trường hợp có chỉ định rõ ràng.",
