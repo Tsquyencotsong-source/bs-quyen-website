@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dau-than-kinh-toa-khi-nao-can-mo",
+    title: "Đau Thần Kinh Tọa: Nguyên Nhân, Dấu Hiệu Nguy Hiểm, Điều Trị Và Khi Nào Thật Sự Cần Mổ",
+    excerpt: "Đau từ thắt lưng chạy dọc xuống mông, mặt sau đùi rồi xuống tận bàn chân — cơn đau đặc trưng ấy khiến nhiều người nghĩ ngay đến chuyện phải mổ. Nhưng bằng chứng y học nói khác: phần lớn người bệnh cải thiện mà không cần dao kéo, và một nghiên cứu đối chứng ngẫu nhiên đăng trên tạp chí NEJM cho thấy mổ sớm giúp hết đau chân nhanh hơn, nhưng đến mốc một năm thì kết quả ngang bằng nhóm điều trị bảo tồn. Bài viết trình bày dễ hiểu cơ chế gây đau, cách phân biệt với đau lưng thông thường, những dấu hiệu bắt buộc phải đi cấp cứu ngay trong đêm, toàn bộ bậc thang điều trị, và chỉ định mổ thật sự dựa trên bằng chứng. TS.BS. Quyền nhấn mạnh: quyết định mổ hay không nằm ở triệu chứng thần kinh và mức độ ảnh hưởng cuộc sống, chứ không nằm ở kích thước khối thoát vị trên phim.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-22",
+  },
+  {
     slug: "deo-dai-lung-co-tot-khong-khi-nao-nen-deo",
     title: "Đeo Đai Lưng Có Tốt Không? Khi Nào Nên Đeo, Đeo Bao Lâu Và Những Sai Lầm Thường Gặp",
     excerpt: "Đai lưng là món đồ được mua nhiều nhất khi bị đau cột sống thắt lưng: dễ mua, rẻ, đeo vào thấy đỡ ngay. Nhưng đeo bao lâu thì đủ, đeo suốt ngày có hại không, gãy xẹp đốt sống do loãng xương có bắt buộc phải mặc áo nẹp, và sau mổ cột sống có cần đeo đai hay không? Bài viết trả lời từng câu hỏi đó dựa trên bằng chứng thật, kể cả những chỗ mà các nghiên cứu còn mâu thuẫn nhau. Điểm cốt lõi: đai lưng có thể là một trợ thủ ngắn hạn hữu ích, nhưng nó không chữa được bệnh và không bao giờ được phép thay thế cho việc tập luyện — cái đai bền nhất của cột sống chính là hệ cơ bụng và cơ lưng của bạn.",
