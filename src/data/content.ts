@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dong-cung-khop-vai-khong-gio-tay-len-duoc",
+    title: "Đau Vai Không Giơ Tay Lên Được, Không Với Được Ra Sau Lưng — Đông Cứng Khớp Vai: Nguyên Nhân, Ba Giai Đoạn, Điều Trị Và Bài Tập",
+    excerpt: "Đông cứng khớp vai là tình trạng bao khớp vai bị viêm rồi xơ dày lại, khiến vai vừa đau vừa cứng đến mức không giơ tay lên được, không với ra sau lưng được, đêm nằm nghiêng là đau tỉnh giấc. Bệnh gặp ở khoảng 2 đến 5% dân số, hay xuất hiện quanh tuổi 55, nữ nhiều hơn nam, và đặc biệt phổ biến ở người đái tháo đường. Nhiều người bị chẩn đoán nhầm là thoái hóa cột sống cổ hoặc thoát vị đĩa đệm cổ, nên điều trị mãi không đỡ. Bài viết giải thích cách nhận biết, cách phân biệt với bệnh cột sống cổ, sự thật về câu nói cứ để hai năm rồi tự khỏi, và các bậc điều trị từ tập luyện đến phẫu thuật.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-23",
+  },
+  {
     slug: "dau-than-kinh-toa-khi-nao-can-mo",
     title: "Đau Thần Kinh Tọa: Nguyên Nhân, Dấu Hiệu Nguy Hiểm, Điều Trị Và Khi Nào Thật Sự Cần Mổ",
     excerpt: "Đau từ thắt lưng chạy dọc xuống mông, mặt sau đùi rồi xuống tận bàn chân — cơn đau đặc trưng ấy khiến nhiều người nghĩ ngay đến chuyện phải mổ. Nhưng bằng chứng y học nói khác: phần lớn người bệnh cải thiện mà không cần dao kéo, và một nghiên cứu đối chứng ngẫu nhiên đăng trên tạp chí NEJM cho thấy mổ sớm giúp hết đau chân nhanh hơn, nhưng đến mốc một năm thì kết quả ngang bằng nhóm điều trị bảo tồn. Bài viết trình bày dễ hiểu cơ chế gây đau, cách phân biệt với đau lưng thông thường, những dấu hiệu bắt buộc phải đi cấp cứu ngay trong đêm, toàn bộ bậc thang điều trị, và chỉ định mổ thật sự dựa trên bằng chứng. TS.BS. Quyền nhấn mạnh: quyết định mổ hay không nằm ở triệu chứng thần kinh và mức độ ảnh hưởng cuộc sống, chứ không nằm ở kích thước khối thoát vị trên phim.",
