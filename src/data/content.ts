@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "tu-the-ngu-dem-goi-cho-nguoi-dau-cot-song",
+    title: "Nằm Đệm Cứng Hay Mềm, Gối Cao Hay Thấp? Tư Thế Ngủ Đúng Cho Người Đau Cổ Và Đau Lưng",
+    excerpt: "\"Bác sĩ ơi, tôi nên nằm phản gỗ cho thẳng lưng hay nằm đệm êm?\" — câu hỏi này tôi nghe gần như mỗi buổi khám, và câu trả lời quen thuộc trong dân gian lại đi ngược với bằng chứng. Một thử nghiệm đối chứng ngẫu nhiên mù đôi đăng trên tạp chí The Lancet cho thấy người đau lưng mạn tính nằm đệm ĐỘ CỨNG VỪA có khả năng cải thiện chức năng cao hơn gấp đôi so với nhóm nằm đệm cứng. Với gối cũng vậy: tổng quan hệ thống cho thấy chiều cao khoảng 7 đến 11 cm và kiểu gối có phần lõm đỡ cổ có bằng chứng mức trung bình giúp cải thiện chất lượng giấc ngủ và trục cột sống cổ. Bài viết hướng dẫn cụ thể cách chọn đệm, chọn gối, nằm tư thế nào cho từng loại đau, những sai lầm phổ biến, và các dấu hiệu đau về đêm cần đi khám ngay.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-24",
+  },
+  {
     slug: "dong-cung-khop-vai-khong-gio-tay-len-duoc",
     title: "Đau Vai Không Giơ Tay Lên Được, Không Với Được Ra Sau Lưng — Đông Cứng Khớp Vai: Nguyên Nhân, Ba Giai Đoạn, Điều Trị Và Bài Tập",
     excerpt: "Đông cứng khớp vai là tình trạng bao khớp vai bị viêm rồi xơ dày lại, khiến vai vừa đau vừa cứng đến mức không giơ tay lên được, không với ra sau lưng được, đêm nằm nghiêng là đau tỉnh giấc. Bệnh gặp ở khoảng 2 đến 5% dân số, hay xuất hiện quanh tuổi 55, nữ nhiều hơn nam, và đặc biệt phổ biến ở người đái tháo đường. Nhiều người bị chẩn đoán nhầm là thoái hóa cột sống cổ hoặc thoát vị đĩa đệm cổ, nên điều trị mãi không đỡ. Bài viết giải thích cách nhận biết, cách phân biệt với bệnh cột sống cổ, sự thật về câu nói cứ để hai năm rồi tự khỏi, và các bậc điều trị từ tập luyện đến phẫu thuật.",
