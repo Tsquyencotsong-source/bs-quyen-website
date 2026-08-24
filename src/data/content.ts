@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "ngon-tay-lo-xo-sang-ngu-day-bi-ket",
+    title: "Ngón Tay Lò Xo: Sáng Ngủ Dậy Ngón Tay Bị Kẹt Cứng, Phải Dùng Tay Kia Bẻ Ra",
+    excerpt: "Sáng ngủ dậy, ngón tay co lại không duỗi ra được, phải dùng tay kia bẻ mới bật ra kèm tiếng \"cục\" — đó là ngón tay lò xo, một bệnh lý viêm hẹp bao gân gấp rất thường gặp, chiếm khoảng 2-3% người trưởng thành. Bài viết giải thích cơ chế bệnh, vì sao hay kẹt vào buổi sáng, ai dễ mắc, cách phân độ nặng nhẹ, và toàn bộ bậc thang điều trị từ nẹp, tiêm corticoid tại chỗ đến phẫu thuật giải phóng ròng rọc A1 — kèm các con số hiệu quả thực tế từ y văn và lời khuyên riêng cho người bệnh đái tháo đường.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-25",
+  },
+  {
     slug: "tu-the-ngu-dem-goi-cho-nguoi-dau-cot-song",
     title: "Nằm Đệm Cứng Hay Mềm, Gối Cao Hay Thấp? Tư Thế Ngủ Đúng Cho Người Đau Cổ Và Đau Lưng",
     excerpt: "\"Bác sĩ ơi, tôi nên nằm phản gỗ cho thẳng lưng hay nằm đệm êm?\" — câu hỏi này tôi nghe gần như mỗi buổi khám, và câu trả lời quen thuộc trong dân gian lại đi ngược với bằng chứng. Một thử nghiệm đối chứng ngẫu nhiên mù đôi đăng trên tạp chí The Lancet cho thấy người đau lưng mạn tính nằm đệm ĐỘ CỨNG VỪA có khả năng cải thiện chức năng cao hơn gấp đôi so với nhóm nằm đệm cứng. Với gối cũng vậy: tổng quan hệ thống cho thấy chiều cao khoảng 7 đến 11 cm và kiểu gối có phần lõm đỡ cổ có bằng chứng mức trung bình giúp cải thiện chất lượng giấc ngủ và trục cột sống cổ. Bài viết hướng dẫn cụ thể cách chọn đệm, chọn gối, nằm tư thế nào cho từng loại đau, những sai lầm phổ biến, và các dấu hiệu đau về đêm cần đi khám ngay.",
