@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dau-co-tay-phia-ngon-cai-de-quervain",
+    title: "Đau Cổ Tay Phía Ngón Cái Khi Bế Con, Khi Vặn Nắp Chai — Hội Chứng De Quervain",
+    excerpt: "Bế con lên là đau chói ở cổ tay phía ngón cái, vặn nắp chai không nổi, vắt khăn cũng phải nhờ người khác — đó là hội chứng De Quervain, tình trạng hẹp bao gân khoang duỗi thứ nhất rất hay gặp ở mẹ sau sinh và người dùng điện thoại nhiều. Một nghiên cứu dịch tễ trên hơn 1,6 triệu phụ nữ mang thai tại Hàn Quốc ghi nhận khoảng 2,1% mắc bệnh này trong thai kỳ hoặc sau sinh. Bài viết hướng dẫn cách tự nhận biết, phân biệt với hội chứng ống cổ tay và thoái hóa khớp gốc ngón cái, bậc thang điều trị từ nẹp — tiêm corticoid — đến phẫu thuật kèm con số hiệu quả thật từ các phân tích gộp mới nhất, giải đáp câu hỏi mẹ đang cho con bú có tiêm được không, và cách chỉnh lại tư thế bế con để cổ tay được nghỉ.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-26",
+  },
+  {
     slug: "chuot-rut-bap-chan-ban-dem",
     title: "Đang Ngủ Bị Chuột Rút Bắp Chân Đau Điếng — Có Phải Thiếu Canxi Không?",
     excerpt: "Nửa đêm bắp chân bỗng co rút cứng như đá, đau điếng, phải bật dậy ôm chân — sáng hôm sau bắp chân vẫn ê ẩm. Gần như ai bị cũng nghĩ ngay đến thiếu canxi rồi đi mua canxi về uống. Nhưng y văn hiện nay cho rằng cơ chế của chuột rút ban đêm nhiều khả năng là do mỏi cơ và rối loạn dẫn truyền thần kinh cơ, chứ KHÔNG phải do rối loạn điện giải. Bài viết giải thích cơ chế thật, những nguyên nhân và bệnh lý đi kèm — trong đó có hẹp ống sống thắt lưng và bệnh động mạch chi dưới mà nhiều người bỏ sót, cách xử trí ngay khi đang bị chuột rút, cách phòng ngừa có bằng chứng, và nói rõ thuốc nào thực sự có cơ sở, thuốc nào đã bị khuyến cáo ngừng dùng vì độc tính.",
