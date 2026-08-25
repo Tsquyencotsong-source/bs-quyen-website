@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "chuot-rut-bap-chan-ban-dem",
+    title: "Đang Ngủ Bị Chuột Rút Bắp Chân Đau Điếng — Có Phải Thiếu Canxi Không?",
+    excerpt: "Nửa đêm bắp chân bỗng co rút cứng như đá, đau điếng, phải bật dậy ôm chân — sáng hôm sau bắp chân vẫn ê ẩm. Gần như ai bị cũng nghĩ ngay đến thiếu canxi rồi đi mua canxi về uống. Nhưng y văn hiện nay cho rằng cơ chế của chuột rút ban đêm nhiều khả năng là do mỏi cơ và rối loạn dẫn truyền thần kinh cơ, chứ KHÔNG phải do rối loạn điện giải. Bài viết giải thích cơ chế thật, những nguyên nhân và bệnh lý đi kèm — trong đó có hẹp ống sống thắt lưng và bệnh động mạch chi dưới mà nhiều người bỏ sót, cách xử trí ngay khi đang bị chuột rút, cách phòng ngừa có bằng chứng, và nói rõ thuốc nào thực sự có cơ sở, thuốc nào đã bị khuyến cáo ngừng dùng vì độc tính.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-25",
+  },
+  {
     slug: "ngon-tay-lo-xo-sang-ngu-day-bi-ket",
     title: "Ngón Tay Lò Xo: Sáng Ngủ Dậy Ngón Tay Bị Kẹt Cứng, Phải Dùng Tay Kia Bẻ Ra",
     excerpt: "Sáng ngủ dậy, ngón tay co lại không duỗi ra được, phải dùng tay kia bẻ mới bật ra kèm tiếng \"cục\" — đó là ngón tay lò xo, một bệnh lý viêm hẹp bao gân gấp rất thường gặp, chiếm khoảng 2-3% người trưởng thành. Bài viết giải thích cơ chế bệnh, vì sao hay kẹt vào buổi sáng, ai dễ mắc, cách phân độ nặng nhẹ, và toàn bộ bậc thang điều trị từ nẹp, tiêm corticoid tại chỗ đến phẫu thuật giải phóng ròng rọc A1 — kèm các con số hiệu quả thực tế từ y văn và lời khuyên riêng cho người bệnh đái tháo đường.",
