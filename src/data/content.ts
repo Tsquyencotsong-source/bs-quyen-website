@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dau-mong-lan-xuong-chan-hoi-chung-co-hinh-le",
+    title: "Đau Mông Lan Xuống Chân Nhưng Chụp Phim Cột Sống Bình Thường — Hội Chứng Cơ Hình Lê",
+    excerpt: "Đau sâu trong mông, ngồi lâu là tê buốt lan xuống mặt sau đùi, lái xe hay ngồi họp nửa tiếng đã phải nhấp nhổm — nhưng chụp phim cột sống thắt lưng bác sĩ lại bảo không có gì đáng kể. Rất nhiều người rơi vào tình cảnh này rồi đi chữa thoát vị đĩa đệm suốt nhiều tháng mà không đỡ. Nguyên nhân có thể không nằm ở cột sống, mà ở một cơ nhỏ sâu trong mông tên là cơ hình lê, nơi dây thần kinh tọa chui qua và bị chèn ép. Bài viết giải thích cơ chế, chỉ ra những điểm khác biệt then chốt giúp phân biệt với thoát vị đĩa đệm, các dấu hiệu nguy hiểm cần đi khám ngay, bậc thang điều trị từ tập luyện — tiêm — đến phẫu thuật kèm con số hiệu quả thật, và bốn bài tập giãn cơ có thể làm ngay tại nhà.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-27",
+  },
+  {
     slug: "dau-co-tay-phia-ngon-cai-de-quervain",
     title: "Đau Cổ Tay Phía Ngón Cái Khi Bế Con, Khi Vặn Nắp Chai — Hội Chứng De Quervain",
     excerpt: "Bế con lên là đau chói ở cổ tay phía ngón cái, vặn nắp chai không nổi, vắt khăn cũng phải nhờ người khác — đó là hội chứng De Quervain, tình trạng hẹp bao gân khoang duỗi thứ nhất rất hay gặp ở mẹ sau sinh và người dùng điện thoại nhiều. Một nghiên cứu dịch tễ trên hơn 1,6 triệu phụ nữ mang thai tại Hàn Quốc ghi nhận khoảng 2,1% mắc bệnh này trong thai kỳ hoặc sau sinh. Bài viết hướng dẫn cách tự nhận biết, phân biệt với hội chứng ống cổ tay và thoái hóa khớp gốc ngón cái, bậc thang điều trị từ nẹp — tiêm corticoid — đến phẫu thuật kèm con số hiệu quả thật từ các phân tích gộp mới nhất, giải đáp câu hỏi mẹ đang cho con bú có tiêm được không, và cách chỉnh lại tư thế bế con để cổ tay được nghỉ.",
