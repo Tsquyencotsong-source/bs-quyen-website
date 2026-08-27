@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "uong-canxi-vitamin-d-the-nao-cho-dung",
+    title: "Uống Canxi Và Vitamin D Thế Nào Cho Đúng Để Chắc Xương?",
+    excerpt: "Hầu như ngày nào ở phòng khám tôi cũng nghe câu hỏi này: em uống canxi mấy năm nay rồi mà đo vẫn loãng xương, có phải thuốc dởm không bác? Canxi và vitamin D là hai thứ được mua nhiều nhất, uống lâu nhất, nhưng cũng bị hiểu sai nhiều nhất. Bài viết trả lời rành mạch: mỗi ngày thực sự cần bao nhiêu canxi và vitamin D, cách tính nhanh xem khẩu phần đang thiếu bao nhiêu, tại sao các nghiên cứu lớn cho thấy uống viên bổ sung KHÔNG giúp giảm gãy xương ở người vốn không thiếu, ai mới thật sự cần uống thêm, cách uống cho hấp thu tốt và tránh sỏi thận, vì sao liều cao ngắt quãng lại có hại, cùng những dấu hiệu cần đi khám ngay.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-28",
+  },
+  {
     slug: "dau-mong-lan-xuong-chan-hoi-chung-co-hinh-le",
     title: "Đau Mông Lan Xuống Chân Nhưng Chụp Phim Cột Sống Bình Thường — Hội Chứng Cơ Hình Lê",
     excerpt: "Đau sâu trong mông, ngồi lâu là tê buốt lan xuống mặt sau đùi, lái xe hay ngồi họp nửa tiếng đã phải nhấp nhổm — nhưng chụp phim cột sống thắt lưng bác sĩ lại bảo không có gì đáng kể. Rất nhiều người rơi vào tình cảnh này rồi đi chữa thoát vị đĩa đệm suốt nhiều tháng mà không đỡ. Nguyên nhân có thể không nằm ở cột sống, mà ở một cơ nhỏ sâu trong mông tên là cơ hình lê, nơi dây thần kinh tọa chui qua và bị chèn ép. Bài viết giải thích cơ chế, chỉ ra những điểm khác biệt then chốt giúp phân biệt với thoát vị đĩa đệm, các dấu hiệu nguy hiểm cần đi khám ngay, bậc thang điều trị từ tập luyện — tiêm — đến phẫu thuật kèm con số hiệu quả thật, và bốn bài tập giãn cơ có thể làm ngay tại nhà.",
