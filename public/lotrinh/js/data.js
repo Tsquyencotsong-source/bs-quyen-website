@@ -109,7 +109,7 @@ const LUAT_SIEU_AM = {
    ví dụ:  diaChi: 'https://<tên miền của viện>/lotrinh/dt.html'
    -------------------------------------------------------------------------- */
 const CAU_HINH_QR = {
-  diaChi: 'https://bsquyen108.com/lotrinh/dt.html',   // địa chỉ chính thức
+  diaChi: '',          // địa chỉ trang dt.html khi đã đưa lên máy chủ
   hienTrenPhieu: true  // in mã QR lên góc phiếu A4
 };
 
@@ -308,9 +308,19 @@ const VI_TRI_MAC_DINH = [
     gioMo:390, gioDong:1020, nghiTruaTu:690, nghiTruaDen:810, xacNhan:true },
 
   /* ===== TRUNG TÂM XẠ TRỊ ===== */
-  { id:'dexa_xatri', moc:['cyberknife'], ten:'Đo mật độ xương — Trung tâm Xạ trị',
+  { id:'dexa_xatri', ten:'Đo mật độ xương — Trung tâm Xạ trị',
     toaNha:'xatri', tang:'2', caoDo:2, phong:'CẦN XÁC NHẬN số phòng',
-    moTa:'Tầng 2 Trung tâm Xạ trị. Đây là nơi DUY NHẤT đo mật độ xương (Khoa chốt 27/08/2026). CHƯA CÓ ẢNH và chưa có số phòng.',
+    moTa:'Đây là nơi duy nhất đo mật độ xương (Khoa chốt 27/08/2026).',
+    /* Đường đi khác nhau tuỳ người bệnh khám ở dãy phòng nào — Khoa mô tả 30/08/2026.
+       Không dùng ảnh ở bước này: ảnh Cyberknife gây hiểu nhầm. */
+    loiDi:[
+      { tu:'Phòng 201 – 212 · tầng 2 nhà N1A',
+        chi:'Đi cầu thang ở đầu hồi toà nhà (gần nhà vệ sinh) xuống tầng 1. Rẽ TRÁI, rồi rẽ TRÁI lần nữa, đi thẳng theo con đường giữa nhà N1A và Trung tâm Xạ trị — là tới cửa vào Trung tâm Xạ trị.' },
+      { tu:'Phòng 215 – 232 · tầng 2',
+        chi:'Đi ra phía cửa dẫn tới Hội trường 12, đi thang máy hoặc thang bộ xuống tầng 1. Gặp bàn Công tác xã hội, hỏi đường sang tầng 2 Trung tâm Xạ trị.' },
+      { tu:'Phòng 235 – 247 · tầng 2 nhà N2A',
+        chi:'Đi thẳng ra cửa, rẽ TRÁI tới cầu thang bộ hoặc thang máy, xuống tầng 1. Gặp bàn Công tác xã hội, hỏi đường sang tầng 2 Trung tâm Xạ trị.' }
+    ],
     gioMo:390, gioDong:1020, nghiTruaTu:690, nghiTruaDen:810, xacNhan:false }
 ];
 

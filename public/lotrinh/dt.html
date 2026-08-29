@@ -79,6 +79,9 @@
   .hop.xam{background:#f4f6f8; border:1px solid var(--vien)}
   .hop.xanh{background:#eaf6ee; border:1px solid #b7ddc4; border-left:5px solid var(--xanh)}
   .hop b{font-weight:700}
+  .loi-di{margin-top:12px; padding-top:10px; border-top:1px solid #ecd3a8}
+  .loi-di:first-of-type{margin-top:8px; padding-top:0; border-top:0}
+  .loi-di b{display:block; margin-bottom:3px; color:var(--cam)}
   .hop ul{margin:6px 0 0; padding-left:20px}
   .hop li{margin-bottom:3px}
   .nut-xong{
@@ -116,7 +119,7 @@
   <button class="nut" id="nut-lai" style="display:none">‹ Chọn lại việc khác</button>
 </div>
 
-<script src="js/data.js?v=20260828c"></script>
+<script src="js/data.js?v=20260830a"></script>
 <script>
 /* ==========================================================================
    TRANG CHO NGƯỜI BỆNH
@@ -352,6 +355,12 @@ function veDuongDi(){
            '</div>';
       if(v.moTa && !/CHƯA CÓ ẢNH|GIẢ ĐỊNH|CẦN KHOA/i.test(v.moTa))
         h += '<div class="duong">' + thoat(v.moTa) + '</div>';
+      /* Có nơi đường đi khác nhau tuỳ dãy phòng khám người bệnh vừa ra. */
+      if(v.loiDi && v.loiDi.length)
+        h += '<div class="hop vang"><b>Đi thế nào — tuỳ phòng khám của anh/chị</b>' +
+             v.loiDi.map(d => '<div class="loi-di"><b>' + thoat(d.tu) + '</b>' +
+                              thoat(d.chi) + '</div>').join('') +
+             '</div>';
       h += anh(v.id, 'Cửa phòng cần đến');
       (v.moc || []).forEach(m => {
         const mo = (typeof MOC_MAC_DINH !== 'undefined') && MOC_MAC_DINH.find(x => x.id === m);
