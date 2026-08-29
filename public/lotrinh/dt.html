@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Đi làm xét nghiệm ở đâu? — Bệnh viện TWQĐ 108</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧭</text></svg>">
+<style>
+  :root{
+    --nen:#eef1f5; --the:#fff; --muc:#12181f; --nhat:#5b6572; --vien:#dbe1e8;
+    --chinh:#0b5aa8; --dam:#083f76; --xanh:#15733f; --cam:#b45309; --vangnhat:#fff8ec;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--nen); color:var(--muc); font-size:18px; line-height:1.5;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+    padding-bottom:110px;
+  }
+  header{
+    position:sticky; top:0; z-index:9; background:var(--chinh); color:#fff;
+    padding:calc(env(safe-area-inset-top) + 14px) 16px 14px;
+  }
+  header .nho{font-size:13px; opacity:.85}
+  header h1{font-size:21px; margin:3px 0 0; font-weight:700; line-height:1.3}
+  main{padding:16px 14px 0}
+
+  /* ---------- màn 1: chọn ---------- */
+  .loi-nhac{font-size:17px; color:var(--nhat); margin:0 0 16px}
+  .tieu-nhom{font-size:15px; font-weight:800; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--nhat); margin:22px 0 10px}
+  .luoi{display:grid; grid-template-columns:1fr 1fr; gap:11px}
+  .o{
+    background:var(--the); border:2px solid var(--vien); border-radius:16px;
+    padding:16px 12px; text-align:center; cursor:pointer; user-select:none;
+    display:flex; flex-direction:column; align-items:center; gap:7px; min-height:112px;
+    justify-content:center;
+  }
+  .o .hinh{font-size:32px; line-height:1}
+  .o .ten{font-size:17px; font-weight:700; line-height:1.25}
+  .o.chon{border-color:var(--chinh); background:#e8f1fb; box-shadow:inset 0 0 0 2px var(--chinh)}
+  .o.chon::after{content:"✓"; position:absolute}
+  .o:focus-visible{outline:3px solid var(--muc); outline-offset:2px}
+
+  /* ---------- màn 2: kết quả ---------- */
+  .buoc{
+    background:var(--the); border:1px solid var(--vien); border-radius:16px;
+    padding:16px; margin-bottom:14px; border-left:6px solid var(--chinh);
+  }
+  .buoc.xong{opacity:.5; border-left-color:var(--xanh)}
+  .buoc .stt{
+    display:inline-flex; align-items:center; justify-content:center;
+    width:32px; height:32px; border-radius:50%; background:var(--chinh); color:#fff;
+    font-weight:800; font-size:17px; margin-bottom:8px;
+  }
+  .buoc.xong .stt{background:var(--xanh)}
+  .buoc h2{font-size:23px; margin:0 0 2px; font-weight:800; line-height:1.25}
+  .noi{
+    margin-top:12px; border:2px solid var(--muc); border-radius:12px; padding:13px;
+    font-size:21px; font-weight:800; line-height:1.3;
+  }
+  .noi .them{display:block; font-size:15px; font-weight:600; color:var(--nhat); margin-top:5px}
+  .nut-noi{
+    display:block; width:100%; margin-top:10px; text-align:left;
+    background:var(--the); border:2px solid var(--chinh); color:var(--chinh);
+    border-radius:12px; padding:15px 14px; font:inherit; font-size:18px; font-weight:700;
+    line-height:1.3; cursor:pointer;
+  }
+  .nut-noi:active{background:#e8f1fb}
+  .doi-noi-hop{margin-top:13px; font-size:14px; color:var(--nhat)}
+  .doi-noi{background:none; border:0; color:var(--chinh); font:inherit; font-size:14px;
+    font-weight:700; text-decoration:underline; cursor:pointer; padding:2px 0}
+  .duong{margin-top:9px; font-size:16px; color:var(--nhat)}
+  .anh{margin-top:11px; border-radius:12px; overflow:hidden; border:1px solid var(--vien)}
+  .anh img{display:block; width:100%; height:auto}
+  .anh .chu{padding:8px 11px; font-size:14px; color:var(--nhat); background:#fafbfc}
+  .hop{margin-top:11px; padding:12px 13px; border-radius:12px; font-size:16px}
+  .hop.vang{background:var(--vangnhat); border:1px solid #ecd3a8}
+  .hop.xam{background:#f4f6f8; border:1px solid var(--vien)}
+  .hop.xanh{background:#eaf6ee; border:1px solid #b7ddc4; border-left:5px solid var(--xanh)}
+  .hop b{font-weight:700}
+  .hop ul{margin:6px 0 0; padding-left:20px}
+  .hop li{margin-bottom:3px}
+  .nut-xong{
+    margin-top:12px; width:100%; border:2px solid var(--vien); background:#f4f6f8;
+    border-radius:12px; padding:12px; font:inherit; font-size:17px; font-weight:700; cursor:pointer;
+  }
+  .buoc.xong .nut-xong{background:#e8f5ec; border-color:#bcdcc8; color:var(--xanh)}
+
+  .day{
+    position:fixed; left:0; right:0; bottom:0; background:var(--the);
+    border-top:1px solid var(--vien); padding:12px 14px calc(env(safe-area-inset-bottom) + 12px);
+    display:flex; gap:10px;
+  }
+  .nut{
+    flex:1; border:0; border-radius:14px; background:var(--chinh); color:#fff;
+    font:inherit; font-size:19px; font-weight:700; padding:16px; cursor:pointer;
+  }
+  .nut:active{background:var(--dam)}
+  .nut:disabled{opacity:.4}
+  .nut.phu{flex:0 0 auto; background:#e9edf2; color:var(--muc); font-size:17px; padding:16px 18px}
+  @media (prefers-reduced-motion: reduce){*{transition:none !important}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nho">Bệnh viện TWQĐ 108 · Khoa Khám bệnh đa khoa</div>
+  <h1 id="tieu-de">Bác sĩ chỉ định anh/chị làm gì?</h1>
+</header>
+
+<main id="noi"></main>
+
+<div class="day">
+  <button class="nut" id="nut-xem" disabled>Xem đường đi</button>
+  <button class="nut" id="nut-lai" style="display:none">‹ Chọn lại việc khác</button>
+</div>
+
+<script src="js/data.js?v=20260828c"></script>
+<script>
+/* ==========================================================================
+   TRANG CHO NGƯỜI BỆNH
+   Người bệnh tích vào việc mình được chỉ định → hiện ngay đi đâu, đi thế nào.
+   Không cần nhập gì, không có tên tuổi, không gửi dữ liệu đi đâu.
+   ========================================================================== */
+const $ = s => document.querySelector(s);
+const thoat = s => String(s == null ? '' : s)
+  .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+
+/* --- 12 nhóm việc, đúng như trên phiếu chỉ định người bệnh cầm --- */
+const NHOM = [
+  { id:'mau',    hinh:'🩸', ten:'Xét nghiệm máu',      diem:['laymau'],  thutu:1,
+    truoc:{ viTri:'layong', ten:'Lấy ống xét nghiệm' },
+    chuanBi:['Nếu xét nghiệm đường máu, mỡ máu, chức năng gan thận: <b>phải nhịn ăn ít nhất 8 giờ</b>, chỉ uống nước lọc.',
+             'Công thức máu thì không cần nhịn ăn.'] },
+  { id:'nuoctieu', hinh:'🧪', ten:'Xét nghiệm nước tiểu', diem:['nuoctieu'], thutu:2,
+    chuanBi:['Lấy nước tiểu giữa dòng vào lọ được phát.',
+             'Nếu có siêu âm ổ bụng: <b>lấy mẫu trước</b> rồi mới uống nước.'] },
+  { id:'noisoi', hinh:'🔬', ten:'Nội soi tiêu hoá',    diem:['noisoi'], thutu:3,
+    truoc:{ viTri:'noisoi_tiepdon', ten:'Đăng ký ở quầy tiếp đón nội soi' },
+    chuanBi:['<b>Nhịn ăn hoàn toàn ít nhất 8 giờ, kể cả nước.</b>',
+             'Nếu soi gây mê thì bắt buộc có người nhà đi cùng.',
+             'Tháo răng giả trước khi soi.'] },
+  { id:'sieuam', hinh:'📡', ten:'Siêu âm',             diem:['khu_n3'], thutu:4,
+    chuanBi:['Siêu âm ổ bụng: <b>nhịn ăn 6 giờ</b>, uống khoảng 500ml nước rồi <b>nhịn tiểu</b> cho căng bàng quang.',
+             'Siêu âm tuyến giáp, tuyến vú thì không cần chuẩn bị gì.'] },
+  { id:'ct',     hinh:'🧠', ten:'Chụp cắt lớp (CT)',   diem:['ct_n1b','ct_tanglung','ct_tt'], thutu:5,
+    chuanBi:['Nếu có tiêm thuốc cản quang: nhịn ăn 4–6 giờ.',
+             'Báo bác sĩ nếu từng dị ứng thuốc cản quang.',
+             '<b>Báo ngay nếu đang có thai.</b>'] },
+  { id:'mri',    hinh:'🧲', ten:'Chụp cộng hưởng từ',  diem:['mri_n1b','mri_tt2','mri_tt3','mri_yeucau'], thutu:6,
+    chuanBi:['<b>Bỏ toàn bộ đồ kim loại</b>, thẻ từ, điện thoại, răng giả tháo được.',
+             '<b>Báo ngay nếu có máy tạo nhịp tim, van tim nhân tạo, đinh vít hoặc mảnh kim khí trong người.</b>',
+             'Nằm yên 20–30 phút, máy kêu to là bình thường.'] },
+  { id:'xquang', hinh:'🦴', ten:'Chụp X-quang',        diem:['xquang'], thutu:7,
+    chuanBi:['Bỏ hết đồ kim loại: dây chuyền, thắt lưng có khoá.',
+             '<b>Báo ngay nếu đang có thai hoặc nghi có thai.</b>'] },
+  { id:'dexa',   hinh:'🦵', ten:'Đo mật độ xương',     diem:['dexa_xatri'], thutu:8,
+    chuanBi:['Không uống thuốc có canxi trong 24 giờ trước.','Bỏ hết đồ kim loại.'] },
+  { id:'ecg',    hinh:'❤️', ten:'Điện tim',            diem:['khu_n3'], thutu:9,
+    chuanBi:['Nghỉ ngơi 5 phút trước khi đo.','Mặc áo dễ cởi.'] },
+  { id:'diennao',hinh:'🧠', ten:'Điện não / lưu huyết não', diem:['khu_n3'], thutu:10,
+    chuanBi:['Gội đầu sạch, không bôi keo hay dầu dưỡng tóc.'] },
+  { id:'dienco', hinh:'⚡', ten:'Đo điện cơ',          diem:['dienco_tt'], thutu:11,
+    chuanBi:['Mặc quần áo rộng dễ vén tay chân.','Không bôi kem dưỡng da lên tay chân.'] },
+  { id:'hohap',  hinh:'🫁', ten:'Đo chức năng hô hấp', diem:['khu_n3','hohap_tt'], thutu:12,
+    chuanBi:['Không hút thuốc trong 1 giờ trước.','Không ăn no ngay trước khi đo.'] }
+];
+
+/* --- Hai việc KHÔNG phải xét nghiệm, khác nhau theo diện khám --- */
+const NHOM_KHAC = [
+  { id:'nop', hinh:'💵', ten:'Nộp tiền xét nghiệm', thutu:0, hoiLuong:true,
+    theoLuong:{
+      bhyt:{ diem:[], bao:'Khám <b>bảo hiểm y tế</b> thì KHÔNG phải nộp tiền xét nghiệm. ' +
+             'Anh/chị đi thẳng đến nơi làm xét nghiệm, không cần xếp hàng ở quầy thu tiền.',
+             chuanBi:['Phần chênh lệch (nếu có) sẽ thanh toán khi lấy kết luận và đơn thuốc.'] },
+      dichvu:{ diem:['cua8_n1b','cua8_n1a'],
+             hoiText:'Có HAI cửa số 8, một ở nhà N1A và một ở nhà N1B. Anh/chị đến cửa ở <b>cùng toà nhà với phòng khám của mình</b>. Phòng khám của anh/chị ở đâu?',
+             chuanBi:['Nếu đã quét mã QR thanh toán ngay tại phòng khám thì BỎ QUA bước này.',
+                      'Nộp tiền xong mới đi làm xét nghiệm được.'] }
+    } },
+  { id:'thuoc', hinh:'💊', ten:'Lấy thuốc', thutu:99, hoiLuong:true,
+    theoLuong:{
+      bhyt:{ diem:['thuocbh'],
+             bao:'Thuốc bảo hiểm y tế lấy ở <b>Khoa Dược, tầng 1 nhà N2A</b>. ' +
+                 'KHÔNG phải Nhà thuốc số 2 — đây là chỗ rất nhiều người đi nhầm.',
+             chuanBi:['Nhận phiếu kết luận và đơn thuốc ở cửa số 8 trước, rồi mới sang lấy thuốc.',
+                      'Đưa đúng phiếu lĩnh thuốc. Nếu nhân viên nói "không phải quầy này" thì hỏi lại ngay.'] },
+      dichvu:{ diem:['thuoc2'],
+             bao:'Thuốc dịch vụ lấy ở <b>Nhà thuốc số 2, tầng 1 nhà N1A</b>.',
+             chuanBi:['Nhận phiếu kết luận và đơn thuốc ở cửa số 8 trước, rồi mới sang lấy thuốc.'] }
+    } }
+];
+
+const viTri = id => VI_TRI_MAC_DINH.find(v => v.id === id);
+const tenToa = id => { const t = TOA_NHA_MAC_DINH.find(x => x.id === id); return t ? t.ten : id; };
+const diaChi = v => v ? (tenToa(v.toaNha) + ' · tầng ' + v.tang + (v.phong && !/XÁC NHẬN/i.test(v.phong) ? ' · ' + v.phong : '')) : '';
+
+let chon = new Set();
+try{ chon = new Set(JSON.parse(localStorage.getItem('lt108.chon') || '[]')); }catch(e){}
+let xong = new Set();
+try{ xong = new Set(JSON.parse(localStorage.getItem('lt108.xong') || '[]')); }catch(e){}
+let chonNoi = {};   // nhóm nào có nhiều chỗ làm -> người bệnh chọn chỗ ghi trên phiếu
+try{ chonNoi = JSON.parse(localStorage.getItem('lt108.noi') || '{}'); }catch(e){}
+let luongChon = '';  // 'bhyt' hoặc 'dichvu'
+try{ luongChon = localStorage.getItem('lt108.luong') || ''; }catch(e){}
+const luu = () => { try{
+  localStorage.setItem('lt108.chon', JSON.stringify([...chon]));
+  localStorage.setItem('lt108.xong', JSON.stringify([...xong]));
+  localStorage.setItem('lt108.noi', JSON.stringify(chonNoi));
+  localStorage.setItem('lt108.luong', luongChon);
+}catch(e){} };
+
+/* ================= MÀN 1 — chọn việc ================= */
+function veChon(){
+  $('#tieu-de').textContent = 'Bác sĩ chỉ định anh/chị làm gì?';
+  $('#nut-lai').style.display = 'none';
+  $('#nut-xem').style.display = '';
+  $('#noi').innerHTML =
+    '<p class="loi-nhac">Xem tờ phiếu chỉ định trong tay, thấy có việc nào thì bấm vào ô đó. ' +
+    'Bấm được nhiều ô.</p>' +
+    '<div class="luoi">' + NHOM.map(n =>
+      '<button class="o' + (chon.has(n.id) ? ' chon' : '') + '" data-id="' + n.id + '">' +
+        '<span class="hinh">' + n.hinh + '</span>' +
+        '<span class="ten">' + thoat(n.ten) + '</span>' +
+      '</button>').join('') + '</div>' +
+    '<h2 class="tieu-nhom">Việc khác</h2>' +
+    '<div class="luoi">' + NHOM_KHAC.map(n =>
+      '<button class="o' + (chon.has(n.id) ? ' chon' : '') + '" data-id="' + n.id + '">' +
+        '<span class="hinh">' + n.hinh + '</span>' +
+        '<span class="ten">' + thoat(n.ten) + '</span>' +
+      '</button>').join('') + '</div>';
+  capNhatNut();
+  window.scrollTo(0, 0);
+}
+function capNhatNut(){
+  const n = chon.size;
+  $('#nut-xem').disabled = n === 0;
+  $('#nut-xem').textContent = n === 0 ? 'Chọn ít nhất một việc' : ('Xem đường đi (' + n + ')');
+}
+$('#noi').addEventListener('click', e => {
+  const o = e.target.closest('.o');
+  if(o){
+    const id = o.dataset.id;
+    if(chon.has(id)) chon.delete(id); else chon.add(id);
+    o.classList.toggle('chon');
+    luu(); capNhatNut(); return;
+  }
+  const nl = e.target.closest('.nut-luong');
+  if(nl){ luongChon = nl.dataset.luong; luu(); veDuongDi(); return; }
+
+  const dl = e.target.closest('.doi-luong');
+  if(dl){ luongChon = ''; chonNoi['nop'] = undefined; luu(); veDuongDi(); return; }
+
+  const nn = e.target.closest('.nut-noi');
+  if(nn){ chonNoi[nn.dataset.nhom] = nn.dataset.vt; luu(); veDuongDi(); return; }
+
+  const dn = e.target.closest('.doi-noi');
+  if(dn){ delete chonNoi[dn.dataset.nhom]; luu(); veDuongDi(); return; }
+
+  const nx = e.target.closest('.nut-xong');
+  if(nx){
+    const k = nx.dataset.k;
+    if(xong.has(k)) xong.delete(k); else xong.add(k);
+    luu(); veDuongDi(); return;
+  }
+});
+
+/* ================= MÀN 2 — đường đi ================= */
+function veDuongDi(){
+  const ds = NHOM.concat(NHOM_KHAC).filter(n => chon.has(n.id)).sort((a, b) => a.thutu - b.thutu);
+  $('#tieu-de').textContent = 'Đi lần lượt ' + ds.length + ' nơi';
+  $('#nut-lai').style.display = '';
+  $('#nut-xem').style.display = 'none';
+
+  // việc phải làm trước (lấy ống, đăng ký nội soi) đưa lên đầu, không lặp
+  const daTruoc = new Set();
+  const khoi = [];
+  ds.forEach(n => {
+    if(n.truoc && !daTruoc.has(n.truoc.viTri)){
+      daTruoc.add(n.truoc.viTri);
+      khoi.push({ khoa: 'truoc-' + n.truoc.viTri, truoc: true, ten: n.truoc.ten,
+                  diem: [n.truoc.viTri], vi: n.ten });
+    }
+    if(n.hoiLuong) khoi.push({ khoa: n.id, ten: n.ten, hoiLuong: true, theoLuong: n.theoLuong });
+    else khoi.push({ khoa: n.id, ten: n.ten, diem: n.diem, chuanBi: n.chuanBi });
+  });
+
+  let h = '<div class="hop xanh" style="margin-bottom:16px">' +
+    '<b>KHÔNG phải ngồi chờ lấy kết quả.</b><br>' +
+    'Làm xong ở phòng nào thì đi luôn phòng tiếp theo. Kết quả được gửi thẳng về ' +
+    'phòng khám của bác sĩ đã chỉ định. Khi làm xong hết, anh/chị quay lại phòng khám ' +
+    'nghe bác sĩ đọc tổng hợp một lần.</div>' +
+    '<p class="loi-nhac">Làm xong nơi nào thì bấm <b>Đã xong</b> để khỏi quên. ' +
+    'Không nhớ đường thì đưa màn hình này cho nhân viên y tế.</p>';
+
+  khoi.forEach((k, idx) => {
+    const da = xong.has(k.khoa);
+    h += '<div class="buoc' + (da ? ' xong' : '') + '">';
+    h += '<div class="stt">' + (da ? '✓' : idx + 1) + '</div>';
+    h += '<h2>' + (k.truoc ? 'Trước tiên: ' : '') + thoat(k.ten) + '</h2>';
+    if(k.truoc) h += '<div class="duong">Phải làm bước này trước khi ' + thoat(k.vi.toLowerCase()) + '.</div>';
+
+    // Việc khác nhau theo diện khám: hỏi trước
+    if(k.hoiLuong){
+      if(!luongChon){
+        h += '<div class="hop vang"><b>Việc này khác nhau giữa bảo hiểm y tế và dịch vụ.</b><br>' +
+             'Anh/chị khám theo diện nào?</div>' +
+             '<button class="nut-noi nut-luong" data-luong="bhyt">Bảo hiểm y tế</button>' +
+             '<button class="nut-noi nut-luong" data-luong="dichvu">Khám dịch vụ / theo yêu cầu</button>' +
+             '<button class="nut-xong" data-k="' + thoat(k.khoa) + '">' +
+             (da ? '✓ Đã xong' : 'Đã xong nơi này') + '</button></div>';
+        return;
+      }
+      const c = k.theoLuong[luongChon] || {};
+      k.diem = c.diem || [];
+      k.chuanBi = c.chuanBi;
+      k.hoiText = c.hoiText;
+      h += '<div class="doi-noi-hop">Diện khám: <b>' +
+           (luongChon === 'bhyt' ? 'Bảo hiểm y tế' : 'Dịch vụ / theo yêu cầu') + '</b> · ' +
+           '<button class="doi-luong">đổi</button></div>';
+      if(c.bao) h += '<div class="hop xanh">' + c.bao + '</div>';
+    }
+
+    let dsV = (k.diem || []).map(viTri).filter(Boolean);
+
+    // Nơi có NHIỀU chỗ làm: hỏi người bệnh xem phiếu ghi chỗ nào, chọn xong mới chỉ đường
+    if(dsV.length > 1 && !k.truoc){
+      const daChon = chonNoi[k.khoa];
+      const v = daChon && dsV.find(x => x.id === daChon);
+      if(!v){
+        h += '<div class="hop vang">' + (k.hoiText ||
+             ('<b>Việc này làm được ở ' + dsV.length + ' chỗ khác nhau.</b><br>' +
+              'Anh/chị xem tờ phiếu chỉ định, thấy ghi chỗ nào thì bấm vào chỗ đó:')) + '</div>';
+        dsV.forEach(x => {
+          h += '<button class="nut-noi" data-nhom="' + thoat(k.khoa) + '" data-vt="' + thoat(x.id) + '">' +
+               thoat(diaChi(x)) + '</button>';
+        });
+        h += '<div class="duong">Phiếu không ghi rõ, hoặc không chắc? Đưa tờ phiếu cho nhân viên y tế xem giúp.</div>';
+        h += '<button class="nut-xong" data-k="' + thoat(k.khoa) + '">' +
+             (da ? '✓ Đã xong' : 'Đã xong nơi này') + '</button></div>';
+        return;
+      }
+      dsV = [v];
+      h += '<div class="doi-noi-hop">Chỗ anh/chị đã chọn · ' +
+           '<button class="doi-noi" data-nhom="' + thoat(k.khoa) + '">đổi chỗ khác</button></div>';
+    }
+
+    dsV.forEach(v => {
+      h += '<div class="noi">' + thoat(diaChi(v)) +
+           (/XÁC NHẬN/i.test(v.phong || '') ? '<span class="them">Hỏi nhân viên số phòng cụ thể</span>' : '') +
+           '</div>';
+      if(v.moTa && !/CHƯA CÓ ẢNH|GIẢ ĐỊNH|CẦN KHOA/i.test(v.moTa))
+        h += '<div class="duong">' + thoat(v.moTa) + '</div>';
+      h += anh(v.id, 'Cửa phòng cần đến');
+      (v.moc || []).forEach(m => {
+        const mo = (typeof MOC_MAC_DINH !== 'undefined') && MOC_MAC_DINH.find(x => x.id === m);
+        if(mo) h += anh(mo.id, 'Đi qua: ' + mo.ten, mo.moTa);
+      });
+    });
+
+    if(k.chuanBi && k.chuanBi.length)
+      h += '<div class="hop xam"><b>Cần chuẩn bị</b><ul>' +
+           k.chuanBi.map(c => '<li>' + c + '</li>').join('') + '</ul></div>';
+
+    h += '<button class="nut-xong" data-k="' + thoat(k.khoa) + '">' +
+         (da ? '✓ Đã xong' : 'Đã xong nơi này') + '</button>';
+    h += '</div>';
+  });
+
+  h += '<div class="hop xanh" style="margin-bottom:20px"><b>Làm xong hết rồi thì sao?</b><ul>' +
+       '<li>Quay lại <b>phòng khám của bác sĩ đã chỉ định</b> để nghe kết luận.</li>' +
+       '<li><b>Không cần đi xin từng tờ kết quả</b> — kết quả tự chuyển về phòng khám đó.</li>' +
+       '<li>Bác sĩ đọc tổng hợp <b>một lần</b> khi đã có đủ, nên anh/chị làm hết các việc rồi hãy quay lại.</li>' +
+       '<li>Nếu chưa có đủ kết quả, ngồi chờ thêm rồi vào — không cần lấy lại số.</li>' +
+       '<li>Hết giờ mà chưa xong: quay lại phòng khám xin phiếu mới, phiếu chỉ dùng trong ngày.</li>' +
+       '</ul></div>';
+
+  $('#noi').innerHTML = h;
+  window.scrollTo(0, 0);
+}
+
+function anh(id, chu, them){
+  return '<div class="anh"><img src="anh/' + thoat(id) + '.jpg" alt="" loading="lazy" ' +
+    'onerror="this.closest(\'.anh\').remove()"><div class="chu"><b>' + thoat(chu) + '</b>' +
+    (them ? '<br>' + thoat(them) : '') + '</div></div>';
+}
+
+$('#nut-xem').addEventListener('click', () => { if(chon.size) veDuongDi(); });
+$('#nut-lai').addEventListener('click', () => { veChon(); capNhatNut(); });
+
+veChon();
+</script>
+</body>
+</html>
