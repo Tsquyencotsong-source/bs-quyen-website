@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "thoat-vi-dia-dem-co-tu-khoi-duoc-khong",
+    title: "Thoát Vị Đĩa Đệm Có Tự Khỏi Được Không? Sự Thật Về Hiện Tượng Khối Thoát Vị Tự Tiêu",
+    excerpt: "Cầm tờ kết quả MRI có dòng chữ \"thoát vị đĩa đệm chèn ép rễ thần kinh\", rất nhiều người nghĩ ngay đến hai chữ: phải mổ. Nhưng có một sự thật ít được nói rõ ở phòng khám: khối thoát vị có thể TỰ TIÊU ĐI, và tỷ lệ tự tiêu cao hơn bác hình dung rất nhiều. Điều bất ngờ hơn nữa là khối càng to, càng lồi hẳn ra ngoài thì lại càng dễ tiêu, còn khối phồng nhẹ thì gần như nằm yên. Bài viết giải thích cơ chế tự tiêu, đưa con số cụ thể cho từng thể thoát vị từ các phân tích gộp quốc tế, mất bao lâu để thấy thay đổi, vì sao triệu chứng hết trước phim rất lâu, kết quả của nghiên cứu so sánh mổ sớm với điều trị bảo tồn sau một và hai năm, những dấu hiệu tuyệt đối không được chờ đợi, cùng việc cần làm cụ thể trong thời gian theo dõi.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-29",
+  },
+  {
     slug: "uong-canxi-vitamin-d-the-nao-cho-dung",
     title: "Uống Canxi Và Vitamin D Thế Nào Cho Đúng Để Chắc Xương?",
     excerpt: "Hầu như ngày nào ở phòng khám tôi cũng nghe câu hỏi này: em uống canxi mấy năm nay rồi mà đo vẫn loãng xương, có phải thuốc dởm không bác? Canxi và vitamin D là hai thứ được mua nhiều nhất, uống lâu nhất, nhưng cũng bị hiểu sai nhiều nhất. Bài viết trả lời rành mạch: mỗi ngày thực sự cần bao nhiêu canxi và vitamin D, cách tính nhanh xem khẩu phần đang thiếu bao nhiêu, tại sao các nghiên cứu lớn cho thấy uống viên bổ sung KHÔNG giúp giảm gãy xương ở người vốn không thiếu, ai mới thật sự cần uống thêm, cách uống cho hấp thu tốt và tránh sỏi thận, vì sao liều cao ngắt quãng lại có hại, cùng những dấu hiệu cần đi khám ngay.",
