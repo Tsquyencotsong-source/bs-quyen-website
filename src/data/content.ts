@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dau-got-chan-buoc-dau-tien-buoi-sang",
+    title: "Bước Chân Đầu Tiên Buổi Sáng Đau Nhói Ở Gót — Viêm Cân Gan Chân Và Sự Thật Về Gai Gót Chân",
+    excerpt: "Sáng ngủ dậy vừa đặt chân xuống đất là đau nhói ở gót như giẫm phải đinh, đi vài chục bước thì đỡ dần, nhưng ngồi lâu đứng lên lại đau y như vậy — đó là dấu hiệu rất đặc trưng của viêm cân gan chân. Nhiều người đi chụp phim thấy có gai gót chân liền tin rằng cái gai chính là thủ phạm, rồi tìm cách chữa gai. Thực tế theo tài liệu của Viện Hàn lâm Phẫu thuật viên Chỉnh hình Hoa Kỳ, gai gót chân KHÔNG phải là nguyên nhân gây đau; nó thường là hệ quả đi kèm chứ không phải gốc rễ. Bài viết giải thích cơ chế vì sao bước đầu tiên buổi sáng lại đau nhất, bài kéo giãn quan trọng nhất nên tập ngay trước khi đặt chân xuống giường, và nói thẳng về tiêm corticoid: giảm đau nhanh nhưng chỉ kéo dài 4 đến 12 tuần, kèm nguy cơ đứt cân gan chân khoảng 2,4% và teo lớp mỡ đệm gót có thể vĩnh viễn.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-30",
+  },
+  {
     slug: "thoat-vi-dia-dem-co-tu-khoi-duoc-khong",
     title: "Thoát Vị Đĩa Đệm Có Tự Khỏi Được Không? Sự Thật Về Hiện Tượng Khối Thoát Vị Tự Tiêu",
     excerpt: "Cầm tờ kết quả MRI có dòng chữ \"thoát vị đĩa đệm chèn ép rễ thần kinh\", rất nhiều người nghĩ ngay đến hai chữ: phải mổ. Nhưng có một sự thật ít được nói rõ ở phòng khám: khối thoát vị có thể TỰ TIÊU ĐI, và tỷ lệ tự tiêu cao hơn bác hình dung rất nhiều. Điều bất ngờ hơn nữa là khối càng to, càng lồi hẳn ra ngoài thì lại càng dễ tiêu, còn khối phồng nhẹ thì gần như nằm yên. Bài viết giải thích cơ chế tự tiêu, đưa con số cụ thể cho từng thể thoát vị từ các phân tích gộp quốc tế, mất bao lâu để thấy thay đổi, vì sao triệu chứng hết trước phim rất lâu, kết quả của nghiên cứu so sánh mổ sớm với điều trị bảo tồn sau một và hai năm, những dấu hiệu tuyệt đối không được chờ đợi, cùng việc cần làm cụ thể trong thời gian theo dõi.",
