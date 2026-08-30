@@ -82,6 +82,15 @@
   .loi-di{margin-top:12px; padding-top:10px; border-top:1px solid #ecd3a8}
   .loi-di:first-of-type{margin-top:8px; padding-top:0; border-top:0}
   .loi-di b{display:block; margin-bottom:3px; color:var(--cam)}
+  .sodo{margin:0 0 22px; background:var(--the); border:1px solid var(--vien); border-radius:14px}
+  .sodo>summary{padding:15px 14px; font-size:17px; font-weight:700; cursor:pointer; list-style:none}
+  .sodo>summary::-webkit-details-marker{display:none}
+  .sodo>summary::after{content:'  ▾'; color:var(--nhat)}
+  .sodo[open]>summary::after{content:'  ▴'}
+  .sodo .trong{padding:0 14px 14px}
+  .sodo-toa{margin-top:14px; font-size:16px}
+  .sodo-toa b{display:block; color:var(--chinh); margin-bottom:2px}
+  .sodo-toa div{color:var(--nhat); line-height:1.45}
   .hop ul{margin:6px 0 0; padding-left:20px}
   .hop li{margin-bottom:3px}
   .nut-xong{
@@ -119,7 +128,7 @@
   <button class="nut" id="nut-lai" style="display:none">‹ Chọn lại việc khác</button>
 </div>
 
-<script src="js/data.js?v=20260830a"></script>
+<script src="js/data.js?v=20260830d"></script>
 <script>
 /* ==========================================================================
    TRANG CHO NGƯỜI BỆNH
@@ -147,11 +156,11 @@ const NHOM = [
   { id:'sieuam', hinh:'📡', ten:'Siêu âm',             diem:['khu_n3'], thutu:4,
     chuanBi:['Siêu âm ổ bụng: <b>nhịn ăn 6 giờ</b>, uống khoảng 500ml nước rồi <b>nhịn tiểu</b> cho căng bàng quang.',
              'Siêu âm tuyến giáp, tuyến vú thì không cần chuẩn bị gì.'] },
-  { id:'ct',     hinh:'🧠', ten:'Chụp cắt lớp (CT)',   diem:['ct_n1b','ct_tanglung','ct_tt'], thutu:5,
+  { id:'ct',     hinh:'🧠', ten:'Chụp cắt lớp (CT)',   diem:['ct_n1b','ct_tanglung','ct_tt','ct_a11'], thutu:5,
     chuanBi:['Nếu có tiêm thuốc cản quang: nhịn ăn 4–6 giờ.',
              'Báo bác sĩ nếu từng dị ứng thuốc cản quang.',
              '<b>Báo ngay nếu đang có thai.</b>'] },
-  { id:'mri',    hinh:'🧲', ten:'Chụp cộng hưởng từ',  diem:['mri_n1b','mri_tt2','mri_tt3','mri_yeucau'], thutu:6,
+  { id:'mri',    hinh:'🧲', ten:'Chụp cộng hưởng từ',  diem:['mri_n1b','mri_tt2','mri_yeucau'], thutu:6,
     chuanBi:['<b>Bỏ toàn bộ đồ kim loại</b>, thẻ từ, điện thoại, răng giả tháo được.',
              '<b>Báo ngay nếu có máy tạo nhịp tim, van tim nhân tạo, đinh vít hoặc mảnh kim khí trong người.</b>',
              'Nằm yên 20–30 phút, máy kêu to là bình thường.'] },
@@ -309,8 +318,8 @@ function veDuongDi(){
       if(!luongChon){
         h += '<div class="hop vang"><b>Việc này khác nhau giữa bảo hiểm y tế và dịch vụ.</b><br>' +
              'Anh/chị khám theo diện nào?</div>' +
-             '<button class="nut-noi nut-luong" data-luong="bhyt">Bảo hiểm y tế</button>' +
-             '<button class="nut-noi nut-luong" data-luong="dichvu">Khám dịch vụ / theo yêu cầu</button>' +
+             '<button class="nut-noi nut-luong" data-luong="bhyt">Khám bảo hiểm</button>' +
+             '<button class="nut-noi nut-luong" data-luong="dichvu">Khám dịch vụ</button>' +
              '<button class="nut-xong" data-k="' + thoat(k.khoa) + '">' +
              (da ? '✓ Đã xong' : 'Đã xong nơi này') + '</button></div>';
         return;
@@ -320,7 +329,7 @@ function veDuongDi(){
       k.chuanBi = c.chuanBi;
       k.hoiText = c.hoiText;
       h += '<div class="doi-noi-hop">Diện khám: <b>' +
-           (luongChon === 'bhyt' ? 'Bảo hiểm y tế' : 'Dịch vụ / theo yêu cầu') + '</b> · ' +
+           (luongChon === 'bhyt' ? 'Khám bảo hiểm' : 'Khám dịch vụ') + '</b> · ' +
            '<button class="doi-luong">đổi</button></div>';
       if(c.bao) h += '<div class="hop xanh">' + c.bao + '</div>';
     }
@@ -385,8 +394,22 @@ function veDuongDi(){
        '<li>Hết giờ mà chưa xong: quay lại phòng khám xin phiếu mới, phiếu chỉ dùng trong ngày.</li>' +
        '</ul></div>';
 
+  h += veSoDo();
   $('#noi').innerHTML = h;
   window.scrollTo(0, 0);
+}
+
+/* Bảng tra "phòng nào ở toà nào" + hai tấm sơ đồ treo ở sảnh.
+   Để cuối màn hình, gấp lại sẵn — ai cần mới mở, không che mất các bước. */
+function veSoDo(){
+  if(typeof SO_DO_PHONG === 'undefined') return '';
+  return '<details class="sodo"><summary>Sơ đồ Khoa Khám bệnh — phòng nào ở toà nào?</summary>' +
+    '<div class="trong">' +
+    SO_DO_PHONG.bang.map(t =>
+      '<div class="sodo-toa"><b>' + thoat(t.toa) + '</b>' +
+      t.dong.map(x => '<div>' + thoat(x) + '</div>').join('') + '</div>').join('') +
+    SO_DO_PHONG.anh.map(a => anh(a.id, a.ten)).join('') +
+    '</div></details>';
 }
 
 function anh(id, chu, them){

@@ -34,6 +34,8 @@ const TOA_NHA_MAC_DINH = [
     moTa:'Toà cao nhất viện, nhìn thấy từ xa. Tầng 2 có phòng đo điện cơ và các phòng chụp cộng hưởng từ (Toà trung tâm 2, Toà trung tâm 3).' },
   { id:'xatri', ten:'Trung tâm Xạ trị', xacNhan:false,
     moTa:'CẦN KHOA XÁC NHẬN đứng ở đâu so với Trung tâm Cyberknife cạnh nhà N3. Tầng 2 có phòng đo mật độ xương.' },
+  { id:'a11',  ten:'Toà nhà A11', xacNhan:false,
+    moTa:'Từ cổng 1B đi thẳng vào trung tâm Bệnh viện. Đến chỗ có biển chỉ rẽ phải vào Khoa Cấp cứu C1.3 thì toà nhà A11 nằm bên tay PHẢI. Tầng 1 có phòng chụp cắt lớp vi tính.' },
   { id:'n3',   ten:'Nhà N3', xacNhan:true,
     moTa:'Toà riêng. Tầng 1 hiến máu tình nguyện, tầng 2 Trung tâm khám sức khoẻ, tầng 3 Khoa khám bệnh theo yêu cầu, tầng 4 Khoa Phẫu thuật và điều trị theo yêu cầu.' }
 ];
@@ -67,6 +69,14 @@ const THOI_GIAN_DI_MAC_DINH = {
   'n2a|nha21':  { phut: 7, ngoaiTroi: true, xacNhan:false },
   'n2b|nha21':  { phut: 7, ngoaiTroi: true, xacNhan:false },
   'n3|nha21':   { phut: 6, ngoaiTroi: true, xacNhan:false },
+  'n1a|a11':   { phut: 7, ngoaiTroi: true, xacNhan:false },
+  'n1b|a11':   { phut: 7, ngoaiTroi: true, xacNhan:false },
+  'ht12|a11':  { phut: 8, ngoaiTroi: true, xacNhan:false },
+  'n2a|a11':   { phut: 8, ngoaiTroi: true, xacNhan:false },
+  'n2b|a11':   { phut: 8, ngoaiTroi: true, xacNhan:false },
+  'n3|a11':    { phut: 7, ngoaiTroi: true, xacNhan:false },
+  'nha21|a11': { phut: 6, ngoaiTroi: true, xacNhan:false },
+  'xatri|a11': { phut: 7, ngoaiTroi: true, xacNhan:false },
   'n1a|xatri':   { phut: 8, ngoaiTroi: true, xacNhan:false },
   'n1b|xatri':   { phut: 8, ngoaiTroi: true, xacNhan:false },
   'ht12|xatri':  { phut: 9, ngoaiTroi: true, xacNhan:false },
@@ -220,7 +230,7 @@ const VI_TRI_MAC_DINH = [
     gioMo:390, gioDong:1020, nghiTruaTu:690, nghiTruaDen:810, xacNhan:false },
 
   /* ===== TẦNG 1 NHÀ N1B — X-QUANG ===== */
-  { id:'xquang', moc:['loivao_cls'], ten:'Chụp X-quang — phòng 101 đến 105', toaNha:'n1b', tang:'1', caoDo:1, phong:'101 – 105',
+  { id:'xquang', moc:['loivao_cls'], ten:'Chụp X-quang — phòng 103 đến 105', toaNha:'n1b', tang:'1', caoDo:1, phong:'103 – 105',
     moTa:'Khoa X-quang chẩn đoán, tầng 1 nhà N1B. Từ lối vào khu cận lâm sàng rẽ TAY PHẢI. Các phòng liền nhau, mỗi phòng có màn hình gọi số riêng.',
     gioMo:390, gioDong:1020, nghiTruaTu:690, nghiTruaDen:810, xacNhan:true },
 
@@ -307,6 +317,22 @@ const VI_TRI_MAC_DINH = [
     moTa:'Tầng 2 nhà 21 tầng. Biển treo "KHU CHỤP CT / CT Section". Cạnh khu chờ làm xét nghiệm chẩn đoán hình ảnh (Khám chất lượng cao) — CẦN KHOA XÁC NHẬN có nhận người bệnh BHYT không.',
     gioMo:390, gioDong:1020, nghiTruaTu:690, nghiTruaDen:810, xacNhan:true },
 
+  /* ===== TOÀ NHÀ A11 ===== */
+  { id:'ct_a11', ten:'Chụp cắt lớp vi tính (CT) — toà nhà A11',
+    toaNha:'a11', tang:'1', caoDo:1, phong:'',
+    moTa:'Từ cổng 1B đi thẳng vào trung tâm Bệnh viện, tới chỗ có biển chỉ rẽ phải vào Khoa Cấp cứu C1.3 thì toà nhà A11 nằm bên tay PHẢI.',
+    /* Xuống tầng 1 giống hệt đường đi đo mật độ xương, chỉ khác câu hỏi
+       ở bàn Công tác xã hội — Khoa mô tả 30/08/2026. CHƯA CÓ ẢNH. */
+    loiDi:[
+      { tu:'Phòng 201 – 214 · tầng 2 nhà N1A',
+        chi:'Ra khỏi phòng khám rẽ TRÁI, đi tới cầu thang bộ hoặc thang máy ở phía phòng 214, xuống tầng 1. Gặp bàn Lễ tân, hỏi đường vào toà nhà A11.' },
+      { tu:'Phòng 215 – 234 · tầng 2 nhà N1B',
+        chi:'Đi ra phía cửa dẫn tới Hội trường 12, đi thang máy hoặc thang bộ xuống tầng 1. Gặp bàn Công tác xã hội, hỏi đường vào toà nhà A11.' },
+      { tu:'Phòng 235 – 247 · tầng 2 nhà N2A',
+        chi:'Đi thẳng ra cửa, rẽ TRÁI tới cầu thang bộ hoặc thang máy, xuống tầng 1. Gặp bàn Công tác xã hội, hỏi đường vào toà nhà A11.' }
+    ],
+    gioMo:390, gioDong:1020, nghiTruaTu:690, nghiTruaDen:810, xacNhan:true },
+
   /* ===== TRUNG TÂM XẠ TRỊ ===== */
   { id:'dexa_xatri', ten:'Đo mật độ xương — Trung tâm Xạ trị',
     toaNha:'xatri', tang:'2', caoDo:2, phong:'CẦN XÁC NHẬN số phòng',
@@ -314,9 +340,9 @@ const VI_TRI_MAC_DINH = [
     /* Đường đi khác nhau tuỳ người bệnh khám ở dãy phòng nào — Khoa mô tả 30/08/2026.
        Không dùng ảnh ở bước này: ảnh Cyberknife gây hiểu nhầm. */
     loiDi:[
-      { tu:'Phòng 201 – 212 · tầng 2 nhà N1A',
+      { tu:'Phòng 201 – 214 · tầng 2 nhà N1A',
         chi:'Đi cầu thang ở đầu hồi toà nhà (gần nhà vệ sinh) xuống tầng 1. Rẽ TRÁI, rồi rẽ TRÁI lần nữa, đi thẳng theo con đường giữa nhà N1A và Trung tâm Xạ trị — là tới cửa vào Trung tâm Xạ trị.' },
-      { tu:'Phòng 215 – 232 · tầng 2',
+      { tu:'Phòng 215 – 234 · tầng 2 nhà N1B',
         chi:'Đi ra phía cửa dẫn tới Hội trường 12, đi thang máy hoặc thang bộ xuống tầng 1. Gặp bàn Công tác xã hội, hỏi đường sang tầng 2 Trung tâm Xạ trị.' },
       { tu:'Phòng 235 – 247 · tầng 2 nhà N2A',
         chi:'Đi thẳng ra cửa, rẽ TRÁI tới cầu thang bộ hoặc thang máy, xuống tầng 1. Gặp bàn Công tác xã hội, hỏi đường sang tầng 2 Trung tâm Xạ trị.' }
@@ -369,6 +395,46 @@ const MOC_MAC_DINH = [
 /* --------------------------------------------------------------------------
    6. DANH MỤC XÉT NGHIỆM
    -------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------
+   5c. SƠ ĐỒ KHOA KHÁM BỆNH — chép nguyên bảng GHI CHÚ trên tấm sơ đồ treo tường
+   --------------------------------------------------------------------------
+   Nguồn: "SƠ ĐỒ TRUNG TÂM KHÁM BỆNH ĐA KHOA VÀ ĐIỀU TRỊ THEO YÊU CẦU",
+   ảnh chụp tấm sơ đồ tầng 1 và tầng 2, ngày 30/08/2026.
+   Người bệnh cầm phiếu ghi số phòng nhưng không biết phòng đó ở toà nào —
+   bảng này để họ tự tra.
+   -------------------------------------------------------------------------- */
+const SO_DO_PHONG = {
+  anh: [
+    { id:'sodo_t1', ten:'Sơ đồ tầng 1' },
+    { id:'sodo_t2', ten:'Sơ đồ tầng 2' }
+  ],
+  bang: [
+    { toa:'Nhà N1A', dong:[
+      'Tầng 1 — Đăng ký khám đa khoa · Đăng ký khám theo yêu cầu · Nhà thuốc số 2',
+      'Tầng 2 — phòng 201 đến 214',
+      'Tầng 3 — khu lấy mẫu xét nghiệm (Khoa khám bệnh theo yêu cầu)',
+      'Tầng 4 — phòng 401 đến 418'] },
+    { toa:'Nhà N1B', dong:[
+      'Tầng 1 — phòng 103 đến 114',
+      'Tầng 2 — phòng 215 đến 234',
+      'Tầng 3 — phòng 301 đến 316',
+      'Tầng 4 — phòng 419 đến 430'] },
+    { toa:'Nhà N2A', dong:[
+      'Tầng 1 — cấp phát thuốc bảo hiểm y tế',
+      'Tầng 2 — phòng 235 đến 247',
+      'Tầng 3 — phòng 317 đến 323',
+      'Tầng 4 — phòng 431 đến 437'] },
+    { toa:'Nhà N2B', dong:[
+      'Tầng 1 — phòng 115 đến 119'] },
+    { toa:'Nhà N3', dong:[
+      'Tầng 1 — phòng 120 đến 142',
+      'Tầng 2 — phòng 248 đến 272',
+      'Tầng 3 — phòng 335 đến 354',
+      'Tầng 4 — Khoa điều trị theo yêu cầu'] }
+  ]
+};
+
+
 const DANH_MUC_MAC_DINH = [
   { id:'huyethoc', ten:'Xét nghiệm huyết học (công thức máu)', nhom:'Xét nghiệm', diem:['laymau'],
     nhinAn:false, uuTien:1, bangQuangDay:false, phutLam:5, phutCho:15, phutTraKQ:60,
@@ -430,11 +496,11 @@ const DANH_MUC_MAC_DINH = [
     nhinAn:false, uuTien:9, bangQuangDay:false, phutLam:15, phutCho:20, phutTraKQ:20,
     chuanBi:['Không uống thuốc có canxi trong 24 giờ trước','Bỏ hết đồ kim loại','Không đo nếu vừa chụp thuốc cản quang trong 7 ngày'] },
 
-  { id:'ct', ten:'Chụp cắt lớp vi tính (CT)', nhom:'Chẩn đoán hình ảnh', diem:['ct_n1b','ct_tanglung','ct_tt'],
+  { id:'ct', ten:'Chụp cắt lớp vi tính (CT)', nhom:'Chẩn đoán hình ảnh', diem:['ct_n1b','ct_tanglung','ct_tt','ct_a11'],
     nhinAn:true, uuTien:4, bangQuangDay:false, phutLam:20, phutCho:35, phutTraKQ:45,
     chuanBi:['NHỊN ĂN 4-6 giờ nếu có tiêm thuốc cản quang','Báo bác sĩ nếu từng dị ứng thuốc cản quang','BÁO NGAY nếu đang có thai'] },
 
-  { id:'mri', ten:'Chụp cộng hưởng từ (MRI)', nhom:'Chẩn đoán hình ảnh', diem:['mri_n1b','mri_tt2','mri_tt3','mri_yeucau'],
+  { id:'mri', ten:'Chụp cộng hưởng từ (MRI)', nhom:'Chẩn đoán hình ảnh', diem:['mri_n1b','mri_tt2','mri_yeucau'],
     nhinAn:false, uuTien:9, bangQuangDay:false, phutLam:30, phutCho:40, phutTraKQ:60,
     chuanBi:['BỎ TOÀN BỘ đồ kim loại, thẻ từ, điện thoại, răng giả tháo được','BÁO NGAY nếu có máy tạo nhịp tim, van tim nhân tạo, đinh vít hoặc mảnh kim khí trong người','Nằm yên trong máy 20-30 phút, máy kêu to là bình thường'] },
 
