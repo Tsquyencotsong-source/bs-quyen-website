@@ -142,7 +142,7 @@
   <button class="nut" id="nut-lai" style="display:none">‹ Chọn lại việc khác</button>
 </div>
 
-<script src="js/data.js?v=20260831a"></script>
+<script src="js/data.js?v=20260831b"></script>
 <script>
 /* ==========================================================================
    TRANG CHO NGƯỜI BỆNH
@@ -160,7 +160,9 @@ const NHOM = [
     chuanBi:['Nếu xét nghiệm đường máu, mỡ máu, chức năng gan thận: <b>phải nhịn ăn ít nhất 8 giờ</b>, chỉ uống nước lọc.',
              'Công thức máu thì không cần nhịn ăn.'] },
   { id:'nuoctieu', hinh:'🧪', ten:'Xét nghiệm nước tiểu', diem:['nuoctieu'], thutu:2,
-    chuanBi:['Lấy nước tiểu giữa dòng vào lọ được phát.',
+    truoc:{ viTri:'layong', ten:'Lấy ống xét nghiệm' },
+    chuanBi:['Lấy nước tiểu <b>giữa dòng</b> vào ống.',
+             'Lấy xong <b>để ống lên khay xét nghiệm nước tiểu</b> đặt ngay tại cửa nhà vệ sinh — không phải mang đi đâu nộp.',
              'Nếu có siêu âm ổ bụng: <b>lấy mẫu trước</b> rồi mới uống nước.'] },
   { id:'noisoi', hinh:'🔬', ten:'Nội soi tiêu hoá',    diem:['noisoi'], thutu:3,
     truoc:{ viTri:'noisoi_tiepdon', ten:'Đăng ký ở quầy tiếp đón nội soi' },

@@ -225,9 +225,10 @@ const VI_TRI_MAC_DINH = [
       moTa:'Ra máy phát mã code ở Hội trường 12 (sảnh giữa nhà N1A và N1B, tầng 2) để lấy ống có dán mã. KHÔNG CÓ ỐNG THÌ KHÔNG LẤY MÁU ĐƯỢC — phải quay ra lấy rồi xếp hàng lại từ đầu.' },
     xacNhan:true },
 
-  { id:'nuoctieu', ten:'Nơi nộp mẫu nước tiểu', toaNha:'n1b', tang:'2', caoDo:2, phong:'CẦN XÁC NHẬN',
-    moTa:'GIẢ ĐỊNH: cùng khu lấy máu, tầng 2 nhà N1B. CHƯA CÓ ẢNH.',
-    gioMo:390, gioDong:1020, nghiTruaTu:690, nghiTruaDen:810, xacNhan:false },
+  { id:'nuoctieu', ten:'Lấy và nộp mẫu nước tiểu', toaNha:'n1b', tang:'2', caoDo:2,
+    phong:'nhà vệ sinh khu phòng khám 215 – 234',
+    moTa:'Đi vào cửa tầng 2 khu phòng khám 215 – 234, nhà vệ sinh nằm bên tay PHẢI. Lấy nước tiểu vào ống, rồi để ống lên KHAY XÉT NGHIỆM NƯỚC TIỂU đặt ngay tại cửa nhà vệ sinh.',
+    gioMo:390, gioDong:1020, nghiTruaTu:690, nghiTruaDen:810, xacNhan:true },
 
   /* ===== TẦNG 1 NHÀ N1B — X-QUANG ===== */
   { id:'xquang', moc:['loivao_cls'], ten:'Chụp X-quang — phòng 103 đến 105', toaNha:'n1b', tang:'1', caoDo:1, phong:'103 – 105',
@@ -519,7 +520,7 @@ const DANH_MUC_MAC_DINH = [
 
   { id:'nuoctieu', ten:'Xét nghiệm nước tiểu', nhom:'Xét nghiệm', diem:['nuoctieu'],
     nhinAn:false, uuTien:2, bangQuangDay:false, phutLam:5, phutCho:10, phutTraKQ:60,
-    chuanBi:['Lấy nước tiểu giữa dòng vào lọ được phát','Nếu sắp siêu âm ổ bụng: lấy mẫu TRƯỚC rồi uống nước lại'] },
+    chuanBi:['Lấy ống xét nghiệm ở Hội trường 12 trước','Lấy nước tiểu giữa dòng vào ống','Để ống lên khay ngay tại cửa nhà vệ sinh','Nếu sắp siêu âm ổ bụng: lấy mẫu TRƯỚC rồi uống nước lại'] },
 
   { id:'sieuambung', ten:'Siêu âm ổ bụng tổng quát', nhom:'Chẩn đoán hình ảnh', diem:['khu_n3'], sieuAm:true,
     nhinAn:true, uuTien:3, bangQuangDay:true, phutLam:10, phutCho:25, phutTraKQ:5,
