@@ -408,29 +408,23 @@ const SO_DO_PHONG = {
     { id:'sodo_t1', ten:'Sơ đồ tầng 1' },
     { id:'sodo_t2', ten:'Sơ đồ tầng 2' }
   ],
+  /* Chép từ biển GHI CHÚ treo ở sảnh. Chỉ giữ tầng 1 và tầng 2 —
+     tầng 3, tầng 4 không thuộc Khoa Khám bệnh đa khoa (Khoa chốt 30/08/2026). */
   bang: [
     { toa:'Nhà N1A', dong:[
       'Tầng 1 — Đăng ký khám đa khoa · Đăng ký khám theo yêu cầu · Nhà thuốc số 2',
-      'Tầng 2 — phòng 201 đến 214',
-      'Tầng 3 — khu lấy mẫu xét nghiệm (Khoa khám bệnh theo yêu cầu)',
-      'Tầng 4 — phòng 401 đến 418'] },
+      'Tầng 2 — phòng 201 đến 214'] },
     { toa:'Nhà N1B', dong:[
       'Tầng 1 — phòng 103 đến 114',
-      'Tầng 2 — phòng 215 đến 234',
-      'Tầng 3 — phòng 301 đến 316',
-      'Tầng 4 — phòng 419 đến 430'] },
+      'Tầng 2 — phòng 215 đến 234'] },
     { toa:'Nhà N2A', dong:[
       'Tầng 1 — cấp phát thuốc bảo hiểm y tế',
-      'Tầng 2 — phòng 235 đến 247',
-      'Tầng 3 — phòng 317 đến 323',
-      'Tầng 4 — phòng 431 đến 437'] },
+      'Tầng 2 — phòng 235 đến 247'] },
     { toa:'Nhà N2B', dong:[
       'Tầng 1 — phòng 115 đến 119'] },
     { toa:'Nhà N3', dong:[
       'Tầng 1 — phòng 120 đến 142',
-      'Tầng 2 — phòng 248 đến 272',
-      'Tầng 3 — phòng 335 đến 354',
-      'Tầng 4 — Khoa điều trị theo yêu cầu'] }
+      'Tầng 2 — phòng 248 đến 272'] }
   ]
 };
 
