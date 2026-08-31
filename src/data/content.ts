@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dau-hong-ben-ngoai-khi-nam-nghieng",
+    title: "Đau Hông Bên Ngoài Khi Nằm Nghiêng — Vì Sao Nhiều Người Bị Chẩn Đoán Nhầm Thành Thoái Hóa Khớp Háng",
+    excerpt: "Nằm nghiêng bên nào là đau bên đó, phải trở mình cả đêm, đặt gối giữa hai chân mới ngủ được; ban ngày đứng lâu một chỗ hoặc leo cầu thang thì đau nhói ở đúng chỗ xương nhô ra bên hông. Rất nhiều người mang triệu chứng này đi khám và nhận về hai chữ thoái hóa khớp háng, hoặc được cho là đau thần kinh tọa rồi chụp cộng hưởng từ cột sống thắt lưng mà không tìm ra nguyên nhân. Thực tế đây thường là một bệnh khác hẳn: viêm gân nhóm cơ mông bám vào mấu chuyển lớn. Bài viết giải thích vì sao tên gọi cũ viêm túi hoạt dịch là chưa chính xác, vì sao nằm nghiêng và bắt chéo chân lại là hai tư thế làm bệnh nặng lên, cách phân biệt với thoái hóa khớp háng ngay tại nhà, và kết quả của một thử nghiệm lâm sàng lớn đăng trên tạp chí BMJ cho thấy học cách dùng chân cộng với tập đúng bài cho kết quả tốt hơn tiêm corticoid ở cả mốc 8 tuần lẫn 1 năm.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-09-01",
+  },
+  {
     slug: "dau-xuong-cut-khi-ngoi-lau",
     title: "Đau Xương Cụt Khi Ngồi Lâu — Vì Sao Đứng Dậy Mới Là Lúc Đau Nhất",
     excerpt: "Ngồi họp lâu, ngồi xe đường dài hay ngồi ghế cứng một buổi là đau ở ngay chóp cuối cột sống, phải ngồi lệch sang một bên mông — và đúng khoảnh khắc đứng dậy lại là lúc đau nhói nhất. Đó là đau xương cụt, một bệnh rất hay gặp nhưng nhiều người ngại nói vì vị trí tế nhị, có người tự đoán là trĩ rồi tự mua thuốc dùng cả tháng không đỡ. Bài viết giải thích vì sao ngồi và đứng dậy đều đau, vì sao chụp X-quang tư thế nằm thường không thấy gì mà vẫn có bệnh, cách ngồi và loại đệm ngồi giúp giảm đau ngay trong ngày, và nói thẳng về giá trị thực của các mũi tiêm: theo tổng quan y văn, các biện pháp kéo giãn — nắn chỉnh bằng tay — sóng xung kích hiện có mức bằng chứng tốt hơn, còn tiêm corticoid và đốt sóng cao tần chưa có nghiên cứu chất lượng cao ủng hộ. Kèm danh sách dấu hiệu bắt buộc phải đi khám ngay.",
