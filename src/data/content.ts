@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dau-xuong-cut-khi-ngoi-lau",
+    title: "Đau Xương Cụt Khi Ngồi Lâu — Vì Sao Đứng Dậy Mới Là Lúc Đau Nhất",
+    excerpt: "Ngồi họp lâu, ngồi xe đường dài hay ngồi ghế cứng một buổi là đau ở ngay chóp cuối cột sống, phải ngồi lệch sang một bên mông — và đúng khoảnh khắc đứng dậy lại là lúc đau nhói nhất. Đó là đau xương cụt, một bệnh rất hay gặp nhưng nhiều người ngại nói vì vị trí tế nhị, có người tự đoán là trĩ rồi tự mua thuốc dùng cả tháng không đỡ. Bài viết giải thích vì sao ngồi và đứng dậy đều đau, vì sao chụp X-quang tư thế nằm thường không thấy gì mà vẫn có bệnh, cách ngồi và loại đệm ngồi giúp giảm đau ngay trong ngày, và nói thẳng về giá trị thực của các mũi tiêm: theo tổng quan y văn, các biện pháp kéo giãn — nắn chỉnh bằng tay — sóng xung kích hiện có mức bằng chứng tốt hơn, còn tiêm corticoid và đốt sóng cao tần chưa có nghiên cứu chất lượng cao ủng hộ. Kèm danh sách dấu hiệu bắt buộc phải đi khám ngay.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-08-31",
+  },
+  {
     slug: "dau-got-chan-buoc-dau-tien-buoi-sang",
     title: "Bước Chân Đầu Tiên Buổi Sáng Đau Nhói Ở Gót — Viêm Cân Gan Chân Và Sự Thật Về Gai Gót Chân",
     excerpt: "Sáng ngủ dậy vừa đặt chân xuống đất là đau nhói ở gót như giẫm phải đinh, đi vài chục bước thì đỡ dần, nhưng ngồi lâu đứng lên lại đau y như vậy — đó là dấu hiệu rất đặc trưng của viêm cân gan chân. Nhiều người đi chụp phim thấy có gai gót chân liền tin rằng cái gai chính là thủ phạm, rồi tìm cách chữa gai. Thực tế theo tài liệu của Viện Hàn lâm Phẫu thuật viên Chỉnh hình Hoa Kỳ, gai gót chân KHÔNG phải là nguyên nhân gây đau; nó thường là hệ quả đi kèm chứ không phải gốc rễ. Bài viết giải thích cơ chế vì sao bước đầu tiên buổi sáng lại đau nhất, bài kéo giãn quan trọng nhất nên tập ngay trước khi đặt chân xuống giường, và nói thẳng về tiêm corticoid: giảm đau nhanh nhưng chỉ kéo dài 4 đến 12 tuần, kèm nguy cơ đứt cân gan chân khoảng 2,4% và teo lớp mỡ đệm gót có thể vĩnh viễn.",
