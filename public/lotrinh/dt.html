@@ -82,6 +82,20 @@
   .loi-di{margin-top:12px; padding-top:10px; border-top:1px solid #ecd3a8}
   .loi-di:first-of-type{margin-top:8px; padding-top:0; border-top:0}
   .loi-di b{display:block; margin-bottom:3px; color:var(--cam)}
+  .loi-di.tiep{border-top:2px solid #e0bd82}
+  .loi-di.tiep b{color:var(--dam)}
+  .dau-app{margin:0 0 18px}
+  .dau-app > summary{
+    background:var(--the); border:2px solid var(--chinh); border-radius:14px;
+    padding:15px 14px; font-size:18px; font-weight:700; color:var(--chinh);
+    cursor:pointer; list-style:none;
+  }
+  .dau-app > summary::-webkit-details-marker{display:none}
+  .dau-app > summary::after{content:' ▾'}
+  .dau-app[open] > summary::after{content:' ▴'}
+  .dau-app .trong{padding:2px 0 0}
+  .sodo-toa{margin-top:11px; font-size:16px}
+  .sodo-toa b{display:block; color:var(--cam); margin-bottom:2px}
   .sodo{margin:0 0 22px; background:var(--the); border:1px solid var(--vien); border-radius:14px}
   .sodo>summary{padding:15px 14px; font-size:17px; font-weight:700; cursor:pointer; list-style:none}
   .sodo>summary::-webkit-details-marker{display:none}
@@ -128,7 +142,7 @@
   <button class="nut" id="nut-lai" style="display:none">‹ Chọn lại việc khác</button>
 </div>
 
-<script src="js/data.js?v=20260830e"></script>
+<script src="js/data.js?v=20260831a"></script>
 <script>
 /* ==========================================================================
    TRANG CHO NGƯỜI BỆNH
@@ -181,16 +195,6 @@ const NHOM = [
 
 /* --- Hai việc KHÔNG phải xét nghiệm, khác nhau theo diện khám --- */
 const NHOM_KHAC = [
-  { id:'nop', hinh:'💵', ten:'Nộp tiền xét nghiệm', thutu:0, hoiLuong:true,
-    theoLuong:{
-      bhyt:{ diem:[], bao:'Khám <b>bảo hiểm y tế</b> thì KHÔNG phải nộp tiền xét nghiệm. ' +
-             'Anh/chị đi thẳng đến nơi làm xét nghiệm, không cần xếp hàng ở quầy thu tiền.',
-             chuanBi:['Phần chênh lệch (nếu có) sẽ thanh toán khi lấy kết luận và đơn thuốc.'] },
-      dichvu:{ diem:['cua8_n1b','cua8_n1a'],
-             hoiText:'Có HAI cửa số 8, một ở nhà N1A và một ở nhà N1B. Anh/chị đến cửa ở <b>cùng toà nhà với phòng khám của mình</b>. Phòng khám của anh/chị ở đâu?',
-             chuanBi:['Nếu đã quét mã QR thanh toán ngay tại phòng khám thì BỎ QUA bước này.',
-                      'Nộp tiền xong mới đi làm xét nghiệm được.'] }
-    } },
   { id:'thuoc', hinh:'💊', ten:'Lấy thuốc', thutu:99, hoiLuong:true,
     theoLuong:{
       bhyt:{ diem:['thuocbh'],
@@ -229,6 +233,7 @@ function veChon(){
   $('#nut-lai').style.display = 'none';
   $('#nut-xem').style.display = '';
   $('#noi').innerHTML =
+    veSoDo() +
     '<p class="loi-nhac">Xem tờ phiếu chỉ định trong tay, thấy có việc nào thì bấm vào ô đó. ' +
     'Bấm được nhiều ô.</p>' +
     '<div class="luoi">' + NHOM.map(n =>
@@ -298,7 +303,8 @@ function veDuongDi(){
     else khoi.push({ khoa: n.id, ten: n.ten, diem: n.diem, chuanBi: n.chuanBi });
   });
 
-  let h = '<div class="hop xanh" style="margin-bottom:16px">' +
+  let h = veSoDo() +
+    '<div class="hop xanh" style="margin-bottom:16px">' +
     '<b>KHÔNG phải ngồi chờ lấy kết quả.</b><br>' +
     'Làm xong ở phòng nào thì đi luôn phòng tiếp theo. Kết quả được gửi thẳng về ' +
     'phòng khám của bác sĩ đã chỉ định. Khi làm xong hết, anh/chị quay lại phòng khám ' +
@@ -364,11 +370,17 @@ function veDuongDi(){
            '</div>';
       if(v.moTa && !/CHƯA CÓ ẢNH|GIẢ ĐỊNH|CẦN KHOA/i.test(v.moTa))
         h += '<div class="duong">' + thoat(v.moTa) + '</div>';
-      /* Có nơi đường đi khác nhau tuỳ dãy phòng khám người bệnh vừa ra. */
-      if(v.loiDi && v.loiDi.length)
+      /* Đường đi khác nhau tuỳ dãy phòng khám người bệnh vừa ra.
+         Bảng DUONG_DI_CHUP (nếu có) được ưu tiên hơn phần ghi ngay trong vị trí. */
+      const dd = (typeof DUONG_DI_CHUP !== 'undefined' && DUONG_DI_CHUP[v.id]) || v;
+      if(dd.loiDi && dd.loiDi.length)
         h += '<div class="hop vang"><b>Đi thế nào — tuỳ phòng khám của anh/chị</b>' +
-             v.loiDi.map(d => '<div class="loi-di"><b>' + thoat(d.tu) + '</b>' +
-                              thoat(d.chi) + '</div>').join('') +
+             dd.loiDi.map(d => '<div class="loi-di"><b>' + thoat(d.tu) + '</b>' +
+                               thoat(d.chi) + '</div>').join('') +
+             (dd.tuTang1
+               ? '<div class="loi-di tiep"><b>Rồi từ tầng 1, ai cũng đi tiếp như nhau</b>' +
+                 thoat(dd.tuTang1) + '</div>'
+               : '') +
              '</div>';
       h += anh(v.id, 'Cửa phòng cần đến');
       (v.moc || []).forEach(m => {
@@ -387,10 +399,12 @@ function veDuongDi(){
   });
 
   h += '<div class="hop xanh" style="margin-bottom:20px"><b>Làm xong hết rồi thì sao?</b><ul>' +
-       '<li>Quay lại <b>phòng khám của bác sĩ đã chỉ định</b> để nghe kết luận.</li>' +
-       '<li><b>Không cần đi xin từng tờ kết quả</b> — kết quả tự chuyển về phòng khám đó.</li>' +
-       '<li>Bác sĩ đọc tổng hợp <b>một lần</b> khi đã có đủ, nên anh/chị làm hết các việc rồi hãy quay lại.</li>' +
-       '<li>Nếu chưa có đủ kết quả, ngồi chờ thêm rồi vào — không cần lấy lại số.</li>' +
+       '<li><b>KHÔNG cần đứng đợi lấy kết quả</b> ở nơi làm xét nghiệm. ' +
+         'Kết quả tự chuyển về phòng khám đã chỉ định.</li>' +
+       '<li>Làm xong hết thì <b>quay lại đúng phòng khám của bác sĩ đã chỉ định</b>.</li>' +
+       '<li><b>Đưa phiếu khám cho điều dưỡng</b>, rồi <b>ra ngoài ngồi đợi</b>.</li>' +
+       '<li>Khi đã có <b>đủ kết quả</b>, <b>bác sĩ sẽ gọi anh/chị vào</b>. ' +
+         'Không cần lấy lại số, không cần vào hỏi.</li>' +
        '<li>Hết giờ mà chưa xong: quay lại phòng khám xin phiếu mới, phiếu chỉ dùng trong ngày.</li>' +
        '</ul></div>';
 
@@ -403,8 +417,15 @@ function veDuongDi(){
    Để cuối màn hình, gấp lại sẵn — ai cần mới mở, không che mất các bước. */
 function veSoDo(){
   if(typeof SO_DO_PHONG === 'undefined') return '';
-  return '<details class="sodo"><summary>Sơ đồ Khoa Khám bệnh — phòng nào ở toà nào?</summary>' +
+  const nt = (typeof NOP_TIEN !== 'undefined')
+    ? '<div class="hop vang"><b>' + thoat(NOP_TIEN.tieuDe) + '</b><ul>' +
+      NOP_TIEN.dong.map(x => '<li>' + x + '</li>').join('') + '</ul></div>'
+    : '';
+  return '<details class="sodo dau-app">' +
+    '<summary>🗺️ Sơ đồ toà nhà &amp; nộp tiền — xem trước khi đi</summary>' +
+    '<div class="trong">' + nt + '</div>' +
     '<div class="trong">' +
+    '<div class="hop xam"><b>Phòng nào ở toà nào?</b></div>' +
     SO_DO_PHONG.bang.map(t =>
       '<div class="sodo-toa"><b>' + thoat(t.toa) + '</b>' +
       t.dong.map(x => '<div>' + thoat(x) + '</div>').join('') + '</div>').join('') +

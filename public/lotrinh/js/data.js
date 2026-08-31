@@ -320,17 +320,6 @@ const VI_TRI_MAC_DINH = [
   /* ===== TOÀ NHÀ A11 ===== */
   { id:'ct_a11', ten:'Chụp cắt lớp vi tính (CT) — toà nhà A11',
     toaNha:'a11', tang:'1', caoDo:1, phong:'',
-    moTa:'Từ cổng 1B đi thẳng vào trung tâm Bệnh viện, tới chỗ có biển chỉ rẽ phải vào Khoa Cấp cứu C1.3 thì toà nhà A11 nằm bên tay PHẢI.',
-    /* Xuống tầng 1 giống hệt đường đi đo mật độ xương, chỉ khác câu hỏi
-       ở bàn Công tác xã hội — Khoa mô tả 30/08/2026. CHƯA CÓ ẢNH. */
-    loiDi:[
-      { tu:'Phòng 201 – 214 · tầng 2 nhà N1A',
-        chi:'Ra khỏi phòng khám rẽ TRÁI, đi tới cầu thang bộ hoặc thang máy ở phía phòng 214, xuống tầng 1. Gặp bàn Lễ tân, hỏi đường vào toà nhà A11.' },
-      { tu:'Phòng 215 – 234 · tầng 2 nhà N1B',
-        chi:'Đi ra phía cửa dẫn tới Hội trường 12, đi thang máy hoặc thang bộ xuống tầng 1. Gặp bàn Công tác xã hội, hỏi đường vào toà nhà A11.' },
-      { tu:'Phòng 235 – 247 · tầng 2 nhà N2A',
-        chi:'Đi thẳng ra cửa, rẽ TRÁI tới cầu thang bộ hoặc thang máy, xuống tầng 1. Gặp bàn Công tác xã hội, hỏi đường vào toà nhà A11.' }
-    ],
     gioMo:390, gioDong:1020, nghiTruaTu:690, nghiTruaDen:810, xacNhan:true },
 
   /* ===== TRUNG TÂM XẠ TRỊ ===== */
@@ -403,6 +392,92 @@ const MOC_MAC_DINH = [
    Người bệnh cầm phiếu ghi số phòng nhưng không biết phòng đó ở toà nào —
    bảng này để họ tự tra.
    -------------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------------------
+   5c. ĐƯỜNG ĐI TỚI TỪNG PHÒNG CHỤP — Khoa mô tả 31/08/2026
+   --------------------------------------------------------------------------
+   Chia làm hai bước cho dễ nhớ:
+     Bước 1 — xuống tầng 1, khác nhau tuỳ dãy phòng khám người bệnh vừa ra.
+     Bước 2 — từ tầng 1 đi tiếp tới phòng chụp, ai cũng đi như nhau.
+   Nơi nào bước 1 và bước 2 dính vào nhau thì viết gộp, bỏ trống `tuTang1`.
+   -------------------------------------------------------------------------- */
+
+/* Ba lối xuống tầng 1 — dùng chung cho hầu hết các phòng chụp. */
+const XUONG_TANG_1 = [
+  { tu:'Phòng 201 – 212 · tầng 2 nhà N1A',
+    chi:'Ra khỏi phòng khám rẽ TRÁI, đi thẳng qua phòng 214 tới thang máy và cầu thang bộ, đi xuống tầng 1.' },
+  { tu:'Phòng 215 – 234 · tầng 2 nhà N1B',
+    chi:'Ra khỏi phòng khám rẽ PHẢI, đi thẳng qua Hội trường 12 (nơi lấy ống xét nghiệm) tới cầu thang bộ và thang máy, đi xuống tầng 1.' },
+  { tu:'Phòng 235 – 247 · tầng 2 nhà N2A',
+    chi:'Ra khỏi phòng khám rẽ PHẢI, đi ra cửa chung của khu khám rồi rẽ TRÁI tới thang máy và cầu thang bộ, đi xuống tầng 1.' }
+];
+
+const HOI_CTXH = 'Ở tầng 1 có bàn hướng dẫn Công tác xã hội — cứ hỏi nhân viên chỉ đường. ';
+
+const DUONG_DI_CHUP = {
+  /* ===== CHỤP CẮT LỚP VI TÍNH — 4 nơi ===== */
+  ct_n1b: { loiDi: XUONG_TANG_1, tuTang1: HOI_CTXH +
+    'Băng qua đường trục chính đi từ cổng 1B Trần Hưng Đạo vào trung tâm Bệnh viện, ' +
+    'rồi đi theo lối giữa nhà N1B và nhà N2B là tới phòng chụp.' },
+
+  ct_tt: { loiDi: XUONG_TANG_1, tuTang1: HOI_CTXH +
+    'Rẽ PHẢI đi theo trục chính từ cổng 1B Trần Hưng Đạo vào trung tâm Bệnh viện. ' +
+    'Tới chỗ có lối rẽ phải vuông góc vào Khoa Cấp cứu, ngay đó có lối đi chéo 45° dẫn vào cửa toà nhà Trung tâm — ' +
+    'đi theo lối chéo đó tới cửa, gặp Cảnh vệ (hỏi đường tiếp nếu cần). ' +
+    'Qua cửa đi thẳng tới cầu thang cuốn, lên tầng 2, vào khu Chẩn đoán hình ảnh tìm phòng chụp cắt lớp vi tính.' },
+
+  ct_a11: { loiDi: XUONG_TANG_1, tuTang1: HOI_CTXH +
+    'Rẽ PHẢI đi theo trục chính từ cổng 1B Trần Hưng Đạo vào trung tâm Bệnh viện — giống đường vào toà nhà Trung tâm. ' +
+    'Nhưng tới chỗ có nhiều lối rẽ thì rẽ TRÁI, NGƯỢC hướng với lối rẽ vào Khoa Cấp cứu, ' +
+    'đi vào cửa phụ toà nhà A11. Có Cảnh vệ đứng ở đó — hỏi Cảnh vệ chỉ đường vào phòng chụp.' },
+
+  /* Nơi này người khám ở phòng 201 – 212 đi lối riêng, không qua tầng 1. */
+  ct_tanglung: { loiDi: [
+    { tu:'Phòng 201 – 212 · tầng 2 nhà N1A (đã nộp tiền bằng chuyển khoản)',
+      chi:'Ra khỏi phòng khám rẽ PHẢI, đi tới cuối dãy nhà nơi có cầu thang bộ, đi bộ XUỐNG là gặp biển chụp cắt lớp vi tính. Không phải xuống tận tầng 1.' },
+    { tu:'Phòng 215 – 234 · tầng 2 nhà N1B',
+      chi:'Ra khỏi phòng khám rẽ PHẢI, đi thẳng qua Hội trường 12 tới cầu thang bộ và thang máy, xuống tầng 1. ' + HOI_CTXH +
+          'Rồi rẽ TRÁI, đi thẳng theo lối sảnh trước nhà N1A tới cuối dãy nhà nơi có cầu thang bộ đi lên, lên theo biển hướng dẫn.' },
+    { tu:'Phòng 235 – 247 · tầng 2 nhà N2A',
+      chi:'Ra khỏi phòng khám rẽ PHẢI, ra cửa chung của khu khám rồi rẽ TRÁI tới thang máy và cầu thang bộ, xuống tầng 1. ' + HOI_CTXH +
+          'Rồi rẽ TRÁI, đi thẳng theo lối sảnh trước nhà N1A tới cuối dãy nhà nơi có cầu thang bộ đi lên, lên theo biển hướng dẫn.' }
+  ] },
+
+  /* ===== CHỤP CỘNG HƯỞNG TỪ — 3 nơi ===== */
+  mri_n1b: { loiDi: XUONG_TANG_1, tuTang1: HOI_CTXH +
+    'Đi thẳng băng qua lối chính đi từ cổng 1B Trần Hưng Đạo vào trung tâm Bệnh viện, ' +
+    'rồi đi theo sảnh trước nhà N1A tới cuối dãy nhà là tới phòng chụp. Phòng nằm đối diện Trung tâm thẩm mỹ.' },
+
+  mri_yeucau: { loiDi: [
+    { tu:'Phòng 201 – 212 · tầng 2 nhà N1A (đã nộp tiền bằng chuyển khoản)',
+      chi:'Ra khỏi phòng khám rẽ PHẢI, đi tới cuối dãy nhà nơi có cầu thang bộ, đi bộ xuống tầng 1. Phòng chụp ở ngay cạnh cầu thang bộ.' },
+    { tu:'Phòng 215 – 234 · tầng 2 nhà N1B',
+      chi:'Ra khỏi phòng khám rẽ PHẢI, đi thẳng qua Hội trường 12 tới cầu thang bộ và thang máy, xuống tầng 1. ' + HOI_CTXH +
+          'Rồi rẽ TRÁI, đi thẳng theo lối sảnh trước nhà N1A tới cuối dãy nhà. Phòng chụp ở tầng 1, ngay cạnh cầu thang bộ.' },
+    { tu:'Phòng 235 – 247 · tầng 2 nhà N2A',
+      chi:'Ra khỏi phòng khám rẽ PHẢI, ra cửa chung của khu khám rồi rẽ TRÁI tới thang máy và cầu thang bộ, xuống tầng 1. ' + HOI_CTXH +
+          'Rồi rẽ TRÁI, đi thẳng theo lối sảnh trước nhà N1A tới cuối dãy nhà. Phòng chụp ở tầng 1, ngay cạnh cầu thang bộ.' }
+  ] },
+
+  mri_tt2: { loiDi: XUONG_TANG_1, tuTang1: HOI_CTXH +
+    'Rẽ PHẢI đi theo trục chính từ cổng 1B Trần Hưng Đạo vào trung tâm Bệnh viện. ' +
+    'Tới chỗ có lối rẽ phải vuông góc vào Khoa Cấp cứu, ngay đó có lối đi chéo 45° dẫn vào cửa toà nhà Trung tâm — ' +
+    'đi theo lối chéo đó tới cửa, gặp Cảnh vệ (hỏi đường tiếp nếu cần). ' +
+    'Qua cửa đi thẳng tới cầu thang cuốn, lên tầng 2, vào khu Chẩn đoán hình ảnh tìm phòng chụp cộng hưởng từ.' }
+};
+
+/* Hướng dẫn nộp tiền — hiện ở mục đầu tiên của app, không còn là một ô riêng. */
+const NOP_TIEN = {
+  tieuDe: 'Nộp tiền xét nghiệm',
+  dong: [
+    '<b>Khám bảo hiểm y tế:</b> KHÔNG phải nộp tiền xét nghiệm. Anh/chị đi thẳng đến nơi làm, không cần xếp hàng ở quầy thu tiền. Phần chênh lệch (nếu có) thanh toán khi lấy kết luận và đơn thuốc.',
+    '<b>Khám dịch vụ:</b> nộp tiền mặt ở <b>CỬA SỐ 8</b>.',
+    'Có <b>HAI</b> cửa số 8 — một ở nhà N1A, một ở nhà N1B. Anh/chị đến cửa ở <b>cùng toà nhà với phòng khám của mình</b>.',
+    'Nếu đã quét mã QR thanh toán ngay tại phòng khám thì <b>bỏ qua bước này</b>.',
+    '<b>Nộp tiền xong mới đi làm xét nghiệm được.</b>'
+  ]
+};
+
 const SO_DO_PHONG = {
   anh: [
     { id:'sodo_t1', ten:'Sơ đồ tầng 1' },
