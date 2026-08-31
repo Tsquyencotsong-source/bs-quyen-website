@@ -84,11 +84,13 @@
   .loi-di b{display:block; margin-bottom:3px; color:var(--cam)}
   .loi-di.tiep{border-top:2px solid #e0bd82}
   .loi-di.tiep b{color:var(--dam)}
-  .dau-app{margin:0 0 18px}
+  .dau-app{margin:0 0 10px}
+  .dau-app:last-of-type{margin-bottom:18px}
+  .dau-app .bieu{font-size:22px; margin-right:9px; vertical-align:-2px}
   .dau-app > summary{
     background:var(--the); border:2px solid var(--chinh); border-radius:14px;
-    padding:15px 14px; font-size:18px; font-weight:700; color:var(--chinh);
-    cursor:pointer; list-style:none;
+    padding:14px; font-size:17px; font-weight:700; color:var(--chinh);
+    cursor:pointer; list-style:none; line-height:1.3;
   }
   .dau-app > summary::-webkit-details-marker{display:none}
   .dau-app > summary::after{content:' ▾'}
@@ -142,7 +144,7 @@
   <button class="nut" id="nut-lai" style="display:none">‹ Chọn lại việc khác</button>
 </div>
 
-<script src="js/data.js?v=20260831b"></script>
+<script src="js/data.js?v=20260831c"></script>
 <script>
 /* ==========================================================================
    TRANG CHO NGƯỜI BỆNH
@@ -417,22 +419,30 @@ function veDuongDi(){
 
 /* Bảng tra "phòng nào ở toà nào" + hai tấm sơ đồ treo ở sảnh.
    Để cuối màn hình, gấp lại sẵn — ai cần mới mở, không che mất các bước. */
+/* Hai mục xem trước, đặt ở đầu cả hai màn hình. Mỗi mục một icon riêng. */
 function veSoDo(){
+  return veMucSoDo() + veMucNopTien();
+}
+
+function veMucSoDo(){
   if(typeof SO_DO_PHONG === 'undefined') return '';
-  const nt = (typeof NOP_TIEN !== 'undefined')
-    ? '<div class="hop vang"><b>' + thoat(NOP_TIEN.tieuDe) + '</b><ul>' +
-      NOP_TIEN.dong.map(x => '<li>' + x + '</li>').join('') + '</ul></div>'
-    : '';
-  return '<details class="sodo dau-app">' +
-    '<summary>🗺️ Sơ đồ toà nhà &amp; nộp tiền — xem trước khi đi</summary>' +
-    '<div class="trong">' + nt + '</div>' +
+  return '<details class="dau-app">' +
+    '<summary><span class="bieu">🗺️</span>Sơ đồ toà nhà — phòng nào ở toà nào?</summary>' +
     '<div class="trong">' +
-    '<div class="hop xam"><b>Phòng nào ở toà nào?</b></div>' +
     SO_DO_PHONG.bang.map(t =>
       '<div class="sodo-toa"><b>' + thoat(t.toa) + '</b>' +
       t.dong.map(x => '<div>' + thoat(x) + '</div>').join('') + '</div>').join('') +
     SO_DO_PHONG.anh.map(a => anh(a.id, a.ten)).join('') +
     '</div></details>';
+}
+
+function veMucNopTien(){
+  if(typeof NOP_TIEN === 'undefined') return '';
+  return '<details class="dau-app">' +
+    '<summary><span class="bieu">💵</span>Hướng dẫn nộp tiền xét nghiệm</summary>' +
+    '<div class="trong"><div class="hop vang"><ul>' +
+    NOP_TIEN.dong.map(x => '<li>' + x + '</li>').join('') +
+    '</ul></div></div></details>';
 }
 
 function anh(id, chu, them){
