@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "sang-ngu-day-cung-co-quay-dau-khong-duoc",
+    title: "Sáng Ngủ Dậy Cứng Cổ, Quay Đầu Không Được — Bốn Việc Rất Nhiều Người Làm Sai",
+    excerpt: "Đang ngủ bình thường, sáng dậy tự nhiên cổ cứng đơ, quay sang một bên là đau nhói, phải xoay cả người mới nhìn được sang ngang. Đây là tình huống hầu như ai cũng gặp ít nhất một lần, và cũng là tình huống người bệnh hay xử lý sai nhất. Bài viết chỉ ra bốn việc rất nhiều người làm ngay trong ngày đầu tiên mà y văn hiện nay khuyên KHÔNG nên làm: mua nẹp cổ về đeo, đi chụp phim ngay, nằm im nghỉ tuyệt đối, và nhờ người bẻ vặn cổ cho kêu răng rắc. Theo hướng dẫn thực hành lâm sàng mức S3 về đau cổ không đặc hiệu công bố năm 2025, với đau cổ cấp trong 3 tuần đầu mà không có dấu hiệu tổn thương cấu trúc thì thường KHÔNG nên chụp chiếu; điều trị trung tâm là vận động trở lại sớm, với hiệu quả rất lớn, trong khi thuốc giảm đau chỉ có tác dụng ngắn hạn ở mức thấp. Kèm bài tập nhẹ nhàng làm được ngay tại giường và danh sách dấu hiệu bắt buộc phải đi khám ngay.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-09-03",
+  },
+  {
     slug: "dau-hong-ben-ngoai-khi-nam-nghieng",
     title: "Đau Hông Bên Ngoài Khi Nằm Nghiêng — Vì Sao Nhiều Người Bị Chẩn Đoán Nhầm Thành Thoái Hóa Khớp Háng",
     excerpt: "Nằm nghiêng bên nào là đau bên đó, phải trở mình cả đêm, đặt gối giữa hai chân mới ngủ được; ban ngày đứng lâu một chỗ hoặc leo cầu thang thì đau nhói ở đúng chỗ xương nhô ra bên hông. Rất nhiều người mang triệu chứng này đi khám và nhận về hai chữ thoái hóa khớp háng, hoặc được cho là đau thần kinh tọa rồi chụp cộng hưởng từ cột sống thắt lưng mà không tìm ra nguyên nhân. Thực tế đây thường là một bệnh khác hẳn: viêm gân nhóm cơ mông bám vào mấu chuyển lớn. Bài viết giải thích vì sao tên gọi cũ viêm túi hoạt dịch là chưa chính xác, vì sao nằm nghiêng và bắt chéo chân lại là hai tư thế làm bệnh nặng lên, cách phân biệt với thoái hóa khớp háng ngay tại nhà, và kết quả của một thử nghiệm lâm sàng lớn đăng trên tạp chí BMJ cho thấy học cách dùng chân cộng với tập đúng bài cho kết quả tốt hơn tiêm corticoid ở cả mốc 8 tuần lẫn 1 năm.",
