@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "bong-gan-co-chan-co-nen-xoa-dau-nong",
+    title: "Bong Gân Cổ Chân — Vì Sao Xoa Dầu Nóng Và Bóp Rượu Thuốc Ngay Lại Làm Sưng To Hơn",
+    excerpt: "Bước hụt một bậc thềm, cổ chân lật vào trong, mắt cá ngoài sưng tím lên. Về đến nhà là cả nhà xúm vào: người bảo xoa dầu nóng cho tan máu bầm, người bảo bóp rượu gừng, người bảo đắp lá. Sáng hôm sau cổ chân sưng to gấp đôi hôm trước. Bài viết giải thích vì sao trong 48 đến 72 giờ đầu, nhiệt nóng và xoa bóp mạnh lại làm nặng thêm đúng cái tổn thương đang cần cầm máu; giới thiệu bộ tiêu chí Ottawa giúp biết khi nào bắt buộc phải chụp X-quang, với độ nhạy khoảng 98 phần trăm và giá trị dự đoán âm tính khoảng 99 phần trăm; và nói rõ vì sao hướng điều trị hiện nay là ĐIỀU TRỊ CHỨC NĂNG bằng băng dán hoặc nẹp kèm vận động sớm có bảo vệ, chứ không phải bó bột bất động kéo dài. Kèm bài tập theo bốn giai đoạn, lý do bong gân cổ chân rất hay tái phát, và năm nhóm câu hỏi cần trả lời được trước khi chơi thể thao trở lại.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-09-04",
+  },
+  {
     slug: "sang-ngu-day-cung-co-quay-dau-khong-duoc",
     title: "Sáng Ngủ Dậy Cứng Cổ, Quay Đầu Không Được — Bốn Việc Rất Nhiều Người Làm Sai",
     excerpt: "Đang ngủ bình thường, sáng dậy tự nhiên cổ cứng đơ, quay sang một bên là đau nhói, phải xoay cả người mới nhìn được sang ngang. Đây là tình huống hầu như ai cũng gặp ít nhất một lần, và cũng là tình huống người bệnh hay xử lý sai nhất. Bài viết chỉ ra bốn việc rất nhiều người làm ngay trong ngày đầu tiên mà y văn hiện nay khuyên KHÔNG nên làm: mua nẹp cổ về đeo, đi chụp phim ngay, nằm im nghỉ tuyệt đối, và nhờ người bẻ vặn cổ cho kêu răng rắc. Theo hướng dẫn thực hành lâm sàng mức S3 về đau cổ không đặc hiệu công bố năm 2025, với đau cổ cấp trong 3 tuần đầu mà không có dấu hiệu tổn thương cấu trúc thì thường KHÔNG nên chụp chiếu; điều trị trung tâm là vận động trở lại sớm, với hiệu quả rất lớn, trong khi thuốc giảm đau chỉ có tác dụng ngắn hạn ở mức thấp. Kèm bài tập nhẹ nhàng làm được ngay tại giường và danh sách dấu hiệu bắt buộc phải đi khám ngay.",
