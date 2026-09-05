@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dau-truoc-goi-ngoi-lau-dung-day-dau",
+    title: "Đau Phía Trước Đầu Gối, Ngồi Lâu Đứng Dậy Là Đau — Vì Sao Chữa Lại Phải Tập Cơ Hông",
+    excerpt: "Đau âm ỉ phía trước đầu gối, quanh và dưới xương bánh chè. Ngồi lâu gập gối trong xe hay trong rạp chiếu phim, đứng dậy là đau. Xuống cầu thang đau hơn lên cầu thang. Ngồi xổm thì đau nhói. Rất nhiều người mang bộ triệu chứng này đi khám ở tuổi ba mươi, bốn mươi và nhận về hai chữ thoái hóa khớp gối, rồi bắt đầu uống thực phẩm chức năng hoặc đi tiêm dịch khớp. Thực tế đây thường là một bệnh khác hẳn: hội chứng đau xương bánh chè, và nó không phải bệnh của sụn khớp mòn đi. Bài viết giải thích cách phân biệt với thoái hóa khớp gối ngay tại nhà, vì sao chụp cộng hưởng từ thường không cần thiết, vì sao bài tập quan trọng nhất lại nằm ở CƠ HÔNG chứ không phải cơ đùi, và những biện pháp mà các hướng dẫn chất lượng cao KHÔNG khuyến nghị dù vẫn được dùng rất phổ biến. Dựa trên bản hướng dẫn thực hành tổng hợp từ 65 thử nghiệm lâm sàng chất lượng cao trên 3796 người bệnh, công bố năm 2024.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-09-05",
+  },
+  {
     slug: "bong-gan-co-chan-co-nen-xoa-dau-nong",
     title: "Bong Gân Cổ Chân — Vì Sao Xoa Dầu Nóng Và Bóp Rượu Thuốc Ngay Lại Làm Sưng To Hơn",
     excerpt: "Bước hụt một bậc thềm, cổ chân lật vào trong, mắt cá ngoài sưng tím lên. Về đến nhà là cả nhà xúm vào: người bảo xoa dầu nóng cho tan máu bầm, người bảo bóp rượu gừng, người bảo đắp lá. Sáng hôm sau cổ chân sưng to gấp đôi hôm trước. Bài viết giải thích vì sao trong 48 đến 72 giờ đầu, nhiệt nóng và xoa bóp mạnh lại làm nặng thêm đúng cái tổn thương đang cần cầm máu; giới thiệu bộ tiêu chí Ottawa giúp biết khi nào bắt buộc phải chụp X-quang, với độ nhạy khoảng 98 phần trăm và giá trị dự đoán âm tính khoảng 99 phần trăm; và nói rõ vì sao hướng điều trị hiện nay là ĐIỀU TRỊ CHỨC NĂNG bằng băng dán hoặc nẹp kèm vận động sớm có bảo vệ, chứ không phải bó bột bất động kéo dài. Kèm bài tập theo bốn giai đoạn, lý do bong gân cổ chân rất hay tái phát, và năm nhóm câu hỏi cần trả lời được trước khi chơi thể thao trở lại.",
