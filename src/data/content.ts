@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dau-vai-khong-gio-tay-len-duoc-benh-ly-chop-xoay",
+    title: "Đau Vai Không Giơ Tay Lên Được, Đêm Trở Mình Là Thức Giấc — Và Sự Thật Về Mũi Tiêm Vào Vai",
+    excerpt: "Với tay lên phơi quần áo thì đau nhói, gãi lưng hay cài áo ngực phía sau thì không đưa tay tới, và đêm nằm nghiêng đè lên bên vai đau là thức giấc. Đó là bộ ba triệu chứng rất đặc trưng của bệnh lý chóp xoay — nhóm gân giữ khớp vai. Rất nhiều người bệnh đến khám với câu hỏi đầu tiên là xin tiêm một mũi vào vai cho nhanh khỏi. Bài viết trả lời câu hỏi đó bằng dữ liệu: một thử nghiệm lâm sàng ngẫu nhiên đa trung tâm trên 708 người bệnh tại 20 bệnh viện, đăng trên tạp chí The Lancet năm 2021, cho thấy tiêm corticoid dưới mỏm cùng vai KHÔNG đem lại lợi ích dài hạn; một tổng quan hệ thống các thử nghiệm ngẫu nhiên cho thấy tiêm huyết tương giàu tiểu cầu không cho kết quả tốt hơn tập luyện; và một thử nghiệm mù đôi cho thấy tập tải nặng không hơn tập tải nhẹ. Kèm cách tự phân biệt với đông cứng khớp vai ngay tại nhà, bài tập theo giai đoạn, và danh sách dấu hiệu bắt buộc phải đi khám ngay.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-09-07",
+  },
+  {
     slug: "dau-truoc-goi-ngoi-lau-dung-day-dau",
     title: "Đau Phía Trước Đầu Gối, Ngồi Lâu Đứng Dậy Là Đau — Vì Sao Chữa Lại Phải Tập Cơ Hông",
     excerpt: "Đau âm ỉ phía trước đầu gối, quanh và dưới xương bánh chè. Ngồi lâu gập gối trong xe hay trong rạp chiếu phim, đứng dậy là đau. Xuống cầu thang đau hơn lên cầu thang. Ngồi xổm thì đau nhói. Rất nhiều người mang bộ triệu chứng này đi khám ở tuổi ba mươi, bốn mươi và nhận về hai chữ thoái hóa khớp gối, rồi bắt đầu uống thực phẩm chức năng hoặc đi tiêm dịch khớp. Thực tế đây thường là một bệnh khác hẳn: hội chứng đau xương bánh chè, và nó không phải bệnh của sụn khớp mòn đi. Bài viết giải thích cách phân biệt với thoái hóa khớp gối ngay tại nhà, vì sao chụp cộng hưởng từ thường không cần thiết, vì sao bài tập quan trọng nhất lại nằm ở CƠ HÔNG chứ không phải cơ đùi, và những biện pháp mà các hướng dẫn chất lượng cao KHÔNG khuyến nghị dù vẫn được dùng rất phổ biến. Dựa trên bản hướng dẫn thực hành tổng hợp từ 65 thử nghiệm lâm sàng chất lượng cao trên 3796 người bệnh, công bố năm 2024.",
