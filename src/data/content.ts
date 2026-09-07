@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dau-goc-ngon-tay-cai-khi-van-nap-chai",
+    title: "Đau Gốc Ngón Tay Cái Khi Vặn Nắp Chai, Xoay Chìa Khoá — Và Chuyện Cái Nẹp Ngón Cái",
+    excerpt: "Vặn nắp chai nước không ra, xoay chìa khoá thấy đau nhói, vắt khăn phải nhờ người khác, và cầm cái chảo bằng một tay thì buốt ở gốc ngón cái. Đây là bộ triệu chứng của thoái hoá khớp gốc ngón tay cái — khớp thang bàn — một bệnh rất phổ biến ở phụ nữ tuổi trung niên và sau mãn kinh, nhưng lại hay bị gọi nhầm thành hội chứng ống cổ tay hoặc viêm gân De Quervain. Bài viết chỉ cách phân biệt ba bệnh này chỉ bằng vị trí đau và kiểu đau; giải thích vì sao động tác véo và vặn lại đau nhất; và trả lời câu hỏi thực tế nhất là có nên mua nẹp ngón cái không, dựa trên một thử nghiệm lâm sàng ngẫu nhiên tại 17 khoa bệnh viện trên 349 người bệnh cho thấy thêm nẹp vào một chương trình tự quản lý tốt thì KHÔNG đem lại lợi ích thêm. Kèm một tổng quan hệ thống cho thấy tiêm corticoid nội khớp không hiệu quả hơn tiêm nước muối, danh sách dụng cụ nhỏ thay đổi hẳn cuộc sống hằng ngày, và bài tập tại nhà.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-09-08",
+  },
+  {
     slug: "dau-vai-khong-gio-tay-len-duoc-benh-ly-chop-xoay",
     title: "Đau Vai Không Giơ Tay Lên Được, Đêm Trở Mình Là Thức Giấc — Và Sự Thật Về Mũi Tiêm Vào Vai",
     excerpt: "Với tay lên phơi quần áo thì đau nhói, gãi lưng hay cài áo ngực phía sau thì không đưa tay tới, và đêm nằm nghiêng đè lên bên vai đau là thức giấc. Đó là bộ ba triệu chứng rất đặc trưng của bệnh lý chóp xoay — nhóm gân giữ khớp vai. Rất nhiều người bệnh đến khám với câu hỏi đầu tiên là xin tiêm một mũi vào vai cho nhanh khỏi. Bài viết trả lời câu hỏi đó bằng dữ liệu: một thử nghiệm lâm sàng ngẫu nhiên đa trung tâm trên 708 người bệnh tại 20 bệnh viện, đăng trên tạp chí The Lancet năm 2021, cho thấy tiêm corticoid dưới mỏm cùng vai KHÔNG đem lại lợi ích dài hạn; một tổng quan hệ thống các thử nghiệm ngẫu nhiên cho thấy tiêm huyết tương giàu tiểu cầu không cho kết quả tốt hơn tập luyện; và một thử nghiệm mù đôi cho thấy tập tải nặng không hơn tập tải nhẹ. Kèm cách tự phân biệt với đông cứng khớp vai ngay tại nhà, bài tập theo giai đoạn, và danh sách dấu hiệu bắt buộc phải đi khám ngay.",
