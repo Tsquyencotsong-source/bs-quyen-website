@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "te-ngon-ut-ngon-ap-ut-ket-than-kinh-o-khuyu",
+    title: "Tê Ngón Út Và Ngón Áp Út — Không Phải Ống Cổ Tay, Mà Là Dây Thần Kinh Kẹt Ở Khuỷu",
+    excerpt: "Tê ngón út và nửa ngoài ngón áp út, tê tăng lên khi nghe điện thoại lâu, khi chống khuỷu lên bàn hay lên thành cửa xe, và sáng ngủ dậy tê rần cả bàn tay vì đêm nằm co tay. Rất nhiều người mang bộ triệu chứng này đi khám và nhận về ba chữ hội chứng ống cổ tay, rồi đeo nẹp cổ tay hàng tháng không đỡ — vì chỗ dây thần kinh bị kẹt không nằm ở cổ tay mà nằm ở KHUỶU. Bài viết chỉ cách phân biệt chỉ bằng việc xem tê ở ngón nào, giải thích vì sao gập khuỷu lại là tư thế gây kẹt, và nêu bằng chứng từ một tổng quan hệ thống trên 844 người bệnh cho thấy với thể nhẹ đến vừa thì GIÁO DỤC và THAY ĐỔI THÓI QUEN có hiệu quả TƯƠNG ĐƯƠNG với đeo nẹp. Kèm danh sách tư thế phải bỏ, cách kê tay khi ngủ, bài tập trượt thần kinh, và những dấu hiệu báo động phải đi khám sớm kẻo teo cơ.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-09-09",
+  },
+  {
     slug: "dau-goc-ngon-tay-cai-khi-van-nap-chai",
     title: "Đau Gốc Ngón Tay Cái Khi Vặn Nắp Chai, Xoay Chìa Khoá — Và Chuyện Cái Nẹp Ngón Cái",
     excerpt: "Vặn nắp chai nước không ra, xoay chìa khoá thấy đau nhói, vắt khăn phải nhờ người khác, và cầm cái chảo bằng một tay thì buốt ở gốc ngón cái. Đây là bộ triệu chứng của thoái hoá khớp gốc ngón tay cái — khớp thang bàn — một bệnh rất phổ biến ở phụ nữ tuổi trung niên và sau mãn kinh, nhưng lại hay bị gọi nhầm thành hội chứng ống cổ tay hoặc viêm gân De Quervain. Bài viết chỉ cách phân biệt ba bệnh này chỉ bằng vị trí đau và kiểu đau; giải thích vì sao động tác véo và vặn lại đau nhất; và trả lời câu hỏi thực tế nhất là có nên mua nẹp ngón cái không, dựa trên một thử nghiệm lâm sàng ngẫu nhiên tại 17 khoa bệnh viện trên 349 người bệnh cho thấy thêm nẹp vào một chương trình tự quản lý tốt thì KHÔNG đem lại lợi ích thêm. Kèm một tổng quan hệ thống cho thấy tiêm corticoid nội khớp không hiệu quả hơn tiêm nước muối, danh sách dụng cụ nhỏ thay đổi hẳn cuộc sống hằng ngày, và bài tập tại nhà.",
