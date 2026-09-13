@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "cuc-u-mem-o-co-tay-nang-bao-hoat-dich",
+    title: "Cục U Mềm Nổi Ở Cổ Tay — Nang Bao Hoạt Dịch Có Nguy Hiểm Không, Có Phải Mổ Không?",
+    excerpt: "Một buổi sáng tự nhiên thấy nổi một cục tròn, căng, hơi mềm ở mu cổ tay hoặc mặt trong cổ tay, lúc to lúc nhỏ, ấn vào không đau mấy. Người bệnh lo nhất một câu: có phải u ác không, có phải mổ không. Phần lớn trường hợp đây là nang bao hoạt dịch — một túi dịch nhầy lành tính nối với khớp hoặc bao gân. Bài viết giải thích vì sao nó hình thành, những dấu hiệu giúp yên tâm và những dấu hiệu phải đi khám, và điều quan trọng nhất: theo dõi dài hạn cho thấy khoảng một nửa số nang không điều trị tự biến mất; chọc hút thì tái phát gần một nửa; mổ thì tái phát ít hơn nhưng có biến chứng — và sau năm đến sáu năm, triệu chứng của người mổ, người chọc hút và người không làm gì gần như không khác nhau. Kèm lời khuyên về thói quen dân gian đập nang bằng sách.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-09-14",
+  },
+  {
     slug: "te-ngon-ut-ngon-ap-ut-ket-than-kinh-o-khuyu",
     title: "Tê Ngón Út Và Ngón Áp Út — Không Phải Ống Cổ Tay, Mà Là Dây Thần Kinh Kẹt Ở Khuỷu",
     excerpt: "Tê ngón út và nửa ngoài ngón áp út, tê tăng lên khi nghe điện thoại lâu, khi chống khuỷu lên bàn hay lên thành cửa xe, và sáng ngủ dậy tê rần cả bàn tay vì đêm nằm co tay. Rất nhiều người mang bộ triệu chứng này đi khám và nhận về ba chữ hội chứng ống cổ tay, rồi đeo nẹp cổ tay hàng tháng không đỡ — vì chỗ dây thần kinh bị kẹt không nằm ở cổ tay mà nằm ở KHUỶU. Bài viết chỉ cách phân biệt chỉ bằng việc xem tê ở ngón nào, giải thích vì sao gập khuỷu lại là tư thế gây kẹt, và nêu bằng chứng từ một tổng quan hệ thống trên 844 người bệnh cho thấy với thể nhẹ đến vừa thì GIÁO DỤC và THAY ĐỔI THÓI QUEN có hiệu quả TƯƠNG ĐƯƠNG với đeo nẹp. Kèm danh sách tư thế phải bỏ, cách kê tay khi ngủ, bài tập trượt thần kinh, và những dấu hiệu báo động phải đi khám sớm kẻo teo cơ.",
