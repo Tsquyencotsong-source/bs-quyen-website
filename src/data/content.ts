@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "treo-xa-don-keo-gian-cot-song-thoat-vi-dia-dem",
+    title: "Treo Xà Đơn, Treo Ngược, Kéo Giãn Cột Sống — Có Chữa Được Thoát Vị Đĩa Đệm Không?",
+    excerpt: "Bị thoát vị đĩa đệm, rất nhiều người được mách treo xà đơn mỗi tối, mua ghế treo ngược về nhà, hoặc đi kéo giãn cột sống bằng máy, với lời giải thích nghe rất hợp lý: kéo giãn thì đĩa đệm có chỗ thụt vào. Bài viết giải thích vì sao lý thuyết đó không đơn giản như vậy, và bằng chứng thật nói gì: tổng quan Cochrane gồm 32 thử nghiệm với 2762 người bệnh kết luận kéo giãn gần như không tạo khác biệt về đau và chức năng ở người đau thắt lưng, kể cả có đau thần kinh tọa; hướng dẫn NICE của Anh khuyến cáo không dùng kéo giãn cho đau thắt lưng. Riêng treo ngược làm nhãn áp tăng hơn gấp đôi và huyết áp tăng. Ở cột sống cổ có đau lan xuống tay, kéo giãn có thể giúp phần nào khi là một phần của chương trình tập. Kèm những việc thực sự có ích và dấu hiệu cần đi khám ngay.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-09-15",
+  },
+  {
     slug: "cuc-u-mem-o-co-tay-nang-bao-hoat-dich",
     title: "Cục U Mềm Nổi Ở Cổ Tay — Nang Bao Hoạt Dịch Có Nguy Hiểm Không, Có Phải Mổ Không?",
     excerpt: "Một buổi sáng tự nhiên thấy nổi một cục tròn, căng, hơi mềm ở mu cổ tay hoặc mặt trong cổ tay, lúc to lúc nhỏ, ấn vào không đau mấy. Người bệnh lo nhất một câu: có phải u ác không, có phải mổ không. Phần lớn trường hợp đây là nang bao hoạt dịch — một túi dịch nhầy lành tính nối với khớp hoặc bao gân. Bài viết giải thích vì sao nó hình thành, những dấu hiệu giúp yên tâm và những dấu hiệu phải đi khám, và điều quan trọng nhất: theo dõi dài hạn cho thấy khoảng một nửa số nang không điều trị tự biến mất; chọc hút thì tái phát gần một nửa; mổ thì tái phát ít hơn nhưng có biến chứng — và sau năm đến sáu năm, triệu chứng của người mổ, người chọc hút và người không làm gì gần như không khác nhau. Kèm lời khuyên về thói quen dân gian đập nang bằng sách.",
