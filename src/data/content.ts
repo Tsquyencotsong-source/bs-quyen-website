@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dau-dau-sau-gay-lan-len-dinh-dau-do-cot-song-co",
+    title: "Đau Đầu Từ Sau Gáy Lan Lên Đỉnh Đầu — Có Phải Do Thoái Hóa Đốt Sống Cổ?",
+    excerpt: "Cơn đau bắt đầu ở sau gáy một bên, rồi lan dần lên vùng chẩm, ra sau tai, đôi khi tới đỉnh đầu và hốc mắt cùng bên. Quay cổ thì nhức hơn, ngồi máy tính lâu thì nặng thêm. Rất nhiều người mang phim X-quang có chữ \"thoái hóa đốt sống cổ\" đi khám, được giải thích là thiếu máu não, rồi uống thuốc bổ não hết đợt này sang đợt khác mà không đỡ. Bài viết giải thích về đau đầu do cột sống cổ: vì sao đau ở cổ lại nhức lên đầu — ba rễ thần kinh cổ trên cùng và dây thần kinh cảm giác của mặt cùng đổ về một nhân chung trong thân não; khoảng 70% trường hợp xuất phát từ khớp giữa đốt cổ thứ hai và thứ ba; cách phân biệt với đau nửa đầu và đau đầu căng cơ; vì sao hình ảnh thoái hóa trên phim KHÔNG đủ để kết luận; và bằng chứng điều trị — thử nghiệm ngẫu nhiên trên 200 người bệnh cho thấy liệu pháp bằng tay và bài tập chuyên biệt giảm được tần số và mức độ cơn, hiệu quả còn giữ sau 12 tháng. Kèm bài tập tại nhà và dấu hiệu phải đi khám ngay.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-09-16",
+  },
+  {
     slug: "treo-xa-don-keo-gian-cot-song-thoat-vi-dia-dem",
     title: "Treo Xà Đơn, Treo Ngược, Kéo Giãn Cột Sống — Có Chữa Được Thoát Vị Đĩa Đệm Không?",
     excerpt: "Bị thoát vị đĩa đệm, rất nhiều người được mách treo xà đơn mỗi tối, mua ghế treo ngược về nhà, hoặc đi kéo giãn cột sống bằng máy, với lời giải thích nghe rất hợp lý: kéo giãn thì đĩa đệm có chỗ thụt vào. Bài viết giải thích vì sao lý thuyết đó không đơn giản như vậy, và bằng chứng thật nói gì: tổng quan Cochrane gồm 32 thử nghiệm với 2762 người bệnh kết luận kéo giãn gần như không tạo khác biệt về đau và chức năng ở người đau thắt lưng, kể cả có đau thần kinh tọa; hướng dẫn NICE của Anh khuyến cáo không dùng kéo giãn cho đau thắt lưng. Riêng treo ngược làm nhãn áp tăng hơn gấp đôi và huyết áp tăng. Ở cột sống cổ có đau lan xuống tay, kéo giãn có thể giúp phần nào khi là một phần của chương trình tập. Kèm những việc thực sự có ích và dấu hiệu cần đi khám ngay.",
