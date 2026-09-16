@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dau-lung-ve-dem-cung-lung-buoi-sang-viem-cot-song-dinh-khop",
+    title: "Đau Lưng Về Đêm, Sáng Dậy Cứng Đờ Ở Người Trẻ — Coi Chừng Viêm Cột Sống Dính Khớp",
+    excerpt: "Một chàng trai hai mươi mấy tuổi đau lưng âm ỉ nhiều năm, nửa đêm về sáng đau thức giấc, sáng dậy lưng cứng đờ phải vận động cả tiếng mới đỡ, càng nằm nghỉ càng đau, đi lại vận động thì lại dễ chịu hơn. Đã chụp phim, được bảo thoát vị đĩa đệm hoặc thoái hóa sớm, uống thuốc đỡ rồi lại đau. Bài viết giải thích về viêm cột sống dính khớp — bệnh viêm mạn tính của cột sống và khớp cùng chậu, hay bị nhầm với đau lưng cơ học: năm dấu hiệu của đau lưng kiểu viêm theo tiêu chí quốc tế ASAS; vì sao trung bình người bệnh phải chờ khoảng 6,7 năm mới được chẩn đoán đúng; vai trò và giới hạn của xét nghiệm HLA-B27 và cộng hưởng từ khớp cùng chậu; điều trị theo khuyến cáo ASAS-EULAR 2022 — tập luyện là nền tảng, thuốc chống viêm là lựa chọn đầu tay, thuốc sinh học khi cần; và cảnh báo quan trọng của bác sĩ cột sống: cột sống đã dính rất dễ gãy dù chỉ ngã nhẹ.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-09-17",
+  },
+  {
     slug: "dau-dau-sau-gay-lan-len-dinh-dau-do-cot-song-co",
     title: "Đau Đầu Từ Sau Gáy Lan Lên Đỉnh Đầu — Có Phải Do Thoái Hóa Đốt Sống Cổ?",
     excerpt: "Cơn đau bắt đầu ở sau gáy một bên, rồi lan dần lên vùng chẩm, ra sau tai, đôi khi tới đỉnh đầu và hốc mắt cùng bên. Quay cổ thì nhức hơn, ngồi máy tính lâu thì nặng thêm. Rất nhiều người mang phim X-quang có chữ \"thoái hóa đốt sống cổ\" đi khám, được giải thích là thiếu máu não, rồi uống thuốc bổ não hết đợt này sang đợt khác mà không đỡ. Bài viết giải thích về đau đầu do cột sống cổ: vì sao đau ở cổ lại nhức lên đầu — ba rễ thần kinh cổ trên cùng và dây thần kinh cảm giác của mặt cùng đổ về một nhân chung trong thân não; khoảng 70% trường hợp xuất phát từ khớp giữa đốt cổ thứ hai và thứ ba; cách phân biệt với đau nửa đầu và đau đầu căng cơ; vì sao hình ảnh thoái hóa trên phim KHÔNG đủ để kết luận; và bằng chứng điều trị — thử nghiệm ngẫu nhiên trên 200 người bệnh cho thấy liệu pháp bằng tay và bài tập chuyên biệt giảm được tần số và mức độ cơn, hiệu quả còn giữ sau 12 tháng. Kèm bài tập tại nhà và dấu hiệu phải đi khám ngay.",
