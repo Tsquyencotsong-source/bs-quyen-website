@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "be-khop-ngon-tay-van-co-keu-rac-rac-co-hai-khong",
+    title: "Bẻ Khớp Ngón Tay, Vặn Cổ Kêu \"Rắc Rắc\" Cho Đỡ Mỏi — Có Hại Không?",
+    excerpt: "Ngồi lâu mỏi quá, nhiều người bẻ các ngón tay kêu răng rắc, vặn cổ sang hai bên cho kêu một tiếng, ưỡn lưng cho kêu \"rắc\" — xong thấy nhẹ cả người. Rồi lại lo: làm thế mãi có bị to đốt ngón tay, có thoái hóa khớp sớm không? Bài viết trả lời bằng bằng chứng thật: tiếng kêu đó không phải xương chạm xương mà là một khoang khí hình thành trong dịch khớp, đã được quay lại bằng cộng hưởng từ thời gian thực năm 2015; nghiên cứu bệnh chứng trên 215 người cho thấy người có thói quen bẻ khớp ngón tay không bị thoái hóa khớp bàn tay nhiều hơn người không bẻ. Nhưng có hai điều bác sĩ cột sống muốn bạn biết: một nghiên cứu cũ trên 300 người ghi nhận nhóm bẻ khớp lâu năm hay sưng bàn tay và lực nắm yếu hơn; và quan trọng hơn cả — động tác VẶN MẠNH CỔ hoàn toàn khác chuyện bẻ ngón tay, vì Hiệp hội Tim mạch Hoa Kỳ đã ra khuyến cáo riêng về mối liên quan giữa thao tác mạnh vùng cổ và bóc tách động mạch đốt sống, một nguyên nhân gây đột quỵ ở người trẻ. Kèm cách phân biệt tiếng kêu lành tính với tiếng kêu cần đi khám, và mấy động tác thay thế an toàn.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-09-18",
+  },
+  {
     slug: "dau-lung-ve-dem-cung-lung-buoi-sang-viem-cot-song-dinh-khop",
     title: "Đau Lưng Về Đêm, Sáng Dậy Cứng Đờ Ở Người Trẻ — Coi Chừng Viêm Cột Sống Dính Khớp",
     excerpt: "Một chàng trai hai mươi mấy tuổi đau lưng âm ỉ nhiều năm, nửa đêm về sáng đau thức giấc, sáng dậy lưng cứng đờ phải vận động cả tiếng mới đỡ, càng nằm nghỉ càng đau, đi lại vận động thì lại dễ chịu hơn. Đã chụp phim, được bảo thoát vị đĩa đệm hoặc thoái hóa sớm, uống thuốc đỡ rồi lại đau. Bài viết giải thích về viêm cột sống dính khớp — bệnh viêm mạn tính của cột sống và khớp cùng chậu, hay bị nhầm với đau lưng cơ học: năm dấu hiệu của đau lưng kiểu viêm theo tiêu chí quốc tế ASAS; vì sao trung bình người bệnh phải chờ khoảng 6,7 năm mới được chẩn đoán đúng; vai trò và giới hạn của xét nghiệm HLA-B27 và cộng hưởng từ khớp cùng chậu; điều trị theo khuyến cáo ASAS-EULAR 2022 — tập luyện là nền tảng, thuốc chống viêm là lựa chọn đầu tay, thuốc sinh học khi cần; và cảnh báo quan trọng của bác sĩ cột sống: cột sống đã dính rất dễ gãy dù chỉ ngã nhẹ.",
