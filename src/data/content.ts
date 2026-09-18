@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "thap-di-may-centimet-so-voi-hoi-tre",
+    title: "Thấp Đi Mấy Centimet So Với Hồi Trẻ — Bình Thường Hay Dấu Hiệu Xẹp Đốt Sống?",
+    excerpt: "Hồi trẻ đi bộ đội đo được 1m65, giờ ngoài bảy mươi con cháu đo lại chỉ còn 1m59 — nhiều người coi đó là chuyện đương nhiên của tuổi già, \"ai chả thế\". Nhưng trong chuyên ngành cột sống, chiều cao là một trong những dấu hiệu rẻ tiền và giá trị nhất mà người bệnh có thể tự theo dõi tại nhà. Bài viết giải thích: vì sao càng có tuổi càng thấp đi, và phần nào trong đó là bình thường — sau tuổi bốn mươi mỗi mười năm thấp đi khoảng 1cm do đĩa đệm mất nước là chuyện sinh lý; nhưng các hướng dẫn về loãng xương trên thế giới đều thống nhất một ngưỡng cảnh báo: thấp đi từ 4cm trở lên so với chiều cao hồi thanh niên, hoặc thấp đi 2cm trong vòng ba năm theo dõi, là chỉ định để chụp phim tìm gãy xẹp đốt sống. Lý do là khoảng hai phần ba số gãy xẹp đốt sống do loãng xương diễn ra âm thầm, không hề có cơn đau dữ dội nào, và không bao giờ được chẩn đoán. Mà một đốt sống đã xẹp thì nguy cơ xẹp thêm đốt mới tăng khoảng năm lần, nguy cơ gãy cổ xương đùi tăng khoảng hai lần, riêng trong năm đầu tiên nguy cơ có đốt xẹp mới đã khoảng 20%. Kèm cách tự đo chiều cao đúng tại nhà, những dấu hiệu phải đi khám ngay, các bước bác sĩ sẽ làm khi bạn tới khám, điều trị theo bậc thang từ bảo tồn tới can thiệp, và một cảnh báo quan trọng về bài tập mà người loãng xương tuyệt đối không nên làm.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-09-19",
+  },
+  {
     slug: "be-khop-ngon-tay-van-co-keu-rac-rac-co-hai-khong",
     title: "Bẻ Khớp Ngón Tay, Vặn Cổ Kêu \"Rắc Rắc\" Cho Đỡ Mỏi — Có Hại Không?",
     excerpt: "Ngồi lâu mỏi quá, nhiều người bẻ các ngón tay kêu răng rắc, vặn cổ sang hai bên cho kêu một tiếng, ưỡn lưng cho kêu \"rắc\" — xong thấy nhẹ cả người. Rồi lại lo: làm thế mãi có bị to đốt ngón tay, có thoái hóa khớp sớm không? Bài viết trả lời bằng bằng chứng thật: tiếng kêu đó không phải xương chạm xương mà là một khoang khí hình thành trong dịch khớp, đã được quay lại bằng cộng hưởng từ thời gian thực năm 2015; nghiên cứu bệnh chứng trên 215 người cho thấy người có thói quen bẻ khớp ngón tay không bị thoái hóa khớp bàn tay nhiều hơn người không bẻ. Nhưng có hai điều bác sĩ cột sống muốn bạn biết: một nghiên cứu cũ trên 300 người ghi nhận nhóm bẻ khớp lâu năm hay sưng bàn tay và lực nắm yếu hơn; và quan trọng hơn cả — động tác VẶN MẠNH CỔ hoàn toàn khác chuyện bẻ ngón tay, vì Hiệp hội Tim mạch Hoa Kỳ đã ra khuyến cáo riêng về mối liên quan giữa thao tác mạnh vùng cổ và bóc tách động mạch đốt sống, một nguyên nhân gây đột quỵ ở người trẻ. Kèm cách phân biệt tiếng kêu lành tính với tiếng kêu cần đi khám, và mấy động tác thay thế an toàn.",
