@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "rach-sun-chem-khop-goi-trung-nien-co-can-mo-noi-soi",
+    title: "Rách Sụn Chêm Khớp Gối Ở Tuổi Trung Niên — Có Phải Cứ Thấy Trên MRI Là Phải Mổ Nội Soi?",
+    excerpt: "Cầm tờ kết quả cộng hưởng từ ghi \"rách sụn chêm\", nhiều người ngoài bốn mươi tuổi nghĩ ngay tới chuyện phải mổ nội soi. Bài viết giải thích sự khác nhau giữa rách sụn chêm do chấn thương ở người trẻ và rách do thoái hoá ở tuổi trung niên; vì sao thấy rách trên phim chưa chắc đó là nguyên nhân gây đau — một nghiên cứu trên gần một nghìn người từ 50 đến 90 tuổi cho thấy 61% người có rách sụn chêm không hề đau gối; và các thử nghiệm lâm sàng lớn đăng trên NEJM, BMJ đã chứng minh với rách sụn chêm thoái hoá, mổ nội soi cắt sụn chêm không tốt hơn tập luyện có hướng dẫn, thậm chí không hơn ca mổ giả. Kèm những dấu hiệu cần đi khám ngay như gối kẹt cứng không duỗi được, điều trị theo bậc thang từ bảo tồn tới phẫu thuật, và bảy bài tập tại nhà giúp khoẻ cơ đùi, vững khớp gối.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-02",
+  },
+  {
     slug: "thap-di-may-centimet-so-voi-hoi-tre",
     title: "Thấp Đi Mấy Centimet So Với Hồi Trẻ — Bình Thường Hay Dấu Hiệu Xẹp Đốt Sống?",
     excerpt: "Hồi trẻ đi bộ đội đo được 1m65, giờ ngoài bảy mươi con cháu đo lại chỉ còn 1m59 — nhiều người coi đó là chuyện đương nhiên của tuổi già, \"ai chả thế\". Nhưng trong chuyên ngành cột sống, chiều cao là một trong những dấu hiệu rẻ tiền và giá trị nhất mà người bệnh có thể tự theo dõi tại nhà. Bài viết giải thích: vì sao càng có tuổi càng thấp đi, và phần nào trong đó là bình thường — sau tuổi bốn mươi mỗi mười năm thấp đi khoảng 1cm do đĩa đệm mất nước là chuyện sinh lý; nhưng các hướng dẫn về loãng xương trên thế giới đều thống nhất một ngưỡng cảnh báo: thấp đi từ 4cm trở lên so với chiều cao hồi thanh niên, hoặc thấp đi 2cm trong vòng ba năm theo dõi, là chỉ định để chụp phim tìm gãy xẹp đốt sống. Lý do là khoảng hai phần ba số gãy xẹp đốt sống do loãng xương diễn ra âm thầm, không hề có cơn đau dữ dội nào, và không bao giờ được chẩn đoán. Mà một đốt sống đã xẹp thì nguy cơ xẹp thêm đốt mới tăng khoảng năm lần, nguy cơ gãy cổ xương đùi tăng khoảng hai lần, riêng trong năm đầu tiên nguy cơ có đốt xẹp mới đã khoảng 20%. Kèm cách tự đo chiều cao đúng tại nhà, những dấu hiệu phải đi khám ngay, các bước bác sĩ sẽ làm khi bạn tới khám, điều trị theo bậc thang từ bảo tồn tới can thiệp, và một cảnh báo quan trọng về bài tập mà người loãng xương tuyệt đối không nên làm.",
