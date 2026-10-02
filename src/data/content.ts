@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "doc-ket-qua-do-loang-xuong-dxa-chi-so-t-score",
+    title: "Đọc Kết Quả Đo Loãng Xương DXA — Chỉ Số T-Score, Z-Score Nói Lên Điều Gì?",
+    excerpt: "Cầm tờ kết quả đo mật độ xương với những con số âm như -1,8 hay -2,7, nhiều người không biết mình bị loãng xương thật hay chưa. Bài viết giải thích bằng lời dễ hiểu phương pháp đo DXA ở cột sống thắt lưng và khớp háng; sự khác nhau giữa chỉ số T-score và Z-score, ai dùng chỉ số nào; ba mức bình thường, thiếu xương và loãng xương theo Tổ chức Y tế Thế giới; vì sao gai cột sống có thể làm kết quả ở lưng \"đẹp\" giả tạo; vì sao người đã gãy xẹp đốt sống hay gãy cổ xương đùi được coi là loãng xương dù con số chưa tới -2,5. Kèm dấu hiệu cần đi khám ngay, điều trị theo bậc thang và các bài tập giữ xương, phòng ngã tại nhà.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-03",
+  },
+  {
     slug: "rach-sun-chem-khop-goi-trung-nien-co-can-mo-noi-soi",
     title: "Rách Sụn Chêm Khớp Gối Ở Tuổi Trung Niên — Có Phải Cứ Thấy Trên MRI Là Phải Mổ Nội Soi?",
     excerpt: "Cầm tờ kết quả cộng hưởng từ ghi \"rách sụn chêm\", nhiều người ngoài bốn mươi tuổi nghĩ ngay tới chuyện phải mổ nội soi. Bài viết giải thích sự khác nhau giữa rách sụn chêm do chấn thương ở người trẻ và rách do thoái hoá ở tuổi trung niên; vì sao thấy rách trên phim chưa chắc đó là nguyên nhân gây đau — một nghiên cứu trên gần một nghìn người từ 50 đến 90 tuổi cho thấy 61% người có rách sụn chêm không hề đau gối; và các thử nghiệm lâm sàng lớn đăng trên NEJM, BMJ đã chứng minh với rách sụn chêm thoái hoá, mổ nội soi cắt sụn chêm không tốt hơn tập luyện có hướng dẫn, thậm chí không hơn ca mổ giả. Kèm những dấu hiệu cần đi khám ngay như gối kẹt cứng không duỗi được, điều trị theo bậc thang từ bảo tồn tới phẫu thuật, và bảy bài tập tại nhà giúp khoẻ cơ đùi, vững khớp gối.",
