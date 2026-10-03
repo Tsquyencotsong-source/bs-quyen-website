@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "chong-mat-co-phai-do-thoai-hoa-dot-song-co",
+    title: "Chóng Mặt Có Phải Do Thoái Hóa Đốt Sống Cổ? Hiểu Đúng Để Không Chữa Nhầm",
+    excerpt: "Rất nhiều người chóng mặt được giải thích là do thoái hóa đốt sống cổ chèn mạch máu, thiếu máu não, rồi uống thuốc mãi không đỡ. Bài viết giải thích vì sao gai xương cổ trên phim thường chỉ là lão hóa tự nhiên; một nghiên cứu trên người thoái hóa cổ nặng cho thấy gần một nửa có chóng mặt nhưng tất cả đều do nguyên nhân khác; những thủ phạm thật sự hay gặp như sỏi tai (BPPV), tụt huyết áp tư thế, tăng huyết áp; khi nào cột sống cổ thật sự liên quan; dấu hiệu đột quỵ BE FAST cần đi cấp cứu ngay; điều trị theo nguyên nhân và bài tập cổ, thăng bằng tại nhà.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-04",
+  },
+  {
     slug: "doc-ket-qua-do-loang-xuong-dxa-chi-so-t-score",
     title: "Đọc Kết Quả Đo Loãng Xương DXA — Chỉ Số T-Score, Z-Score Nói Lên Điều Gì?",
     excerpt: "Cầm tờ kết quả đo mật độ xương với những con số âm như -1,8 hay -2,7, nhiều người không biết mình bị loãng xương thật hay chưa. Bài viết giải thích bằng lời dễ hiểu phương pháp đo DXA ở cột sống thắt lưng và khớp háng; sự khác nhau giữa chỉ số T-score và Z-score, ai dùng chỉ số nào; ba mức bình thường, thiếu xương và loãng xương theo Tổ chức Y tế Thế giới; vì sao gai cột sống có thể làm kết quả ở lưng \"đẹp\" giả tạo; vì sao người đã gãy xẹp đốt sống hay gãy cổ xương đùi được coi là loãng xương dù con số chưa tới -2,5. Kèm dấu hiệu cần đi khám ngay, điều trị theo bậc thang và các bài tập giữ xương, phòng ngã tại nhà.",
