@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "gu-lung-o-nguoi-cao-tuoi-co-phai-chi-do-gia",
+    title: "Gù Lưng Ở Người Cao Tuổi: Có Phải Chỉ Do Tuổi Già, Có Tập Thẳng Lại Được Không?",
+    excerpt: "Lưng ngày càng còng, đứng không thẳng được, con cháu nhắc mãi vẫn gù: nhiều người nghĩ đó là chuyện đương nhiên của tuổi già. Thực ra gù lưng tăng nặng ở người cao tuổi rất thường gặp nhưng không hoàn toàn vô hại: nó có thể là dấu hiệu của xẹp đốt sống do loãng xương, và đi kèm nguy cơ ngã, gãy xương, giảm sức khỏe. Tin vui là phần lớn người gù KHÔNG có gãy đốt sống, và thử nghiệm có đối chứng cho thấy tập luyện đúng cách có thể giúp lưng thẳng hơn một phần. Bài viết giải thích nguyên nhân, khi nào cần đi khám ngay, điều trị theo bậc thang và các bài tập an toàn tại nhà.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-06",
+  },
+  {
     slug: "tiem-ngoai-mang-cung-dau-than-kinh-toa-co-nen-khong",
     title: "Tiêm Ngoài Màng Cứng Chữa Đau Thần Kinh Tọa: Có Nên Tiêm, Hiệu Quả Bao Lâu, Có Hại Không?",
     excerpt: "Nhiều người đau thần kinh tọa được giới thiệu \"tiêm một mũi vào cột sống cho hết đau\" và băn khoăn có nên tiêm, tiêm có hại không, tiêm rồi có khỏi phải mổ không. Bài viết giải thích tiêm ngoài màng cứng là gì; tổng quan Cochrane năm 2020 gộp 25 thử nghiệm với 2470 người bệnh cho thấy thuốc giúp giảm đau chân ít và chủ yếu trong ngắn hạn; thử nghiệm trên tạp chí NEJM cho thấy tiêm không làm giảm tỉ lệ phải mổ sau một năm; khi nào tiêm là lựa chọn hợp lý; tác dụng phụ thường gặp và cảnh báo hiếm gặp nhưng nghiêm trọng của FDA; dấu hiệu phải đi khám ngay; vị trí của tiêm trong bậc thang điều trị và bài tập tại nhà.",
