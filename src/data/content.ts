@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "ken-baker-u-nang-khoeo-chan-co-nguy-hiem-khong",
+    title: "Kén Baker (U Nang Khoeo Chân): Có Nguy Hiểm Không, Có Cần Mổ Không?",
+    excerpt: "Sờ thấy một cục căng phồng sau đầu gối, gập gối thấy vướng, siêu âm ghi \"kén Baker\": nhiều người lo đó là khối u, lo phải mổ. Thực ra kén Baker (u nang khoeo chân) là một túi chứa dịch khớp, lành tính, rất thường gặp. Ở người lớn, kén thường là \"tiếng báo\" của một vấn đề bên trong khớp gối như thoái hóa khớp hay rách sụn chêm; ở trẻ em, kén thường tự hết. Điều quan trọng là chữa cái gốc trong khớp chứ không chỉ chăm chăm hút hay cắt cái kén. Bài viết giải thích nguyên nhân, dấu hiệu cần đi khám ngay (nhất là khi bắp chân sưng đau đột ngột), điều trị theo bậc thang và bài tập tại nhà.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-07",
+  },
+  {
     slug: "gu-lung-o-nguoi-cao-tuoi-co-phai-chi-do-gia",
     title: "Gù Lưng Ở Người Cao Tuổi: Có Phải Chỉ Do Tuổi Già, Có Tập Thẳng Lại Được Không?",
     excerpt: "Lưng ngày càng còng, đứng không thẳng được, con cháu nhắc mãi vẫn gù: nhiều người nghĩ đó là chuyện đương nhiên của tuổi già. Thực ra gù lưng tăng nặng ở người cao tuổi rất thường gặp nhưng không hoàn toàn vô hại: nó có thể là dấu hiệu của xẹp đốt sống do loãng xương, và đi kèm nguy cơ ngã, gãy xương, giảm sức khỏe. Tin vui là phần lớn người gù KHÔNG có gãy đốt sống, và thử nghiệm có đối chứng cho thấy tập luyện đúng cách có thể giúp lưng thẳng hơn một phần. Bài viết giải thích nguyên nhân, khi nào cần đi khám ngay, điều trị theo bậc thang và các bài tập an toàn tại nhà.",
