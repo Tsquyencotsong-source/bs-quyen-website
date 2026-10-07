@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dau-lung-cap-nen-nam-nghi-hay-van-dong",
+    title: "Đau Lưng Cấp, Cúi Xuống Không Đứng Dậy Được: Nên Nằm Nghỉ Hay Cố Vận Động?",
+    excerpt: "Cúi xuống bê thùng nước, xách bao gạo, rồi bỗng nhói một cái ở thắt lưng, đứng thẳng không nổi: đó là cơn đau lưng cấp mà rất nhiều người từng gặp. Phản xạ tự nhiên là nằm im trên giường chờ khỏi. Nhưng các nghiên cứu cho thấy với đau lưng cấp thông thường, nằm lì trên giường không giúp lưng mau khỏi hơn, còn duy trì sinh hoạt nhẹ nhàng trong giới hạn chịu đau thì hồi phục tốt hơn. Bài viết giải thích vì sao, cách vận động đúng trong những ngày đầu, các biện pháp giảm đau an toàn, điều trị theo bậc thang, bài tập tại nhà và những dấu hiệu nguy hiểm buộc phải đi khám ngay.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-08",
+  },
+  {
     slug: "ken-baker-u-nang-khoeo-chan-co-nguy-hiem-khong",
     title: "Kén Baker (U Nang Khoeo Chân): Có Nguy Hiểm Không, Có Cần Mổ Không?",
     excerpt: "Sờ thấy một cục căng phồng sau đầu gối, gập gối thấy vướng, siêu âm ghi \"kén Baker\": nhiều người lo đó là khối u, lo phải mổ. Thực ra kén Baker (u nang khoeo chân) là một túi chứa dịch khớp, lành tính, rất thường gặp. Ở người lớn, kén thường là \"tiếng báo\" của một vấn đề bên trong khớp gối như thoái hóa khớp hay rách sụn chêm; ở trẻ em, kén thường tự hết. Điều quan trọng là chữa cái gốc trong khớp chứ không chỉ chăm chăm hút hay cắt cái kén. Bài viết giải thích nguyên nhân, dấu hiệu cần đi khám ngay (nhất là khi bắp chân sưng đau đột ngột), điều trị theo bậc thang và bài tập tại nhà.",
