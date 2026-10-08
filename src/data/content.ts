@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "tay-vung-ve-di-loang-choang-chen-ep-tuy-co-do-thoai-hoa",
+    title: "Tay Vụng Về, Cài Cúc Áo Khó, Đi Loạng Choạng: Coi Chừng Chèn Ép Tủy Cổ Do Thoái Hóa",
+    excerpt: "Cài cúc áo ngày càng khó, cầm đũa hay rơi, chữ viết xấu đi, tê hai bàn tay, bước đi chênh vênh như người say: nhiều người nghĩ đó là tuổi già, là tê tay do ống cổ tay, hay thiếu canxi. Nhưng ở người trên 50 tuổi, đây có thể là dấu hiệu tủy sống ở cổ đang bị chèn ép do thoái hóa, một bệnh được y văn gọi là bệnh lý tủy cổ do thoái hóa. Bệnh thường bị chẩn đoán muộn, trong khi điều trị sớm cho cơ hội hồi phục tốt nhất. Bài viết giúp anh chị nhận biết dấu hiệu, hiểu vai trò của MRI, điều trị theo mức độ bệnh, những việc cần tránh và khi nào phải đi khám ngay.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-09",
+  },
+  {
     slug: "dau-lung-cap-nen-nam-nghi-hay-van-dong",
     title: "Đau Lưng Cấp, Cúi Xuống Không Đứng Dậy Được: Nên Nằm Nghỉ Hay Cố Vận Động?",
     excerpt: "Cúi xuống bê thùng nước, xách bao gạo, rồi bỗng nhói một cái ở thắt lưng, đứng thẳng không nổi: đó là cơn đau lưng cấp mà rất nhiều người từng gặp. Phản xạ tự nhiên là nằm im trên giường chờ khỏi. Nhưng các nghiên cứu cho thấy với đau lưng cấp thông thường, nằm lì trên giường không giúp lưng mau khỏi hơn, còn duy trì sinh hoạt nhẹ nhàng trong giới hạn chịu đau thì hồi phục tốt hơn. Bài viết giải thích vì sao, cách vận động đúng trong những ngày đầu, các biện pháp giảm đau an toàn, điều trị theo bậc thang, bài tập tại nhà và những dấu hiệu nguy hiểm buộc phải đi khám ngay.",
