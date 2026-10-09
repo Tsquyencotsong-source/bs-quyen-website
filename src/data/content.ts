@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "gay-co-tay-sau-nga-nhe-canh-bao-loang-xuong",
+    title: "Té Chống Tay Mà Gãy Cổ Tay: Lời Cảnh Báo Loãng Xương Đừng Bỏ Qua",
+    excerpt: "Trượt chân trong nhà tắm, theo phản xạ chống tay xuống đất, rồi cổ tay sưng vù, phải bó bột: rất nhiều người nghĩ đó chỉ là một tai nạn không may, tháo bột xong là hết chuyện. Nhưng với người trên 50 tuổi, gãy cổ tay sau một cú ngã nhẹ từ tư thế đứng thường là dấu hiệu đầu tiên của loãng xương, và là lời cảnh báo rằng nguy cơ gãy đốt sống, gãy cổ xương đùi trong những năm tới đã tăng lên rõ rệt, đặc biệt trong một đến hai năm đầu. Bài viết giúp anh chị hiểu vì sao, nên kiểm tra gì sau khi bó bột, điều trị theo bậc thang, bài tập phục hồi và cách phòng ngã tại nhà.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-10",
+  },
+  {
     slug: "tay-vung-ve-di-loang-choang-chen-ep-tuy-co-do-thoai-hoa",
     title: "Tay Vụng Về, Cài Cúc Áo Khó, Đi Loạng Choạng: Coi Chừng Chèn Ép Tủy Cổ Do Thoái Hóa",
     excerpt: "Cài cúc áo ngày càng khó, cầm đũa hay rơi, chữ viết xấu đi, tê hai bàn tay, bước đi chênh vênh như người say: nhiều người nghĩ đó là tuổi già, là tê tay do ống cổ tay, hay thiếu canxi. Nhưng ở người trên 50 tuổi, đây có thể là dấu hiệu tủy sống ở cổ đang bị chèn ép do thoái hóa, một bệnh được y văn gọi là bệnh lý tủy cổ do thoái hóa. Bệnh thường bị chẩn đoán muộn, trong khi điều trị sớm cho cơ hội hồi phục tốt nhất. Bài viết giúp anh chị nhận biết dấu hiệu, hiểu vai trò của MRI, điều trị theo mức độ bệnh, những việc cần tránh và khi nào phải đi khám ngay.",
