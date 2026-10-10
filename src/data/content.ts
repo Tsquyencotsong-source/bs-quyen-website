@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dau-lung-kem-bi-tieu-te-vung-kin-hoi-chung-chum-duoi-ngua",
+    title: "Đau Lưng Kèm Bí Tiểu, Tê Vùng Kín: Hội Chứng Chùm Đuôi Ngựa Là Cấp Cứu Không Được Chờ",
+    excerpt: "Phần lớn các cơn đau lưng, đau thần kinh tọa là lành tính và tự cải thiện sau vài tuần. Nhưng có một tình huống hiếm gặp mà người bệnh nào đang đau lưng cũng nên biết: khi đau lưng, đau lan hai chân đi kèm tiểu khó, bí tiểu, tê vùng kín và quanh hậu môn, hoặc yếu hai chân tăng nhanh. Đó có thể là hội chứng chùm đuôi ngựa, tình trạng các rễ thần kinh điều khiển bàng quang, ruột và chức năng tình dục bị chèn ép nặng. Bài viết giúp anh chị nhận biết năm dấu hiệu báo động, hiểu vì sao phải đến bệnh viện ngay trong ngày, bệnh viện sẽ làm gì và quá trình hồi phục sau mổ diễn ra thế nào.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-11",
+  },
+  {
     slug: "gay-co-tay-sau-nga-nhe-canh-bao-loang-xuong",
     title: "Té Chống Tay Mà Gãy Cổ Tay: Lời Cảnh Báo Loãng Xương Đừng Bỏ Qua",
     excerpt: "Trượt chân trong nhà tắm, theo phản xạ chống tay xuống đất, rồi cổ tay sưng vù, phải bó bột: rất nhiều người nghĩ đó chỉ là một tai nạn không may, tháo bột xong là hết chuyện. Nhưng với người trên 50 tuổi, gãy cổ tay sau một cú ngã nhẹ từ tư thế đứng thường là dấu hiệu đầu tiên của loãng xương, và là lời cảnh báo rằng nguy cơ gãy đốt sống, gãy cổ xương đùi trong những năm tới đã tăng lên rõ rệt, đặc biệt trong một đến hai năm đầu. Bài viết giúp anh chị hiểu vì sao, nên kiểm tra gì sau khi bó bột, điều trị theo bậc thang, bài tập phục hồi và cách phòng ngã tại nhà.",
