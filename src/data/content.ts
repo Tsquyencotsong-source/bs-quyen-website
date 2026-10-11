@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "chuom-nong-hay-chuom-lanh-khi-dau-lung-dau-khop",
+    title: "Chườm Nóng Hay Chườm Lạnh Khi Đau Lưng, Đau Khớp: Dùng Sao Cho Đúng?",
+    excerpt: "Chườm nóng hay chườm lạnh là câu hỏi gần như ngày nào tôi cũng nghe ở phòng khám: đau lưng thì chườm gì, bong gân có nên xoa dầu nóng, khớp gối sưng thì dùng túi ấm hay túi đá. Câu trả lời không phải là cái nào tốt hơn, mà là dùng cái nào vào lúc nào. Bài viết giúp anh chị hiểu nóng và lạnh tác động lên cơ thể ra sao, bằng chứng khoa học hiện nay nói gì, cách chọn cho từng tình huống thường gặp như đau lưng cấp, cứng cổ, bong gân, thoái hóa khớp gối, cách chườm an toàn để không bị bỏng, những ai cần thận trọng và khi nào thì nên đi khám thay vì tiếp tục chườm ở nhà.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-12",
+  },
+  {
     slug: "dau-lung-kem-bi-tieu-te-vung-kin-hoi-chung-chum-duoi-ngua",
     title: "Đau Lưng Kèm Bí Tiểu, Tê Vùng Kín: Hội Chứng Chùm Đuôi Ngựa Là Cấp Cứu Không Được Chờ",
     excerpt: "Phần lớn các cơn đau lưng, đau thần kinh tọa là lành tính và tự cải thiện sau vài tuần. Nhưng có một tình huống hiếm gặp mà người bệnh nào đang đau lưng cũng nên biết: khi đau lưng, đau lan hai chân đi kèm tiểu khó, bí tiểu, tê vùng kín và quanh hậu môn, hoặc yếu hai chân tăng nhanh. Đó có thể là hội chứng chùm đuôi ngựa, tình trạng các rễ thần kinh điều khiển bàng quang, ruột và chức năng tình dục bị chèn ép nặng. Bài viết giúp anh chị nhận biết năm dấu hiệu báo động, hiểu vì sao phải đến bệnh viện ngay trong ngày, bệnh viện sẽ làm gì và quá trình hồi phục sau mổ diễn ra thế nào.",
