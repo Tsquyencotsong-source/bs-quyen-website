@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "tiem-chat-nhon-khop-goi-co-nen-khong",
+    title: "Tiêm Chất Nhờn Khớp Gối Có Nên Không? Nói Thật Về Các Mũi Tiêm Vào Khớp",
+    excerpt: "Tiêm chất nhờn khớp gối có nên không là câu hỏi rất nhiều cô bác bị thoái hóa khớp gối mang đến phòng khám, thường kèm theo lời kể: hàng xóm tiêm xong đi lại nhẹ hẳn. Bài viết giải thích chất nhờn thực chất là gì, các nghiên cứu lớn nói gì về hiệu quả thật của mũi tiêm này so với tiêm giả dược, tiêm corticoid giảm đau được bao lâu và vì sao không nên tiêm dày, huyết tương giàu tiểu cầu và tế bào gốc đang ở đâu trong bằng chứng khoa học, ai có thể cân nhắc tiêm khớp, cần lưu ý gì để tiêm an toàn, dấu hiệu nào sau tiêm phải đi khám ngay, và những việc nền tảng giúp khớp gối bền hơn mà không mũi tiêm nào thay thế được.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-13",
+  },
+  {
     slug: "chuom-nong-hay-chuom-lanh-khi-dau-lung-dau-khop",
     title: "Chườm Nóng Hay Chườm Lạnh Khi Đau Lưng, Đau Khớp: Dùng Sao Cho Đúng?",
     excerpt: "Chườm nóng hay chườm lạnh là câu hỏi gần như ngày nào tôi cũng nghe ở phòng khám: đau lưng thì chườm gì, bong gân có nên xoa dầu nóng, khớp gối sưng thì dùng túi ấm hay túi đá. Câu trả lời không phải là cái nào tốt hơn, mà là dùng cái nào vào lúc nào. Bài viết giúp anh chị hiểu nóng và lạnh tác động lên cơ thể ra sao, bằng chứng khoa học hiện nay nói gì, cách chọn cho từng tình huống thường gặp như đau lưng cấp, cứng cổ, bong gân, thoái hóa khớp gối, cách chườm an toàn để không bị bỏng, những ai cần thận trọng và khi nào thì nên đi khám thay vì tiếp tục chườm ở nhà.",
