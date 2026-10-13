@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "troi-tro-lanh-dau-khop-dau-lung-co-that-khong",
+    title: "Trở Trời Đau Khớp, Đau Lưng Có Thật Không? Khoa Học Nói Gì Và Cách Giữ Khớp Mùa Lạnh",
+    excerpt: "Trở trời đau khớp, đau lưng có thật không là câu hỏi rất nhiều cô bác mang đến phòng khám mỗi khi gió mùa về. Bài viết kể lại những gì các nghiên cứu lớn đã tìm thấy: vì sao có nghiên cứu trên hàng triệu lượt khám không thấy mưa làm đau khớp tăng, trong khi nghiên cứu khác lại thấy độ ẩm và áp suất có liên quan ở mức khiêm tốn; các giả thuyết giải thích vì sao khớp nhạy với thời tiết; vì sao mùa lạnh nhiều người đau hơn dù thời tiết không làm khớp hỏng thêm; dấu hiệu nào không được đổ cho trở trời mà phải đi khám ngay; và những việc cụ thể giúp giữ ấm, giữ vận động, giữ khớp êm hơn qua mùa lạnh.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-14",
+  },
+  {
     slug: "tiem-chat-nhon-khop-goi-co-nen-khong",
     title: "Tiêm Chất Nhờn Khớp Gối Có Nên Không? Nói Thật Về Các Mũi Tiêm Vào Khớp",
     excerpt: "Tiêm chất nhờn khớp gối có nên không là câu hỏi rất nhiều cô bác bị thoái hóa khớp gối mang đến phòng khám, thường kèm theo lời kể: hàng xóm tiêm xong đi lại nhẹ hẳn. Bài viết giải thích chất nhờn thực chất là gì, các nghiên cứu lớn nói gì về hiệu quả thật của mũi tiêm này so với tiêm giả dược, tiêm corticoid giảm đau được bao lâu và vì sao không nên tiêm dày, huyết tương giàu tiểu cầu và tế bào gốc đang ở đâu trong bằng chứng khoa học, ai có thể cân nhắc tiêm khớp, cần lưu ý gì để tiêm an toàn, dấu hiệu nào sau tiêm phải đi khám ngay, và những việc nền tảng giúp khớp gối bền hơn mà không mũi tiêm nào thay thế được.",
