@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dau-lung-khi-mang-thai-vi-sao-va-lam-gi-cho-an-toan",
+    title: "Đau Lưng Khi Mang Thai: Vì Sao Bị Và Làm Gì Cho An Toàn Cả Mẹ Lẫn Bé",
+    excerpt: "Đau lưng khi mang thai gặp ở hơn hai phần ba thai phụ, và gần một phần năm bị đau vùng chậu. Vì sao lưng đau khi bụng lớn dần, làm sao phân biệt đau thắt lưng với đau khung chậu, khi nào đau lưng là dấu hiệu chuyển dạ sớm, nhiễm trùng tiết niệu hay chèn ép thần kinh cần đi khám ngay? TS.BS. Nguyễn Ngọc Quyền hướng dẫn cách đứng, ngồi, nằm, nâng đồ, các bài tập nhẹ tại nhà có bằng chứng, vai trò của đai đỡ bụng, và vì sao không nên tự ý dùng thuốc giảm đau khi đang mang bầu.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-16",
+  },
+  {
     slug: "troi-tro-lanh-dau-khop-dau-lung-co-that-khong",
     title: "Trở Trời Đau Khớp, Đau Lưng Có Thật Không? Khoa Học Nói Gì Và Cách Giữ Khớp Mùa Lạnh",
     excerpt: "Trở trời đau khớp, đau lưng có thật không là câu hỏi rất nhiều cô bác mang đến phòng khám mỗi khi gió mùa về. Bài viết kể lại những gì các nghiên cứu lớn đã tìm thấy: vì sao có nghiên cứu trên hàng triệu lượt khám không thấy mưa làm đau khớp tăng, trong khi nghiên cứu khác lại thấy độ ẩm và áp suất có liên quan ở mức khiêm tốn; các giả thuyết giải thích vì sao khớp nhạy với thời tiết; vì sao mùa lạnh nhiều người đau hơn dù thời tiết không làm khớp hỏng thêm; dấu hiệu nào không được đổ cho trở trời mà phải đi khám ngay; và những việc cụ thể giúp giữ ấm, giữ vận động, giữ khớp êm hơn qua mùa lạnh.",
