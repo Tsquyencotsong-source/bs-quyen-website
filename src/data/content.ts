@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "tap-yoga-khi-dau-lung-thoat-vi-dia-dem-nen-hay-khong",
+    title: "Tập Yoga Khi Đau Lưng, Thoát Vị Đĩa Đệm: Nên Hay Không Và Tư Thế Nào Cần Tránh",
+    excerpt: "Đau lưng có nên tập yoga không, người thoát vị đĩa đệm hay loãng xương tập được không? Tổng quan Cochrane năm 2022 (21 thử nghiệm, hơn 2.200 người) cho thấy yoga giúp giảm đau và cải thiện vận động ở mức khiêm tốn, tương đương các bài tập lưng khác, nhưng có thể làm đau tăng nếu tập sai. Bài viết giúp bạn biết ai nên tập, ai cần thận trọng, những tư thế nên tránh khi đang đau thần kinh tọa hoặc loãng xương, cách chọn lớp và người hướng dẫn, và những dấu hiệu phải dừng tập để đi khám ngay.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-17",
+  },
+  {
     slug: "dau-lung-khi-mang-thai-vi-sao-va-lam-gi-cho-an-toan",
     title: "Đau Lưng Khi Mang Thai: Vì Sao Bị Và Làm Gì Cho An Toàn Cả Mẹ Lẫn Bé",
     excerpt: "Đau lưng khi mang thai gặp ở hơn hai phần ba thai phụ, và gần một phần năm bị đau vùng chậu. Vì sao lưng đau khi bụng lớn dần, làm sao phân biệt đau thắt lưng với đau khung chậu, khi nào đau lưng là dấu hiệu chuyển dạ sớm, nhiễm trùng tiết niệu hay chèn ép thần kinh cần đi khám ngay? TS.BS. Nguyễn Ngọc Quyền hướng dẫn cách đứng, ngồi, nằm, nâng đồ, các bài tập nhẹ tại nhà có bằng chứng, vai trò của đai đỡ bụng, và vì sao không nên tự ý dùng thuốc giảm đau khi đang mang bầu.",
