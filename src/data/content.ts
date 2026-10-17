@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "nan-chinh-cot-song-be-co-be-lung-co-nen-khong",
+    title: "Nắn Chỉnh Cột Sống, Bẻ Cổ Bẻ Lưng: Có Nên Không Và Ai Tuyệt Đối Không Được Nắn",
+    excerpt: "Đau lưng, đau cổ có nên đi nắn chỉnh cột sống, bẻ cổ bẻ lưng cho “kêu rắc” không? Tổng quan Cochrane cập nhật năm 2026 (76 thử nghiệm, gần 12.000 người) cho thấy nắn chỉnh giúp đau lưng mạn tính ở mức tương đương các biện pháp bảo tồn khác, không hơn hẳn, và bằng chứng còn nhiều chỗ chưa chắc chắn. Bài viết giải thích tiếng “rắc” thực ra là gì, nắn chỉnh giúp được ai, những ai tuyệt đối không nên nắn (loãng xương, thoát vị đang chèn ép thần kinh, ung thư, viêm cột sống…), rủi ro khi bẻ cổ, cách chọn nơi điều trị an toàn và những dấu hiệu phải đi khám ngay.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-18",
+  },
+  {
     slug: "tap-yoga-khi-dau-lung-thoat-vi-dia-dem-nen-hay-khong",
     title: "Tập Yoga Khi Đau Lưng, Thoát Vị Đĩa Đệm: Nên Hay Không Và Tư Thế Nào Cần Tránh",
     excerpt: "Đau lưng có nên tập yoga không, người thoát vị đĩa đệm hay loãng xương tập được không? Tổng quan Cochrane năm 2022 (21 thử nghiệm, hơn 2.200 người) cho thấy yoga giúp giảm đau và cải thiện vận động ở mức khiêm tốn, tương đương các bài tập lưng khác, nhưng có thể làm đau tăng nếu tập sai. Bài viết giúp bạn biết ai nên tập, ai cần thận trọng, những tư thế nên tránh khi đang đau thần kinh tọa hoặc loãng xương, cách chọn lớp và người hướng dẫn, và những dấu hiệu phải dừng tập để đi khám ngay.",
