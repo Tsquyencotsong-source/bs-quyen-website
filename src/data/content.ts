@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dau-hang-dau-ben-khi-di-do-khop-hang-hay-cot-song",
+    title: "Đau Háng, Đau Bẹn Khi Đi Lại: Do Khớp Háng Hay Do Cột Sống?",
+    excerpt: "Đau vùng háng, đau bẹn, đau mông lan xuống đùi khi đi lại là than phiền rất hay gặp ở người trung niên và cao tuổi. Nhiều người chụp phim thấy “thoái hóa cột sống” nên chỉ chữa lưng, trong khi thủ phạm thật lại là khớp háng — hoặc ngược lại. Y văn gọi tình trạng hai vùng cùng bệnh, triệu chứng chồng lên nhau là “hội chứng háng – cột sống”. Bài viết giúp bạn nhận ra những gợi ý quan trọng: đau ở bẹn, đi khập khiễng, khó xoay háng thường hướng về khớp háng; đau lan dưới gối, tê bì, đi một đoạn phải ngồi nghỉ thường hướng về cột sống. Kèm theo đó là dấu hiệu cần đi khám ngay, các bước điều trị từ tập luyện, giảm cân đến can thiệp, và bài tập an toàn tại nhà.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-19",
+  },
+  {
     slug: "nan-chinh-cot-song-be-co-be-lung-co-nen-khong",
     title: "Nắn Chỉnh Cột Sống, Bẻ Cổ Bẻ Lưng: Có Nên Không Và Ai Tuyệt Đối Không Được Nắn",
     excerpt: "Đau lưng, đau cổ có nên đi nắn chỉnh cột sống, bẻ cổ bẻ lưng cho “kêu rắc” không? Tổng quan Cochrane cập nhật năm 2026 (76 thử nghiệm, gần 12.000 người) cho thấy nắn chỉnh giúp đau lưng mạn tính ở mức tương đương các biện pháp bảo tồn khác, không hơn hẳn, và bằng chứng còn nhiều chỗ chưa chắc chắn. Bài viết giải thích tiếng “rắc” thực ra là gì, nắn chỉnh giúp được ai, những ai tuyệt đối không nên nắn (loãng xương, thoát vị đang chèn ép thần kinh, ung thư, viêm cột sống…), rủi ro khi bẻ cổ, cách chọn nơi điều trị an toàn và những dấu hiệu phải đi khám ngay.",
