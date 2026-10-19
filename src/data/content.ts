@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dau-lung-co-phai-do-than-yeu",
+    title: "Đau Lưng Có Phải Do Thận Yếu? Cách Phân Biệt Đau Cột Sống Và Đau Thận",
+    excerpt: "“Đau lưng là do thận yếu” là quan niệm rất phổ biến, khiến nhiều người tự mua thuốc bổ thận uống mà không đỡ. Thực tế, phần lớn đau lưng xuất phát từ cơ, dây chằng, đĩa đệm và khớp của cột sống. Đau do bệnh thận thật sự như sỏi thận, nhiễm trùng thận thường đi kèm sốt, rét run, tiểu buốt, tiểu ra máu, nước tiểu đục; còn bệnh thận mạn giai đoạn đầu lại thường không đau và chỉ phát hiện qua xét nghiệm. Bài viết giúp bạn phân biệt hai loại đau, nhận biết dấu hiệu cần đi khám ngay, hiểu điều trị theo bậc thang và các bài tập an toàn tại nhà.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-20",
+  },
+  {
     slug: "dau-hang-dau-ben-khi-di-do-khop-hang-hay-cot-song",
     title: "Đau Háng, Đau Bẹn Khi Đi Lại: Do Khớp Háng Hay Do Cột Sống?",
     excerpt: "Đau vùng háng, đau bẹn, đau mông lan xuống đùi khi đi lại là than phiền rất hay gặp ở người trung niên và cao tuổi. Nhiều người chụp phim thấy “thoái hóa cột sống” nên chỉ chữa lưng, trong khi thủ phạm thật lại là khớp háng — hoặc ngược lại. Y văn gọi tình trạng hai vùng cùng bệnh, triệu chứng chồng lên nhau là “hội chứng háng – cột sống”. Bài viết giúp bạn nhận ra những gợi ý quan trọng: đau ở bẹn, đi khập khiễng, khó xoay háng thường hướng về khớp háng; đau lan dưới gối, tê bì, đi một đoạn phải ngồi nghỉ thường hướng về cột sống. Kèm theo đó là dấu hiệu cần đi khám ngay, các bước điều trị từ tập luyện, giảm cân đến can thiệp, và bài tập an toàn tại nhà.",
