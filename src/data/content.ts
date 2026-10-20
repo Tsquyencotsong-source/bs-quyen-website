@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "cap-sach-nang-co-gay-veo-cot-song-dau-lung-o-tre",
+    title: "Cặp Sách Nặng Có Làm Con Bị Vẹo Cột Sống, Đau Lưng Không?",
+    excerpt: "Nhiều phụ huynh lo cặp sách nặng sẽ làm con bị vẹo cột sống. Theo Hội Phẫu thuật Chỉnh hình Hoa Kỳ (AAOS), vẹo cột sống vô căn — dạng vẹo thường gặp nhất ở tuổi học trò — không liên quan đến việc mang cặp nặng hay ngồi sai tư thế. Các tổng quan hệ thống cũng chưa tìm thấy bằng chứng thuyết phục rằng cân nặng hay kiểu cặp làm tăng nguy cơ đau lưng ở trẻ. Dù vậy, cặp quá nặng vẫn khiến con mỏi vai, khó chịu, đi lom khom. Bài viết giúp cha mẹ hiểu đúng, biết cách chọn và đeo cặp, nhận ra dấu hiệu đau lưng cần đưa con đi khám, và cách tự kiểm tra lưng con tại nhà.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-21",
+  },
+  {
     slug: "dau-lung-co-phai-do-than-yeu",
     title: "Đau Lưng Có Phải Do Thận Yếu? Cách Phân Biệt Đau Cột Sống Và Đau Thận",
     excerpt: "“Đau lưng là do thận yếu” là quan niệm rất phổ biến, khiến nhiều người tự mua thuốc bổ thận uống mà không đỡ. Thực tế, phần lớn đau lưng xuất phát từ cơ, dây chằng, đĩa đệm và khớp của cột sống. Đau do bệnh thận thật sự như sỏi thận, nhiễm trùng thận thường đi kèm sốt, rét run, tiểu buốt, tiểu ra máu, nước tiểu đục; còn bệnh thận mạn giai đoạn đầu lại thường không đau và chỉ phát hiện qua xét nghiệm. Bài viết giúp bạn phân biệt hai loại đau, nhận biết dấu hiệu cần đi khám ngay, hiểu điều trị theo bậc thang và các bài tập an toàn tại nhà.",
