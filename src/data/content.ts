@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "thua-can-dau-goi-dau-lung-giam-bao-nhieu-can-thi-do",
+    title: "Thừa Cân Bị Đau Gối, Đau Lưng: Giảm Bao Nhiêu Cân Thì Đỡ Đau?",
+    excerpt: "Nhiều người thừa cân bị đau khớp gối, đau lưng nghĩ rằng phải giảm thật nhiều cân mới có tác dụng, nên chưa bắt đầu đã nản. Bằng chứng khoa học cho thấy điều ngược lại: mỗi kilogam giảm đi giúp khớp gối bớt chịu khoảng bốn lần lực đó trong mỗi bước chân, và giảm khoảng 5% cân nặng đã có thể cải thiện chức năng vận động. Kết hợp ăn uống hợp lý với tập luyện cho hiệu quả giảm đau tốt hơn so với chỉ làm một trong hai. Với đau lưng và đau thần kinh tọa, thừa cân là yếu tố nguy cơ rõ ràng. Bài viết giúp bạn hiểu vì sao cân nặng ảnh hưởng tới khớp, đặt mục tiêu vừa sức, cách vận động an toàn khi đang đau và khi nào cần đi khám ngay.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-23",
+  },
+  {
     slug: "ngoi-van-phong-ca-ngay-dau-lung-loi-o-dau",
     title: "Ngồi Văn Phòng Cả Ngày Bị Đau Lưng: Lỗi Ở Ghế, Ở Tư Thế Hay Ở Sự Ngồi Im?",
     excerpt: "Nhiều người làm văn phòng tin rằng ngồi nhiều, ngồi sai tư thế là thủ phạm gây đau lưng, nên lo mua ghế đắt tiền, đai lưng, bàn đứng. Các tổng quan hệ thống lại cho thấy bức tranh khác: ngồi làm việc tự nó chưa được chứng minh là nguyên nhân gây bệnh đau lưng, nhưng ngồi im quá lâu có thể làm cơn đau đang có tăng lên ngay trong ngày. Thứ được chứng minh giúp phòng đau lưng rõ nhất là tập luyện đều đặn, không phải đai lưng hay lót giày. Bài viết giúp bạn hiểu đúng, biết cách ngồi và nghỉ hợp lý, bài tập ngắn tại bàn làm việc, và những dấu hiệu đau lưng cần đi khám ngay.",
