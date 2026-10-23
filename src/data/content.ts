@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "ngoi-xom-nhieu-co-hai-khop-goi-khong",
+    title: "Ngồi Xổm Nhiều Có Hại Khớp Gối Không? Ai Nên Tránh, Ai Vẫn Ngồi Được",
+    excerpt: "Ngồi xổm nhặt rau, rửa bát, giặt đồ, ngồi ghế đẩu thấp… là thói quen hằng ngày của rất nhiều gia đình Việt. Vậy ngồi xổm nhiều có làm hỏng khớp gối không? Nghiên cứu ở người cao tuổi Bắc Kinh cho thấy những người từng ngồi xổm vài giờ mỗi ngày có tỷ lệ thoái hóa khớp gối trên phim cao hơn rõ rệt. Nhưng điều đó không có nghĩa là cứ gập gối sâu là có hại. Bài viết giúp bạn phân biệt ngồi xổm kéo dài với động tác squat tập luyện, biết ai nên hạn chế, những dấu hiệu cần đi khám và cách thay đổi thói quen sinh hoạt để bảo vệ khớp gối.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-24",
+  },
+  {
     slug: "thua-can-dau-goi-dau-lung-giam-bao-nhieu-can-thi-do",
     title: "Thừa Cân Bị Đau Gối, Đau Lưng: Giảm Bao Nhiêu Cân Thì Đỡ Đau?",
     excerpt: "Nhiều người thừa cân bị đau khớp gối, đau lưng nghĩ rằng phải giảm thật nhiều cân mới có tác dụng, nên chưa bắt đầu đã nản. Bằng chứng khoa học cho thấy điều ngược lại: mỗi kilogam giảm đi giúp khớp gối bớt chịu khoảng bốn lần lực đó trong mỗi bước chân, và giảm khoảng 5% cân nặng đã có thể cải thiện chức năng vận động. Kết hợp ăn uống hợp lý với tập luyện cho hiệu quả giảm đau tốt hơn so với chỉ làm một trong hai. Với đau lưng và đau thần kinh tọa, thừa cân là yếu tố nguy cơ rõ ràng. Bài viết giúp bạn hiểu vì sao cân nặng ảnh hưởng tới khớp, đặt mục tiêu vừa sức, cách vận động an toàn khi đang đau và khi nào cần đi khám ngay.",
