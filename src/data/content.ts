@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "gay-xep-dot-song-do-loang-xuong-co-can-bom-xi-mang",
+    title: "Gãy Xẹp Đốt Sống Do Loãng Xương: Có Cần Bơm Xi Măng Không?",
+    excerpt: "Mẹ cúi bê chậu nước rồi đau nhói lưng, đi chụp phim thì thấy một đốt sống bị xẹp do loãng xương. Nhiều gia đình được tư vấn “bơm xi măng cho nhanh hết đau” và băn khoăn có nên làm ngay không. Bài viết giải thích gãy xẹp đốt sống là gì, phần lớn người bệnh đỡ đau dần với điều trị bảo tồn ra sao, các nghiên cứu lớn nói gì về bơm xi măng (vertebroplasty, kyphoplasty), khi nào thủ thuật này thực sự được cân nhắc, những dấu hiệu cần đi khám ngay, và điều quan trọng nhất mà nhiều người bỏ quên: điều trị loãng xương để không gãy thêm đốt khác.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-25",
+  },
+  {
     slug: "ngoi-xom-nhieu-co-hai-khop-goi-khong",
     title: "Ngồi Xổm Nhiều Có Hại Khớp Gối Không? Ai Nên Tránh, Ai Vẫn Ngồi Được",
     excerpt: "Ngồi xổm nhặt rau, rửa bát, giặt đồ, ngồi ghế đẩu thấp… là thói quen hằng ngày của rất nhiều gia đình Việt. Vậy ngồi xổm nhiều có làm hỏng khớp gối không? Nghiên cứu ở người cao tuổi Bắc Kinh cho thấy những người từng ngồi xổm vài giờ mỗi ngày có tỷ lệ thoái hóa khớp gối trên phim cao hơn rõ rệt. Nhưng điều đó không có nghĩa là cứ gập gối sâu là có hại. Bài viết giúp bạn phân biệt ngồi xổm kéo dài với động tác squat tập luyện, biết ai nên hạn chế, những dấu hiệu cần đi khám và cách thay đổi thói quen sinh hoạt để bảo vệ khớp gối.",
