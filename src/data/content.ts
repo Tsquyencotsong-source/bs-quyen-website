@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "sau-mo-thoat-vi-dia-dem-bao-lau-thi-di-lam-sinh-hoat-lai-duoc",
+    title: "Sau Mổ Thoát Vị Đĩa Đệm: Bao Lâu Thì Đi Làm, Sinh Hoạt Lại Được?",
+    excerpt: "Mổ thoát vị đĩa đệm thắt lưng xong, câu hỏi người bệnh nào cũng đặt ra là: bao giờ được ngồi, được lái xe, được đi làm, được bế cháu? Có phải nằm yên vài tháng cho “đĩa đệm liền” không? Bài viết giải thích những gì diễn ra sau mổ, các nghiên cứu nói gì về việc trở lại công việc sớm, vì sao vận động hợp lý lại có lợi hơn nằm một chỗ, lộ trình hồi phục theo từng giai đoạn, cách giảm nguy cơ tái phát, và những dấu hiệu bất thường sau mổ cần quay lại viện ngay. Mỗi ca mổ một khác, nên hãy luôn làm theo hướng dẫn riêng của phẫu thuật viên.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-26",
+  },
+  {
     slug: "gay-xep-dot-song-do-loang-xuong-co-can-bom-xi-mang",
     title: "Gãy Xẹp Đốt Sống Do Loãng Xương: Có Cần Bơm Xi Măng Không?",
     excerpt: "Mẹ cúi bê chậu nước rồi đau nhói lưng, đi chụp phim thì thấy một đốt sống bị xẹp do loãng xương. Nhiều gia đình được tư vấn “bơm xi măng cho nhanh hết đau” và băn khoăn có nên làm ngay không. Bài viết giải thích gãy xẹp đốt sống là gì, phần lớn người bệnh đỡ đau dần với điều trị bảo tồn ra sao, các nghiên cứu lớn nói gì về bơm xi măng (vertebroplasty, kyphoplasty), khi nào thủ thuật này thực sự được cân nhắc, những dấu hiệu cần đi khám ngay, và điều quan trọng nhất mà nhiều người bỏ quên: điều trị loãng xương để không gãy thêm đốt khác.",
