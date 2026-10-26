@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "gay-co-xuong-dui-nguoi-cao-tuoi-co-nen-mo-khong",
+    title: "Gãy Cổ Xương Đùi Ở Người Cao Tuổi: Già Rồi Có Nên Mổ Không?",
+    excerpt: "Ông bà cao tuổi trượt ngã trong nhà tắm rồi không đứng dậy được, phim chụp gãy cổ xương đùi. Nhiều gia đình băn khoăn: già rồi mổ xẻ làm gì, bó bột rồi về nằm có được không? Bài viết giải thích vì sao nằm bất động mới là lựa chọn nguy hiểm, vì sao các nghiên cứu lớn ủng hộ mổ sớm trong vòng một đến hai ngày, các kiểu mổ thường dùng, cách chăm sóc và tập luyện sau mổ, cùng việc điều trị loãng xương, phòng ngã để tránh gãy lần hai.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-27",
+  },
+  {
     slug: "sau-mo-thoat-vi-dia-dem-bao-lau-thi-di-lam-sinh-hoat-lai-duoc",
     title: "Sau Mổ Thoát Vị Đĩa Đệm: Bao Lâu Thì Đi Làm, Sinh Hoạt Lại Được?",
     excerpt: "Mổ thoát vị đĩa đệm thắt lưng xong, câu hỏi người bệnh nào cũng đặt ra là: bao giờ được ngồi, được lái xe, được đi làm, được bế cháu? Có phải nằm yên vài tháng cho “đĩa đệm liền” không? Bài viết giải thích những gì diễn ra sau mổ, các nghiên cứu nói gì về việc trở lại công việc sớm, vì sao vận động hợp lý lại có lợi hơn nằm một chỗ, lộ trình hồi phục theo từng giai đoạn, cách giảm nguy cơ tái phát, và những dấu hiệu bất thường sau mổ cần quay lại viện ngay. Mỗi ca mổ một khác, nên hãy luôn làm theo hướng dẫn riêng của phẫu thuật viên.",
