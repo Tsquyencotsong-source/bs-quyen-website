@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "veo-cot-song-o-nguoi-lon-tuoi-lung-lech-dan-khi-ve-gia",
+    title: "Vẹo Cột Sống Ở Người Lớn Tuổi: Vì Sao Lưng Lệch Dần Khi Về Già?",
+    excerpt: "Ngoài sáu mươi tuổi, nhiều người chụp phim lưng mới biết mình bị vẹo cột sống, dù hồi trẻ lưng vẫn thẳng. Đây là vẹo cột sống thoái hóa, rất thường gặp ở người cao tuổi và phần lớn không nguy hiểm. Bài viết giải thích vì sao cột sống lệch dần khi về già, vì sao có người đau còn có người không, những dấu hiệu cần đi khám sớm, điều trị theo từng bậc từ tập luyện, thuốc, tiêm đến phẫu thuật, và những việc bạn có thể tự làm mỗi ngày để giữ lưng khỏe, giữ thăng bằng và phòng ngã.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-29",
+  },
+  {
     slug: "thoai-hoa-khop-goi-khi-nao-nen-thay-khop",
     title: "Thoái Hóa Khớp Gối: Khi Nào Mới Nên Thay Khớp?",
     excerpt: "Đau gối nhiều năm, đi khám được nói \"khớp mòn rồi\", nhiều người hỏi ngay: có phải thay khớp không, hay cứ chịu đau thêm vài năm? Bài viết giải thích thay khớp gối giúp được gì và không giúp được gì, những việc nên làm trước khi tính đến dao kéo, dấu hiệu cho thấy đã đến lúc nên bàn chuyện mổ, kết quả từ một thử nghiệm ngẫu nhiên so sánh mổ với không mổ, độ bền của khớp nhân tạo, và cách chuẩn bị để ca mổ đạt kết quả tốt nhất.",
