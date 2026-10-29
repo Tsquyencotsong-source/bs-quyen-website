@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "di-bo-phong-dau-lung-tai-phat",
+    title: "Đi Bộ Mỗi Ngày Có Giúp Ngừa Đau Lưng Tái Phát Không?",
+    excerpt: "Hết đau lưng rồi, nhưng vài tháng sau lại đau. Đó là nỗi lo của rất nhiều người. Một thử nghiệm ngẫu nhiên lớn công bố trên tạp chí The Lancet năm 2024 cho thấy chương trình đi bộ tăng dần kết hợp hướng dẫn giúp kéo dài khoảng thời gian không tái phát gần gấp đôi so với nhóm không can thiệp. Bài viết giải thích vì sao đau lưng hay quay lại, đi bộ giúp gì, nên bắt đầu thế nào cho đúng, khi nào không nên tự tập mà phải đi khám ngay, và cách xây dựng thói quen vận động bền vững để giữ lưng khỏe lâu dài.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-10-30",
+  },
+  {
     slug: "veo-cot-song-o-nguoi-lon-tuoi-lung-lech-dan-khi-ve-gia",
     title: "Vẹo Cột Sống Ở Người Lớn Tuổi: Vì Sao Lưng Lệch Dần Khi Về Già?",
     excerpt: "Ngoài sáu mươi tuổi, nhiều người chụp phim lưng mới biết mình bị vẹo cột sống, dù hồi trẻ lưng vẫn thẳng. Đây là vẹo cột sống thoái hóa, rất thường gặp ở người cao tuổi và phần lớn không nguy hiểm. Bài viết giải thích vì sao cột sống lệch dần khi về già, vì sao có người đau còn có người không, những dấu hiệu cần đi khám sớm, điều trị theo từng bậc từ tập luyện, thuốc, tiêm đến phẫu thuật, và những việc bạn có thể tự làm mỗi ngày để giữ lưng khỏe, giữ thăng bằng và phòng ngã.",
