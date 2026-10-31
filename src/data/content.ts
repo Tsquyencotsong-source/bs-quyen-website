@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dung-corticoid-keo-dai-co-gay-loang-xuong-khong",
+    title: "Dùng Thuốc Corticoid Kéo Dài Có Gây Loãng Xương Không?",
+    excerpt: "Corticoid là nhóm thuốc chống viêm rất mạnh, cứu sống nhiều người bệnh hen, bệnh khớp, bệnh tự miễn. Nhưng dùng kéo dài, corticoid cũng là nguyên nhân hàng đầu của loãng xương thứ phát, và xương có thể yếu đi rất sớm, ngay trong vài tháng đầu. Đáng lo hơn, nhiều người đang uống corticoid mà không biết, vì thuốc bị trộn lẫn trong các loại \"thuốc nam\", \"thảo dược\" trôi nổi chữa đau khớp. Bài viết giúp bạn hiểu corticoid ảnh hưởng đến xương thế nào, ai cần đo mật độ xương, cần làm gì để bảo vệ xương khi buộc phải dùng thuốc, và vì sao tuyệt đối không được tự ý ngừng thuốc.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-11-01",
+  },
+  {
     slug: "di-bo-phong-dau-lung-tai-phat",
     title: "Đi Bộ Mỗi Ngày Có Giúp Ngừa Đau Lưng Tái Phát Không?",
     excerpt: "Hết đau lưng rồi, nhưng vài tháng sau lại đau. Đó là nỗi lo của rất nhiều người. Một thử nghiệm ngẫu nhiên lớn công bố trên tạp chí The Lancet năm 2024 cho thấy chương trình đi bộ tăng dần kết hợp hướng dẫn giúp kéo dài khoảng thời gian không tái phát gần gấp đôi so với nhóm không can thiệp. Bài viết giải thích vì sao đau lưng hay quay lại, đi bộ giúp gì, nên bắt đầu thế nào cho đúng, khi nào không nên tự tập mà phải đi khám ngay, và cách xây dựng thói quen vận động bền vững để giữ lưng khỏe lâu dài.",
