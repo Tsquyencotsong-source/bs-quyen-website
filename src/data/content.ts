@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "tre-choi-the-thao-dau-lung-gay-eo-dot-song",
+    title: "Con Chơi Thể Thao Hay Kêu Đau Lưng: Coi Chừng Gãy Eo Đốt Sống",
+    excerpt: "Nhiều phụ huynh nghĩ trẻ con thì làm gì có đau lưng, con kêu đau chỉ là do tập nhiều, nghỉ vài hôm là khỏi. Nhưng ở trẻ tuổi dậy thì chơi thể thao, đặc biệt các môn phải ưỡn và xoay lưng nhiều như bóng đá, cầu lông, võ, múa, thể dục dụng cụ, đau lưng kéo dài có thể là dấu hiệu của gãy eo đốt sống, một dạng gãy xương do mỏi. Phát hiện sớm thì phần lớn trẻ chỉ cần nghỉ tập đúng cách, tập phục hồi là quay lại sân chơi được. Bài viết giúp cha mẹ nhận biết khi nào đau lưng ở con cần đi khám, bác sĩ chẩn đoán thế nào và điều trị ra sao.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-11-02",
+  },
+  {
     slug: "dung-corticoid-keo-dai-co-gay-loang-xuong-khong",
     title: "Dùng Thuốc Corticoid Kéo Dài Có Gây Loãng Xương Không?",
     excerpt: "Corticoid là nhóm thuốc chống viêm rất mạnh, cứu sống nhiều người bệnh hen, bệnh khớp, bệnh tự miễn. Nhưng dùng kéo dài, corticoid cũng là nguyên nhân hàng đầu của loãng xương thứ phát, và xương có thể yếu đi rất sớm, ngay trong vài tháng đầu. Đáng lo hơn, nhiều người đang uống corticoid mà không biết, vì thuốc bị trộn lẫn trong các loại \"thuốc nam\", \"thảo dược\" trôi nổi chữa đau khớp. Bài viết giúp bạn hiểu corticoid ảnh hưởng đến xương thế nào, ai cần đo mật độ xương, cần làm gì để bảo vệ xương khi buộc phải dùng thuốc, và vì sao tuyệt đối không được tự ý ngừng thuốc.",
