@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "voi-hoa-gan-vai-dau-vai-du-doi-ve-dem",
+    title: "Vôi Hóa Gân Vai: Vì Sao Đau Dữ Dội Về Đêm Và Có Phải Mổ Không?",
+    excerpt: "Đang khỏe mạnh, tự nhiên một đêm đau vai dữ dội đến mức không nằm được, không nhấc nổi cánh tay; đi chụp phim thì thấy một đốm trắng trong gân vai và được báo là “vôi hóa gân”. Nhiều người hoảng hốt nghĩ phải mổ, hoặc cho rằng do uống nhiều canxi. Thực tế, vôi hóa gân vai là bệnh khá thường gặp ở tuổi 30 đến 50, phần lớn tự thoái lui và được điều trị thành công không cần mổ. Bài viết giải thích vì sao bệnh gây đau dữ dội, các giai đoạn của bệnh, dấu hiệu cần đi khám ngay, và các bước điều trị theo bậc thang: từ thuốc, tập luyện, sóng xung kích, chọc rửa vôi dưới siêu âm đến phẫu thuật nội soi khi thật cần.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-11-04",
+  },
+  {
     slug: "tre-choi-the-thao-dau-lung-gay-eo-dot-song",
     title: "Con Chơi Thể Thao Hay Kêu Đau Lưng: Coi Chừng Gãy Eo Đốt Sống",
     excerpt: "Nhiều phụ huynh nghĩ trẻ con thì làm gì có đau lưng, con kêu đau chỉ là do tập nhiều, nghỉ vài hôm là khỏi. Nhưng ở trẻ tuổi dậy thì chơi thể thao, đặc biệt các môn phải ưỡn và xoay lưng nhiều như bóng đá, cầu lông, võ, múa, thể dục dụng cụ, đau lưng kéo dài có thể là dấu hiệu của gãy eo đốt sống, một dạng gãy xương do mỏi. Phát hiện sớm thì phần lớn trẻ chỉ cần nghỉ tập đúng cách, tập phục hồi là quay lại sân chơi được. Bài viết giúp cha mẹ nhận biết khi nào đau lưng ở con cần đi khám, bác sĩ chẩn đoán thế nào và điều trị ra sao.",
