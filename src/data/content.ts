@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "gay-te-khi-sinh-co-gay-dau-lung-ve-sau-khong",
+    title: "Gây Tê Khi Sinh (Tê Tủy Sống, Tê Ngoài Màng Cứng) Có Gây Đau Lưng Về Sau Không?",
+    excerpt: "“Từ hồi đẻ mổ bị chọc kim vào lưng, tôi đau lưng suốt mấy năm nay” – đây là câu tôi nghe rất nhiều ở phòng khám cột sống. Nhiều chị em tin rằng mũi gây tê tủy sống hay gây tê ngoài màng cứng khi sinh là “thủ phạm” của đau lưng kéo dài, thậm chí sợ đến mức không dám gây tê khi sinh lần sau. Các nghiên cứu ngẫu nhiên và tổng quan Cochrane lại cho thấy: phụ nữ được gây tê ngoài màng cứng không bị đau lưng lâu dài nhiều hơn người không gây tê. Bài viết giải thích vì sao đau lưng sau sinh lại phổ biến, nguyên nhân thật sự là gì, dấu hiệu nào cần đi khám ngay và cách tập luyện để lưng khỏe lại sau sinh.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-11-05",
+  },
+  {
     slug: "voi-hoa-gan-vai-dau-vai-du-doi-ve-dem",
     title: "Vôi Hóa Gân Vai: Vì Sao Đau Dữ Dội Về Đêm Và Có Phải Mổ Không?",
     excerpt: "Đang khỏe mạnh, tự nhiên một đêm đau vai dữ dội đến mức không nằm được, không nhấc nổi cánh tay; đi chụp phim thì thấy một đốm trắng trong gân vai và được báo là “vôi hóa gân”. Nhiều người hoảng hốt nghĩ phải mổ, hoặc cho rằng do uống nhiều canxi. Thực tế, vôi hóa gân vai là bệnh khá thường gặp ở tuổi 30 đến 50, phần lớn tự thoái lui và được điều trị thành công không cần mổ. Bài viết giải thích vì sao bệnh gây đau dữ dội, các giai đoạn của bệnh, dấu hiệu cần đi khám ngay, và các bước điều trị theo bậc thang: từ thuốc, tập luyện, sóng xung kích, chọc rửa vôi dưới siêu âm đến phẫu thuật nội soi khi thật cần.",
