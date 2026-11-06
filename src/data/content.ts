@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "dau-lung-co-can-chup-mri-ngay-khong",
+    title: "Đau Lưng Có Cần Chụp MRI Ngay Không? Khi Nào Chụp Phim Mới Thực Sự Có Ích",
+    excerpt: "“Bác sĩ cho tôi chụp cộng hưởng từ luôn đi, chụp ra mới yên tâm” – đó là câu tôi nghe gần như mỗi buổi khám. Nhiều người nghĩ đau lưng là phải chụp MRI ngay, chụp càng sớm càng tốt. Thực tế, các nghiên cứu lớn cho thấy với đau lưng thông thường, chụp ngay không giúp khỏi nhanh hơn, mà phim còn hay “lòi ra” những hình ảnh phình đĩa, thoái hóa vốn gặp cả ở người hoàn toàn không đau – khiến người bệnh lo lắng và đôi khi điều trị quá tay. Bài viết giải thích vì sao bác sĩ chưa cho chụp ngay, khi nào bắt buộc phải chụp sớm, và cách đọc kết quả MRI cho đúng.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-11-07",
+  },
+  {
     slug: "gay-te-khi-sinh-co-gay-dau-lung-ve-sau-khong",
     title: "Gây Tê Khi Sinh (Tê Tủy Sống, Tê Ngoài Màng Cứng) Có Gây Đau Lưng Về Sau Không?",
     excerpt: "“Từ hồi đẻ mổ bị chọc kim vào lưng, tôi đau lưng suốt mấy năm nay” – đây là câu tôi nghe rất nhiều ở phòng khám cột sống. Nhiều chị em tin rằng mũi gây tê tủy sống hay gây tê ngoài màng cứng khi sinh là “thủ phạm” của đau lưng kéo dài, thậm chí sợ đến mức không dám gây tê khi sinh lần sau. Các nghiên cứu ngẫu nhiên và tổng quan Cochrane lại cho thấy: phụ nữ được gây tê ngoài màng cứng không bị đau lưng lâu dài nhiều hơn người không gây tê. Bài viết giải thích vì sao đau lưng sau sinh lại phổ biến, nguyên nhân thật sự là gì, dấu hiệu nào cần đi khám ngay và cách tập luyện để lưng khỏe lại sau sinh.",
