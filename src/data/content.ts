@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "uong-thuoc-loang-xuong-bao-lau-thi-duoc-nghi",
+    title: "Uống Thuốc Loãng Xương Bao Lâu Thì Được Nghỉ? Hiểu Đúng Về “Kỳ Nghỉ Thuốc”",
+    excerpt: "Uống thuốc loãng xương mấy năm rồi, đến bao giờ thì được nghỉ? Đây là câu hỏi rất nhiều người bệnh đặt ra ở phòng khám. Câu trả lời không giống nhau cho mọi người: với nhóm thuốc bisphosphonate, các chuyên gia khuyên đánh giá lại sau khoảng 3–5 năm để quyết định dùng tiếp hay tạm nghỉ có kiểm soát; còn với denosumab thì tuyệt đối không được tự dừng vì nguy cơ gãy nhiều đốt sống. Bài viết giải thích “kỳ nghỉ thuốc” là gì, ai được nghỉ, ai nên dùng tiếp, và cần theo dõi gì trong thời gian nghỉ.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-11-09",
+  },
+  {
     slug: "dau-lung-co-can-chup-mri-ngay-khong",
     title: "Đau Lưng Có Cần Chụp MRI Ngay Không? Khi Nào Chụp Phim Mới Thực Sự Có Ích",
     excerpt: "“Bác sĩ cho tôi chụp cộng hưởng từ luôn đi, chụp ra mới yên tâm” – đó là câu tôi nghe gần như mỗi buổi khám. Nhiều người nghĩ đau lưng là phải chụp MRI ngay, chụp càng sớm càng tốt. Thực tế, các nghiên cứu lớn cho thấy với đau lưng thông thường, chụp ngay không giúp khỏi nhanh hơn, mà phim còn hay “lòi ra” những hình ảnh phình đĩa, thoái hóa vốn gặp cả ở người hoàn toàn không đau – khiến người bệnh lo lắng và đôi khi điều trị quá tay. Bài viết giải thích vì sao bác sĩ chưa cho chụp ngay, khi nào bắt buộc phải chụp sớm, và cách đọc kết quả MRI cho đúng.",
