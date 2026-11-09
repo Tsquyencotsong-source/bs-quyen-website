@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "mo-bat-vit-cot-song-co-phai-thao-vit-khong",
+    title: "Mổ Bắt Vít Cột Sống Rồi Có Phải Mổ Lại Để Tháo Vít Không?",
+    excerpt: "Mổ bắt vít cột sống xong, nhiều người bệnh lo: vít để trong người cả đời có sao không, có phải mổ lần nữa để tháo ra không? Câu trả lời phụ thuộc vào lý do bạn được bắt vít. Với mổ hàn xương (làm cứng) cột sống do thoái hóa, trượt đốt sống, hẹp ống sống, phần lớn người bệnh KHÔNG cần tháo vít nếu không có triệu chứng. Với gãy đốt sống được cố định mà không hàn xương, tháo vít sau khi xương liền đôi khi có lợi. Bài viết giải thích khi nào nên tháo, khi nào không, và những điều cần biết khi sống chung với vít cột sống.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-11-10",
+  },
+  {
     slug: "uong-thuoc-loang-xuong-bao-lau-thi-duoc-nghi",
     title: "Uống Thuốc Loãng Xương Bao Lâu Thì Được Nghỉ? Hiểu Đúng Về “Kỳ Nghỉ Thuốc”",
     excerpt: "Uống thuốc loãng xương mấy năm rồi, đến bao giờ thì được nghỉ? Đây là câu hỏi rất nhiều người bệnh đặt ra ở phòng khám. Câu trả lời không giống nhau cho mọi người: với nhóm thuốc bisphosphonate, các chuyên gia khuyên đánh giá lại sau khoảng 3–5 năm để quyết định dùng tiếp hay tạm nghỉ có kiểm soát; còn với denosumab thì tuyệt đối không được tự dừng vì nguy cơ gãy nhiều đốt sống. Bài viết giải thích “kỳ nghỉ thuốc” là gì, ai được nghỉ, ai nên dùng tiếp, và cần theo dõi gì trong thời gian nghỉ.",
