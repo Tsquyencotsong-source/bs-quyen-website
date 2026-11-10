@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "goi-sung-nuoc-co-nen-rut-dich-khop-goi-khong",
+    title: "Gối Sưng Nước Có Nên Rút Dịch Không? Rút Rồi Có Bị Nhanh Đầy Lại?",
+    excerpt: "Gối sưng to, căng, gập duỗi khó – nhiều người gọi là “gối có nước”. Câu hỏi hay gặp nhất là có nên rút dịch không, và rút rồi có “quen” nên nước lại nhanh đầy hơn không. Thực ra dịch trong khớp gối chỉ là dấu hiệu, còn nguyên nhân có thể là thoái hóa khớp, gút, chấn thương dây chằng – sụn chêm, hay nguy hiểm nhất là nhiễm trùng khớp. Rút dịch có hai mục đích: làm xét nghiệm để tìm đúng nguyên nhân và giảm căng đau. Nước tái lại là do bệnh gốc chưa được xử lý, không phải do đã rút. Bài viết giải thích khi nào cần rút, khi nào không, và người bệnh nên làm gì ở nhà.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-11-11",
+  },
+  {
     slug: "mo-bat-vit-cot-song-co-phai-thao-vit-khong",
     title: "Mổ Bắt Vít Cột Sống Rồi Có Phải Mổ Lại Để Tháo Vít Không?",
     excerpt: "Mổ bắt vít cột sống xong, nhiều người bệnh lo: vít để trong người cả đời có sao không, có phải mổ lần nữa để tháo ra không? Câu trả lời phụ thuộc vào lý do bạn được bắt vít. Với mổ hàn xương (làm cứng) cột sống do thoái hóa, trượt đốt sống, hẹp ống sống, phần lớn người bệnh KHÔNG cần tháo vít nếu không có triệu chứng. Với gãy đốt sống được cố định mà không hàn xương, tháo vít sau khi xương liền đôi khi có lợi. Bài viết giải thích khi nào nên tháo, khi nào không, và những điều cần biết khi sống chung với vít cột sống.",
