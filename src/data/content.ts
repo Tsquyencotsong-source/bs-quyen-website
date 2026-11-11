@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "da-gay-xuong-mot-lan-vi-loang-xuong-co-de-gay-tiep-khong",
+    title: "Đã Gãy Xương Một Lần Vì Loãng Xương, Có Dễ Gãy Tiếp Không?",
+    excerpt: "Ngã nhẹ mà gãy cổ tay, xẹp đốt sống hay gãy cổ xương đùi – đó là lời cảnh báo rằng xương đã loãng. Nhiều người nghĩ xương liền rồi là xong chuyện, nhưng các nghiên cứu lớn trên thế giới cho thấy: người đã gãy xương do loãng xương có nguy cơ gãy thêm cao hơn rõ rệt, và nguy cơ này cao nhất ngay trong 1–2 năm đầu sau lần gãy đầu tiên. Tin tốt là có thể giảm nguy cơ đó bằng cách đo mật độ xương, điều trị loãng xương sớm và đúng, tập luyện chống ngã và làm nhà cửa an toàn hơn. Bài viết giải thích vì sao “gãy một lần dễ gãy lần hai”, ai có nguy cơ cao nhất và người bệnh, gia đình nên làm gì ngay sau lần gãy đầu tiên.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-11-12",
+  },
+  {
     slug: "goi-sung-nuoc-co-nen-rut-dich-khop-goi-khong",
     title: "Gối Sưng Nước Có Nên Rút Dịch Không? Rút Rồi Có Bị Nhanh Đầy Lại?",
     excerpt: "Gối sưng to, căng, gập duỗi khó – nhiều người gọi là “gối có nước”. Câu hỏi hay gặp nhất là có nên rút dịch không, và rút rồi có “quen” nên nước lại nhanh đầy hơn không. Thực ra dịch trong khớp gối chỉ là dấu hiệu, còn nguyên nhân có thể là thoái hóa khớp, gút, chấn thương dây chằng – sụn chêm, hay nguy hiểm nhất là nhiễm trùng khớp. Rút dịch có hai mục đích: làm xét nghiệm để tìm đúng nguyên nhân và giảm căng đau. Nước tái lại là do bệnh gốc chưa được xử lý, không phải do đã rút. Bài viết giải thích khi nào cần rút, khi nào không, và người bệnh nên làm gì ở nhà.",
