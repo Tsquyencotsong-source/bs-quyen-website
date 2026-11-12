@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "te-bi-hai-ban-chan-do-cot-song-hay-tieu-duong",
+    title: "Tê Bì Hai Bàn Chân: Do Cột Sống Hay Do Tiểu Đường?",
+    excerpt: "Tê bì, kiến bò, nóng rát ở hai bàn chân là than phiền rất hay gặp ở người trung niên và cao tuổi. Nhiều người nghĩ ngay đến “thoái hóa cột sống chèn dây thần kinh”, nhưng không ít trường hợp nguyên nhân lại nằm ở bệnh tiểu đường, thiếu vitamin B12, tuyến giáp hay rượu bia – thậm chí hai bệnh cùng tồn tại trên một người. Bài viết giúp bạn nhận ra những khác biệt quan trọng giữa tê do cột sống và tê do bệnh lý thần kinh ngoại biên, khi nào cần đi khám ngay, cần làm những xét nghiệm gì, và cách tự bảo vệ đôi bàn chân mỗi ngày.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-11-13",
+  },
+  {
     slug: "da-gay-xuong-mot-lan-vi-loang-xuong-co-de-gay-tiep-khong",
     title: "Đã Gãy Xương Một Lần Vì Loãng Xương, Có Dễ Gãy Tiếp Không?",
     excerpt: "Ngã nhẹ mà gãy cổ tay, xẹp đốt sống hay gãy cổ xương đùi – đó là lời cảnh báo rằng xương đã loãng. Nhiều người nghĩ xương liền rồi là xong chuyện, nhưng các nghiên cứu lớn trên thế giới cho thấy: người đã gãy xương do loãng xương có nguy cơ gãy thêm cao hơn rõ rệt, và nguy cơ này cao nhất ngay trong 1–2 năm đầu sau lần gãy đầu tiên. Tin tốt là có thể giảm nguy cơ đó bằng cách đo mật độ xương, điều trị loãng xương sớm và đúng, tập luyện chống ngã và làm nhà cửa an toàn hơn. Bài viết giải thích vì sao “gãy một lần dễ gãy lần hai”, ai có nguy cơ cao nhất và người bệnh, gia đình nên làm gì ngay sau lần gãy đầu tiên.",
