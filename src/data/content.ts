@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "loang-xuong-o-nam-gioi-dan-ong-co-bi-khong",
+    title: "Loãng Xương Ở Nam Giới: Đàn Ông Có Bị Không Và Khi Nào Cần Đo Xương?",
+    excerpt: "Nhiều người nghĩ loãng xương là “bệnh của phụ nữ sau mãn kinh”, nên đàn ông hầu như không ai đi đo xương. Thực tế, theo Hội Loãng xương Quốc tế, cứ khoảng năm người đàn ông trên 50 tuổi thì có một người sẽ bị gãy xương do loãng xương, và khi đã gãy cổ xương đùi thì nam giới có nguy cơ tử vong cao hơn nữ. Bài viết giải thích vì sao đàn ông cũng bị loãng xương, những ai nên đi đo mật độ xương, các nguyên nhân “thứ phát” hay bị bỏ sót như dùng corticoid kéo dài, rượu bia, thuốc lá, thiếu nội tiết nam, cùng cách phòng ngừa và điều trị theo từng bậc.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-11-16",
+  },
+  {
     slug: "te-bi-hai-ban-chan-do-cot-song-hay-tieu-duong",
     title: "Tê Bì Hai Bàn Chân: Do Cột Sống Hay Do Tiểu Đường?",
     excerpt: "Tê bì, kiến bò, nóng rát ở hai bàn chân là than phiền rất hay gặp ở người trung niên và cao tuổi. Nhiều người nghĩ ngay đến “thoái hóa cột sống chèn dây thần kinh”, nhưng không ít trường hợp nguyên nhân lại nằm ở bệnh tiểu đường, thiếu vitamin B12, tuyến giáp hay rượu bia – thậm chí hai bệnh cùng tồn tại trên một người. Bài viết giúp bạn nhận ra những khác biệt quan trọng giữa tê do cột sống và tê do bệnh lý thần kinh ngoại biên, khi nào cần đi khám ngay, cần làm những xét nghiệm gì, và cách tự bảo vệ đôi bàn chân mỗi ngày.",
