@@ -550,7 +550,7 @@ function doseText(ex,pc,ab){
   if(ab==='old'||ab==='old2'){rf*=0.85;hf*=0.9;}
   const out=[];
   const b=ex.base;
-  if(b.reps>0){out.push(`${round(b.reps*rf)} lần${ex.sides?'/bên':''}`);}
+  if(b.reps>0){out.push(`${round(b.reps*rf)} lần${ex.sides?' mỗi bên':''}`);}
   if(ex.holdS){out.push(`Giữ ${round(ex.holdS*hf)} giây`);}
   let sets=b.sets||1; if(pc==='high'&&sets>1)sets=sets-1; sets=Math.max(1,sets);
   if(b.sets>0)out.push(`${sets} hiệp`);
