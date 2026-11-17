@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "loang-xuong-co-nen-tap-the-duc-tap-gi-tranh-gi",
+    title: "Bị Loãng Xương Có Nên Tập Thể Dục? Nên Tập Gì Và Tránh Động Tác Nào",
+    excerpt: "Nhiều người vừa nghe chẩn đoán loãng xương là sợ không dám vận động, chỉ nằm ngồi một chỗ vì lo “xương giòn, tập là gãy”. Thực tế, các khuyến cáo quốc tế về vận động cho người loãng xương đều khuyên nên tập – nhưng phải tập đúng: kết hợp bài tập sức cơ, bài tập thăng bằng và vận động chịu sức nặng, đồng thời tránh các động tác cúi gập sâu, xoắn vặn thân mạnh. Bài viết giải thích vì sao tập luyện giúp xương và giúp phòng ngã, mỗi tuần nên tập bao nhiêu, người đã gãy xẹp đốt sống cần lưu ý gì, những động tác nên tránh và một số bài tập đơn giản có thể bắt đầu tại nhà.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-11-18",
+  },
+  {
     slug: "loang-xuong-o-nam-gioi-dan-ong-co-bi-khong",
     title: "Loãng Xương Ở Nam Giới: Đàn Ông Có Bị Không Và Khi Nào Cần Đo Xương?",
     excerpt: "Nhiều người nghĩ loãng xương là “bệnh của phụ nữ sau mãn kinh”, nên đàn ông hầu như không ai đi đo xương. Thực tế, theo Hội Loãng xương Quốc tế, cứ khoảng năm người đàn ông trên 50 tuổi thì có một người sẽ bị gãy xương do loãng xương, và khi đã gãy cổ xương đùi thì nam giới có nguy cơ tử vong cao hơn nữ. Bài viết giải thích vì sao đàn ông cũng bị loãng xương, những ai nên đi đo mật độ xương, các nguyên nhân “thứ phát” hay bị bỏ sót như dùng corticoid kéo dài, rượu bia, thuốc lá, thiếu nội tiết nam, cùng cách phòng ngừa và điều trị theo từng bậc.",
