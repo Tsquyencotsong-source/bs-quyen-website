@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "thoai-hoa-cot-song-co-chua-khoi-duoc-khong",
+    title: "Thoái Hóa Cột Sống Có Chữa Khỏi Được Không? Hiểu Đúng Để Sống Khỏe Cùng Cột Sống",
+    excerpt: "Cầm tờ kết quả ghi “thoái hóa cột sống”, nhiều người lo mình sắp phải sống chung với đau đớn suốt đời, thậm chí sợ bại liệt. Sự thật nhẹ nhàng hơn thế: thoái hóa là thay đổi theo tuổi, không thể làm cột sống trẻ lại, nhưng triệu chứng đau thì phần lớn kiểm soát được. Nghiên cứu cho thấy rất nhiều người hoàn toàn không đau vẫn có hình ảnh thoái hóa trên phim. Bài viết giải thích khi nào thoái hóa đáng lo, điều trị theo từng bậc ra sao, bài tập nào nên làm tại nhà và dấu hiệu nào cần đi khám ngay.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-11-19",
+  },
+  {
     slug: "loang-xuong-co-nen-tap-the-duc-tap-gi-tranh-gi",
     title: "Bị Loãng Xương Có Nên Tập Thể Dục? Nên Tập Gì Và Tránh Động Tác Nào",
     excerpt: "Nhiều người vừa nghe chẩn đoán loãng xương là sợ không dám vận động, chỉ nằm ngồi một chỗ vì lo “xương giòn, tập là gãy”. Thực tế, các khuyến cáo quốc tế về vận động cho người loãng xương đều khuyên nên tập – nhưng phải tập đúng: kết hợp bài tập sức cơ, bài tập thăng bằng và vận động chịu sức nặng, đồng thời tránh các động tác cúi gập sâu, xoắn vặn thân mạnh. Bài viết giải thích vì sao tập luyện giúp xương và giúp phòng ngã, mỗi tuần nên tập bao nhiêu, người đã gãy xẹp đốt sống cần lưu ý gì, những động tác nên tránh và một số bài tập đơn giản có thể bắt đầu tại nhà.",
