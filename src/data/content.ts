@@ -127,6 +127,14 @@ export type Post = {
 
 export const POSTS: Post[] = [
   {
+    slug: "chay-bo-co-hai-cot-song-thoat-vi-dia-dem-co-chay-duoc-khong",
+    title: "Chạy Bộ Có Hại Cột Sống Không? Người Đau Lưng, Thoát Vị Đĩa Đệm Có Chạy Được Không",
+    excerpt: "Nhiều người tin rằng chạy bộ làm “dập” đĩa đệm, mòn cột sống, nên hễ đau lưng là bỏ chạy. Thực tế, các nghiên cứu hình ảnh cộng hưởng từ cho thấy người chạy bộ đều đặn lâu năm thường có đĩa đệm khỏe hơn người ít vận động; đau thắt lưng ở người chạy bộ cũng ít gặp hơn so với nhiều chấn thương chạy bộ khác. Tuy vậy, người đang đau thần kinh tọa cấp, thoát vị đĩa đệm chèn ép rễ hay có dấu hiệu nguy hiểm thì chưa nên chạy. TS.BS. Nguyễn Ngọc Quyền giải thích ai chạy được, ai nên tạm dừng, cách quay lại chạy an toàn từ đi bộ nhanh và những bài tập đi kèm để bảo vệ cột sống.",
+    audience: "Cho bệnh nhân",
+    category: "Giáo dục sức khỏe",
+    date: "2026-11-24",
+  },
+  {
     slug: "mo-noi-soi-cot-song-co-tot-hon-mo-mo-khong",
     title: "Mổ Nội Soi Cột Sống Có Thật Sự Tốt Hơn Mổ Mở? Điều Người Bệnh Thoát Vị Đĩa Đệm Cần Biết",
     excerpt: "“Mổ nội soi lỗ nhỏ, sáng mổ chiều về” – lời quảng cáo khiến nhiều người bệnh thoát vị đĩa đệm nghĩ rằng cứ nội soi là tốt nhất. Thực tế, các nghiên cứu lớn cho thấy mổ nội soi và mổ vi phẫu kinh điển giảm đau chân tương đương nhau; nội soi có lợi ở vết mổ nhỏ, ít mất máu, ít nhiễm trùng vết mổ và đi làm lại sớm hơn, nhưng không phải ai cũng phù hợp và cũng có những nhược điểm riêng. TS.BS. Nguyễn Ngọc Quyền giải thích khi nào cần mổ, mổ nội soi là gì, ai nên chọn phương pháp nào và cần hỏi bác sĩ những gì trước khi quyết định.",
