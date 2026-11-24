@@ -126,6 +126,7 @@ export type Post = {
 };
 
 export const POSTS: Post[] = [
+  { slug: "khop-goi-keu-luc-cuc-co-dang-lo-khong", title: "Khớp Gối Kêu Lục Cục, Lạo Xạo Có Đáng Lo Không? Khi Nào Là Dấu Hiệu Thoái Hóa", excerpt: "Ngồi xổm đứng dậy nghe “rắc”, leo cầu thang thấy gối “lạo xạo” – rất nhiều người lo khớp gối đã bị thoái hóa, “khô dịch khớp”. Thực tế, tiếng kêu khớp gối rất phổ biến, kể cả ở người khỏe mạnh, và đa số tiếng “lục cục” không đau là vô hại. Tuy vậy, nghiên cứu theo dõi dài hạn cho thấy tiếng lạo xạo xuất hiện thường xuyên có liên quan với nguy cơ thoái hóa khớp gối có triệu chứng về sau, nhất là ở người trên 50 tuổi. TS.BS. Nguyễn Ngọc Quyền giải thích khi nào tiếng kêu là bình thường, khi nào cần đi khám, và những bài tập giúp khớp gối khỏe hơn.", audience: "Cho bệnh nhân", category: "Giáo dục sức khỏe", date: "2026-11-25" },
   {
     slug: "chay-bo-co-hai-cot-song-thoat-vi-dia-dem-co-chay-duoc-khong",
     title: "Chạy Bộ Có Hại Cột Sống Không? Người Đau Lưng, Thoát Vị Đĩa Đệm Có Chạy Được Không",
