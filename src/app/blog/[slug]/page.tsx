@@ -30,6 +30,151 @@ type Block =
   | { type: "warning"; content: string };
 
 const ARTICLES: Record<string, Block[]> = {
+  "uong-canxi-co-gay-soi-than-khong": [
+      {
+          "type": "para",
+          "content": "Ở phòng khám, có một câu tôi nghe gần như mỗi buổi: “Bác sĩ ơi, uống canxi mãi có bị sỏi thận không?”. Người hỏi thường là các bác đã được chẩn đoán loãng xương, cầm trên tay đơn thuốc có canxi và vitamin D, nhưng trong đầu lại nhớ tới một người quen nào đó “uống canxi rồi đi tán sỏi”. Không ít bác về nhà uống được vài tháng rồi tự bỏ, không nói với ai."
+      },
+      {
+          "type": "para",
+          "content": "Nỗi lo này không hề vô lý. Phần lớn sỏi thận ở người Việt là sỏi canxi oxalat, nên nghe tới canxi là nghĩ ngay tới sỏi. Nhưng câu trả lời của y học lại hơi trái với trực giác, và nếu hiểu đúng thì các bác vừa giữ được xương, vừa không phải đánh đổi quả thận."
+      },
+      {
+          "type": "highlight",
+          "content": "Bốn ý chính của bài: (1) Canxi từ thức ăn làm GIẢM nguy cơ sỏi thận, không phải tăng. (2) Viên canxi uống xa bữa ăn mới là thứ làm tăng nhẹ nguy cơ. (3) Uống canxi đúng cách quan trọng hơn chuyện uống hay không uống. (4) Người đã từng có sỏi vẫn thường cần canxi, nhưng phải có bác sĩ theo dõi."
+      },
+      {
+          "type": "heading",
+          "content": "Vì sao canxi trong bữa ăn lại bảo vệ thận?"
+      },
+      {
+          "type": "para",
+          "content": "Muốn hiểu chuyện này, phải nhìn vào ruột chứ không phải nhìn vào thận. Viên sỏi canxi oxalat cần hai nguyên liệu: canxi và oxalat. Oxalat có nhiều trong rau dền, rau muống, rau bina, củ dền, socola, trà đặc, các loại hạt."
+      },
+      {
+          "type": "para",
+          "content": "Khi các bác ăn một bữa cơm có canxi, canxi gặp oxalat ngay trong lòng ruột và dính vào nhau thành một phức hợp không tan. Phức hợp ấy đi thẳng ra ngoài theo phân. Oxalat bị giữ lại ở ruột thì không vào máu được, không xuống thận được, và không có cơ hội kết tinh thành sỏi."
+      },
+      {
+          "type": "para",
+          "content": "Ngược lại, nếu bữa ăn nghèo canxi, oxalat tự do được hấp thu nhiều hơn vào máu, rồi thận phải lọc và thải ra. Nước tiểu đậm oxalat chính là môi trường thuận lợi để tạo sỏi. Nói cách khác, kiêng canxi để tránh sỏi là đi nhầm đường: nó làm yếu xương mà vẫn không bảo vệ được thận."
+      },
+      {
+          "type": "para",
+          "content": "Đây không phải suy luận trên lý thuyết. Trong nghiên cứu theo dõi nhiều năm trên các nữ điều dưỡng ở Mỹ, nhóm ăn nhiều canxi từ thực phẩm nhất có nguy cơ sỏi thận chỉ bằng khoảng hai phần ba nhóm ăn ít canxi nhất. Cùng nghiên cứu đó, canxi dạng viên bổ sung lại đi kèm nguy cơ nhỉnh hơn một chút."
+      },
+      {
+          "type": "heading",
+          "content": "Vậy viên canxi có đáng sợ không?"
+      },
+      {
+          "type": "para",
+          "content": "Đáng lưu ý, nhưng không đáng sợ, và quan trọng là nguy cơ ấy phụ thuộc vào cách uống nhiều hơn là bản thân viên thuốc."
+      },
+      {
+          "type": "para",
+          "content": "Trong một thử nghiệm lớn trên phụ nữ sau mãn kinh dùng canxi phối hợp vitamin D, nhóm dùng thuốc có nguy cơ sỏi thận cao hơn nhóm dùng giả dược khoảng 17 phần trăm. Nghe thì đáng chú ý, nhưng cần đặt con số đó cạnh lợi ích: cũng chính việc bổ sung đủ canxi và vitamin D là nền của mọi phác đồ điều trị loãng xương, và cái giá của một cú gãy cổ xương đùi ở người già lớn hơn rất nhiều so với một viên sỏi nhỏ."
+      },
+      {
+          "type": "para",
+          "content": "Lý do viên canxi bất lợi hơn canxi trong thức ăn khá đơn giản: nhiều người uống viên canxi lúc bụng đói, uống xa bữa ăn, hoặc uống cả liều lớn một lần. Lúc đó trong ruột không có oxalat của bữa ăn để canxi bắt lấy. Canxi được hấp thu ồ ạt vào máu, thận phải thải một lượng canxi lớn trong thời gian ngắn, nước tiểu đậm canxi và dễ kết tinh hơn."
+      },
+      {
+          "type": "note",
+          "content": "Nguyên tắc dễ nhớ: canxi đi cùng bữa ăn là bạn của thận; canxi đi một mình, bụng rỗng, liều lớn mới là thứ cần dè chừng."
+      },
+      {
+          "type": "heading",
+          "content": "Cần bao nhiêu canxi mỗi ngày?"
+      },
+      {
+          "type": "para",
+          "content": "Với người lớn tuổi và người loãng xương, tổng lượng canxi mỗi ngày thường được khuyến nghị quanh mức một nghìn đến một nghìn hai trăm miligam, và ưu tiên lấy từ thức ăn trước, thiếu bao nhiêu mới bù bằng thuốc. Tôi nhấn mạnh chữ “tổng”: đó là canxi trong bữa ăn cộng với canxi trong viên thuốc, không phải uống thêm chừng ấy ngoài bữa ăn."
+      },
+      {
+          "type": "para",
+          "content": "Nhiều bác sang phòng khám kể uống hai đến ba viên canxi mỗi ngày cho chắc, trong khi bữa ăn vốn đã có sữa, cá, đậu phụ. Uống nhiều hơn mức cần không làm xương chắc thêm, mà chỉ làm thận vất vả hơn."
+      },
+      {
+          "type": "heading",
+          "content": "Những nguồn canxi trong mâm cơm Việt"
+      },
+      {
+          "type": "list",
+          "items": [
+              "Sữa, sữa chua, phô mai: đậm canxi nhất và dễ hấp thu. Uống vào sôi bụng thì đổi sang sữa chua hoặc loại sữa ghi không lactose.",
+              "Cá nhỏ kho nhừ ăn được cả xương, tép, cua đồng: nguồn canxi quen thuộc và rẻ của người mình.",
+              "Đậu phụ, đậu nành, các loại đậu.",
+              "Rau lá xanh đậm như cải xoăn, cải thìa, cải ngọt. Riêng rau dền và rau bina nhiều oxalat, ăn vừa phải và nên chần qua nước sôi.",
+              "Vừng, hạnh nhân, các loại hạt: giàu canxi nhưng cũng nhiều oxalat, không nên ăn lượng lớn mỗi ngày."
+          ]
+      },
+      {
+          "type": "heading",
+          "content": "Uống canxi thế nào cho đỡ hại thận"
+      },
+      {
+          "type": "list",
+          "items": [
+              "Uống cùng bữa ăn hoặc ngay sau ăn, không uống lúc bụng đói.",
+              "Chia nhỏ liều: cơ thể hấp thu tốt nhất khi mỗi lần không quá khoảng năm trăm miligam, nên nếu phải uống nhiều thì chia sáng và chiều.",
+              "Uống đủ nước trong ngày. Nước tiểu loãng là cách chống sỏi rẻ nhất và hiệu quả nhất.",
+              "Ăn nhạt bớt. Ăn mặn làm thận thải nhiều canxi ra nước tiểu hơn, vừa hại xương vừa dễ tạo sỏi.",
+              "Đừng bỏ hẳn nhóm rau nhiều oxalat, nhưng nên ăn chúng trong bữa có canxi để canxi bắt bớt oxalat ngay tại ruột.",
+              "Kiểm tra lại vitamin D theo chỉ định của bác sĩ: thiếu vitamin D thì canxi uống vào cũng khó vào xương."
+          ]
+      },
+      {
+          "type": "heading",
+          "content": "Đã từng có sỏi thận thì có được uống canxi không?"
+      },
+      {
+          "type": "para",
+          "content": "Đây là nhóm hay bị thiệt thòi nhất. Nhiều bác từng tán sỏi một lần rồi được dặn kiêng canxi, thế là kiêng luôn mười năm, đến khi gãy xẹp đốt sống mới biết mình loãng xương nặng."
+      },
+      {
+          "type": "para",
+          "content": "Thực tế, người từng có sỏi canxi vẫn thường được khuyên duy trì lượng canxi bình thường từ thức ăn, vì kiêng canxi lại làm tăng oxalat trong nước tiểu. Cái cần làm không phải là cắt canxi, mà là tìm xem vì sao tạo sỏi: uống ít nước, ăn mặn, nước tiểu quá nhiều canxi, bệnh lý tuyến cận giáp, hay nguyên nhân khác."
+      },
+      {
+          "type": "para",
+          "content": "Nếu các bác vừa loãng xương vừa có tiền sử sỏi, hãy nói rõ cả hai chuyện với bác sĩ trong cùng một lần khám. Thường bác sĩ sẽ ưu tiên canxi từ thức ăn, dùng viên bổ sung ở liều thấp nhất đủ dùng và luôn uống cùng bữa, đồng thời theo dõi thêm xét nghiệm nước tiểu. Việc này cần cá thể hóa, không có công thức chung cho tất cả mọi người."
+      },
+      {
+          "type": "warning",
+          "content": "Đi khám ngay nếu: đau quặn dữ dội vùng thắt lưng lan xuống bẹn, tiểu ra máu, tiểu buốt kèm sốt rét run, nôn nhiều, hoặc bí tiểu. Đó là dấu hiệu của cơn đau quặn thận và nhiễm khuẩn đường tiết niệu, cần xử trí sớm chứ không phải chuyện theo dõi tại nhà."
+      },
+      {
+          "type": "heading",
+          "content": "Những hiểu lầm tôi hay phải đính chính"
+      },
+      {
+          "type": "list",
+          "items": [
+              "“Uống canxi là chắc chắn bị sỏi”: không đúng. Phần lớn người uống canxi đúng cách không bị sỏi.",
+              "“Đã có sỏi thì phải kiêng sạch canxi”: không đúng, và còn có thể phản tác dụng.",
+              "“Uống càng nhiều canxi xương càng chắc”: không đúng. Vượt quá mức cần thiết thì phần thừa chỉ làm nặng gánh cho thận.",
+              "“Canxi nào cũng như nhau”: không hẳn. Dạng canxi carbonat cần axit dạ dày nên phải uống trong bữa ăn; người dùng thuốc giảm tiết axit dạ dày thường hợp hơn với dạng canxi citrat. Chuyện này nên hỏi bác sĩ kê đơn.",
+              "“Bổ sung canxi là đủ để chữa loãng xương”: không đúng. Canxi và vitamin D chỉ là nền móng. Loãng xương thực sự cần thuốc điều trị đặc hiệu và theo dõi bằng đo mật độ xương."
+          ]
+      },
+      {
+          "type": "heading",
+          "content": "Tóm lại"
+      },
+      {
+          "type": "para",
+          "content": "Canxi không phải thủ phạm gây sỏi thận. Cách dùng canxi sai mới là vấn đề. Hãy lấy canxi chủ yếu từ mâm cơm, uống viên bổ sung trong bữa ăn và ở liều vừa đủ, uống nhiều nước, ăn nhạt hơn. Nếu đã từng có sỏi, đừng tự ý bỏ canxi mà hãy đi khám để được tính toán riêng cho mình."
+      },
+      {
+          "type": "para",
+          "content": "Nỗi sợ sỏi thận đã khiến không ít người đánh đổi bộ xương của mình. Mà cú gãy xương ở tuổi bảy mươi thì khó sửa hơn một viên sỏi rất nhiều."
+      },
+      {
+          "type": "note",
+          "content": "Bài viết mang tính cung cấp kiến thức chung, không thay thế việc khám và tư vấn trực tiếp. Các bác đang điều trị loãng xương hoặc có bệnh thận nên hỏi ý kiến bác sĩ trước khi thay đổi thuốc hay chế độ ăn."
+      }
+  ],
   "cui-nguoi-be-do-nang-co-gay-thoat-vi-dia-dem-khong": [
     {"type": "para", "content": "“Bác sĩ ơi, sáng qua tôi cúi xuống bê thùng nước, nghe đánh “phựt” một cái ở lưng, đau không đứng thẳng được. Có phải tôi bị thoát vị đĩa đệm rồi không? Từ nay tôi có phải kiêng cúi người không?” Đây là một trong những câu chuyện tôi nghe nhiều nhất ở phòng khám cột sống. Bê bao gạo, bế cháu, nhấc chậu cây, chuyển thùng hàng… rồi đột nhiên đau lưng là chuyện rất thường gặp ở người Việt Nam."},
     {"type": "para", "content": "Cũng vì thế mà rất nhiều người mang theo một nỗi sợ: “cúi lưng là hỏng đĩa đệm”. Có người sau một lần đau thì không dám cúi nhặt đồ, không dám làm việc nhà, lúc nào cũng gồng cứng lưng. Trong bài này, tôi muốn cùng bạn nhìn lại: bê đồ nặng thật sự ảnh hưởng tới cột sống thế nào, “tư thế bê đúng” có quan trọng như ta vẫn nghĩ không, và làm gì để lưng khỏe mà vẫn sống, làm việc bình thường."},
